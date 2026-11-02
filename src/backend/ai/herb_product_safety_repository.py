@@ -29,16 +29,25 @@ from backend.ai.herb_product_safety import (
     validate_product_response,
 )
 from backend.ai.herb_repository import read_herbs
-from backend.ai.herb_safety_repository import unavailable
 from backend.ai.herbs import Herb
 from backend.ai.index_state import IndexUnavailable
 from backend.config import Settings
 from backend.core.contracts import HerbCautionStatus, HerbLookupResult
+from backend.core.errors import ApplicationError
 from backend.core.language import current_language
 from backend.core.operation_context import checkpoint
+from backend.core.texts import tr
 
 WRITE_LOCK_ATTEMPTS = 12
 WRITE_LOCK_WAIT_SECONDS = 5
+
+
+def unavailable(stale: bool = False) -> ApplicationError:
+    return ApplicationError(
+        "HERB_SAFETY_STALE" if stale else "HERB_SAFETY_NOT_READY",
+        tr("errors.herb_safety_stale" if stale else "errors.herb_safety_not_ready"),
+        409 if stale else 503,
+    )
 
 
 def schema_available(connection: Connection) -> bool:

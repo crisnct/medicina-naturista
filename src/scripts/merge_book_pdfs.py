@@ -26,7 +26,7 @@ Install:
     py -m pip install -e ".[pdf]"
 
 Run:
-    python src/scripts/merge_book_pdfs.py "C:\GoogleDrive\Medicina\_DeExtrasTextulCuAI\Importanta plantelor in viata omului - prima mea carte de fitoterapie"
+    python src/scripts/merge_book_pdfs.py "C:\GoogleDrive\Medicina\_DeExtrasTextulCuAI\Antivirale din plante"
 """
 
 from __future__ import annotations

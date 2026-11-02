@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-02T15:50:31.832Z
-> Files: 299 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-02T21:46:47.881Z
+> Files: 304 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -14,7 +14,7 @@
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
 - `docker-compose.yaml` — Docker Compose: 4 services (~2416 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~41838 tok)
+- `README.md` — Project documentation (~42906 tok)
 
 ## .claude/
 
@@ -73,7 +73,7 @@
 - `2026-10-29-suport-romana-engleza.md` — Plan: aplicație în română și engleză (~8477 tok)
 - `2026-10-30-clean-documents-english.md` — English document cleanup (~224 tok)
 - `2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md` — Top produse pe afectiune: ordonare dupa formula L1/L2/L3 (~3395 tok)
-- `2026-11-02-eliminare-primary-din-secondary-conditions.md` — Eliminare afectiunilor primare din secondary_medical_conditions (script SQL la reindexare) (~3146 tok)
+- `2026-11-02-eliminare-primary-din-secondary-conditions.md` — Eliminare afectiunilor primare din secondary_medical_conditions (script SQL la reindexare) (~4332 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
@@ -226,14 +226,14 @@
 - `herb_images.py` — Resolve catalog product images locally without exposing the source directory. (~710 tok)
 - `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~6360 tok)
 - `herb_product_safety_dedup.py` — Merge bilingual stage answers into one list per product, once, without duplicates. (~1417 tok)
-- `herb_product_safety_repository.py` — Cache per-product knowledge and publish complete catalog generations atomically. (~6685 tok)
+- `herb_product_safety_repository.py` — Cache per-product knowledge and publish complete catalog generations atomically. (~6772 tok)
 - `herb_product_safety.py` — Strict, concise product safety from local model knowledge, independent of the corpus. (~5389 tok)
 - `herb_ranking.py` — Read a bounded ranking from one language's published catalog generation. (~1942 tok)
 - `herb_repository.py` — Coherent PostgreSQL herb snapshots, cached by database and full content. (~1874 tok)
 - `herb_safety_extraction.py` — Inventory product safety independently of disease scope, preserving original source offsets. (~3634 tok)
 - `herb_safety_repository.py` — Persist safety generations and validated caches without performing any model or network I/O. (~5302 tok)
-- `herb_safety_validation.py` — Validate extractive safety responses; missing coverage never means absence of warnings. (~5366 tok)
-- `herb_safety.py` — Read published model-knowledge messages; consultation never invokes a model. (~1384 tok)
+- `herb_safety_validation.py` — Prompt paths and the warnings schema still shared with the association classification. (~871 tok)
+- `herb_safety.py` — Read published model-knowledge messages; consultation never invokes a model. (~1386 tok)
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
@@ -282,6 +282,10 @@
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6290 tok)
 - `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
 
+## src/backend/index_sql/
+
+- `001_remove_primary_from_secondary_conditions.sql` — Runs on every index build, after the chunk condition columns are filled: a condition that is (~143 tok)
+
 ## src/backend/integrations/
 
 - `gmail.py` — Gmail API delivery for generated reports. (~2035 tok)
@@ -306,7 +310,9 @@
 - `037_herb_condition_scores.sql` — Per-condition fragment counts of the eligible products, precomputed so a top never scans fragments. (~613 tok)
 - `037_herb_safety_dedup_stage.sql` — The local-model deduplication of a product's messages is cached beside the generation stages. (~154 tok)
 - `038_herb_safety_local_stage.sql` — The local generation stage is no longer tied to one model family: its cached answers are (~204 tok)
+- `039_drop_legacy_herb_safety_tables.sql` — The corpus-fragment safety workflow (029, 030) was replaced by model-knowledge safety (031, 036-038) (~109 tok)
 - `039_medical_conditions_version.sql` — A change counter for the condition dictionary, so a reader can tell with one tiny query (~463 tok)
+- `040_remove_primary_from_secondary_conditions.sql` — One-time cleanup of the rows indexed before backend/index_sql/001_remove_primary_from_secondary_cond (~159 tok)
 
 ## src/backend/persistence/
 
@@ -336,7 +342,7 @@
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~148 tok)
-- `styles.css` — Styles: 95 rules, 14 vars (~11048 tok)
+- `styles.css` — Styles: 95 rules, 14 vars (~11038 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 
 ## src/frontend/api/
@@ -383,15 +389,15 @@
 
 ## src/scripts/
 
-- `backup_database.bat` (~475 tok)
+- `backup_database.bat` (~552 tok)
 - `backup_database.ps1` — Declares Invoke (~403 tok)
-- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~19158 tok)
+- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~19930 tok)
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
-- `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20372 tok)
+- `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20376 tok)
 - `herb_index_requests.py` — Stream one indexing request per batch and emit aggregate telemetry without source content. (~4390 tok)
 - `herb_product_safety_extension.py` — Bilingual product safety in batches: ministral and deepseek, one merge, a run per language. (~8449 tok)
 - `herb_product_safety_index.py` — One local-model request per uncached catalog product; no corpus or association inference. (~3632 tok)
-- `herb_safety_index.py` — Legacy corpus helpers and shared progress; public safety commands use product knowledge. (~6224 tok)
+- `herb_safety_index.py` — Shared progress helpers and the public safety command, which uses product knowledge. (~647 tok)
 - `manage_texts.py` — Export public copy and regenerate key/parameter metadata, never a second editable catalog. (~783 tok)
 - `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~4477 tok)
 - `restore_database.bat` (~748 tok)
@@ -401,16 +407,18 @@
 
 ## src/tests/integration/
 
+- `test_build_hybrid_index.py` — FakeClock: setUpModule, tearDownModule, make_chunk, embed + 10 more (~4612 tok)
 - `test_condition_database.py` — Reconstruct disposable databases from SQL, never from the removed JSONL. (~4307 tok)
 - `test_herb_conditions.py` — Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB. (~10090 tok)
-- `test_herb_database.py` — Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL. (~6443 tok)
+- `test_herb_database.py` — Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL. (~6787 tok)
 - `test_herbs_index.py` — Atomic derived associations on an isolated PostgreSQL fixture. (~8606 tok)
 - `test_index_integrity.py` — Failure injection and actual PostgreSQL advisory-lock semantics. (~3935 tok)
 - `test_report_metrics_database.py` — Real metrics transactions against disposable PostgreSQL only. (~1939 tok)
+- `test_search.py` — Tests for the combined fragment score (backend.ai.search): the (~10931 tok)
 
 ## src/tests/support/
 
-- `postgres.py` — Shared ephemeral Postgres fixture for tests that exercise the hybrid (~1429 tok)
+- `postgres.py` — Shared ephemeral Postgres fixture for tests that exercise the hybrid (~1419 tok)
 
 ## src/tests/unit/ai/
 

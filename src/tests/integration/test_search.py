@@ -414,12 +414,14 @@ class ConditionsOnlyTests(RankTestCase):
     }
     vectors = {path: _one_hot(DIM, index + 3) for index, path in enumerate(documents)}
 
-    def test_the_score_has_three_values_title_and_text_then_title_then_text(self):
+    def test_the_score_has_two_values_title_then_text(self):
         results = self.by_path(search.rank("zorbita", signals=_signals("A")))
 
+        # The index removes a title condition from the secondary column, so a fragment that also
+        # repeats it in the text scores like a title-only one.
         self.assertEqual(
             {path: item["score"] for path, item in results.items()},
-            {"a/ambele.md": 3.0, "a/titlu.md": 2.0, "a/text.md": 1.0},
+            {"a/ambele.md": 2.0, "a/titlu.md": 2.0, "a/text.md": 1.0},
         )
 
     def test_fragments_without_the_condition_are_not_returned(self):

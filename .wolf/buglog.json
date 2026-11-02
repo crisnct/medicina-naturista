@@ -8221,6 +8221,114 @@
       "last_seen": "2026-11-02T15:41:00.415Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: HERBS_BENEFITS_DELETE_SQL should be INDEX_SQL",
+      "file": "src/scripts/build_hybrid_index.py",
+      "root_cause": "Used \"HERBS_BENEFITS_DELETE_SQL\" instead of \"INDEX_SQL\"",
+      "fix": "Changed HERBS_BENEFITS_DELETE_SQL → INDEX_SQL",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-458",
+      "timestamp": "2026-11-02T20:25:59.626Z",
+      "last_seen": "2026-11-02T20:25:59.626Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/support/postgres.py",
+      "root_cause": "Had \"herb_positive_cache,herb_safety_runs,herb_safety_",
+      "fix": "Changed to \"herb_positive_cache RESTART IDENTITY CASCADE\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-459",
+      "timestamp": "2026-11-02T20:28:26.988Z",
+      "last_seen": "2026-11-02T20:28:26.988Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: herb_safety_evidence should be herb_caution_evidence",
+      "file": "src/tests/integration/test_herb_database.py",
+      "root_cause": "Used \"herb_safety_evidence\" instead of \"herb_caution_evidence\"",
+      "fix": "Changed herb_safety_evidence → herb_caution_evidence",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-460",
+      "timestamp": "2026-11-02T20:28:29.328Z",
+      "last_seen": "2026-11-02T20:28:29.328Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/integration/test_build_hybrid_index.py",
+      "root_cause": "Had \"# Carte\\n## Gripa\\nCeai de scortisoara.\\n## Plant",
+      "fix": "Changed to \"# Carte\\n## Gripa\\nCeai de scortisoara pentru gri",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-461",
+      "timestamp": "2026-11-02T20:29:00.966Z",
+      "last_seen": "2026-11-02T20:29:00.966Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_search.py",
+      "file": "src/tests/integration/test_search.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 7→9 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-462",
+      "timestamp": "2026-11-02T20:36:00.785Z",
+      "last_seen": "2026-11-02T20:36:00.785Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/backup_database.bat",
+      "root_cause": "Had \"KEEP=2\"",
+      "fix": "Changed to \"KEEP=10\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "bat"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-463",
+      "timestamp": "2026-11-02T21:46:47.911Z",
+      "last_seen": "2026-11-02T21:46:47.911Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -8709,7 +8817,13 @@
     "2b0f02d9-53cb-4134-96aa-ec5df6876707": true,
     "5455d41e-3ae5-42ab-a6a8-796b5eb47ce2": true,
     "66b229b0-94f2-4544-8a72-76568aaa6996": true,
-    "48f85b60-3fdd-4634-8c9a-5a80a52f85c9": true
+    "48f85b60-3fdd-4634-8c9a-5a80a52f85c9": true,
+    "09a14fb1-2a24-45bd-bb59-ac379c38ef95": true,
+    "12491443-d75c-409c-b94c-131796b3c4b8": true,
+    "81b9e765-97de-4ef1-8d71-5608771cd8ad": true,
+    "1704813e-3491-4b60-b0a9-4ac370e92cc8": true,
+    "093c4e44-6700-4a29-9ef2-5bcbba27b27c": true,
+    "6e1406a9-35e8-4a15-9a52-d1a0b9b3c5c5": true
   },
-  "next_id": 458
+  "next_id": 464
 }

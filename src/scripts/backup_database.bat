@@ -38,7 +38,7 @@ for %%f in ("%FILE%") do set "SIZE=%%~zf"
 call :log "Backup finished: %FILE% (%SIZE% bytes)"
 
 rem Keep only the newest backups; the names sort by timestamp. Runs only after a successful backup.
-set "KEEP=2"
+set "KEEP=10"
 for /f "skip=%KEEP% delims=" %%f in ('dir /b /o-n "%OUT%\%DB%_*.dump" 2^>nul') do (
     del "%OUT%\%%f" && call :log "Removed old backup: %%f"
 )

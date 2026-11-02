@@ -153,7 +153,7 @@ class SyncTests(unittest.TestCase):
 
     def test_sync_stores_business_category_conditions_and_heading_per_fragment(self):
         (self.source / "carte.md").write_text(
-            "# Carte\n## Gripa\nCeai de scortisoara.\n## Plante\nMenta ajută la febra.\n## Altele\nApă.",
+            "# Carte\n## Gripa\nCeai de scortisoara pentru gripa cu febra.\n## Plante\nMenta ajută la febra.\n## Altele\nApă.",
             encoding="utf-8",
         )
         (self.source / "Febra.md").write_text("Repaus și lichide.", encoding="utf-8")
@@ -183,7 +183,8 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(
             (gripa.business_category, gripa.primary_medical_conditions), ("R1", ["Gripa"])
         )
-        self.assertEqual(gripa.secondary_medical_conditions, [])
+        # The title condition named again in the text is removed from the secondary column.
+        self.assertEqual(gripa.secondary_medical_conditions, ["Febra"])
         plante = by_key[("carte.md", "Carte > Plante")]
         self.assertEqual(
             (

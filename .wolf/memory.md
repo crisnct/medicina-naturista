@@ -2391,3 +2391,27 @@ description: chronological action log per session, consolidated weekly
 | 17:41 | Edited src/frontend/components/LanguageSelect.tsx | 3→3 lines | ~25 |
 | 17:43 | Edited src/frontend/styles.css | CSS: position, z-index | ~23 |
 | 17:50 | Edited src/frontend/styles.css | 16→16 lines | ~154 |
+| 22:23 | Edited aiPlans/2026-11-02-eliminare-primary-din-secondary-conditions.md | modified Siguranta() | ~1294 |
+| 22:24 | Edited src/frontend/styles.css | 3→2 lines | ~13 |
+| 22:25 | Created src/backend/index_sql/001_remove_primary_from_secondary_conditions.sql | — | ~143 |
+| 22:25 | Created src/backend/migrations/040_remove_primary_from_secondary_conditions.sql | — | ~159 |
+| 22:25 | Created src/backend/migrations/039_drop_legacy_herb_safety_tables.sql | — | ~109 |
+| 22:25 | Edited src/scripts/build_hybrid_index.py | 5→8 lines | ~128 |
+| 22:25 | Edited src/scripts/build_hybrid_index.py | modified _build_stage() | ~96 |
+| 22:25 | Edited src/scripts/build_hybrid_index.py | 2→3 lines | ~37 |
+| 22:26 | Created src/scripts/herb_safety_index.py | — | ~647 |
+| 22:26 | Edited src/backend/ai/herb_product_safety_repository.py | modified unavailable() | ~204 |
+| 22:26 | Edited src/backend/ai/herb_safety.py | 5→5 lines | ~51 |
+| 22:26 | Created src/backend/ai/herb_safety_validation.py | — | ~871 |
+| 22:28 | Edited src/tests/support/postgres.py | "herb_positive_cache,herb_" → "herb_positive_cache RESTA" | ~18 |
+| 22:28 | Edited src/tests/integration/test_herb_database.py | 2→2 lines | ~19 |
+| 22:28 | Edited src/tests/integration/test_herb_database.py | 2→3 lines | ~42 |
+| 22:28 | Edited src/tests/integration/test_herb_database.py | 3→4 lines | ~38 |
+| 22:29 | Edited src/tests/integration/test_build_hybrid_index.py | "# Carte\n## Gripa\nCeai d" → "# Carte\n## Gripa\nCeai d" | ~37 |
+| 22:29 | Edited src/tests/integration/test_build_hybrid_index.py | 1→2 lines | ~47 |
+| 22:29 | Edited README.md | 4→7 lines | ~147 |
+| 22:29 | Edited README.md | inline fix | ~141 |
+| 22:36 | Edited src/tests/integration/test_search.py | test_the_score_has_three_values_title_and_text_then_title_then_text() → test_the_score_has_two_values_title_then_text() | ~136 |
+| 23:26 | Edited src/scripts/clean_documents.py | inline fix | ~16 |
+| 23:36 | Session end: 113 writes across 29 files (HerbWarningsPanel.tsx, styles.css, texts.ro.toml, texts.en.toml, HerbConditionsPanel.test.tsx) | 17 reads | ~32317 tok |
+| 23:46 | Edited src/scripts/backup_database.bat | "KEEP=2" → "KEEP=10" | ~4 |

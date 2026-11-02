@@ -1,126 +1,126 @@
 <div align="center">
 
-# 🌿 Remedii Naturiste Adjuvante - de la Dr. Cuișor
+# 🌿 Adjuvant Natural Remedies - from Dr. Cuișor
 
-### Asistent AI de medicină naturistă bazat pe surse locale
+### AI naturopathy assistant based on local sources
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
-[![Hybrid retrieval](https://img.shields.io/badge/Retrieval-pgvector%20%2B%20tsvector-6A5ACD)](#-cum-funcționează)
+[![Hybrid retrieval](https://img.shields.io/badge/Retrieval-pgvector%20%2B%20tsvector-6A5ACD)](#-how-it-works)
 [![License](https://img.shields.io/badge/License-Business%20Source%201.1-D22128)](LICENSE)
 
-🟢 **surse locale** · 🔵 **căutare semantică** · 🟠 **căutare lexicală** · 🟣 **raport PDF**
+🟢 **local sources** · 🔵 **semantic search** · 🟠 **lexical search** · 🟣 **PDF report**
 
 </div>
 
 > [!IMPORTANT]
-> Aplicația oferă informații orientative și recomandări adjuvante. Nu înlocuiește diagnosticul, consultația, tratamentul prescris sau îngrijirea medicală de urgență.
-> Conversațiile și rapoartele sunt păstrate temporar în memoria procesului. Descrierea problemei și fragmentele selectate pot fi trimise furnizorului AI configurat; identificarea afecțiunii poate folosi separat un serviciu extern. Nu introduceți nume, CNP, adrese sau alte date de identificare în chat.
+> The application provides guidance and adjuvant recommendations. It does not replace diagnosis, consultation, prescribed treatment or emergency medical care.
+> Conversations and reports are kept temporarily in process memory. The description of the problem and the selected fragments may be sent to the configured AI provider; identifying the condition may separately use an external service. Do not enter names, personal numeric IDs, addresses or other identifying data in the chat.
 
-## ✨ Despre proiect
+## ✨ About the project
 
-Proiectul transformă o colecție locală de documente Markdown despre medicină naturistă și terapii complementare într-un index hibrid interogabil. Interfața web primește problema descrisă de utilizator și afișează fragmentele relevante găsite în arhiva locală. După verificarea fragmentelor, administratorul autorizat prin `/owner` alege modelul pentru fiecare raport, inclusiv modelele Ollama locale. Aplicația trimite dovezile către furnizorul ales pentru redactarea răspunsului structurat și generează un raport PDF cu trimiteri la surse. Generarea este rezervată administratorului pentru toate modelele.
+The project turns a local collection of Markdown documents about naturopathy and complementary therapies into a queryable hybrid index. The web interface receives the problem described by the user and displays the relevant fragments found in the local archive. After the fragments are reviewed, the administrator authorized through `/owner` chooses the model for each report, including local Ollama models. The application sends the evidence to the chosen provider to write the structured answer and generates a PDF report with references to the sources. Generation is reserved for the administrator for all models.
 
-| 🧩 Componentă | Rol |
+| 🧩 Component | Role |
 |---|---|
-| **Index semantic** | Identifică fragmente apropiate ca sens cu vectori Qwen3-Embedding de 1024 de dimensiuni, stocați în Postgres (`pgvector`). |
-| **Index lexical** | Găsește expresii cu termenii în aceeași ordine, prin `tsvector` în Postgres; folosește prefixe pentru flexiuni și sinonime când expresia întreagă este o afecțiune recunoscută. |
-| **Scor combinat** | Fiecare fragment primește un singur scor, din semnalele pe care pacientul le bifează în „Surse și opțiuni de căutare” (afecțiuni, lexical, semantic). Cu toate trei: `4·P1 + 2·P2 + L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
-| **Fragmentare pe afecțiuni** | Împarte documentele în fragmente R1 (afecțiunea în titlul capitolului), R2 (afecțiunea în textul capitolului) și D1 (restul textului), folosind catalogul de afecțiuni și sinonime din PostgreSQL. |
-| **Filtrare pe surse** | În același panou „Surse și opțiuni de căutare”, căutarea poate fi restrânsă la anumite foldere din `medicina-naturista-documente/data/documents/` (categoria unui document este folderul lui). |
-| **Retriever medical** | Ordonează fragmentele după scorul combinat și păstrează, întregi, cele care încap în bugetul de context al furnizorului AI. În „Opțiuni de generare”, „Scor minim” (procent de relevanță) limitează fragmentele trimise către AI. |
-| **Chat web** | Oferă sesiuni izolate pe tab și afișează recomandările structurate. |
-| **Raport PDF** | Include recomandări, atenționări, citări și bibliografie navigabilă. |
-| **Livrare e-mail** | După generare, poate trimite raportul prin Gmail API cu OAuth2 la adresa scrisă de utilizator în chat, dacă este configurat. |
+| **Semantic index** | Identifies fragments with a close meaning using 1024-dimension Qwen3-Embedding vectors, stored in Postgres (`pgvector`). |
+| **Lexical index** | Finds expressions with the terms in the same order, through `tsvector` in Postgres; uses prefixes for inflections and synonyms when the whole expression is a recognized condition. |
+| **Combined score** | Each fragment receives a single score, from the signals that the patient ticks in “Sources and search options” (conditions, lexical, semantic). With all three: `4·P1 + 2·P2 + L + V` (condition in title › condition in text › lexical match › semantic match), computed in a single SQL query. |
+| **Condition-based fragmentation** | Splits documents into R1 fragments (condition in the chapter title), R2 (condition in the chapter text) and D1 (the rest of the text), using the catalog of conditions and synonyms in PostgreSQL. |
+| **Source filtering** | In the same “Sources and search options” panel, the search can be restricted to certain folders under `medicina-naturista-documente/data/documents/` (a document's category is its folder). |
+| **Medical retriever** | Orders the fragments by the combined score and keeps whole those that fit within the AI provider's context budget. In “Generation options”, “Minimum score” (relevance percentage) limits the fragments sent to the AI. |
+| **Web chat** | Provides sessions isolated per tab and displays the structured recommendations. |
+| **PDF report** | Includes recommendations, warnings, citations and a navigable bibliography. |
+| **Email delivery** | After generation, it can send the report through the Gmail API with OAuth2 to the address the user writes in the chat, if configured. |
 
-Interfața folosește o coloană fluidă de maximum 640 px, un antet crem cu titlu lizibil,
-portretul lui Dr. Cuișor și decor botanic discret. Pe mobil, portretul apare sub descriere.
-Identitatea de asistent virtual AI și atenționarea medicală rămân vizibile. Același portret
-este folosit în antet, avatarele conversației, pictograma aplicației și rapoartele PDF noi.
+The interface uses a fluid column of at most 640 px, a cream header with a legible title,
+Dr. Cuișor's portrait and discreet botanical decoration. On mobile, the portrait appears below the description.
+The identity of a virtual AI assistant and the medical warning remain visible. The same portrait
+is used in the header, the conversation avatars, the application icon and the new PDF reports.
 
-## 🎨 Cum funcționează
+## 🎨 How it works
 
-Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pentru cererile explicite și Ollama local `gemma3:1b` (`MEDICAL_CONDITION_AI_LOCAL_MODEL`) când este necesar. `POST /api/messages` afișează rapid mesajul și salvează contextul, apoi `POST /api/classify` selectează:
+Every message goes through **Message classification**, with deterministic shortcuts for explicit requests and local Ollama `gemma3:1b` (`MEDICAL_CONDITION_AI_LOCAL_MODEL`) when needed. `POST /api/messages` quickly displays the message and saves the context, then `POST /api/classify` selects:
 
-- **Remedii:** rezolvarea afecțiunilor și căutarea existentă, cu identificare AI opțională.
-- **Planta/produsul:** numele/aliasul este rezolvat în catalog, apoi răspunsul arată
-  numele și denumirea latină disponibilă în antet, cu două liste distincte dedesubt.
-  Numărul afecțiunilor apare în titlul secțiunii, fără repetare în antet.
-  Titlurile secțiunilor și intrările topurilor folosesc același acord după
-  denumirea românească: masculin → „util/interzis”, feminin sau neutru → „utilă/interzisă”,
-  plural → „utile/interzise” și „sunt”. Determinarea folosește dicționarul românesc local,
-  primul substantiv al denumirii și reguli pentru forme ambigue sau neregulate; „gutui”
-  și „pătlăgele” sunt tratate ca plural. Pentru cuvinte nelistate se
-  folosesc terminațiile; denumirile neobișnuite pot necesita reguli lexicale suplimentare.
-  Nu sunt necesare cereri AI, migrare sau reindexare. Mesajele structurate noi includ
-  `herbAgreement`, folosit de frontend; mesajele vechi fără câmp păstrează forma feminină.
-  Numărul M al interdicțiilor apare numai în titlul secțiunii dedicate. Utilizările
-  citesc aceleași perechi `positive` și aceeași rulare publicată ca topurile; numărul N
-  coincide cu rankingul produsului. Interdicțiile citesc perechile `herb_caution_pairs`
-  cu dovezi explicite `prohibition`, din rularea caution legată de acea rulare pozitivă;
-  M coincide cu `herb_caution_rankings.prohibition_ranking`. Precauțiile sunt păstrate
-  separat și nu sunt numărate ca interdicții. Interdicțiile cer o formulare explicită în
-  text despre produsul și afecțiunea respectivă; eticheta AI sau istorică `caution` nu este
-  suficientă. Recomandările singure nu apar în lista interdicțiilor. Clasificarea surselor
-  nu reprezintă validare clinică. O rulare pozitivă lipsă/incompatibilă produce aceeași eroare
-  ca topurile, fără revenire la coaparițiile istorice. Lipsa părții caution este afișată ca
-  indisponibilitate, iar informația istorică nerecuperabilă este marcată explicit ca parțială.
-  Pentru orice intrare din `herbs`, fiecare secțiune are numărul afecțiunilor în titlu.
-  Poza produsului este încărcată local prin `GET /api/herb-images/{herb_id}`, după ID-ul
-  din catalog. Căutarea încearcă numele latin, apoi numele românesc, în `HERB_IMAGES_DIR`
-  (implicit `medicina-naturista-documente/data/images`), numai fișiere PNG. Ignoră
-  majusculele/minusculele și aplică înlocuirea caracterelor nepermise din procesul de
-  generare; potrivirile ambigue sunt omise. Folderul este montat read-only în Docker
-  și exclus din imaginea de container. Endpointul nu expune registrul ori alte fișiere.
-  După încărcarea cu succes, poza apare în stânga (maximum 280 × 280 px, fără decupare),
-  iar listele scurte rămân în două coloane în dreapta. Când textul depășește spațiul
-  de lângă imagine, lista afecțiunilor utile curge pe trei coloane: prima începe sub poză,
-  celelalte două în dreapta ei și continuă aliniate până jos. Listele lungi folosesc
-  astfel și spațiul de sub imagine. Ordinea alfabetică se citește de sus în jos
-  în fiecare coloană, apoi în coloana următoare. Titlul și sursele rămân pe toată
-  lățimea; interdicțiile și atenționările nu sunt rearanjate. Până la încărcare sau
-  dacă poza lipsește/eșuează, rămâne afișarea existentă cu trei coloane pe desktop.
-  La maximum 640 px poza apare deasupra listei cu două coloane; la maximum 420 px lista
-  are o coloană. Lipsa produsului, folderului sau pozei produce `404`, fără placeholder.
-  Imaginile noi sunt găsite la următoarea cerere, fără reindexare sau apeluri AI.
-  Un click pe poză deschide imaginea într-un panou modal cât pagina, deasupra
-  interfeței, cu proporțiile păstrate și fără decupare. Escape sau butonul X din
-  partea de sus închid panoul și readuc focusul la poză. Imaginea se poate deschide
-  și din tastatură, cu Enter/Space; pagina din spate rămâne inactivă cât panoul este deschis.
-  Numele produsului are 24 px, iar titlurile secțiunilor au 20 px; întregul text din secțiunea interdicțiilor, inclusiv
-  sursele, este portocaliu. Cele trei secțiuni sunt separate prin linii de 3 px;
-  panourile surselor nu au borduri exterioare. Fiecare panou „Vezi fragmente sursă — N fragmente din M documente”
-  este închis inițial. La deschidere se
-  încarcă 20 de fragmente integrale, cu filtru după afecțiune și „Încarcă mai multe”.
-  Filtrele și paginarea sunt independente. Secțiunile goale păstrează panoul cu zero surse,
-  fără cereri HTTP. Fiecare fragment apare o singură dată în secțiunea sa, cu toate
-  afecțiunile eligibile, titlul, documentul și liniile sursă. Produsul/aliasurile sunt
-  evidențiate cu verde; afecțiunile și sinonimele lor, cu galben. Textul original este păstrat.
+- **Remedies:** condition resolution and the existing search, with optional AI identification.
+- **Plant/product:** the name/alias is resolved in the catalog, then the answer shows
+  the name and the available Latin name in the header, with two distinct lists below.
+  The number of conditions appears in the section title, without repetition in the header.
+  Section titles and ranking entries use the same agreement with
+  the Romanian name: masculine → “util/interzis”, feminine or neuter → “utilă/interzisă”,
+  plural → “utile/interzise” and “sunt”. The determination uses the local Romanian dictionary,
+  the first noun of the name and rules for ambiguous or irregular forms; “gutui”
+  and “pătlăgele” are treated as plural. For unlisted words,
+  the endings are used; unusual names may need additional lexical rules.
+  No AI requests, migration or reindexing are needed. New structured messages include
+  `herbAgreement`, used by the frontend; old messages without the field keep the feminine form.
+  The number M of prohibitions appears only in the title of the dedicated section. The uses
+  read the same `positive` pairs and the same published run as the rankings; the number N
+  matches the product's ranking. The prohibitions read the `herb_caution_pairs` pairs
+  with explicit `prohibition` evidence, from the caution run linked to that positive run;
+  M matches `herb_caution_rankings.prohibition_ranking`. Cautions are kept
+  separate and are not counted as prohibitions. Prohibitions require an explicit wording in the
+  text about the respective product and condition; an AI or historical `caution` label is not
+  enough. Recommendations alone do not appear in the list of prohibitions. The classification of sources
+  is not clinical validation. A missing/incompatible positive run produces the same error
+  as the rankings, without falling back to historical co-occurrences. A missing caution part is displayed as
+  unavailability, and historical information that cannot be recovered is explicitly marked as partial.
+  For any entry in `herbs`, each section has the number of conditions in its title.
+  The product picture is loaded locally through `GET /api/herb-images/{herb_id}`, by the ID
+  from the catalog. The search tries the Latin name, then the Romanian name, in `HERB_IMAGES_DIR`
+  (by default `medicina-naturista-documente/data/images`), PNG files only. It ignores
+  upper/lower case and applies the replacement of disallowed characters from the
+  generation process; ambiguous matches are omitted. The folder is mounted read-only in Docker
+  and excluded from the container image. The endpoint does not expose the registry or other files.
+  After a successful load, the picture appears on the left (at most 280 × 280 px, without cropping),
+  and the short lists remain in two columns on the right. When the text exceeds the space
+  next to the image, the list of useful conditions flows into three columns: the first starts below the picture,
+  the other two to its right and continue aligned down to the bottom. Long lists thus
+  also use the space below the image. The alphabetical order reads from top to bottom
+  in each column, then in the next column. The title and the sources remain full
+  width; the prohibitions and warnings are not rearranged. Until loading, or
+  if the picture is missing/fails, the existing three-column display remains on desktop.
+  At most 640 px, the picture appears above the two-column list; at most 420 px, the list
+  has one column. A missing product, folder or picture produces `404`, without a placeholder.
+  New images are found on the next request, without reindexing or AI calls.
+  A click on the picture opens the image in a modal panel as large as the page, above the
+  interface, with proportions preserved and without cropping. Escape or the X button at the
+  top close the panel and return focus to the picture. The image can also be opened
+  from the keyboard, with Enter/Space; the page behind stays inactive while the panel is open.
+  The product name is 24 px and the section titles are 20 px; the whole text of the prohibitions section, including
+  the sources, is orange. The three sections are separated by 3 px lines;
+  the source panels have no outer borders. Each “View source excerpts — N excerpts from M documents” panel
+  is initially closed. On opening,
+  20 whole fragments are loaded, with a filter by condition and “Load more”.
+  Filters and pagination are independent. Empty sections keep the panel with zero sources,
+  without HTTP requests. Each fragment appears only once in its section, with all
+  the eligible conditions, the title, the document and the source lines. The product/aliases are
+  highlighted in green; the conditions and their synonyms, in yellow. The original text is kept.
   `GET /api/herb-evidence/{groupId}?evidenceKind=positive|contraindication&conditionId=…&offset=…`
-  selectează sursele secțiunii cerute (`positive` implicit) și este limitat la sesiunea
-  și tabul care dețin mesajul. Filtrul trebuie să aparțină secțiunii. Nu apelează AI și
-  nu execută o nouă căutare hibridă.
-  Schimbarea rulării produce `HERB_EVIDENCE_STALE`; un răspuns expirat/evacuat produce
-  `HERB_EVIDENCE_UNAVAILABLE`. Interfața cere repetarea întrebării, fără combinarea
-  generațiilor. Fragmentele încărcate sunt păstrate numai temporar în interfață.
+  selects the sources of the requested section (`positive` by default) and is limited to the session
+  and tab that own the message. The filter must belong to the section. It does not call the AI and
+  does not run a new hybrid search.
+  Changing the run produces `HERB_EVIDENCE_STALE`; an expired/evicted answer produces
+  `HERB_EVIDENCE_UNAVAILABLE`. The interface asks for the question to be repeated, without combining
+  generations. The loaded fragments are kept only temporarily in the interface.
 
-  Migrarea aditivă `028_herb_caution_rankings.sql` creează `herb_caution_runs`,
-  `herb_caution_evidence`, `herb_caution_pairs`, `herb_caution_rankings` și
-  `herb_caution_cache`. Proiecția caution reutilizează regulile locale și valorile
-  `recommendation`/`prohibition` din răspunsurile pe care clasificarea pozitivă le cere deja.
-  Proiecția caution nu adaugă cereri AI și păstrează regulile clasificării. Informațiile
-  lipsă din cache-ul caution vechi sunt recuperate numai local sau marcate `unknown`.
-  Secțiunea de atenționări despre produs folosește separat mecanismul descris mai jos.
-  Proiecția caution versiunea 2 verifică și listele explicite de alimente de evitat,
-  inclusiv rândurile OCR întrerupte. Un avertisment despre alt produs sau procedură din
-  același fragment nu validează o interdicție pentru produsul întrebat.
-  Pregătirea pozitivă pregătește și caution; publicarea prin CLI activează atomic cele două
-  rulări compatibile. Marcajul activ caution rămâne în `herb_caution_runs.is_active`,
-  în afara metadatelor care intră în amprenta indexului pozitiv.
+  The additive migration `028_herb_caution_rankings.sql` creates `herb_caution_runs`,
+  `herb_caution_evidence`, `herb_caution_pairs`, `herb_caution_rankings` and
+  `herb_caution_cache`. The caution projection reuses the local rules and the
+  `recommendation`/`prohibition` values from the answers that the positive classification already requests.
+  The caution projection adds no AI requests and keeps the classification rules. Information
+  missing from the old caution cache is recovered only locally or marked `unknown`.
+  The product warnings section uses the mechanism described separately below.
+  Caution projection version 2 also checks the explicit lists of foods to avoid,
+  including broken OCR lines. A warning about another product or procedure in the
+  same fragment does not validate a prohibition for the product asked about.
+  Positive preparation also prepares caution; publishing through the CLI atomically activates the two
+  compatible runs. The active caution marker stays in `herb_caution_runs.is_active`,
+  outside the metadata that enters the fingerprint of the positive index.
 
-  După aplicarea explicită a migrărilor de către operator, popularea pentru clasamentul
-  pozitiv deja activ se poate face separat, fără inferență sau reindexare:
+  After the operator has explicitly applied the migrations, populating the already-active
+  positive ranking can be done separately, without inference or reindexing:
 
   ```powershell
   $env:PYTHONPATH = 'src'
@@ -128,79 +128,82 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
   .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-caution-ranking RUN_ID
   ```
 
-  Prima comandă returnează ID-ul noii rulări caution și numărul dovezilor istorice necunoscute.
-  A doua acceptă acel ID numai dacă indexul, rularea pozitivă și activarea observată la
-  pregătire sunt încă compatibile. Ambele raportează `ai_requests_sent_total=0` și nu
-  apelează nici providerul, nici endpointul de verificare a modelului. Aplicarea migrării
-  singure nu populează și nu activează aceste date. Aplicația nu migrează la startup.
+  The first command returns the ID of the new caution run and the number of unknown historical evidence items.
+  The second accepts that ID only if the index, the positive run and the activation observed at
+  preparation are still compatible. Both report `ai_requests_sent_total=0` and call
+  neither the provider nor the model verification endpoint. Applying the migration
+  alone does not populate or activate this data. The application does not migrate at startup.
 
-  La actualizarea de la proiecția caution 1 la 2, se pregătește și se publică numai o
-  rulare caution nouă prin comenzile de mai sus, folosind codul actualizat. Nu se șterg
-  cache-urile sau tabelele și nu se reindexează documentele/embeddingurile. O rulare
-  caution cu versiunea veche este afișată ca învechită până la publicarea celei noi.
+  When updating from caution projection 1 to 2, only a new caution run is
+  prepared and published through the commands above, using the updated code. Caches
+  or tables are not deleted and the documents/embeddings are not reindexed. A caution
+  run with the old version is displayed as outdated until the new one is published.
 
-  **Atenționări, contraindicații și interacțiuni:** secțiunea folosește exclusiv cunoștințele modelului
-  local Ollama despre fiecare produs din `herbs`, indiferent de categorie și de existența
-  unor documente sau asocieri produs–afecțiune. La reindexare se trimite o singură cerere
-  pentru fiecare produs fără rezultat compatibil în cache. Cererea conține numai
-  identitatea produsului: ID, denumirea română, denumirea latină când există, denumirile
-  englezești, categoria, familia și aliasurile. Nu conține fragmente, afecțiuni ori citate.
-  Specia latină trebuie respectată; o specie lipsă nu este inventată.
+  **Warnings, contraindications and interactions:** the section uses exclusively the knowledge of the
+  local Ollama model about each product in `herbs`, regardless of category and of whether
+  documents or product–condition associations exist. On reindexing, a single request is sent
+  for each product without a compatible result in the cache. The request contains only
+  the product's identity: ID, Romanian name, Latin name when present, English names,
+  category, family and aliases. It contains no fragments, conditions or quotations.
+  The Latin species must be respected; a missing species is not invented.
 
-  Răspunsul este JSON strict cu `herb_id`, `status=complete|uncertain` și `messages`.
-  Fiecare element are exact `message_type=warning|contraindication|interaction` și
-  `problem`. Mesajele sunt în română, preferabil 10–25 de cuvinte, maximum 240 de
-  caractere și 40 de cuvinte, fără tăiere automată. Interacțiunile iau în considerare
-  medicamente, clase medicamentoase, suplimente, alte produse naturiste, fructe,
-  legume, alimente și băuturi. Identitatea incertă ori cunoștințele insuficiente sunt
-  marcate `uncertain`; o listă goală nu confirmă absența riscurilor.
+  The answer is strict JSON with `herb_id`, `status=complete|uncertain` and `messages`.
+  Each element has exactly `message_type=warning|contraindication|interaction` and
+  `problem`. The messages are in Romanian, preferably 10–25 words, at most 240
+  characters and 40 words, without automatic truncation. Interactions take into account
+  medications, drug classes, supplements, other natural products, fruits,
+  vegetables, foods and drinks. Uncertain identity or insufficient knowledge is
+  marked `uncertain`; an empty list does not confirm the absence of risks.
 
-  Migrarea aditivă `031_herb_product_safety_knowledge.sql` creează tabela
-  `herb_safety_messages`: `herb_id`, `message_type`, `problem`, plus `run_id` și
-  `message_id` pentru publicare și deduplicare. Un produs are mai multe rânduri.
-  `herb_product_safety_results` păstrează explicit și produsele cu listă goală,
-  `herb_product_safety_cache` păstrează răspunsurile validate, iar
-  `herb_product_safety_runs` gestionează pregătirea și activarea atomică.
-  Pentru mesajele curente, `herb_safety_messages` se filtrează prin generația cu
-  `herb_product_safety_runs.is_active=true`; celelalte generații rămân istorice.
-  Tabelele și algoritmul istoric `herb_safety_*` bazat pe fragmente nu mai alimentează
-  secțiunea; datele istorice sunt păstrate. Migrarea se aplică prin comanda normală
-  de indexare sau prin operatorul de migrări, niciodată la pornirea aplicației.
+  The additive migration `031_herb_product_safety_knowledge.sql` creates the table
+  `herb_safety_messages`: `herb_id`, `message_type`, `problem`, plus `run_id` and
+  `message_id` for publishing and deduplication. A product has several rows.
+  `herb_product_safety_results` explicitly keeps the products with an empty list too,
+  `herb_product_safety_cache` keeps the validated answers, and
+  `herb_product_safety_runs` manages the atomic preparation and activation.
+  For the current messages, `herb_safety_messages` is filtered through the generation with
+  `herb_product_safety_runs.is_active=true`; publication deletes the superseded generations
+  of the language (their results and messages go with them).
+  The fragment-based tables `herb_safety_runs`, `herb_safety_cache`, `herb_safety_analysis`,
+  `herb_safety_warnings` and `herb_safety_evidence` (migrations 029-030) were never part of this
+  flow and are dropped by migration `039_drop_legacy_herb_safety_tables.sql`. The migration is
+  applied through the normal indexing command or through the migration operator, never at
+  application startup.
 
-  Cheia cache-ului depinde de identitatea și aliasurile acelui produs, prompt,
-  versiunea regulilor JSON, model și digestul său. Modificarea altui produs, a
-  documentelor ori a afecțiunilor nu invalidează răspunsurile produselor neschimbate.
-  Sunt reutilizate și rezultatele valide goale sau incerte. Rezultatul fiecărui produs
-  se salvează imediat; un eșec nu pierde produsele deja procesate. Rularea normală
-  fără parametri creează o generație nouă și reutilizează cache-ul compatibil.
-  O schimbare de produs, prompt ori model cere un răspuns nou pentru produsul afectat.
-  Cache-ul vechi de extragere din documente nu poate substitui această analiză.
+  The cache key depends on that product's identity and aliases, the prompt,
+  the version of the JSON rules, the model and its digest. Changing another product, the
+  documents or the conditions does not invalidate the answers of unchanged products.
+  Valid empty or uncertain results are reused too. Each product's result
+  is saved immediately; a failure does not lose the products already processed. A normal run
+  without parameters creates a new generation and reuses the compatible cache.
+  A change of product, prompt or model requires a new answer for the affected product.
+  The old document-extraction cache cannot substitute for this analysis.
 
-  Nu se mai adaugă warnings la cererile produs–afecțiune și nu se mai planifică cereri
-  pe produs/fragment. Lista existentă **Afecțiuni în care este interzisă** rămâne din
-  `herb_caution_*`, cu aceleași surse și reguli; noua secțiune afișează separat
-  Atenționări, Contraindicații și Interacțiuni din cunoștințele modelului. Interfața
-  indică această proveniență și nu afișează citate sau „Vezi sursa” pentru ele.
-  Întreaga secțiune de atenționări este roșie, cu titlul principal de 20 px. Nota
-  de proveniență ocupă lățimea ambelor coloane și are aceeași dimensiune ca mesajele
-  despre date parțiale. Fiecare
-  problemă începe cu numele categoriei scris cu bold, urmat de punct: „Atenționări. …”,
-  „Contraindicații. …” sau „Interacțiuni. …”; nu există subtitluri separate.
-  Întregul conținut al secțiunii este împărțit pe două coloane. Pe ecrane de maximum 580 px se folosește
-  o singură coloană. Nu se afișează contorul „Afișate N din M atenționări”; încărcarea
-  următoarelor mesaje rămâne disponibilă când există pagini suplimentare.
-  JSON valid și identitatea corectă nu reprezintă validare clinică.
+  Warnings are no longer added to the product–condition requests and requests
+  per product/fragment are no longer planned. The existing list **Conditions with prohibitions** stays
+  from `herb_caution_*`, with the same sources and rules; the new section displays separately
+  Warnings, Contraindications and Interactions from the model's knowledge. The interface
+  indicates this provenance and shows no quotations or “View source” for them.
+  The entire warnings section is red, with a main title of 20 px. The provenance
+  note spans the width of both columns and has the same size as the messages
+  about partial data. Each
+  problem starts with the category name in bold, followed by a period: “Warnings. …”,
+  “Contraindications. …” or “Interactions. …”; there are no separate subtitles.
+  The whole content of the section is split into two columns. On screens of at most 580 px a single
+  column is used. The counter “Showing N of M warnings” is not displayed; loading
+  further messages stays available when there are additional pages.
+  Valid JSON and a correct identity do not constitute clinical validation.
 
-  `GET /api/herb-safety/{groupId}` citește numai generația publicată, în pagini de 20.
-  Referințele rămân legate de mesaj, sesiune și tab; o generație sau un catalog schimbat
-  produce `HERB_SAFETY_STALE`. Nu există inferență în chat. Ruta veche de evidence nu
-  inventează surse pentru răspunsurile modelului și răspunde indisponibil.
+  `GET /api/herb-safety/{groupId}` reads only the published generation, in pages of 20.
+  The references stay tied to the message, session and tab; a changed generation or catalog
+  produces `HERB_SAFETY_STALE`. There is no inference in the chat. The old evidence route does not
+  invent sources for the model's answers and responds unavailable.
 
-  Prima populare cere câte un request pentru fiecare produs din catalog; următoarele
-  reindexări cer numai produsele fără cache compatibil. Pregătirea pozitivă normală
-  pregătește și această generație, iar publicarea o activează după verificări.
-  `--skip-positive-ranking` păstrează comportamentul de a omite și etapa AI safety.
-  Se poate pregăti/publica și separat, după aplicarea migrării 031:
+  The first population requires one request for each product in the catalog; subsequent
+  reindexes request only the products without a compatible cache. Normal positive preparation
+  also prepares this generation, and publishing activates it after checks.
+  `--skip-positive-ranking` keeps the behavior of also skipping the AI safety stage.
+  It can also be prepared/published separately, after applying migration 031:
 
   ```powershell
   $env:PYTHONPATH = 'src'
@@ -210,66 +213,66 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
   .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-safety-warnings RUN_ID
   ```
 
-  Analiza nu face inferență; publicarea verifică numai baza și digestul modelului.
-  `RUN_ID` trebuie să aparțină noului algoritm; rulările istorice pe fragmente nu sunt
-  compatibile. La întrerupere se așteaptă revenirea promptului înainte de relansare.
-  Produsul în curs fără rezultat valid poate fi retrimis; nu există retry automat.
-  Digestul modelului se verifică și înaintea salvării fiecărui răspuns; aceste citiri
-  de metadate Ollama nu execută inferență și nu adaugă cereri AI pentru produs.
-  Un răspuns invalid oprește pregătirea și păstrează generația publicată anterior.
-  Mesajele nu sunt reparate euristic, scurtate sau înlocuite cu rezultate goale.
+  The analysis performs no inference; publishing checks only the database and the model digest.
+  `RUN_ID` must belong to the new algorithm; the historical fragment-based runs are not
+  compatible. On interruption, wait for the prompt to return before relaunching.
+  The product in progress without a valid result can be resent; there is no automatic retry.
+  The model digest is also checked before saving each answer; these reads
+  of Ollama metadata run no inference and add no AI requests for the product.
+  An invalid answer stops the preparation and keeps the previously published generation.
+  Messages are not repaired heuristically, shortened or replaced with empty results.
 
-  Progresul folosește `progress_stage=product_safety`, `safety_products_total`,
+  Progress uses `progress_stage=product_safety`, `safety_products_total`,
   `safety_products_completed`, `safety_cache_hits`, `product_safety_ai_requests`,
-  `safety_batches` și `safety_batches_completed`; un lot este acum un singur produs.
-  `warnings_only_ai_requests` este păstrat ca alias de compatibilitate al numărului
-  cererilor noi safety. ETA se măsoară după primul produs AI validat și salvat;
-  rămâne `null` înainte de prima măsurătoare și este zero la `ready`/`published`.
-  Metricele cererii includ `herb_id`, `safety_source=model_knowledge`, timpi/tokeni,
-  contextul, outputul și timeoutul. Nu includ denumiri, probleme sau text generat.
+  `safety_batches` and `safety_batches_completed`; a batch is now a single product.
+  `warnings_only_ai_requests` is kept as a compatibility alias of the number of
+  new safety requests. The ETA is measured after the first validated and saved AI product;
+  it stays `null` before the first measurement and is zero at `ready`/`published`.
+  The request metrics include `herb_id`, `safety_source=model_knowledge`, times/tokens,
+  the context, the output and the timeout. They do not include names, problems or generated text.
 
-  Parametrii safety impliciți sunt `HERB_SAFETY_AI_MAX_REQUESTS=10000`,
+  The default safety parameters are `HERB_SAFETY_AI_MAX_REQUESTS=10000`,
   `HERB_SAFETY_BUILD_TIMEOUT_SECONDS=86400`, `HERB_SAFETY_AI_CONTEXT_TOKENS=65536`
-  și `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS=40000`. Bugetele de cereri și timp au crescut
-  deoarece limita se aplică acum produselor, nu loturilor de fragmente. Bugetul
-  comenzii combinate acoperă timpul pentru asocieri plus timpul safety; safety are și
-  propriul deadline. Timeoutul per request rămâne 900 secunde, `think=false`,
-  temperatură zero și streaming local, fără cloud ori cereri AI de reparare.
+  and `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS=40000`. The request and time budgets were increased
+  because the limit now applies to products, not to fragment batches. The budget of the
+  combined command covers the time for associations plus the safety time; safety also has its
+  own deadline. The per-request timeout stays 900 seconds, `think=false`,
+  zero temperature and local streaming, with no cloud or repair AI requests.
 
-  **Extensia bilingvă (migrarea 036).** Cât `HERB_SAFETY_EXTENSION_PRODUCTS` este gol, fluxul de
-  mai sus rămâne neschimbat. Când este setat, `--prepare-safety-warnings` reface de la zero
-  atenționările, contraindicațiile și interacțiunile produselor din domeniu, dintr-o singură rulare
-  pentru ambele limbi: modelul local `HERB_SAFETY_GENERATION_MODEL` (loturi de `HERB_SAFETY_MINISTRAL_BATCH_SIZE`), apoi DeepSeek (întotdeauna activ,
-  loturi de `HERB_SAFETY_DEEPSEEK_BATCH_SIZE`, cere `DEEPSEEK_API_KEY`; fără cheie pregătirea se oprește
-  înainte de orice cerere).
-  Fiecare cerere primește doar identitatea produselor din catalog (fără fragmente, afecțiuni sau
-  date de utilizator) și întoarce fiecare mesaj în română și engleză cu același tip. Promptul
-  `herb_product_safety_bilingual_system.md` cere cel puțin 7 mesaje în total, fără minim pe
-  categorie și fără completare cu mesaje inventate; minimul nu este validat. Lista existentă nu
-  se trimite modelelor. Răspunsurile valide se salvează per produs și etapă în
-  `herb_product_safety_extension_cache`; un produs invalid sau lipsă rămâne necache-uit, iar
-  următoarea pregătire retrimite numai produsele lipsă. Un plic JSON invalid oprește pregătirea.
-  Lista se îmbină cu prioritate DeepSeek, apoi modelul local (cazul real de anticoagulante a arătat că DeepSeek era cel corect). Duplicatele exacte se elimină deterministic; cele
-  semantice se găsesc de un model local, `HERB_SAFETY_DEDUP_MODEL` (migrarea 037, etapa `dedup`, prompt
-  `herb_product_safety_dedup_system.md`, loturi de `HERB_SAFETY_MINISTRAL_BATCH_SIZE` produse, cache per
-  produs, digestul propriu al modelului): modelul grupează mesajele echivalente, indiferent de tip, iar din fiecare grup rămâne
-  mesajul sursei cu prioritate mai mare (la aceeași sursă, tipul mai sever). Eliminarea se face o
-  singură dată pe mesajul bilingv, ca listele RO și EN să rămână identice ca număr, ordine și tip.
-  Embeddings cu prag nu separă duplicatele reale de mesajele distincte și nu se folosesc. Perechile
-  eliminate se scriu în `aiWork/herb_safety_dedup_pairs.json`. Mesajele contradictorii despre
-  același partener nu sunt rezolvate automat.
-  Pregătirea creează două generații (RO și EN), copiază produsele din afara domeniului din
-  generațiile active ale limbii și afișează `run_id_ro` și `run_id_en`; fiecare se publică separat,
-  cu `--publish-safety-warnings RUN_ID` (limba se citește din generație). Cât extensia este
-  activă, pregătirea/publicarea pozitivă nu mai atinge generațiile safety. Reindexarea normală
-  (`build_hybrid_index` fără flaguri de mod, care nu folosește `--skip-positive-ranking`) rulează la
-  final și extensia pentru produsele din domeniu, pentru ambele limbi, și publică cele două generații;
-  Toate cererile AI se fac în această fază offline,
-  niciodată la întrebarea din chat, care citește numai generația publicată.
-  Etapa DeepSeek trimite date de catalog către un model extern; calitatea nu este validată clinic.
+  **The bilingual extension (migration 036).** While `HERB_SAFETY_EXTENSION_PRODUCTS` is empty, the flow
+  above stays unchanged. When it is set, `--prepare-safety-warnings` rebuilds from scratch the
+  warnings, contraindications and interactions of the in-scope products, in a single run
+  for both languages: the local model `HERB_SAFETY_GENERATION_MODEL` (batches of `HERB_SAFETY_MINISTRAL_BATCH_SIZE`), then DeepSeek (always active,
+  batches of `HERB_SAFETY_DEEPSEEK_BATCH_SIZE`, requires `DEEPSEEK_API_KEY`; without the key the preparation stops
+  before any request).
+  Each request receives only the identity of the products from the catalog (no fragments, conditions or
+  user data) and returns each message in Romanian and English with the same type. The prompt
+  `herb_product_safety_bilingual_system.md` asks for at least 7 messages in total, with no minimum per
+  category and without padding with invented messages; the minimum is not validated. The existing list is not
+  sent to the models. Valid answers are saved per product and stage in
+  `herb_product_safety_extension_cache`; an invalid or missing product stays uncached, and the
+  next preparation resends only the missing products. An invalid JSON envelope stops the preparation.
+  The list is merged with DeepSeek taking priority, then the local model (the real anticoagulants case showed that DeepSeek was the correct one). Exact duplicates are removed deterministically; semantic
+  ones are found by a local model, `HERB_SAFETY_DEDUP_MODEL` (migration 037, stage `dedup`, prompt
+  `herb_product_safety_dedup_system.md`, batches of `HERB_SAFETY_MINISTRAL_BATCH_SIZE` products, per-product
+  cache, the model's own digest): the model groups equivalent messages, regardless of type, and from each group the
+  message of the higher-priority source remains (for the same source, the more severe type). Removal is done once
+  on the bilingual message, so that the RO and EN lists stay identical in count, order and type.
+  Embeddings with a threshold do not separate real duplicates from distinct messages and are not used. The removed
+  pairs are written to `aiWork/herb_safety_dedup_pairs.json`. Contradictory messages about the
+  same partner are not resolved automatically.
+  The preparation creates two generations (RO and EN), copies the out-of-scope products from the language's
+  active generations and displays `run_id_ro` and `run_id_en`; each is published separately,
+  with `--publish-safety-warnings RUN_ID` (the language is read from the generation). While the extension is
+  active, positive preparation/publishing no longer touches the safety generations. Normal reindexing
+  (`build_hybrid_index` with no mode flags, which does not use `--skip-positive-ranking`) also runs at the
+  end the extension for the in-scope products, for both languages, and publishes the two generations;
+  all AI requests are made in this offline phase,
+  never at the chat question, which reads only the published generation.
+  The DeepSeek stage sends catalog data to an external model; the quality is not clinically validated.
 
-  Pilot, apoi activare completă (`HERB_SAFETY_EXTENSION_PRODUCTS=hypericum perforatum`, apoi
-  `first:100` și `all`):
+  Pilot, then full activation (`HERB_SAFETY_EXTENSION_PRODUCTS=hypericum perforatum`, then
+  `first:100` and `all`):
 
   ```powershell
   $env:PYTHONPATH = 'src'
@@ -279,107 +282,107 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
   .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-safety-warnings EN_RUN_ID
   ```
 
-  Potrivirea numelor românești acceptă flexiuni din dicționarul Hunspell inclus (articol, plural, genitiv), cu sau fără diacritice, inclusiv în denumiri din mai multe cuvinte. Regulile generale pentru intrările incomplete sunt validate cu același dicționar, fără liste de excepții pe plante. Forma exactă are prioritate; numele comune mai multor specii cer alegerea speciei.
-- **Top plante/produse:** clasament pozitiv din `herb_positive_rankings`, filtrat exact după categoria cerută înainte de sortare și limitare. Interfața oferă exemplele „Top 100 produse naturiste” și „Top 10 produse naturiste pentru gripa”; un click completează câmpul și îi dă focus, apoi utilizatorul trimite mesajul. „Top X produse naturiste” fără afecțiune afișează cele 11 categorii, fiecare pe un rând numerotat; utilizatorul răspunde cu numărul categoriei și primește până la X produse din acea categorie. O alegere invalidă repetă lista fără a schimba X. Comenzile directe precum „Top 20 suplimente”, „Top 10 plante medicinale”, „Primele 20 vitamine” și „Top 100 semințe” rămân disponibile. „Top 100”, „Top 100 plante”, „top general” și „toate categoriile” includ toate categoriile. Fără cantitate se folosesc 100 de intrări; categoriile necunoscute sau multiple cer alegerea unei singure categorii, iar un număr invalid cere o cantitate între 1 și 10000. Clarificările păstrează categoria/numărul cerut. Răspunsul arată numărul efectiv returnat, asocierile și aliasurile regionale; fără căutare hibridă sau generare AI pentru comenzile explicite.
-- **Top pentru o afecțiune:** „Top 10 produse naturiste pentru gripa” selectează direct, din toate categoriile, numai produsele cu pereche `positive` pentru afecțiunea din catalog. „Top 5 suplimente contra gripa” adaugă filtrul exact de categorie; „pentru”, „contra” și „împotriva” sunt echivalente. Eligibilitatea din `herb_positive_pairs` și rankingul din `herb_positive_rankings` folosesc aceeași rulare publicată compatibilă, într-o singură tranzacție. Ordinea este scorul descrescător `HERB_CONDITION_TOP_FORMULA` (implicit `2*L1+L2+100*L3`), apoi L3 descrescător, apoi ID crescător, cu filtrele de afecțiune și categorie aplicate înainte de limita N. L1 = fragmentele distincte cu afecțiunea în titlu și mențiune pozitivă a produsului; L2 = fragmentele distincte care menționează produsul și numesc afecțiunea în text (titlul exclus, fără clasificare de polaritate); L3 = numărul total de afecțiuni pozitive ale produsului, afișat la finalul rândului ca „· util în N afecțiuni”, după „· X fragmente dedicate afecțiunii · Y fragmente care o menționează” (L1 și L2; partea cu L2 lipsește când este zero) și după denumirile regionale. Valorile sunt precalculate în `herb_condition_scores` (migrarea `037`), cheiate pe rularea pozitivă activă, deci cererea citește un singur interval de index și sortează în memorie. Topul fără afecțiune rămâne ordonat după L3. Sinonimele și formele cu/fără diacritice se rezolvă local; o afecțiune necunoscută cere reformulare, iar denumirile ambigue, aproximările și cererile cu mai multe afecțiuni cer alegerea unei singure afecțiuni, păstrând N și categoria. Calificativele nerecunoscute nu sunt eliminate pentru a lărgi filtrul. Rezultatele pot fi mai puține decât N sau zero; indisponibilitatea rankingului produce eroarea existentă, fără revenire la asocierile istorice. Fluxul nu generează raport, PDF sau email și nu reprezintă validare clinică.
-- **Diverse:** căutare după mesajul original, fără identificarea afecțiunii prin AI și fără notificările despre afecțiunea necunoscută. Generarea raportului naturist rămâne ca în fluxul de remedii.
-- **Email raport:** adresă validată local și PDF-ul precedent din aceeași sesiune; fără căutare nouă. Mesajul poate fi o adresă singură sau o cerere precum „Trimite raportul la nume@example.com”.
+  Matching of Romanian names accepts inflections from the bundled Hunspell dictionary (article, plural, genitive), with or without diacritics, including in multi-word names. The general rules for incomplete entries are validated with the same dictionary, without per-plant exception lists. The exact form takes priority; names shared by several species require choosing the species.
+- **Top plants/products:** positive ranking from `herb_positive_rankings`, filtered exactly by the requested category before sorting and limiting. The interface offers the examples “Top 100 natural products” and “Top 10 natural products for flu”; a click fills in the field and gives it focus, then the user sends the message. “Top X natural products” without a condition displays the 11 categories, each on a numbered row; the user answers with the category number and receives up to X products from that category. An invalid choice repeats the list without changing X. Direct commands such as “Top 20 supplements”, “Top 10 medicinal herbs”, “First 20 vitamins” and “Top 100 seeds” remain available. “Top 100”, “Top 100 plants”, “general top” and “all categories” include all categories. Without a quantity, 100 entries are used; unknown or multiple categories ask for a single category to be chosen, and an invalid number asks for a quantity between 1 and 10000. Clarifications keep the requested category/number. The answer shows the number actually returned, the associations and the regional aliases; no hybrid search or AI generation for explicit commands.
+- **Top for a condition:** “Top 10 natural products for flu” selects directly, from all categories, only the products with a `positive` pair for the condition from the catalog. “Top 5 supplements against flu” adds the exact category filter; the Romanian words for “for” (`pentru`) and “against” (`contra`, `împotriva`) are equivalent. Eligibility from `herb_positive_pairs` and the ranking from `herb_positive_rankings` use the same compatible published run, in a single transaction. The order is the descending score `HERB_CONDITION_TOP_FORMULA` (default `2*L1+L2+100*L3`), then L3 descending, then ID ascending, with the condition and category filters applied before the limit N. L1 = the distinct fragments with the condition in the title and a positive mention of the product; L2 = the distinct fragments that mention the product and name the condition in the text (title excluded, no polarity classification); L3 = the product's total number of positive conditions, displayed at the end of the row as “· useful in N conditions”, after “· X fragments dedicated to the condition · Y fragments that mention it” (L1 and L2; the L2 part is missing when it is zero) and after the regional names. The values are precomputed in `herb_condition_scores` (migration `037`), keyed on the active positive run, so the request reads a single index range and sorts in memory. The top without a condition stays ordered by L3. Synonyms and forms with/without diacritics are resolved locally; an unknown condition asks for rephrasing, while ambiguous names, approximations and requests with several conditions ask for a single condition to be chosen, keeping N and the category. Unrecognized qualifiers are not removed to widen the filter. The results may be fewer than N or zero; ranking unavailability produces the existing error, without falling back to historical associations. The flow does not generate a report, PDF or email and does not constitute clinical validation.
+- **Miscellaneous:** search by the original message, without identifying the condition through AI and without the notifications about the unknown condition. Generation of the naturopathy report stays as in the remedies flow.
+- **Report email:** locally validated address and the previous PDF from the same session; no new search. The message can be an address alone or a request such as “Send the report to name@example.com”.
 
-Clasificarea trimite către Ollama local numai mesajul și context minimal de rutare, fără PDF sau corpus. Refolosește `CONDITION_AI_LOCAL_BASE` și `MEDICAL_CONDITION_AI_LOCAL_MODEL`, cu temperatura 0, fără cheie API și fără fallback Hugging Face. Schema JSON impune una dintre cele cinci intenții și câmpurile permise; validarea strictă se repetă în aplicație. Numele și aliasurile plantelor sunt recunoscute și în catalogul local, fără diferențe de diacritice sau cratime. Un nume explicit completează clarificarea. Dacă numele corespunde mai multor plante, aplicația afișează numele românești și latine și cere alegerea utilizatorului; aceasta selectează o singură specie și asocierile ei. Este independentă de `REPORT_GENERATION_MODELS`. La eșec se continuă cu fluxul existent, cu o notificare; cererile explicite de email cer clarificare, iar o adresă singură păstrează comanda deterministă existentă. Cererile neclare solicită planta sau destinatarul. Clasificarea și expedierea nu sunt reîncercate automat; identificatorul mesajului și revizia previn repetarea aceleiași expediții.
+The classification sends to local Ollama only the message and minimal routing context, with no PDF or corpus. It reuses `CONDITION_AI_LOCAL_BASE` and `MEDICAL_CONDITION_AI_LOCAL_MODEL`, with temperature 0, no API key and no Hugging Face fallback. The JSON schema enforces one of the five intents and the allowed fields; strict validation is repeated in the application. Plant names and aliases are also recognized in the local catalog, regardless of diacritics or hyphens. An explicit name completes the clarification. If the name matches several plants, the application displays the Romanian and Latin names and asks the user to choose; this selects a single species and its associations. It is independent of `REPORT_GENERATION_MODELS`. On failure, the existing flow continues, with a notification; explicit email requests ask for clarification, and an address alone keeps the existing deterministic command. Unclear requests ask for the plant or the recipient. Classification and sending are not retried automatically; the message identifier and the revision prevent repeating the same shipment.
 
-Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot-external-connections.xmind). Clasificarea și rutarea mesajelor (XMind 8): [message-classification-plan.xmind](architecture/message-classification-plan.xmind).
+Updated diagram: [chatbot-external-connections.xmind](architecture/chatbot-external-connections.xmind). Message classification and routing (XMind 8): [message-classification-plan.xmind](architecture/message-classification-plan.xmind).
 
 ```text
-📚 documente Markdown
+📚 Markdown documents
         ↓
-✂️ fragmente R1 / R2 / D1, cu afecțiuni, sursă și interval de linii
+✂️ R1 / R2 / D1 fragments, with conditions, source and line range
         ↓
-🧠 embeddings Qwen3  +  🔎 tsvector, în Postgres/pgvector
+🧠 Qwen3 embeddings  +  🔎 tsvector, in Postgres/pgvector
         ↓
-⚖️ scor combinat din semnalele alese (P1 › P2 › lexical › semantic) și bugetul de context
+⚖️ combined score from the chosen signals (P1 › P2 › lexical › semantic) and the context budget
         ↓
-👁️ utilizatorul verifică fragmentele găsite
+👁️ the user reviews the fragments found
         ↓
-🤖 model ales: Ollama pentru toți utilizatorii / DeepSeek doar pentru admin
+🤖 chosen model: Ollama for all users / DeepSeek for admin only
         ↓
-💬 recomandări în chat  +  📄 raport PDF  +  ✉️ e-mail opțional
+💬 recommendations in chat  +  📄 PDF report  +  ✉️ optional email
 ```
 
-> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Generarea trimite profilul consultației și fragmentele selectate către modelul ales în UI: modelele locale prin `OLLAMA_API_BASE`, `deepseek-flash` prin API-ul DeepSeek, `DeepSeek-V4-Flash` prin routerul Hugging Face/DeepInfra sau `grok-4.3` prin API-ul xAI. Generarea cu orice model necesită autorizarea de admin. Selecția se aplică doar raportului curent, fără modificarea variabilelor de mediu sau fallback la alt furnizor. Identificarea unei afecțiuni necunoscute trimite numai mesajul către Ollama de pe host. La timeout, eroare de comunicare sau răspuns invalid, afecțiunea rămâne neidentificată; nu se apelează alt furnizor AI. Livrarea prin Gmail este opțională.
+> **Local vs. external:** the documents, fragmentation, indexing and retrieval run locally. Generation sends the consultation profile and the selected fragments to the model chosen in the UI: local models through `OLLAMA_API_BASE`, `deepseek-flash` through the DeepSeek API, `DeepSeek-V4-Flash` through the Hugging Face/DeepInfra router or `grok-4.3` through the xAI API. Generation with any model requires admin authorization. The selection applies only to the current report, without modifying environment variables or falling back to another provider. Identifying an unknown condition sends only the message to Ollama on the host. On timeout, communication error or invalid answer, the condition stays unidentified; no other AI provider is called. Delivery through Gmail is optional.
 
-## 🛠️ Tehnologii folosite
+## 🛠️ Technologies used
 
-| Zonă | Tehnologii |
+| Area | Technologies |
 |---|---|
-| **Limbaj și runtime** | Python ≥ 3.11 (mediu local documentat: 3.11), PowerShell, Node.js 22 pentru frontend |
-| **Interfață și API** | React 19, TypeScript, Vite, TanStack Query, FastAPI, Uvicorn |
-| **Embeddings locale** | FastEmbed, ONNX Runtime, `Qwen/Qwen3-Embedding-0.6B` (indexare opțională pe GPU, PyTorch fp16) |
-| **Stocare index** | PostgreSQL, `pgvector` (similaritate cosinus), `unaccent` + `tsvector` (căutare lexicală) |
-| **Scorul fragmentelor** | `4·P1 + 2·P2 + L + V` cu toate semnalele, cu prioritate pentru afecțiunea din titlu, apoi din text; pacientul poate alege oricare combinație de semnale |
-| **Generare AI** | Ollama `/api/chat` nativ sau DeepSeek Responses API (doar admin), ales pentru fiecare raport, răspuns JSON structurat |
-| **Documente** | ReportLab pentru PDF, pypdf pentru procesare și verificare |
-| **E-mail** | Gmail API, OAuth2 cu refresh token |
-| **Configurare** | python-dotenv, variabile de mediu |
-| **Rulare și publicare** | Docker, Docker Compose, Tailscale Funnel, PostgreSQL (`pgvector/pgvector`) |
-| **Testare** | `unittest`, `pytest` + `testcontainers` (Postgres efemer) pentru backend, Vitest pentru frontend |
+| **Language and runtime** | Python ≥ 3.11 (documented local environment: 3.11), PowerShell, Node.js 22 for the frontend |
+| **Interface and API** | React 19, TypeScript, Vite, TanStack Query, FastAPI, Uvicorn |
+| **Local embeddings** | FastEmbed, ONNX Runtime, `Qwen/Qwen3-Embedding-0.6B` (optional GPU indexing, PyTorch fp16) |
+| **Index storage** | PostgreSQL, `pgvector` (cosine similarity), `unaccent` + `tsvector` (lexical search) |
+| **Fragment scoring** | `4·P1 + 2·P2 + L + V` with all signals, prioritizing the condition in the title, then in the text; the patient can choose any combination of signals |
+| **AI generation** | Native Ollama `/api/chat` or DeepSeek Responses API (admin only), chosen for each report, structured JSON answer |
+| **Documents** | ReportLab for PDF, pypdf for processing and verification |
+| **Email** | Gmail API, OAuth2 with refresh token |
+| **Configuration** | python-dotenv, environment variables |
+| **Running and publishing** | Docker, Docker Compose, Tailscale Funnel, PostgreSQL (`pgvector/pgvector`) |
+| **Testing** | `unittest`, `pytest` + `testcontainers` (ephemeral Postgres) for the backend, Vitest for the frontend |
 
-## 🗺️ Documentație de arhitectură
+## 🗺️ Architecture documentation
 
-| Document | Ce explică |
+| Document | What it explains |
 |---|---|
-| 🧠 [Fluxul de generare a indexului hibrid (XMind 8)](architecture/hybrid-index-generation.xmind) | Fluxul complet: documente → sincronizare incrementală (SHA-256) → fragmente R1/R2/D1 → embeddings → Postgres (`pgvector` + `tsvector`). |
-| 📄 [Fluxul de generare a raportului final (XMind 8)](architecture/final-report-generation.xmind) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează raportul” → furnizorul AI → PDF → download și trimitere pe e-mail către altă persoană. |
-| 🔎 [Căutarea și scoringul fragmentelor (XMind 8)](architecture/fragment-search-and-scoring.xmind) | Fluxul complet: mesaj → afecțiuni recunoscute → scor (`4·P1 + 2·P2 + L + V` cu toate semnalele alese) pentru toate fragmentele → procent de relevanță → limitarea contextului. |
+| 🧠 [Hybrid index generation flow (XMind 8)](architecture/hybrid-index-generation.xmind) | The complete flow: documents → incremental synchronization (SHA-256) → R1/R2/D1 fragments → embeddings → Postgres (`pgvector` + `tsvector`). |
+| 📄 [Final report generation flow (XMind 8)](architecture/final-report-generation.xmind) | The complete flow: message → hybrid retrieval → fragments displayed to the patient → “Generate report” → the AI provider → PDF → download and sending by email to another person. |
+| 🔎 [Fragment search and scoring (XMind 8)](architecture/fragment-search-and-scoring.xmind) | The complete flow: message → recognized conditions → score (`4·P1 + 2·P2 + L + V` with all chosen signals) for all fragments → relevance percentage → context limiting. |
 
-## 📁 Structura proiectului
+## 📁 Project structure
 
 ```text
 medicina-naturista/
-├── architecture/                 # diagramele fluxurilor principale în format XMind
+├── architecture/                 # diagrams of the main flows in XMind format
 ├── medicina-naturista-documente/
 │   └── data/
-│       └── documents/                # corpusul Markdown local
-├── model_cache/                  # modelele locale; ignorat de Git
+│       └── documents/                # the local Markdown corpus
+├── model_cache/                  # the local models; ignored by Git
 ├── src/
 │   ├── backend/
-│   │   ├── ai/                       # fragmentare, afecțiuni, căutare, retrieval, clienți AI și prompturi
-│   │   ├── core/                     # modele și sesiuni izolate
-│   │   ├── migrations/               # schema PostgreSQL și cataloagele inițiale de afecțiuni/plante
-│   │   ├── integrations/             # integrarea Gmail
-│   │   ├── reporting/                # generarea raportului PDF
-│   │   └── web/                      # API JSON FastAPI (servește și build-ul React)
-│   ├── frontend/                 # aplicația React/TypeScript (Vite)
+│   │   ├── ai/                       # fragmentation, conditions, search, retrieval, AI clients and prompts
+│   │   ├── core/                     # models and isolated sessions
+│   │   ├── migrations/               # PostgreSQL schema and the initial catalogs of conditions/plants
+│   │   ├── integrations/             # Gmail integration
+│   │   ├── reporting/                # PDF report generation
+│   │   └── web/                      # FastAPI JSON API (also serves the React build)
+│   ├── frontend/                 # the React/TypeScript application (Vite)
 │   ├── scripts/
-│   │   ├── build_hybrid_index.py     # sincronizarea incrementală a indexului în Postgres
-│   │   ├── bootstrap_database.py     # creează baza lipsă înainte de indexare
-│   │   ├── migrate_database.py       # aplică migrările SQL versionate
-│   │   ├── condition_sql.py          # generează SQL pentru afecțiuni noi
-│   │   ├── manage_dependencies.py    # generează și verifică lockurile
-│   │   ├── search_index.ps1          # căutare locală din terminal
-│   │   ├── clean_documents.py        # curățare și corectare OCR/de scriere cu dicționarul inclus
-│   │   ├── fragment_report.py        # simularea fragmentării; citește catalogul din DB, fără embeddings
-│   │   ├── audit_conditions.py       # audit read-only al dicționarului de afecțiuni
-│   │   ├── audit_near_dupes.py       # afecțiuni canonice aproape duplicate (read-only)
-│   │   ├── audit_herbs.py            # raport read-only despre plantele din PostgreSQL (în tmp/herbs_review.md)
-│   │   ├── icd10_work/               # scripturi one-off pentru completarea dicționarului după ICD-10
-│   │   ├── evaluate_retrieval.py     # măsurarea calității căutării (P@10, MRR, nDCG)
-│   │   ├── google_oauth_setup.py     # autorizare Gmail OAuth2
-│   │   ├── extract_pdf_markdown.py   # extragerea structurată în Markdown
-│   │   └── merge_book_pdfs.py        # combinarea părților de carte PDF
-│   └── tests/                    # teste unitare și de integrare
+│   │   ├── build_hybrid_index.py     # incremental synchronization of the index in Postgres
+│   │   ├── bootstrap_database.py     # creates the missing database before indexing
+│   │   ├── migrate_database.py       # applies the versioned SQL migrations
+│   │   ├── condition_sql.py          # generates SQL for new conditions
+│   │   ├── manage_dependencies.py    # generates and verifies the locks
+│   │   ├── search_index.ps1          # local search from the terminal
+│   │   ├── clean_documents.py        # cleaning and OCR/spelling correction with the bundled dictionary
+│   │   ├── fragment_report.py        # fragmentation simulation; reads the catalog from the DB, no embeddings
+│   │   ├── audit_conditions.py       # read-only audit of the conditions dictionary
+│   │   ├── audit_near_dupes.py       # near-duplicate canonical conditions (read-only)
+│   │   ├── audit_herbs.py            # read-only report on the plants in PostgreSQL (in tmp/herbs_review.md)
+│   │   ├── icd10_work/               # one-off scripts for completing the dictionary from ICD-10
+│   │   ├── evaluate_retrieval.py     # measuring search quality (P@10, MRR, nDCG)
+│   │   ├── google_oauth_setup.py     # Gmail OAuth2 authorization
+│   │   ├── extract_pdf_markdown.py   # structured extraction to Markdown
+│   │   └── merge_book_pdfs.py        # merging book parts from PDFs
+│   └── tests/                    # unit and integration tests
 ├── docker-compose.yaml
 ├── Dockerfile
 ├── pyproject.toml
-├── requirements-runtime*.lock    # dependențe runtime fixate, cu hashuri
-├── requirements-dev*.lock        # runtime + unelte de dezvoltare/testare
-└── requirements-web.txt          # alias compatibil pentru Windows/Python 3.11
+├── requirements-runtime*.lock    # pinned runtime dependencies, with hashes
+├── requirements-dev*.lock        # runtime + development/testing tools
+└── requirements-web.txt          # compatibility alias for Windows/Python 3.11
 ```
 
-## 🚀 Pornire rapidă
+## 🚀 Quick start
 
-### 1. Pregătirea mediului
+### 1. Preparing the environment
 
-Comenzile PowerShell se execută din rădăcina proiectului. Instalați Python 3.11 și Node.js 22/npm; PostgreSQL cu `pgvector` trebuie să fie accesibil înainte de indexare. Corpusul `medicina-naturista-documente/data/documents/` este furnizat separat. Cataloagele de afecțiuni și plante se reconstruiesc din migrările SQL livrate.
+PowerShell commands are run from the project root. Install Python 3.11 and Node.js 22/npm; PostgreSQL with `pgvector` must be reachable before indexing. The corpus `medicina-naturista-documente/data/documents/` is provided separately. The catalogs of conditions and plants are rebuilt from the shipped SQL migrations.
 
 ```powershell
 py -3.11 -m venv .venv
@@ -387,50 +390,50 @@ py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements-runtime.lock
 ```
 
-Plasați documentele românești în `medicina-naturista-documente/data/documents/ro/` și documentele englezești în `medicina-naturista-documente/data/documents/en/`. Mutarea surselor vechi din rădăcina `documents` în `documents/ro` se face manual. Curățarea de mai jos parcurge recursiv ambele directoare, RO și EN. Nu publicați corpusul dacă include materiale private sau protejate. Opțional, curățați-le înainte de indexare (metadate de extragere PDF, linkuri, marcaje de pagină, trimiteri „Vezi și”, diacritice românești transcrise în litere ASCII: `ă/â → a`, `î → i`, `ș → s`, `ț → t`):
+Place the Romanian documents in `medicina-naturista-documente/data/documents/ro/` and the English documents in `medicina-naturista-documente/data/documents/en/`. Moving the old sources from the `documents` root into `documents/ro` is done manually. The cleaning below walks both directories, RO and EN, recursively. Do not publish the corpus if it includes private or protected material. Optionally, clean them before indexing (PDF extraction metadata, links, page markers, “See also” references, Romanian diacritics transcribed into ASCII letters: `ă/â → a`, `î → i`, `ș → s`, `ț → t`):
 
 ```powershell
 .\.venv\Scripts\python.exe src\scripts\clean_documents.py --dry-run
 .\.venv\Scripts\python.exe src\scripts\clean_documents.py
 ```
 
-Înlocuirea diacriticelor este activă implicit; opțiunea `--no-fold-diacritics` le păstrează. Corectarea cuvintelor folosește fișierele Hunspell `ro_RO.dic` și `ro_RO.aff` din `src/scripts/dictionaires/ro/` pentru sursele RO, respectiv `en_GB.dic` și `en_GB.aff` din `src/scripts/dictionaires/en/` pentru sursele EN, localizate relativ la script. Limba este stabilită din directorul `documents/ro` sau `documents/en`, inclusiv când `--source` indică un subdirector al acestuia. Pentru a prelucra numai sursele englezești, adăugați `--source medicina-naturista-documente/data/documents/en`.
+Diacritic replacement is active by default; the `--no-fold-diacritics` option keeps them. Word correction uses the Hunspell files `ro_RO.dic` and `ro_RO.aff` from `src/scripts/dictionaires/ro/` for the RO sources, and `en_GB.dic` and `en_GB.aff` from `src/scripts/dictionaires/en/` for the EN sources, located relative to the script. The language is determined from the `documents/ro` or `documents/en` directory, including when `--source` points to a subdirectory of it. To process only the English sources, add `--source medicina-naturista-documente/data/documents/en`.
 
-Corectarea rulează după curățare pentru sursele RO și EN: unește două fragmente OCR nerecunoscute, separă cuvinte lipite și corectează greșeli rare neambigue. Modernizarea ortografiei vechi se aplică numai limbii române. Frecvențele și cuvintele funcționale sunt separate pe limbi, astfel încât corpusul RO nu influențează corecturile EN și invers. Pentru fișierele din afara directoarelor de limbă, se păstrează tratarea anterioară: numai textele detectate ca românești primesc corecturi ortografice; cele englezești sau mixte primesc doar curățarea generală. Unirea protejează cuvintele din dicționar, cuvintele funcționale precum `la`, `de`, `si` și fragmentele de o singură literă; expresii precum `tumora la san` și `pieptul e` rămân separate. Întreaga prelucrare este planificată în memorie: frecvențele se recalculează după fiecare trecere, până când o trecere completă nu mai schimbă nimic. Abia apoi se rescriu fișierele. Cu același corpus, dicționar și aceleași opțiuni, o nouă rulare reușită nu mai modifică documentele sau datele lor de modificare. Un ciclu ori depășirea limitei de 16 treceri oprește execuția înainte de orice rescriere a surselor. `--dry-run` calculează același rezultat stabil, fără modificarea documentelor.
+Correction runs after cleaning for the RO and EN sources: it joins two unrecognized OCR fragments, splits glued words and fixes rare unambiguous mistakes. Modernization of old spelling applies only to Romanian. Frequencies and function words are separated per language, so that the RO corpus does not influence the EN corrections and vice versa. For files outside the language directories, the previous handling is kept: only texts detected as Romanian receive spelling corrections; English or mixed ones receive only the general cleaning. Joining protects dictionary words, function words such as `la`, `de`, `si` and single-letter fragments; expressions such as `tumora la san` and `pieptul e` stay separate. The whole processing is planned in memory: frequencies are recomputed after each pass, until a complete pass changes nothing. Only then are the files rewritten. With the same corpus, dictionary and options, a new successful run no longer changes the documents or their modification dates. A cycle or exceeding the limit of 16 passes stops execution before any rewriting of the sources. `--dry-run` computes the same stable result, without modifying the documents.
 
-Documentele din `documents/ro` detectate clar ca englezești folosesc dicționarul EN la
-curățare, fără mutarea fișierelor. Suprascrierea limbii folderului cere minimum 20 de
-cuvinte, cel puțin patru cuvinte funcționale distincte specifice limbii engleze și
-rezultatul EN al detectorului combinat. Textele scurte sau clasificate ca mixte/incerte păstrează limba folderului.
-Detecția combină frecvența cuvintelor funcționale cu vocabularul distinct găsit exclusiv
-într-unul dintre dicționare. Cuvintele comune și cele necunoscute sunt neutre. Votul
-vocabularului cere cel puțin cinci cuvinte distincte exclusive, acoperire de minimum 20%
-și un raport de cel puțin 2:1; un conflict cu metoda bazată pe cuvinte funcționale produce
-rezultatul mixt. Ambele dicționare se încarcă o singură dată, înaintea selecției limbii,
-și se reutilizează la detecție și corectare. Expansiunea Hunspell combină cel mult un
-prefix cu un sufix compatibil, fără acumularea arbitrară de prefixe.
-Selecția este anunțată în consolă prin `Dictionary override ro -> en`, inclusiv la
-`--dry-run`. Această selecție privește doar corectarea ortografică; limba fragmentelor
-la indexare rămâne cea a folderului sursă.
+Documents in `documents/ro` clearly detected as English use the EN dictionary during
+cleaning, without moving the files. Overriding the folder's language requires a minimum of 20
+words, at least four distinct function words specific to English and
+the EN result of the combined detector. Short texts or those classified as mixed/uncertain keep the folder's language.
+Detection combines the frequency of function words with the distinct vocabulary found exclusively
+in one of the dictionaries. Common and unknown words are neutral. The vocabulary
+vote requires at least five distinct exclusive words, coverage of at least 20%
+and a ratio of at least 2:1; a conflict with the function-word method produces the
+mixed result. Both dictionaries are loaded once, before the language selection,
+and reused for detection and correction. Hunspell expansion combines at most one
+prefix with a compatible suffix, without arbitrary accumulation of prefixes.
+The selection is announced in the console through `Dictionary override ro -> en`, including at
+`--dry-run`. This selection concerns only spelling correction; the language of the fragments
+at indexing stays that of the source folder.
 
-Raportul `var/spelling_changes.tsv` conține fișierul, linia din textul curățat la trecerea respectivă, regula, formele înainte/după și coloana `pass` cu numărul trecerii. El înregistrează pașii corectării; trecerile ulterioare pot elimina linii și schimba numerotarea. Se generează și la `--dry-run`. Folosiți `--spelling-report` pentru altă destinație. Lipsa dicționarului oprește execuția înainte de modificarea documentelor. Protecția dozelor și numerelor verifică rezultatul fiecărei treceri; fișierele care o încalcă sunt păstrate intacte și execuția se încheie cu eroare. `--no-fold-diacritics` păstrează diacriticele și folosește formele din dicționar pentru înlocuiri. Corectarea rămâne euristică; nu poate garanta sensul medical al textului și nu repară automat unirile greșite produse de versiuni anterioare.
+The report `var/spelling_changes.tsv` contains the file, the line in the text cleaned at that pass, the rule, the before/after forms and the `pass` column with the pass number. It records the correction steps; later passes may remove lines and change the numbering. It is also generated at `--dry-run`. Use `--spelling-report` for another destination. A missing dictionary stops execution before the documents are modified. The protection of doses and numbers checks the result of each pass; files that violate it are kept intact and execution ends with an error. `--no-fold-diacritics` keeps the diacritics and uses the dictionary forms for replacements. Correction remains heuristic; it cannot guarantee the medical meaning of the text and does not automatically repair wrong joins produced by earlier versions.
 
-Aveți nevoie de un Postgres cu extensia `pgvector` pornit și accesibil la `DATABASE_URL` (implicit `postgresql://medicina:medicina@127.0.0.1:5432/medicina`); cel mai simplu e `docker compose up -d db`, care cere `POSTGRES_PASSWORD` în `.env` (utilizatorul și baza sunt implicit `medicina`), deci `DATABASE_URL` trebuie să folosească aceeași parolă.
+You need a Postgres with the `pgvector` extension running and reachable at `DATABASE_URL` (by default `postgresql://medicina:medicina@127.0.0.1:5432/medicina`); the simplest way is `docker compose up -d db`, which requires `POSTGRES_PASSWORD` in `.env` (the user and database are `medicina` by default), so `DATABASE_URL` must use the same password.
 
-### 2. Sincronizarea indexului
+### 2. Synchronizing the index
 
-Reindexarea implicită citește ambele rădăcini, `DOCUMENTS_DIR` (implicit
-`data/documents/ro`) și `DOCUMENTS_EN_DIR` (implicit `data/documents/en`), și publică
-un singur index atomic. `--source-ro` (alias `--source`) și `--source-en` înlocuiesc
-explicit rădăcinile. Un folder lipsă, gol sau suprapus celuilalt oprește buildul înainte
-de publicare. Identitățile surselor sunt `ro/<cale>` și `en/<cale>`; prefixul nu este
-categorie. Fragmentele, statisticile de scor, sursele și topurile sunt filtrate după limbă.
-După indexare, pregătirea/publicarea implicită a recomandărilor și a avertizărilor rulează
-pentru fiecare limbă cu promptul ei. Comenzile dedicate de analiză, pregătire, reluare sau
-publicare acceptă `--language ro|en`; RUN_ID trebuie folosit în limba în care a fost creat.
-CLI-ul de căutare acceptă `-Language en`, iar `fragment_report.py` și
-`evaluate_retrieval.py` acceptă `--language en`. Schimbarea versiunii reprezentării la
-`11` necesită reindexare; aplicația nu aplică migrări și nu pornește reindexarea la startup.
+The default reindex reads both roots, `DOCUMENTS_DIR` (by default
+`data/documents/ro`) and `DOCUMENTS_EN_DIR` (by default `data/documents/en`), and publishes
+a single atomic index. `--source-ro` (alias `--source`) and `--source-en` explicitly
+replace the roots. A missing, empty folder or one overlapping the other stops the build before
+publishing. The source identities are `ro/<path>` and `en/<path>`; the prefix is not a
+category. Fragments, score statistics, sources and rankings are filtered by language.
+After indexing, the default preparation/publishing of the recommendations and warnings runs
+for each language with its own prompt. The dedicated analysis, preparation, resume or
+publish commands accept `--language ro|en`; RUN_ID must be used in the language in which it was created.
+The search CLI accepts `-Language en`, and `fragment_report.py` and
+`evaluate_retrieval.py` accept `--language en`. Changing the representation version to
+`11` requires reindexing; the application does not apply migrations and does not start reindexing at startup.
 
 
 ```powershell
@@ -438,11 +441,11 @@ $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe src\scripts\build_hybrid_index.py
 ```
 
-Scriptul importă pachetul `backend`, deci are nevoie de `PYTHONPATH=src`. Baza vine din `DATABASE_URL` (`.env`); `--model` și `--source` sunt opționale. Scriptul pornește cu pythonul din care îl rulezi (pe CPU, fără alt mediu); pe GPU vezi mai jos.
+The script imports the `backend` package, so it needs `PYTHONPATH=src`. The database comes from `DATABASE_URL` (`.env`); `--model` and `--source` are optional. The script starts with the Python you run it from (on CPU, no other environment); for GPU see below.
 
-`TEXT_REPR_VERSION` este definită o singură dată în `src/backend/ai/index_constants.py`, cu valoarea `"11"`. Scriptul de indexare și backendul citesc aceeași constantă; nu este o variabilă de mediu. Schimbarea valorii face ca următoarea rulare a scriptului să reproceseze toate documentele; până la sincronizare, backendul refuză indexul cu versiunea veche. Modificarea constantei nu pornește automat reindexarea. Reporniți backendul după schimbarea codului.
+`TEXT_REPR_VERSION` is defined once in `src/backend/ai/index_constants.py`, with the value `"11"`. The indexing script and the backend read the same constant; it is not an environment variable. Changing the value makes the next script run reprocess all documents; until synchronization, the backend rejects the index with the old version. Modifying the constant does not automatically start reindexing. Restart the backend after changing the code.
 
-Modelul de embedding este `Qwen/Qwen3-Embedding-0.6B` (vectori de 1024 de dimensiuni); alt model nu este cunoscut de cod. Căutarea citește modelul din `sync_metadata` și scrie întrebările după profilul lui (`ai/embedding_model.py`: instrucțiunea Qwen la întrebare, fără prefix la pasaje). **Dacă baza conține un index făcut cu alt model sau cu altă dimensiune, următorul build reîncorporează toate documentele**, iar coloana `chunks.embedding` este recreată în aceeași tranzacție cu documentele și metadata noi. Orice eroare păstrează generația și dimensiunea anterioare. Durata depinde de corpus și hardware. Indexarea pe GPU necesită un mediu separat `.venv-gpu`, cu dependențele aplicației, `torch` cu suport CUDA și `sentence-transformers` deja instalate:
+The embedding model is `Qwen/Qwen3-Embedding-0.6B` (1024-dimension vectors); another model is not known to the code. Search reads the model from `sync_metadata` and writes the queries according to its profile (`ai/embedding_model.py`: the Qwen instruction on the query, no prefix on passages). **If the database contains an index made with another model or another dimension, the next build re-embeds all documents**, and the `chunks.embedding` column is recreated in the same transaction as the new documents and metadata. Any error keeps the previous generation and dimension. The duration depends on the corpus and hardware. GPU indexing requires a separate `.venv-gpu` environment, with the application's dependencies, `torch` with CUDA support and `sentence-transformers` already installed:
 
 ```powershell
 $env:PYTHONPATH = "src"
@@ -450,68 +453,68 @@ $env:EMBEDDING_DEVICE = 'cuda'
 .\.venv-gpu\Scripts\python.exe src\scripts\build_hybrid_index.py
 ```
 
-Actualizați dependențele runtime în fiecare mediu Python folosit pentru indexare. Pachetul `pyahocorasick` se importă ca `ahocorasick`; instalarea în `.venv` nu îl face disponibil în `.venv-gpu` sau în Pythonul global. Pentru un mediu GPU existent căruia îi lipsește această dependență:
+Update the runtime dependencies in every Python environment used for indexing. The package `pyahocorasick` is imported as `ahocorasick`; installing it in `.venv` does not make it available in `.venv-gpu` or in the global Python. For an existing GPU environment that lacks this dependency:
 
 ```powershell
 .\.venv-gpu\Scripts\python.exe -m pip install --no-deps --only-binary=:all: pyahocorasick==2.3.1
 ```
 
-Builderul verifică disponibilitatea pachetului înainte de pornirea workerilor și indică interpreterul și comanda de instalare dacă importul eșuează.
+The builder checks that the package is available before starting the workers and shows the interpreter and the install command if the import fails.
 
-La prima sincronizare, modelul este descărcat în `model_cache/` dacă lipsește. Apoi căutarea funcționează offline. Căutarea pe CPU necesită modelul FastEmbed/ONNX, chiar dacă indexarea a fost făcută pe GPU cu PyTorch.
+On the first synchronization, the model is downloaded to `model_cache/` if it is missing. After that, search works offline. CPU search requires the FastEmbed/ONNX model, even if indexing was done on GPU with PyTorch.
 
-La următoarele sincronizări, se procesează doar documentele noi sau modificate, iar cele șterse sunt eliminate din index. Schimbarea catalogului de afecțiuni, a modelului sau a modului de pregătire a textului impune refacerea completă a indexului. Progresul și timpul estimat rămas sunt afișate în terminal.
+On subsequent synchronizations, only new or modified documents are processed, and deleted ones are removed from the index. Changing the conditions catalog, the model or the way the text is prepared requires a complete rebuild of the index. Progress and the estimated remaining time are displayed in the terminal.
 
-**Reindexarea creează baza dacă lipsește și aplică automat migrările SQL.** Sunt necesare permisiuni pentru crearea bazei, a schemei și a extensiilor; opțional, `DATABASE_BOOTSTRAP_URL` poate furniza un cont separat pentru creare. Aplicația web nu execută migrări la pornire. Afecțiunile, plantele și sinonimele sunt citite din PostgreSQL; completările se fac prin migrări noi în `src/backend/migrations/`, fără modificarea celor deja aplicate.
+**Reindexing creates the database if it is missing and automatically applies the SQL migrations.** Permissions to create the database, the schema and the extensions are required; optionally, `DATABASE_BOOTSTRAP_URL` can provide a separate account for creation. The web application does not run migrations at startup. Conditions, plants and synonyms are read from PostgreSQL; additions are made through new migrations in `src/backend/migrations/`, without modifying those already applied.
 
-În timpul sincronizării, căutarea și lista surselor sunt temporar indisponibile (`503`). Generarea din fragmente deja găsite și descărcarea PDF-urilor pot continua. Indexul nou este publicat numai după calcularea și validarea tuturor vectorilor; un eșec păstrează indexul anterior. Dacă între timp s-a schimbat catalogul, căutarea necesită finalizarea reindexării. Un catalog lipsă sau invalid blochează căutarea, iar un index incompatibil cere resincronizare (`INDEX_RESYNC_REQUIRED`).
+During synchronization, search and the source list are temporarily unavailable (`503`). Generation from fragments already found and PDF downloads can continue. The new index is published only after all vectors have been computed and validated; a failure keeps the previous index. If the catalog has changed in the meantime, search requires the reindex to finish. A missing or invalid catalog blocks search, and an incompatible index requires resynchronization (`INDEX_RESYNC_REQUIRED`).
 
-Pentru reconstruirea indexului, păstrați documentele sursă, migrările SQL, modelul și configurația. Autorizările owner necesită backup separat.
+To rebuild the index, keep the source documents, the SQL migrations, the model and the configuration. Owner authorizations require a separate backup.
 
-Căutarea folosește numai sursele selectate. O selecție goală nu caută nicăieri; dacă toate sursele selectate au dispărut, aplicația cere reselecția. Dacă au dispărut doar unele, le păstrează pe cele valide și afișează un avertisment.
+Search uses only the selected sources. An empty selection searches nowhere; if all the selected sources have disappeared, the application asks for a new selection. If only some have disappeared, it keeps the valid ones and displays a warning.
 
-În generarea pe loturi, o trimitere la un fragment inexistent sau din alt lot invalidează răspunsul și oprește întregul raport; elementele de nutriție fără citări rămân exceptate. Validatorul reutilizabil păstrează modul compatibil de raport parțial pentru alți consumatori, dar fluxul nou de generare îl apelează strict și nu publică PDF parțial. La eșec, căutarea se păstrează pentru o reîncercare manuală. Verificarea citărilor nu reprezintă validare medicală. Logurile clientului AI conțin doar diagnostic tehnic, fără textul fragmentelor sau al răspunsului.
+In batch generation, a reference to a nonexistent fragment or to one from another batch invalidates the answer and stops the whole report; nutrition elements without citations remain exempt. The reusable validator keeps the compatible partial-report mode for other consumers, but the new generation flow calls it strictly and does not publish a partial PDF. On failure, the search is kept for a manual retry. Citation checking is not medical validation. The AI client logs contain only technical diagnostics, without the text of the fragments or of the answer.
 
-Pentru a vedea ce fragmente ar rezulta, fără scriere în index și fără embeddings (necesită catalogul migrat din PostgreSQL):
+To see which fragments would result, without writing to the index and without embeddings (requires the migrated catalog from PostgreSQL):
 
 ```powershell
 $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe src\scripts\fragment_report.py
 ```
 
-### 3. Căutarea locală
+### 3. Local search
 
 ```powershell
 .\src\scripts\search_index.ps1 "plante și măsuri pentru tuse"
 ```
 
-Pentru rezultate ușor de procesat programatic:
+For results that are easy to process programmatically:
 
 ```powershell
 .\src\scripts\search_index.ps1 "plante și măsuri pentru tuse" -Json
 ```
 
-Căutarea din terminal întoarce toate fragmentele cu scor pozitiv (fără limita de context a furnizorului AI). Fiecare rezultat păstrează documentul sursă, intervalul de linii și componentele scorului (`P1`, `P2`, `L`, `V`), astfel încât pasajul să poată fi verificat în fișierul original. `--signals` alege semnalele scorului (orice combinație de `A` afecțiuni, `B` lexical, `C` semantic; implicit `ABC`), de exemplu `python -m backend.ai.search "gripa" --signals AB`.
+Terminal search returns all fragments with a positive score (without the AI provider's context limit). Each result keeps the source document, the line range and the score components (`P1`, `P2`, `L`, `V`), so that the passage can be checked in the original file. `--signals` chooses the score signals (any combination of `A` conditions, `B` lexical, `C` semantic; default `ABC`), for example `python -m backend.ai.search "gripa" --signals AB`. The example queries above are Romanian search phrases, as the default corpus is Romanian (“plants and measures for cough”, “flu”).
 
-Calitatea căutării se măsoară pe interogările etichetate din `src/tests/eval/retrieval_queries.json`:
+Search quality is measured on the labeled queries in `src/tests/eval/retrieval_queries.json`:
 
 ```powershell
 $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe src\scripts\evaluate_retrieval.py --output after.json
 ```
 
-### 4. Pornirea aplicației în dezvoltare
+### 4. Starting the application in development
 
-Pentru rapoarte, instalați modelul `gemma4:12b` în Ollama pe host. Pentru opțiunea DeepSeek a adminului, adăugați cheia DeepSeek și cheia de owner în fișierul local `.env`:
+For reports, install the `gemma4:12b` model in Ollama on the host. For the admin's DeepSeek option, add the DeepSeek key and the owner key to the local `.env` file:
 
 ```dotenv
 REPORT_GENERATION_MODELS=ollama-gemma3:1b,ollama-gemma4:12b,ollama-ministral-3:8b,ollama-qwen3.5:9b,ollama-qwen3.5:4b,ollama-deepseek-r1:8b,deepseek-flash,huggingface-deepseek-v4-flash,grok-4.3
 DEEPSEEK_API_KEY=...
-OWNER_KEY=o-cheie-secreta-lunga
+OWNER_KEY=a-long-secret-key
 COOKIE_SECURE=false
 ```
 
-Construiți interfața React (FastAPI servește `src/frontend/dist`):
+Build the React interface (FastAPI serves `src/frontend/dist`):
 
 ```powershell
 cd src/frontend
@@ -520,90 +523,90 @@ npm run build
 cd ..\..
 ```
 
-Apoi porniți aplicația:
+Then start the application:
 
 ```powershell
 $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe -m uvicorn backend.web.main:app --host 127.0.0.1 --port 7860
 ```
 
-Dacă ați sincronizat indexul la pasul 2, migrările sunt deja aplicate. Pentru mentenanța unei baze existente, le puteți executa separat cu `.\.venv\Scripts\python.exe -m scripts.migrate_database` (cu `PYTHONPATH=src`). Deschideți chatul la `http://127.0.0.1:7860/`, respectiv `http://127.0.0.1:7860/owner` pentru login/logout. Formularul trimite cheia prin `POST /api/owner/login`, cu CSRF; logoutul revocă tokenul prin `POST /api/owner/logout`. Cu prefixul public, formularul este `/medicina/owner` pe originea HTTPS configurată. Cheia nu trebuie pusă în URL sau în istoricul terminalului. Autorizarea rămâne valabilă peste restart până la logout sau rotația cheii. Ruta veche cu cheia în query rămâne doar pentru compatibilitate. `/healthz` verifică inclusiv configurarea furnizorului AI; `/readyz` adaugă verificarea disponibilității și compatibilității indexului.
+If you synchronized the index in step 2, the migrations are already applied. To maintain an existing database, you can run them separately with `.\.venv\Scripts\python.exe -m scripts.migrate_database` (with `PYTHONPATH=src`). Open the chat at `http://127.0.0.1:7860/`, and `http://127.0.0.1:7860/owner` for login/logout. The form sends the key through `POST /api/owner/login`, with CSRF; logout revokes the token through `POST /api/owner/logout`. With the public prefix, the form is `/medicina/owner` on the configured HTTPS origin. The key must not be put in the URL or in the terminal history. Authorization remains valid across restarts until logout or key rotation. The old route with the key in the query remains only for compatibility. `/healthz` also checks the AI provider configuration; `/readyz` adds the check of the availability and compatibility of the index.
 
-Pentru clasificarea mesajelor și identificarea locală a afecțiunilor, porniți Ollama pe `CONDITION_AI_LOCAL_BASE` (implicit `http://localhost:11434/v1`) și descărcați modelul o dată cu `ollama pull gemma3:1b`. Acest model este separat de furnizorul ales pentru generarea raportului.
+For message classification and local identification of conditions, start Ollama on `CONDITION_AI_LOCAL_BASE` (default `http://localhost:11434/v1`) and download the model once with `ollama pull gemma3:1b`. This model is separate from the provider chosen for report generation.
 
-Pentru dezvoltarea interfeței cu reîncărcare automată, rulați `npm run dev` în `src/frontend/`. Vite servește interfața local la `http://localhost:5173/medicina/` și trimite cererile API, verificările de stare și formularul owner către backend-ul de producție `https://cristiantone.taila68086.ts.net/medicina/`. Mesajele, căutările și rapoartele folosesc acest backend. Fișierele TypeScript ale interfeței sunt servite local, fără a fi trimise prin proxy. Backend-ul trebuie să fie disponibil; `npm run dev` nu îl pornește. `DEV_BACKEND_URL` poate suprascrie adresa backend-ului.
+For interface development with automatic reload, run `npm run dev` in `src/frontend/`. Vite serves the interface locally at `http://localhost:5173/medicina/` and sends the API requests, health checks and the owner form to the production backend `https://cristiantone.taila68086.ts.net/medicina/`. Messages, searches and reports use this backend. The interface's TypeScript files are served locally, without being sent through the proxy. The backend must be available; `npm run dev` does not start it. `DEV_BACKEND_URL` can override the backend address.
 
-Pentru a folosi în schimb un backend pornit local, setați adresa înainte de lansarea Vite:
+To use a locally started backend instead, set the address before launching Vite:
 
 ```powershell
 $env:DEV_BACKEND_URL = "http://127.0.0.1:7860/"
 npm run dev
 ```
 
-În această variantă, interfața locală este la `http://localhost:5173/`. Pentru a reveni la backend-ul de producție implicit, eliminați variabila cu `Remove-Item Env:DEV_BACKEND_URL -ErrorAction SilentlyContinue` și reporniți Vite. `PUBLIC_BASE_PATH` continuă să configureze calea pentru build-ul de producție.
+In this variant, the local interface is at `http://localhost:5173/`. To return to the default production backend, remove the variable with `Remove-Item Env:DEV_BACKEND_URL -ErrorAction SilentlyContinue` and restart Vite. `PUBLIC_BASE_PATH` continues to configure the path for the production build.
 
-API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; documentația OpenAPI (`/docs`) este dezactivată. Cererile `/api/...` cu sesiune trimit antetul `X-Tab-Id` (identificatorul tabului).
+The JSON API (`src/backend/web/main.py`) is used by the React interface; the OpenAPI documentation (`/docs`) is disabled. `/api/...` requests with a session send the `X-Tab-Id` header (the tab identifier).
 
-| Endpoint | Rol |
+| Endpoint | Role |
 |---|---|
-| `GET /healthz` | Starea aplicației și configurarea cheii AI; independent de mentenanța sau compatibilitatea indexului. Folosit de healthcheck-ul Docker. |
-| `GET /readyz` | Verifică și indexul; 503 cu `INDEX_MAINTENANCE`, `INDEX_RESYNC_REQUIRED` sau `INDEX_UNAVAILABLE` și `Retry-After: 60`. |
-| `GET /owner` | Formularul de autentificare/deconectare owner. Varianta veche cu `?key=...` este încă acceptată, dar nu este recomandată: expune cheia în URL. |
-| `GET /api/owner` | Starea autorizării și tokenul CSRF pentru browser. |
-| `POST /api/owner/login`, `POST /api/owner/logout` | Emit, respectiv revocă autorizarea individuală; necesită origine validă și token CSRF. |
-| `GET /api/session` | Creează sesiunea tabului și întoarce istoricul conversației. |
-| `GET /api/categories` | Arborele categoriilor (folderele surselor) și selecția implicită (toate). |
-| `POST /api/messages` | Salvează mesajul, categoriile și semnalele; întoarce `classifyMessage` și `contextRevision`. `messageId` opțional previne dublarea cererii. |
-| `POST /api/classify` | Aplică scurtăturile deterministe sau clasifică prin Ollama local; rutează spre `remedii`, `planta`, `top_plante`, `diverse` sau `email_raport`. Necesită `X-Context-Revision`. |
-| `POST /api/condition` | Identifică prin AI afecțiunea pe care dicționarul nu o cunoaște (Ollama local, fără fallback). |
-| `POST /api/search` | Rulează căutarea și întoarce fragmentele găsite și secțiunea „Generează raportul”. |
-| `GET /api/report-models` | Toate modelele configurate în ordinea env, `defaultModel` (primul model) și `allowedModels` (cele permise utilizatorului curent). Lista vizibilă este aceeași pentru public și autor; drepturile sunt verificate separat. Doar pentru admin adaugă și valorile implicite ale limitelor de generare, afișate în panou: `batchMaxTokens` (per model), `batchWorkers` (`default` și `options` `[1, 2]`) și `maxOutputTokens` (per model). |
-| `GET /api/report-duration-estimate?model=...&characters=...` | Durata estimată în secunde și numărul măsurătorilor, folosind toate rândurile modelului din `report_generation_metrics`. Numai agregate, fără afecțiuni sau texte medicale. |
-| `GET /api/searches/{search_id}/report-batches?model=...&minScore=...&effort=...&batchMaxTokens=...&maxOutputTokens=...` | Numărul de loturi pe care le-ar produce generarea, calculat cu aceeași partiționare (`partition_evidence`) din fragmentele care ating scorul minim și limitele alese; nu apelează furnizorul AI. Panoul de raport îl afișează sub „Durată estimată”. |
-| Limitele de tokeni din panoul de raport (doar admin) | Întregi pozitivi (se acceptă grupări „26 200” / „26.200”), cel mult 2.000.000; intrarea minimă 1.000. Ieșirea trebuie să fie mai mică decât `context`-ul modelului (din `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`), iar `context − ieșire` trebuie să lase cel puțin 1.000 de tokeni de intrare; altfel serverul răspunde 422 (`OUTPUT_TOKENS_TOO_LARGE`, `INPUT_TOKENS_TOO_SMALL`, `INPUT_TOKENS_NO_ROOM`). Panoul aplică aceleași reguli înainte de cerere, afișează intrarea efectivă când contextul o reduce și avertizează (fără să blocheze) sub 2.000 de tokeni de ieșire, când fiecare fragment ajunge într-un lot separat sau când un fragment depășește singur limita. |
-| `POST /api/searches/{search_id}/generate` | Primește `minScore` și `model` din catalog; fără model folosește `REPORT_GENERATION_MODELS`. Orice model fără autorizare admin → HTTP 403; model necunoscut → HTTP 422. Aplică pragul selectat și procesează loturile în paralel conform `batchWorkers` din cerere (`1`, `2` sau `3`; fără câmp, `REPORT_BATCH_WORKERS`, implicit 2), în cadrul unui singur raport activ. Câmpurile opționale `batchMaxTokens` și `maxOutputTokens` (întregi pozitivi) suprascriu pentru acest raport `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`, respectiv limita de ieșire configurată; la modelele cu context fix (R1 8B), `maxOutputTokens` trebuie să fie mai mic decât contextul, altfel HTTP 422. Aceleași opțiuni la același `requestId` sunt idempotente; opțiuni diferite → HTTP 409. Generează un singur PDF după validarea tuturor loturilor. |
-| `GET /api/reports/{tab_id}/{report_id}` | Descarcă PDF-ul generat în sesiunea tabului. |
-| `POST /api/session/end`, `POST /api/session/unload` | Închid sesiunea tabului (la cerere, respectiv la închiderea paginii). |
+| `GET /healthz` | Application status and AI key configuration; independent of index maintenance or compatibility. Used by the Docker healthcheck. |
+| `GET /readyz` | Also checks the index; 503 with `INDEX_MAINTENANCE`, `INDEX_RESYNC_REQUIRED` or `INDEX_UNAVAILABLE` and `Retry-After: 60`. |
+| `GET /owner` | The owner login/logout form. The old variant with `?key=...` is still accepted but not recommended: it exposes the key in the URL. |
+| `GET /api/owner` | Authorization status and the CSRF token for the browser. |
+| `POST /api/owner/login`, `POST /api/owner/logout` | Issue, respectively revoke, the individual authorization; require a valid origin and a CSRF token. |
+| `GET /api/session` | Creates the tab's session and returns the conversation history. |
+| `GET /api/categories` | The tree of categories (the sources' folders) and the default selection (all). |
+| `POST /api/messages` | Saves the message, the categories and the signals; returns `classifyMessage` and `contextRevision`. An optional `messageId` prevents duplicating the request. |
+| `POST /api/classify` | Applies the deterministic shortcuts or classifies through local Ollama; routes to `remedii`, `planta`, `top_plante`, `diverse` or `email_raport`. Requires `X-Context-Revision`. |
+| `POST /api/condition` | Identifies through AI the condition that the dictionary does not know (local Ollama, no fallback). |
+| `POST /api/search` | Runs the search and returns the fragments found and the “Generate report” section. |
+| `GET /api/report-models` | All the configured models in env order, `defaultModel` (the first model) and `allowedModels` (those permitted to the current user). The visible list is the same for the public and the author; rights are checked separately. For admin only, it also adds the default values of the generation limits, displayed in the panel: `batchMaxTokens` (per model), `batchWorkers` (`default` and `options` `[1, 2]`) and `maxOutputTokens` (per model). |
+| `GET /api/report-duration-estimate?model=...&characters=...` | The estimated duration in seconds and the number of measurements, using all the model's rows in `report_generation_metrics`. Aggregates only, without conditions or medical texts. |
+| `GET /api/searches/{search_id}/report-batches?model=...&minScore=...&effort=...&batchMaxTokens=...&maxOutputTokens=...` | The number of batches that generation would produce, computed with the same partitioning (`partition_evidence`) from the fragments that reach the minimum score and the chosen limits; it does not call the AI provider. The report panel displays it under “Estimated duration”. |
+| Token limits in the report panel (admin only) | Positive integers (groupings like “26 200” / “26.200” are accepted), at most 2,000,000; the minimum input is 1,000. The output must be smaller than the model's `context` (from `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`), and `context − output` must leave at least 1,000 input tokens; otherwise the server responds 422 (`OUTPUT_TOKENS_TOO_LARGE`, `INPUT_TOKENS_TOO_SMALL`, `INPUT_TOKENS_NO_ROOM`). The panel applies the same rules before the request, displays the effective input when the context reduces it, and warns (without blocking) below 2,000 output tokens, when each fragment ends up in a separate batch or when a single fragment exceeds the limit. |
+| `POST /api/searches/{search_id}/generate` | Receives `minScore` and `model` from the catalog; without a model it uses `REPORT_GENERATION_MODELS`. Any model without admin authorization → HTTP 403; unknown model → HTTP 422. Applies the selected threshold and processes the batches in parallel according to `batchWorkers` from the request (`1`, `2` or `3`; without the field, `REPORT_BATCH_WORKERS`, default 2), within a single active report. The optional fields `batchMaxTokens` and `maxOutputTokens` (positive integers) override for this report `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`, respectively the configured output limit; for fixed-context models (R1 8B), `maxOutputTokens` must be smaller than the context, otherwise HTTP 422. The same options with the same `requestId` are idempotent; different options → HTTP 409. Generates a single PDF after all batches are validated. |
+| `GET /api/reports/{tab_id}/{report_id}` | Downloads the PDF generated in the tab's session. |
+| `POST /api/session/end`, `POST /api/session/unload` | Close the tab's session (on request, respectively when the page is closed). |
 
-## Sesiuni, retenție și autorizare owner
+## Sessions, retention and owner authorization
 
-- **Sesiuni:** aplicația poate fi deschisă simultan în mai multe taburi sau browsere de pe același PC/IP. Fiecare încărcare completă a paginii, inclusiv refresh, Shift+F5 sau duplicarea tabului, începe o conversație nouă. Identificatorul este păstrat doar în memoria paginii; reîncercările și reconectările din aceeași pagină continuă conversația curentă. Rămân active limita globală de sesiuni și limitele de creare a sesiunilor pe minut.
-- **Retenție:** istoricul, fragmentele și PDF-urile rămân în memoria procesului. Sesiunea expiră după o oră de inactivitate sau cel mult patru ore (`SESSION_IDLE_SECONDS`, `SESSION_MAX_SECONDS`). Închiderea paginii încearcă să închidă sesiunea; dacă notificarea nu ajunge la server, expirarea eliberează datele. Repornirea aplicației le elimină. Se păstrează cel mult 12 căutări și 12 rapoarte per sesiune, în limitele bugetelor de memorie.
-- **Owner / admin:** setați `OWNER_KEY` și autentificați browserul prin formularul `/owner` pentru a folosi modelele externe `deepseek-flash`, `huggingface-deepseek-v4-flash` și `grok-4.3`. Cele patru modele Ollama sunt disponibile și fără autorizare. Selectorul „Model AI” urmează câmpului „Scor minim”; lista se actualizează la revenirea în pagină după autentificare. API-ul verifică autorizarea la fiecare generare cu un model extern și la citirea/anularea jobului său. PostgreSQL păstrează hashul tokenului și date tehnice, fără conversații sau PDF-uri. Autorizarea supraviețuiește restartului; logoutul o revocă, iar schimbarea cheii invalidează tokenurile existente.
+- **Sessions:** the application can be opened simultaneously in several tabs or browsers from the same PC/IP. Each full page load, including refresh, Shift+F5 or duplicating the tab, starts a new conversation. The identifier is kept only in the page's memory; retries and reconnections from the same page continue the current conversation. The global session limit and the per-minute session-creation limits remain active.
+- **Retention:** the history, the fragments and the PDFs stay in process memory. The session expires after one hour of inactivity or at most four hours (`SESSION_IDLE_SECONDS`, `SESSION_MAX_SECONDS`). Closing the page tries to close the session; if the notification does not reach the server, expiry frees the data. Restarting the application removes them. At most 12 searches and 12 reports are kept per session, within the memory budgets.
+- **Owner / admin:** set `OWNER_KEY` and authenticate the browser through the `/owner` form to use the external models `deepseek-flash`, `huggingface-deepseek-v4-flash` and `grok-4.3`. The four Ollama models are available without authorization. The “AI model” selector follows the “Minimum score” field; the list updates when returning to the page after authentication. The API checks authorization at each generation with an external model and when reading/cancelling its job. PostgreSQL keeps the token hash and technical data, without conversations or PDFs. Authorization survives a restart; logout revokes it, and changing the key invalidates the existing tokens.
 
-## Catalogul de plante și produse
+## Plant and product catalog
 
-Fiecare top nevid afișează imediat sub titlu instrucțiunea de selectare prin numărul produsului, cu exemplul `1` pentru primul produs, înaintea explicației scorului și a listei.
+Each non-empty top displays right under the title the instruction for selecting by product number, with the example `1` for the first product, before the score explanation and the list.
 
-După afișarea unui top de plante sau produse (general, pe categorie sau pentru o afecțiune), următorul mesaj poate fi doar numărul poziției din listă: `1` deschide aceleași detalii ca întrebarea „la ce e bun Ulei de măsline”, dacă acesta este primul produs afișat. Se folosește ordinea exactă a topului afișat, fără o nouă clasificare AI. Un număr în afara listei cere o alegere validă și păstrează lista pentru reîncercare. O altă solicitare încheie această selecție; meniurile pentru categorie, numărul de intrări sau afecțiune își păstrează regulile proprii.
+After a plants or products top is displayed (general, per category or for a condition), the next message can be just the number of the position in the list: `1` opens the same details as the question `la ce e bun Ulei de măsline` (“what is olive oil good for”), if that is the first product displayed. The exact order of the displayed top is used, without a new AI classification. A number outside the list asks for a valid choice and keeps the list for a retry. Any other request ends this selection; the menus for category, number of entries or condition keep their own rules.
 
-Catalogul de plante și produse și aliasurile sunt citite din PostgreSQL. Căutarea unei plante ignoră diferențele de caz, diacritice și cratime; un nume comun mai multor specii cere alegerea utilizatorului. Cererile „Top N plante” afișează clasamentul plantelor și produselor după numărul de afecțiuni distincte cu recomandări pozitive identificate în surse și denumirile regionale, fără generarea unui raport. Fiecare intrare folosește formularea „util/utilă/utile în X afecțiuni”, cu acordul denumirii românești; nota precizează că atenționările, contraindicațiile și relațiile mixte sunt excluse din scor și că această clasificare nu reprezintă validare clinică. Listele generale de afecțiuni ale unui produs păstrează asocierile istorice, inclusiv avertismentele.
+The catalog of plants and products and the aliases are read from PostgreSQL. A plant search ignores differences in case, diacritics and hyphens; a name shared by several species asks the user to choose. The “Top N plants” requests display the ranking of plants and products by the number of distinct conditions with positive recommendations identified in the sources, and the regional names, without generating a report. Each entry uses the wording “useful in X conditions” (in Romanian “util/utilă/utile în X afecțiuni”, in agreement with the Romanian name); the note states that warnings, contraindications and mixed relationships are excluded from the score and that this classification is not clinical validation. The general lists of conditions of a product keep the historical associations, including warnings.
 
-Topurile pe afecțiune reutilizează acest ranking global după filtrarea perechilor pozitive pentru afecțiunea cerută. Un produs cu ranking mai mare care nu are asociere pozitivă cu afecțiunea este exclus. Filtrul nu cere migrare sau reindexare; necesită o rulare pozitivă deja publicată și compatibilă. Codul local nou și exemplele din catalogul de texte devin disponibile în aplicația care rulează numai după livrarea explicită a versiunii compatibile și reîncărcarea paginii.
+The per-condition tops reuse this global ranking after filtering the positive pairs for the requested condition. A product with a higher ranking that has no positive association with the condition is excluded. The filter requires no migration or reindexing; it requires an already published and compatible positive run. The new local code and the examples from the text catalog become available in the running application only after the explicit delivery of the compatible version and a page reload.
 
-Categoriile de produse acceptate sunt `seminte`, `suplimente`, `uleiuri esentiale`, `uleiuri`, `aminoacizi`, `vitamine` și `minerale`. Produsele apicole, fibrele, probioticele și prebioticele aparțin categoriei `suplimente`. Categoria `medicamente` și intrarea `aspirina` sunt eliminate prin migrarea 026. Sunt grupări tehnice de catalog, fără a stabili statutul medical sau eficacitatea produsului. Intenția API `planta` și rutele existente acoperă și produsele, recunoscute după `ro` și `en`, fără diferențe de caz sau diacritice. Produsele fără specie returnează `species=[]` și se afișează fără paranteze goale.
+The accepted product categories are `seminte` (seeds), `suplimente` (supplements), `uleiuri esentiale` (essential oils), `uleiuri` (oils), `aminoacizi` (amino acids), `vitamine` (vitamins) and `minerale` (minerals). Bee products, fibers, probiotics and prebiotics belong to the `suplimente` category. The `medicamente` (medicines) category and the `aspirina` entry are removed by migration 026. These are technical catalog groupings, without establishing the medical status or efficacy of the product. The API intent `planta` and the existing routes also cover products, recognized by `ro` and `en`, regardless of case or diacritics. Products without a species return `species=[]` and are displayed without empty parentheses.
 
-Migrările `014`/`015` adaugă 391 de produse (inclusiv cele 12 denumiri comerciale confirmate la `suplimente`), reutilizează înregistrările pentru psyllium, ashwagandha, drojdie de bere, spirulina și chlorella și adaugă numai plantei Thuja aliasurile `arborele vietii` și `thuya occidentalis`. Denumirile vitaminice istorice și cele trei etichete de uleiuri de iasomie, vanilie și lotus alb sunt păstrate conform cerinței de catalog, fără afirmații despre identitate chimică sau extracție. „Ulei sau extract de afin” este exclus. Totalul inițial după migrare este 1.579 intrări: 1.188 botanice și 391 produse. Catalogul nu introduce automat sinonime precum `NAC`: numele canonic disponibil este `N-acetilcisteina`.
+Migrations `014`/`015` add 391 products (including the 12 commercial names confirmed under `suplimente`), reuse the records for psyllium, ashwagandha, brewer's yeast, spirulina and chlorella and add only to the plant Thuja the aliases `arborele vietii` and `thuya occidentalis`. The historical vitamin names and the three labels for jasmine, vanilla and white lotus oils are kept per the catalog requirement, with no claims about chemical identity or extraction. “Bilberry oil or extract” is excluded. The initial total after migration is 1,579 entries: 1,188 botanical and 391 products. The catalog does not automatically introduce synonyms such as `NAC`: the available canonical name is `N-acetilcisteina`.
 
-Pentru migrările `014`/`015`, codul compatibil trebuie livrat înainte de migrare; după migrare se rulează `scripts.build_hybrid_index --rebuild-herbs` pentru asocieri, ranking și fingerprinturi. Între aceste etape, rezultatele despre catalog pot cere resincronizare. Documentele neschimbate își păstrează embeddings dacă profilul lor nu s-a schimbat.
+For migrations `014`/`015`, the compatible code must be delivered before the migration; after the migration, `scripts.build_hybrid_index --rebuild-herbs` is run for associations, ranking and fingerprints. Between these stages, the catalog results may require resynchronization. Unchanged documents keep their embeddings if their profile has not changed.
 
-Migrarea `016_separate_herb_category.sql` separă categoria de familia botanică și reconstruiește numai tabela `herbs` pentru ordinea fizică `id, category, family, latin, ro, en, ranking`. Pentru upgrade de la 015: pregătiți imaginea compatibilă, verificați backupul și snapshoturile datelor, opriți scurt aplicația, rulați explicit `python -m scripts.migrate_database` cu `PYTHONPATH=src` și configurația bazei țintă, apoi porniți imaginea nouă și verificați `/healthz` și `/readyz`. Migrarea este tranzacțională, păstrează ID-urile, numele, aliasurile, asocierile și rankingul; refuză configurații sau dependențe suplimentare neacoperite. **Pentru 016 nu se rulează reindexarea, `--rebuild-herbs` sau embeddings**: fingerprintul de matching și toate valorile `sync_metadata` rămân neschimbate. SQL NULL pentru familie/latin se normalizează la șir gol numai în obiectele runtime; parserul surselor JSONL istorice rămâne botanic. Fingerprintul catalogului runtime este versionat separat și include categoria și familia.
+Migration `016_separate_herb_category.sql` separates the category from the botanical family and rebuilds only the `herbs` table for the physical order `id, category, family, latin, ro, en, ranking`. For an upgrade from 015: prepare the compatible image, verify the backup and data snapshots, briefly stop the application, explicitly run `python -m scripts.migrate_database` with `PYTHONPATH=src` and the target database configuration, then start the new image and check `/healthz` and `/readyz`. The migration is transactional, keeps the IDs, names, aliases, associations and ranking; it refuses configurations or additional dependencies it does not cover. **For 016, reindexing, `--rebuild-herbs` or embeddings are not run**: the matching fingerprint and all the `sync_metadata` values remain unchanged. SQL NULL for family/latin is normalized to an empty string only in the runtime objects; the parser of the historical JSONL sources remains botanical. The runtime catalog fingerprint is versioned separately and includes the category and the family.
 
-Migrarea `017_food_categories_in_herbs.sql` introduce 12 categorii: `plante medicinale`, `fructe`, `legume`, `cereale`, `seminte`, `uleiuri esentiale`, `suplimente`, `aminoacizi`, `vitamine`, `minerale`, `produse apicole`, `fibre, probiotice, prebiotice`. Cele patru grupe botanice păstrează latinul și familia. Clasificarea alimentară pune roșiile la fructe, nucile/alunele la fructe, leguminoasele alimentare la legume și hrișca/quinoa/amarantul alimentar la cereale. Nu se mută genuri sau familii întregi. Speciile-sursă și semințele consumate separat sunt intrări distincte: cele patru produse-semințe (floarea-soarelui, dovleac, struguri, in) au `latin` și `family` SQL NULL. Un ulei din semințe rămâne în categoria sa. Categoriile nu devin nume sau aliasuri de matching.
+Migration `017_food_categories_in_herbs.sql` introduces 12 categories: `plante medicinale` (medicinal herbs), `fructe` (fruits), `legume` (vegetables), `cereale` (cereals), `seminte`, `uleiuri esentiale`, `suplimente`, `aminoacizi`, `vitamine`, `minerale`, `produse apicole` (bee products), `fibre, probiotice, prebiotice` (fibers, probiotics, prebiotics). The four botanical groups keep the Latin name and the family. The food classification puts tomatoes under fruits, nuts/hazelnuts under fruits, food legumes under vegetables and buckwheat/quinoa/food amaranth under cereals. Whole genera or families are not moved. Source species and seeds consumed separately are distinct entries: the four seed products (sunflower, pumpkin, grape, flax) have SQL NULL `latin` and `family`. An oil from seeds stays in its own category. Categories do not become matching names or aliases.
 
-017 reclasifică explicit 161 de rânduri existente și adaugă cele patru semințe plus `chenopodium quinoa` (`amaranthaceae`): totalul seedului este **1.584**, cu toate ID-urile/numele/familiile/aliasurile vechi păstrate. Noile rânduri primesc ID-uri identity și ranking inițial 0. Formele cu/fără cratimă sunt deja echivalente în matching și nu necesită aliasuri duplicate. Definițiile comune se află în `core/herb_categories.py`; parserul surselor istorice rămâne botanic.
+017 explicitly reclassifies 161 existing rows and adds the four seeds plus `chenopodium quinoa` (`amaranthaceae`): the seed total is **1,584**, with all the old IDs/names/families/aliases kept. The new rows receive identity IDs and an initial ranking of 0. The forms with/without a hyphen are already equivalent in matching and need no duplicate aliases. The common definitions are in `core/herb_categories.py`; the historical sources parser remains botanical.
 
-Migrarea `018_reclassify_oils_medicines_and_beta_carotene.sql`, aplicată după 017, extinde catalogul la **14 categorii** și mută numai trei intrări: `beta-caroten` → `vitamine`, `ulei de masline` → categoria nouă `uleiuri`, `aspirina` → categoria nouă `medicamente`. Păstrează ID-urile, numele, aliasurile, rankingul, asocierile și totalul de 1.584 de intrări. „Top N uleiuri” și „Top N medicamente” folosesc noile filtre; „uleiuri esențiale” rămâne o categorie distinctă. Pentru 018 singură nu se refac asocierile, fragmentele sau embeddings. Dacă 017 este încă neaplicată, cerințele de rollout pentru 017 de mai jos rămân valabile. Migrarea refuză identități sau categorii-sursă neașteptate și nu este aplicată automat la pornirea aplicației.
+Migration `018_reclassify_oils_medicines_and_beta_carotene.sql`, applied after 017, extends the catalog to **14 categories** and moves only three entries: `beta-caroten` → `vitamine`, `ulei de masline` → the new category `uleiuri`, `aspirina` → the new category `medicamente`. It keeps the IDs, names, aliases, ranking, associations and the total of 1,584 entries. “Top N oils” and “Top N medicines” use the new filters; “essential oils” remains a distinct category. For 018 alone, the associations, fragments or embeddings are not rebuilt. If 017 is still unapplied, the rollout requirements for 017 below remain valid. The migration refuses unexpected identities or source categories and is not applied automatically at application startup.
 
-Migrarea `019_reclassify_additional_oils.sql` mută explicit din `suplimente` în `uleiuri` cele șapte produse existente: ulei de primula, avocado, krill, peste, catina, in și cocos. Nu schimbă ID-uri, nume, rankinguri, aliasuri sau asocieri; păstrează totalul de 1.584 de intrări și fingerprintul de matching. Pentru această reclasificare singură nu se refac asocierile, fragmentele sau embeddings.
+Migration `019_reclassify_additional_oils.sql` explicitly moves from `suplimente` to `uleiuri` the seven existing products: primrose, avocado, krill, fish, sea buckthorn, flax and coconut oil. It changes no IDs, names, rankings, aliases or associations; it keeps the total of 1,584 entries and the matching fingerprint. For this reclassification alone, the associations, fragments or embeddings are not rebuilt.
 
-Migrarea `020_reclassify_remaining_requested_oils.sql` mută încă 13 produse existente din `suplimente` în `uleiuri`: ulei de argan, bame - seminte, caise - samburi, castraveti - seminte, cirese - samburi, coacaze negre - seminte, fistic, macadamia, macese, neem, papaya - seminte, tamanu și tarate de orez. Păstrează toate celelalte date, inclusiv rankingurile 0, și nu cere refacerea asocierilor, fragmentelor sau embeddings. Împreună cu 018 și 019, categoria `uleiuri` conține 21 de produse; totalul catalogului rămâne 1.584. Fiecare migrare verifică explicit identitățile și categoria-sursă și refuză orice abatere.
+Migration `020_reclassify_remaining_requested_oils.sql` moves another 13 existing products from `suplimente` to `uleiuri`: argan oil, okra - seeds, apricot - kernels, cucumber - seeds, cherry - kernels, black currant - seeds, pistachio, macadamia, rosehip, neem, papaya - seeds, tamanu and rice bran. It keeps all the other data, including the rankings of 0, and does not require rebuilding the associations, fragments or embeddings. Together with 018 and 019, the `uleiuri` category contains 21 products; the catalog total stays 1,584. Each migration explicitly checks the identities and the source category and refuses any deviation.
 
-Migrarea `021_reclassify_probiotic_products.sql` mută `Biogaia Prodendis`, `Biothin Probiotic`, `Digestive Advantage` și `Mood Probiotic` în categoria `fibre, probiotice, prebiotice`, păstrând ID-urile, numele, rankingurile și asocierile. Nu cere refacerea asocierilor sau embeddings.
+Migration `021_reclassify_probiotic_products.sql` moves `Biogaia Prodendis`, `Biothin Probiotic`, `Digestive Advantage` and `Mood Probiotic` to the category `fibre, probiotice, prebiotice`, keeping the IDs, names, rankings and associations. It does not require rebuilding the associations or embeddings.
 
-Migrarea `022_add_sunflower_and_pumpkin_oils.sql` adaugă numai `ulei de floarea-soarelui` și `ulei de dovleac`, cu nume englezești `sunflower oil` și `pumpkin seed oil`, în categoria `uleiuri`. Ambele au familie/latin SQL NULL, ID identity nou și ranking inițial 0. Nu se adaugă ulei de luminita-noptii sau aliasuri pentru acesta. Auditul verifică numele românești, englezești, latine și aliasurile pentru a refuza dubluri. Totalul seedului devine **1.586** de intrări, dintre care **23 de uleiuri**. Fiind produse noi, după 022 se rulează separat `--rebuild-herbs-only`, conform procedurii pentru 017 de mai jos: numai asocieri/rankinguri din fragmentele existente, fără refacerea documentelor sau embeddings. Aplicarea migrărilor și refacerea asocierilor nu fac parte din modificările locale de cod.
+Migration `022_add_sunflower_and_pumpkin_oils.sql` adds only `ulei de floarea-soarelui` and `ulei de dovleac`, with English names `sunflower oil` and `pumpkin seed oil`, in the `uleiuri` category. Both have SQL NULL family/latin, a new identity ID and an initial ranking of 0. No evening primrose oil or aliases for it are added. The audit checks the Romanian, English and Latin names and the aliases to refuse duplicates. The seed total becomes **1,586** entries, of which **23 are oils**. Being new products, after 022 `--rebuild-herbs-only` is run separately, following the procedure for 017 below: only associations/rankings from the existing fragments, without rebuilding the documents or embeddings. Applying the migrations and rebuilding the associations are not part of the local code changes.
 
-**Aplicarea 017 se face separat de implementare.** Pregătiți imaginea compatibilă și un backup verificat prin restaurare; salvați înainte amprentele complete și xmin pentru `documents`/`chunks`, catalog, asocieri și metadate. Opriți scurt aplicația, aplicați explicit migrarea și executați apoi numai refacerea asocierilor:
+**Applying 017 is done separately from the implementation.** Prepare the compatible image and a backup verified by restoration; first save the complete fingerprints and xmin for `documents`/`chunks`, the catalog, associations and metadata. Briefly stop the application, explicitly apply the migration and then run only the rebuild of the associations:
 
 ```powershell
 $env:PYTHONPATH = 'src'
@@ -611,15 +614,15 @@ $env:PYTHONPATH = 'src'
 .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --rebuild-herbs-only
 ```
 
-Acest mod cere un index existent și compatibil, nu scanează corpusul, nu fragmentează și nu încarcă modelul de embeddings. Publică diferențial asocierile și rankingul în aceeași tranzacție și actualizează exclusiv cele cinci chei `herbs_benefits_*`, folosind generația existentă. Verifică fingerprintul catalogului anterior: permite completări cu ID-uri noi după cele deja indexate; modificarea/ștergerea numelor vechi sau orice schimbare a perechilor/rankingurilor vechi oprește publicarea. `--rebuild-herbs` este în continuare fluxul general și poate sincroniza documente modificate; nu îl folosiți pentru această aplicare.
+This mode requires an existing and compatible index, does not scan the corpus, does not fragment and does not load the embedding model. It publishes the associations and the ranking differentially in the same transaction and updates exclusively the five `herbs_benefits_*` keys, using the existing generation. It checks the previous catalog fingerprint: it allows additions with new IDs after those already indexed; modifying/deleting old names or any change to the old pairs/rankings stops publishing. `--rebuild-herbs` is still the general flow and can synchronize modified documents; do not use it for this application.
 
-Comparați amprentele după operație: documentele/chunks (inclusiv xmin), embeddings, generația și metadatele de bază trebuie să fie identice. Porniți aplicația compatibilă numai după aceste verificări; verificați `/healthz`, `/readyz` și topurile. Dacă refacerea asocierilor eșuează după commitul migrării, remediați operația sau restaurați backupul înainte de pornire. **Nu rulați reindexarea completă.**
+Compare the fingerprints after the operation: the documents/chunks (including xmin), embeddings, generation and base metadata must be identical. Start the compatible application only after these checks; verify `/healthz`, `/readyz` and the tops. If the rebuild of the associations fails after the migration commit, fix the operation or restore the backup before starting. **Do not run the full reindex.**
 
-În cererile despre plante, numele complet sau aliasul complet are prioritate. Dacă acesta nu există, începutul unei denumiri românești, pe cuvinte întregi, oferă speciile candidate: „plop” cere alegerea între plop alb, plop negru, plop tremurător și plop tremurător american. Sunt acceptate și flexiunile românești și formulările cu părți de plantă, precum „muguri de plop” sau „mugurii de plop”. După alegere, rezultatul include numai specia selectată. Această potrivire parțială nu se aplică mențiunilor din corpus sau citărilor din rapoarte.
+In plant requests, the full name or full alias takes priority. If it does not exist, the beginning of a Romanian name, by whole words, offers the candidate species: “plop” (poplar) asks to choose between plop alb (white poplar), plop negru (black poplar), plop tremurător (aspen) and plop tremurător american (American aspen). Romanian inflections and wordings with plant parts are also accepted, such as “muguri de plop” (poplar buds) or “mugurii de plop” (the poplar buds). After the choice, the result includes only the selected species. This partial matching does not apply to mentions in the corpus or to citations in reports.
 
-`build_hybrid_index.py` reconstruiește automat asocierile `herbs_benefits` și clasamentul `herbs.ranking`. O asociere înseamnă că titlul fragmentului numește afecțiunea (`primary_medical_conditions`), iar textul menționează planta sau un alias. Mențiunile negative și contraindicațiile sunt incluse: asocierea nu dovedește un beneficiu terapeutic.
+`build_hybrid_index.py` automatically rebuilds the `herbs_benefits` associations and the `herbs.ranking` ranking. An association means that the fragment's title names the condition (`primary_medical_conditions`), and the text mentions the plant or an alias. Negative mentions and contraindications are included: the association does not prove a therapeutic benefit.
 
-Asocierile se publică în aceeași tranzacție cu indexul. Extinderea catalogului de plante/produse sau schimbarea aliasurilor reconstruiește asocierile fără recalcularea embeddings pentru documentele neschimbate. Pentru refacere explicită sau audit:
+The associations are published in the same transaction as the index. Extending the plants/products catalog or changing the aliases rebuilds the associations without recomputing the embeddings for unchanged documents. For an explicit rebuild or audit:
 
 ```powershell
 $env:PYTHONPATH = 'src'
@@ -627,108 +630,108 @@ $env:PYTHONPATH = 'src'
 .\.venv\Scripts\python.exe -m scripts.audit_herbs
 ```
 
-Completările și corecțiile cataloagelor se fac prin migrări SQL noi în `src/backend/migrations/`, păstrând ID-urile existente. Catalogul lipsă sau invalid și asocierile nesincronizate blochează rezultatele despre plante cu o eroare explicită (`503`).
+Additions and corrections to the catalogs are made through new SQL migrations in `src/backend/migrations/`, keeping the existing IDs. A missing or invalid catalog and unsynchronized associations block the plant results with an explicit error (`503`).
 
-### Comasarea fibrelor, probioticelor și prebioticelor în suplimente
+### Merging fibers, probiotics and prebiotics into supplements
 
-Migrarea append-only `024_merge_fibre_probiotics_into_supplements.sql` mută toate intrările
-din vechea grupă în `suplimente` și elimină vechea valoare din constrângerile/indexul de
-categorii. După 024, catalogul avea **13 categorii**. Pe seed-ul complet sunt 11 intrări mutate,
-61 de suplimente și 1.586 de intrări în total. ID-urile, numele, aliasurile, familia, specia,
-asocierile și scorurile istorice sunt păstrate. Referințele de mai sus la categoriile
-migrărilor 014–021 descriu etapele istorice, înlocuite în acest punct de migrarea 024.
+The append-only migration `024_merge_fibre_probiotics_into_supplements.sql` moves all the entries
+from the old group into `suplimente` and removes the old value from the category
+constraints/index. After 024, the catalog had **13 categories**. On the complete seed there are 11 moved entries,
+61 supplements and 1,586 entries in total. The IDs, names, aliases, family, species,
+associations and historical scores are kept. The references above to the categories
+of migrations 014–021 describe the historical stages, replaced at this point by migration 024.
 
-„Top 100 probiotice”, „Top 100 prebiotice”, „Top 100 fibre” și vechea denumire
-completă cer acum topul `suplimente`, fără clasificare AI suplimentară pentru comenzile
-explicite. Numărul și regulile topului strict pozitiv rămân aceleași.
+“Top 100 probiotics”, “Top 100 prebiotics”, “Top 100 fibers” and the old
+full name now ask for the `suplimente` top, without additional AI classification for the
+explicit commands. The number and the rules of the strictly positive top stay the same.
 
-Aplicarea pe baza activă se face separat, după backup și verificarea versiunilor pending;
-comanda obișnuită de migrare aplică toate migrările restante, inclusiv 023 dacă lipsește.
-Nu este necesară refacerea coaparițiilor, fragmentelor sau embeddings. Amprenta catalogului
-se schimbă: un clasament pozitiv deja publicat cere o nouă pregătire/publicare, cu reutilizarea
-cache-ului neafectat. Nu se pornește aplicația cu definiția nouă peste catalogul vechi nemigrat.
+Applying to the active database is done separately, after a backup and a check of the pending versions;
+the usual migration command applies all the remaining migrations, including 023 if missing.
+Rebuilding the co-occurrences, fragments or embeddings is not necessary. The catalog fingerprint
+changes: an already published positive ranking requires a new preparation/publication, reusing
+the unaffected cache. The application is not started with the new definition over the old unmigrated catalog.
 
-### Eliminarea medicamentelor și comasarea produselor apicole
+### Removing medicines and merging bee products
 
-Migrarea append-only `026_remove_medicines_and_merge_bee_products.sql` elimină aspirina
-(ID 1212) din catalog, împreună cu aliasurile, asocierile și dovezile sale de clasament prin
-cheile externe cu ștergere în cascadă. Verifică identitatea înainte de ștergere și refuză
-alte medicamente neașteptate. Mută toate produsele apicole la `suplimente`: pe seed-ul
-complet, propolis, miere, polen, păstură și lăptișor de matcă. Aceste produse își păstrează
-ID-urile, numele, aliasurile, asocierile și scorurile.
+The append-only migration `026_remove_medicines_and_merge_bee_products.sql` removes aspirin
+(ID 1212) from the catalog, together with its aliases, associations and ranking evidence through
+the foreign keys with cascading delete. It checks the identity before deleting and refuses
+other unexpected medicines. It moves all bee products to `suplimente`: on the complete
+seed, propolis, honey, pollen, bee bread and royal jelly. These products keep their
+IDs, names, aliases, associations and scores.
 
-Catalogul curent are **11 categorii**, **1.585 de intrări** și **66 de suplimente** pe seed-ul
-complet. Constrângerile SQL interzic categoriile eliminate. Meniul păstrează pozițiile 1–8,
-apoi continuă cu `9. aminoacizi`, `10. vitamine`, `11. minerale`. Cererile „Top N produse
-apicole” selectează `suplimente`; „Top N medicamente” cere alegerea unei categorii valide.
-Schema JSON a clasificatorului și promptul folosesc aceeași listă de 11 categorii.
+The current catalog has **11 categories**, **1,585 entries** and **66 supplements** on the complete
+seed. The SQL constraints forbid the removed categories. The menu keeps positions 1–8,
+then continues with `9. aminoacizi`, `10. vitamine`, `11. minerale`. The requests “Top N bee
+products” select `suplimente`; “Top N medicines” asks for a valid category to be chosen.
+The classifier's JSON schema and the prompt use the same list of 11 categories.
 
-Aplicarea pe baza activă rămâne un pas separat, împreună cu versiunea nouă a aplicației.
-Nu se refac documentele, fragmentele sau embeddings. Eliminarea aspirinei schimbă amprenta
-de matching: asocierile se resincronizează controlat cu `--rebuild-herbs-only`, apoi topurile
-pozitive se pregătesc și se publică din nou, reutilizând cache-ul compatibil. Migrarea singură
-nu publică un clasament pozitiv nou.
+Applying to the active database remains a separate step, together with the new version of the application.
+The documents, fragments or embeddings are not rebuilt. Removing aspirin changes the matching
+fingerprint: the associations are resynchronized in a controlled way with `--rebuild-herbs-only`, then the positive
+tops are prepared and published again, reusing the compatible cache. The migration alone
+does not publish a new positive ranking.
 
-## Topuri cu recomandări pozitive
+## Rankings with positive recommendations
 
-### Recunoașterea uleiurilor esențiale
+### Recognizing essential oils
 
-Migrarea `027_essential_oil_source_aliases.sql` adaugă 183 de aliasuri pentru formele
-mixte română/engleză din surse, precum `ulei esential de peppermint`, folosind denumirea
-engleză completă a produsului existent. Nu creează produse noi și nu atribuie un nume
-generic tuturor speciilor, variantelor sau chemotipurilor. Aliasurile sunt în `en_alt`,
-nu în denumirile regionale afișate în top.
+Migration `027_essential_oil_source_aliases.sql` adds 183 aliases for the mixed
+Romanian/English forms in the sources, such as `ulei esential de peppermint`, using the full
+English name of the existing product. It creates no new products and assigns no generic
+name to all species, variants or chemotypes. The aliases are in `en_alt`,
+not in the regional names displayed in the top.
 
-În `Uleiuri esentiale.md`, cele 55 de liste confirmate de operator drept recomandări
-sunt etichetate explicit `Uleiuri recomandate` și au câte un produs pe rând. Cele 309
-mențiuni și titlurile sunt păstrate. Regulile recunosc introducerile explicite de liste
-pentru uleiuri, fără a transforma o simplă mențiune sau un titlu de boală în recomandare.
-Sursele fără afecțiuni primare recunoscute și denumirile neidentificate rămân în afara
-scorului. La următoarea indexare executată de operator se aplică migrarea, se actualizează
-documentul schimbat și se pregătește/publică noua rulare; rularea anterioară nu se modifică.
+In `Uleiuri esentiale.md`, the 55 lists confirmed by the operator as recommendations
+are explicitly labeled `Uleiuri recomandate` (recommended oils) and have one product per line. The 309
+mentions and the titles are kept. The rules recognize explicit list introductions
+for oils, without turning a simple mention or a disease title into a recommendation.
+Sources without recognized primary conditions and unidentified names stay outside the
+score. At the next indexing run by the operator, the migration is applied, the changed
+document is updated and the new run is prepared/published; the previous run is not modified.
 
-`herbs_benefits` și `herbs.ranking` păstrează coaparițiile istorice. Topurile citesc separat
-`herb_positive_rankings.ranking`: numărul de afecțiuni **primare** distincte cu cel puțin o
-recomandare pozitivă și nicio mențiune negativă. Pozitiv + negativ, inclusiv în documente
-diferite, înseamnă `mixed` și scor zero pentru pereche. `unclear` nu adaugă puncte și nu
-anulează o dovadă pozitivă explicită. Repetările nu multiplică scorul.
+`herbs_benefits` and `herbs.ranking` keep the historical co-occurrences. The tops separately read
+`herb_positive_rankings.ranking`: the number of distinct **primary** conditions with at least one
+positive recommendation and no negative mention. Positive + negative, including in different
+documents, means `mixed` and a score of zero for the pair. `unclear` adds no points and does not
+cancel an explicit positive evidence item. Repetitions do not multiply the score.
 
-La pregătirea clasamentului, o denumire românească principală unică are prioritate față
-de aliasurile exclusiv regionale ale altor produse. De exemplu, `par` identifică implicit
-`Pyrus communis`, nu scorușul (`Cormus domestica`), care are același alias regional.
-O denumire explicită în paranteză sau în titlul local poate indica însă specia regională;
-indiciile contradictorii și coliziunile între denumiri principale rămân ambigue.
-Pentru omonimul `par`, lipsa unui context botanic explicit păstrează clasificarea `unclear`,
-pentru a nu atribui pomului mențiuni despre părul de pe corp sau verbul „a părea”.
-Identificarea produsului nu îl declară automat util: recomandarea și afecțiunea trebuie
-clasificate în continuare din surse. Modificarea regulilor necesită o nouă pregătire și
-publicare la reindexarea pornită de operator; scorurile active nu sunt rescrise direct.
-În interfață, `Pyrus communis` este afișat „Păr”, inclusiv în topuri și în fișa produsului;
-denumirea `par` și ID-ul său rămân neschimbate în baza de date.
+When the ranking is prepared, a unique main Romanian name takes priority over
+the exclusively regional aliases of other products. For example, `par` by default identifies
+`Pyrus communis` (pear), not the service tree (`Cormus domestica`), which has the same regional alias.
+An explicit name in parentheses or in the local title can however indicate the regional species;
+contradictory hints and collisions between main names remain ambiguous.
+For the homonym `par` (which also means “hair” and, as a verb form, “I seem”), the lack of an explicit botanical context keeps the classification `unclear`,
+so as not to attribute to the tree mentions about body hair or the verb “a părea” (“to seem”).
+Identifying the product does not automatically declare it useful: the recommendation and the condition must
+still be classified from the sources. Changing the rules requires a new preparation and
+publication at the reindexing started by the operator; the active scores are not rewritten directly.
+In the interface, `Pyrus communis` is displayed as “Păr” (pear), including in the tops and in the product page;
+the name `par` and its ID stay unchanged in the database.
 
-Migrarea aditivă `023_positive_herb_rankings.sql` creează rulări, dovezi cu poziții în text,
-perechi, scoruri și cache. Nu clasifică și nu activează nimic. **Aplicarea în baza activă
-necesită autorizare separată**, backup verificat prin restaurare și evaluarea descrisă mai jos.
-Aplicația nu aplică migrări la startup.
+The additive migration `023_positive_herb_rankings.sql` creates runs, evidence with positions in the text,
+pairs, scores and cache. It classifies and activates nothing. **Applying it to the active database
+requires separate authorization**, a backup verified by restoration and the evaluation described below.
+The application does not apply migrations at startup.
 
-După aplicarea explicită a migrării într-un mediu pregătit, comanda obișnuită actualizează
-implicit și topurile la final:
+After the explicit application of the migration in a prepared environment, the usual command also updates
+the tops at the end by default:
 
 ```powershell
 $env:PYTHONPATH = 'src'
 .\.venv\Scripts\python.exe -m scripts.build_hybrid_index
 ```
 
-După încheierea tranzacției de indexare, CLI-ul execută secvențial analiza, pregătirea unei
-rulări noi și publicarea ei atomică. Același flux rulează după `--rebuild-herbs` sau
-`--rebuild-herbs-only`. Nu sunt necesare opțiunile separate de topuri pentru fluxul complet.
-`herb_positive_runs` primește noua rulare; `herb_positive_evidence`, `herb_positive_pairs`
-și `herb_positive_rankings` sunt populate pentru aceasta. `herb_positive_cache` reutilizează
-deciziile compatibile și salvează deciziile noi validate. Tabelele nu sunt golite și
-istoricul rulărilor este păstrat. Chiar și când indexul nu se schimbă, comanda creează o
-rulare nouă, cu reutilizarea cache-ului. Nu este necesară o migrare suplimentară.
+After the indexing transaction ends, the CLI sequentially runs the analysis, the preparation of a
+new run and its atomic publication. The same flow runs after `--rebuild-herbs` or
+`--rebuild-herbs-only`. The separate tops options are not needed for the complete flow.
+`herb_positive_runs` receives the new run; `herb_positive_evidence`, `herb_positive_pairs`
+and `herb_positive_rankings` are populated for it. `herb_positive_cache` reuses
+the compatible decisions and saves the new validated decisions. The tables are not emptied and
+the history of runs is kept. Even when the index does not change, the command creates a
+new run, reusing the cache. No additional migration is needed.
 
-Migrarea aditivă `037_herb_condition_scores.sql` creează `herb_condition_score_runs` (marcajul „scoruri calculate”) și `herb_condition_scores` (L1, L2, L3 per produs și afecțiune pentru perechile `positive`). Scorurile se recalculează automat după fiecare publicare a rankingului pozitiv, fără AI sau embeddings; pentru rularea activă a unei limbi, fără reindexare:
+The additive migration `037_herb_condition_scores.sql` creates `herb_condition_score_runs` (the “scores computed” marker) and `herb_condition_scores` (L1, L2, L3 per product and condition for the `positive` pairs). The scores are recomputed automatically after each publication of the positive ranking, without AI or embeddings; for a language's active run, without reindexing:
 
 ```powershell
 $env:PYTHONPATH = 'src'
@@ -736,18 +739,18 @@ $env:PYTHONPATH = 'src'
 .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --rebuild-condition-scores --language en
 ```
 
-Până la aplicarea migrării și calculul scorurilor, topurile pe afecțiune răspund cu `INDEX_HERBS_UNAVAILABLE`, fără revenire la ordinea veche.
+Until the migration is applied and the scores computed, the per-condition tops respond with `INDEX_HERBS_UNAVAILABLE`, without falling back to the old order.
 
-La execuția nativă pe Windows, CLI-ul traduce adresa Ollama `host.docker.internal`
-moștenită din configurația Docker în `127.0.0.1`, păstrând protocolul, portul și calea.
-În container adresa Docker rămâne neschimbată; o adresă locală configurată explicit
-este de asemenea păstrată. Nu există retry sau schimbare de model/furnizor.
+In native execution on Windows, the CLI translates the Ollama address `host.docker.internal`
+inherited from the Docker configuration to `127.0.0.1`, keeping the protocol, port and path.
+In the container the Docker address stays unchanged; an explicitly configured
+local address is also kept. There is no retry or change of model/provider.
 
-`--skip-positive-ranking` dezactivează explicit această etapă. Un eșec al indexării nu
-lansează clasificarea; un eșec ulterior al pregătirii sau publicării topurilor returnează
-cod de ieșire 1, fără activarea rezultatelor parțiale. Indexul deja publicat nu este anulat.
+`--skip-positive-ranking` explicitly disables this stage. An indexing failure does not
+launch the classification; a later failure in preparing or publishing the tops returns
+exit code 1, without activating partial results. The already published index is not rolled back.
 
-Pentru operații separate, modurile explicite rămân disponibile:
+For separate operations, the explicit modes remain available:
 
 ```powershell
 $env:PYTHONPATH = 'src'
@@ -757,294 +760,294 @@ $env:PYTHONPATH = 'src'
 .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-positive-ranking RUN_ID
 ```
 
-Modurile sunt mutual exclusive cu reconstruirea asocierilor. Analiza nu cheamă Ollama și
-nu scrie: raportează unitățile, deciziile prin reguli, cazurile ambigue, cache hits și loturile
-calculate. Digestul folosit pentru analiza cache-ului este cel al ultimei pregătiri cu aceeași
-configurație, dacă există; este marcat neverificat. Pregătirea verifică modelul instalat prin
-`/api/tags`, înainte și după procesare, și publică numai o rulare neactivă `ready`. Modelul
-nu este descărcat automat. Publicarea reverifică digestul modelului, inputul, acoperirea, agregatele și pointerul
-observat la pregătire, sub lock, apoi activează într-un singur commit. O publicare concurentă
-nu poate fi suprascrisă de o rulare veche. Repetarea publicării aceleiași rulări este idempotentă.
+The modes are mutually exclusive with rebuilding the associations. The analysis does not call Ollama and
+does not write: it reports the units, the rule-based decisions, the ambiguous cases, the cache hits and the computed
+batches. The digest used for the cache analysis is that of the last preparation with the same
+configuration, if one exists; it is marked unverified. The preparation checks the installed model through
+`/api/tags`, before and after processing, and publishes only an inactive `ready` run. The model
+is not downloaded automatically. Publishing rechecks the model digest, the input, the coverage, the aggregates and the pointer
+observed at preparation, under lock, then activates in a single commit. A concurrent publication
+cannot be overwritten by an old run. Repeating the publication of the same run is idempotent.
 
-Regulile lucrează pe textul **indexat**, fără să modifice fragmentele sau embeddings.
-Unitățile se separă la limitele paragrafelor, elementelor de listă și rândurilor de tabel,
-cu titlurile relevante. Paragrafele păstrează contextul dintre propoziții, inclusiv referințele
-indirecte la produse. Aceste unități sunt folosite numai pentru regulile locale. Cazurile
-nerezolvate se grupează pe fragment indexat și pereche produs–afecțiune; Ollama primește
-întregul `chunks.text`, cu toate paragrafele și titlurile din acel fragment. Mențiunile și
-citatele se raportează la fragmentul complet, inclusiv în dovezile persistate.
-`cache_semantics=6` separă deciziile obținute cu fragmentul integral și schema curentă de
-deciziile salvate după protocoalele anterioare.
-Un fragment care depășește bugetele tehnice oprește explicit pregătirea, fără trunchiere.
-Fiecare fragment indexat ajunge la Ollama într-un singur câmp `units[].text`, cu întregul
-`chunks.text` exact, fără împărțire, selecții de paragrafe sau trunchiere. Delimitările scurte
-folosite pentru dovezile persistate se calculează local după răspuns; nu apar în payload.
-Introducerile listelor și antetele tabelelor sunt preluate numai din textul indexat;
-coloanele fără antet disponibil nu primesc un sens presupus. Un simplu titlu de boală
-nu justifică o clasificare pozitivă. Regulile v3 tratează listele explicite și coliziunile
-gramaticale clare ale aliasurilor, vehiculele alcoolice, ingredientele adăugate numai pentru
-gust și unele descrieri strict nutritive. Interdicțiile explicite complet interpretate
-(`interzis`, `contraindicat`, `contraindicată`, `contraindicate`, `nu este permis a se consuma`)
-primesc local eticheta `caution` pentru produsul numit și afecțiunea primară verificată,
-fără cerere AI pentru o unitate astfel rezolvată. Sunt recunoscute și listele negative
-explicite. Negațiile interdicției, condițiile secundare, limitele de doză și formulările
-incomplete rămân la AI. O interdicție certă dintr-un pasaj complex se păstrează separat
-și se combină cu răspunsul modelului/cache-ului; nu elimină evaluarea celorlalte mențiuni.
-Numai în matcherul produselor, aliasul neambiguu `rosie` acoperă și formele explicite
-`rosii`, `rosiile`, `rosia`, `rosiei`, `rosiilor`, păstrând ID-ul catalogului; aliasurile
-existente au prioritate, iar adjectivele de culoare nu identifică leguma. Antetul OCR
-al unui tabel este moștenit numai din
-textul indexat anterior aceleiași secțiuni; o nouă secțiune întrerupe moștenirea. Clasificarea
-locală pozitivă verifică domeniul afecțiunii, nu doar existența unei instrucțiuni. Cazurile
-nesigure păstrează întregul context pentru AI.
-Regulile v4 elimină clasificarea directă `ingredient_quantity_only_v3`: o enumerare de
-ingrediente sau cantități continuă prin celelalte reguli și, dacă acestea nu decid,
-este evaluată de modelul local. Nu devine automat recomandare pozitivă. Schimbarea regulilor
-cere o nouă pregătire/publicare a topurilor, dar permite reutilizarea deciziilor modelului
-pentru text, context, prompt și model compatibile. Modificarea promptului schimbă cheia
-cache-ului modelului; clasamentul deja publicat nu este modificat automat.
-Prompturile de clasificare permit stabilirea afecțiunii din titlul secțiunii, fără repetarea
-bolii pentru fiecare ingredient sau instrucțiune. Administrarea nu reprezintă singură o
-precauție; `caution` cere o restricție efectivă pentru perechea evaluată.
-Matcherul folosește numele și aliasurile existente, fără aliasuri de uleiuri deduse automat.
-Contextul local limitează afecțiunile candidate; avertismentele despre alte afecțiuni,
-excepțiile și relațiile nesigure merg la clasificatorul local.
+The rules work on the **indexed** text, without modifying the fragments or embeddings.
+The units are separated at the boundaries of paragraphs, list items and table rows,
+with the relevant headings. Paragraphs keep the context between sentences, including indirect
+references to products. These units are used only for the local rules. The unresolved
+cases are grouped by indexed fragment and product–condition pair; Ollama receives
+the whole `chunks.text`, with all the paragraphs and headings of that fragment. Mentions and
+quotations are reported against the complete fragment, including in the persisted evidence.
+`cache_semantics=6` separates the decisions obtained with the whole fragment and the current schema from
+the decisions saved under the earlier protocols.
+A fragment that exceeds the technical budgets explicitly stops the preparation, without truncation.
+Each indexed fragment reaches Ollama in a single `units[].text` field, with the whole
+`chunks.text` exactly, without splitting, paragraph selection or truncation. The short delimitations
+used for the persisted evidence are computed locally after the answer; they do not appear in the payload.
+List introductions and table headers are taken only from the indexed text;
+columns without an available header receive no assumed meaning. A simple disease title
+does not justify a positive classification. The v3 rules handle explicit lists and clear grammatical
+collisions of aliases, alcoholic vehicles, ingredients added only for
+taste and some strictly nutritional descriptions. Fully interpreted explicit prohibitions
+(`interzis` “prohibited”, `contraindicat`, `contraindicată`, `contraindicate` “contraindicated”, `nu este permis a se consuma` “must not be consumed”)
+locally receive the label `caution` for the named product and the verified primary condition,
+without an AI request for a unit resolved in this way. Explicit negative lists
+are also recognized. Negations of the prohibition, secondary conditions, dose limits and incomplete
+wordings stay with the AI. A certain prohibition from a complex passage is kept separately
+and combined with the model's/cache's answer; it does not remove the evaluation of the other mentions.
+Only in the product matcher, the unambiguous alias `rosie` (tomato) also covers the explicit forms
+`rosii`, `rosiile`, `rosia`, `rosiei`, `rosiilor`, keeping the catalog ID; the existing
+aliases take priority, and color adjectives do not identify the vegetable. The OCR header
+of a table is inherited only from the
+indexed text preceding the same section; a new section interrupts inheritance. The positive
+local classification checks the condition domain, not just the existence of an instruction. Uncertain
+cases keep the whole context for the AI.
+The v4 rules remove the direct classification `ingredient_quantity_only_v3`: an enumeration of
+ingredients or quantities continues through the other rules and, if these do not decide,
+is evaluated by the local model. It does not automatically become a positive recommendation. Changing the rules
+requires a new preparation/publication of the tops, but allows reusing the model's decisions
+for compatible text, context, prompt and model. Changing the prompt changes the model's cache
+key; the already published ranking is not modified automatically.
+The classification prompts allow establishing the condition from the section title, without repeating the
+disease for each ingredient or instruction. Administration alone is not a
+caution; `caution` requires an effective restriction for the evaluated pair.
+The matcher uses the existing names and aliases, with no automatically deduced oil aliases.
+The local context limits the candidate conditions; warnings about other conditions,
+exceptions and uncertain relationships go to the local classifier.
 
-Numele comune care indică mai multe identități de catalog și mențiunile din bibliografie
-rămân neclare și nu adaugă puncte. Clasificatorul primește fiecare fragment integral într-un
-singur câmp `units[].text`, fără segmente. Deciziile produs–afecțiune nu cer ID-uri de citat;
-componenta separată `warnings` folosește catalogul de referințe descris mai sus.
-Schema JSON impune toți
-identificatorii relațiilor și doar trei răspunsuri factuale: `local_condition`,
-`recommendation`, `prohibition`. Pozițiile mențiunilor și textul complet rămân în sursa locală;
-validatorul găsește local dovada pentru persistență după răspuns.
-Fiecare candidat include numele canonic în `condition` și toate sinonimele din catalog
-în `condition_synonyms`, în ordinea lor din catalog, fără limitarea listei. Sinonimele
-sunt denumiri echivalente ale țintei și sunt incluse atât în bugetul cererii, cât și în
-cheia cache-ului; modificarea listei cere reevaluarea deciziei modelului.
-Mențiunile repetate ale aceleiași perechi
-produs–afecțiune dintr-o unitate primesc o singură evaluare, distribuită apoi tuturor
-mențiunilor originale. Agregarea între unități rămâne separată; nicio mențiune nu este
-omisă după găsirea unei contraindicații.
-Atenționările locale certe se combină cu decizia modelului după evaluarea tuturor
-mențiunilor, inclusiv când răspunsul provine din cache. Consultarea medicului înainte de
-utilizarea unui produs impune precauție numai când aceeași afirmație numește explicit
-produsul și afecțiunea candidat; negațiile și condițiile concurente rămân la AI.
+Common names that indicate several catalog identities and bibliography mentions
+stay unclear and add no points. The classifier receives each whole fragment in a
+single `units[].text` field, without segments. The product–condition decisions do not require citation IDs;
+the separate `warnings` component uses the reference catalog described above.
+The JSON schema enforces all
+the relationship identifiers and only three factual answers: `local_condition`,
+`recommendation`, `prohibition`. The positions of the mentions and the full text remain in the local source;
+the validator locally finds the evidence for persistence after the answer.
+Each candidate includes the canonical name in `condition` and all the synonyms from the catalog
+in `condition_synonyms`, in their catalog order, without limiting the list. The synonyms
+are equivalent names of the target and are included both in the request budget and in the
+cache key; changing the list requires re-evaluating the model's decision.
+Repeated mentions of the same product–condition
+pair within a unit receive a single evaluation, then distributed to all the original
+mentions. Aggregation across units remains separate; no mention is
+omitted after a contraindication is found.
+Certain local warnings are combined with the model's decision after evaluating all the
+mentions, including when the answer comes from the cache. Consulting a doctor before
+using a product imposes caution only when the same statement explicitly names the
+product and the candidate condition; negations and competing conditions stay with the AI.
 
-Protocolul v8 cere trei fapte pentru fiecare relație: `local_condition`, `recommendation` și
-`prohibition`. Ollama primește fragmentul integral într-un singur câmp, iar răspunsul nu
-conține trimiteri la citate. Codul verifică numele local prin catalogul complet (inclusiv
-sinonime și flexiuni, fără potrivire fuzzy), caută toate aparițiile lui în text și confirmă
-mențiunea candidatului în sursă. Sinonimele formate dintr-o abreviere alfabetică scrisă cu
-majuscule se verifică separat, păstrând majusculele: prepoziția „pe” nu identifică sinonimul
-„PE”. Denumirile complete continuă să fie recunoscute fără diferențierea majusculelor.
-Un titlu sau o introducere locală poate stabili afecțiunea
-și când modelul omite numele. Un nume care identifică altă afecțiune este respins. Titlurile
-Markdown, titlurile clinice scurte și formulările explicite „În tratarea X” delimitează
-contextul; sunt recunoscute și titlurile clinice cu majuscule precedate de unul sau două
-cuvinte OCR reziduale. Un context străin produce `unclear`. Recomandarea are prioritate față de interdicția
-pentru aceeași relație în același fragment. Etichetele finale rămân `unclear`, `positive`,
-`caution`; `mixed` se păstrează numai intern pentru contradicții între fragmente distincte.
-`cache_semantics=6` separă deciziile validate după acest protocol de cele anterioare.
-Promptul permite recomandarea unei plante ca ingredient indicat într-o rețetă terapeutică.
-O enumerare botanică a speciilor dintr-un material natural nu transferă automat indicațiile
-materialului asupra fiecărei specii.
-Regulile v6 recunosc ca descriptive enumerările de plante întâlnite într-un habitat,
-în lipsa unei afirmații terapeutice în aceeași propoziție; rețetele și listele administrate
-pentru tratament continuă prin regulile existente sau model.
-Listele de alternative preiau indicația tratamentului pe care îl continuă. Promptul cere
-urmărirea schimbărilor de subiect din fragmentele OCR cu mai multe secțiuni; primul titlu
-nu stabilește automat indicația tuturor produselor din fragment.
-Listele explicite de produse recomandate, cu identitate neambiguă și afecțiune locală
-confirmată, se păstrează ca dovezi pozitive și când modelul omite recomandarea. Dovada
-locală se combină cu decizia brută a modelului, care este păstrată separat în cache.
-Promptul de clasificare și contractul de transport sunt documente Markdown separate, scrise
-în română fără diacritice. Primul stabilește regulile de decizie și legarea afecțiunii locale;
-al doilea definește câmpurile JSON și transmiterea fragmentului integral. Deciziile
-produs–afecțiune nu folosesc ID-uri de citat; referințele safety sunt independente.
-Identitatea semantică include textul, contextul complet transmis, numele, mențiunile grupate,
-politica de clasificare și digestul modelului. Versiunile regulilor și transportului sunt
-separate: un transport schimbat nu invalidează aceleași decizii semantice. Cache-ul vechi
-rămâne păstrat, fără declararea artificială a compatibilității cu noua politică.
-Profilul rulării include și amprenta implementării regulilor; o modificare a acestora
-cere o generație compatibilă nouă. Cache-ul deciziilor brute ale modelului rămâne separat
-de această amprentă, iar regulile curente sunt reaplicate înaintea agregării finale.
-Profilul verifică și politica extragerii metadatelor de catalog. Un alias complet și
-neambiguu al afecțiunii poate verifica titlul; o potrivire parțială nu este suficientă.
-Analizele pe unitate păstrează separat rolul produsului în tabel, administrarea explicită
-și restricțiile. Un avertisment colectiv pentru suplimente se leagă de categoriile
-corespunzătoare și de afecțiunea numită, apoi se combină cu rezultatul AI. Limitele de
-doză recunoscute nu devin automat contraindicații pentru afecțiune.
-Construcția loturilor serializează fiecare unitate o singură dată și caută binar cel
-mai mare prefix care respectă toate bugetele, folosind anvelopa completă reală.
+Protocol v8 requires three facts for each relationship: `local_condition`, `recommendation` and
+`prohibition`. Ollama receives the whole fragment in a single field, and the answer does not
+contain references to quotations. The code checks the local name through the full catalog (including
+synonyms and inflections, without fuzzy matching), finds all its occurrences in the text and confirms the
+candidate's mention in the source. Synonyms made of an alphabetic abbreviation written in
+capitals are checked separately, keeping the capitals: the Romanian preposition “pe” (“on”) does not identify the synonym
+“PE”. Full names continue to be recognized without case distinction.
+A local title or introduction can establish the condition
+even when the model omits the name. A name that identifies another condition is rejected. Markdown
+headings, short clinical titles and explicit wordings like “În tratarea X” (“In the treatment of X”) delimit the
+context; clinical titles in capitals preceded by one or two residual OCR
+words are also recognized. A foreign context produces `unclear`. The recommendation takes priority over the prohibition
+for the same relationship in the same fragment. The final labels remain `unclear`, `positive`,
+`caution`; `mixed` is kept only internally for contradictions between distinct fragments.
+`cache_semantics=6` separates the decisions validated under this protocol from the earlier ones.
+The prompt allows recommending a plant as an ingredient indicated in a therapeutic recipe.
+A botanical enumeration of the species in a natural material does not automatically transfer the material's
+indications to each species.
+The v6 rules recognize as descriptive the enumerations of plants found in a habitat,
+in the absence of a therapeutic statement in the same sentence; recipes and lists administered
+for treatment continue through the existing rules or the model.
+Lists of alternatives take over the indication of the treatment they continue. The prompt asks for
+tracking topic changes in OCR fragments with several sections; the first title
+does not automatically establish the indication of all the products in the fragment.
+Explicit lists of recommended products, with unambiguous identity and a confirmed local
+condition, are kept as positive evidence even when the model omits the recommendation. The local
+evidence is combined with the model's raw decision, which is kept separately in the cache.
+The classification prompt and the transport contract are separate Markdown documents, written
+in Romanian without diacritics. The first establishes the decision rules and the binding of the local condition;
+the second defines the JSON fields and the passing of the whole fragment. The
+product–condition decisions do not use citation IDs; the safety references are independent.
+The semantic identity includes the text, the full context passed, the name, the grouped mentions,
+the classification policy and the model digest. The versions of the rules and of the transport are
+separate: a changed transport does not invalidate the same semantic decisions. The old cache
+is kept, without artificially declaring compatibility with the new policy.
+The run profile also includes the fingerprint of the rules implementation; a change to them
+requires a new compatible generation. The cache of the model's raw decisions stays separate
+from this fingerprint, and the current rules are reapplied before the final aggregation.
+The profile also checks the policy for extracting catalog metadata. A complete and
+unambiguous alias of the condition can verify the title; a partial match is not enough.
+The per-unit analyses keep separately the product's role in the table, the explicit administration
+and the restrictions. A collective warning for supplements is tied to the corresponding
+categories and to the named condition, then combined with the AI result. Recognized
+dose limits do not automatically become contraindications for the condition.
+Batch construction serializes each unit once and binary-searches the
+largest prefix that respects all the budgets, using the real complete envelope.
 
-Loturile pot grupa fragmente complete scurte pentru aceeași afecțiune primară. Fragmentele
-lungi, tabelele, condițiile multiple și excepțiile complexe se procesează separat. În loturile
-obișnuite pot fi cel mult șase fragmente indexate. Fiecare fragment apare o singură dată,
-întreg, în `units[].text`, indiferent de numărul relațiilor. Un fragment lung este trimis
-integral, singur în cerere. Instrucțiunile, contextul și schema intră în plafonul configurabil
-de 100.000 de caractere pentru cererea completă. Se păstrează maximum 20 de relații distincte.
-Prompturile sunt înghețate și reverificate înainte de finalizare. Publicarea verifică din nou
-profilul compatibil.
+Batches can group short complete fragments for the same primary condition. Long
+fragments, tables, multiple conditions and complex exceptions are processed separately. In
+ordinary batches there can be at most six indexed fragments. Each fragment appears once,
+whole, in `units[].text`, regardless of the number of relationships. A long fragment is sent
+whole, alone in the request. The instructions, the context and the schema fall within the configurable
+ceiling of 100,000 characters for the complete request. At most 20 distinct relationships are kept.
+The prompts are frozen and rechecked before finalization. Publishing checks the compatible
+profile again.
 
-| Variabilă | Implicit | Rol |
+| Variable | Default | Role |
 |---|---|---|
-| `HERB_ASSOCIATION_AI_BASE` | `CONDITION_AI_LOCAL_BASE`, altfel `http://localhost:11434/v1` | Numai localhost sau hostul Docker; Compose folosește implicit `host.docker.internal`. |
-| `HERB_ASSOCIATION_AI_MODEL` | `qwen3.5:9b` | Independent de clasificarea conversațională și modelul raportului. |
-| `HERB_ASSOCIATION_AI_MAX_UNITS` / `HERB_ASSOCIATION_AI_MAX_PAIRS` | `6` / `20` | Maximum șase fragmente integrale pentru loturile obișnuite; fragmentele prea mari se trimit izolat. Maximum 20 de relații distincte per cerere, indiferent de repetări. |
-| `HERB_ASSOCIATION_AI_MAX_PASSAGE_CHARS` | `1000` | Prag pentru gruparea fragmentelor simple și limita dovezii scurte salvate local; nu împarte textul trimis la Ollama. |
-| `HERB_ASSOCIATION_AI_MAX_INPUT_CHARS` | `100000` | Plafon tehnic pentru întregul request serializat, inclusiv promptul, contextul și schema. Depășirea oprește pregătirea; nu scurtează fragmentul. |
-| `HERB_ASSOCIATION_AI_CONTEXT_TOKENS` / `HERB_ASSOCIATION_AI_MAX_OUTPUT_TOKENS` | `32768` / `2048` | Context și rezervă de răspuns. |
-| `HERB_SAFETY_AI_CONTEXT_TOKENS` | `65536` | Fereastra pentru cererea de cunoștințe AI a unui singur produs; independentă de contextul clasificării. |
-| `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS` | `40000` | Plafon de ieșire pentru toate mesajele scurte ale produsului sau ale unui lot din extensia bilingvă. |
-| `HERB_SAFETY_AI_MAX_REQUESTS` | `10000` | Plafon de încercări per generație, inclusiv reluările. O cerere pentru fiecare produs fără cache. |
-| `HERB_SAFETY_BUILD_TIMEOUT_SECONDS` | `86400` | Deadline al pregătirii safety; prima populare poate procesa întregul catalog. |
-| `HERB_SAFETY_EXTENSION_PRODUCTS` | gol (dezactivat) | Domeniul extensiei bilingve: gol, listă CSV de denumiri latine exacte, `first:N` sau `all`. |
-| `HERB_CONDITION_TOP_FORMULA` | `2*L1+L2+100*L3` | Scorul topurilor „produse pentru o afecțiune”. Doar numere, `L1`, `L2`, `L3`, `+ - * /` și paranteze; validat la pornire (fără `eval`, definit pentru orice valori ≥ 0). Schimbarea cere repornirea aplicației, nu reindexare. |
-| `HERB_SAFETY_GENERATION_MODEL` | `ministral-3:8b` | Modelul Ollama local al etapei de generare a extensiei safety; gol dezactivează etapa locală și generează numai DeepSeek. Pe 10 produse cunoscute, ministral a dat cele mai specifice mesaje dintre modelele locale testate. Identificatorul de etapă din cache rămâne `qwen`, din motive istorice. |
-| `HERB_SAFETY_DEDUP_MODEL` | `gemma4:12b` | Modelul Ollama local care grupează mesajele echivalente. Comparat pe sunătoare cu qwen3.5:9b și qwen3.5:4b: a găsit 3 din 3 perechi reale. |
-| `HERB_SAFETY_MINISTRAL_BATCH_SIZE` / `HERB_SAFETY_DEEPSEEK_BATCH_SIZE` | `10` / `100` | Produse per cerere către modelul local de generare (și per cerere de dedup), respectiv către DeepSeek. Validate față de plafoanele de ieșire doar cât extensia este activă. |
-| `HERB_SAFETY_DEEPSEEK_MAX_OUTPUT_TOKENS` | `160000` | Plafon de ieșire al unui lot DeepSeek, reasoning inclus. |
-| `HERB_ASSOCIATION_AI_TIMEOUT_SECONDS` / `HERB_ASSOCIATION_BUILD_TIMEOUT_SECONDS` | `900` / `7200` | Buget per lot AI și limită de așteptare I/O, respectiv deadline per comandă. Timpul rămas al comenzii limitează fiecare lot. |
-| `HERB_ASSOCIATION_AI_KEEP_ALIVE_SECONDS` | `3600` | Numai pentru reindexare: păstrează modelul Ollama până la 60 de minute de inactivitate între cereri, inclusiv cele pentru safety. `0` descarcă după fiecare cerere; `-1` păstrează nelimitat între cereri. La încheierea fluxului, CLI-ul solicită oricum descărcarea imediată. |
-| `HERB_ASSOCIATION_AI_MAX_REQUESTS` | `1000` | Plafon de încercări pentru RUN_ID, inclusiv la reluare. |
+| `HERB_ASSOCIATION_AI_BASE` | `CONDITION_AI_LOCAL_BASE`, otherwise `http://localhost:11434/v1` | Localhost or the Docker host only; Compose uses `host.docker.internal` by default. |
+| `HERB_ASSOCIATION_AI_MODEL` | `qwen3.5:9b` | Independent of the conversational classification and the report model. |
+| `HERB_ASSOCIATION_AI_MAX_UNITS` / `HERB_ASSOCIATION_AI_MAX_PAIRS` | `6` / `20` | At most six whole fragments for ordinary batches; fragments that are too large are sent in isolation. At most 20 distinct relationships per request, regardless of repetitions. |
+| `HERB_ASSOCIATION_AI_MAX_PASSAGE_CHARS` | `1000` | Threshold for grouping simple fragments and the limit of the short evidence saved locally; it does not split the text sent to Ollama. |
+| `HERB_ASSOCIATION_AI_MAX_INPUT_CHARS` | `100000` | Technical ceiling for the whole serialized request, including the prompt, the context and the schema. Exceeding it stops the preparation; it does not shorten the fragment. |
+| `HERB_ASSOCIATION_AI_CONTEXT_TOKENS` / `HERB_ASSOCIATION_AI_MAX_OUTPUT_TOKENS` | `32768` / `2048` | Context and answer reserve. |
+| `HERB_SAFETY_AI_CONTEXT_TOKENS` | `65536` | Window for the AI knowledge request of a single product; independent of the classification context. |
+| `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS` | `40000` | Output ceiling for all the short messages of a product or of a batch in the bilingual extension. |
+| `HERB_SAFETY_AI_MAX_REQUESTS` | `10000` | Ceiling of attempts per generation, including retries. One request for each product without a cache. |
+| `HERB_SAFETY_BUILD_TIMEOUT_SECONDS` | `86400` | Deadline of the safety preparation; the first population can process the whole catalog. |
+| `HERB_SAFETY_EXTENSION_PRODUCTS` | empty (disabled) | The scope of the bilingual extension: empty, a CSV list of exact Latin names, `first:N` or `all`. |
+| `HERB_CONDITION_TOP_FORMULA` | `2*L1+L2+100*L3` | The score of the “products for a condition” tops. Only numbers, `L1`, `L2`, `L3`, `+ - * /` and parentheses; validated at startup (no `eval`, defined for any values ≥ 0). Changing it requires restarting the application, not reindexing. |
+| `HERB_SAFETY_GENERATION_MODEL` | `ministral-3:8b` | The local Ollama model of the generation stage of the safety extension; empty disables the local stage and generates only with DeepSeek. On 10 known products, ministral gave the most specific messages among the local models tested. The stage identifier in the cache remains `qwen`, for historical reasons. |
+| `HERB_SAFETY_DEDUP_MODEL` | `gemma4:12b` | The local Ollama model that groups equivalent messages. Compared on St John's wort with qwen3.5:9b and qwen3.5:4b: it found 3 of 3 real pairs. |
+| `HERB_SAFETY_MINISTRAL_BATCH_SIZE` / `HERB_SAFETY_DEEPSEEK_BATCH_SIZE` | `10` / `100` | Products per request to the local generation model (and per dedup request), respectively to DeepSeek. Validated against the output ceilings only while the extension is active. |
+| `HERB_SAFETY_DEEPSEEK_MAX_OUTPUT_TOKENS` | `160000` | Output ceiling of a DeepSeek batch, reasoning included. |
+| `HERB_ASSOCIATION_AI_TIMEOUT_SECONDS` / `HERB_ASSOCIATION_BUILD_TIMEOUT_SECONDS` | `900` / `7200` | Budget per AI batch and I/O wait limit, respectively the deadline per command. The command's remaining time limits each batch. |
+| `HERB_ASSOCIATION_AI_KEEP_ALIVE_SECONDS` | `3600` | For reindexing only: keeps the Ollama model for up to 60 minutes of inactivity between requests, including those for safety. `0` unloads after each request; `-1` keeps it indefinitely between requests. At the end of the flow, the CLI requests immediate unloading anyway. |
+| `HERB_ASSOCIATION_AI_MAX_REQUESTS` | `1000` | Ceiling of attempts for RUN_ID, including on resume. |
 
-Toate variabilele sunt validate de `Settings` și propagate prin Compose. Se folosește un
-singur request în zbor, temperatură zero și JSON cu schemă strictă, fără retry/fallback.
-Clasificările și cererile separate de cunoștințe despre produse folosesc streaming
-nativ Ollama în același POST. Bucățile sunt reunite intern; validarea JSON și salvarea
-în cache au loc după primirea marcajului final. Un flux întrerupt ori un timeout nu
-salvează un rezultat incomplet. Bugetul de 900 de secunde este verificat între bucăți
-și la ieșirea din lot, împreună cu deadline-ul comenzii; I/O păstrează limita de așteptare.
+All the variables are validated by `Settings` and propagated through Compose. A
+single in-flight request, zero temperature and JSON with a strict schema are used, with no retry/fallback.
+The classifications and the separate product-knowledge requests use native Ollama
+streaming in the same POST. The chunks are reassembled internally; JSON validation and saving
+to the cache happen after the final marker is received. An interrupted stream or a timeout does not
+save an incomplete result. The 900-second budget is checked between chunks
+and when leaving the batch, together with the command's deadline; I/O keeps its wait limit.
 
-Fiecare cerere produce în stdout evenimente JSON cu `stage=herb_ai_batch`,
-`event=started` și `event=completed`/`failed`. Sunt incluse:
+Each request produces on stdout JSON events with `stage=herb_ai_batch`,
+`event=started` and `event=completed`/`failed`. They include:
 
-- Rularea, tipul (`associations` sau `product_safety`), numărul lotului, modelul,
-  contextul, limita de ieșire și limitele de timp configurată/efectivă.
-- Numărul fragmentelor/țintelor și lungimile sursei, payloadului și system promptului.
-- `herb_id` și `safety_source=model_knowledge` pentru noua analiză per produs;
-  `warning_items_max_total` este un câmp istoric al extracției pe fragmente, zero aici.
-- Durata lotului, timpul până la prima bucată și primul text, ultima activitate,
-  numărul evenimentelor și numărul de caractere primite, fără conținutul lor.
-- Timpii Ollama de încărcare, procesare a promptului și generare, tokenii de intrare,
-  tokenii de prompt din cache, tokenii generați și viteza generării.
-- Tipul erorii și un motiv tehnic controlat, fără mesaje brute de la furnizor.
+- The run, the type (`associations` or `product_safety`), the batch number, the model,
+  the context, the output limit and the configured/effective time limits.
+- The number of fragments/targets and the lengths of the source, payload and system prompt.
+- `herb_id` and `safety_source=model_knowledge` for the new per-product analysis;
+  `warning_items_max_total` is a historical field of fragment-based extraction, zero here.
+- The batch duration, the time to the first chunk and first text, the last activity,
+  the number of events and the number of characters received, without their content.
+- The Ollama times for loading, prompt processing and generation, the input tokens,
+  the cached prompt tokens, the generated tokens and the generation speed.
+- The error type and a controlled technical reason, without raw provider messages.
 
-Valorile native care lipsesc, inclusiv la întreruperea fluxului, sunt `null`. Duratele
-native sunt convertite din nanosecunde în milisecunde; `duration_ms` măsoară lotul complet,
-inclusiv validarea/salvarea. Evenimentele de lot și heartbeat-urile sunt serializate pe
-linii JSON distincte. Streamingul și metricele păstrează loturile, numărul cererilor și
-amprentele cache-urilor semantice; nu se adaugă cereri pentru diagnostic ori retry automat.
+Missing native values, including when the stream is interrupted, are `null`. The native
+durations are converted from nanoseconds to milliseconds; `duration_ms` measures the complete batch,
+including validation/saving. Batch events and heartbeats are serialized on
+distinct JSON lines. Streaming and the metrics keep the batches, the number of requests and the
+fingerprints of the semantic caches; no requests are added for diagnostics or automatic retry.
 
-Conform ajustării din 23 octombrie, procesarea și controlerul operatorului nu verifică
-temperatura GPU, nu opresc la 82°C și nu introduc pauze termice sau preventive.
-Frecvența GPU este administrată de utilizator.
-Se verifică setul exact de candidați și citatele exacte; rezultatele incomplete sunt respinse.
-Citatele valide dovedesc proveniența, nu corectitudinea semantică. Numărul de caractere nu
-măsoară tokenii. Plafonul cererii limitează memoria, iar Ollama verifică fereastra reală de
-tokeni cu `truncate=false` și `shift=false`; depășirea este o eroare explicită, fără
-reîncercare cu un fragment scurtat. Calibrarea pe modelul real rămâne necesară.
+As adjusted on October 23, processing and the operator controller do not check
+the GPU temperature, do not stop at 82°C and introduce no thermal or preventive pauses.
+The GPU frequency is managed by the user.
+The exact set of candidates and the exact quotations are checked; incomplete results are rejected.
+Valid quotations prove provenance, not semantic correctness. The number of characters does not
+measure tokens. The request ceiling limits memory, and Ollama checks the real token window
+with `truncate=false` and `shift=false`; exceeding it is an explicit error, with no
+retry using a shortened fragment. Calibration on the real model remains necessary.
 
-Cache-ul păstrează numai etichete și poziții relative validate, inclusiv `unclear`, fără
-text integral sau răspunsuri brute. Cheia include pasajul/contextul, candidatul și numele
-sale, politica promptului, configurația semantică și digestul modelului. Versiunea regulilor
-și forma transportului nu schimbă singure cheia unei decizii brute. Timeouturile
-nu schimbă cheia. Loturile reușite sunt salvate în tranzacții scurte, fără conexiuni DB sau
-lockuri ținute în timpul inferenței. O reluare explicită recuperează numai lipsurile;
-același input și digest produc zero cereri noi de clasificare. După un input schimbat,
-se începe o rulare nouă care poate reutiliza intrările de cache neafectate.
+The cache keeps only validated labels and relative positions, including `unclear`, without
+full text or raw answers. The key includes the passage/context, the candidate and
+its name, the prompt policy, the semantic configuration and the model digest. The rules version
+and the transport form do not change the key of a raw decision on their own. Timeouts
+do not change the key. Successful batches are saved in short transactions, without DB connections or
+locks held during inference. An explicit resume recovers only the gaps;
+the same input and digest produce zero new classification requests. After a changed input,
+a new run is started that can reuse the unaffected cache entries.
 
-Topurile nu cheamă clasificatorul și funcționează cu Ollama oprit dacă rularea publicată
-este validă. Returnează până la X intrări cu scor strict pozitiv; nu completează cu zerouri.
-Categoria fără rezultate este un rezultat valid. Lipsa unei rulări valide dă 503
-`POSITIVE_RANKING_NOT_READY`, iar schimbarea inputului/configurației dă
-`POSITIVE_RANKING_STALE`; nu există revenire la scorul istoric. Codurile indexului de bază
-rămân aplicabile. Comanda normală de indexare actualizează automat topurile la final,
-cu excepția folosirii `--skip-positive-ranking`. Până la publicarea noii rulări, un top
-vechi incompatibil rămâne indisponibil; nu se afișează rezultate parțiale sau istorice.
-Amprenta rulării include hashuri ale conținutului (`text` și embedding-ul fragmentelor, rândurile
-din `documents`), nu `xmin`; astfel, o restaurare `pg_restore` a unui backup (care rescrie toate
-rândurile) nu invalidează clasamentul publicat, dar orice modificare reală a conținutului îl invalidează.
+The tops do not call the classifier and work with Ollama stopped if the published run
+is valid. They return up to X entries with a strictly positive score; they do not pad with zeros.
+A category with no results is a valid result. The lack of a valid run gives 503
+`POSITIVE_RANKING_NOT_READY`, and a change of input/configuration gives
+`POSITIVE_RANKING_STALE`; there is no fallback to the historical score. The base index codes
+remain applicable. The normal indexing command automatically updates the tops at the end,
+unless `--skip-positive-ranking` is used. Until the new run is published, an old
+incompatible top stays unavailable; no partial or historical results are displayed.
+The run fingerprint includes content hashes (`text` and the fragments' embedding, the rows
+of `documents`), not `xmin`; thus, a `pg_restore` restoration of a backup (which rewrites all
+rows) does not invalidate the published ranking, but any real change to the content invalidates it.
 
-Evaluarea offline folosește loturi reprezentative, inclusiv fructe/cereale, și un eșantion
-independent de 80 de unități și minimum 100 de relații. Pentru activarea din 23 octombrie,
-utilizatorul a acceptat precizia măsurată de 89,33% pe eșantioanele deja revizuite și
-accelerarea existentă, fără un prag minim suplimentar de viteză. Aceasta nu certifică o
-evaluare independentă a profilului final sau o accelerare de 2×. Evaluările de precizie
-și viteză nu sunt executate automat de fiecare indexare; publicarea automată verifică
-integritatea, acoperirea completă și compatibilitatea surselor, profilului și modelului.
-Pentru comparațiile de viteză, folosiți două rulări fără cache pentru fiecare variantă,
-pe același snapshot și model; excludeți eventualele pauze din `classification_seconds`.
-Păstrați rularea anterioară și comparați hashurile/xmin ale indexului, coaparițiilor și
-scorurilor istorice în evaluările care nu modifică indexul.
-Revenirea la un pointer anterior necesită o operație explicită, cu același manifest încă
-valid; o rulare veche nu poate fi republicată peste una nouă prin comanda obișnuită.
-Progresul clasificării afișează la circa 60 de secunde numai ID-uri și agregate, durată,
-rată și câmpurile `elapsed(hh:mm:ss)` și `ETA(hh:mm:ss)`, de exemplu
-`"elapsed(hh:mm:ss)": "00:10:00"` și `"ETA(hh:mm:ss)": "02:10:05"`.
-Până când poate fi estimat timpul rămas, `ETA(hh:mm:ss)` este `null`. Tranzițiile și finalizarea
-sunt raportate imediat.
-`ai_requests_sent_total` arată numărul cererilor de clasificare lansate în execuția curentă,
-inclusiv cele care eșuează; `requests` păstrează același contor. Rezultatele din cache,
-regulile locale și verificările digestului modelului nu sunt cereri de clasificare.
-`batches` este numărul planificat de cereri. După publicare, linia
-`"stage": "positive_ranking_summary"` reia totalul trimis în etapa de pregătire.
-La o reluare, contorul afișat include numai cererile noi din acea execuție; limita cumulată
-pentru `RUN_ID` continuă să fie verificată separat în baza de date.
+The offline evaluation uses representative batches, including fruits/cereals, and an independent
+sample of 80 units and at least 100 relationships. For the activation of October 23,
+the user accepted the measured precision of 89.33% on the samples already reviewed and
+the existing speedup, with no additional minimum speed threshold. This does not certify an
+independent evaluation of the final profile or a 2× speedup. The precision and speed
+evaluations are not executed automatically at each indexing run; automatic publishing checks
+the integrity, the complete coverage and the compatibility of the sources, profile and model.
+For speed comparisons, use two runs without cache for each variant,
+on the same snapshot and model; exclude any pauses from `classification_seconds`.
+Keep the previous run and compare the hashes/xmin of the index, co-occurrences and
+historical scores in evaluations that do not modify the index.
+Returning to a previous pointer requires an explicit operation, with the same manifest still
+valid; an old run cannot be republished over a new one through the usual command.
+Classification progress displays, about every 60 seconds, only IDs and aggregates, duration,
+rate and the fields `elapsed(hh:mm:ss)` and `ETA(hh:mm:ss)`, for example
+`"elapsed(hh:mm:ss)": "00:10:00"` and `"ETA(hh:mm:ss)": "02:10:05"`.
+Until the remaining time can be estimated, `ETA(hh:mm:ss)` is `null`. Transitions and completion
+are reported immediately.
+`ai_requests_sent_total` shows the number of classification requests launched in the current run,
+including those that fail; `requests` keeps the same counter. Results from the cache,
+local rules and model digest checks are not classification requests.
+`batches` is the planned number of requests. After publishing, the line
+`"stage": "positive_ranking_summary"` repeats the total sent in the preparation stage.
+On a resume, the displayed counter includes only the new requests of that run; the cumulative limit
+for `RUN_ID` continues to be checked separately in the database.
 
-## 📦 Schema indexului hibrid (Postgres)
+## 📦 Hybrid index schema (Postgres)
 
-Tabelele principale ale indexului, catalogului și migrărilor sunt:
+The main tables of the index, the catalog and the migrations are:
 
-| Tabel | Conținut |
+| Table | Content |
 |---|---|
-| `documents` | Un rând per fișier sursă: cale, SHA-256, codificare, număr de linii; categoria (folderul) este o coloană generată din cale. Folosit și pentru a decide ce fișiere sar la sincronizarea următoare. |
-| `medical_conditions` | `id`, `name` (numele canonic românesc) și `en` (echivalentul englezesc, completat prin SQL); identitatea afecțiunii este comună ambelor limbi. |
-| `medical_condition_synonyms` | Numai `id`, `medical_condition_id` și `synonym`: sinonimele legate prin FK de afecțiune. |
-| `herbs` | Coloane fizice `id, category, family, latin, ro, en, ranking`; ID numeric identity. Plantele păstrează denumirile/familiile lowercase și un nume latin unic; produsele au `latin = NULL` și păstrează capitalizarea cerută pentru `ro`/`en`. Unicitatea numelui produsului (`lower(btrim(ro))`) este comună tuturor celor zece categorii de produse, inclusiv `seminte`. Intrările botanice folosesc `plante medicinale`, `fructe`, `legume` sau `cereale`; `family` păstrează familia botanică originală. Pentru produse, categoria tehnică se află numai în `category`, iar `family` este SQL NULL. `ranking` numără afecțiunile distincte asociate din titlurile fragmentelor. Numele populare pot fi comune mai multor specii. |
-| `herb_aliases` | Coloane `id, herb_id, name, kind`; aliasuri lowercase, FK cu ștergere în cascadă, tipuri `ro_regional`, `latin_synonyms`, `en_alt`. |
-| `herbs_benefits` | Asocieri derivate din coapariția în corpus: `id, herb_id, medical_condition_id, language`; pereche unică per limbă, FK cu ștergere în cascadă și indecși individuali. Publicate atomic la finalul reindexării. |
-| `schema_migrations` | Ledgerul migrărilor SQL aplicate o singură dată. |
-| `owner_sessions` | Autorizări owner persistente: hashuri și metadata tehnică; fără conversații sau rapoarte. |
-| `chunks` | Un rând per fragment, cu `language` (`ro`/`en`, RO pentru rândurile existente): text, interval de linii, calea titlurilor (`heading`), categoria generată din cale (`category_id`, folosită de filtrarea pe surse), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, vectorul semantic (`embedding vector(1024)`) și coloana lexicală (`text_search tsvector`). |
-| `sync_metadata` | Modelul, dimensiunea, profilul pasajelor, versiunea textului, fingerprintul SHA-256 al dicționarului, generația indexului, data sincronizării și cele cinci marcaje `herbs_benefits_*`. |
+| `documents` | One row per source file: path, SHA-256, encoding, line count; the category (folder) is a column generated from the path. Also used to decide which files are skipped at the next synchronization. |
+| `medical_conditions` | `id`, `name` (the canonical Romanian name) and `en` (the English equivalent, filled in through SQL); the condition identity is shared by both languages. |
+| `medical_condition_synonyms` | Only `id`, `medical_condition_id` and `synonym`: the synonyms tied to the condition by FK. |
+| `herbs` | Physical columns `id, category, family, latin, ro, en, ranking`; numeric identity ID. Plants keep lowercase names/families and a unique Latin name; products have `latin = NULL` and keep the capitalization requested for `ro`/`en`. The uniqueness of the product name (`lower(btrim(ro))`) is shared by all ten product categories, including `seminte`. Botanical entries use `plante medicinale`, `fructe`, `legume` or `cereale`; `family` keeps the original botanical family. For products, the technical category is only in `category`, and `family` is SQL NULL. `ranking` counts the distinct associated conditions from the fragment titles. Folk names can be shared by several species. |
+| `herb_aliases` | Columns `id, herb_id, name, kind`; lowercase aliases, FK with cascading delete, types `ro_regional`, `latin_synonyms`, `en_alt`. |
+| `herbs_benefits` | Associations derived from co-occurrence in the corpus: `id, herb_id, medical_condition_id, language`; unique pair per language, FK with cascading delete and individual indexes. Published atomically at the end of reindexing. |
+| `schema_migrations` | The ledger of the SQL migrations applied once. |
+| `owner_sessions` | Persistent owner authorizations: hashes and technical metadata; no conversations or reports. |
+| `chunks` | One row per fragment, with `language` (`ro`/`en`, RO for the existing rows): text, line range, the path of the headings (`heading`), the category generated from the path (`category_id`, used by source filtering), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, the semantic vector (`embedding vector(1024)`) and the lexical column (`text_search tsvector`). |
+| `sync_metadata` | The model, the dimension, the passage profile, the text version, the SHA-256 fingerprint of the dictionary, the index generation, the synchronization date and the five `herbs_benefits_*` markers. |
 
-Dacă profilul indexului și fingerprintul catalogului sunt neschimbate, un document cu același SHA-256 este ignorat la sincronizare; un document nou sau modificat își înlocuiește fragmentele într-o singură tranzacție.
+If the index profile and the catalog fingerprint are unchanged, a document with the same SHA-256 is skipped at synchronization; a new or modified document replaces its fragments in a single transaction.
 
-Fragmentarea (`src/backend/ai/fragmenter.py`) citește afecțiunile din `medical_conditions` și sinonimele din `medical_condition_synonyms`, în ordinea ID-urilor de inserare. Python adaugă numele canonic în lista termenilor de potrivire, fără să-l dubleze în tabela sinonimelor. Apoi aplică pe rând:
+Fragmentation (`src/backend/ai/fragmenter.py`) reads the conditions from `medical_conditions` and the synonyms from `medical_condition_synonyms`, in insertion ID order. Python adds the canonical name to the list of matching terms, without duplicating it in the synonyms table. Then it applies in turn:
 
-| Categorie | Criteriu |
+| Category | Criterion |
 |---|---|
-| **R1** | Titlul unui capitol Markdown numește o afecțiune → titlul și tot subarborele lui rămas liber (subcapitolele cu afecțiune proprie devin fragmente separate). |
-| **R2** | Textul propriu al unui capitol rămas (până la următorul titlu) menționează o afecțiune → titlul și acel text. |
-| **D1** | Restul textului (inclusiv documentele fără titluri) → bucăți de ~1800 de caractere (1500–2100), tăiate la sfârșit de paragraf sau propoziție, cu suprapunere de cel mult 270 de caractere. |
+| **R1** | The title of a Markdown chapter names a condition → the title and its whole remaining free subtree (subchapters with their own condition become separate fragments). |
+| **R2** | The own text of a remaining chapter (up to the next title) mentions a condition → the title and that text. |
+| **D1** | The rest of the text (including documents without titles) → pieces of ~1800 characters (1500–2100), cut at the end of a paragraph or sentence, with an overlap of at most 270 characters. |
 
-Afecțiunile se caută pe cuvinte întregi, fără diacritice și majuscule, cu toleranță la terminațiile românești (`gripa`/`gripei`). Numele fișierului și al folderelor nu se compară cu afecțiunile. Fragmentele R1 și R2 primesc `primary_medical_conditions` (afecțiunile din titlu) și `secondary_medical_conditions` (afecțiunile din text); D1 nu are afecțiuni. R1 și R2 nu au limită de lungime.
+Conditions are searched as whole words, without diacritics and capitals, with tolerance for Romanian endings (`gripa`/`gripei`). File and folder names are not compared with the conditions. R1 and R2 fragments receive `primary_medical_conditions` (the conditions in the title) and `secondary_medical_conditions` (the conditions in the text); D1 has no conditions. R1 and R2 have no length limit. A condition that is primary is removed from `secondary_medical_conditions` of the same fragment: the idempotent script `src/backend/index_sql/001_remove_primary_from_secondary_conditions.sql` runs on every indexing, in the publication transaction, and migration `040_remove_primary_from_secondary_conditions.sql` cleans the rows indexed earlier without reindexing (afterwards run `--rebuild-condition-scores` for each language so that the per-condition tops recompute L2).
 
-La căutare, fiecare fragment primește scorul `4·P1 + 2·P2 + L + V` (maximum 8, cu toate semnalele bifate): P1 = afecțiunea căutată este în `primary_medical_conditions`, P2 = este în `secondary_medical_conditions`, L = fracțiunea de expresii (separate prin virgulă) regăsite în fragment, V = similaritatea semantică rescalată între mediana și maximul căutării. Pacientul poate debifa semnale în panoul „Surse și opțiuni de căutare”, iar formula se adaptează (de exemplu `L + V` sau doar `2·P1 + P2`). Scorul nu se stochează în DB; detaliile sunt în [fragment-search-and-scoring.xmind](architecture/fragment-search-and-scoring.xmind).
+At search time, each fragment receives the score `4·P1 + 2·P2 + L + V` (maximum 8, with all signals ticked): P1 = the searched condition is in `primary_medical_conditions`, P2 = it is in `secondary_medical_conditions`, L = the fraction of expressions (separated by commas) found in the fragment, V = the semantic similarity rescaled between the median and the maximum of the search. The patient can untick signals in the “Sources and search options” panel, and the formula adapts (for example `L + V` or only `2·P1 + P2`). The score is not stored in the DB; details are in [fragment-search-and-scoring.xmind](architecture/fragment-search-and-scoring.xmind).
 
-Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit în ferestre care se suprapun cu 240, iar vectorii lor se mediază (valorile, dimensiunea vectorilor și prefixele de text ale fiecărui model sunt în profilul lui din `ai/embedding_model.py`). Diacriticele sunt păstrate prin normalizare Unicode NFC.
+For embeddings, a fragment longer than 1400 characters is split into windows that overlap by 240, and their vectors are averaged (the values, vector dimension and text prefixes of each model are in its profile in `ai/embedding_model.py`). Diacritics are preserved through Unicode NFC normalization.
 
-## 🐳 Rulare cu Docker Compose
+## 🐳 Running with Docker Compose
 
-Înainte de build/pornire, trebuie să existe `medicina-naturista-documente/data/documents/`, `model_cache/` (cu modelul de embeddings deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are două servicii: `db` și `app`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`).
+Before building/starting, `medicina-naturista-documente/data/documents/`, `model_cache/` (with the embedding model already downloaded: the container runs offline) and the local `.env` file with the key of the chosen AI provider (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` or `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` and `OWNER_KEY` must exist. The stack has two services: `db` and `app`. The `db` service (Postgres 16 + `pgvector`, with `shared_buffers=512MB`) is exposed only on `127.0.0.1:5432` (`DB_HOST_PORT`), so the index is synchronized from the host with `python src/scripts/build_hybrid_index.py` (with `PYTHONPATH=src` and a `DATABASE_URL` pointing to `127.0.0.1` with the password `POSTGRES_PASSWORD`).
 
-**Ollama rulează separat, pe host (Windows), și trebuie pornit înaintea aplicației.** Containerul `app` îl accesează prin `http://host.docker.internal:11434/v1`, atât pentru clasificarea mesajelor și identificarea afecțiunilor (`CONDITION_AI_LOCAL_BASE`), cât și pentru rapoartele cu `ollama-gemma4:12b` (`OLLAMA_API_BASE`). Descărcați modelul de raport cu `ollama pull gemma4:12b` și modelul ales în `MEDICAL_CONDITION_AI_LOCAL_MODEL` (implicit `gemma3:1b`). Modelele sunt administrate de instalarea Ollama de pe host.
+**Ollama runs separately, on the host (Windows), and must be started before the application.** The `app` container accesses it through `http://host.docker.internal:11434/v1`, both for message classification and condition identification (`CONDITION_AI_LOCAL_BASE`) and for reports with `ollama-gemma4:12b` (`OLLAMA_API_BASE`). Download the report model with `ollama pull gemma4:12b` and the model chosen in `MEDICAL_CONDITION_AI_LOCAL_MODEL` (default `gemma3:1b`). The models are managed by the Ollama installation on the host.
 
-Pentru rapoartele Ollama, clientul derivă `/api/chat` din `OLLAMA_API_BASE` eliminând sufixul `/v1`. Folosește format JSON nativ, `truncate=false` și `shift=false`: intrarea nu este scurtată automat și nu sunt eliminate porțiuni din context pentru a continua generarea. O depășire a contextului este raportată ca `AI_CONTEXT_LIMIT_EXCEEDED`, cu mesajul de a selecta mai puține fragmente sau de a crește scorul minim. R1 8B are context explicit per cerere; pentru celelalte modele, dacă nu există un override, se păstrează configurația serverului Ollama. Loturile folosesc bugete conservative de tokeni de intrare; acestea nu înlocuiesc contextul real verificat de Ollama. Intrarea, instrucțiunile și ieșirea trebuie să încapă împreună în context. Clasificarea mesajelor și identificarea afecțiunilor folosesc și ele clientul nativ `/api/chat`, cu `think=false`, pentru a trimite durata de păstrare în aceeași cerere.
+For Ollama reports, the client derives `/api/chat` from `OLLAMA_API_BASE` by removing the `/v1` suffix. It uses native JSON format, `truncate=false` and `shift=false`: the input is not shortened automatically and no portions are removed from the context in order to continue generation. Exceeding the context is reported as `AI_CONTEXT_LIMIT_EXCEEDED`, with the message to select fewer fragments or raise the minimum score. R1 8B has an explicit per-request context; for the other models, if there is no override, the Ollama server configuration is kept. Batches use conservative input token budgets; these do not replace the real context checked by Ollama. The input, the instructions and the output must fit together in the context. Message classification and condition identification also use the native `/api/chat` client, with `think=false`, to send the retention duration in the same request.
 
-Aplicația trimite `keep_alive=60` pentru fiecare cerere Ollama: modelul este eliberat după
-60 de secunde de inactivitate, fără preîncărcare la pornirea aplicației. Reindexarea folosește
-separat `keep_alive=3600`. La încheierea reindexării sau a unei pregătiri explicite de ranking/safety,
-`build_hybrid_index.py` trimite o cerere de control fără prompt, cu `keep_alive=0`, pentru modelul
-de indexare configurat. Descărcarea este solicitată și la eroare sau Ctrl+C; o oprire forțată a
-procesului poate sări peste cleanup. Analiza, publicarea separată, proiecția caution fără AI și
-`--skip-positive-ranking` nu descarcă modelul. Evenimentul `index_model_release` confirmă
-`released` numai după răspunsul Ollama; la eșec afișează `warning` fără să schimbe rezultatul
-indexării. Cererea de control nu generează text și nu intră în numărul de cereri de inferență.
+The application sends `keep_alive=60` for each Ollama request: the model is released after
+60 seconds of inactivity, without preloading at application startup. Reindexing separately uses
+`keep_alive=3600`. At the end of reindexing or of an explicit ranking/safety preparation,
+`build_hybrid_index.py` sends a control request with no prompt, with `keep_alive=0`, for the configured
+indexing model. Unloading is also requested on error or Ctrl+C; a forced stop of the
+process may skip the cleanup. The analysis, separate publishing, the caution projection without AI and
+`--skip-positive-ranking` do not unload the model. The `index_model_release` event confirms
+`released` only after Ollama's answer; on failure it displays `warning` without changing the result of the
+indexing. The control request generates no text and does not count in the number of inference requests.
 
-Pentru `gemma4:12b` cu contextul maxim de 262.144 tokeni, configurația de performanță măsurată pe GPU-ul local folosește următoarele variabile **pe Windows**, în PowerShell:
+For `gemma4:12b` with the maximum context of 262,144 tokens, the performance configuration measured on the local GPU uses the following variables **on Windows**, in PowerShell:
 
 ```powershell
 [Environment]::SetEnvironmentVariable("OLLAMA_FLASH_ATTENTION", "1", "User")
@@ -1053,9 +1056,9 @@ Pentru `gemma4:12b` cu contextul maxim de 262.144 tokeni, configurația de perfo
 [Environment]::SetEnvironmentVariable("OLLAMA_CONTEXT_LENGTH", "262144", "User")
 ```
 
-Închideți complet Ollama din zona de notificări și porniți-l din nou din Start. Verificați în jurnalul `%LOCALAPPDATA%\Ollama\server.log` valorile efective și `offloaded …/49`; aplicația desktop poate avea setări proprii. Aceste variabile configurează serverul Ollama, nu clientul Python: adăugarea lor în `.env` sau în mediul serviciului Compose `app` nu schimbă Ollama de pe host.
+Fully close Ollama from the notification area and start it again from Start. Check the effective values and `offloaded …/49` in the log `%LOCALAPPDATA%\Ollama\server.log`; the desktop application may have its own settings. These variables configure the Ollama server, not the Python client: adding them to `.env` or to the environment of the Compose `app` service does not change the Ollama on the host.
 
-`q4_0` reduce precizia cache-ului KV; măsurarea vitezei nu validează calitatea rapoartelor la intrări lungi. Pentru procesarea efectiv simultană a loturilor, serverul Ollama trebuie să permită cel puțin numărul de cereri per model configurat prin `REPORT_BATCH_WORKERS` (implicit `OLLAMA_NUM_PARALLEL>=2`). Dacă permite una singură, cererile trimise de aplicație pot fi procesate succesiv. Contextele simultane necesită mai multă memorie; nu este garantată accelerarea și nu se modifică automat configurația serverului. Aplicația păstrează separat `MAX_CONCURRENT_GENERATIONS=1`. Rezultatele locale istorice și limitele măsurării sunt în [investigația Ollama](aiPlans/2026-10-15-investigare-performanta-ollama.md).
+`q4_0` reduces the precision of the KV cache; the speed measurement does not validate the quality of reports on long inputs. For the batches to be actually processed simultaneously, the Ollama server must allow at least the number of requests per model configured through `REPORT_BATCH_WORKERS` (default `OLLAMA_NUM_PARALLEL>=2`). If it allows only one, the requests sent by the application may be processed in succession. Simultaneous contexts require more memory; speedup is not guaranteed and the server configuration is not changed automatically. The application separately keeps `MAX_CONCURRENT_GENERATIONS=1`. The historical local results and the limits of the measurement are in the [Ollama investigation](aiPlans/2026-10-15-investigare-performanta-ollama.md).
 
 ```dotenv
 CONDITION_AI_LOCAL_BASE=http://host.docker.internal:11434/v1
@@ -1064,17 +1067,17 @@ CONDITION_AI_TIMEOUT_SECONDS=30
 MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS=30
 ```
 
-Cele două timeouturi din exemplu sunt de 30 de secunde. Clasificarea și identificarea locală cer `reasoning.effort=none`, astfel încât modelele cu „thinking” să folosească bugetul de răspuns pentru JSON-ul final.
+The two timeouts in the example are 30 seconds. Local classification and identification request `reasoning.effort=none`, so that models with “thinking” use the answer budget for the final JSON.
 
-Pentru verificarea conexiunii din container:
+To verify the connection from the container:
 
 ```powershell
 docker compose exec -T app python -c "import urllib.request; print(urllib.request.urlopen('http://host.docker.internal:11434/api/version', timeout=5).read().decode())"
 ```
 
-După schimbarea configurației din `.env`, recreați aplicația cu `docker compose up -d --no-deps --force-recreate app`. Dacă migrați de la vechiul serviciu Ollama, opriți și eliminați numai containerul vechi cu `docker stop medicina-ollama` și `docker rm medicina-ollama`; volumul său cu modele poate fi păstrat pentru recuperare. Modelele necesare trebuie descărcate separat în Ollama de pe host.
+After changing the configuration in `.env`, recreate the application with `docker compose up -d --no-deps --force-recreate app`. If you are migrating from the old Ollama service, stop and remove only the old container with `docker stop medicina-ollama` and `docker rm medicina-ollama`; its volume with models can be kept for recovery. The required models must be downloaded separately in the Ollama on the host.
 
-Sincronizați indexul după pornirea serviciului `db`, înainte de a folosi căutarea.
+Synchronize the index after starting the `db` service, before using search.
 
 ```powershell
 docker compose up -d --build
@@ -1082,65 +1085,65 @@ docker compose ps
 Invoke-WebRequest http://localhost:8760/healthz
 ```
 
-Aplicația este publicată pe host la `127.0.0.1:8760` (`APP_HOST_PORT`; în container rămâne portul 7860, iar 8760 evită intervalul de porturi rezervat de Windows) și publicat prin Tailscale Funnel, care gestionează HTTPS. Rulează într-un container read-only, fără capabilități Linux suplimentare, ca utilizator non-root. Documentele sunt montate read-only, iar directoarele temporare folosesc `tmpfs`. Indexul locuiește în Postgres (volum named `pg_data`), nu mai e nevoie de bind-mount sau de oprirea aplicației la resincronizare.
+The application is published on the host at `127.0.0.1:8760` (`APP_HOST_PORT`; inside the container the port stays 7860, and 8760 avoids the port range reserved by Windows) and published through Tailscale Funnel, which handles HTTPS. It runs in a read-only container, without additional Linux capabilities, as a non-root user. The documents are mounted read-only, and the temporary directories use `tmpfs`. The index lives in Postgres (named volume `pg_data`), so there is no longer a need for a bind mount or for stopping the application during resynchronization.
 
-Oprire fără ștergerea volumelor:
+Stopping without deleting the volumes:
 
 ```powershell
 docker compose down
 ```
 
 > [!WARNING]
-> `docker compose down -v` șterge volumele named declarate în Compose: indexul din Postgres (`pg_data`). Modelele Ollama de pe host sunt administrate separat.
+> `docker compose down -v` deletes the named volumes declared in Compose: the Postgres index (`pg_data`). The Ollama models on the host are managed separately.
 
-### Publicare prin Tailscale Funnel
+### Publishing through Tailscale Funnel
 
-Pe Windows, Tailscale Funnel trimite cererile direct către portul local al aplicației, fără Nginx sau Caddy pe această cale. Prefixul `/medicina` permite publicarea ulterioară a altor aplicații pe același hostname. Portul `8760` rămâne legat exclusiv de `127.0.0.1`.
+On Windows, Tailscale Funnel sends requests directly to the application's local port, without Nginx or Caddy on this path. The `/medicina` prefix allows other applications to be published later on the same hostname. Port `8760` stays bound exclusively to `127.0.0.1`.
 
-În `.env`, setați `PUBLIC_ORIGIN=https://cristiantone.taila68086.ts.net` (originea exactă a dispozitivului Tailscale) și păstrați `COOKIE_SECURE=true`. `PUBLIC_ROOT_PATH` rămâne `/medicina`, valoarea implicită din Compose. Adăugați în `FORWARDED_ALLOW_IPS` numai adresa gateway-ului Docker prin care ajung cererile proxy-ului de pe host; la această instalare este `172.20.0.1`, verificată în jurnalul cererilor. Nu folosiți `*` sau întreaga subrețea: Tailscale înlocuiește headerele forwarded, iar Uvicorn trebuie să le accepte numai de la proxy-ul cunoscut. Adresele gateway-ului se pot schimba dacă rețeaua Docker este recreată.
+In `.env`, set `PUBLIC_ORIGIN=https://cristiantone.taila68086.ts.net` (the exact origin of the Tailscale device) and keep `COOKIE_SECURE=true`. `PUBLIC_ROOT_PATH` stays `/medicina`, the default value in Compose. Add to `FORWARDED_ALLOW_IPS` only the address of the Docker gateway through which the host proxy's requests arrive; in this installation it is `172.20.0.1`, verified in the request log. Do not use `*` or the whole subnet: Tailscale replaces the forwarded headers, and Uvicorn must accept them only from the known proxy. The gateway addresses can change if the Docker network is recreated.
 
-După schimbarea `.env`, recreați numai aplicația:
+After changing `.env`, recreate only the application:
 
 ```powershell
 docker compose up -d --no-deps --force-recreate app
 ```
 
-Cu Tailscale instalat și conectat la cont, porniți Funnel din PowerShell:
+With Tailscale installed and connected to the account, start Funnel from PowerShell:
 
 ```powershell
 & "C:\Program Files\Tailscale\tailscale.exe" funnel --bg --set-path=/medicina http://127.0.0.1:8760
 & "C:\Program Files\Tailscale\tailscale.exe" funnel status
 ```
 
-La prima utilizare, urmați linkul de activare afișat de Tailscale. Aplicația va fi disponibilă la `https://cristiantone.taila68086.ts.net/medicina/`, iar verificarea de disponibilitate la `/medicina/readyz`. Hostname-ul exact poate fi aflat din `tailscale status --json`, câmpul `Self.DNSName`. Pentru alt hostname, actualizați și `PUBLIC_ORIGIN` și adresa de dezvoltare `DEV_BACKEND_URL`.
+On first use, follow the activation link displayed by Tailscale. The application will be available at `https://cristiantone.taila68086.ts.net/medicina/`, and the availability check at `/medicina/readyz`. The exact hostname can be found from `tailscale status --json`, the field `Self.DNSName`. For another hostname, also update `PUBLIC_ORIGIN` and the development address `DEV_BACKEND_URL`.
 
-`--bg` păstrează configurația Funnel după restart. Pentru acces înainte de autentificarea în Windows, activați `Preferences → Run unattended` în Tailscale; Docker și containerul aplicației trebuie să fie pornite separat. Verificați și expirarea cheii dispozitivului în consola Tailscale pentru funcționare continuă. Pentru a opri numai ruta acestei aplicații:
+`--bg` keeps the Funnel configuration after a restart. For access before signing in to Windows, enable `Preferences → Run unattended` in Tailscale; Docker and the application container must be started separately. Also check the device key's expiry in the Tailscale console for continuous operation. To stop only this application's route:
 
 ```powershell
 & "C:\Program Files\Tailscale\tailscale.exe" funnel --bg --set-path=/medicina http://127.0.0.1:8760 off
 ```
 
-Migrarea acestei aplicații nu necesită modificarea proxy-ului Nginx comun sau oprirea ngrok pentru celelalte proiecte. Serviciul și configurația Caddy au fost eliminate; HTTPS este administrat de Tailscale. Accesul vechi la Medicina Naturistă prin ngrok nu mai este originea autorizată pentru cererile de modificare după schimbarea `PUBLIC_ORIGIN`.
+Migrating this application does not require modifying the shared Nginx proxy or stopping ngrok for the other projects. The Caddy service and configuration were removed; HTTPS is managed by Tailscale. The old access to Medicina Naturistă through ngrok is no longer the authorized origin for modifying requests after `PUBLIC_ORIGIN` was changed.
 
-## Limba aplicației și textele fixe
+## Application language and fixed texts
 
-Selectorul „Română / English” din antet schimbă limba interfeței și a operațiunilor
-următoare. Prima vizită folosește RO; preferința este salvată în `localStorage` pentru
-taburile noi. Taburile deja deschise își păstrează limba. Schimbarea este blocată cât timp
-există o operațiune activă în acel tab și nu recreează sesiunea sau istoricul.
+The “Română / English” selector in the header changes the language of the interface and of the
+following operations. The first visit uses RO; the preference is saved in `localStorage` for
+new tabs. Tabs that are already open keep their language. The change is blocked while
+there is an active operation in that tab and does not recreate the session or the history.
 
-Fiecare mesaj, căutare și raport păstrează limba originală. Acțiunile asupra rezultatelor
-istorice folosesc acea limbă: un raport generat dintr-o căutare RO rămâne RO chiar dacă
-interfața a trecut la EN, inclusiv PDF-ul și emailul. Pentru un raport EN este necesară o
-căutare EN nouă. Căutarea EN nu folosește fragmente RO când lipsesc rezultate EN.
+Each message, search and report keeps its original language. Actions on historical
+results use that language: a report generated from an RO search stays RO even if the
+interface has switched to EN, including the PDF and the email. For an EN report a new
+EN search is needed. EN search does not use RO fragments when EN results are missing.
 
-Textele sunt în două cataloage UTF-8 independente:
-`src/backend/resources/texts.ro.toml` și `src/backend/resources/texts.en.toml`.
-Catalogul RO a fost păstrat neschimbat la introducerea limbii EN. Ambele au exact aceleași
-468 de chei și aceiași parametri numiți. Secțiunile `common` și `interface` sunt publice;
-`conversation`, `errors`, `authorization`, `report` și `email` rămân pe backend.
-Cheile lipsă, necunoscute, parametrii incompatibili sau HTML-ul opresc validarea;
-nu există fallback al textelor EN către RO.
+The texts are in two independent UTF-8 catalogs:
+`src/backend/resources/texts.ro.toml` and `src/backend/resources/texts.en.toml`.
+The RO catalog was kept unchanged when the EN language was introduced. Both have exactly the same
+468 keys and the same named parameters. The `common` and `interface` sections are public;
+`conversation`, `errors`, `authorization`, `report` and `email` stay on the backend.
+Missing or unknown keys, incompatible parameters or HTML stop validation;
+there is no fallback of the EN texts to RO.
 
 ```powershell
 $env:PYTHONPATH = 'src'
@@ -1148,141 +1151,141 @@ $env:PYTHONPATH = 'src'
 .venv/Scripts/python.exe -m scripts.manage_texts --public-json --language en
 ```
 
-Bootstrapul HTML transmite ambele cataloage publice înainte de pornirea React.
-`GET /api/texts?language=en` expune catalogul public EN; fără limbă, răspunsul compatibil
-este RO. Cererile UI trimit `X-App-Language: ro|en`; navigarea către autorizare folosește
-un parametru de limbă validat. `POST /api/language` schimbă preferința sesiunii fără a
-șterge conversația. HTML-ul și textele publice sunt `no-store`.
+The HTML bootstrap passes both public catalogs before React starts.
+`GET /api/texts?language=en` exposes the public EN catalog; without a language, the compatible answer
+is RO. UI requests send `X-App-Language: ro|en`; navigation to authorization uses
+a validated language parameter. `POST /api/language` changes the session preference without
+deleting the conversation. The HTML and the public texts are `no-store`.
 
-Backendul și fiecare worker folosesc un context izolat de limbă derivat din snapshotul
-operațiunii, fără modificarea unui client AI global. Prompturile RO rămân în
-`ai/prompts/`; variantele EN sunt în `ai/prompts/en/`, cu aceleași chei JSON și reguli de
-citare. Clasificarea și identificarea afecțiunilor rămân exclusiv locale. Avertizările
-produselor sunt pregătite la reindexare pentru ambele limbi, cu cache și generații active
-separate; consultarea din UI nu inițiază apeluri AI.
+The backend and each worker use an isolated language context derived from the operation's
+snapshot, without modifying a global AI client. The RO prompts stay in
+`ai/prompts/`; the EN variants are in `ai/prompts/en/`, with the same JSON keys and
+citation rules. Classification and condition identification remain exclusively local. The product
+warnings are prepared at reindexing for both languages, with separate caches and active generations;
+UI lookups do not initiate AI calls.
 
-`medical_conditions.en` este populat prin migrare SQL din aliasurile bilingve ale
-catalogului, fără schimbarea ID-urilor și fără traducere AI la runtime. Produsele folosesc
-`herbs.en`; când nu există un nume comun EN, se păstrează numele științific. Completările
-ulterioare de afecțiuni prin `scripts.condition_sql.additions_sql` trebuie să furnizeze
-explicit `Condition.english`. Clasificarea surselor și verificarea citărilor nu reprezintă
-validare medicală a traducerilor sau a recomandărilor.
+`medical_conditions.en` is populated through an SQL migration from the bilingual aliases of the
+catalog, without changing the IDs and without AI translation at runtime. Products use
+`herbs.en`; when there is no common EN name, the scientific name is kept. Later
+additions of conditions through `scripts.condition_sql.additions_sql` must explicitly
+provide `Condition.english`. Source classification and citation checking are not
+medical validation of the translations or of the recommendations.
 
-În UI, denumirile produselor folosesc dicționarul limbii operației: `ro_RO` pentru RO
-și `src/scripts/dictionaires/en/en_GB.dic` / `en_GB.aff` pentru EN. La recunoașterea
-denumirilor EN se acceptă pluralurile validate de regulile nominale ale dicționarului,
-inclusiv în numele alternative și expresiile cu mai multe cuvinte. Numele latine rămân
-exacte; prefixele și derivările care schimbă sensul nu extind potrivirile. Afișarea
-păstrează formele ambigue sau necunoscute. Cache-urile cataloagelor sunt separate pe
-limbă; mesajele introduse și documentele nu sunt corectate automat de această integrare.
-Catalogul afecțiunilor din PostgreSQL rămâne separat de dicționarul ortografic Hunspell.
+In the UI, product names use the dictionary of the operation's language: `ro_RO` for RO
+and `src/scripts/dictionaires/en/en_GB.dic` / `en_GB.aff` for EN. When recognizing
+EN names, plurals validated by the dictionary's nominal rules are accepted,
+including in alternative names and multi-word expressions. Latin names stay
+exact; prefixes and derivations that change the meaning do not extend the matches. The display
+keeps ambiguous or unknown forms. The catalog caches are separate per
+language; entered messages and documents are not corrected automatically by this integration.
+The conditions catalog in PostgreSQL remains separate from the Hunspell spelling dictionary.
 
-La modificări de chei/parametri, `python -m scripts.manage_texts --generate` regenerează
-numai metadatele comune Python/TypeScript. Nu dublează mesajele în frontend. Compose
-montează ambele cataloage read-only. Activarea codului nou cere reconstruirea aplicației;
-editarea ulterioară numai a valorilor cere repornirea procesului și reîncărcarea paginii.
-Vite în dezvoltare trebuie conectat la un backend care include contractul bilingv.
+When keys/parameters change, `python -m scripts.manage_texts --generate` regenerates
+only the common Python/TypeScript metadata. It does not duplicate the messages in the frontend. Compose
+mounts both catalogs read-only. Activating the new code requires rebuilding the application;
+later editing of only the values requires restarting the process and reloading the page.
+Vite in development must be connected to a backend that includes the bilingual contract.
 
-## ⚙️ Configurare
+## ⚙️ Configuration
 
-Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplicație sunt:
+The `.env` file is ignored by Git. The main values recognized by the application are:
 
-| Variabilă | Implicit | Rol |
+| Variable | Default | Role |
 |---|---:|---|
-| `X_API_KEY` | — | Cheia xAI (necesară la utilizarea modelului `grok-4.3`). |
-| `XAI_API_BASE` | `https://api.x.ai/v1` | URL-ul de bază al API-ului xAI. |
-| `HF_TOKEN` | — | Token Hugging Face cu permisiunea „Make calls to Inference Providers”; necesar la utilizarea modelului `huggingface-deepseek-v4-flash`. |
-| `HF_API_BASE` | `https://router.huggingface.co/v1` | URL-ul de bază al routerului HF; clientul apelează ruta `/responses`. |
-| `DEEPSEEK_API_KEY` | — | Cheia API de pe platform.deepseek.com, necesară când adminul alege `deepseek-flash`. Lipsa ei nu blochează rapoartele Ollama. |
-| `DEEPSEEK_API_BASE` | `https://api.deepseek.com` | URL-ul de bază al API-ului DeepSeek. |
-| `OLLAMA_API_BASE` | `http://localhost:11434/v1` | Baza Ollama; în Docker Compose `http://host.docker.internal:11434/v1`. |
-| `OLLAMA_KEEP_ALIVE_SECONDS` | `60` | Durata de păstrare după ultima cerere Ollama din aplicație (raport, clasificare sau identificare). `0` descarcă după fiecare cerere. Nu modifică dimensiunea contextului și nu controlează reindexarea. |
-| `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
-| `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL` | `{"ollama-deepseek-r1:8b":8192}` | Obiect JSON cu limita de ieșire per model Ollama. Cheile omise păstrează valorile implicite din catalog (R1 8B: 8192); celelalte modele folosesc `REPORT_GENERATION_MAX_OUTPUT_TOKENS`. Valorile trebuie să fie întregi pozitive, iar ieșirea trebuie să fie mai mică decât contextul din catalog (R1 8B: 32768). Cheile necunoscute, modelele externe și duplicatele sunt respinse. Este valoarea implicită afișată în panoul de raport (doar admin), unde poate fi suprascrisă per raport. |
-| `MEDICAL_CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local pentru clasificarea mesajului și identificarea afecțiunii; se descarcă pe host cu `ollama pull <model>`, inclusiv când aplicația rulează în Docker. |
-| `REPORT_GENERATION_MODELS` | cele 9 modele în ordinea catalogului de mai jos | Listă CSV ordonată a modelelor disponibile. Primul este implicit. Ordinea din UI este aceeași; drepturile controlează generarea, nu vizibilitatea opțiunilor. Listele goale, elementele goale, modelele necunoscute și duplicatele sunt respinse la pornire. Alegerea din UI se aplică numai jobului respectiv. |
-| `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` | `24000` pentru R1 8B, `25000` pentru celelalte; context din catalog; efort `low` | Obiect JSON cu o intrare per model: `{"tokens": …, "context": …, "effort": …}`. `tokens` (obligatoriu) este bugetul de tokeni de intrare per lot; include cererea serializată completă și o rezervă de 256 tokeni, numărare locală estimată la 3 octeți UTF-8 per token. `context` este fereastra de context a modelului: se afișează sub modelul ales în panou și limitează ieșirea (intrare + ieșire încap în ea). Pornirea este refuzată dacă ieșirea implicită a unui model activ lasă sub 1.000 de tokeni de intrare; pentru R1 8B trebuie să coincidă cu `num_ctx` din catalog (32768). `effort` (`low`/`medium`/`high`) este efortul preselectat când utilizatorul alege modelul. `context` și `effort` sunt opționale și au valori implicite din catalog/`low`. Lipsă/valoare goală → valorile implicite; un obiect explicit trebuie să includă fiecare model activat. `tokens` este și valoarea implicită afișată în panoul de raport (doar admin), unde poate fi suprascrisă per raport. Valoarea poate fi scrisă pe mai multe linii în `.env`, între ghilimele simple. |
-| `REPORT_BATCH_WORKERS` | `2` | Întreg pozitiv: numărul maxim de loturi procesate simultan în raportul activ. `1` procesează succesiv. Nu modifică limita de un singur raport activ. Este transmis explicit aplicației prin Docker Compose. Panoul de raport (doar admin) oferă „Nu” (`1`), `2` sau `3`; valoarea implicită afișată este `min(REPORT_BATCH_WORKERS, 3)`. |
-| `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://host.docker.internal:11434/v1` (Compose) | Adresa Ollama de pe host, folosită pentru clasificarea mesajului și identificarea afecțiunii. |
-| `CONDITION_AI_TIMEOUT_SECONDS` | `10` | Timeout pentru identificarea afecțiunii prin Ollama local. |
-| `MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS` | `10` | Timeout la clasificare prin Ollama local, independent de identificarea afecțiunii. |
-| `MESSAGE_CLASSIFICATION_MAX_OUTPUT_TOKENS` | `300` | Bugetul JSON de clasificare. |
-| `CONDITION_AI_MAX_OUTPUT_TOKENS` | `300` | Limita răspunsului (un JSON mic) la identificarea afecțiunii. |
-| `REPORT_GENERATION_AI_STREAM` | `false` | Cere răspunsul ca flux de evenimente (`stream: true`). Timeoutul de citire se aplică între evenimente, deci evită tăierea cererilor lungi de un proxy (ex. 504 după 60 s la routerul HF). Dacă furnizorul nu suportă streaming, lăsați `false`. |
-| `REPORT_GENERATION_MAX_OUTPUT_TOKENS` | `20000` | `max_output_tokens` al cererii, pentru toți furnizorii (la modelele cu gândire, reasoning-ul consumă din el). Este valoarea implicită afișată în panoul de raport (doar admin), unde poate fi suprascrisă per raport. |
-| `REPORT_GENERATION_READ_TIMEOUT_SECONDS` | `300` | Timeoutul de citire al cererii către furnizorul AI. |
-| `DOCUMENTS_DIR` | `medicina-naturista-documente/data/documents` | Directorul documentelor locale. |
-| `HERB_IMAGES_DIR` | `medicina-naturista-documente/data/images` | Directorul opțional cu pozele PNG ale produselor; montat doar pentru citire în Docker. |
-| `DATABASE_URL` | `postgresql:// medicina:medicina @127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului hibrid (`pgvector` + `tsvector`). |
-| `DATABASE_BOOTSTRAP_URL` | gol | Conexiune de mentenanță opțională pentru crearea unei baze lipsă, pe același server ca `DATABASE_URL`; folosită numai de reindexare. Implicit se folosesc credențialele țintei pe baza `postgres`. |
-| `MODEL_CACHE_DIR` | `model_cache` | Directorul cache-ului local al modelului ONNX. |
-| `EMBEDDING_THREADS` | `8` (cel mult numărul de nuclee) | Firele de execuție ale modelului de embedding (ONNX Runtime), la indexare și la căutare. Pe procesoare hibride P/E-core, mai puține fire sunt de obicei mai rapide decât toate nucleele. |
-| `EMBEDDING_DEVICE` | `cpu` | Dispozitivul modelului de embedding la **construirea** indexului: `cpu` (FastEmbed/ONNX) sau `cuda` (PyTorch fp16, doar din mediul GPU `.venv-gpu`; fără CUDA build-ul se oprește, nu trece pe CPU). Întrebările din aplicație rulează mereu pe CPU. |
-| `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
-| `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
-| `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri `POST`/`PUT`/`PATCH`/`DELETE` către `/api/`, pe minut și IP; loginul owner are o limită separată. |
-| `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
-| `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
-| `MAX_ACTIVE_SESSIONS` | `100` | Numărul maxim de sesiuni în proces. |
-| `NEW_SESSIONS_PER_COOKIE_MINUTE` | `5` | Numărul de conversații noi pe minut pentru același cookie de browser; reîncărcarea paginii deschide o conversație nouă. Instalarea locală folosește `60`, prin `.env`. |
-| `NEW_SESSIONS_PER_IP_MINUTE` | `10` | Numărul de conversații noi pe minut pentru același IP. Instalarea locală folosește `120`, prin `.env`. La depășire, răspunsul `429` include `Retry-After` cu timpul rămas până la eliberarea cotei. |
-| `MAX_API_BODY_BYTES` | `262144` | Dimensiunea maximă a corpului unei cereri API. |
-| `MAX_CONCURRENT_SEARCHES` / `MAX_CONCURRENT_GENERATIONS` | `2` / `1` | Două căutări simultane; generarea rapoartelor este serială (valoarea 1 este obligatorie). |
-| `MAX_QUEUED_GENERATIONS` | `20` | Numărul maxim de rapoarte în așteptare, pe lângă raportul în execuție. |
-| `OPERATION_TIMEOUT_SECONDS` | `600` | Durata totală acceptată pentru o operație. |
-| `DEPLOYMENT_PROFILE` | `local` | `public` validează HTTPS, cookie-uri securizate și dezactivarea logării de conținut; trebuie transmis explicit în Compose. |
-| `COOKIE_SECURE` | `false` (direct) / `true` (Compose) | Impune transmiterea cookie-ului numai prin HTTPS. |
-| `OWNER_KEY` | _(gol)_ | Cheie secretă lungă, introdusă în formularul `/owner` și trimisă prin `POST /api/owner/login`. Autorizările individuale persistă în PostgreSQL până la logout; rotația cheii le invalidează. Cookie-ul este reînnoit cu Max-Age de 365 de zile la activitate autorizată. |
-| `LOG_LEVEL` | `INFO` | Nivelul minim al logurilor. |
-| `LOG_FRAGMENT_TEXT` | `false` (direct) / `true` (Compose) | Opțiune de compatibilitate; clientul AI actual loghează numai metadata tehnică, fără textul fragmentelor. Profilul `public` cere `false`. |
-| `LOG_FRAGMENT_TEXT_MAX_CHARS` | `4000` | Opțiune de compatibilitate; clientul AI actual nu loghează textul fragmentelor. |
-| `LOG_AI_RESPONSE_TEXT` | `false` | Opțiune de compatibilitate; clientul AI actual nu loghează corpul răspunsului nici dacă este activată. Profilul `public` cere `false`. |
-| `APP_HOST_PORT` | `8760` (Docker Compose) | Portul de pe host la care Compose publică aplicația. |
-| `POSTGRES_PASSWORD` | — (obligatoriu în Docker Compose) | Parola Postgres a serviciului `db`; Compose construiește din ea `DATABASE_URL` pentru aplicație. |
-| `POSTGRES_USER` / `POSTGRES_DB` | `medicina` / `medicina` (Docker Compose) | Utilizatorul și baza serviciului `db`. |
-| `DB_HOST_PORT` | `5432` (Docker Compose) | Portul de pe host (doar `127.0.0.1`) la care Compose publică Postgres. |
-| `PUBLIC_ROOT_PATH` | gol (direct) / `/medicina` (Docker Compose) | Prefixul căii publice, necesar când aplicația este expusă de un reverse proxy sub `/medicina`: intră în linkul de descărcare a PDF-ului și, la build-ul imaginii, devine `PUBLIC_BASE_PATH` pentru frontend. |
-| `PUBLIC_ORIGIN` | gol | Originea publică exactă (`https://hostname`, fără `/medicina`), pentru validarea originii când TLS se termină la ngrok/proxy și backendul primește HTTP. Dacă este gol, se compară cu originea cererii ASGI. |
-| `FRONTEND_DIST_DIR` | `src/frontend/dist` | Directorul cu build-ul React servit ca fișiere statice de FastAPI. |
-| `FORWARDED_ALLOW_IPS` | `127.0.0.1` | Allowlist Uvicorn pentru IP-urile/CIDR-urile proxy-urilor autorizate; aplicația nu interpretează direct `X-Forwarded-For`. |
+| `X_API_KEY` | — | The xAI key (required when using the `grok-4.3` model). |
+| `XAI_API_BASE` | `https://api.x.ai/v1` | The base URL of the xAI API. |
+| `HF_TOKEN` | — | Hugging Face token with the permission “Make calls to Inference Providers”; required when using the `huggingface-deepseek-v4-flash` model. |
+| `HF_API_BASE` | `https://router.huggingface.co/v1` | The base URL of the HF router; the client calls the `/responses` route. |
+| `DEEPSEEK_API_KEY` | — | The API key from platform.deepseek.com, required when the admin chooses `deepseek-flash`. Its absence does not block Ollama reports. |
+| `DEEPSEEK_API_BASE` | `https://api.deepseek.com` | The base URL of the DeepSeek API. |
+| `OLLAMA_API_BASE` | `http://localhost:11434/v1` | The Ollama base; in Docker Compose `http://host.docker.internal:11434/v1`. |
+| `OLLAMA_KEEP_ALIVE_SECONDS` | `60` | Retention duration after the application's last Ollama request (report, classification or identification). `0` unloads after each request. It does not change the context size and does not control reindexing. |
+| `OLLAMA_API_KEY` | — | Required only when `OLLAMA_API_BASE` is not local (e.g. `https://ollama.com/v1`). |
+| `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL` | `{"ollama-deepseek-r1:8b":8192}` | JSON object with the output limit per Ollama model. Omitted keys keep the default values from the catalog (R1 8B: 8192); the other models use `REPORT_GENERATION_MAX_OUTPUT_TOKENS`. The values must be positive integers, and the output must be smaller than the context from the catalog (R1 8B: 32768). Unknown keys, external models and duplicates are rejected. It is the default value displayed in the report panel (admin only), where it can be overridden per report. |
+| `MEDICAL_CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | The local Ollama model for message classification and condition identification; downloaded on the host with `ollama pull <model>`, including when the application runs in Docker. |
+| `REPORT_GENERATION_MODELS` | the 9 models in the catalog order below | Ordered CSV list of the available models. The first is the default. The order in the UI is the same; rights control generation, not the visibility of the options. Empty lists, empty elements, unknown models and duplicates are rejected at startup. The choice in the UI applies only to that job. |
+| `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` | `24000` for R1 8B, `25000` for the others; context from the catalog; effort `low` | JSON object with one entry per model: `{"tokens": …, "context": …, "effort": …}`. `tokens` (required) is the input token budget per batch; it includes the complete serialized request and a reserve of 256 tokens, with local counting estimated at 3 UTF-8 bytes per token. `context` is the model's context window: it is displayed under the chosen model in the panel and limits the output (input + output fit within it). Startup is refused if the default output of an active model leaves fewer than 1,000 input tokens; for R1 8B it must match `num_ctx` from the catalog (32768). `effort` (`low`/`medium`/`high`) is the preselected effort when the user chooses the model. `context` and `effort` are optional and have default values from the catalog/`low`. Missing/empty value → the default values; an explicit object must include every enabled model. `tokens` is also the default value displayed in the report panel (admin only), where it can be overridden per report. The value can be written over several lines in `.env`, between single quotes. |
+| `REPORT_BATCH_WORKERS` | `2` | Positive integer: the maximum number of batches processed simultaneously in the active report. `1` processes in succession. It does not change the limit of a single active report. It is passed explicitly to the application through Docker Compose. The report panel (admin only) offers “No” (`1`), `2` or `3`; the default value displayed is `min(REPORT_BATCH_WORKERS, 3)`. |
+| `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://host.docker.internal:11434/v1` (Compose) | The Ollama address on the host, used for message classification and condition identification. |
+| `CONDITION_AI_TIMEOUT_SECONDS` | `10` | Timeout for condition identification through local Ollama. |
+| `MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS` | `10` | Timeout for classification through local Ollama, independent of condition identification. |
+| `MESSAGE_CLASSIFICATION_MAX_OUTPUT_TOKENS` | `300` | The classification JSON budget. |
+| `CONDITION_AI_MAX_OUTPUT_TOKENS` | `300` | The answer limit (a small JSON) for condition identification. |
+| `REPORT_GENERATION_AI_STREAM` | `false` | Requests the answer as an event stream (`stream: true`). The read timeout applies between events, so it avoids long requests being cut by a proxy (e.g. 504 after 60 s at the HF router). If the provider does not support streaming, leave `false`. |
+| `REPORT_GENERATION_MAX_OUTPUT_TOKENS` | `20000` | The request's `max_output_tokens`, for all providers (for models with thinking, reasoning consumes from it). It is the default value displayed in the report panel (admin only), where it can be overridden per report. |
+| `REPORT_GENERATION_READ_TIMEOUT_SECONDS` | `300` | The read timeout of the request to the AI provider. |
+| `DOCUMENTS_DIR` | `medicina-naturista-documente/data/documents` | The directory of the local documents. |
+| `HERB_IMAGES_DIR` | `medicina-naturista-documente/data/images` | The optional directory with the products' PNG pictures; mounted read-only in Docker. |
+| `DATABASE_URL` | `postgresql:// medicina:medicina @127.0.0.1:5432/medicina` | The Postgres connection of the hybrid index (`pgvector` + `tsvector`). |
+| `DATABASE_BOOTSTRAP_URL` | empty | Optional maintenance connection for creating a missing database, on the same server as `DATABASE_URL`; used only by reindexing. By default the target's credentials on the `postgres` database are used. |
+| `MODEL_CACHE_DIR` | `model_cache` | The directory of the local ONNX model cache. |
+| `EMBEDDING_THREADS` | `8` (at most the number of cores) | The execution threads of the embedding model (ONNX Runtime), at indexing and at search. On hybrid P/E-core processors, fewer threads are usually faster than all the cores. |
+| `EMBEDDING_DEVICE` | `cpu` | The embedding model's device when **building** the index: `cpu` (FastEmbed/ONNX) or `cuda` (PyTorch fp16, only from the GPU environment `.venv-gpu`; without CUDA the build stops, it does not fall back to CPU). Questions in the application always run on CPU. |
+| `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | The directory of the sessions' temporary files. |
+| `MAX_CHAT_CHARS` | `4000` | The maximum length of the user's message. |
+| `MAX_REQUESTS_PER_MINUTE` | `60` | The limit of `POST`/`PUT`/`PATCH`/`DELETE` requests to `/api/`, per minute and IP; the owner login has a separate limit. |
+| `SESSION_IDLE_SECONDS` | `3600` | Expiry of an inactive session. |
+| `SESSION_MAX_SECONDS` | `14400` | The maximum duration of a session. |
+| `MAX_ACTIVE_SESSIONS` | `100` | The maximum number of sessions in the process. |
+| `NEW_SESSIONS_PER_COOKIE_MINUTE` | `5` | The number of new conversations per minute for the same browser cookie; reloading the page opens a new conversation. The local installation uses `60`, through `.env`. |
+| `NEW_SESSIONS_PER_IP_MINUTE` | `10` | The number of new conversations per minute for the same IP. The local installation uses `120`, through `.env`. When exceeded, the `429` answer includes `Retry-After` with the time remaining until the quota is freed. |
+| `MAX_API_BODY_BYTES` | `262144` | The maximum size of an API request body. |
+| `MAX_CONCURRENT_SEARCHES` / `MAX_CONCURRENT_GENERATIONS` | `2` / `1` | Two simultaneous searches; report generation is serial (the value 1 is mandatory). |
+| `MAX_QUEUED_GENERATIONS` | `20` | The maximum number of waiting reports, in addition to the running report. |
+| `OPERATION_TIMEOUT_SECONDS` | `600` | The total duration accepted for an operation. |
+| `DEPLOYMENT_PROFILE` | `local` | `public` validates HTTPS, secure cookies and disabling content logging; it must be passed explicitly in Compose. |
+| `COOKIE_SECURE` | `false` (direct) / `true` (Compose) | Enforces sending the cookie only over HTTPS. |
+| `OWNER_KEY` | _(empty)_ | A long secret key, entered in the `/owner` form and sent through `POST /api/owner/login`. Individual authorizations persist in PostgreSQL until logout; rotating the key invalidates them. The cookie is renewed with a Max-Age of 365 days on authorized activity. |
+| `LOG_LEVEL` | `INFO` | The minimum log level. |
+| `LOG_FRAGMENT_TEXT` | `false` (direct) / `true` (Compose) | Compatibility option; the current AI client logs only technical metadata, without the fragment text. The `public` profile requires `false`. |
+| `LOG_FRAGMENT_TEXT_MAX_CHARS` | `4000` | Compatibility option; the current AI client does not log the fragment text. |
+| `LOG_AI_RESPONSE_TEXT` | `false` | Compatibility option; the current AI client does not log the answer body even if it is enabled. The `public` profile requires `false`. |
+| `APP_HOST_PORT` | `8760` (Docker Compose) | The host port on which Compose publishes the application. |
+| `POSTGRES_PASSWORD` | — (required in Docker Compose) | The Postgres password of the `db` service; Compose builds `DATABASE_URL` for the application from it. |
+| `POSTGRES_USER` / `POSTGRES_DB` | `medicina` / `medicina` (Docker Compose) | The user and database of the `db` service. |
+| `DB_HOST_PORT` | `5432` (Docker Compose) | The host port (only `127.0.0.1`) on which Compose publishes Postgres. |
+| `PUBLIC_ROOT_PATH` | empty (direct) / `/medicina` (Docker Compose) | The public path prefix, required when the application is exposed by a reverse proxy under `/medicina`: it goes into the PDF download link and, at the image build, becomes `PUBLIC_BASE_PATH` for the frontend. |
+| `PUBLIC_ORIGIN` | empty | The exact public origin (`https://hostname`, without `/medicina`), for origin validation when TLS terminates at ngrok/proxy and the backend receives HTTP. If empty, it is compared with the ASGI request's origin. |
+| `FRONTEND_DIST_DIR` | `src/frontend/dist` | The directory with the React build served as static files by FastAPI. |
+| `FORWARDED_ALLOW_IPS` | `127.0.0.1` | Uvicorn allowlist for the IPs/CIDRs of the authorized proxies; the application does not directly interpret `X-Forwarded-For`. |
 
-Mărimea bugetului de conținut (cea mai mare valoare din `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` pentru modelele active) influențează numărul de fragmente afișate, timpul de procesare și volumul total trimis către furnizorul AI. Limita per lot controlează separat dimensiunea fiecărei cereri. În medii în care logurile nu au acces controlat, setați `LOG_FRAGMENT_TEXT=false`.
+The size of the content budget (the largest value in `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` for the active models) influences the number of fragments displayed, the processing time and the total volume sent to the AI provider. The per-batch limit separately controls the size of each request. In environments where the logs do not have controlled access, set `LOG_FRAGMENT_TEXT=false`.
 
-La pornirea directă, aplicația citește valorile din `.env`; valorile implicite diferă unde este indicat. Docker Compose transmite variabilele enumerate în secțiunea `environment`; `COOKIE_SECURE` este implicit `false` la pornire directă și `true` în Compose. `OWNER_KEY` este opțional, dar fără el generarea raportului este dezactivată; setați o cheie secretă și autorizați browserul prin formularul `/owner`. IP-ul pentru limite este furnizat de serverul ASGI; aplicația nu interpretează `X-Forwarded-For`. În deploymentul cu proxy, configurați allowlistul explicit `FORWARDED_ALLOW_IPS` al Uvicorn pentru proxy-urile autorizate; vechiul `TRUST_PROXY` nu mai acordă încredere antetelor.
+On direct startup, the application reads the values from `.env`; the default values differ where indicated. Docker Compose passes the variables listed in the `environment` section; `COOKIE_SECURE` is `false` by default on direct startup and `true` in Compose. `OWNER_KEY` is optional, but without it report generation is disabled; set a secret key and authorize the browser through the `/owner` form. The IP for limits is provided by the ASGI server; the application does not interpret `X-Forwarded-For`. In the proxy deployment, configure Uvicorn's explicit `FORWARDED_ALLOW_IPS` allowlist for the authorized proxies; the old `TRUST_PROXY` no longer grants trust to the headers.
 
-### ✉️ Gmail OAuth2 — opțional
+### ✉️ Gmail OAuth2 — optional
 
 ```dotenv
-GMAIL_USERNAME=adresa-ta@gmail.com
-MAIL_FROM=adresa-ta@gmail.com
+GMAIL_USERNAME=your-address@gmail.com
+MAIL_FROM=your-address@gmail.com
 GOOGLE_CLIENT_ID=...
 GOOGLE_CLIENT_SECRET=...
 GOOGLE_REFRESH_TOKEN=...
 ```
 
-Autorizarea inițială se face o singură dată:
+The initial authorization is done once:
 
 ```powershell
 .\.venv\Scripts\python.exe src\scripts\google_oauth_setup.py
 ```
 
-Este solicitat numai scope-ul `gmail.send`. Tokenul nu este afișat și nu trebuie publicat. Dacă integrarea nu este complet configurată, raportul rămâne disponibil în aplicație, iar livrarea e-mail este omisă.
+Only the `gmail.send` scope is requested. The token is not displayed and must not be published. If the integration is not fully configured, the report remains available in the application, and email delivery is skipped.
 
-Dacă Google respinge reîmprospătarea cu `invalid_grant`, verificați mai întâi dacă tokenul valid din `.env` a fost încărcat în container. Pentru Docker, aplicați configurația curentă cu `docker compose up -d --no-deps --force-recreate app`; simpla repornire nu actualizează variabilele de mediu ale containerului. Recrearea închide sesiunile active și elimină rapoartele din memorie, deci salvați PDF-urile înainte. Dacă și tokenul local este respins, reautorizați contul cu același script. Acesta înlocuiește tokenul în `.env`. Reautorizarea nu expediază automat un raport.
+If Google rejects the refresh with `invalid_grant`, first check whether the valid token from `.env` was loaded into the container. For Docker, apply the current configuration with `docker compose up -d --no-deps --force-recreate app`; a simple restart does not update the container's environment variables. Recreating closes the active sessions and removes the reports from memory, so save the PDFs beforehand. If the local token is also rejected, reauthorize the account with the same script. It replaces the token in `.env`. Reauthorization does not automatically send a report.
 
-## 🔐 Confidențialitate și siguranță
+## 🔐 Privacy and safety
 
-- 🔒 `.env` și cache-ul modelului sunt ignorate de Git; indexul locuiește în Postgres, nu în fișiere din repo.
-- 🧭 fiecare fragment rămâne legat de fișierul și liniile sursă;
-- 🧹 conversațiile și PDF-urile stau doar în memoria procesului, separate pe tab; închiderea notificată serverului, expirarea sau repornirea le elimină. Nicio informație medicală a pacientului nu se scrie în baza de date;
-- 🚫 requesturile xAI folosesc `store=false` (pentru DeepSeek, Hugging Face și Ollama parametrul nu se trimite; se aplică politicile lor de retenție);
-- 🩺 răspunsurile sunt informative și trebuie verificate medical înainte de utilizare.
+- 🔒 `.env` and the model cache are ignored by Git; the index lives in Postgres, not in files in the repo.
+- 🧭 each fragment stays tied to the source file and lines;
+- 🧹 conversations and PDFs stay only in process memory, separated per tab; closing notified to the server, expiry or restart removes them. No medical information of the patient is written to the database;
+- 🚫 xAI requests use `store=false` (for DeepSeek, Hugging Face and Ollama the parameter is not sent; their retention policies apply);
+- 🩺 the answers are informative and must be medically verified before use.
 
-## 🧪 Testare
+## 🧪 Testing
 
-Comenzile se execută din rădăcina proiectului.
+Commands are run from the project root.
 
-Instalați uneltele de dezvoltare în mediul CPU (nu în `.venv-gpu`):
+Install the development tools in the CPU environment (not in `.venv-gpu`):
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements-dev.lock
@@ -1291,16 +1294,16 @@ $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe -m pytest src/tests/unit/ai/test_report_validation.py src/tests/unit/web/test_report_integrity.py -q
 ```
 
-Unitarele folosesc dependențe simulate și nu necesită Docker, PostgreSQL, `.env` sau corpusul personal. Testele de integrare folosesc implicit un PostgreSQL/pgvector efemer și corpus sintetic:
+The unit tests use simulated dependencies and do not require Docker, PostgreSQL, `.env` or the personal corpus. The integration tests by default use an ephemeral PostgreSQL/pgvector and a synthetic corpus:
 
 ```powershell
 .\.venv\Scripts\python.exe -m unittest discover -s src/tests/integration -t src -v
 .\.venv\Scripts\python.exe -m pytest src/tests/integration/test_index_integrity.py -q
 ```
 
-Docker trebuie să fie disponibil pentru integrare. Alternativ, `TEST_POSTGRES_URL` poate indica **exclusiv o bază de test dispensabilă**: fixture-urile îi modifică schema și datele. Nu folosiți baza aplicației. Testele corpusului și cataloagelor personale necesită separat `RUN_LOCAL_CORPUS_TESTS=1`; nu sunt activate în CI.
+Docker must be available for integration. Alternatively, `TEST_POSTGRES_URL` can point **exclusively to a disposable test database**: the fixtures modify its schema and data. Do not use the application's database. The personal corpus and catalog tests separately require `RUN_LOCAL_CORPUS_TESTS=1`; they are not enabled in CI.
 
-Verificările statice și frontend:
+Static and frontend checks:
 
 ```powershell
 .\.venv\Scripts\python.exe -m ruff check src
@@ -1312,18 +1315,18 @@ npm --prefix src/frontend run typecheck
 npm --prefix src/frontend run build
 ```
 
-Ruff nu rescrie fișiere în CI. Mypy verifică gradual configurația, contractele, modelele, serviciul conversației, bugetul operațiilor și evaluatorul de conținut. Dicționarele third-party din `src/scripts/dictionaires` și scripturile experimentale `icd10_work` sunt excluse din formatarea/lintul aplicației.
+Ruff does not rewrite files in CI. Mypy gradually checks the configuration, the contracts, the models, the conversation service, the operations budget and the content evaluator. The third-party dictionaries in `src/scripts/dictionaires` and the experimental `icd10_work` scripts are excluded from the application's formatting/linting.
 
-### Dependențe și CI
+### Dependencies and CI
 
-`pyproject.toml` este sursa declarațiilor. Lockurile sunt generate cu pip-tools, includ dependențele tranzitive și hashurile distribuțiilor și păstrează versiunile existente fără upgrade implicit:
+`pyproject.toml` is the source of the declarations. The locks are generated with pip-tools, include the transitive dependencies and the distribution hashes, and keep the existing versions without an implicit upgrade:
 
-| Mediu | Runtime | Dezvoltare |
+| Environment | Runtime | Development |
 |---|---|---|
 | Windows, Python 3.11 | `requirements-runtime.lock` | `requirements-dev.lock` |
 | Linux, Python 3.11 | `requirements-runtime-py311-linux.lock` | `requirements-dev-py311-linux.lock` |
 
-Generați fiecare pereche pe sistemul și versiunea Python corespunzătoare:
+Generate each pair on the corresponding system and Python version:
 
 ```powershell
 $env:PYTHONPATH = "src"
@@ -1331,164 +1334,164 @@ $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe -m scripts.manage_dependencies --check
 ```
 
-`requirements-locks.json` înregistrează hashul declarațiilor și al fiecărui lock. CI refuză declarații schimbate fără regenerare. `requirements-web.txt` și `requirements-lock.txt` sunt aliasuri pentru lockul Windows/Python 3.11; pe Linux folosiți perechea Linux. Mediul GPU existent și modelul `Qwen/Qwen3-Embedding-0.6B` sunt păstrate.
+`requirements-locks.json` records the hash of the declarations and of each lock. CI refuses changed declarations without regeneration. `requirements-web.txt` and `requirements-lock.txt` are aliases for the Windows/Python 3.11 lock; on Linux use the Linux pair. The existing GPU environment and the `Qwen/Qwen3-Embedding-0.6B` model are kept.
 
-Workflow-ul `.github/workflows/ci.yml` separă verificările statice, unitarele Python 3.11, integrarea pgvector, frontendul și buildul Docker. Folosește date sintetice și nu publică corpusul personal.
+The workflow `.github/workflows/ci.yml` separates the static checks, the Python 3.11 unit tests, the pgvector integration, the frontend and the Docker build. It uses synthetic data and does not publish the personal corpus.
 
-### Evaluarea retrieval-ului la nivel de conținut
+### Content-level retrieval evaluation
 
-Evaluatorul structural existent rămâne disponibil. Noul mod `--content` folosește exact 30 de cazuri din `src/tests/eval/content_cases.json`, acoperind afecțiuni, sinonime, exprimări libere și atenționări. Fiecare fragment este identificat prin cale relativă și SHA-256 al textului, independent de ID-ul PostgreSQL.
+The existing structural evaluator remains available. The new `--content` mode uses exactly 30 cases from `src/tests/eval/content_cases.json`, covering conditions, synonyms, free-form wordings and warnings. Each fragment is identified by relative path and the SHA-256 of its text, independent of the PostgreSQL ID.
 
-Cazurile livrate sunt etichetate pentru corpusul sintetic din `src/tests/eval/synthetic_corpus`. Clasamentele din `synthetic_rankings.json` și baseline-ul analitic ideal verifică mecanismul metricilor; **nu măsoară calitatea modelului pe corpusul personal**:
+The shipped cases are labeled for the synthetic corpus in `src/tests/eval/synthetic_corpus`. The rankings in `synthetic_rankings.json` and the ideal analytic baseline verify the metrics mechanism; **they do not measure the model's quality on the personal corpus**:
 
 ```powershell
 .\.venv\Scripts\python.exe -m scripts.evaluate_retrieval --content --rankings src/tests/eval/synthetic_rankings.json --baseline src/tests/eval/synthetic_baseline.json --output var/output/synthetic-metrics.json
 ```
 
-Pentru un index real, pregătiți local 30 de cazuri cu hashuri din acel corpus, apoi măsurați baseline-ul înaintea schimbării scoringului. Datele personale și etichetele locale rămân în `var/output`:
+For a real index, prepare locally 30 cases with hashes from that corpus, then measure the baseline before changing the scoring. Personal data and local labels stay in `var/output`:
 
 ```powershell
 .\.venv\Scripts\python.exe -m scripts.evaluate_retrieval --content --dotenv --cases var/output/content-cases-local.json --output var/output/retrieval-before.json
 .\.venv\Scripts\python.exe -m scripts.evaluate_retrieval --content --dotenv --cases var/output/content-cases-local.json --baseline var/output/retrieval-before.json --output var/output/retrieval-after.json
 ```
 
-Raportul include Recall@50 din fragmentele relevante etichetate, nDCG@10 cu grade 0–3, numărul rezultatelor etichetate ca irelevante în top 10, fragmentele fără etichetă în top 10 și acoperirea atenționărilor așteptate în top 50. Comparația refuză corpusuri/cazuri/configurații diferite și raportează regresii pe fiecare caz, cu exit code 2. O nouă generație a aceluiași conținut poate fi comparată. Aceste metrici nu validează clinic sursele.
+The report includes Recall@50 of the labeled relevant fragments, nDCG@10 with grades 0–3, the number of results labeled irrelevant in the top 10, the unlabeled fragments in the top 10 and the coverage of the expected warnings in the top 50. The comparison refuses different corpora/cases/configurations and reports regressions for each case, with exit code 2. A new generation of the same content can be compared. These metrics do not clinically validate the sources.
 
-## Operare și limite
+## Operation and limits
 
-Rulați aplicația cu **un singur worker Uvicorn**: sesiunile și limitele sunt gestionate în memoria procesului. Implicit sunt permise două căutări și o generare simultană (`MAX_CONCURRENT_SEARCHES=2`, `MAX_CONCURRENT_GENERATIONS=1`). Rapoartele suplimentare primesc `202` și așteaptă într-o coadă FIFO în memoria procesului; următorul pornește după oprirea efectivă a workerului anterior. Sunt admise cel mult `MAX_QUEUED_GENERATIONS=20` cereri în așteptare, în limitele bugetelor de memorie. Depășirea capacității cozii produce `429 GENERATION_QUEUE_FULL`; o operație cu alte opțiuni deja în curs pe aceeași căutare poate produce `409`.
+Run the application with **a single Uvicorn worker**: sessions and limits are managed in process memory. By default two searches and one simultaneous generation are allowed (`MAX_CONCURRENT_SEARCHES=2`, `MAX_CONCURRENT_GENERATIONS=1`). Additional reports receive `202` and wait in a FIFO queue in process memory; the next one starts after the previous worker has actually stopped. At most `MAX_QUEUED_GENERATIONS=20` waiting requests are admitted, within the memory budgets. Exceeding the queue capacity produces `429 GENERATION_QUEUE_FULL`; an operation with different options already running on the same search may produce `409`.
 
-Operațiile au un buget total de 600 de secunde (`OPERATION_TIMEOUT_SECONDS`), fără reîncercare automată. După expirare sau închiderea sesiunii, rezultatele tardive sunt abandonate; un apel deja pornit poate continua, ocupând capacitatea până la terminare.
+Operations have a total budget of 600 seconds (`OPERATION_TIMEOUT_SECONDS`), with no automatic retry. After expiry or after the session is closed, late results are discarded; a call that has already started may continue, occupying capacity until it finishes.
 
-Folosiți `/healthz` pentru configurația AI și `/readyz` pentru disponibilitatea indexului. Reindexarea creează baza lipsă și aplică migrările; aplicația web nu le execută la pornire. În timpul sincronizării indexului, căutarea poate răspunde `503`; un eșec păstrează generația anterioară.
+Use `/healthz` for the AI configuration and `/readyz` for the index availability. Reindexing creates the missing database and applies the migrations; the web application does not run them at startup. During index synchronization, search may respond `503`; a failure keeps the previous generation.
 
-Pentru expunere publică, setați `DEPLOYMENT_PROFILE=public`, `PUBLIC_ORIGIN=https://...`, `COOKIE_SECURE=true`, `LOG_FRAGMENT_TEXT=false` și `LOG_AI_RESPONSE_TEXT=false`. În Compose, adăugați explicit `DEPLOYMENT_PROFILE` în `app.environment`; simpla adăugare în `.env` nu îl transmite containerului. Configurați proxy-urile autorizate prin `FORWARDED_ALLOW_IPS` (Uvicorn); pentru Funnel pe host și Docker sunt autorizate loopback-ul și gateway-ul rețelei interne a aplicației.
+For public exposure, set `DEPLOYMENT_PROFILE=public`, `PUBLIC_ORIGIN=https://...`, `COOKIE_SECURE=true`, `LOG_FRAGMENT_TEXT=false` and `LOG_AI_RESPONSE_TEXT=false`. In Compose, explicitly add `DEPLOYMENT_PROFILE` to `app.environment`; simply adding it to `.env` does not pass it to the container. Configure the authorized proxies through `FORWARDED_ALLOW_IPS` (Uvicorn); for Funnel on the host and Docker, the loopback and the gateway of the application's internal network are authorized.
 
-## Extragerea PDF în Markdown
+## PDF to Markdown extraction
 
-`src/scripts/extract_pdf_markdown.py` convertește local PDF-uri în Markdown, deduce titlurile și ordinea de citire și păstrează reperele `<!-- Pagina PDF N -->`. Instalați dependențele opționale, apoi rulați conversia:
+`src/scripts/extract_pdf_markdown.py` locally converts PDFs to Markdown, infers the titles and the reading order and keeps the `<!-- Pagina PDF N -->` markers (“PDF page N”). Install the optional dependencies, then run the conversion:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -e ".[pdf]"
-.\.venv\Scripts\python.exe src\scripts\extract_pdf_markdown.py "carte.pdf"
+.\.venv\Scripts\python.exe src\scripts\extract_pdf_markdown.py "book.pdf"
 ```
 
-Implicit, pentru `carte.pdf`, scriptul creează folderul `medicina-naturista-documente/data/documents/Surse sigure/carte/` și salvează acolo `carte.pdf.md`. Folderul primește numele PDF-ului fără extensie, iar fișierul Markdown păstrează numele complet al PDF-ului, la care se adaugă `.md`. Destinația este relativă la rădăcina proiectului, calculată din locația scriptului, indiferent de directorul de lansare. `-o` / `--output` permite alegerea explicită a altui fișier de ieșire.
+By default, for `book.pdf`, the script creates the folder `medicina-naturista-documente/data/documents/Surse sigure/book/` and saves `book.pdf.md` there. The folder receives the PDF's name without the extension, and the Markdown file keeps the PDF's full name, with `.md` added. The destination is relative to the project root, computed from the script's location, regardless of the launch directory. `-o` / `--output` allows explicitly choosing another output file.
 
-PyMuPDF extrage caracterele și informațiile despre fonturi și randează paginile. Implicit, fiecare pagină este îndreptată separat înainte de extragere, textul existent este păstrat, OCR se aplică numai paginilor fără text, iar coloanele sunt detectate automat. OCR rulează în memorie prin `Page.get_textpage_ocr`, fără pornirea executabilului Tesseract și fără imagini sau fișiere TSV intermediare. API-ul folosește motorul Tesseract integrat și necesită fișierele de limbă `ron.traineddata` și `eng.traineddata`. Directorul lor se indică prin `--tessdata` sau `TESSDATA_PREFIX`; pe Windows se detectează implicit `C:\Program Files\Tesseract-OCR\tessdata`. Opțiunea `--tesseract-cmd` a fost înlocuită cu `--tessdata`.
+PyMuPDF extracts the characters and font information and renders the pages. By default, each page is straightened separately before extraction, the existing text is kept, OCR is applied only to pages without text, and the columns are detected automatically. OCR runs in memory through `Page.get_textpage_ocr`, without starting the Tesseract executable and without intermediate images or TSV files. The API uses the integrated Tesseract engine and requires the language files `ron.traineddata` and `eng.traineddata`. Their directory is indicated through `--tessdata` or `TESSDATA_PREFIX`; on Windows `C:\Program Files\Tesseract-OCR\tessdata` is detected by default. The `--tesseract-cmd` option has been replaced by `--tessdata`.
 
-Opțiuni utile:
+Useful options:
 
-- `--start-page N --end-page N`: conversia unui interval de pagini.
-- `--ocr always|never`: forțarea sau dezactivarea OCR.
-- `--columns 1|2|3` și `--deskew off`: control manual pentru documente ambigue.
-- `--debug`: logarea intrării în fiecare funcție/metodă explicită, cu numele parametrilor; parolele sunt mascate, iar colecțiile și obiectele mari sunt rezumate. Implicit se afișează progresul la nivel `INFO`.
-- `--help`: lista completă a opțiunilor.
+- `--start-page N --end-page N`: converting a range of pages.
+- `--ocr always|never`: forcing or disabling OCR.
+- `--columns 1|2|3` and `--deskew off`: manual control for ambiguous documents.
+- `--debug`: logging the entry into each explicit function/method, with the parameter names; passwords are masked, and large collections and objects are summarized. By default progress is displayed at `INFO` level.
+- `--help`: the full list of options.
 
-Raportul JSON descrie extragerea și avertismentele pe pagină. Markdown-ul și raportul sunt pregătite înainte de înlocuirea rezultatelor; dacă publicarea eșuează, scriptul încearcă restaurarea versiunilor anterioare și păstrează copiile de recuperare dacă restaurarea este blocată. Destinațiile care coincid cu sursa, inclusiv hardlinkurile, sunt respinse. Randarea OCR este limitată la 64 megapixeli pe pagină; reduceți `--dpi` pentru paginile foarte mari. Verificați titlurile, tabelele și scanările degradate: structura este dedusă euristic, iar erorile OCR nu sunt corectate semantic.
+The JSON report describes the extraction and the per-page warnings. The Markdown and the report are prepared before the results are replaced; if publishing fails, the script tries to restore the previous versions and keeps the recovery copies if restoration is blocked. Destinations that coincide with the source, including hardlinks, are rejected. OCR rendering is limited to 64 megapixels per page; reduce `--dpi` for very large pages. Check the titles, tables and degraded scans: the structure is inferred heuristically, and OCR errors are not corrected semantically.
 
-`src/scripts/merge_book_pdfs.py` unește fragmentele `pag<prima>-<ultima>.pdf` și îndreaptă fiecare pagină în memorie, folosind PyMuPDF pentru toate operațiile PDF. Fiecare fragment este deschis o singură dată; numărul de pagini este verificat în timpul unirii, iar nepotrivirile și intervalele lipsă produc avertismente. Intervalele suprapuse sunt respinse, inclusiv la apelarea directă din Python. Nu execută OCR și nu generează imagini intermediare. Implicit, PDF-ul final este salvat în rădăcina proiectului (`D:\Workspace\medicina-naturista` în checkout-ul curent), cu numele folderului sursă și extensia `.pdf`; destinația este calculată din locația scriptului, indiferent de directorul din care este lansat. `--output-dir` schimbă destinația, iar `--deskew off` dezactivează îndreptarea. `--debug` activează logarea intrării în fiecare funcție/metodă explicită, cu parametri numiți și obiecte mari rezumate. Progresul este afișat la nivel `INFO`. PDF-ul final este verificat înainte de înlocuirea atomică a destinației; sursele, inclusiv aliasurile/hardlinkurile, sunt protejate împotriva suprascrierii.
+`src/scripts/merge_book_pdfs.py` merges the fragments `pag<first>-<last>.pdf` and straightens each page in memory, using PyMuPDF for all PDF operations. Each fragment is opened only once; the page count is checked during merging, and mismatches and missing ranges produce warnings. Overlapping ranges are rejected, including on direct calls from Python. It performs no OCR and generates no intermediate images. By default, the final PDF is saved in the project root (`D:\Workspace\medicina-naturista` in the current checkout), with the source folder's name and the `.pdf` extension; the destination is computed from the script's location, regardless of the directory it is launched from. `--output-dir` changes the destination, and `--deskew off` disables straightening. `--debug` enables logging the entry into each explicit function/method, with named parameters and large objects summarized. Progress is displayed at `INFO` level. The final PDF is verified before the atomic replacement of the destination; the sources, including aliases/hardlinks, are protected against overwriting.
 
-## 📜 Licență
+## 📜 License
 
-Codul proiectului este distribuit sub [Business Source License 1.1](LICENSE) ([versiunea în română](LICENSE.ro.md)). Utilizarea în medii non-producție este gratuită; utilizarea în producție necesită un acord comercial separat cu licențiatorul. Apache 2.0 este licența prevăzută după schimbare, conform termenilor din `LICENSE`, nu licența inițială a proiectului.
+The project's code is distributed under the [Business Source License 1.1](LICENSE) ([Romanian version](LICENSE.ro.md)). Use in non-production environments is free; use in production requires a separate commercial agreement with the licensor. Apache 2.0 is the license provided for after the change date, according to the terms in `LICENSE`, not the project's initial license.
 
 ---
 
 <div align="center">
 
-🌱 **Surse verificabile · retrieval local · recomandări adjuvante**
+🌱 **Verifiable sources · local retrieval · adjuvant recommendations**
 
 </div>
 
 
-## Generarea rapoartelor în fundal
+## Background report generation
 
-Modelele suportate sunt definite într-un singur catalog backend. `REPORT_GENERATION_MODELS` este lista CSV a modelelor activate, în ordinea din UI; primul model este implicit. `/api/report-models` returnează toate modelele configurate în `models`, primul în `defaultModel` și separat modelele permise utilizatorului curent în `allowedModels`. Toate opțiunile rămân vizibile și selectabile pentru public. Generarea rețetei/raportului este rezervată administratorului pentru toate modelele, inclusiv Ollama local. Un utilizator neautorizat vede mesajul „Generarea rețetei este disponibilă doar administratorului platformei.” și butonul de generare dezactivat pentru orice model. `allowedModels` este gol pentru public și conține modelele configurate pentru administrator; lipsa metadatelor de permisiuni dezactivează generarea în UI. Administratorul autentificat poate genera cu toate modelele configurate. Aceeași protecție se aplică pe backend pentru toate modelele: cererea primește HTTP 403 cu `MODEL_FORBIDDEN`, înainte de admiterea jobului sau apelul AI, dacă sesiunea de autor nu este validă. Cererile fără model folosesc primul model configurat și aceeași verificare, fără schimbare automată către alt model. Modelul explicit neconfigurat este respins cu HTTP 422 și `MODEL_NOT_CONFIGURED`. Statusul și anularea unui job cer de asemenea o sesiune de administrator validă. Se construiesc clienți numai pentru modelele configurate. Variabila singulară anterioară a fost eliminată.
+The supported models are defined in a single backend catalog. `REPORT_GENERATION_MODELS` is the CSV list of the enabled models, in the UI order; the first model is the default. `/api/report-models` returns all the configured models in `models`, the first in `defaultModel` and, separately, the models permitted to the current user in `allowedModels`. All options remain visible and selectable for the public. Recipe/report generation is reserved for the administrator for all models, including local Ollama. An unauthorized user sees the message “Recipe generation is available only to the platform administrator.” and the generation button disabled for any model. `allowedModels` is empty for the public and contains the configured models for the administrator; missing permission metadata disables generation in the UI. The authenticated administrator can generate with all configured models. The same protection applies on the backend for all models: the request receives HTTP 403 with `MODEL_FORBIDDEN`, before the job is admitted or the AI is called, if the author session is not valid. Requests without a model use the first configured model and the same check, with no automatic switch to another model. An explicit model that is not configured is rejected with HTTP 422 and `MODEL_NOT_CONFIGURED`. The status and cancellation of a job also require a valid administrator session. Clients are built only for the configured models. The previous singular variable has been removed.
 
-În chat, confirmarea „Raportul este gata și a fost generat în …” include și `folosind modelul AI **<model>**`, cu identificatorul efectiv al modelului afișat cu bold. Informația este păstrată în mesajul raportului din istoricul sesiunii, independent de selecțiile ulterioare din UI.
+In the chat, the confirmation “The report is ready and was generated in …” also includes `using the AI model **<model>**`, with the effective model identifier displayed in bold. The information is kept in the report message in the session history, independent of later selections in the UI.
 
-La finalul PDF-ului, după bibliografie și sumarul generării, apare `Model AI folosit: <model>`. Se afișează identificatorul efectiv trimis furnizorului, fixat din clientul ales pentru raport; o schimbare ulterioară a implicitului nu modifică această informație pentru cererile deja admise în coadă.
+At the end of the PDF, after the bibliography and the generation summary, `AI model used: <model>` appears. The effective identifier sent to the provider is displayed, fixed from the client chosen for the report; a later change of the default does not modify this information for requests already admitted to the queue.
 
-| Opțiune UI / env | Furnizor | Model trimis în request |
+| UI option / env | Provider | Model sent in the request |
 | --- | --- | --- |
-| `ollama-gemma3:1b` | Ollama local | `gemma3:1b` |
-| `ollama-gemma4:12b` | Ollama local | `gemma4:12b` |
-| `ollama-ministral-3:8b` | Ollama local | `ministral-3:8b` |
-| `ollama-qwen3.5:9b` | Ollama local | `qwen3.5:9b` |
-| `ollama-qwen3.5:4b` | Ollama local | `qwen3.5:4b` |
-| `ollama-deepseek-r1:8b` | Ollama local | `deepseek-r1:8b` |
+| `ollama-gemma3:1b` | Local Ollama | `gemma3:1b` |
+| `ollama-gemma4:12b` | Local Ollama | `gemma4:12b` |
+| `ollama-ministral-3:8b` | Local Ollama | `ministral-3:8b` |
+| `ollama-qwen3.5:9b` | Local Ollama | `qwen3.5:9b` |
+| `ollama-qwen3.5:4b` | Local Ollama | `qwen3.5:4b` |
+| `ollama-deepseek-r1:8b` | Local Ollama | `deepseek-r1:8b` |
 | `deepseek-flash` | DeepSeek | `deepseek-flash` |
 | `huggingface-deepseek-v4-flash` | Hugging Face / DeepInfra | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` |
 | `grok-4.3` | xAI | `grok-4.3` |
 
-Toate modelele Ollama pentru rapoarte folosesc ruta nativă `/api/chat`. Instalați pe host modelul local ales înainte de utilizare; opțiunea `ollama-ministral-3:8b` folosește tagul Ollama `ministral-3:8b`.
+All Ollama models for reports use the native `/api/chat` route. Install the chosen local model on the host before use; the option `ollama-ministral-3:8b` uses the Ollama tag `ministral-3:8b`.
 
-#### Effort-ul AI al raportului
+#### The report's AI effort
 
-La „Generează raportul" ownerul alege, lângă model, un **effort**: `low` (implicit), `medium` sau `high`. Valoarea merge în corpul cererii `POST /api/searches/{id}/generate` (`effort`) și se traduce pentru fiecare model; nu mai există variabile de mediu `*_REASONING_EFFORT`.
+At “Generate report” the owner chooses, next to the model, an **effort**: `low` (default), `medium` or `high`. The value goes into the body of the request `POST /api/searches/{id}/generate` (`effort`) and is translated for each model; the `*_REASONING_EFFORT` environment variables no longer exist.
 
 | Model | `low` | `medium` | `high` |
 |---|---|---|---|
 | Ollama `gemma4:12b`, `qwen3.5:9b`, `qwen3.5:4b`, `deepseek-r1:8b` | `think=false` | `think=true` | `think=true` |
-| `deepseek-flash`, `huggingface-deepseek-v4-flash`, `grok-4.3` | `reasoning.effort="none"` (reasoning oprit) | `"medium"` | `"high"` |
-| Ollama `gemma3:1b`, `ministral-3:8b` | fără control | fără control | fără control |
+| `deepseek-flash`, `huggingface-deepseek-v4-flash`, `grok-4.3` | `reasoning.effort="none"` (reasoning off) | `"medium"` | `"high"` |
+| Ollama `gemma3:1b`, `ministral-3:8b` | no control | no control | no control |
 
-- Ollama acceptă pentru aceste modele doar `think` boolean, deci `medium` și `high` produc aceeași cerere.
-- DeepSeek documentează `none`/`low`/`high`/`max` și mapează singur `medium` la `high`; xAI documentează `none`/`low`/`medium`/`high`. Pentru Hugging Face doar `low`/`medium`/`high` sunt documentate: `none` pe ruta DeepInfra nu este confirmat și trebuie verificat cu o cerere reală (maparea este în `src/backend/ai/effort.py`).
-- Pentru modelele fără control selectorul este dezactivat, serverul ignoră valoarea, nu trimite nimic și salvează `ai_effort = NULL` în metrici.
-- Efortul ales se salvează în `report_generation_metrics.ai_effort`. Estimarea duratei (`GET /api/report-duration-estimate?model=…&characters=…&effort=…`) folosește întâi eșantioanele aceluiași effort și, dacă nu există, eșantioanele modelului.
-- Efortul face parte din idempotența cererii: același `requestId` cu alt effort primește `IDEMPOTENCY_CONFLICT`.
+- For these models Ollama accepts only a boolean `think`, so `medium` and `high` produce the same request.
+- DeepSeek documents `none`/`low`/`high`/`max` and maps `medium` to `high` on its own; xAI documents `none`/`low`/`medium`/`high`. For Hugging Face only `low`/`medium`/`high` are documented: `none` on the DeepInfra route is not confirmed and must be verified with a real request (the mapping is in `src/backend/ai/effort.py`).
+- For models without control the selector is disabled, the server ignores the value, sends nothing and saves `ai_effort = NULL` in the metrics.
+- The chosen effort is saved in `report_generation_metrics.ai_effort`. The duration estimate (`GET /api/report-duration-estimate?model=…&characters=…&effort=…`) first uses the samples of the same effort and, if none exist, the model's samples.
+- The effort is part of the request's idempotency: the same `requestId` with a different effort receives `IDEMPOTENCY_CONFLICT`.
 
-Pentru rapoartele `ollama-gemma3:1b`, profilul din catalog trimite `temperature=0`, `repeat_penalty=1.1` și `repeat_last_n=256`, pentru a reduce buclele de repetare în răspunsurile JSON. Aceste opțiuni se aplică numai generării rapoartelor cu acest model; schema, fragmentele întregi, contextul și limita de ieșire sunt păstrate. Profilul reduce riscul repetițiilor, fără a garanta eliminarea lor sau calitatea semantică a recomandărilor.
+For the `ollama-gemma3:1b` reports, the profile from the catalog sends `temperature=0`, `repeat_penalty=1.1` and `repeat_last_n=256`, to reduce repetition loops in the JSON answers. These options apply only to report generation with this model; the schema, the whole fragments, the context and the output limit are kept. The profile reduces the risk of repetitions, without guaranteeing their elimination or the semantic quality of the recommendations.
 
-Dacă Ollama întrerupe fluxul cu `prediction aborted, token repeat limit reached`, aplicația îl recunoaște drept `repetition_limit`, îl loghează fără textul generat și încheie jobul cu `AI_REPETITION_LIMIT_EXCEEDED`. Mesajul explică bucla de repetiție, în loc să raporteze o eroare generică de validare JSON. Celelalte loturi active sunt anulate; nu există retry automat, trunchiere sau publicare de PDF incomplet. Excepția de la bugetul local pentru requesturile cu un singur fragment rămâne valabilă.
+If Ollama interrupts the stream with `prediction aborted, token repeat limit reached`, the application recognizes it as `repetition_limit`, logs it without the generated text and ends the job with `AI_REPETITION_LIMIT_EXCEEDED`. The message explains the repetition loop, instead of reporting a generic JSON validation error. The other active batches are cancelled; there is no automatic retry, truncation or publishing of an incomplete PDF. The exception from the local budget for single-fragment requests remains valid.
 
-Pentru `ollama-deepseek-r1:8b`, instalați modelul cu `ollama pull deepseek-r1:8b`. Tagul actual este DeepSeek-R1-0528-Qwen3-8B, Q4_K_M, care acceptă promptul `system` existent. Profilul implicit trimite `num_ctx=32768`, `num_predict=8192` și folosește un buget conservator de 24.000 tokeni de intrare per lot, inclusiv instrucțiunile, profilul și schema JSON. Contextul a fost mărit pentru ca estimarea conservatoare a instrucțiunilor să lase loc și fragmentelor. Limita globală de ieșire nu înlocuiește limita specifică R1. Un fragment care nu încape în bugetul conservator este trimis întreg într-un request separat; limita reală de context rămâne verificată de Ollama, fără trunchiere sau fallback. Creșterea contextului poate mări consumul de memorie al Ollama.
+For `ollama-deepseek-r1:8b`, install the model with `ollama pull deepseek-r1:8b`. The current tag is DeepSeek-R1-0528-Qwen3-8B, Q4_K_M, which accepts the existing `system` prompt. The default profile sends `num_ctx=32768`, `num_predict=8192` and uses a conservative budget of 24,000 input tokens per batch, including the instructions, the profile and the JSON schema. The context was increased so that the conservative estimate of the instructions leaves room for the fragments too. The global output limit does not replace the R1-specific limit. A fragment that does not fit in the conservative budget is sent whole in a separate request; the real context limit remains checked by Ollama, with no truncation or fallback. Increasing the context may increase Ollama's memory consumption.
 
-Ollama rulează pe GPU-ul hostului; containerul FastAPI nu necesită acces CUDA pentru rapoarte. Contextul R1 explicit înlocuiește pentru această cerere valoarea globală `OLLAMA_CONTEXT_LENGTH`. Verificați în timpul generării `ollama ps`: `100% GPU` indică încărcarea integrală a modelului pe GPU. Configurarea singură nu garantează încadrarea în VRAM. Nu sunt adăugate apeluri de warm-up la pornire. R1 14B nu este integrat.
+Ollama runs on the host's GPU; the FastAPI container does not need CUDA access for reports. The explicit R1 context replaces, for this request, the global value `OLLAMA_CONTEXT_LENGTH`. During generation, check `ollama ps`: `100% GPU` indicates the model is fully loaded on the GPU. The configuration alone does not guarantee fitting in VRAM. No warm-up calls are added at startup. R1 14B is not integrated.
 
-Dacă Ollama răspunde că modelul cerut nu este găsit, jobul primește `AI_MODEL_NOT_FOUND`, iar interfața afișează că modelul selectat nu este instalat sau nu este disponibil.
+If Ollama responds that the requested model is not found, the job receives `AI_MODEL_NOT_FOUND`, and the interface displays that the selected model is not installed or not available.
 
 
 
-Generarea pornește prin `POST /api/searches/{searchId}/generate` și răspunde cu `202`, `jobId` și `Location`. Clientul trimite un `requestId` stabil pentru fiecare încercare. `GET /api/report-generations/{jobId}` citește starea, iar `POST /api/report-generations/{jobId}/cancel` solicită anularea. Verificarea periodică nu lansează apeluri AI suplimentare. Aceeași execuție funcționează cu toți clienții AI suportați; modelul ales este fixat la admitere. Restricțiile existente de acces pentru modelul ales se aplică și citirii/anulării operației.
+Generation starts through `POST /api/searches/{searchId}/generate` and responds with `202`, `jobId` and `Location`. The client sends a stable `requestId` for each attempt. `GET /api/report-generations/{jobId}` reads the status, and `POST /api/report-generations/{jobId}/cancel` requests cancellation. Periodic checking launches no additional AI calls. The same execution works with all the supported AI clients; the chosen model is fixed at admission. The existing access restrictions for the chosen model also apply to reading/cancelling the operation.
 
-Frontendul reconciliază statusul jobului cu snapshotul din sesiune: la revenirea într-un tab, o stare veche „în coadă” din cache nu poate înlocui un status final primit odată cu raportul. Aceeași stare reconciliată controlează mesajul, indicatorul de generare și pollingul; oprirea workerului nu este inversată de un snapshot vechi.
+The frontend reconciles the job status with the session snapshot: on returning to a tab, an old cached “queued” state cannot replace a final status received together with the report. The same reconciled state controls the message, the generation indicator and the polling; stopping the worker is not reversed by an old snapshot.
 
-În PDF, item-urile din `uz_intern`, `uz_extern`, `alte_recomandari` și `atentionari` se ordonează descrescător după **numărul fragmentelor citate**. Fiecare ID de fragment valid se numără o singură dată pentru un item; două fragmente diferite din același document sunt două surse. **X** rămâne afișat și calculat ca înainte: `● (57) Tinctura de fructe de soc: descriere...`. Plantele sunt identificate doar în denumire, inclusiv prin sinonimele din catalog; pentru fiecare plantă se numără rândurile din `herbs_benefits`, fără filtrare după afecțiunea raportului. Dacă denumirea conține mai multe plante, X este maximul numărătorilor; dacă nu se identifică nicio plantă sau nu există asocieri, X este zero și nu se afișează nici numărul, nici parantezele. La egalitate de număr de fragmente se folosesc relevanța maximă a fragmentelor citate, numărul referințelor distincte și poziția inițială. X reflectă asocierile indexate, nu o măsură a eficacității clinice, și nu influențează sortarea. Nutriția și textul raportului din chat păstrează ordonarea existentă. Regula se aplică PDF-urilor nou generate.
+In the PDF, the items in `uz_intern`, `uz_extern`, `alte_recomandari` and `atentionari` are ordered descending by the **number of cited fragments**. Each valid fragment ID is counted once for an item; two different fragments from the same document are two sources. **X** stays displayed and computed as before: `● (57) Elderberry fruit tincture: description...`. Plants are identified only in the name, including through the catalog synonyms; for each plant the rows in `herbs_benefits` are counted, without filtering by the report's condition. If the name contains several plants, X is the maximum of the counts; if no plant is identified or there are no associations, X is zero and neither the number nor the parentheses are displayed. On a tie in the number of fragments, the maximum relevance of the cited fragments, the number of distinct references and the initial position are used. X reflects the indexed associations, not a measure of clinical efficacy, and does not influence sorting. Nutrition and the report text in the chat keep the existing ordering. The rule applies to newly generated PDFs.
 
-Cronometrul raportului rămâne la `00:00` cât cererea așteaptă admiterea sau este în coadă. Pornește când workerul preia raportul, folosind `startedAt`, fără a include așteptarea. Schimbările de etapă și actualizările statusului nu îl resetează; o nouă încercare primește un cronometru nou.
+The report timer stays at `00:00` while the request waits for admission or is in the queue. It starts when the worker picks up the report, using `startedAt`, without including the wait. Stage changes and status updates do not reset it; a new attempt receives a new timer.
 
-Dacă furnizorul marchează răspunsul drept incomplet cu motivul `max_output_tokens`, jobul primește `AI_OUTPUT_LIMIT_EXCEEDED` și un mesaj care explică atingerea limitei de tokeni înainte de finalizarea raportului. Aceasta este distinctă de timeout și de un JSON invalid. Textul primit rămâne în panou; un răspuns incomplet nu este publicat ca raport/PDF și nu este reîncercat automat.
+If the provider marks the answer as incomplete with the reason `max_output_tokens`, the job receives `AI_OUTPUT_LIMIT_EXCEEDED` and a message explaining that the token limit was reached before the report was finished. This is distinct from a timeout and from an invalid JSON. The text received stays in the panel; an incomplete answer is not published as a report/PDF and is not retried automatically.
 
-După publicarea cu succes a PDF-ului complet, aplicația inserează o singură măsurătoare în tabela PostgreSQL `report_generation_metrics`: `id`, `medical_condition`, `min_score`, `characters`, `ai_model`, `ai_effort`, `duration`. Afecțiunea este identificată din snapshotul căutării și salvată cu numele exact din `medical_conditions.name`: pentru „Remedii naturiste pentru gripă” se stochează `Gripa`. Pentru mai multe afecțiuni, numele canonice se păstrează în ordinea identificării, separate prin virgulă. Răspunsurile AI sunt acceptate aici numai dacă sunt mapate la catalog; dacă nu există nicio afecțiune din catalog, măsurătoarea nu se inserează, iar PDF-ul rămâne disponibil. `characters` numără caracterele Unicode din fragmentele efectiv furnizate AI, după filtrarea prin scor și buget. `ai_model` păstrează alegerea din catalog (de exemplu `ollama-gemma4:12b`), iar `ai_effort` păstrează efortul configurat pentru clientul selectat, cu `NULL` dacă nu este specificat. Efortul înregistrat nu garantează că furnizorul îl aplică. API-ul acceptă `minScore` doar ca întreg între 0 și 100.
+After the complete PDF is successfully published, the application inserts a single measurement into the PostgreSQL table `report_generation_metrics`: `id`, `medical_condition`, `min_score`, `characters`, `ai_model`, `ai_effort`, `duration`. The condition is identified from the search snapshot and saved with the exact name from `medical_conditions.name`: for “Remedii naturiste pentru gripă” (“Natural remedies for flu”) `Gripa` is stored. For several conditions, the canonical names are kept in the order of identification, separated by commas. AI answers are accepted here only if they are mapped to the catalog; if there is no condition from the catalog, the measurement is not inserted, and the PDF remains available. `characters` counts the Unicode characters in the fragments actually provided to the AI, after filtering by score and budget. `ai_model` keeps the choice from the catalog (for example `ollama-gemma4:12b`), and `ai_effort` keeps the effort configured for the selected client, with `NULL` if unspecified. The recorded effort does not guarantee that the provider applies it. The API accepts `minScore` only as an integer between 0 and 100.
 
-`duration` este un `BIGINT` în **milisecunde**, măsurat cu ceas monoton până după publicarea în sesiune; exclude coada, inserarea statisticii și emailul. Anulările, eșecurile și cererile repetate pentru același job nu adaugă măsurători. Inserarea folosește pool-ul existent, cu așteptare de maximum 1 s pentru conexiune, `statement_timeout` de 2 s și `lock_timeout` de 500 ms în tranzacție. Dacă inserarea eșuează, PDF-ul rămâne disponibil, iar logul `report_metrics_persistence_failed` identifică operația fără conținut medical. Nu există retry automat sau garanție de înregistrare dacă baza este indisponibilă ori procesul se oprește între publicare și INSERT.
+`duration` is a `BIGINT` in **milliseconds**, measured with a monotonic clock until after publishing in the session; it excludes the queue, the statistics insertion and the email. Cancellations, failures and repeated requests for the same job add no measurements. The insertion uses the existing pool, with a wait of at most 1 s for a connection, `statement_timeout` of 2 s and `lock_timeout` of 500 ms in the transaction. If the insertion fails, the PDF remains available, and the log `report_metrics_persistence_failed` identifies the operation without medical content. There is no automatic retry or guarantee of recording if the database is unavailable or the process stops between publishing and INSERT.
 
-Sub „Număr total caractere”, UI afișează „Durată estimată: mm:ss (min:sec)” pentru numărul de caractere eligibile și modelul ales. Calculul folosește toate rândurile modelului, fără filtre după afecțiune, scor sau efort: regresie liniară prin origine, `durata_ms = caractere_selectate × SUM(characters × duration) / SUM(characters²)`. Duratele din tabel sunt în milisecunde; rezultatul este rotunjit în sus la secunde. Când modelul sau caracterele se schimbă, estimarea este recerută, iar răspunsurile selecțiilor anterioare nu pot suprascrie selecția curentă. După terminarea unui job se reîmprospătează estimarea pentru a include istoricul nou. Fără date utilizabile, UI afișează „indisponibilă”; indisponibilitatea DB/rețelei nu blochează generarea. Ruta returnează numai modelul, caracterele, `estimatedSeconds` și `sampleCount`; estimarea nu lansează cereri AI și nu modifică drepturile de generare.
+Under “Total number of characters”, the UI displays “Estimated duration: mm:ss (min:sec)” for the number of eligible characters and the chosen model. The calculation uses all the model's rows, without filters by condition, score or effort: linear regression through the origin, `duration_ms = selected_characters × SUM(characters × duration) / SUM(characters²)`. The durations in the table are in milliseconds; the result is rounded up to seconds. When the model or the characters change, the estimate is requested again, and the answers for earlier selections cannot overwrite the current selection. After a job finishes, the estimate is refreshed to include the new history. Without usable data, the UI displays “unavailable”; DB/network unavailability does not block generation. The route returns only the model, the characters, `estimatedSeconds` and `sampleCount`; the estimate launches no AI requests and does not change the generation rights.
 
-Migrările `011_report_generation_metrics.sql` și `012_seed_report_generation_metrics.sql` creează tabela și inserează cele șase măsurători istorice furnizate (53.924 de caractere fiecare). Aplicați-le înainte de activarea codului, prin `python -m scripts.migrate_database` cu `PYTHONPATH=src` și configurația bazei țintă; registrul migrărilor previne reaplicarea seedului. Nu este necesară reindexarea. Rularea manuală repetată a INSERT-ului din migrarea 012 adaugă alte șase rânduri.
+Migrations `011_report_generation_metrics.sql` and `012_seed_report_generation_metrics.sql` create the table and insert the six historical measurements provided (53,924 characters each). Apply them before activating the code, through `python -m scripts.migrate_database` with `PYTHONPATH=src` and the target database configuration; the migration registry prevents re-applying the seed. Reindexing is not required. Manually repeating the INSERT from migration 012 adds another six rows.
 
-Migrarea `013_canonical_report_metric_conditions.sql` corectează etichetele istorice care corespund exact unui nume din catalog, inclusiv forma „Remedii naturiste pentru <afecțiune>”. Celelalte valori ale măsurătorii se păstrează; textele fără potrivire rămân pentru verificare manuală.
+Migration `013_canonical_report_metric_conditions.sql` corrects the historical labels that exactly match a name from the catalog, including the form “Remedii naturiste pentru <condition>” (“Natural remedies for <condition>”). The other values of the measurement are kept; texts without a match remain for manual verification.
 
-`REPORT_GENERATION_TIMEOUT_SECONDS` limitează întregul raport, inclusiv toate loturile și construirea PDF-ului (implicit 600 s; poate fi configurat). `OPERATION_TIMEOUT_SECONDS` rămâne separat pentru celelalte operații, iar `REPORT_GENERATION_READ_TIMEOUT_SECONDS` limitează I/O. Așteptarea în coada aplicației nu pornește timerul raportului.
+`REPORT_GENERATION_TIMEOUT_SECONDS` limits the whole report, including all the batches and the PDF build (default 600 s; configurable). `OPERATION_TIMEOUT_SECONDS` remains separate for the other operations, and `REPORT_GENERATION_READ_TIMEOUT_SECONDS` limits I/O. Waiting in the application queue does not start the report's timer.
 
-### Un singur raport activ, cu loturi paralele configurabile
+### A single active report, with configurable parallel batches
 
-Workerul FIFO unic (`REPORT_GENERATION_WORKERS = 1`) păstrează un singur raport activ.
-În interiorul său, un executor separat folosește `REPORT_BATCH_WORKERS` din `.env`
-(implicit `2`) drept limită de cereri AI simultane, exclusiv pentru loturile acelui
-raport. `1` dezactivează paralelismul; valorile neîntregi sau nepozitive sunt respinse
-la pornire. Docker Compose transmite setarea prin `app.environment`.
-După încheierea unui
-lot se poate admite următorul, fără a aștepta celelalte loturi active. Contextul operației,
-deadline-ul și ID-ul lotului sunt propagate explicit în fiecare fir. Nu există retry
-automat sau request AI de consolidare. Fiecare request primește același system prompt
-din `ai/prompts/generate_report_system.md`, profilul consultației și fragmentele întregi
-ale lotului său.
+The single FIFO worker (`REPORT_GENERATION_WORKERS = 1`) keeps a single active report.
+Inside it, a separate executor uses `REPORT_BATCH_WORKERS` from `.env`
+(default `2`) as the limit of simultaneous AI requests, exclusively for the batches of that
+report. `1` disables parallelism; non-integer or non-positive values are rejected
+at startup. Docker Compose passes the setting through `app.environment`.
+After a
+batch ends, the next one can be admitted, without waiting for the other active batches. The operation context,
+the deadline and the batch ID are propagated explicitly into each thread. There is no automatic
+retry or consolidation AI request. Each request receives the same system prompt
+from `ai/prompts/generate_report_system.md`, the consultation profile and the whole fragments
+of its batch.
 
-`REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` permite bugete de intrare diferite per model și lot, plus contextul și efortul implicit al fiecărui model. Valoarea poate fi scrisă pe mai multe linii în `.env`, între ghilimele simple (citită la fel de `python-dotenv` și de Docker Compose). Exemplu cu valorile implicite:
+`REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` allows different input budgets per model and batch, plus each model's default context and effort. The value can be written over several lines in `.env`, between single quotes (read the same way by `python-dotenv` and by Docker Compose). Example with the default values:
 
 ```dotenv
 REPORT_BATCH_WORKERS=2
@@ -1505,87 +1508,87 @@ REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL='{
 }'
 ```
 
-Contextele sunt cele publicate pentru fiecare model (Gemma 3 1B: 32K; Gemma 4 12B, Ministral 3 8B, Qwen 3.5: 256K; DeepSeek V4 Flash: 1M; Grok 4.3: 1M). R1 8B rămâne la 32768, valoarea `num_ctx` trimisă de aplicație, nu la cele 128K ale modelului. Intrarea efectivă a unui lot este `min(tokens, context − ieșire)`. `GET /api/report-models` trimite oricui `contextTokens` și `defaultEfforts` pentru modelele configurate.
+The contexts are those published for each model (Gemma 3 1B: 32K; Gemma 4 12B, Ministral 3 8B, Qwen 3.5: 256K; DeepSeek V4 Flash: 1M; Grok 4.3: 1M). R1 8B stays at 32768, the `num_ctx` value sent by the application, not the model's 128K. The effective input of a batch is `min(tokens, context − output)`. `GET /api/report-models` sends everyone `contextTokens` and `defaultEfforts` for the configured models.
 
-Numărarea este locală și estimativă: tokenii se estimează ca octeții UTF-8 ai payloadului JSON complet împărțiți la 3 (rotunjit în sus), plus o rezervă fixă de 256 tokeni pentru încadrarea mesajelor. Sunt incluse promptul de sistem, profilul, fragmentele, sursele, ID-urile, schema JSON și câmpurile cererii. Nu se descarcă tokenizatoare și nu se apelează furnizorii pentru numărare. Estimarea nu este numărul exact produs de tokenizerul modelului, iar furnizorul rămâne autoritatea pentru contextul real; dacă un lot depășește contextul, micșorați „Tokeni max de intrare”.
+Counting is local and estimated: tokens are estimated as the UTF-8 bytes of the complete JSON payload divided by 3 (rounded up), plus a fixed reserve of 256 tokens for message framing. The system prompt, the profile, the fragments, the sources, the IDs, the JSON schema and the request fields are included. No tokenizers are downloaded and the providers are not called for counting. The estimate is not the exact number produced by the model's tokenizer, and the provider remains the authority for the real context; if a batch exceeds the context, reduce “Max input tokens”.
 
-Pentru Ollama cu `num_ctx` explicit, bugetul efectiv de intrare este minimul dintre limita configurată și `num_ctx - num_predict`, astfel încât ieșirea să aibă spațiu rezervat. Fără context explicit, rămâne configurația serverului Ollama; bugetul de intrare trebuie ales împreună cu limita de ieșire și contextul serverului. `REPORT_GENERATION_MAX_OUTPUT_TOKENS` și override-urile de ieșire rămân limite per lot, independente de bugetul de intrare. Cele patru variabile (`REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`, `REPORT_BATCH_WORKERS`, `REPORT_GENERATION_MAX_OUTPUT_TOKENS`, `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL`) furnizează valorile implicite din panoul de raport; admin-ul le poate schimba pentru un singur raport, fără a modifica `.env`.
+For Ollama with an explicit `num_ctx`, the effective input budget is the minimum of the configured limit and `num_ctx - num_predict`, so that the output has reserved space. Without an explicit context, the Ollama server configuration remains; the input budget must be chosen together with the output limit and the server context. `REPORT_GENERATION_MAX_OUTPUT_TOKENS` and the output overrides remain per-batch limits, independent of the input budget. The four variables (`REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`, `REPORT_BATCH_WORKERS`, `REPORT_GENERATION_MAX_OUTPUT_TOKENS`, `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL`) provide the default values in the report panel; the admin can change them for a single report, without modifying `.env`.
 
-Fragmentele sunt păstrate întregi și ordonate după scor. Dacă un singur fragment cu întregul overhead depășește bugetul, este izolat într-un lot și trimis întreg. Limita locală per lot este ignorată numai pentru requesturi cu exact un fragment, inclusiv dacă bugetul efectiv este redus de rezervarea ieșirii din contextul explicit. Loturile cu mai multe fragmente respectă în continuare limita. Nu se scurtează conținutul și nu se schimbă contextul sau limita de ieșire trimise furnizorului. Furnizorul poate respinge în continuare un request care depășește contextul real; eroarea rămâne `AI_CONTEXT_LIMIT_EXCEEDED`. Logurile folosesc `input_tokens_upper_bound` și `counting=utf8_bytes_div3`, iar excepția locală este marcată prin `report_batch_token_limit_bypassed` cu `fragments=1`.
+The fragments are kept whole and ordered by score. If a single fragment with the whole overhead exceeds the budget, it is isolated in a batch and sent whole. The local per-batch limit is ignored only for requests with exactly one fragment, including when the effective budget is reduced by reserving the output from the explicit context. Batches with several fragments still respect the limit. The content is not shortened and the context or the output limit sent to the provider are not changed. The provider can still reject a request that exceeds the real context; the error remains `AI_CONTEXT_LIMIT_EXCEEDED`. The logs use `input_tokens_upper_bound` and `counting=utf8_bytes_div3`, and the local exception is marked by `report_batch_token_limit_bypassed` with `fragments=1`.
 
-Căutarea rulează înainte ca modelul să fie ales, așa că limitează totalul conținutului selectat la cea mai mare valoare din `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` dintre modelele active (`REPORT_GENERATION_MODELS`); limita fiecărui model împarte apoi conținutul în loturi. Se estimează tokenii din octeții UTF-8 ai fragmentelor (3 octeți per token) cu ID-uri, surse, titluri și serializare; se păstrează prefixul în ordinea scorului, fără scurtarea fragmentelor. Promptul, profilul, schema și ieșirea sunt bugetate separat per request. SQL folosește bugetul înmulțit cu 3 ca prefiltru în caractere, apoi retrieval-ul verifică explicit estimarea din octeți UTF-8: astfel, limita în tokeni nu este tratată ca o limită în caractere. Aceste estimări locale nu reprezintă numărul exact de tokeni calculat de furnizori.
+Search runs before the model is chosen, so it limits the total of the selected content to the largest value in `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` among the active models (`REPORT_GENERATION_MODELS`); each model's limit then splits the content into batches. Tokens are estimated from the fragments' UTF-8 bytes (3 bytes per token) with IDs, sources, titles and serialization; the prefix is kept in score order, without shortening the fragments. The prompt, the profile, the schema and the output are budgeted separately per request. SQL uses the budget multiplied by 3 as a prefilter in characters, then retrieval explicitly checks the estimate from UTF-8 bytes: thus, the token limit is not treated as a character limit. These local estimates are not the exact number of tokens computed by the providers.
 
-Vechea variabilă `REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` trebuie eliminată și înlocuită cu valori alese în noua unitate; dacă ajunge în mediul aplicației, pornirea o respinge explicit, pentru a evita reinterpretarea silențioasă a caracterelor drept tokeni. După modificarea `.env` și a codului, configurația și imaginea serviciului trebuie actualizate de operator.
+The old variable `REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` must be removed and replaced with values chosen in the new unit; if it reaches the application's environment, startup rejects it explicitly, to avoid silently reinterpreting characters as tokens. After modifying `.env` and the code, the service's configuration and image must be updated by the operator.
 
-Fiecare răspuns este validat strict față de ID-urile lotului său; un lot valid fără recomandări este permis. Rezultatele sunt combinate prin cod: se elimină numai textele identice din aceeași secțiune și se reunesc sursele lor. Variantele diferite, dozele și atenționările sunt păstrate. Listele alimentare elimină numai elementele identice din aceeași subcategorie; rețetele culinare distincte din toate loturile sunt păstrate, fără plafon global suplimentar. Combinarea nu face reconciliere semantică sau validare clinică globală.
+Each answer is strictly validated against the IDs of its batch; a valid batch without recommendations is allowed. The results are combined by code: only identical texts in the same section are removed and their sources are merged. Different variants, doses and warnings are kept. The food lists remove only identical elements in the same subcategory; distinct culinary recipes from all batches are kept, without an additional global ceiling. Combining performs no semantic reconciliation or global clinical validation.
 
-În forma structurată a secțiunii Nutriție, câmpurile text goale sau alcătuite numai din spații, liniuțe ASCII și marcaje `•` sunt normalizate ca lipsă de conținut; de exemplu, `"interzise": "-"` nu creează o recomandare goală și nu invalidează lotul. Obiectele-recomandare fără text util, citările invalide, câmpurile obligatorii lipsă și celelalte abateri continuă să fie respinse de validarea strictă.
+In the structured form of the Nutrition section, text fields that are empty or made up only of spaces, ASCII dashes and `•` markers are normalized as no content; for example, `"interzise": "-"` creates no empty recommendation and does not invalidate the batch. Recommendation objects without useful text, invalid citations, missing required fields and the other deviations continue to be rejected by strict validation.
 
-Pentru rapoartele Ollama, `format` primește schema JSON a celor cinci secțiuni,
-inclusiv structura Nutriție și ID-urile permise din lotul curent. Recomandările din
-afara Nutriției cer cel puțin o citare. Schema ghidează generarea; validatorul local
-rămâne obligatoriu și respinge răspunsurile invalide, fără reparare sau retry automat.
+For Ollama reports, `format` receives the JSON schema of the five sections,
+including the Nutrition structure and the IDs allowed from the current batch. Recommendations outside
+Nutrition require at least one citation. The schema guides generation; the local validator
+remains mandatory and rejects invalid answers, without repair or automatic retry.
 
-Problemele integrării Ollama sunt logate cu modelul, etapa și tipul eșecului:
-HTTP/rețea/timeout, model absent, încărcare sau memorie insuficientă, limită de context
-sau ieșire, protocol/stream întrerupt, JSON invalid și validarea rezultatului.
-`ai_report_validation_failed` include lotul, numărul problemelor per cod și cel mult
-20 de poziții afectate (secțiune/index), de exemplu `UNKNOWN_EVIDENCE`,
-`MISSING_EVIDENCE`, `INVALID_ITEM` sau `MISSING_NUTRITION_FIELD`.
-Clasificarea mesajelor, identificarea afecțiunilor, inventarul modelelor și indexarea
-folosesc același diagnostic de transport; indexarea include și codurile cunoscute de
-validare. Erorile neașteptate sunt logate prin tip, fără argumentele excepției.
-Logurile nu includ promptul, fragmentele, răspunsul brut, thinking sau chei API;
-mesajele arbitrare ale furnizorului sunt înlocuite cu motive tehnice cunoscute.
-Pentru diagnostic în runtime: `docker compose logs --since 30m app`.
+Ollama integration problems are logged with the model, the stage and the failure type:
+HTTP/network/timeout, missing model, insufficient loading or memory, context or output
+limit, interrupted protocol/stream, invalid JSON and result validation.
+`ai_report_validation_failed` includes the batch, the number of problems per code and at most
+20 affected positions (section/index), for example `UNKNOWN_EVIDENCE`,
+`MISSING_EVIDENCE`, `INVALID_ITEM` or `MISSING_NUTRITION_FIELD`.
+Message classification, condition identification, the model inventory and indexing
+use the same transport diagnostics; indexing also includes the known validation
+codes. Unexpected errors are logged by type, without the exception arguments.
+The logs do not include the prompt, the fragments, the raw answer, thinking or API keys;
+arbitrary provider messages are replaced with known technical reasons.
+For runtime diagnostics: `docker compose logs --since 30m app`.
 
-Zona „Previzualizare raport” afișează câte un panou separat „Lotul N din T” pentru
-fiecare lot planificat, în ordinea procesării. Fiecare panou păstrează exclusiv
-recomandările și bibliografia lotului său, cu derulare proprie; previzualizările nu
-se cumulează. Loturile în așteptare, active, validate, eșuate, anulate sau expirate
-au stări distincte. În timpul procesării, detaliile lotului afișează analiza
-transmisă de furnizor și răspunsul brut, inclusiv JSON incomplet. După validare,
-detaliile brute sunt restrânse; după succes rămân previzualizările validate ale
-tuturor loturilor. La eșec/anulare se păstrează și detaliile lotului întrerupt,
-iar cele neîncepute sunt marcate ca neprocesate. Textele brute sunt nevalidate
-și nu intră direct în raport sau PDF.
+The “Report preview” area displays a separate “Batch N of T” panel for
+each planned batch, in processing order. Each panel keeps exclusively the
+recommendations and bibliography of its own batch, with its own scrolling; the previews do not
+accumulate. Pending, active, validated, failed, cancelled or expired batches
+have distinct states. During processing, the batch details display the analysis
+sent by the provider and the raw answer, including incomplete JSON. After validation,
+the raw details are collapsed; after success the validated previews of
+all batches remain. On failure/cancellation the details of the interrupted batch are also kept,
+and those not started are marked as unprocessed. The raw texts are not validated
+and do not go directly into the report or PDF.
 
-API expune `batchPreviews`, cu `index`, `state`, `reportPreview`, `streamPreview`
-și `thinkingPreview` pentru fiecare lot, plus `previewVersion`, `batchesCompleted`
-și `batchesTotal`. Câmpul compatibil `reportPreview` conține ultimul lot validat.
-Fiecare lot deține propriile fragmente de răspuns/analiză și propria `aiActivity`,
-astfel încât textul simultan nu se amestecă. Câmpurile agregate de compatibilitate
-sunt construite la citire, în ordinea loturilor, fără copii brute suplimentare
-reținute în sesiune. Snapshoturile formatate, textul și metadatele loturilor (inclusiv
-o rezervă de 2 KiB per lot pentru activitate) sunt contabilizate în bugetele existente.
-Contorul loturilor finalizate numără loturile validate, chiar dacă lotul 2 se termină
-înaintea lotului 1; versiunile cresc monoton. El nu este procent
-de progres. Raportul final și PDF-ul continuă să combine toate loturile în backend,
-cu aceleași reguli de validare și deduplicare.
+The API exposes `batchPreviews`, with `index`, `state`, `reportPreview`, `streamPreview`
+and `thinkingPreview` for each batch, plus `previewVersion`, `batchesCompleted`
+and `batchesTotal`. The compatible field `reportPreview` contains the last validated batch.
+Each batch owns its own answer/analysis fragments and its own `aiActivity`,
+so that simultaneous text does not get mixed. The aggregate compatibility fields
+are built at read time, in batch order, without additional raw copies
+retained in the session. The formatted snapshots, the text and the batches' metadata (including
+a reserve of 2 KiB per batch for activity) are counted in the existing budgets.
+The counter of finished batches counts the validated batches, even if batch 2 finishes
+before batch 1; the versions grow monotonically. It is not a progress
+percentage. The final report and the PDF continue to combine all the batches in the backend,
+with the same validation and deduplication rules.
 
-Prima eroare de request sau validare oprește admiterea loturilor următoare și solicită
-anularea cooperativă a celorlalte loturi active. Eroarea inițială este păstrată chiar dacă
-anularea altui fir este observată prima de coordonator. Anularea utilizatorului
-și timeoutul raportului se propagă tuturor loturilor active. Apelurile I/O deja blocate nu pot
-fi ucise ca fire Python: capacitatea raportului rămâne ocupată până la ieșirea efectivă
-a tuturor firelor, în limitele timeouturilor I/O. Nu se publică PDF parțial.
-Previzualizările validate și datele loturilor întrerupte rămân în sesiune. Thinking și
-răspunsul brut nu intră în PDF sau loguri; thinking este eliberat după succes. O nouă
-generare înlocuiește previzualizarea anterioară. La succes, rezultatele sunt combinate
-în ordinea inițială a loturilor, indiferent de ordinea sosirii lor.
+The first request or validation error stops admitting the following batches and requests
+cooperative cancellation of the other active batches. The initial error is kept even if
+the cancellation of another thread is observed first by the coordinator. User cancellation
+and the report timeout propagate to all active batches. I/O calls already blocked cannot
+be killed as Python threads: the report's capacity stays occupied until all threads
+actually exit, within the I/O timeouts. No partial PDF is published.
+The validated previews and the data of the interrupted batches remain in the session. Thinking and
+the raw answer do not go into the PDF or logs; thinking is released after success. A new
+generation replaces the previous preview. On success, the results are combined
+in the initial order of the batches, regardless of the order in which they arrive.
 
-PDF-ul, mesajul „Raportul este gata” și o singură măsurătoare `report_generation_metrics` sunt publicate numai după încheierea tuturor loturilor. Durata este timpul real al raportului, nu suma unor durate fictive per lot. Estimarea existentă continuă să folosească toate observațiile modelului; istoricul cu o singură cerere poate avea performanțe diferite de fluxul în loturi.
+The PDF, the message “The report is ready” and a single `report_generation_metrics` measurement are published only after all the batches have ended. The duration is the real time of the report, not the sum of fictitious per-batch durations. The existing estimate continues to use all the model's observations; history with a single request may have different performance from the batch flow.
 
-Starea `aiActivity` (`waiting`, `processing`, `thinking`, `answering`) și „Ultima activitate primită” se actualizează din evenimentele reale ale requestului curent, fără ca pollingul să reseteze timpul. Viteza rămâne aproximată la 4 caractere/token, separat pentru thinking și answer, fără separatoarele de diagnostic; nu reprezintă tokenii facturați de furnizor. Erorile de conexiune, anularea și etapele de validare/PDF au prioritate. Nu se afișează bară procentuală de progres.
+The `aiActivity` state (`waiting`, `processing`, `thinking`, `answering`) and “Last activity received” are updated from the real events of the current request, without polling resetting the time. The speed remains approximated at 4 characters/token, separately for thinking and answer, without the diagnostic separators; it does not represent the tokens billed by the provider. Connection errors, cancellation and the validation/PDF stages take priority. No percentage progress bar is displayed.
 
-`report_ai_timing` înregistrează timpii locali până la primul eveniment, prima analiză și primul text al răspunsului, plus durata apelului AI. Pentru Ollama include duratele finale de încărcare, procesare a promptului și generare, convertite în milisecunde; pentru DeepSeek, usage-ul disponibil, inclusiv tokenii de reasoning. Valorile necunoscute rămân absente sau `null`. `report_ai_phase_changed` înregistrează doar schimbările de fază, fără conținutul analizei sau răspunsului.
+`report_ai_timing` records the local times until the first event, the first analysis and the first text of the answer, plus the duration of the AI call. For Ollama it includes the final durations of loading, prompt processing and generation, converted to milliseconds; for DeepSeek, the available usage, including reasoning tokens. Unknown values remain absent or `null`. `report_ai_phase_changed` records only the phase changes, without the content of the analysis or of the answer.
 
-Interfața HTTP pornește fără a aștepta pregătirea căutării locale. În fundal se execută o singură căutare de probă pentru încărcarea embeddings-urilor, dicționarului și indexului, cu timpi `warm_up_started` / `warm_up_finished` pentru etapa `search`. La pornire nu se fac apeluri de încălzire către Ollama, DeepSeek sau Grok. `/api/startup` returnează `initializing`, `ready` sau `degraded`; UI verifică starea la o secundă și afișează inițializarea. Cât timp pregătirea rulează, trimiterea întrebărilor este dezactivată, iar operațiile de căutare/AI și `/readyz` răspund cu `APP_INITIALIZING` (503). `/healthz`, interfața și sesiunea rămân accesibile. Dacă pregătirea căutării eșuează, aplicația semnalează modul degradat și permite încercarea unei căutări. Taskul de pregătire este urmărit și așteptat limitat la oprire; resursele încă folosite nu sunt închise prematur.
+The HTTP interface starts without waiting for the local search to be ready. In the background a single probe search runs to load the embeddings, the dictionary and the index, with `warm_up_started` / `warm_up_finished` times for the `search` stage. At startup no warm-up calls are made to Ollama, DeepSeek or Grok. `/api/startup` returns `initializing`, `ready` or `degraded`; the UI checks the state every second and displays the initialization. While the preparation runs, submitting questions is disabled, and the search/AI operations and `/readyz` respond with `APP_INITIALIZING` (503). `/healthz`, the interface and the session remain accessible. If the search preparation fails, the application signals degraded mode and allows a search to be attempted. The preparation task is tracked and awaited with a limit at shutdown; resources still in use are not closed prematurely.
 
-`MAX_CONCURRENT_GENERATIONS` trebuie să fie 1. Cererile acceptate au inițial etapa `queued`; interogarea stării returnează `queuePosition` (de la 1), afișată în interfață. Anularea unei cereri din coadă o elimină fără apel AI. Cererile duplicate sunt reconciliate prin `requestId`, fără dublarea generării. Timpul de așteptare nu consumă bugetul `REPORT_GENERATION_TIMEOUT_SECONDS`, care începe la preluare; durata maximă a sesiunii rămâne aplicabilă. Coada nu persistă la repornirea procesului. Slotul rămâne ocupat până la oprirea efectivă a workerului, inclusiv după anularea sau expirarea logică. Stările terminale și codurile de eroare se pot citi independent de conexiunea de pornire. Metadatele sunt limitate la 32 de operații per sesiune și sunt incluse în bugetul ei de memorie.
+`MAX_CONCURRENT_GENERATIONS` must be 1. Accepted requests initially have the stage `queued`; the status query returns `queuePosition` (from 1), displayed in the interface. Cancelling a queued request removes it without an AI call. Duplicate requests are reconciled through `requestId`, without duplicating the generation. The waiting time does not consume the `REPORT_GENERATION_TIMEOUT_SECONDS` budget, which starts at pickup; the session's maximum duration remains applicable. The queue does not persist across a process restart. The slot stays occupied until the worker actually stops, including after logical cancellation or expiry. The terminal states and error codes can be read independently of the starting connection. The metadata is limited to 32 operations per session and is included in its memory budget.
 
-Refreshul aceleiași file recuperează operația dacă se reconectează în `SESSION_RECONNECT_GRACE_SECONDS` (implicit 30 s). Închiderea explicită anulează imediat; fără reconectare, unloadul închide sesiunea după această fereastră. Sesiunile și operațiile rămân în memorie, într-un singur proces: restartul containerului pierde rezultatele și nu relansează automat cereri AI. Shutdownul așteaptă cel mult `REPORT_SHUTDOWN_TIMEOUT_SECONDS` (implicit 20 s), cu o perioadă Docker de 30 s; un apel sincron blocat poate necesita oprirea procesului.
+Refreshing the same tab recovers the operation if it reconnects within `SESSION_RECONNECT_GRACE_SECONDS` (default 30 s). Explicit closing cancels immediately; without reconnection, the unload closes the session after this window. Sessions and operations stay in memory, in a single process: a container restart loses the results and does not automatically relaunch AI requests. Shutdown waits at most `REPORT_SHUTDOWN_TIMEOUT_SECONDS` (default 20 s), with a Docker grace period of 30 s; a blocked synchronous call may require stopping the process.
 
-Pentru activarea modificărilor de cod/configurare: `docker compose up -d --build app`, apoi reîncărcați pagina. Detalii de arhitectură: [generarea asincronă](architecture/report-generation-background.xmind).
+To activate code/configuration changes: `docker compose up -d --build app`, then reload the page. Architecture details: [asynchronous generation](architecture/report-generation-background.xmind).
 
-Migrarea `039_medical_conditions_version.sql` adaugă contorul `medical_conditions_version`, crescut de triggere pe `medical_conditions` și `medical_condition_synonyms`. Cât timp contorul nu se schimbă, fiecare citire din index refolosește dicționarul de afecțiuni din memorie în loc să-l citească din nou (de la ~300 ms la câteva milisecunde). Aplicați migrarea înainte de activarea codului, prin `python -m scripts.migrate_database`; fără ea cererile eșuează cu `CONDITION_VERSION_SCHEMA_MISSING`. Nu este necesară reindexarea. După restaurarea unui backup făcut înainte de această migrare, rulați din nou migrările: restaurarea elimină triggerele, iar migrarea (idempotentă) le recreează. Dacă metadatele indexului nu se potrivesc cu dicționarul din cache, cititorul recitește tabelele o dată înainte să raporteze `INDEX_RESYNC_REQUIRED`.
+Migration `039_medical_conditions_version.sql` adds the counter `medical_conditions_version`, incremented by triggers on `medical_conditions` and `medical_condition_synonyms`. As long as the counter does not change, each read from the index reuses the in-memory conditions dictionary instead of reading it again (from ~300 ms to a few milliseconds). Apply the migration before activating the code, through `python -m scripts.migrate_database`; without it requests fail with `CONDITION_VERSION_SCHEMA_MISSING`. Reindexing is not required. After restoring a backup made before this migration, run the migrations again: the restoration removes the triggers, and the (idempotent) migration recreates them. If the index metadata does not match the cached dictionary, the reader re-reads the tables once before reporting `INDEX_RESYNC_REQUIRED`.

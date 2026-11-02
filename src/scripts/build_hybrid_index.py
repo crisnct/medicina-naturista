@@ -88,6 +88,7 @@ _HERBS_TOKENS = herb_index_catalog.HERB_TOKENS
 _HERBS_AUTOMATON = None
 _HERBS_GATE = None
 _BUILD_STAGE = "preparation"
+INDEX_SQL = Path(__file__).resolve().parents[1] / "backend" / "index_sql"
 HERBS_BENEFITS_DELETE_SQL = (
     "DELETE FROM herbs_benefits AS current WHERE language=%(language)s AND NOT EXISTS ("
     "SELECT 1 FROM herbs_benefits_next AS next WHERE next.herb_id=current.herb_id "
@@ -106,6 +107,12 @@ HERBS_BENEFITS_INSERT_SQL = (
 def _build_stage(stage: str) -> None:
     global _BUILD_STAGE
     _BUILD_STAGE = stage
+
+
+# Idempotent scripts that run on every build, once the chunk rows are written (no ledger).
+def _apply_index_sql(connection) -> None:
+    for path in sorted(INDEX_SQL.glob("*.sql")):
+        connection.execute(path.read_text(encoding="utf-8-sig"))
 
 
 def _safe_index_error(error: Exception) -> dict:
@@ -1364,6 +1371,9 @@ def _build(
                 connection.execute(
                     "DELETE FROM documents WHERE relative_path = ANY(%s)", (removed,)
                 )
+            # Also covers rows of unchanged documents indexed before the script existed.
+            _build_stage("conditions_cleanup")
+            _apply_index_sql(connection)
             if dictionary_snapshot(connection)[0] != fingerprint:
                 raise RuntimeError("DICTIONARY_CHANGED_DURING_BUILD")
             herbs_stats = dict(

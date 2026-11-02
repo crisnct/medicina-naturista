@@ -1467,7 +1467,6 @@ button:disabled { cursor: not-allowed; }
     align-items: center;
     margin-left: auto;
     margin-right: -14px;
-    transform: translateY(-8px);
     font-size: 14px;
 }
 

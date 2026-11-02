@@ -16,7 +16,7 @@ from backend.ai.herb_product_safety_repository import (
 from backend.ai.herb_product_safety_repository import (
     active_product_safety_run as active_safety_run,
 )
-from backend.ai.herb_safety_repository import unavailable
+from backend.ai.herb_product_safety_repository import unavailable
 from backend.config import Settings
 from backend.config import settings as default_settings
 from backend.core.contracts import HerbHighlight, HerbSafetyEvidencePage, HerbSafetyPage

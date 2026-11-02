@@ -7,7 +7,7 @@ The source wording is preserved. Heading reconstruction is heuristic, especially
 for OCR layers that do not encode bold fonts or document semantics.
 
 Apel pentru un PDF:
-    python src/scripts/extract_pdf_markdown.py "C:\GoogleDrive\Medicina\Books\Importanta plantelor in viata omului - prima mea carte de fitoterapie.pdf"
+    python src/scripts/extract_pdf_markdown.py "C:\GoogleDrive\Medicina\Books\Antivirale din plante.pdf"
 
 Implicit, pentru carte.pdf creează folderul și salvează fișierul în:
     <rădăcina proiectului>/medicina-naturista-documente/data/documents/Surse sigure/carte/carte.pdf.md
@@ -58,7 +58,7 @@ else:
 LOGGER = logging.getLogger(__name__)
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_OUTPUT_ROOT = (
-    PROJECT_ROOT / "medicina-naturista-documente" / "data" / "documents" / "Surse sigure"
+    PROJECT_ROOT / "medicina-naturista-documente" / "data" / "documents" / "ro" / "Surse sigure"
 )
 MAX_OCR_PIXELS = 64_000_000
 

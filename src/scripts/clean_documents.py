@@ -926,7 +926,7 @@ ENGLISH_PREFIXES = set(
     "thermo trans ultra un".split()
 )
 # Tokens that look run-together but are real words missing from the dictionary.
-KEEP = {"plantain", "organela", "fizicala"}
+KEEP = {"plantain", "organela", "fizicala", "palmarea"}
 # Old i/a spelling of the folded diacritics; words shorter than 6 letters are listed
 # explicitly because the generic rule would also rewrite OCR fragments ("tirea").
 OLD_ORTHOGRAPHY = {
