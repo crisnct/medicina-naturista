@@ -273,6 +273,33 @@ def translate_markdown(
     return "\n".join(out)
 
 
+_REMNANT = r"!\{[^{}\n]*\}"
+_LEADING_REMNANT = re.compile(rf"\s*{_REMNANT}")
+_BRACES_OR_NEWLINE = re.compile(r"[{}\n]")
+
+
+# Image remnants at either end of a segment never reach the model: asked to keep a placeholder
+# for them it drops it and the answer is rejected. They are put back unchanged afterwards.
+# Linear in the text: a backtracking pattern anchored at the end would be quadratic.
+def _split_remnants(text: str) -> tuple[str, str, str]:
+    position = 0
+    while match := _LEADING_REMNANT.match(text, position):
+        position = match.end()
+    head_end = len(text) - len(text[position:].lstrip()) if position else 0
+    end = len(text)
+    trimmed = False
+    while True:
+        stop = head_end + len(text[head_end:end].rstrip())
+        if stop <= head_end or text[stop - 1] != "}":
+            break
+        start = text.rfind("!{", head_end, stop)
+        if start == -1 or _BRACES_OR_NEWLINE.search(text, start + 2, stop - 1):
+            break
+        end, trimmed = start, True
+    tail_start = head_end + len(text[head_end:end].rstrip()) if trimmed else len(text)
+    return text[:head_end], text[head_end:tail_start], text[tail_start:]
+
+
 def _mask(text: str) -> tuple[str, list[str]]:
     protected: list[str] = []
 
@@ -504,7 +531,7 @@ class ProgressReporter:
 
 # The chunks the model would receive for one text segment, found without calling it.
 def chunks_of(segment: str, max_chars: int) -> list[str]:
-    masked, _ = _mask(segment.strip())
+    masked, _ = _mask(_split_remnants(segment.strip())[1])
     if not _LETTER.search(masked):
         return []
     return [chunk for _, chunk in _split(masked, max_chars)]
@@ -568,8 +595,8 @@ class OllamaTranslator:
                 self._progress.total += len(chunk)
 
     def __call__(self, text: str) -> str:
-        source = text.strip()
-        masked, protected = _mask(source)
+        head, core, tail = _split_remnants(text.strip())
+        masked, protected = _mask(core)
         if not _LETTER.search(masked):
             return text
         pieces = []
@@ -580,7 +607,7 @@ class OllamaTranslator:
                 self.failures += 1
                 translated = chunk
             pieces.append(separator + translated)
-        return _unmask("".join(pieces), protected)
+        return head + _unmask("".join(pieces), protected) + tail
 
     def _translate_chunk(self, chunk: str) -> str | None:
         key = _cache_key(self._model, chunk)
