@@ -77,6 +77,8 @@ CONTEXT_RESERVE = 512
 MIN_ETA_SECONDS = 2.0
 # After Ctrl+C the worker gets this long to stop at a safe point before the process exits anyway.
 INTERRUPT_GRACE_SECONDS = 5.0
+# A request that makes Ollama load the model for longer than this is worth a warning.
+LOAD_WARNING_SECONDS = 2.0
 MAX_NAME_CHARS = 120
 # Staging files live next to their destination; this prefix also identifies stale ones.
 TEMP_PREFIX = ".translate-"
@@ -307,6 +309,15 @@ def _split(text: str, limit: int) -> list[tuple[str, str]]:
     return chunks
 
 
+# Ollama's own message from a JSON error body; it names the problem (memory, context, model)
+# without echoing the prompt.
+def _error_text(response: httpx.Response) -> str:
+    try:
+        return str(response.json()["error"])[:300]
+    except (ValueError, KeyError, TypeError):
+        return response.text[:200] or "no error message"
+
+
 def _cache_key(model: str, chunk: str) -> str:
     return hashlib.sha256(f"{model}\0{SYSTEM_PROMPT}\0{chunk}".encode()).hexdigest()
 
@@ -482,6 +493,7 @@ class OllamaTranslator:
         max_chars: int,
         retries: int,
         num_ctx: int,
+        timeout: float,
     ) -> None:
         self._client = client
         self._model = model
@@ -493,10 +505,12 @@ class OllamaTranslator:
         self._max_chars = max_chars
         self._retries = retries
         self._num_ctx = num_ctx
+        self._timeout = timeout
         self.requests = 0
         self.cache_hits = 0
         self.failures = 0
         self.largest_request = 0
+        self._answer: dict[str, object] = {}
 
     def plan(self, chunks: list[str]) -> None:
         """Count each distinct uncached chunk once, so progress has an honest denominator."""
@@ -536,16 +550,26 @@ class OllamaTranslator:
         for attempt in range(1, self._retries + 2):
             self._check_cancelled()
             output = self._chat(chunk, track=key in self._planned)
-            if output is not None and self._acceptable(chunk, output, expected):
+            reason = (
+                self._rejection(chunk, output, expected)
+                if output is not None
+                else self._answer.get("why", "no_output")
+            )
+            if reason is None and output is not None:
                 self._cache.put(key, output)
                 result = output
                 break
-            # Lengths only: the corpus text must not reach the logs.
+            # Counts and the model's own statistics only: the corpus text must not reach the logs.
             LOGGER.warning(
-                "translation rejected attempt=%s/%s source_chars=%s",
+                "translation rejected attempt=%s/%s source_chars=%s reason=%s num_ctx=%s %s",
                 attempt,
                 self._retries + 1,
                 len(chunk),
+                reason,
+                self._num_ctx,
+                " ".join(
+                    f"{name}={value}" for name, value in self._answer.items() if name != "why"
+                ),
             )
         else:
             self._failed.add(key)
@@ -554,20 +578,33 @@ class OllamaTranslator:
             self._progress.advance(len(chunk))
         return result
 
+    # Why an answer is unusable, or None when it is fine. Names the check and the counts, never
+    # the text, so the log can explain a rejection without exposing the corpus.
     @staticmethod
-    def _acceptable(source: str, output: str, expected: Counter[str]) -> bool:
+    def _rejection(source: str, output: str, expected: Counter[str]) -> str | None:
         if not output:
-            return False
-        if Counter(_PLACEHOLDER.findall(output)) != expected:
-            return False
+            return "empty"
+        found = Counter(_PLACEHOLDER.findall(output))
+        if found != expected:
+            return f"placeholders(expected={sum(expected.values())},found={sum(found.values())})"
         # Catches refusals, runaway repetition and answers that drop most of the text.
-        return len(source) < 40 or 0.25 <= len(output) / len(source) <= 4
+        if len(source) >= 40:
+            ratio = len(output) / len(source)
+            if ratio < 0.25:
+                return f"too_short(ratio={ratio:.2f})"
+            if ratio > 4:
+                return f"too_long(ratio={ratio:.2f})"
+        return None
 
     # Cancellation is checked only here and between streamed pieces, never while a file is
     # being published, so Ctrl+C cannot leave a half-written file behind.
     def _check_cancelled(self) -> None:
         if self._cancel.is_set():
             raise KeyboardInterrupt
+
+    # What the failed request looked like, to tell a size problem from a server problem.
+    def _context(self, segment_chars: int) -> str:
+        return f"model={self._model} segment_chars={segment_chars} num_ctx={self._num_ctx}"
 
     def _chat(self, chunk: str, *, track: bool) -> str | None:
         options = {
@@ -588,19 +625,41 @@ class OllamaTranslator:
         self.requests += 1
         self.largest_request = max(self.largest_request, len(chunk))
         self._progress.set_inflight(0.0)
+        self._answer = {}
         try:
             with self._client.stream("POST", "/api/chat", json=payload) as response:
                 if response.status_code != 200:
                     response.read()
                     raise OllamaError(
-                        f"Ollama answered HTTP {response.status_code}: {response.text[:200]}"
+                        f"Ollama answered HTTP {response.status_code}: {_error_text(response)} "
+                        f"[{self._context(len(chunk))}]"
                     )
-                content, truncated = self._read_stream(response, len(chunk), track=track)
-        except httpx.TimeoutException:
+                content, truncated, final = self._read_stream(response, len(chunk), track=track)
+        except httpx.TimeoutException as exc:
+            self._answer = {"why": f"timeout({type(exc).__name__}, limit={self._timeout}s)"}
             return None
         except httpx.TransportError as exc:
-            raise OllamaError(f"Ollama connection lost ({type(exc).__name__}).") from exc
+            raise OllamaError(
+                f"Ollama connection lost ({type(exc).__name__}: {exc}) "
+                f"[{self._context(len(chunk))}]"
+            ) from exc
+        loaded = float(str(final.get("load_duration") or 0)) / 1e9
+        if loaded >= LOAD_WARNING_SECONDS:
+            # A load in the middle of a run means Ollama reloaded the model, for example because
+            # another client asked for a different context size.
+            LOGGER.warning(
+                "ollama loaded the model during a request: load_duration=%.1fs [%s]",
+                loaded,
+                self._context(len(chunk)),
+            )
+        self._answer = {
+            "output_chars": len(content),
+            "done_reason": final.get("done_reason"),
+            "prompt_tokens": final.get("prompt_eval_count"),
+            "output_tokens": final.get("eval_count"),
+        }
         if truncated:
+            self._answer["why"] = f"truncated(done_reason={final.get('done_reason')})"
             return None
         wrapped = _WRAPPING_FENCE.match(content)
         return wrapped.group(1).strip() if wrapped and "```" not in chunk else content
@@ -608,8 +667,9 @@ class OllamaTranslator:
     # Newline-delimited JSON; every line carries a piece of the answer, the last one the reason.
     def _read_stream(
         self, response: httpx.Response, source_chars: int, *, track: bool
-    ) -> tuple[str, bool]:
+    ) -> tuple[str, bool, dict[str, object]]:
         parts: list[str] = []
+        final: dict[str, object] = {}
         length = 0
         truncated = False
         try:
@@ -619,7 +679,10 @@ class OllamaTranslator:
                     continue
                 data = json.loads(line)
                 if "error" in data:
-                    raise OllamaError(f"Ollama error: {str(data['error'])[:200]}")
+                    raise OllamaError(
+                        f"Ollama error in the stream: {str(data['error'])[:300]} "
+                        f"[{self._context(source_chars)}]"
+                    )
                 piece = str(data["message"]["content"])
                 if piece:
                     parts.append(piece)
@@ -628,10 +691,14 @@ class OllamaTranslator:
                     if track:
                         self._progress.set_inflight(min(length, source_chars))
                 if data.get("done"):
+                    final = data
                     truncated = data.get("done_reason") == "length"
         except (ValueError, KeyError, TypeError) as exc:
-            raise OllamaError("Unexpected response format from Ollama.") from exc
-        return "".join(parts).strip(), truncated
+            raise OllamaError(
+                f"Unexpected response format from Ollama ({type(exc).__name__}: {exc}) "
+                f"[{self._context(source_chars)}]"
+            ) from exc
+        return "".join(parts).strip(), truncated, final
 
 
 @log_call
@@ -967,6 +1034,7 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
                     max_chars=args.max_chars,
                     retries=args.retries,
                     num_ctx=args.num_ctx,
+                    timeout=args.timeout,
                     cancel=cancel,
                 )
                 todo: set[Path] = set()
