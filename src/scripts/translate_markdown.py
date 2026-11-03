@@ -318,6 +318,44 @@ def _balanced_end(text: str, start: int) -> int | None:
     return None
 
 
+_BRACKET_TOKEN = re.compile(r"\[\[\d+\]\]|\[|\]")
+
+
+def _is_dead_target(target: str) -> bool:
+    inner = target[1:-1].strip().lower()
+    return inner in ("", "#") or inner.startswith("javascript:")
+
+
+# Links that point nowhere, such as [text](javascript:void(0)) left by pages copied from a browser,
+# carry no information. Their syntax is removed and the text kept: asked to keep the brackets of
+# such a link the model sometimes drops them, and the answer would be rejected for nothing.
+def _drop_dead_links(text: str) -> tuple[str, int]:
+    cuts: list[tuple[int, int]] = []
+    opened: list[int] = []
+    skip_until = 0
+    for match in _BRACKET_TOKEN.finditer(text):
+        token = match.group(0)
+        if match.start() < skip_until:
+            continue
+        if token == "[":
+            opened.append(match.start())
+        elif token == "]" and opened:
+            open_at = opened.pop()
+            start = match.end()
+            end = _balanced_end(text, start) if text[start : start + 1] == "(" else None
+            is_image = text[max(open_at - 1, 0) : open_at] == "!" and open_at > 0
+            if end is not None and not is_image and _is_dead_target(text[start:end]):
+                cuts += [(open_at, open_at + 1), (match.start(), end)]
+                skip_until = end
+    pieces: list[str] = []
+    last = 0
+    for begin, finish in sorted(cuts):
+        pieces.append(text[last:begin])
+        last = finish
+    pieces.append(text[last:])
+    return "".join(pieces), len(cuts) // 2
+
+
 # Link targets never reach the model: given a placeholder it drops the link or its brackets, and
 # the answer is rejected. Each "(target)" that follows a closing bracket is cut out and remembered
 # by the index of that bracket, to be put back after the same bracket of the answer.
@@ -645,6 +683,7 @@ class OllamaTranslator:
         self.failures = 0
         self.largest_request = 0
         self.context_used_max = 0
+        self.dead_links_removed = 0
         self._answer: dict[str, object] = {}
 
     def plan(self, chunks: list[str]) -> None:
@@ -680,7 +719,9 @@ class OllamaTranslator:
         # A failure is remembered for this run only; a later run may succeed (other model, retries).
         if key in self._failed:
             return None
-        request, targets = _detach_link_targets(chunk)
+        stripped, dead = _drop_dead_links(chunk)
+        self.dead_links_removed += dead
+        request, targets = _detach_link_targets(stripped)
         expected = Counter(_PLACEHOLDER.findall(request))
         self._progress.begin()
         result = None
@@ -1272,7 +1313,8 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
         return 2
     LOGGER.info(
         "done requests=%s largest_request=%s chars cached=%s failures=%s withheld_files=%s "
-        "output_tokens=%s output_speed=%s output_throughput=%s context_used_max=%s/%s",
+        "output_tokens=%s output_speed=%s output_throughput=%s context_used_max=%s/%s "
+        "dead_links_removed=%s",
         translator.requests,
         translator.largest_request,
         translator.cache_hits,
@@ -1283,6 +1325,7 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
         f"{rate:.1f} tok/s" if (rate := progress.output_throughput) is not None else "n/a",
         translator.context_used_max,
         args.num_ctx,
+        translator.dead_links_removed,
     )
     return 1 if translator.failures or withheld else 0
 
