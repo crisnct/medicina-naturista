@@ -280,14 +280,20 @@ def translate_markdown(
     return "\n".join(out)
 
 
-# What is left of an image whose path was removed: !{width="0.11458333in" height="0.1in"}. It is
-# only noise, and a model asked to keep a placeholder for it drops it, so it is removed, together
-# with the blanks before it.
-_REMNANTS = re.compile(r"[ \t]*!\{[^{}\n]*\}")
+# Noise that only separates or decorates text copied from web pages and is not kept: HTML line
+# breaks, and what is left of an image whose path was removed: !{width="0.11in" height="0.1in"}.
+# A model asked to keep a placeholder for each of them drops all of them. A run of them, with the
+# blanks around it, becomes one space between words and nothing at the end of a line.
+_NOISE = re.compile(r"(?:[ \t]*(?:!\{[^{}\n]*\}|<br\s*/?>))+[ \t]*", re.IGNORECASE)
+
+
+def _drop_noise(match: re.Match[str]) -> str:
+    after = match.string[match.end() : match.end() + 1]
+    return "" if after in ("", "\n") else " "
 
 
 def _clean(text: str) -> str:
-    return _BREAKS.sub(" ", _REMNANTS.sub("", text)).strip()
+    return _NOISE.sub(_drop_noise, text).strip()
 
 
 # A closing bracket that is a bracket of the text, not one of a [[n]] placeholder.
@@ -307,10 +313,6 @@ def _balanced_end(text: str, start: int) -> int | None:
             return position + 1
     return None
 
-
-# HTML line breaks are not kept: in text copied from web pages they only separate sentences, and a
-# model asked to keep a placeholder for each of them drops all of them. A run becomes one space.
-_BREAKS = re.compile(r"(?:<br\s*/?>[ \t]*)+", re.IGNORECASE)
 
 _BRACKET_TOKEN = re.compile(r"\[\[\d+\]\]|\[|\]")
 
