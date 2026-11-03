@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-03T12:34:19.963Z",
-    "fileCount": 456,
+    "lastScanned": "2026-11-03T20:55:53.649Z",
+    "fileCount": 458,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "1f2363d21b7730b0c64712f924801463e9714d23c47480206e641d05a018f5f4",
-    "storeUpdatedAt": "2026-11-03T12:34:19.974Z",
-    "rootHash": "eeedfcb0e285186d"
+    "renderedHash": "de2ae3e85b4b0b451436b46ed3bc4716dd18b402e5fa3059c5ec7647cadccfde",
+    "storeUpdatedAt": "2026-11-03T20:55:53.661Z",
+    "rootHash": "7c8ad00afa48a20b"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -11502,6 +11502,236 @@
       "size": 19664,
       "mtimeMs": 1793709259664.984,
       "updatedAt": "2026-11-03T12:34:19.962Z",
+      "source": "hook"
+    },
+    "src/scripts/translate_markdown.py": {
+      "description": "from: translate_markdown, flush",
+      "tokens": 20390,
+      "hash": "a4b823e254c5f3f0",
+      "size": 71369,
+      "mtimeMs": 1793739022851.1836,
+      "updatedAt": "2026-11-03T20:50:23.158Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "TranslationRejected",
+          "kind": "class",
+          "startLine": 151,
+          "endLine": 160,
+          "tokens": 94
+        },
+        {
+          "name": "_Rejection",
+          "kind": "class",
+          "startLine": 161,
+          "endLine": 172,
+          "tokens": 73
+        },
+        {
+          "name": "OllamaError",
+          "kind": "class",
+          "startLine": 173,
+          "endLine": 177,
+          "tokens": 37
+        },
+        {
+          "name": "_Paragraph",
+          "kind": "class",
+          "startLine": 178,
+          "endLine": 186,
+          "tokens": 52
+        },
+        {
+          "name": "_one_line",
+          "kind": "fn",
+          "startLine": 187,
+          "endLine": 191,
+          "tokens": 46
+        },
+        {
+          "name": "_front_matter_end",
+          "kind": "fn",
+          "startLine": 192,
+          "endLine": 202,
+          "tokens": 90
+        },
+        {
+          "name": "_closes_fence",
+          "kind": "fn",
+          "startLine": 203,
+          "endLine": 207,
+          "tokens": 43
+        },
+        {
+          "name": "_translate_cell",
+          "kind": "fn",
+          "startLine": 208,
+          "endLine": 218,
+          "tokens": 122
+        },
+        {
+          "name": "_translate_row",
+          "kind": "fn",
+          "startLine": 219,
+          "endLine": 222,
+          "tokens": 45
+        },
+        {
+          "name": "_render",
+          "kind": "fn",
+          "startLine": 223,
+          "endLine": 230,
+          "tokens": 89
+        },
+        {
+          "name": "translate_markdown",
+          "kind": "fn",
+          "startLine": 231,
+          "endLine": 325,
+          "tokens": 947
+        },
+        {
+          "name": "_drop_noise",
+          "kind": "fn",
+          "startLine": 326,
+          "endLine": 336,
+          "tokens": 129
+        },
+        {
+          "name": "_drop_stray_brackets",
+          "kind": "fn",
+          "startLine": 337,
+          "endLine": 357,
+          "tokens": 204
+        },
+        {
+          "name": "_clean",
+          "kind": "fn",
+          "startLine": 358,
+          "endLine": 367,
+          "tokens": 120
+        },
+        {
+          "name": "_balanced_end",
+          "kind": "fn",
+          "startLine": 368,
+          "endLine": 382,
+          "tokens": 110
+        },
+        {
+          "name": "_is_dead_target",
+          "kind": "fn",
+          "startLine": 383,
+          "endLine": 390,
+          "tokens": 126
+        },
+        {
+          "name": "_drop_dead_links",
+          "kind": "fn",
+          "startLine": 391,
+          "endLine": 420,
+          "tokens": 373
+        },
+        {
+          "name": "_detach_link_targets",
+          "kind": "fn",
+          "startLine": 421,
+          "endLine": 439,
+          "tokens": 175
+        },
+        {
+          "name": "_count_brackets",
+          "kind": "fn",
+          "startLine": 440,
+          "endLine": 443,
+          "tokens": 35
+        },
+        {
+          "name": "_attach_link_targets",
+          "kind": "fn",
+          "startLine": 444,
+          "endLine": 462,
+          "tokens": 199
+        },
+        {
+          "name": "_split_spans",
+          "kind": "fn",
+          "startLine": 463,
+          "endLine": 497,
+          "tokens": 336
+        },
+        {
+          "name": "_mask",
+          "kind": "fn",
+          "startLine": 498,
+          "endLine": 507,
+          "tokens": 74
+        },
+        {
+          "name": "_unmask",
+          "kind": "fn",
+          "startLine": 508,
+          "endLine": 520,
+          "tokens": 124
+        },
+        {
+          "name": "_fit",
+          "kind": "fn",
+          "startLine": 521,
+          "endLine": 540,
+          "tokens": 227
+        },
+        {
+          "name": "_split",
+          "kind": "fn",
+          "startLine": 541,
+          "endLine": 554,
+          "tokens": 160
+        },
+        {
+          "name": "_error_text",
+          "kind": "fn",
+          "startLine": 555,
+          "endLine": 561,
+          "tokens": 62
+        },
+        {
+          "name": "_cache_key",
+          "kind": "fn",
+          "startLine": 562,
+          "endLine": 565,
+          "tokens": 38
+        },
+        {
+          "name": "_digest",
+          "kind": "fn",
+          "startLine": 566,
+          "endLine": 569,
+          "tokens": 23
+        },
+        {
+          "name": "format_duration",
+          "kind": "fn",
+          "startLine": 570,
+          "endLine": 575,
+          "tokens": 65
+        },
+        {
+          "name": "PersistentMap",
+          "kind": "class",
+          "startLine": 576,
+          "endLine": 1727,
+          "tokens": 13654
+        }
+      ]
+    },
+    "aiPlans/2026-11-03-integrare-vllm-translategemma.md": {
+      "description": "Plan: integrarea vLLM pentru `translate_markdown.py` (faza 1: `translategemma:4b`)",
+      "tokens": 5302,
+      "hash": "4a1e7d178f682469",
+      "size": 21935,
+      "mtimeMs": 1793739353305.79,
+      "updatedAt": "2026-11-03T20:55:53.649Z",
       "source": "hook"
     }
   },

@@ -8851,6 +8851,132 @@
       "last_seen": "2026-11-03T12:32:18.424Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "Had \"mm:ss; minutes are not wrapped, so 2 h 15 min rea",
+      "fix": "Changed to \"hh:mm:ss; hours are not wrapped, so 100 h reads 1",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-493",
+      "timestamp": "2026-11-03T20:41:26.609Z",
+      "last_seen": "2026-11-03T20:41:26.609Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "Had \"--:--\"",
+      "fix": "Changed to \"--:--:--\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-494",
+      "timestamp": "2026-11-03T20:41:31.981Z",
+      "last_seen": "2026-11-03T20:41:31.981Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of translate_markdown.py",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 41→60 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-495",
+      "timestamp": "2026-11-03T20:48:56.286Z",
+      "last_seen": "2026-11-03T20:48:56.286Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in __call__()",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-496",
+      "timestamp": "2026-11-03T20:49:08.437Z",
+      "last_seen": "2026-11-03T20:49:08.437Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: _line should be _state",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "Used \"_line\" instead of \"_state\"",
+      "fix": "Changed _line → _state",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-497",
+      "timestamp": "2026-11-03T20:49:30.947Z",
+      "last_seen": "2026-11-03T20:49:33.462Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of translate_markdown.py",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 9→12 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-498",
+      "timestamp": "2026-11-03T20:49:37.490Z",
+      "last_seen": "2026-11-03T20:49:37.490Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of translate_markdown.py",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 6→6 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-499",
+      "timestamp": "2026-11-03T20:50:07.677Z",
+      "last_seen": "2026-11-03T20:50:07.677Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -9375,7 +9501,15 @@
     "683dd90d-a50b-4a87-ae1a-be505d7d3a9f": true,
     "920cf1b2-8543-4428-84e1-cca46d1d02ca": true,
     "ba1de712-85e6-4359-bf9f-2c0a6789e143": true,
-    "875db002-a355-43fb-b9a1-00268221f033": true
+    "875db002-a355-43fb-b9a1-00268221f033": true,
+    "9856a385-9c62-4ed3-9d35-fde816ceeb57": true,
+    "914ad794-1136-4ba5-8f7f-b31813e11b17": true,
+    "ee73a9d3-001e-4322-9454-8257d4ab42be": true,
+    "9f33ed04-319d-4657-83f5-e87d06ee209c": true,
+    "67ec5e41-806c-43ab-b7f5-d2c318ccb788": true,
+    "128f2e87-7663-4508-b922-1c5c1df52349": true,
+    "7250269c-cdf6-4abd-a49e-53750963fa16": true,
+    "241ac989-0547-43e1-b5c5-09bb6897f79e": true
   },
-  "next_id": 493
+  "next_id": 500
 }

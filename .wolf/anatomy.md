@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-03T12:34:19.963Z
-> Files: 456 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-03T20:55:53.649Z
+> Files: 458 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -74,6 +74,7 @@
 - `2026-10-30-clean-documents-english.md` — English document cleanup (~224 tok)
 - `2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md` — Top produse pe afectiune: ordonare dupa formula L1/L2/L3 (~3395 tok)
 - `2026-11-02-eliminare-primary-din-secondary-conditions.md` — Eliminare afectiunilor primare din secondary_medical_conditions (script SQL la reindexare) (~4332 tok)
+- `2026-11-03-integrare-vllm-translategemma.md` — Plan: integrarea vLLM pentru `translate_markdown.py` (faza 1: `translategemma:4b`) (~5302 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
@@ -568,6 +569,7 @@
 - `restore_database.ps1` — Declares Invoke (~424 tok)
 - `set_gpu_clock.bat` (~827 tok)
 - `setup_gpu_clock.bat` (~593 tok)
+- `translate_markdown.py` — from: translate_markdown, flush (~20390 tok)
 
 ## src/tests/integration/
 
