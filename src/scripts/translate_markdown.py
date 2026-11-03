@@ -75,6 +75,8 @@ DEFAULT_NUM_CTX = 4096
 CONTEXT_RESERVE = 512
 # Shorter measurements of the generation speed are too noisy to show as an ETA.
 MIN_ETA_SECONDS = 2.0
+# A request that uses this share of the context window is logged: the next one may not fit.
+CONTEXT_WARNING_RATIO = 0.9
 # After Ctrl+C the worker gets this long to stop at a safe point before the process exits anyway.
 INTERRUPT_GRACE_SECONDS = 5.0
 # A request that makes Ollama load the model for longer than this is worth a warning.
@@ -554,6 +556,7 @@ class OllamaTranslator:
         self.cache_hits = 0
         self.failures = 0
         self.largest_request = 0
+        self.context_used_max = 0
         self._answer: dict[str, object] = {}
 
     def plan(self, chunks: list[str]) -> None:
@@ -713,6 +716,17 @@ class OllamaTranslator:
         }
         tokens = int(str(final.get("eval_count") or 0))
         seconds = float(str(final.get("eval_duration") or 0)) / 1e9
+        # Prompt and answer share the window. Ollama may leave out prompt tokens it reused from
+        # its cache, so this can undercount, never overcount.
+        used = int(str(final.get("prompt_eval_count") or 0)) + tokens
+        self.context_used_max = max(self.context_used_max, used)
+        if used >= self._num_ctx * CONTEXT_WARNING_RATIO:
+            LOGGER.warning(
+                "context nearly full: %s of %s tokens used by prompt and answer [%s]",
+                used,
+                self._num_ctx,
+                self._context(len(chunk)),
+            )
         if tokens > 0 and seconds > 0:
             self._progress.add_output(tokens, seconds)
             self._answer["tokens_per_s"] = round(tokens / seconds, 1)
@@ -1155,7 +1169,7 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
         return 2
     LOGGER.info(
         "done requests=%s largest_request=%s chars cached=%s failures=%s withheld_files=%s "
-        "output_tokens=%s output_speed=%s output_throughput=%s",
+        "output_tokens=%s output_speed=%s output_throughput=%s context_used_max=%s/%s",
         translator.requests,
         translator.largest_request,
         translator.cache_hits,
@@ -1164,6 +1178,8 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
         progress.output_tokens,
         f"{speed:.1f} tok/s" if (speed := progress.output_speed) is not None else "n/a",
         f"{rate:.1f} tok/s" if (rate := progress.output_throughput) is not None else "n/a",
+        translator.context_used_max,
+        args.num_ctx,
     )
     return 1 if translator.failures or withheld else 0
 
