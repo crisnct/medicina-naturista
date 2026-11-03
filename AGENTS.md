@@ -9,7 +9,7 @@ Read `.claude/README.md` for host-specific tools, shell syntax and skill entry p
 - Testing: `.claude/agents/app-tester.md` is a shared role; delegation is optional and must be authorized.
 - OpenWolf: `.claude/rules/openwolf.md` and `.claude/skills/openwolf/SKILL.md`. Hooks are automatic only where installed; use `rg` if its CLI is unavailable. Do not fabricate bookkeeping.
 - Handoff, design review, reframing and security audit: `.claude/commands/`; Codex adapters live in `.agents/skills/`. Read a workflow only when it applies.
-- Claude configuration in `.claude/settings.json` and `.claude/launch.json` is not Codex configuration. Enforce the no-commit policy and run Ruff even without hooks.
+- Claude configuration in `.claude/settings.json` and `.claude/launch.json` is not Codex configuration. Enforce the commit policy (see Commits) and run Ruff even without hooks.
 - Preserve current user restrictions: modify or run existing tests; do not add test files or test cases. Memory writes require authorization under the current session rules.
 
 ## What this is
@@ -187,7 +187,13 @@ baseline, and say plainly that synthetic rankings validate the metric mechanism,
 
 ## Commits
 
-You are not allowed to commit any files to git
+Agents may commit and push only on their own `claude/*` work branch, with plain `git commit`
+and `git push` (no force, delete, `--no-verify`, or pushes to another branch). On every other
+branch, `main` included, leave the changes in the working tree: the user reviews and commits.
+`merge`, `rebase`, `revert`, `cherry-pick` and `am` are the user's everywhere. Open a pull
+request only when asked. Never commit the personal corpus or caches that hold its text.
+`.claude/hooks/block-git-commit.js` enforces this in Claude Code; other assistants follow it
+without the hook.
 
 <!-- openwolf:begin -->
 # OpenWolf

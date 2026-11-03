@@ -12,7 +12,9 @@ guides and commands remain under `.claude/` and are exposed to Codex through
 
 Claude-enforced policies, in short (details in `AGENTS.md` and `.claude/hooks/README.md`):
 
-- Never commit or push; `.claude/hooks/block-git-commit.js` refuses it. The user commits.
+- Commit and push only on your own `claude/*` branch; `.claude/hooks/block-git-commit.js`
+  refuses it anywhere else, and always refuses merge, rebase, force pushes and `--no-verify`.
+  On any other branch the user commits. Open a pull request only when asked.
 - Ruff runs after every written `.py` file under `src/`; fix failures before continuing.
 - Existing tests may be modified and run; do not add test files or test cases.
 - Commands need `PYTHONPATH=src` and the project interpreter `.venv/Scripts/python.exe`.

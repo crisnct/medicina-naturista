@@ -68,7 +68,7 @@ Codex configuration. Codex registrations live separately in `.codex/hooks.json`,
 hooks enabled in `.codex/config.toml`. Both hosts use the repository-owned
 `hooks/openwolf-compat.js` adapter; see [hook setup](hooks/README.md#openwolf-compatibility)
 for verification and re-registration after an OpenWolf update.
-Other assistants follow the same no-commit policy and run Ruff explicitly; the hook
+Other assistants follow the same commit policy (`AGENTS.md`, Commits) and run Ruff explicitly; the hook
 scripts also accept manual CLI arguments documented in [hooks/README.md](hooks/README.md).
 
 OpenWolf bookkeeping is automatic only where hooks have actually been installed.
