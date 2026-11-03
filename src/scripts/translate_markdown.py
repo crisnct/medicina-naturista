@@ -414,6 +414,8 @@ class ProgressReporter:
         self._started: float | None = None
         self._generating_since: float | None = None
         self._inflight = 0.0
+        self.output_tokens = 0
+        self.output_seconds = 0.0
         self.total = 0
         self.done = 0
         self.file_index = 0
@@ -432,6 +434,16 @@ class ProgressReporter:
     # the segment already translated; advance() replaces the estimate with the exact figure.
     def set_inflight(self, chars: float) -> None:
         self._inflight = chars
+
+    # Ollama's own figures for the tokens it generated and the time that took, so the speed
+    # excludes model loading and prompt processing.
+    def add_output(self, tokens: int, seconds: float) -> None:
+        self.output_tokens += tokens
+        self.output_seconds += seconds
+
+    @property
+    def output_speed(self) -> float | None:
+        return self.output_tokens / self.output_seconds if self.output_seconds > 0 else None
 
     def advance(self, chars: int) -> None:
         self.done += chars
@@ -464,7 +476,7 @@ class ProgressReporter:
             eta = format_duration((total - done) / (done / (now - generating)))
         waiting = " (waiting for the model's first token)" if generating is None else ""
         LOGGER.info(
-            "progress file=%s/%s %.1f%% (%.0f/%s chars) elapsed=%s eta=%s%s",
+            "progress file=%s/%s %.1f%% (%.0f/%s chars) elapsed=%s eta=%s speed=%s%s",
             self.file_index,
             self.file_count,
             100.0 * done / total if total else 100.0,
@@ -472,6 +484,7 @@ class ProgressReporter:
             total,
             format_duration(elapsed),
             eta,
+            f"{speed:.1f} tok/s" if (speed := self.output_speed) is not None else "-- tok/s",
             waiting,
         )
 
@@ -687,6 +700,11 @@ class OllamaTranslator:
             "prompt_tokens": final.get("prompt_eval_count"),
             "output_tokens": final.get("eval_count"),
         }
+        tokens = int(str(final.get("eval_count") or 0))
+        seconds = float(str(final.get("eval_duration") or 0)) / 1e9
+        if tokens > 0 and seconds > 0:
+            self._progress.add_output(tokens, seconds)
+            self._answer["tokens_per_s"] = round(tokens / seconds, 1)
         if truncated:
             self._answer["why"] = f"truncated(done_reason={final.get('done_reason')})"
             return None
@@ -1125,12 +1143,15 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
         LOGGER.error("%s", exc)
         return 2
     LOGGER.info(
-        "done requests=%s largest_request=%s chars cached=%s failures=%s withheld_files=%s",
+        "done requests=%s largest_request=%s chars cached=%s failures=%s withheld_files=%s "
+        "output_tokens=%s output_speed=%s",
         translator.requests,
         translator.largest_request,
         translator.cache_hits,
         translator.failures,
         withheld,
+        progress.output_tokens,
+        f"{speed:.1f} tok/s" if (speed := progress.output_speed) is not None else "n/a",
     )
     return 1 if translator.failures or withheld else 0
 
