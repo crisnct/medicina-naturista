@@ -96,6 +96,8 @@ _PROTECTED = re.compile(
             r"</?[A-Za-z][^<>\n]*>",
             r"(?<=\]\()[^)\n]*(?=\))",
             r"https?://[^\s)\]>]+",
+            # Pandoc attributes, e.g. what is left of an image: !{width="0.11458333in" height="0.1in"}.
+            r"!?\{[^{}\n]*\}",
         )
     )
 )
