@@ -85,9 +85,13 @@ CONTEXT_WARNING_RATIO = 0.9
 # A rejected chunk is translated again in smaller pieces; below this size it is refused for good.
 MIN_PIECE_CHARS = 40
 # The answer must keep at least this share of the source length, and not exceed this multiple.
+# A short text varies more in length when translated (Lacramioarele is 13 characters, "Lily of the
+# valley" 20, "Tears" 5), so below STRICT_RATIO_CHARS the floor is lower.
 MIN_OUTPUT_RATIO = 0.4
+MIN_SHORT_OUTPUT_RATIO = 0.25
 MAX_OUTPUT_RATIO = 4
 RATIO_MIN_CHARS = 12
+STRICT_RATIO_CHARS = 40
 # After Ctrl+C the worker gets this long to stop at a safe point before the process exits anyway.
 INTERRUPT_GRACE_SECONDS = 5.0
 # A request that makes Ollama load the model for longer than this is worth a warning.
@@ -986,7 +990,10 @@ class OllamaTranslator:
         # word is too short to judge by length.
         if len(source) >= RATIO_MIN_CHARS:
             ratio = len(output) / len(source)
-            if ratio < MIN_OUTPUT_RATIO:
+            floor = (
+                MIN_OUTPUT_RATIO if len(source) >= STRICT_RATIO_CHARS else MIN_SHORT_OUTPUT_RATIO
+            )
+            if ratio < floor:
                 return f"too_short(ratio={ratio:.2f})"
             if ratio > MAX_OUTPUT_RATIO:
                 return f"too_long(ratio={ratio:.2f})"
