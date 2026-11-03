@@ -751,7 +751,9 @@ class OllamaTranslator:
                 reason,
                 self._num_ctx,
                 " ".join(
-                    f"{name}={value}" for name, value in self._answer.items() if name != "why"
+                    f"{name}={value}"
+                    for name, value in self._answer.items()
+                    if name not in ("why", "partial", "tail")
                 ),
             )
             if self._log_answers:
@@ -765,6 +767,13 @@ class OllamaTranslator:
                     )
                 if output is not None:
                     LOGGER.warning("rejected answer line=%s: %r", self._line, output[:200])
+                elif "partial" in self._answer:
+                    LOGGER.warning(
+                        "rejected answer (cut off) line=%s: %r ... ends with %r",
+                        self._line,
+                        str(self._answer["partial"])[:200],
+                        self._answer["tail"],
+                    )
             if self._stop_on_rejection:
                 # At temperature 0 a retry repeats the same request and gets the same answer.
                 raise TranslationRejected(self._line, str(reason))
@@ -835,7 +844,7 @@ class OllamaTranslator:
                         f"Ollama answered HTTP {response.status_code}: {_error_text(response)} "
                         f"[{self._context(len(chunk))}]"
                     )
-                content, truncated, final = self._read_stream(response, len(chunk), track=track)
+                raw, truncated, final = self._read_stream(response, len(chunk), track=track)
         except httpx.TimeoutException as exc:
             self._answer = {"why": f"timeout({type(exc).__name__}, limit={self._timeout}s)"}
             return None
@@ -853,8 +862,11 @@ class OllamaTranslator:
                 loaded,
                 self._context(len(chunk)),
             )
+        content = raw.strip()
         self._answer = {
             "output_chars": len(content),
+            # Much more than output_chars means the answer is padded with blanks or line breaks.
+            "raw_chars": len(raw),
             "done_reason": final.get("done_reason"),
             "prompt_tokens": final.get("prompt_eval_count"),
             "output_tokens": final.get("eval_count"),
@@ -877,6 +889,9 @@ class OllamaTranslator:
             self._answer["tokens_per_s"] = round(tokens / seconds, 1)
         if truncated:
             self._answer["why"] = f"truncated(done_reason={final.get('done_reason')})"
+            # The cut-off answer is not returned, but a rejection must be able to show it.
+            self._answer["partial"] = content
+            self._answer["tail"] = raw[-60:]
             return None
         wrapped = _WRAPPING_FENCE.match(content)
         return wrapped.group(1).strip() if wrapped and "```" not in chunk else content
@@ -915,7 +930,7 @@ class OllamaTranslator:
                 f"Unexpected response format from Ollama ({type(exc).__name__}: {exc}) "
                 f"[{self._context(source_chars)}]"
             ) from exc
-        return "".join(parts).strip(), truncated, final
+        return "".join(parts), truncated, final
 
 
 @log_call
