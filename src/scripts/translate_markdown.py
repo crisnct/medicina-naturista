@@ -131,6 +131,7 @@ class _Paragraph:
     first: str
     rest: str
     lines: list[str]
+    line: int = 0
 
 
 # Collapses model line breaks where Markdown requires a single physical line.
@@ -178,7 +179,11 @@ def _render(paragraph: _Paragraph, translate: Callable[[str], str]) -> list[str]
 
 
 @log_call
-def translate_markdown(text: str, translate: Callable[[str], str]) -> str:
+def translate_markdown(
+    text: str,
+    translate: Callable[[str], str],
+    locate: Callable[[int | None], None] | None = None,
+) -> str:
     """Translate the prose of `text`; structural lines pass through unchanged."""
     lines = text.split("\n")
     start = _front_matter_end(lines)
@@ -190,10 +195,12 @@ def translate_markdown(text: str, translate: Callable[[str], str]) -> str:
     def flush() -> None:
         nonlocal paragraph
         if paragraph is not None:
+            if locate:
+                locate(paragraph.line)
             out.extend(_render(paragraph, translate))
             paragraph = None
 
-    for line in lines[start:]:
+    for number, line in enumerate(lines[start:], start=start + 1):
         if fence is not None:
             out.append(line)
             if _closes_fence(line, fence):
@@ -224,17 +231,23 @@ def translate_markdown(text: str, translate: Callable[[str], str]) -> str:
             continue
         if _TABLE_ROW.match(line):
             flush()
+            if locate:
+                locate(number)
             out.append(_translate_row(line, translate))
             continue
         heading = _HEADING.match(line)
         if heading:
             flush()
+            if locate:
+                locate(number)
             out.append(heading.group(1) + _one_line(translate(heading.group(2))))
             continue
         item = _LIST_ITEM.match(line)
         if item:
             flush()
-            paragraph = _Paragraph("list", item.group(1), " " * len(item.group(1)), [item.group(2)])
+            paragraph = _Paragraph(
+                "list", item.group(1), " " * len(item.group(1)), [item.group(2)], number
+            )
             continue
         quote = _QUOTE.match(line)
         if quote:
@@ -243,13 +256,13 @@ def translate_markdown(text: str, translate: Callable[[str], str]) -> str:
                 paragraph.lines.append(body)
             else:
                 flush()
-                paragraph = _Paragraph("quote", prefix, prefix, [body])
+                paragraph = _Paragraph("quote", prefix, prefix, [body], number)
             continue
         if paragraph is not None:
             paragraph.lines.append(line.strip())
         else:
             indent = line[: len(line) - len(line.lstrip())]
-            paragraph = _Paragraph("plain", indent, indent, [line.strip()])
+            paragraph = _Paragraph("plain", indent, indent, [line.strip()], number)
     flush()
     return "\n".join(out)
 
@@ -494,6 +507,7 @@ class OllamaTranslator:
         retries: int,
         num_ctx: int,
         timeout: float,
+        log_answers: bool = False,
     ) -> None:
         self._client = client
         self._model = model
@@ -506,6 +520,8 @@ class OllamaTranslator:
         self._retries = retries
         self._num_ctx = num_ctx
         self._timeout = timeout
+        self._log_answers = log_answers
+        self._line: int | None = None
         self.requests = 0
         self.cache_hits = 0
         self.failures = 0
@@ -561,7 +577,9 @@ class OllamaTranslator:
                 break
             # Counts and the model's own statistics only: the corpus text must not reach the logs.
             LOGGER.warning(
-                "translation rejected attempt=%s/%s source_chars=%s reason=%s num_ctx=%s %s",
+                "translation rejected line=%s attempt=%s/%s source_chars=%s reason=%s "
+                "num_ctx=%s %s",
+                self._line,
                 attempt,
                 self._retries + 1,
                 len(chunk),
@@ -571,6 +589,9 @@ class OllamaTranslator:
                     f"{name}={value}" for name, value in self._answer.items() if name != "why"
                 ),
             )
+            if self._log_answers and output is not None:
+                # Opt-in: the model's own answer is derived from the corpus text.
+                LOGGER.warning("rejected answer line=%s: %r", self._line, output[:200])
         else:
             self._failed.add(key)
         # A failed chunk still consumed its time, so it counts as done for the ETA.
@@ -601,6 +622,10 @@ class OllamaTranslator:
     def _check_cancelled(self) -> None:
         if self._cancel.is_set():
             raise KeyboardInterrupt
+
+    # The source line of the unit being translated, so a rejection can be found in the file.
+    def set_line(self, line: int | None) -> None:
+        self._line = line
 
     # What the failed request looked like, to tell a size problem from a server problem.
     def _context(self, segment_chars: int) -> str:
@@ -771,7 +796,10 @@ def translate_file(
     published bytes, or None when failed segments withheld publication.
     """
     before = translator.failures
-    translated = translate_markdown(source.read_text(encoding="utf-8-sig"), translator)
+    translated = translate_markdown(
+        source.read_text(encoding="utf-8-sig"), translator, translator.set_line
+    )
+    translator.set_line(None)
     failed = translator.failures - before
     if failed:
         LOGGER.warning("%s segment(s) could not be translated in %s", failed, source)
@@ -982,6 +1010,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=DEFAULT_NUM_CTX,
         help="model context size in tokens (default: %(default)s)",
     )
+    parser.add_argument(
+        "--log-rejected-answers",
+        action="store_true",
+        help="also log the first 200 characters of each rejected answer (derived from the text)",
+    )
     parser.add_argument("--debug", action="store_true", help="trace function entry and parameters")
     args = parser.parse_args(argv)
     if args.retries < 0:
@@ -1035,6 +1068,7 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
                     retries=args.retries,
                     num_ctx=args.num_ctx,
                     timeout=args.timeout,
+                    log_answers=args.log_rejected_answers,
                     cancel=cancel,
                 )
                 todo: set[Path] = set()
