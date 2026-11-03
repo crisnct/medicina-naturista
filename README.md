@@ -1426,6 +1426,8 @@ Only prose is sent to the model, under the system prompt “You are a profession
 
 **HTML line breaks.** Every `<br>`, `<br/>` or `<br />` is replaced by a single space (a run of them too), in the file as well: in text copied from web pages they only separate sentences, and a model asked to keep a placeholder for each of them dropped all of them, which got long paragraphs with 17 breaks rejected. Other HTML tags are still protected as placeholders.
 
+**Degrees.** A degree written as a Pandoc superscript after a figure (`96^o^`, `20^o^C`) is replaced by the real sign (`96°`, `20°C`), in the file as well: protected as a formula in the middle of a sentence it was dropped by the model together with its unit.
+
 **Stray brackets.** A `[` or `]` without its partner, left where a link or a span was cut by a paragraph break, is removed from the text: it carries nothing, and a model drops it, which broke the bracket count that link targets are put back by. Escaped brackets (`\[`, `\]`) are literal text and stay.
 
 **Flattened table rows.** A table row dumped into one line keeps its cells apart with escaped tildes glued to the text before them (`branza de burduf\~1400\~180\~920`, or two cells: `Cancer uterin\~Patrunjel, Napraznic`). Given the whole row the model translated the first cell and dropped the rest (the numbers, the list of herbs), which the length check rightly rejected. The row is therefore cut at every such `\~`, only the cells that contain letters are translated, and the row is joined again with the same separators. A tilde after a blank (`aproximativ \~5 grame`) is ordinary text and cuts nothing.

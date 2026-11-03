@@ -318,8 +318,13 @@ def _drop_stray_brackets(text: str) -> str:
     return "".join(char for position, char in enumerate(text) if position not in stray)
 
 
+# A degree written as a Pandoc superscript, 96^o^ or 20^o^C, is plain text with the real sign. As a
+# protected span in the middle of a sentence it was dropped by the model, with the figure's unit.
+_DEGREE = re.compile(r"(?<=\d)\^[oº°]\^")
+
+
 def _clean(text: str) -> str:
-    return _drop_stray_brackets(_NOISE.sub(_drop_noise, text)).strip()
+    return _drop_stray_brackets(_DEGREE.sub("°", _NOISE.sub(_drop_noise, text))).strip()
 
 
 # A closing bracket that is a bracket of the text, not one of a [[n]] placeholder.
