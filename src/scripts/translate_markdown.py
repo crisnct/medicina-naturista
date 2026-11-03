@@ -13,9 +13,9 @@ translated: the translation is staged in a temporary file next to the original, 
 atomic replacement then consumes. This destroys the Romanian text, so work on a copy; the
 Romanian corpus under documents/ro is refused. With --output the sources are kept.
 
-Files are handled one at a time: translate, replace, then rename the file to its English
-name. A folder that directly contains Markdown files is renamed as soon as nothing below it
-is still queued (--keep-names skips all renaming); names an earlier run produced are kept.
+Files are handled one at a time: translate and replace; file names are kept. A folder that
+directly contains Markdown files is renamed to its English name as soon as nothing below it
+is still queued (--keep-names skips that); names an earlier run produced are kept.
 
 A file with a segment the model cannot translate reliably is not written (the original stays
 intact) unless --allow-partial is given, and the exit code is 1, so an incomplete result is
@@ -827,55 +827,41 @@ def _name_key(name: str) -> str:
     return "name:" + _digest(name.encode())
 
 
-# The .pdf marker stays: extract_pdf_markdown.py names its output <book>.pdf.md.
-def _split_name(name: str, *, is_file: bool) -> tuple[str, str]:
-    if not is_file:
-        return name, ""
-    stem, suffix = (name[:-3], name[-3:]) if name.lower().endswith(".md") else (name, "")
-    if stem.lower().endswith(".pdf"):
-        return stem[:-4], stem[-4:] + suffix
-    return stem, suffix
-
-
 @log_call
-def english_name(
-    name: str, translator: Callable[[str], str], done: PersistentMap, *, is_file: bool
-) -> str:
-    """English form of a file or folder name; `name` itself when it needs or allows no change."""
+def english_name(name: str, translator: Callable[[str], str], done: PersistentMap) -> str:
+    """English form of a folder name; `name` itself when it needs or allows no change."""
     # A name an earlier run produced is already English; translating it again could drift.
     if done.get(_name_key(name)) is not None:
         return name
-    stem, tail = _split_name(name, is_file=is_file)
-    translated = " ".join(_UNSAFE_NAME.sub(" ", translator(stem)).split()).strip(" .")
+    translated = " ".join(_UNSAFE_NAME.sub(" ", translator(name)).split()).strip(" .")
     # Case-only changes are ignored: on case-insensitive disks they are the same entry.
     if (
         not translated
         or len(translated) > MAX_NAME_CHARS
-        or translated.casefold() == stem.casefold()
+        or translated.casefold() == name.casefold()
     ):
         return name
-    return translated + tail
+    return translated
 
 
 @log_call
 def rename_to_english(
-    path: Path, translator: Callable[[str], str], done: PersistentMap, *, is_file: bool
+    directory: Path, translator: Callable[[str], str], done: PersistentMap
 ) -> Path:
-    """Rename one file or folder to its English name; returns the path it has afterwards.
+    """Rename one folder to its English name; returns the path it has afterwards.
 
-    Idempotent, so a run stopped right after publishing a file finishes the rename on the next
-    start. A name that is already taken is kept rather than overwritten.
+    Idempotent, so a run stopped before the rename finishes it on the next start. A name that
+    is already taken is kept rather than overwritten.
     """
-    candidate = path.with_name(english_name(path.name, translator, done, is_file=is_file))
-    if candidate == path:
-        return path
-    kind = "file" if is_file else "folder"
+    candidate = directory.with_name(english_name(directory.name, translator, done))
+    if candidate == directory:
+        return directory
     if candidate.exists():
-        LOGGER.warning("%s %s already exists; %s keeps its name", kind, candidate, path)
-        return path
-    path.rename(candidate)
+        LOGGER.warning("folder %s already exists; %s keeps its name", candidate, directory)
+        return directory
+    directory.rename(candidate)
     done.put(_name_key(candidate.name), "")
-    LOGGER.info("renamed %s: %s -> %s", kind, path.name, candidate.name)
+    LOGGER.info("renamed folder: %s -> %s", directory.name, candidate.name)
     return candidate
 
 
@@ -920,11 +906,9 @@ class FolderRenamer:
 def plan_names(
     translator: OllamaTranslator, done: PersistentMap, sources: list[Path], max_chars: int
 ) -> None:
-    names = {(source.name, True) for source in sources}
-    names |= {(source.parent.name, False) for source in sources}
-    for name, is_file in sorted(names):
+    for name in sorted({source.parent.name for source in sources}):
         if done.get(_name_key(name)) is None:
-            translator.plan(chunks_of(_split_name(name, is_file=is_file)[0], max_chars))
+            translator.plan(chunks_of(name, max_chars))
 
 
 def _host(value: str) -> str:
@@ -966,7 +950,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--keep-names",
         action="store_true",
-        help="do not translate file and folder names (in-place mode only)",
+        help="do not translate folder names (in-place mode only)",
     )
     parser.add_argument(
         "--allow-partial",
@@ -1127,10 +1111,8 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
                     else:
                         LOGGER.info("[%s/%s] skip, already done: %s", index, len(jobs), target)
                     if rename:
-                        if not blocked:
-                            rename_to_english(source, translator, done, is_file=True)
                         for directory in renamer.settle(source, withheld=blocked):
-                            rename_to_english(directory, translator, done, is_file=False)
+                            rename_to_english(directory, translator, done)
                 # The last renames can fall after the final beat, and the planned names of a
                 # withheld file are never needed: close with the figure of the work really done.
                 if progress.total:
