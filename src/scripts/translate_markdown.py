@@ -75,6 +75,8 @@ DEFAULT_NUM_CTX = 4096
 CONTEXT_RESERVE = 512
 # Shorter measurements of the generation speed are too noisy to show as an ETA.
 MIN_ETA_SECONDS = 2.0
+# After Ctrl+C the worker gets this long to stop at a safe point before the process exits anyway.
+INTERRUPT_GRACE_SECONDS = 5.0
 MAX_NAME_CHARS = 120
 # Staging files live next to their destination; this prefix also identifies stale ones.
 TEMP_PREFIX = ".translate-"
@@ -476,6 +478,7 @@ class OllamaTranslator:
         *,
         cache: PersistentMap,
         progress: ProgressReporter,
+        cancel: threading.Event,
         max_chars: int,
         retries: int,
         num_ctx: int,
@@ -484,6 +487,7 @@ class OllamaTranslator:
         self._model = model
         self._cache = cache
         self._progress = progress
+        self._cancel = cancel
         self._planned: set[str] = set()
         self._failed: set[str] = set()
         self._max_chars = max_chars
@@ -530,6 +534,7 @@ class OllamaTranslator:
         self._progress.begin()
         result = None
         for attempt in range(1, self._retries + 2):
+            self._check_cancelled()
             output = self._chat(chunk, track=key in self._planned)
             if output is not None and self._acceptable(chunk, output, expected):
                 self._cache.put(key, output)
@@ -557,6 +562,12 @@ class OllamaTranslator:
             return False
         # Catches refusals, runaway repetition and answers that drop most of the text.
         return len(source) < 40 or 0.25 <= len(output) / len(source) <= 4
+
+    # Cancellation is checked only here and between streamed pieces, never while a file is
+    # being published, so Ctrl+C cannot leave a half-written file behind.
+    def _check_cancelled(self) -> None:
+        if self._cancel.is_set():
+            raise KeyboardInterrupt
 
     def _chat(self, chunk: str, *, track: bool) -> str | None:
         options = {
@@ -603,6 +614,7 @@ class OllamaTranslator:
         truncated = False
         try:
             for line in response.iter_lines():
+                self._check_cancelled()
                 if not line:
                     continue
                 data = json.loads(line)
@@ -923,13 +935,7 @@ def _already_done(
     return target.exists() and not overwrite
 
 
-def main(argv: list[str] | None = None) -> int:
-    args = parse_args(argv)
-    logging.basicConfig(
-        level=logging.DEBUG if args.debug else logging.INFO,
-        format="%(asctime)s %(levelname)s %(message)s",
-    )
-    logging.getLogger("httpx").setLevel(logging.WARNING)
+def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
     in_place = args.output is None
     withheld = 0
     try:
@@ -961,6 +967,7 @@ def main(argv: list[str] | None = None) -> int:
                     max_chars=args.max_chars,
                     retries=args.retries,
                     num_ctx=args.num_ctx,
+                    cancel=cancel,
                 )
                 todo: set[Path] = set()
                 for source, target in jobs:
@@ -1036,6 +1043,51 @@ def main(argv: list[str] | None = None) -> int:
         withheld,
     )
     return 1 if translator.failures or withheld else 0
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = parse_args(argv)
+    logging.basicConfig(
+        level=logging.DEBUG if args.debug else logging.INFO,
+        format="%(asctime)s %(levelname)s %(message)s",
+    )
+    logging.getLogger("httpx").setLevel(logging.WARNING)
+    cancel = threading.Event()
+    outcome: list[int] = []
+    failure: list[BaseException] = []
+
+    def work() -> None:
+        try:
+            outcome.append(_run(args, cancel))
+        except BaseException as exc:
+            failure.append(exc)
+
+    # The work runs in a thread because on Windows a blocking network read cannot be
+    # interrupted by Ctrl+C; the main thread only sleeps in short steps, which can.
+    worker = threading.Thread(target=work, name="translate", daemon=True)
+    worker.start()
+    try:
+        while worker.is_alive():
+            worker.join(0.2)
+    except KeyboardInterrupt:
+        LOGGER.warning(
+            "Ctrl+C: stopping at the next safe point (at most %.0f s; press again to exit now)",
+            INTERRUPT_GRACE_SECONDS,
+        )
+        cancel.set()
+        try:
+            worker.join(INTERRUPT_GRACE_SECONDS)
+        except KeyboardInterrupt:
+            pass
+        if worker.is_alive():
+            # Stuck in a read with no data (model loading); finished files and cached segments
+            # are already on disk, and a stale staging file is removed at the next start.
+            LOGGER.error("Stopped without waiting for Ollama; the segment in flight is lost.")
+            logging.shutdown()
+            os._exit(130)
+    if failure:
+        raise failure[0]
+    return outcome[0]
 
 
 if __name__ == "__main__":
