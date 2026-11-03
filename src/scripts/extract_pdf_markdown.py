@@ -1,10 +1,13 @@
 r"""Extract PDF text with PyMuPDF to Markdown with adaptive layout and headings.
 
-Each page is straightened before text extraction or PyMuPDF's in-memory OCR.
-OCR uses the integrated Tesseract engine and language data, without its executable.
+Each page is straightened before extraction. A scanned page keeps its embedded text layer
+only when independent checks against the page image pass (pdf_layer_check); otherwise a
+local vision model transcribes it (pdf_vision), and Tesseract is the last resort.
+Tesseract runs in memory through PyMuPDF, without its executable.
 The source PDF is unchanged; corrected pages are prepared individually in memory.
-The source wording is preserved. Heading reconstruction is heuristic, especially
-for OCR layers that do not encode bold fonts or document semantics.
+The source wording is preserved, but the output never contains diacritics. Heading
+reconstruction is heuristic, especially for OCR layers that do not encode bold fonts or
+document semantics, and the vision model chooses its own heading levels.
 
 Apel pentru un PDF:
     python src/scripts/extract_pdf_markdown.py "C:\GoogleDrive\Medicina\Books\Antivirale din plante.pdf"
@@ -14,6 +17,9 @@ Implicit, pentru carte.pdf creează folderul și salvează fișierul în:
 Calea este independentă de directorul de lansare. Îndreaptă separat fiecare pagină.
 Opțiuni: -o "C:/Documente/carte.md" pentru altă destinație;
          --report "C:/Documente/carte.json" pentru raportul pe pagini;
+         --ocr vision|auto|always|never (implicit vision: modelul cu viziune pe toate paginile;
+           auto: text din PDF verificat, altfel modelul; always: doar Tesseract; never: doar textul din PDF);
+         --vision-model qwen3.5:9b pentru alt model Ollama cu viziune;
          --tessdata "C:/Program Files/Tesseract-OCR/tessdata" pentru datele OCR;
          --deskew off pentru dezactivarea îndreptării;
          --debug pentru logarea intrării în funcții și a parametrilor (parole mascate).
@@ -33,8 +39,10 @@ import tempfile
 import time
 import unicodedata
 from bisect import bisect_right
-from collections import Counter
-from contextlib import ExitStack
+from collections import Counter, deque
+from collections.abc import Iterator
+from concurrent.futures import Future, ThreadPoolExecutor
+from contextlib import ExitStack, contextmanager
 from dataclasses import dataclass, field, fields, replace
 from functools import lru_cache
 from itertools import zip_longest
@@ -46,11 +54,33 @@ import numpy as np
 import pymupdf
 
 if __package__:
+    from .pdf_chapters import find_structure
     from .pdf_deskew import deskew_page, estimate_page_skew, estimate_skew
+    from .pdf_headings import (
+        apply_ranks,
+        heading_entries,
+        measure_headings,
+        numbered_book,
+        ranks,
+        section_size,
+    )
+    from .pdf_layer_check import layer_problems
+    from .pdf_vision import DEFAULT_MODEL, VisionSession
     from .script_files import _commit_outputs, _remove_temp, _temporary_path
     from .script_logging import log_call
 else:
+    from pdf_chapters import find_structure
     from pdf_deskew import deskew_page, estimate_page_skew, estimate_skew
+    from pdf_headings import (
+        apply_ranks,
+        heading_entries,
+        measure_headings,
+        numbered_book,
+        ranks,
+        section_size,
+    )
+    from pdf_layer_check import layer_problems
+    from pdf_vision import DEFAULT_MODEL, VisionSession
     from script_files import _commit_outputs, _remove_temp, _temporary_path
     from script_logging import log_call
 
@@ -74,6 +104,9 @@ class Options:
     start_page: int = 1
     end_page: int | None = None
     tessdata: str | None = None
+    vision_model: str = DEFAULT_MODEL
+    # Pages sent to the vision model at the same time; Ollama must allow as many parallel slots.
+    workers: int = 1
     password: str | None = field(default=None, repr=False)
 
     @log_call
@@ -82,8 +115,11 @@ class Options:
             "auto",
             "always",
             "never",
+            "vision",
         }:
             raise ValueError("Mod invalid pentru coloane sau OCR.")
+        if not isinstance(self.workers, int) or not 1 <= self.workers <= 8:
+            raise ValueError("--workers trebuie să fie un număr întreg între 1 și 8.")
         if not math.isfinite(self.max_skew) or not 0 <= self.max_skew <= 30:
             raise ValueError("--max-skew trebuie să fie un număr finit între 0 și 30.")
         if not isinstance(self.dpi, int) or not 72 <= self.dpi <= 600:
@@ -180,6 +216,15 @@ TOC = re.compile(r"(?:\.{3,}|(?:\.\s){3,}|…{2,})\s*\d+\s*$")
 def _canonical(text: str) -> str:
     text = unicodedata.normalize("NFKD", text.upper())
     return " ".join("".join(c for c in text if not unicodedata.combining(c)).split())
+
+
+# The corpus is stored without diacritics, so retrieval never depends on how a source spells them.
+@log_call
+def _strip_diacritics(text: str) -> str:
+    stripped = "".join(
+        c for c in unicodedata.normalize("NFD", text) if not unicodedata.combining(c)
+    )
+    return unicodedata.normalize("NFC", stripped)
 
 
 @lru_cache(maxsize=8192)
@@ -401,8 +446,8 @@ def _column_cuts(lines: list[Line], mode: str) -> list[float]:
     cuts = [best]
     # Detect a possible third column on either side of the strongest gutter.
     for subset in (
-            [line_item for line_item in lines if line_item.x1 < best],
-            [line_item for line_item in lines if line_item.x0 > best],
+        [line_item for line_item in lines if line_item.x1 < best],
+        [line_item for line_item in lines if line_item.x0 > best],
     ):
         extra = (
             _column_cuts(subset, "auto") if len(subset) < len(lines) and len(subset) >= 12 else []
@@ -561,11 +606,28 @@ def _is_scanned_page(page: pymupdf.Page, min_coverage: float = 0.85) -> bool:
     return False
 
 
-@log_call
-def _page_glyphs(
-    page: pymupdf.Page, page_index: int, options: Options
-) -> tuple[list[Glyph], float, str]:
-    """Prepare this page independently, then read its text or run OCR exactly once."""
+@dataclass(frozen=True, slots=True)
+class PageText:
+    glyphs: list[Glyph]
+    angle: float
+    method: str
+    # A vision transcription has no geometry to rebuild, so it bypasses the layout rendering.
+    markdown: str | None = None
+    # Why the embedded text layer of a scanned page was not used.
+    reasons: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True, slots=True)
+class VisionJob:
+    # The rendered page waits for a worker thread; PyMuPDF itself never leaves the main thread.
+    image: bytes
+    angle: float
+    reasons: tuple[str, ...]
+
+
+# The page is straightened in a private copy, so the source PDF is never modified.
+@contextmanager
+def _straightened(page: pymupdf.Page, options: Options) -> Iterator[tuple[pymupdf.Page, float]]:
     angle = 0.0
     with ExitStack() as resources:
         if options.deskew:
@@ -574,19 +636,44 @@ def _page_glyphs(
                 corrected = resources.enter_context(pymupdf.open())
                 corrected.insert_pdf(page.parent, from_page=page.number, to_page=page.number)
                 page = deskew_page(corrected[0], angle)
+        yield page, angle
 
-        # Use OCR on full-page scans even if they contain a broken text layer.
+
+@log_call
+def _ocr_page(page: pymupdf.Page, options: Options, reasons: tuple[str, ...] = ()) -> PageText:
+    with _straightened(page, options) as (straight, angle):
+        glyphs, _ = _ocr_glyphs(straight, replace(options, deskew=False))
+    return PageText(glyphs, angle, "ocr", None, reasons)
+
+
+@log_call
+def _prepare_page(
+    page: pymupdf.Page, options: Options, vision: VisionSession
+) -> PageText | VisionJob:
+    """Prepare this page independently, then take its checked text layer, hand it to the vision
+    model, or run Tesseract OCR, in that order of preference."""
+    if options.ocr == "always":
+        return _ocr_page(page, options)
+    with _straightened(page, options) as (straight, angle):
         prepared_options = replace(options, deskew=False)
-        glyphs, _ = _text_glyphs(page, prepared_options) if options.ocr != "always" else ([], 0.0)
-        scanned = _is_scanned_page(page) if options.ocr == "auto" else False
-        needs_ocr = options.ocr == "always" or (
-            options.ocr == "auto" and (not glyphs or scanned)
-        )
-        method = "text"
-        if needs_ocr:
-            glyphs, _ = _ocr_glyphs(page, prepared_options)
-            method = "ocr"
-    return glyphs, angle, method
+        glyphs: list[Glyph] = []
+        if options.ocr in {"auto", "never"}:
+            glyphs, _ = _text_glyphs(straight, prepared_options)
+        reasons: list[str] = []
+        if options.ocr == "auto":
+            # The layer of a scanned page is old OCR output, so it is trusted only after
+            # checks against the page image; a born-digital page needs no check.
+            if not glyphs:
+                reasons = ["no text layer"]
+            elif _is_scanned_page(straight):
+                reasons = layer_problems(straight, options.lang.split("+")[0])
+        if options.ocr == "vision" or reasons:
+            if vision.available():
+                return VisionJob(vision.render(straight), angle, tuple(reasons))
+            reasons.append("vision unavailable")
+        if not reasons and options.ocr != "vision":
+            return PageText(glyphs, angle, "text")
+    return _ocr_page(page, options, tuple(reasons))
 
 
 @log_call
@@ -713,8 +800,8 @@ def _render_page(lines: list[Line], profile: Profile) -> tuple[str, int]:
             and not paragraph
             and previous is not None
             and (
-            previous.text.endswith((",", "-", "("))
-            or previous.text.count("(") > previous.text.count(")")
+                previous.text.endswith((",", "-", "("))
+                or previous.text.count("(") > previous.text.count(")")
             )
             and gap < body * 0.6
             and not column_changed
@@ -797,6 +884,13 @@ def _validate_paths(pdf_path: Path, output_path: Path, report_path: Path | None)
     return paths[0], paths[1], paths[2] if report_path is not None else None
 
 
+# Hours do not wrap at 24, so a multi-hour vision run still reads as a single duration.
+def _clock(seconds: float) -> str:
+    hours, rest = divmod(round(max(0.0, seconds)), 3600)
+    minutes, secs = divmod(rest, 60)
+    return f"{hours:02d}:{minutes:02d}:{secs:02d}"
+
+
 @log_call
 def extract_markdown(
     pdf_path: Path,
@@ -824,6 +918,10 @@ def extract_markdown(
     with ExitStack() as resources:
         directory = Path(resources.enter_context(tempfile.TemporaryDirectory(dir=temporary_root)))
         spool = directory / "pages.jsonl"
+        # Contacted lazily, and only when a page needs it; closing releases the model's memory.
+        vision = resources.enter_context(
+            VisionSession(options.vision_model, options.lang.split("+")[0])
+        )
         staged = _temporary_path(output_path.parent)
         resources.callback(_remove_temp, staged)
         outputs = {output_path: staged}
@@ -834,8 +932,16 @@ def extract_markdown(
             _open_pdf(pdf_path, options.password) as document,
             spool.open("w", encoding="utf-8") as records,
         ):
-            for level, title, *_ in document.get_toc():
+            outline = document.get_toc()
+            for level, title, *_ in outline:
                 profile.outlines[_canonical(title)] = min(6, int(level) + 1)
+            # An outline already names the chapters; only a book without one needs its running
+            # heads read, and that is independent of how each page's text is extracted.
+            structure = None if outline else find_structure(document)
+            report["chapters"] = [
+                {"page": chapter.opener, "title": _strip_diacritics(chapter.title)}
+                for chapter in (structure.chapters if structure else ())
+            ]
             total = len(document)
             end = options.end_page if options.end_page is not None else total
             if not 1 <= options.start_page <= end <= total:
@@ -848,57 +954,140 @@ def extract_markdown(
                 options.ocr,
                 options.deskew,
             )
-            for number in range(options.start_page, end + 1):
+
+            def finish(
+                number: int, prepared: PageText | VisionJob, future: Future[str | None] | None
+            ) -> None:
+                nonlocal last_log
+                page_text = prepared
                 try:
-                    glyphs, angle, method = _page_glyphs(document[number - 1], number - 1, options)
-                    lines = _group_glyphs(glyphs)
+                    if isinstance(prepared, VisionJob):
+                        markdown = future.result() if future is not None else None
+                        if markdown is not None:
+                            page_text = PageText([], prepared.angle, "vision", markdown)
+                        else:
+                            # The call failed or was cut off; Tesseract takes this page over.
+                            page_text = _ocr_page(
+                                document[number - 1],
+                                options,
+                                (*prepared.reasons, "vision unavailable"),
+                            )
+                    lines = _group_glyphs(page_text.glyphs)
                 except Exception as exc:
                     raise RuntimeError(f"Pagina {number}: {exc}") from exc
-                cuts = _column_cuts(lines, options.columns)
-                lines = _reading_order(lines, cuts)
-                profile.observe(lines)
-                records.write(
-                    json.dumps(
-                        {"number": number, "lines": list(map(LINE_VALUES, lines))},
-                        ensure_ascii=False,
-                    )
-                    + "\n"
-                )
-                report["pages"].append(
-                    {
-                        "page": number,
-                        "method": method,
-                        "skew_degrees": round(angle, 2),
-                        "columns": len(cuts) + 1,
-                        "lines": len(lines),
+                cuts: list[float] = []
+                if page_text.markdown is None:
+                    cuts = _column_cuts(lines, options.columns)
+                    lines = _reading_order(lines, cuts)
+                    profile.observe(lines)
+                    record = {"number": number, "lines": list(map(LINE_VALUES, lines))}
+                    found = len(lines)
+                else:
+                    # The printed size of each heading is read now, while the page is open; the
+                    # level it implies depends on every other page, so it is applied at the end.
+                    # A chapter's opening page loses its title lines anyway.
+                    opening = structure is not None and structure.opens(number)
+                    entries = heading_entries(page_text.markdown.splitlines(), 1)
+                    measured = [] if opening else measure_headings(document[number - 1], entries)
+                    record = {
+                        "number": number,
+                        "markdown": page_text.markdown,
+                        "headings": measured,
                     }
-                )
-                if not lines:
-                    report["warnings"].append(f"Pagina {number}: fără text detectabil ({method}).")
+                    found = len(page_text.markdown.splitlines())
+                records.write(json.dumps(record, ensure_ascii=False) + "\n")
+                entry = {
+                    "page": number,
+                    "method": page_text.method,
+                    "skew_degrees": round(page_text.angle, 2),
+                    "columns": len(cuts) + 1,
+                    "lines": found,
+                }
+                if page_text.reasons:
+                    entry["reasons"] = list(page_text.reasons)
+                report["pages"].append(entry)
+                if page_text.method == "ocr" and options.ocr in {"auto", "vision"}:
+                    report["warnings"].append(
+                        f"Pagina {number}: modelul cu viziune nu a putut fi folosit; "
+                        "a fost folosit Tesseract."
+                    )
+                if not found:
+                    report["warnings"].append(
+                        f"Pagina {number}: fără text detectabil ({page_text.method})."
+                    )
                 now = time.monotonic()
                 if now - last_log >= 10 or number == end:
                     done = number - options.start_page + 1
                     rate = done / max(0.001, now - started)
                     LOGGER.info(
-                        "%s/%s (%.1f%%), %.2f pagini/s, timp=%.0fs, ETA=%.0fs",
+                        "%s/%s (%.1f%%), %.2f pagini/s, timp=%s, ETA=%s",
                         done,
                         count,
                         100 * done / count,
                         rate,
-                        now - started,
-                        (count - done) / rate,
+                        _clock(now - started),
+                        _clock((count - done) / rate),
                     )
                     last_log = now
+
+            # Pages are prepared on this thread, because PyMuPDF is not thread-safe, and sent to
+            # the vision model on worker threads. Results are collected in page order, and one
+            # page more than the workers can take is always ready, so the model never waits.
+            pool = ThreadPoolExecutor(max_workers=options.workers)
+            resources.callback(pool.shutdown, wait=False, cancel_futures=True)
+            pending: deque[tuple[int, PageText | VisionJob, Future[str | None] | None]] = deque()
+            for number in range(options.start_page, end + 1):
+                try:
+                    prepared = _prepare_page(document[number - 1], options, vision)
+                except Exception as exc:
+                    raise RuntimeError(f"Pagina {number}: {exc}") from exc
+                future = (
+                    pool.submit(vision.transcribe_image, prepared.image)
+                    if isinstance(prepared, VisionJob)
+                    else None
+                )
+                pending.append((number, prepared, future))
+                while len(pending) > options.workers:
+                    finish(*pending.popleft())
+            while pending:
+                finish(*pending.popleft())
+        # What separates a section heading from a smaller one is learned from the whole book, so
+        # a page that holds only small headings cannot promote them to sections.
+        with spool.open(encoding="utf-8") as records:
+            measured_pages = [json.loads(line).get("headings", []) for line in records]
+        threshold = section_size(measured_pages)
+        # A numbered book ("2.", "2.1.", "2.1.1.") gives the level of each heading itself.
+        numbered = numbered_book(measured_pages)
+        report["section_heading_size"] = threshold
+        report["numbered_headings"] = numbered
         with (
             staged.open("w", encoding="utf-8", newline="\n") as output,
             spool.open(encoding="utf-8") as records,
         ):
             output.write(
-                f"# {pdf_path.stem}\n\n<!-- Text extras local. Titluri deduse din aspect și numerotare; grafia sursei este păstrată. -->\n"
+                f"# {_strip_diacritics(pdf_path.stem)}\n\n"
+                "<!-- Text extras local, fara diacritice. Titlurile sunt deduse din aspect "
+                "si numerotare. -->\n"
             )
             for record in records:
                 data = json.loads(record)
-                text, headings = _render_page([Line(*line) for line in data["lines"]], profile)
+                if "markdown" in data:
+                    lines = data["markdown"].splitlines()
+                    entries = heading_entries(lines, 1)
+                    measured = data.get("headings", [])
+                    # A chapter's opening page was not measured; its headings keep the model's.
+                    if entries and len(measured) == len(entries):
+                        # Level 2 is where the model puts sections; `arrange` nests it below
+                        # the chapter.
+                        lines = apply_ranks(lines, entries, ranks(measured, threshold, numbered), 2)
+                    text = "\n".join(lines)
+                    headings = sum(line.startswith("#") for line in text.splitlines())
+                else:
+                    text, headings = _render_page([Line(*line) for line in data["lines"]], profile)
+                if structure is not None:
+                    text = structure.arrange(data["number"], text)
+                    headings = sum(line.startswith("#") for line in text.splitlines())
+                text = _strip_diacritics(text)
                 output.write(f"\n\n<!-- Pagina PDF {data['number']} -->\n\n{text}\n")
                 report["headings"] += headings
                 report["characters"] += len(text)
@@ -913,7 +1102,7 @@ def extract_markdown(
         report["headings"],
         sum(page["lines"] == 0 for page in report["pages"]),
     )
-    return profile.pages, report["characters"]
+    return len(report["pages"]), report["characters"]
 
 
 @log_call
@@ -930,7 +1119,21 @@ def main() -> int:
         help=f"Implicit: {DEFAULT_OUTPUT_ROOT}/<nume fără extensie>/<fișier PDF>.md; creează folderul.",
     )
     parser.add_argument("--columns", choices=("auto", "1", "2", "3"), default="auto")
-    parser.add_argument("--ocr", choices=("auto", "always", "never"), default="auto")
+    # The command line defaults to the vision model; Options keeps "auto" so library callers and
+    # the unit tests never depend on a running Ollama.
+    parser.add_argument("--ocr", choices=("auto", "always", "never", "vision"), default="vision")
+    parser.add_argument(
+        "--vision-model",
+        default=DEFAULT_MODEL,
+        help="Model Ollama cu viziune pentru paginile scanate fără text de încredere.",
+    )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="Pagini trimise simultan modelului. Ollama nu rulează în paralel cereri pentru "
+        "modelele qwen3.5, deci peste 1 nu câștigă timp cu ele.",
+    )
     parser.add_argument("--lang", default="ron+eng")
     parser.add_argument("--dpi", type=int, default=250)
     parser.add_argument(

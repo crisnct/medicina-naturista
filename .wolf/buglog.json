@@ -8329,6 +8329,528 @@
       "last_seen": "2026-11-02T21:46:47.911Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiWork/vlm/vlm_test.py",
+      "root_cause": "Had \"qwen3.5:9b\"",
+      "fix": "Changed to \"PAGES\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-464",
+      "timestamp": "2026-11-03T06:25:48.545Z",
+      "last_seen": "2026-11-03T06:25:48.545Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiWork/vlm/cmp.py",
+      "root_cause": "Had \"(\\w)- (?=[a-zăâîșț])\"",
+      "fix": "Changed to \"(\\w)-\\s+(?=[a-zăâîșț])\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-465",
+      "timestamp": "2026-11-03T06:31:47.317Z",
+      "last_seen": "2026-11-03T06:31:47.317Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiWork/vlm/analyze.py",
+      "root_cause": "Had \"[#*]\"",
+      "fix": "Changed to \"^>\\s?\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-466",
+      "timestamp": "2026-11-03T06:51:25.719Z",
+      "last_seen": "2026-11-03T06:51:25.719Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/pdf_vision.py",
+      "root_cause": "Had \"base64\"",
+      "fix": "Changed to \"ascii\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-467",
+      "timestamp": "2026-11-03T07:07:39.398Z",
+      "last_seen": "2026-11-03T07:07:39.398Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of extract_pdf_markdown.py",
+      "file": "src/scripts/extract_pdf_markdown.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 5→8 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-468",
+      "timestamp": "2026-11-03T07:07:53.773Z",
+      "last_seen": "2026-11-03T07:07:53.773Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of extract_pdf_markdown.py",
+      "file": "src/scripts/extract_pdf_markdown.py",
+      "root_cause": "14 lines replaced/restructured",
+      "fix": "Rewrote 26→45 lines (14 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-469",
+      "timestamp": "2026-11-03T07:08:32.011Z",
+      "last_seen": "2026-11-03T07:08:32.011Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of extract_pdf_markdown.py",
+      "file": "src/scripts/extract_pdf_markdown.py",
+      "root_cause": "14 lines replaced/restructured",
+      "fix": "Rewrote 26→35 lines (14 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-470",
+      "timestamp": "2026-11-03T07:08:47.271Z",
+      "last_seen": "2026-11-03T07:08:47.271Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/extract_pdf_markdown.py",
+      "root_cause": "Had \"characters\"",
+      "fix": "Changed to \"pages\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-471",
+      "timestamp": "2026-11-03T07:08:51.776Z",
+      "last_seen": "2026-11-03T07:08:51.776Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf_layer_check.py",
+      "file": "src/scripts/pdf_layer_check.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 4→5 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-472",
+      "timestamp": "2026-11-03T07:12:42.016Z",
+      "last_seen": "2026-11-03T07:12:42.016Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiWork/vlm/build_all.py",
+      "root_cause": "Had \"# Antivirale din plante\"",
+      "fix": "Changed to \"NFKD\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-473",
+      "timestamp": "2026-11-03T07:17:48.956Z",
+      "last_seen": "2026-11-03T07:17:48.956Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiWork/vlm/build_all.py",
+      "root_cause": "Had \"# Antivirale din plante\"",
+      "fix": "Changed to \"script\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-474",
+      "timestamp": "2026-11-03T07:21:21.800Z",
+      "last_seen": "2026-11-03T07:21:21.800Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: _known_words should be known_words",
+      "file": "src/scripts/pdf_layer_check.py",
+      "root_cause": "Used \"_known_words\" instead of \"known_words\"",
+      "fix": "Changed _known_words → known_words",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-475",
+      "timestamp": "2026-11-03T07:46:48.221Z",
+      "last_seen": "2026-11-03T07:46:50.795Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf_chapters.py",
+      "file": "src/scripts/pdf_chapters.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 11→18 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-476",
+      "timestamp": "2026-11-03T07:49:04.872Z",
+      "last_seen": "2026-11-03T07:49:04.872Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf_chapters.py",
+      "file": "src/scripts/pdf_chapters.py",
+      "root_cause": "8 lines replaced/restructured",
+      "fix": "Rewrote 9→13 lines (8 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-477",
+      "timestamp": "2026-11-03T07:51:14.033Z",
+      "last_seen": "2026-11-03T07:51:14.033Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf_chapters.py",
+      "file": "src/scripts/pdf_chapters.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 6→4 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-478",
+      "timestamp": "2026-11-03T07:52:44.389Z",
+      "last_seen": "2026-11-03T07:52:44.389Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/pdf_chapters.py",
+      "root_cause": "Had \"### \"",
+      "fix": "Changed to \"## \"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-479",
+      "timestamp": "2026-11-03T08:05:42.405Z",
+      "last_seen": "2026-11-03T08:05:42.405Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/extract_pdf_markdown.py",
+      "root_cause": "Had \"--ocr\"",
+      "fix": "Changed to \"auto\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-480",
+      "timestamp": "2026-11-03T08:18:17.911Z",
+      "last_seen": "2026-11-03T08:18:17.911Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf_vision.py",
+      "file": "src/scripts/pdf_vision.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 9→19 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-481",
+      "timestamp": "2026-11-03T08:31:49.785Z",
+      "last_seen": "2026-11-03T08:31:49.785Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of extract_pdf_markdown.py",
+      "file": "src/scripts/extract_pdf_markdown.py",
+      "root_cause": "12 lines replaced/restructured",
+      "fix": "Rewrote 34→57 lines (12 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-482",
+      "timestamp": "2026-11-03T08:32:28.582Z",
+      "last_seen": "2026-11-03T08:32:28.582Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of extract_pdf_markdown.py",
+      "file": "src/scripts/extract_pdf_markdown.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→5 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-483",
+      "timestamp": "2026-11-03T08:32:36.033Z",
+      "last_seen": "2026-11-03T08:32:36.033Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: pymupdf should be numpy",
+      "file": "src/scripts/pdf_vision.py",
+      "root_cause": "Used \"pymupdf\" instead of \"numpy\"",
+      "fix": "Changed pymupdf → numpy",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-484",
+      "timestamp": "2026-11-03T08:55:57.495Z",
+      "last_seen": "2026-11-03T08:55:57.495Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/scripts/pdf_vision.py",
+      "root_cause": "Was returning: page.get_pixmap(dpi=RENDER_DPI).tobytes(\"png\")",
+      "fix": "Now returns: page.get_pixmap(dpi=RENDER_DPI, clip=_printed_area",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-485",
+      "timestamp": "2026-11-03T08:56:01.162Z",
+      "last_seen": "2026-11-03T08:56:01.162Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/extract_pdf_markdown.py",
+      "root_cause": "Had \"Pagini trimise simultan modelului; Ollama trebuie",
+      "fix": "Changed to \"Pagini trimise simultan modelului. Ollama nu rule",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-486",
+      "timestamp": "2026-11-03T08:56:16.654Z",
+      "last_seen": "2026-11-03T08:56:16.654Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/extract_pdf_markdown.py",
+      "root_cause": "Had \"heading_sizes\"",
+      "fix": "Changed to \"headings\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-487",
+      "timestamp": "2026-11-03T11:47:47.042Z",
+      "last_seen": "2026-11-03T11:47:47.042Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/scripts/pdf_vision.py",
+      "root_cause": "Was returning: TOP_HEADING.sub(\"## \", HYPHEN_BREAK.sub(_join_brea",
+      "fix": "Now returns: demote_run_in(drop_rules(text), 2)",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-488",
+      "timestamp": "2026-11-03T11:53:41.323Z",
+      "last_seen": "2026-11-03T11:53:41.323Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf_chapters.py",
+      "file": "src/scripts/pdf_chapters.py",
+      "root_cause": "13 lines replaced/restructured",
+      "fix": "Rewrote 27→38 lines (13 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-489",
+      "timestamp": "2026-11-03T12:15:52.029Z",
+      "last_seen": "2026-11-03T12:15:52.029Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf_chapters.py",
+      "file": "src/scripts/pdf_chapters.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 6→8 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-490",
+      "timestamp": "2026-11-03T12:16:53.642Z",
+      "last_seen": "2026-11-03T12:16:53.642Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf_headings.py",
+      "file": "src/scripts/pdf_headings.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 7→25 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-491",
+      "timestamp": "2026-11-03T12:32:14.374Z",
+      "last_seen": "2026-11-03T12:32:14.374Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf_headings.py",
+      "file": "src/scripts/pdf_headings.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 8→11 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-492",
+      "timestamp": "2026-11-03T12:32:18.424Z",
+      "last_seen": "2026-11-03T12:32:18.424Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -8823,7 +9345,37 @@
     "81b9e765-97de-4ef1-8d71-5608771cd8ad": true,
     "1704813e-3491-4b60-b0a9-4ac370e92cc8": true,
     "093c4e44-6700-4a29-9ef2-5bcbba27b27c": true,
-    "6e1406a9-35e8-4a15-9a52-d1a0b9b3c5c5": true
+    "6e1406a9-35e8-4a15-9a52-d1a0b9b3c5c5": true,
+    "a1fd8e7e-80f0-40d7-a945-a4101c85a958": true,
+    "3cbd96bf-81c7-4f12-a3de-53177ce870a6": true,
+    "557fa17f-e3ea-4af4-a1ca-ec4a01cc0dc8": true,
+    "464c5078-ea57-4a12-ade3-4095edee4dba": true,
+    "74c35223-dfca-4ff9-90a5-bd0275d64f6c": true,
+    "c58f7006-9b43-4f2c-87eb-adf2c5a3a7ba": true,
+    "69a9642a-3363-4ae2-941f-bc043aa3e0cc": true,
+    "c5d89355-0911-4ed9-a5d3-fcbe2c5df931": true,
+    "a503b084-04ce-4e26-8345-66097eb8d6f6": true,
+    "ad1b8045-dbaa-4f07-a7fe-d3ea6c0de89e": true,
+    "82b5664b-36aa-4a04-87f5-3ab9f6ffe137": true,
+    "d654f45e-d5b4-49e5-8ca2-4c12c509c702": true,
+    "d8e87b44-40c4-4067-9523-98bc2cc2689d": true,
+    "d902d452-4b9d-45ad-abfe-3728dbb65367": true,
+    "281a9637-380b-42b0-8fff-d26eee62654f": true,
+    "4656aba6-d3ca-4e29-8376-a4fb5680f745": true,
+    "cb9b85de-4ef4-4012-8ac2-bf3fa986d551": true,
+    "af06bb42-47e6-4626-853d-6668db91cdbb": true,
+    "a0fa603b-9c94-4909-8c53-0b988878d1c8": true,
+    "ace01779-a760-4f47-8ca2-a6dcd9d89bbd": true,
+    "22a57881-3393-4c77-b2f1-f0e6de1dd5ce": true,
+    "14ac1bc0-0794-4679-b909-8cc9a5035fa9": true,
+    "fafeeda6-5773-4044-8f6c-eeb1998569ea": true,
+    "15de931d-562e-4224-9d5d-13d7ab3bf7e7": true,
+    "c5f25d81-ba2f-4fe0-b81b-8d19c27e11df": true,
+    "49a141e1-21d0-4ea9-928f-b008c5e7ff97": true,
+    "683dd90d-a50b-4a87-ae1a-be505d7d3a9f": true,
+    "920cf1b2-8543-4428-84e1-cca46d1d02ca": true,
+    "ba1de712-85e6-4359-bf9f-2c0a6789e143": true,
+    "875db002-a355-43fb-b9a1-00268221f033": true
   },
-  "next_id": 464
+  "next_id": 493
 }

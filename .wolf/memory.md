@@ -2415,3 +2415,315 @@ description: chronological action log per session, consolidated weekly
 | 23:26 | Edited src/scripts/clean_documents.py | inline fix | ~16 |
 | 23:36 | Session end: 113 writes across 29 files (HerbWarningsPanel.tsx, styles.css, texts.ro.toml, texts.en.toml, HerbConditionsPanel.test.tsx) | 17 reads | ~32317 tok |
 | 23:46 | Edited src/scripts/backup_database.bat | "KEEP=2" → "KEEP=10" | ~4 |
+
+## Session: 2026-11-03 07:54
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-11-03 08:15
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 08:23 | Created aiWork/vlm/out/claude_p51.md | — | ~538 |
+| 08:23 | Created aiWork/vlm/out/claude_p169.md | — | ~511 |
+| 08:25 | Edited aiWork/vlm/vlm_test.py | added 1 import(s) | ~48 |
+| 08:27 | Created aiWork/vlm/out/claude_p3.md | — | ~613 |
+| 08:27 | Created aiWork/vlm/out/claude_p5.md | — | ~567 |
+| 08:27 | Created aiWork/vlm/out/claude_p9.md | — | ~640 |
+| 08:27 | Created aiWork/vlm/out/claude_p17.md | — | ~588 |
+| 08:31 | Edited aiWork/vlm/cmp.py | "(\w)- (?=[a-zăâîșț])" → "(\w)-\s+(?=[a-zăâîșț])" | ~25 |
+<!-- session:N2VjMTI4YTgtNWIxNy00MTIzLTk5NjMtOTUwNTRjOGY5NWRk -->
+| 2026-11-03T06:32:01.328Z | Compared local vision models (qwen3.5:9b, ministral-3:8b, gemma4:12b, medgemma:4b) and Tesseract against a Claude reading on pages 51,169,3,9 of Antivirale din plante.pdf; qwen3.5:9b best. Scratch only in aiWork/vlm, no repo code changed. | aiWork/vlm/vlm_test.py,aiWork/vlm/cmp.py | experiment only; no tests run, no source changed |
+| 08:35 | Created aiWork/vlm/build_md.py | — | ~253 |
+| 08:40 | Created aiWork/vlm/build_all.py | — | ~388 |
+| 08:42 | Created aiWork/vlm/analyze.py | — | ~961 |
+| 08:43 | Created aiWork/vlm/crops.py | — | ~540 |
+| 08:43 | Created aiWork/vlm/rezultate/analiza.md | — | ~454 |
+| 08:50 | Edited aiWork/vlm/analyze.py | modified by_page() | ~91 |
+| 08:50 | Edited aiWork/vlm/analyze.py | inline fix | ~33 |
+| 08:51 | Edited aiWork/vlm/analyze.py | 2→3 lines | ~46 |
+| 08:51 | Edited aiWork/vlm/analyze.py | modified kind() | ~37 |
+| 08:51 | Edited aiWork/vlm/analyze.py | 2→4 lines | ~62 |
+| 08:51 | Created aiWork/vlm/rezultate/analiza.md | — | ~634 |
+| 08:57 | Edited aiWork/vlm/rezultate/analiza.md | 4→4 lines | ~162 |
+| 08:57 | Edited aiWork/vlm/rezultate/analiza.md | "⁸" → "2006" | ~35 |
+| 08:57 | Edited aiWork/vlm/rezultate/analiza.md | inline fix | ~85 |
+| 09:04 | Created aiWork/vlm/gate_probe.py | — | ~550 |
+| 09:04 | Edited src/frontend/components/FragmentsPanel.tsx | 2→3 lines | ~70 |
+| 09:07 | Created src/scripts/pdf_layer_check.py | — | ~1260 |
+| 09:07 | Created src/scripts/pdf_vision.py | — | ~1607 |
+| 09:07 | Edited src/scripts/pdf_vision.py | added 1 import(s) | ~21 |
+| 09:07 | Edited src/scripts/pdf_vision.py | inline fix | ~19 |
+| 09:07 | Edited src/scripts/extract_pdf_markdown.py | 5→8 lines | ~186 |
+| 09:07 | Edited src/scripts/extract_pdf_markdown.py | 2→4 lines | ~86 |
+| 09:07 | Edited src/scripts/extract_pdf_markdown.py | added 4 import(s) | ~175 |
+| 09:07 | Edited src/scripts/extract_pdf_markdown.py | modified __post_init__() | ~101 |
+| 09:08 | Edited src/scripts/extract_pdf_markdown.py | modified _page_text() | ~597 |
+| 09:08 | Edited src/scripts/extract_pdf_markdown.py | modified _strip_diacritics() | ~107 |
+| 09:08 | Edited src/scripts/extract_pdf_markdown.py | 2→6 lines | ~91 |
+| 09:08 | Edited src/scripts/extract_pdf_markdown.py | expanded (+9 lines) | ~514 |
+| 09:08 | Edited src/scripts/extract_pdf_markdown.py | expanded (+7 lines) | ~210 |
+| 09:08 | Edited src/scripts/extract_pdf_markdown.py | "characters" → "pages" | ~16 |
+| 09:08 | Edited src/scripts/extract_pdf_markdown.py | 1→6 lines | ~78 |
+| 09:11 | Edited src/scripts/pdf_layer_check.py | 4→4 lines | ~65 |
+| 09:12 | Edited src/scripts/pdf_layer_check.py | 4→5 lines | ~90 |
+| 09:13 | Edited README.md | 6→9 lines | ~553 |
+| 09:13 | Edited README.md | inline fix | ~46 |
+<!-- session:N2VjMTI4YTgtNWIxNy00MTIzLTk5NjMtOTUwNTRjOGY5NWRk -->
+| 2026-11-03T07:16:09.077Z | extract_pdf_markdown.py: hybrid per-page source (PDF text layer checked against page image via new pdf_layer_check.py, else local Ollama vision model qwen3.5:9b via new pdf_vision.py, Tesseract as fallback); output now has no diacritics; new --ocr vision and --vision-model; README section updated. | src/scripts/extract_pdf_markdown.py,src/scripts/pdf_layer_check.py,src/scripts/pdf_vision.py,README.md | ruff, format, mypy OK; 452 unit tests OK; 4-page check 10/1361 words off; no new tests added |
+| 09:17 | Edited aiWork/vlm/build_all.py | 2→3 lines | ~16 |
+| 09:17 | Edited aiWork/vlm/build_all.py | 1→3 lines | ~79 |
+| 09:17 | Edited aiWork/vlm/build_all.py | added 1 import(s) | ~16 |
+| 09:17 | Edited aiWork/vlm/analyze.py | 1→3 lines | ~50 |
+| 09:17 | Edited aiWork/vlm/analyze.py | expanded (+9 lines) | ~47 |
+| 09:17 | Edited aiWork/vlm/analyze.py | 2→4 lines | ~44 |
+| 09:18 | Edited aiWork/vlm/rezultate/analiza.md | expanded (+17 lines) | ~302 |
+| 09:21 | Edited aiWork/vlm/build_all.py | 2→3 lines | ~66 |
+| 09:21 | Edited aiWork/vlm/rezultate/analiza.md | 2→3 lines | ~64 |
+| 09:28 | Created aiWork/vlm/heads_eval.py | — | ~1966 |
+| 09:41 | Edited aiWork/vlm/rezultate/analiza.md | expanded (+15 lines) | ~375 |
+<!-- session:N2VjMTI4YTgtNWIxNy00MTIzLTk5NjMtOTUwNTRjOGY5NWRk -->
+| 2026-11-03T07:41:44.429Z | Measured heading/chapter structure of extract_pdf_markdown.py modes (always, never, vision, auto) on 16 pages of Antivirale din plante.pdf against headings read from page images; vision/auto best on titles (26/32 exact, 0-2 spurious) but miss 3 of 9 chapter titles and flatten levels; geometry modes split titles. Scratch only in aiWork/vlm. | aiWork/vlm/heads_eval.py,aiWork/vlm/run_modes.sh,aiWork/vlm/rezultate/analiza.md | analysis only; no source changed |
+| 09:46 | Created src/scripts/pdf_chapters.py | — | ~2235 |
+| 09:46 | Created src/scripts/pdf_chapters.py | — | ~2056 |
+| 09:46 | Edited src/scripts/pdf_layer_check.py | _known_words() → known_words() | ~48 |
+| 09:46 | Edited src/scripts/pdf_layer_check.py | _known_words() → known_words() | ~17 |
+| 09:48 | Created src/scripts/pdf_chapters.py | — | ~2438 |
+| 09:48 | Edited src/scripts/pdf_chapters.py | 4→4 lines | ~52 |
+| 09:49 | Edited src/scripts/pdf_chapters.py | modified _top_lines() | ~272 |
+| 09:49 | Edited src/scripts/pdf_chapters.py | 2→3 lines | ~44 |
+| 09:49 | Edited src/scripts/pdf_chapters.py | 4→6 lines | ~61 |
+| 09:49 | Edited src/scripts/pdf_chapters.py | inline fix | ~28 |
+| 09:49 | Edited src/scripts/pdf_chapters.py | inline fix | ~22 |
+| 09:49 | Edited src/scripts/pdf_chapters.py | modified _reads_as_words() | ~78 |
+| 09:49 | Edited src/scripts/pdf_chapters.py | 2→1 lines | ~9 |
+| 09:49 | Edited src/scripts/pdf_chapters.py | modified _reads_as_words() | ~95 |
+| 09:50 | Edited src/scripts/pdf_chapters.py | 6→7 lines | ~124 |
+| 09:50 | Edited src/scripts/pdf_chapters.py | modified _top_lines() | ~73 |
+| 09:50 | Edited src/scripts/pdf_chapters.py | 3→2 lines | ~27 |
+| 09:51 | Edited src/scripts/pdf_chapters.py | modified _same() | ~203 |
+| 09:52 | Edited src/scripts/pdf_chapters.py | — | ~0 |
+| 09:52 | Edited src/scripts/pdf_chapters.py | modified zip() | ~185 |
+| 09:52 | Edited src/scripts/pdf_chapters.py | inline fix | ~20 |
+| 09:52 | Edited src/scripts/pdf_chapters.py | 6→4 lines | ~30 |
+| 09:53 | Edited src/scripts/extract_pdf_markdown.py | added 1 import(s) | ~29 |
+| 09:53 | Edited src/scripts/extract_pdf_markdown.py | added 1 import(s) | ~29 |
+| 09:53 | Edited src/scripts/extract_pdf_markdown.py | expanded (+8 lines) | ~188 |
+| 09:53 | Edited src/scripts/extract_pdf_markdown.py | 2→5 lines | ~98 |
+| 09:53 | Edited README.md | 1→3 lines | ~276 |
+| 10:00 | Session end: 1 writes across 1 files (FragmentsPanel.tsx) | 3 reads | ~607 tok |
+| 10:02 | Edited src/scripts/pdf_chapters.py | "##" → "#" | ~28 |
+| 10:05 | Edited src/scripts/pdf_chapters.py | "### " → "## " | ~22 |
+| 10:09 | Edited aiWork/vlm/rezultate/analiza.md | 1→5 lines | ~206 |
+<!-- session:N2VjMTI4YTgtNWIxNy00MTIzLTk5NjMtOTUwNTRjOGY5NWRk -->
+| 2026-11-03T08:09:18.194Z | extract_pdf_markdown.py: chapters reconstructed from running heads via new src/scripts/pdf_chapters.py (detects 9/9 chapters and opener pages of Antivirale din plante.pdf; one ## per chapter, other headings nested one level, running-head/title lines removed on opener pages); report gets chapters list; README updated. Verified with --ocr vision on 16 pages. | src/scripts/pdf_chapters.py,src/scripts/extract_pdf_markdown.py,src/scripts/pdf_layer_check.py,README.md | ruff, format, mypy OK; 452 unit tests OK; no new tests added; whole-book run not performed |
+| 10:18 | Edited src/scripts/extract_pdf_markdown.py | 1→3 lines | ~72 |
+| 10:18 | Edited src/scripts/extract_pdf_markdown.py | vision() → never() | ~59 |
+| 10:18 | Edited README.md | "--ocr auto|always|never|v" → "--ocr vision|auto|always|" | ~134 |
+| 10:26 | Edited src/scripts/extract_pdf_markdown.py | modified _clock() | ~86 |
+| 10:26 | Edited src/scripts/extract_pdf_markdown.py | 7→7 lines | ~89 |
+| 10:31 | Edited src/scripts/pdf_vision.py | modified available() | ~234 |
+| 10:32 | Edited src/scripts/extract_pdf_markdown.py | modified _straightened() | ~723 |
+| 10:32 | Edited src/scripts/extract_pdf_markdown.py | added 2 import(s) | ~69 |
+| 10:32 | Edited src/scripts/extract_pdf_markdown.py | 2→4 lines | ~62 |
+| 10:32 | Edited src/scripts/extract_pdf_markdown.py | 1→3 lines | ~69 |
+| 10:32 | Edited src/scripts/extract_pdf_markdown.py | expanded (+6 lines) | ~81 |
+| 10:32 | Edited src/scripts/extract_pdf_markdown.py | modified finish() | ~1270 |
+| 10:33 | Edited README.md | 1→2 lines | ~136 |
+| 10:55 | Edited src/scripts/pdf_vision.py | added 1 import(s) | ~14 |
+| 10:55 | Edited src/scripts/pdf_vision.py | expanded (+7 lines) | ~86 |
+| 10:56 | Edited src/scripts/pdf_vision.py | modified render() | ~83 |
+| 10:56 | Edited src/scripts/pdf_vision.py | modified _printed_area() | ~328 |
+| 10:56 | Edited src/scripts/extract_pdf_markdown.py | 2→3 lines | ~51 |
+| 10:56 | Edited README.md | 1→2 lines | ~225 |
+| 11:34 | Session end: 102 writes across 20 files (claude_p51.md, claude_p169.md, vlm_test.py, claude_p3.md, claude_p5.md) | 38 reads | ~42711 tok |
+| 13:43 | Created src/scripts/pdf_headings.py | — | ~1370 |
+| 13:43 | Edited src/scripts/pdf_chapters.py | modified opens() | ~54 |
+| 13:43 | Edited src/scripts/extract_pdf_markdown.py | added 1 import(s) | ~32 |
+| 13:43 | Edited src/scripts/extract_pdf_markdown.py | added 1 import(s) | ~31 |
+| 13:43 | Edited src/scripts/extract_pdf_markdown.py | expanded (+9 lines) | ~205 |
+| 13:43 | Edited src/scripts/extract_pdf_markdown.py | expanded (+11 lines) | ~193 |
+| 13:43 | Edited src/scripts/extract_pdf_markdown.py | 3→3 lines | ~63 |
+| 13:47 | Created src/scripts/pdf_headings.py | — | ~1274 |
+| 13:47 | Edited src/scripts/extract_pdf_markdown.py | heading_sizes() → measure_headings() | ~115 |
+| 13:47 | Edited src/scripts/extract_pdf_markdown.py | split_point() → section_size() | ~126 |
+| 13:47 | Edited src/scripts/extract_pdf_markdown.py | inline fix | ~26 |
+| 13:47 | Edited src/scripts/extract_pdf_markdown.py | inline fix | ~20 |
+| 13:47 | Edited src/scripts/extract_pdf_markdown.py | inline fix | ~20 |
+| 13:53 | Created src/scripts/pdf_headings.py | — | ~2136 |
+| 13:53 | Edited src/scripts/extract_pdf_markdown.py | 6→3 lines | ~74 |
+| 13:53 | Edited src/scripts/extract_pdf_markdown.py | 6→4 lines | ~94 |
+| 13:53 | Edited src/scripts/extract_pdf_markdown.py | modified len() | ~196 |
+| 13:53 | Edited src/scripts/extract_pdf_markdown.py | inline fix | ~28 |
+| 13:53 | Edited src/scripts/extract_pdf_markdown.py | inline fix | ~28 |
+| 13:53 | Edited src/scripts/pdf_vision.py | modified tidy_markdown() | ~118 |
+| 13:53 | Edited src/scripts/pdf_vision.py | added 2 import(s) | ~61 |
+| 13:54 | Created src/scripts/fix_markdown_headings.py | — | ~1489 |
+| 14:04 | Edited README.md | 1→5 lines | ~449 |
+| 14:15 | Edited src/scripts/pdf_chapters.py | modified sorted() | ~580 |
+| 14:15 | Edited src/scripts/pdf_chapters.py | modified core() | ~181 |
+| 14:15 | Edited src/scripts/pdf_chapters.py | 2→4 lines | ~56 |
+
+## Session: 2026-11-03 14:16
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 14:16 | Edited src/scripts/pdf_chapters.py | modified encloses() | ~125 |
+| 14:16 | Edited src/scripts/pdf_chapters.py | inline fix | ~26 |
+| 14:16 | Edited src/scripts/pdf_chapters.py | modified _reads_as_text() | ~90 |
+| 14:18 | Edited src/scripts/pdf_chapters.py | modified outweighs() | ~128 |
+| 14:18 | Edited src/scripts/pdf_chapters.py | encloses() → outweighs() | ~85 |
+| 14:19 | Edited src/scripts/pdf_chapters.py | modified sorted() | ~242 |
+| 14:19 | Edited src/scripts/pdf_chapters.py | 3 → 5 | ~6 |
+| 14:21 | Edited README.md | inline fix | ~162 |
+
+## Session: 2026-11-03 14:21
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 14:26 | Created aiWork/translate/out/f001_001.txt | — | ~4136 |
+| 14:26 | Created aiWork/translate/out/f079_008.txt | — | ~4435 |
+| 14:26 | Created aiWork/translate/out/f050_002.txt | — | ~4383 |
+| 14:27 | Created aiWork/translate/out/f001_002.txt | — | ~4213 |
+| 14:27 | Created aiWork/translate/out/f079_009.txt | — | ~4261 |
+| 14:27 | Created aiWork/translate/out/f050_003.txt | — | ~4300 |
+| 14:27 | Created aiWork/translate/out/f001_003.txt | — | ~4100 |
+| 14:27 | Created aiWork/translate/out/f050_004.txt | — | ~2269 |
+| 14:27 | Created aiWork/translate/out/f079_010.txt | — | ~4323 |
+| 14:28 | Created aiWork/translate/out/f001_004.txt | — | ~4052 |
+| 14:28 | Created aiWork/translate/out/f051_001.txt | — | ~4012 |
+| 14:28 | Edited aiWork/translate/out/f051_001.txt | inline fix | ~6 |
+| 14:28 | Created aiWork/translate/out/f079_011.txt | — | ~4503 |
+| 14:28 | Created aiWork/translate/out/f001_005.txt | — | ~4220 |
+| 14:29 | Created aiWork/translate/out/f051_002.txt | — | ~3565 |
+| 14:29 | Created aiWork/translate/out/f079_012.txt | — | ~4394 |
+| 14:29 | Created aiWork/translate/out/f001_006.txt | — | ~4187 |
+| 14:30 | Created aiWork/translate/out/f079_013.txt | — | ~4286 |
+| 14:30 | Created aiWork/translate/out/f052_001.txt | — | ~4242 |
+| 14:30 | Edited aiWork/translate/out/f052_001.txt | inline fix | ~5 |
+| 14:30 | Created aiWork/translate/out/f004_004.txt | — | ~1383 |
+| 14:30 | Created aiWork/translate/out/f011_001.txt | — | ~2246 |
+| 14:30 | Created aiWork/translate/out/f001_013.txt | — | ~4093 |
+| 14:30 | Created aiWork/translate/out/f001_037.txt | — | ~4045 |
+| 14:30 | Created aiWork/translate/out/f032_001.txt | — | ~784 |
+| 14:30 | Created aiWork/translate/out/f001_007.txt | — | ~4115 |
+| 14:30 | Created aiWork/translate/out/f006_003.txt | — | ~4696 |
+| 14:30 | Created aiWork/translate/out/f052_002.txt | — | ~4256 |
+| 14:30 | Created aiWork/translate/out/f012_001.txt | — | ~2056 |
+| 14:30 | Created aiWork/translate/out/f001_025.txt | — | ~4085 |
+| 14:30 | Created aiWork/translate/out/f018_001.txt | — | ~2374 |
+| 14:30 | Created aiWork/translate/out/f001_043.txt | — | ~3960 |
+| 14:30 | Created aiWork/translate/out/f033_001.txt | — | ~724 |
+| 14:30 | Created aiWork/translate/out/f001_019.txt | — | ~4165 |
+| 14:30 | Created aiWork/translate/out/f013_001.txt | — | ~1068 |
+| 14:30 | Created aiWork/translate/out/f002_010.txt | — | ~4460 |
+| 14:31 | Created aiWork/translate/out/f026_001.txt | — | ~2101 |
+| 14:31 | Created aiWork/translate/out/f022_001.txt | — | ~4021 |
+| 14:31 | Created aiWork/translate/out/f034_001.txt | — | ~635 |
+| 14:31 | Created aiWork/translate/out/f005_001.txt | — | ~4507 |
+| 14:31 | Created aiWork/translate/out/f039_001.txt | — | ~3970 |
+| 14:31 | Created aiWork/translate/out/f001_031.txt | — | ~4107 |
+| 14:31 | Created aiWork/translate/out/f022_002.txt | — | ~587 |
+| 14:31 | Created aiWork/translate/out/f014_001.txt | — | ~1902 |
+| 14:31 | Created aiWork/translate/out/f002_004.txt | — | ~4464 |
+| 14:31 | Created aiWork/translate/out/f035_001.txt | — | ~664 |
+| 14:31 | Created aiWork/translate/out/f001_038.txt | — | ~4214 |
+| 14:31 | Created aiWork/translate/out/f043_001.txt | — | ~4135 |
+| 14:31 | Created aiWork/translate/out/f001_014.txt | — | ~4101 |
+| 14:31 | Created aiWork/translate/out/f001_008.txt | — | ~4074 |
+| 14:31 | Created aiWork/translate/out/f006_004.txt | — | ~4433 |
+| 14:31 | Created aiWork/translate/out/f019_001.txt | — | ~4085 |
+| 14:31 | Edited aiWork/translate/out/f002_004.txt | inline fix | ~12 |
+| 14:31 | Created aiWork/translate/out/f036_001.txt | — | ~493 |
+| 14:31 | Created aiWork/translate/out/f001_026.txt | — | ~4150 |
+| 14:31 | Created aiWork/translate/out/f019_002.txt | — | ~688 |
+| 14:31 | Created aiWork/translate/out/f001_044.txt | — | ~3916 |
+| 14:31 | Created aiWork/translate/out/f001_020.txt | — | ~3991 |
+| 14:31 | Edited src/scripts/pdf_chapters.py | 1→4 lines | ~59 |
+| 14:31 | Edited src/scripts/pdf_chapters.py | 2→2 lines | ~35 |
+| 14:31 | Created aiWork/translate/out/f015_001.txt | — | ~3504 |
+| 14:31 | Created aiWork/translate/out/f037_001.txt | — | ~541 |
+| 14:31 | Created aiWork/translate/out/f043_002.txt | — | ~2261 |
+| 14:31 | Created aiWork/translate/out/f023_001.txt | — | ~3213 |
+| 14:31 | Created aiWork/translate/out/f001_032.txt | — | ~4031 |
+| 14:31 | Created aiWork/translate/out/f005_002.txt | — | ~4750 |
+| 14:31 | Created aiWork/translate/out/f002_011.txt | — | ~3339 |
+| 14:31 | Created aiWork/translate/out/f039_002.txt | — | ~3072 |
+| 14:31 | Created aiWork/translate/out/f001_039.txt | — | ~4081 |
+| 14:31 | Created aiWork/translate/out/f001_009.txt | — | ~4164 |
+| 14:31 | Created aiWork/translate/out/f016_001.txt | — | ~2485 |
+| 14:31 | Created aiWork/translate/out/f006_005.txt | — | ~4385 |
+| 14:31 | Created aiWork/translate/out/f001_027.txt | — | ~4063 |
+| 14:31 | Created aiWork/translate/out/f001_021.txt | — | ~4074 |
+| 14:32 | Created aiWork/translate/out/f052_003.txt | — | ~4184 |
+| 14:32 | Created aiWork/translate/out/f001_045.txt | — | ~4027 |
+| 14:32 | Created aiWork/translate/out/f001_015.txt | — | ~4234 |
+| 14:32 | Created aiWork/translate/out/f027_001.txt | — | ~3914 |
+| 14:32 | Created aiWork/translate/out/f002_005.txt | — | ~4683 |
+| 14:32 | Created aiWork/translate/out/f001_046.txt | — | ~419 |
+| 14:32 | Created aiWork/translate/out/f024_001.txt | — | ~3895 |
+| 14:32 | Edited src/scripts/pdf_headings.py | expanded (+8 lines) | ~148 |
+| 14:32 | Created aiWork/translate/out/f017_001.txt | — | ~3039 |
+| 14:32 | Created aiWork/translate/out/f044_001.txt | — | ~4046 |
+| 14:32 | Edited src/scripts/pdf_headings.py | modified numbering_depth() | ~298 |
+| 14:32 | Created aiWork/translate/out/f001_033.txt | — | ~4120 |
+| 14:32 | Edited src/scripts/pdf_headings.py | 3→3 lines | ~68 |
+| 14:32 | Created aiWork/translate/out/f020_001.txt | — | ~4091 |
+| 14:32 | Created aiWork/translate/out/f005_003.txt | — | ~4368 |
+| 14:32 | Created aiWork/translate/out/f027_002.txt | — | ~405 |
+| 14:32 | Edited src/scripts/pdf_headings.py | modified ranks() | ~162 |
+| 14:32 | Created aiWork/translate/out/f028_001.txt | — | ~676 |
+| 14:32 | Created aiWork/translate/out/f020_002.txt | — | ~533 |
+| 14:32 | Created aiWork/translate/out/f021_002.txt | — | ~128 |
+| 14:32 | Created aiWork/translate/out/f001_040.txt | — | ~4128 |
+| 14:32 | Created aiWork/translate/out/f007_001.txt | — | ~3399 |
+| 14:32 | Created aiWork/translate/out/f040_001.txt | — | ~4207 |
+| 14:32 | Edited aiWork/translate/out/f028_001.txt | inline fix | ~21 |
+| 14:32 | Edited src/scripts/extract_pdf_markdown.py | 3→7 lines | ~123 |
+| 14:32 | Created aiWork/translate/out/f003_001.txt | — | ~4154 |
+| 14:32 | Edited src/scripts/extract_pdf_markdown.py | inline fix | ~29 |
+| 14:32 | Edited src/scripts/extract_pdf_markdown.py | expanded (+7 lines) | ~49 |
+| 14:32 | Created aiWork/translate/out/f001_022.txt | — | ~4070 |
+| 14:32 | Edited src/scripts/extract_pdf_markdown.py | expanded (+7 lines) | ~48 |
+| 14:32 | Created aiWork/translate/out/f001_010.txt | — | ~4216 |
+| 14:32 | Created aiWork/translate/out/f001_028.txt | — | ~4081 |
+| 14:32 | Created aiWork/translate/out/f029_001.txt | — | ~1284 |
+| 14:32 | Created aiWork/translate/out/f052_004.txt | — | ~4155 |
+| 14:32 | Created aiWork/translate/out/f024_002.txt | — | ~1793 |
+| 14:32 | Created aiWork/translate/out/f030_001.txt | — | ~658 |
+| 14:32 | Created aiWork/translate/out/f044_002.txt | — | ~3034 |
+| 14:32 | Created aiWork/translate/out/f031_001.txt | — | ~626 |
+| 14:32 | Created aiWork/translate/out/f001_034.txt | — | ~4074 |
+| 14:32 | Created aiWork/translate/out/f046_002.txt | — | ~717 |
+| 14:32 | Created aiWork/translate/out/f008_001.txt | — | ~3057 |
+| 14:32 | Created aiWork/translate/out/f001_016.txt | — | ~4077 |
+| 14:32 | Created aiWork/translate/out/f002_006.txt | — | ~4927 |
+| 14:32 | Created aiWork/translate/out/f001_041.txt | — | ~4008 |
+| 14:32 | Created aiWork/translate/out/f005_004.txt | — | ~4191 |
+| 14:32 | Created aiWork/translate/out/f021_001.txt | — | ~3914 |
+| 14:32 | Created aiWork/translate/out/f003_002.txt | — | ~3987 |
+| 14:32 | Created aiWork/translate/out/f002_001.txt | — | ~4676 |
+| 14:33 | Created aiWork/translate/out/f040_002.txt | — | ~3151 |
+| 14:33 | Created aiWork/translate/out/f052_005.txt | — | ~2308 |
+| 14:33 | Created aiWork/translate/out/f001_023.txt | — | ~4096 |
+| 14:33 | Created aiWork/translate/out/f001_011.txt | — | ~4110 |
+| 14:33 | Created aiWork/translate/out/f001_029.txt | — | ~4023 |
+| 14:33 | Created aiWork/translate/out/f025_001.txt | — | ~3907 |
+| 14:33 | Created aiWork/translate/out/f009_001.txt | — | ~2301 |
+| 14:33 | Created aiWork/translate/out/f059_003.txt | — | ~487 |
+| 14:33 | Created aiWork/translate/out/f056_002.txt | — | ~702 |
+| 14:33 | Created aiWork/translate/out/f047_001.txt | — | ~4240 |
+| 14:33 | Created aiWork/translate/out/f045_001.txt | — | ~4129 |
+| 14:33 | Created aiWork/translate/out/f001_035.txt | — | ~4054 |
+| 14:33 | Created aiWork/translate/out/f001_042.txt | — | ~4019 |
+| 14:33 | Created aiWork/translate/out/f038_001.txt | — | ~6269 |
+| 14:33 | Created aiWork/translate/out/f047_002.txt | — | ~964 |
+| 14:33 | Created aiWork/translate/out/f006_001.txt | — | ~4646 |
+| 14:33 | Created aiWork/translate/out/f004_001.txt | — | ~4516 |
+| 14:33 | Created aiWork/translate/out/f001_017.txt | — | ~4049 |
+| 14:33 | Created aiWork/translate/out/f002_002.txt | — | ~4390 |
+| 14:33 | Created aiWork/translate/out/f001_024.txt | — | ~3961 |
+| 14:33 | Created aiWork/translate/out/f041_001.txt | — | ~4065 |
+| 14:33 | Created aiWork/translate/out/f048_001.txt | — | ~3281 |
+| 14:34 | Created aiWork/translate/out/f053_001.txt | — | ~5244 |

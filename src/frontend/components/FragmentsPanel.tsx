@@ -96,7 +96,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
           {tr("interface.fragments_show_sources")}</summary>
         <div className="fragments-panel-list">
           <section id={filtersId} className="display-filter-options" aria-label={tr("interface.fragments_filter_heading")}>
-            <h4>{tr("interface.fragments_filter_heading")}{filtersActive ? tr("interface.fragments_filtered_count", { visible_count: filtered.length, characters: totalChars }) : ""}</h4>
+            <h4>{tr("interface.fragments_filter_heading")}{tr("interface.fragments_filtered_count", { visible_count: filtered.length, characters: totalChars })}</h4>
             <p>{tr("interface.fragments_display_filters_hint")}</p>
             <div className="fragments-panel-filters">
               <label className="fragments-panel-filter">

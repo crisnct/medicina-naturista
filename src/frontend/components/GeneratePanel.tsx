@@ -166,8 +166,11 @@ export function GeneratePanel({
               {contextTokens !== undefined && (
                 <small className="generation-model-context">{tr("interface.generate_model_context", { tokens: contextTokens.toLocaleString(locale()) })}</small>
               )}
+              {!effortSupported && !noModels && (
+                <small className="generation-effort-hint">{tr("interface.effort_unsupported_hint")}</small>
+              )}
             </label>
-            <label className="fragments-panel-filter" title={effortSupported ? undefined : tr("interface.effort_unsupported_hint")}>
+            <label className="fragments-panel-filter">
               {tr("interface.generate_effort_label")}<select
                 value={effort}
                 disabled={message.busy || actionsDisabled || noModels || !effortSupported}
@@ -206,9 +209,6 @@ export function GeneratePanel({
           {showLimits && limitsCheck?.notes.map((note) => (
             <p key={note.text} className={note.warning ? "generate-recipe-warning" : "eligible-count"} role="status">{note.text}</p>
           ))}
-          {!effortSupported && !noModels && (
-            <p className="eligible-count">{tr("interface.effort_unsupported_hint")}</p>
-          )}
           {modelRestricted && (
             <p className="generate-recipe-warning" role="status">
               {tr("common.owner_only_generation")}</p>

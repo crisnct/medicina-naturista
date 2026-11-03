@@ -43,9 +43,9 @@ body {
 
 #hero-panel {
     overflow: hidden;
-    border: 1px solid #dce3d8;
+    border: 2px solid #a9c2a3;
     border-radius: 22px;
-    background: #fffef9;
+    background: #eef5e9;
     box-shadow: 0 8px 32px #243b2e08;
     font-family: "Segoe UI",Arial,sans-serif;
     color: #233e33;
@@ -77,10 +77,10 @@ body {
 
 .hero-main {
     display: grid;
-    grid-template-columns: minmax(0,1fr) 190px;
+    grid-template-columns: minmax(0,1fr) 175px;
     gap: 24px;
     align-items: last baseline;
-    padding: 8px 30px 23px;
+    padding: 22px 30px 23px;
 }
 
 .hero-title-block h1 {
@@ -118,24 +118,24 @@ body {
 
 .hero-portrait {
     position: relative;
-    width: 172px;
-    height: 155px;
+    width: 151px;
+    height: 137px;
 }
 
 .hero-portrait::before {
     content:  "";
     position: absolute;
-    inset: 12px 3px 0;
-    border-radius: 95px 95px 45px 45px;
-    background: #eaf0e7;
+    inset: 11px 4px 0;
+    border-radius: 83px 83px 40px 40px;
+    background: #dde9d8;
 }
 
 .hero-doctor {
     position: absolute;
-    left: 0;
+    left: 4px;
     bottom: 0;
-    width: 172px;
-    height: 163px;
+    width: 144px;
+    height: 144px;
     object-fit: contain;
     mask-image: linear-gradient(#000 82%,transparent);
 }
@@ -143,9 +143,9 @@ body {
 .herbs-strip {
     position: absolute;
     bottom: -4px;
-    left: -10px;
-    width: 190px;
-    height: 39px;
+    left: -8px;
+    width: 168px;
+    height: 35px;
     overflow: hidden;
     pointer-events: none;
     opacity: 0.85;
@@ -154,8 +154,8 @@ body {
 .herbs-strip img {
     position: absolute;
     bottom: 0;
-    left: -28px;
-    width: 246px;
+    left: -24px;
+    width: 217px;
     height: auto;
     mask-image: linear-gradient(to top,#000 70%,transparent);
 }
@@ -178,7 +178,8 @@ body {
 .hero-person figcaption span {
     display: block;
     color: #66756b;
-    font-size: 11px;
+    font-size: 13px;
+    font-style: italic;
     font-weight: 400;
     letter-spacing: 0.25px;
 }
@@ -195,7 +196,7 @@ body {
     gap: 16px;
     overflow-anchor: none;
     padding: 24px;
-    border: 1px solid #e1e5db;
+    border: 2px solid #a9c2a3;
     border-radius: 20px;
     background: #fffef9;
     box-shadow: none;
@@ -1385,8 +1386,10 @@ button:disabled { cursor: not-allowed; }
 .generation-model-options .fragments-panel-filter select,
 .generation-model-options .fragments-panel-filter input { min-height: 32px; padding: 4px 8px; }
 .generation-model-options .fragments-panel-filter input { width: 9em; }
-/* Sits directly under the select: the negative margin cancels the label's 8px gap. */
-.generation-model-context { margin: -8px 0 0 16px; font-size: 11px; font-style: italic; font-weight: 400; line-height: 1.2; }
+/* Sits directly under the select: the negative margin cancels most of the label's 8px gap. */
+.generation-model-context { margin: -5px 0 0 10px; font-size: 11px; font-style: italic; font-weight: 400; line-height: 1.2; }
+/* Sits under the Context line on one line; width 0 lets it run past the label without widening it. */
+.generation-effort-hint { width: 0; white-space: nowrap; margin: -4px 0 0 10px; font-size: 11px; font-style: italic; font-weight: 400; line-height: 1.25; }
 .generation-model-options .fragments-panel-filter input[aria-invalid="true"] { border-color: var(--nature-danger, #b3261e); }
 .generation-model-options .fragments-panel-filter input:focus-visible,
 .generation-model-options .fragments-panel-filter select:focus-visible { outline: 2px solid #8a948f; outline-offset: 1px; }
@@ -1452,9 +1455,10 @@ button:disabled { cursor: not-allowed; }
     .hero-person { flex-direction: row; justify-self: start; gap: 10px; }
     .hero-portrait { width: 68px; height: 64px; }
     .hero-portrait::before { inset: 6px 0 0; border-radius: 40px 40px 20px 20px; }
-    .hero-doctor { width: 68px; height: 68px; }
+    .hero-doctor { left: 0; width: 68px; height: 68px; }
     .hero-person figcaption { margin: 0; text-align: left; }
     .hero-person strong { font-size: 14px; }
+    .hero-person figcaption span { font-size: 12px; }
     .hero-portrait .herbs-strip { bottom: -4px; left: -4px; width: 76px; height: 20px; }
     .hero-portrait .herbs-strip img { left: -15px; width: 120px; }
     }
