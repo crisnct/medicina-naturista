@@ -13,6 +13,9 @@ translated: the translation is staged in a temporary file next to the original, 
 atomic replacement then consumes. This destroys the Romanian text, so work on a copy; the
 Romanian corpus under documents/ro is refused. With --output the sources are kept.
 
+Once the content is replaced, the file name and the name of the folder that directly contains
+it are translated too (--keep-names to skip), unless they were produced by an earlier run.
+
 A file with a segment the model cannot translate reliably is not written (the original stays
 intact) unless --allow-partial is given, and the exit code is 1, so an incomplete result is
 never mistaken for a finished one. Progress, percent and an mm:ss ETA are logged every
@@ -63,11 +66,13 @@ SYSTEM_PROMPT = (
     "following Romanian text into English:"
 )
 DEFAULT_PROGRESS_INTERVAL = 10
+MAX_NAME_CHARS = 120
 # Staging files live next to their destination; this prefix also identifies stale ones.
 TEMP_PREFIX = ".translate-"
 DEFAULT_CACHE = Path.home() / ".cache" / "medicina-naturista" / "translate_markdown.jsonl"
 
 _LETTER = re.compile(r"[^\W\d_]")
+_UNSAFE_NAME = re.compile(r'[<>:"/\\|?*\x00-\x1f]')
 _PLACEHOLDER = re.compile(r"\[\[(\d+)\]\]")
 # Spans the model must not touch; each becomes a numbered placeholder and is restored after.
 _PROTECTED = re.compile(
@@ -629,6 +634,78 @@ def translate_file(
     return _digest(data)
 
 
+def _name_key(name: str) -> str:
+    return "name:" + _digest(name.encode())
+
+
+# The .pdf marker stays: extract_pdf_markdown.py names its output <book>.pdf.md.
+def _split_name(name: str, *, is_file: bool) -> tuple[str, str]:
+    if not is_file:
+        return name, ""
+    stem, suffix = (name[:-3], name[-3:]) if name.lower().endswith(".md") else (name, "")
+    if stem.lower().endswith(".pdf"):
+        return stem[:-4], stem[-4:] + suffix
+    return stem, suffix
+
+
+@log_call
+def english_name(
+    name: str, translator: Callable[[str], str], done: PersistentMap, *, is_file: bool
+) -> str:
+    """English form of a file or folder name; `name` itself when it needs or allows no change."""
+    # A name an earlier run produced is already English; translating it again could drift.
+    if done.get(_name_key(name)) is not None:
+        return name
+    stem, tail = _split_name(name, is_file=is_file)
+    translated = " ".join(_UNSAFE_NAME.sub(" ", translator(stem)).split()).strip(" .")
+    # Case-only changes are ignored: on case-insensitive disks they are the same entry.
+    if (
+        not translated
+        or len(translated) > MAX_NAME_CHARS
+        or translated.casefold() == stem.casefold()
+    ):
+        return name
+    return translated + tail
+
+
+@log_call
+def rename_to_english(
+    finished: list[Path],
+    withheld: list[Path],
+    translator: Callable[[str], str],
+    done: PersistentMap,
+) -> None:
+    """Rename finished files, then the folders that directly contain them, deepest first.
+
+    Runs after the contents are published and is idempotent, so a run interrupted here
+    completes on the next start. A folder holding a withheld file keeps its name until that
+    file is done; a name that is already taken is kept rather than overwritten.
+    """
+    directories = {path.parent for path in finished} - {path.parent for path in withheld}
+    for path in finished:
+        candidate = path.with_name(english_name(path.name, translator, done, is_file=True))
+        if candidate == path:
+            continue
+        if candidate.exists():
+            LOGGER.warning("%s already exists; %s keeps its name", candidate, path)
+            continue
+        path.rename(candidate)
+        done.put(_name_key(candidate.name), "")
+        LOGGER.info("renamed file: %s -> %s", path.name, candidate.name)
+    for directory in sorted(directories, key=lambda entry: len(entry.parts), reverse=True):
+        candidate = directory.with_name(
+            english_name(directory.name, translator, done, is_file=False)
+        )
+        if candidate == directory:
+            continue
+        if candidate.exists():
+            LOGGER.warning("%s already exists; %s keeps its name", candidate, directory)
+            continue
+        directory.rename(candidate)
+        done.put(_name_key(candidate.name), "")
+        LOGGER.info("renamed folder: %s -> %s", directory.name, candidate.name)
+
+
 def _host(value: str) -> str:
     value = value.strip().rstrip("/")
     return value if "://" in value else f"http://{value}"
@@ -662,6 +739,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument(
         "--overwrite", action="store_true", help="with --output: replace existing outputs"
+    )
+    parser.add_argument(
+        "--keep-names",
+        action="store_true",
+        help="do not translate file and folder names (in-place mode only)",
     )
     parser.add_argument(
         "--allow-partial",
@@ -729,6 +811,8 @@ def main(argv: list[str] | None = None) -> int:
     logging.getLogger("httpx").setLevel(logging.WARNING)
     in_place = args.output is None
     withheld = 0
+    finished: list[Path] = []
+    failed_files: list[Path] = []
     try:
         jobs = plan_jobs(args.source, args.output)
         if not jobs:
@@ -765,6 +849,7 @@ def main(argv: list[str] | None = None) -> int:
                         source, target, in_place=in_place, overwrite=args.overwrite, done=done
                     ):
                         LOGGER.info("[%s/%s] skip, already done: %s", index, len(jobs), target)
+                        finished.append(source)
                     else:
                         pending.append((index, source, target))
                         translator.plan(
@@ -791,10 +876,14 @@ def main(argv: list[str] | None = None) -> int:
                     )
                     if digest is None:
                         withheld += 1
+                        failed_files.append(source)
                         continue
+                    finished.append(source)
                     if in_place:
                         done.put(digest, "")
                     progress.report()
+                if in_place and not args.keep_names:
+                    rename_to_english(finished, failed_files, translator, done)
     except KeyboardInterrupt:
         LOGGER.error("Interrupted; files already written are complete.")
         return 130
