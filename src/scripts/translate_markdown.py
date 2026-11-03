@@ -445,6 +445,16 @@ class ProgressReporter:
     def output_speed(self) -> float | None:
         return self.output_tokens / self.output_seconds if self.output_seconds > 0 else None
 
+    # Tokens per wall-clock second since the first token, so time spent queued behind another
+    # client counts. The speed above cannot show that: Ollama times only the generation itself.
+    @property
+    def output_throughput(self) -> float | None:
+        generating = self._generating_since
+        if generating is None or self.output_tokens <= 0:
+            return None
+        elapsed = time.monotonic() - generating
+        return self.output_tokens / elapsed if elapsed >= MIN_ETA_SECONDS else None
+
     def advance(self, chars: int) -> None:
         self.done += chars
         self._inflight = 0.0
@@ -476,7 +486,7 @@ class ProgressReporter:
             eta = format_duration((total - done) / (done / (now - generating)))
         waiting = " (waiting for the model's first token)" if generating is None else ""
         LOGGER.info(
-            "progress file=%s/%s %.1f%% (%.0f/%s chars) elapsed=%s eta=%s speed=%s%s",
+            "progress file=%s/%s %.1f%% (%.0f/%s chars) elapsed=%s eta=%s speed=%s throughput=%s%s",
             self.file_index,
             self.file_count,
             100.0 * done / total if total else 100.0,
@@ -485,6 +495,7 @@ class ProgressReporter:
             format_duration(elapsed),
             eta,
             f"{speed:.1f} tok/s" if (speed := self.output_speed) is not None else "-- tok/s",
+            f"{rate:.1f} tok/s" if (rate := self.output_throughput) is not None else "-- tok/s",
             waiting,
         )
 
@@ -1144,7 +1155,7 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
         return 2
     LOGGER.info(
         "done requests=%s largest_request=%s chars cached=%s failures=%s withheld_files=%s "
-        "output_tokens=%s output_speed=%s",
+        "output_tokens=%s output_speed=%s output_throughput=%s",
         translator.requests,
         translator.largest_request,
         translator.cache_hits,
@@ -1152,6 +1163,7 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
         withheld,
         progress.output_tokens,
         f"{speed:.1f} tok/s" if (speed := progress.output_speed) is not None else "n/a",
+        f"{rate:.1f} tok/s" if (rate := progress.output_throughput) is not None else "n/a",
     )
     return 1 if translator.failures or withheld else 0
 
