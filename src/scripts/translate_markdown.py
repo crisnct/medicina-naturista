@@ -17,8 +17,10 @@ Files are handled one at a time: translate and replace; file names are kept. A f
 directly contains Markdown files is renamed to its English name as soon as nothing below it
 is still queued (--keep-names skips that); names an earlier run produced are kept.
 
-The run stops at the first rejected segment (file and line in the message, exit code 1); with
---keep-going it retries the segment instead, and a file with a segment the model cannot
+A refused answer is translated again in smaller pieces (cut at the protected spans, then in
+halves); only a piece refused at the smallest size is a rejection. The run stops at the first
+rejected segment (file and line in the message, exit code 1); with
+--keep-going it leaves the segment in Romanian instead, and a file with a segment the model cannot
 translate reliably is not written (the original stays
 intact) unless --allow-partial is given, and the exit code is 1, so an incomplete result is
 never mistaken for a finished one. Progress, percent and an mm:ss ETA for the whole folder
@@ -80,6 +82,12 @@ CONTEXT_RESERVE = 512
 MIN_ETA_SECONDS = 2.0
 # A request that uses this share of the context window is logged: the next one may not fit.
 CONTEXT_WARNING_RATIO = 0.9
+# A rejected chunk is translated again in smaller pieces; below this size it is refused for good.
+MIN_PIECE_CHARS = 40
+# The answer must keep at least this share of the source length, and not exceed this multiple.
+MIN_OUTPUT_RATIO = 0.4
+MAX_OUTPUT_RATIO = 4
+RATIO_MIN_CHARS = 12
 # After Ctrl+C the worker gets this long to stop at a safe point before the process exits anyway.
 INTERRUPT_GRACE_SECONDS = 5.0
 # A request that makes Ollama load the model for longer than this is worth a warning.
@@ -99,7 +107,7 @@ _PROTECTED = re.compile(
             r"`+[^`\n]+`+",
             r"<!--.*?-->",
             r"</?[A-Za-z][^<>\n]*>",
-            r"https?://[^\s)\]>]+",
+            r"https?://(?:[^\s()\]>]|\([^\s()]*\))+",
             # A formula or unit with Pandoc subscripts or superscripts, as one word: Al~2~Be~3~O~18~,
             # H~2~O, Cr^3+^, m^2^. Given the markup the model rewrites it with Unicode subscripts
             # and may then repeat a blank until the token limit. Strikethrough (~~text~~) is not it.
@@ -136,6 +144,19 @@ class TranslationRejected(RuntimeError):
         super().__init__(f"line {line}: {reason}")
         self.line = line
         self.reason = reason
+
+
+@dataclass(slots=True)
+class _Rejection:
+    """Why one request was refused, kept until no smaller request has succeeded either."""
+
+    request: str
+    reason: str
+    stats: str
+    answer: str | None
+    partial: str | None
+    tail: str | None
+    spans: dict[int, str]
 
 
 class OllamaError(RuntimeError):
@@ -423,6 +444,44 @@ def _attach_link_targets(text: str, targets: dict[int, str]) -> str:
             last = match.end()
     parts.append(text[last:])
     return "".join(parts)
+
+
+# Cuts text at what has to stay verbatim, as (is_verbatim, piece): the [[n]] placeholders and the
+# syntax of links that have a target ("[" and "](target)"), so that only the words between are
+# translated and nothing has to be kept by the model.
+def _split_spans(text: str) -> list[tuple[bool, str]]:
+    verbatim: list[tuple[int, int]] = []
+    opened: list[int] = []
+    skip_until = 0
+    for match in _BRACKET_TOKEN.finditer(text):
+        token = match.group(0)
+        if match.start() < skip_until:
+            continue
+        if token == "[":
+            opened.append(match.start())
+        elif token == "]":
+            if not opened:
+                continue
+            open_at = opened.pop()
+            start = match.end()
+            end = _balanced_end(text, start) if text[start : start + 1] == "(" else None
+            if end is not None:
+                verbatim += [(open_at, open_at + 1), (match.start(), end)]
+                skip_until = end
+        else:
+            verbatim.append((match.start(), match.end()))
+    pieces: list[tuple[bool, str]] = []
+    last = 0
+    for begin, finish in sorted(verbatim):
+        if begin < last:
+            continue
+        if begin > last:
+            pieces.append((False, text[last:begin]))
+        pieces.append((True, text[begin:finish]))
+        last = finish
+    if last < len(text):
+        pieces.append((False, text[last:]))
+    return pieces
 
 
 def _mask(text: str) -> tuple[str, list[str]]:
@@ -764,22 +823,47 @@ class OllamaTranslator:
         if cached is not None:
             self.cache_hits += 1
             return cached
-        # A failure is remembered for this run only; a later run may succeed (other model, retries).
+        # A failure is remembered for this run only; a later run may succeed (other model).
         if key in self._failed:
             return None
+        self._progress.begin()
         stripped, dead = _drop_dead_links(chunk)
         self.dead_links_removed += dead
-        request, targets = _detach_link_targets(stripped)
+        result = self._translate(stripped, track=key in self._planned)
+        if result is None:
+            self._failed.add(key)
+        else:
+            self._cache.put(key, result)
+        # A failed chunk still consumed its time, so it counts as done for the ETA.
+        if key in self._planned:
+            self._progress.advance(len(chunk))
+        return result
+
+    # One piece of text: asked as it is, and when the answer is refused, in smaller pieces. At
+    # temperature 0 a repeated request gets the same answer, so a smaller request is the retry.
+    def _translate(self, text: str, *, track: bool) -> str | None:
+        key = _cache_key(self._model, text)
+        cached = self._cache.get(key)
+        if cached is not None:
+            self.cache_hits += 1
+            return cached
+        outcome = self._ask(text, track=track)
+        result = outcome if isinstance(outcome, str) else self._shrink(text, outcome)
+        if result is not None:
+            self._cache.put(key, result)
+        return result
+
+    def _ask(self, text: str, *, track: bool) -> str | _Rejection:
+        request, targets = _detach_link_targets(text)
         expected = Counter(_PLACEHOLDER.findall(request))
-        self._progress.begin()
-        result = None
-        for attempt in range(1, self._retries + 2):
+        rejection: _Rejection | None = None
+        for _ in range(self._retries + 1):
             self._check_cancelled()
-            output = self._chat(request, track=key in self._planned)
+            output = self._chat(request, track=track)
             reason = (
                 self._rejection(request, output, expected)
                 if output is not None
-                else self._answer.get("why", "no_output")
+                else str(self._answer.get("why", "no_output"))
             )
             # Targets go back after their brackets, so the answer must keep every bracket.
             if reason is None and output is not None and targets:
@@ -787,52 +871,106 @@ class OllamaTranslator:
                 if wanted != found:
                     reason = f"brackets(expected={wanted},found={found})"
             if reason is None and output is not None:
-                result = _attach_link_targets(output, targets)
-                self._cache.put(key, result)
-                break
-            # Counts and the model's own statistics only: the corpus text must not reach the logs.
-            LOGGER.warning(
-                "translation rejected line=%s attempt=%s/%s source_chars=%s reason=%s "
-                "num_ctx=%s %s",
+                return _attach_link_targets(output, targets)
+            rejection = self._snapshot(request, output, str(reason))
+        assert rejection is not None
+        return rejection
+
+    def _snapshot(self, request: str, output: str | None, reason: str) -> _Rejection:
+        partial = self._answer.get("partial")
+        return _Rejection(
+            request=request,
+            reason=reason,
+            # Counts and the model's own statistics only; the text is logged on its own line.
+            stats=" ".join(
+                f"{name}={value}"
+                for name, value in self._answer.items()
+                if name not in ("why", "partial", "tail")
+            ),
+            answer=output,
+            partial=None if partial is None else str(partial),
+            tail=None if partial is None else str(self._answer.get("tail")),
+            spans={int(n): self._protected[int(n)][:60] for n in _PLACEHOLDER.findall(request)},
+        )
+
+    # First the words between what must stay verbatim (placeholders, link syntax), so the model
+    # keeps nothing; then two halves cut at a sentence, clause or word. Each piece is checked on its
+    # own, and a piece that is refused at the smallest size ends the attempt.
+    def _shrink(self, text: str, rejection: _Rejection) -> str | None:
+        pieces = _split_spans(text)
+        if any(verbatim for verbatim, _ in pieces):
+            LOGGER.info(
+                "retrying around %s protected span(s) line=%s reason=%s",
+                sum(verbatim for verbatim, _ in pieces),
                 self._line,
-                attempt,
-                self._retries + 1,
-                len(request),
-                reason,
-                self._num_ctx,
-                " ".join(
-                    f"{name}={value}"
-                    for name, value in self._answer.items()
-                    if name not in ("why", "partial", "tail")
-                ),
+                rejection.reason,
             )
-            if self._log_answers:
-                # The text itself comes from the corpus, hence the opt-out flag.
-                if attempt == 1:
-                    spans = {
-                        int(n): self._protected[int(n)][:60] for n in _PLACEHOLDER.findall(request)
-                    }
-                    LOGGER.warning(
-                        "rejected input line=%s: %r protected=%s", self._line, request[:400], spans
-                    )
-                if output is not None:
-                    LOGGER.warning("rejected answer line=%s: %r", self._line, output[:200])
-                elif "partial" in self._answer:
-                    LOGGER.warning(
-                        "rejected answer (cut off) line=%s: %r ... ends with %r",
-                        self._line,
-                        str(self._answer["partial"])[:200],
-                        self._answer["tail"],
-                    )
-            if self._stop_on_rejection:
-                # At temperature 0 a retry repeats the same request and gets the same answer.
-                raise TranslationRejected(self._line, str(reason))
-        else:
-            self._failed.add(key)
-        # A failed chunk still consumed its time, so it counts as done for the ETA.
-        if key in self._planned:
-            self._progress.advance(len(chunk))
-        return result
+            out: list[str] = []
+            for verbatim, piece in pieces:
+                translated = piece if verbatim else self._translate_piece(piece)
+                if translated is None:
+                    return None
+                out.append(translated)
+            return "".join(out)
+        if len(text) > MIN_PIECE_CHARS:
+            halves = _split(text, len(text) // 2 + 1)
+            if len(halves) > 1:
+                LOGGER.info(
+                    "retrying in %s smaller pieces line=%s reason=%s",
+                    len(halves),
+                    self._line,
+                    rejection.reason,
+                )
+                joined: list[str] = []
+                for separator, part in halves:
+                    translated = self._translate(part, track=False)
+                    if translated is None:
+                        return None
+                    joined.append(separator + translated)
+                return "".join(joined)
+        self._refuse(rejection)
+        return None
+
+    # A piece between verbatim spans; the blanks around it stay, and one without letters is not sent.
+    def _translate_piece(self, piece: str) -> str | None:
+        core = piece.strip()
+        if not core or not _LETTER.search(_PLACEHOLDER.sub("", core)):
+            return piece
+        translated = self._translate(core, track=False)
+        if translated is None:
+            return None
+        leading = piece[: len(piece) - len(piece.lstrip())]
+        return leading + translated + piece[len(piece.rstrip()) :]
+
+    # The one place a rejection is reported: the smallest request that still failed.
+    def _refuse(self, rejection: _Rejection) -> None:
+        LOGGER.warning(
+            "translation rejected line=%s source_chars=%s reason=%s num_ctx=%s %s",
+            self._line,
+            len(rejection.request),
+            rejection.reason,
+            self._num_ctx,
+            rejection.stats,
+        )
+        if self._log_answers:
+            # The text itself comes from the corpus, hence the opt-out flag.
+            LOGGER.warning(
+                "rejected input line=%s: %r protected=%s",
+                self._line,
+                rejection.request[:400],
+                rejection.spans,
+            )
+            if rejection.answer is not None:
+                LOGGER.warning("rejected answer line=%s: %r", self._line, rejection.answer[:200])
+            elif rejection.partial is not None:
+                LOGGER.warning(
+                    "rejected answer (cut off) line=%s: %r ... ends with %r",
+                    self._line,
+                    rejection.partial[:200],
+                    rejection.tail,
+                )
+        if self._stop_on_rejection:
+            raise TranslationRejected(self._line, rejection.reason)
 
     # Why an answer is unusable, or None when it is fine. Names the check and the counts, never
     # the text, so the log can explain a rejection without exposing the corpus.
@@ -843,12 +981,14 @@ class OllamaTranslator:
         found = Counter(_PLACEHOLDER.findall(output))
         if found != expected:
             return f"placeholders(expected={sum(expected.values())},found={sum(found.values())})"
-        # Catches refusals, runaway repetition and answers that drop most of the text.
-        if len(source) >= 40:
+        # Catches refusals, runaway repetition and answers that drop part of the text. Real
+        # translations here keep 0.87 to 1.03 of the source length; below RATIO_MIN_CHARS a
+        # word is too short to judge by length.
+        if len(source) >= RATIO_MIN_CHARS:
             ratio = len(output) / len(source)
-            if ratio < 0.25:
+            if ratio < MIN_OUTPUT_RATIO:
                 return f"too_short(ratio={ratio:.2f})"
-            if ratio > 4:
+            if ratio > MAX_OUTPUT_RATIO:
                 return f"too_long(ratio={ratio:.2f})"
         return None
 
@@ -1224,8 +1364,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--retries",
         type=int,
-        default=2,
-        help="extra attempts for a rejected translation (default: %(default)s)",
+        default=0,
+        help="extra identical requests after a refusal; only a timeout can change (default: %(default)s)",
     )
     parser.add_argument(
         "--timeout",
