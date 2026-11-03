@@ -318,6 +318,10 @@ def _balanced_end(text: str, start: int) -> int | None:
     return None
 
 
+# HTML line breaks are not kept: in text copied from web pages they only separate sentences, and a
+# model asked to keep a placeholder for each of them drops all of them. A run becomes one space.
+_BREAKS = re.compile(r"(?:<br\s*/?>[ \t]*)+", re.IGNORECASE)
+
 _BRACKET_TOKEN = re.compile(r"\[\[\d+\]\]|\[|\]")
 
 
@@ -629,7 +633,7 @@ class ProgressReporter:
 
 # The chunks the model would receive for one text segment, found without calling it.
 def chunks_of(segment: str, max_chars: int) -> list[str]:
-    masked, _ = _mask(_split_remnants(segment.strip())[1])
+    masked, _ = _mask(_split_remnants(_BREAKS.sub(" ", segment).strip())[1])
     if not _LETTER.search(masked):
         return []
     return [chunk for _, chunk in _split(masked, max_chars)]
@@ -695,7 +699,7 @@ class OllamaTranslator:
                 self._progress.total += len(chunk)
 
     def __call__(self, text: str) -> str:
-        head, core, tail = _split_remnants(text.strip())
+        head, core, tail = _split_remnants(_BREAKS.sub(" ", text).strip())
         masked, protected = _mask(core)
         self._protected = protected
         if not _LETTER.search(masked):
