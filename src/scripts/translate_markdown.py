@@ -100,6 +100,10 @@ _PROTECTED = re.compile(
             r"<!--.*?-->",
             r"</?[A-Za-z][^<>\n]*>",
             r"https?://[^\s)\]>]+",
+            # A formula or unit with Pandoc subscripts or superscripts, as one word: Al~2~Be~3~O~18~,
+            # H~2~O, Cr^3+^, m^2^. Given the markup the model rewrites it with Unicode subscripts
+            # and may then repeat a blank until the token limit. Strikethrough (~~text~~) is not it.
+            r"[\w()]*(?:(?:(?<!~)~[^~\s]+~(?!~)|\^[^^\s]+\^)[\w()]*)+",
         )
     )
 )
