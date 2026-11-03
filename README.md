@@ -1426,6 +1426,10 @@ Only prose is sent to the model, under the system prompt “You are a profession
 
 **HTML line breaks.** Every `<br>`, `<br/>` or `<br />` is replaced by a single space (a run of them too), in the file as well: in text copied from web pages they only separate sentences, and a model asked to keep a placeholder for each of them dropped all of them, which got long paragraphs with 17 breaks rejected. Other HTML tags are still protected as placeholders.
 
+**Stray brackets.** A `[` or `]` without its partner, left where a link or a span was cut by a paragraph break, is removed from the text: it carries nothing, and a model drops it, which broke the bracket count that link targets are put back by. Escaped brackets (`\[`, `\]`) are literal text and stay.
+
+**Flattened table rows.** A table row dumped into one line keeps its cells apart with escaped tildes (`branza de burduf\~1400\~180\~920`). Given the whole row the model translated the name and dropped the numbers, which the length check rightly rejected, so a line with two or more `\~` is cut at them, only the cells that contain letters are translated, and the row is joined again with the same separators. A single `\~` is ordinary text and cuts nothing.
+
 **Dead links.** A link that points nowhere, `[text](javascript:void(0))`, `[text](#)` or `[text]()`, as left by pages copied from a browser, is replaced by its text before the request, in the file as well: it carries no information, and a model asked to keep its brackets sometimes drops them, which got whole paragraphs rejected. Images are not touched. The final line reports `dead_links_removed=N`; the original links remain in the Romanian source if you keep a copy.
 
 **Links.** The target of a Markdown link or image, `(url)` after a closing bracket, is balanced by its own parentheses (so `[text](javascript:void(0))` is one target), cut out of the request and put back after the same closing bracket of the answer, because a model given a placeholder for it drops the link or its brackets. The answer must therefore keep every `]` of the segment; otherwise it is rejected as `brackets(expected=N,found=M)`.

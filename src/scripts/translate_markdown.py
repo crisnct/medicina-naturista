@@ -103,7 +103,7 @@ _PROTECTED = re.compile(
             # A formula or unit with Pandoc subscripts or superscripts, as one word: Al~2~Be~3~O~18~,
             # H~2~O, Cr^3+^, m^2^. Given the markup the model rewrites it with Unicode subscripts
             # and may then repeat a blank until the token limit. Strikethrough (~~text~~) is not it.
-            r"[\w()]*(?:(?:(?<!~)~[^~\s]+~(?!~)|\^[^^\s]+\^)[\w()]*)+",
+            r"[\w()]*(?:(?:(?<![~\\])~[^~\s\\]+~(?!~)|\^[^^\s]+\^)[\w()]*)+",
         )
     )
 )
@@ -296,8 +296,30 @@ def _drop_noise(match: re.Match[str]) -> str:
     return "" if after in ("", "\n") else " "
 
 
+_PLAIN_BRACKET = re.compile(r"(?<!\\)[\[\]]")
+
+
+# A bracket without its partner, left where a link or a span was cut by a paragraph break, carries
+# nothing. A model drops it, which breaks the bracket count that link targets are put back by.
+# Escaped brackets (\[ and \]) are literal text and stay.
+def _drop_stray_brackets(text: str) -> str:
+    opened: list[int] = []
+    stray: set[int] = set()
+    for match in _PLAIN_BRACKET.finditer(text):
+        if match.group(0) == "[":
+            opened.append(match.start())
+        elif opened:
+            opened.pop()
+        else:
+            stray.add(match.start())
+    stray.update(opened)
+    if not stray:
+        return text
+    return "".join(char for position, char in enumerate(text) if position not in stray)
+
+
 def _clean(text: str) -> str:
-    return _NOISE.sub(_drop_noise, text).strip()
+    return _drop_stray_brackets(_NOISE.sub(_drop_noise, text)).strip()
 
 
 # A closing bracket that is a bracket of the text, not one of a [[n]] placeholder.
@@ -628,11 +650,21 @@ class ProgressReporter:
 
 
 # The chunks the model would receive for one text segment, found without calling it.
+# A table row flattened into one line keeps its cells apart with escaped tildes: name\~1400\~180.
+# A model given the whole row translates the name and drops the numbers, so the row is cut at the
+# separators, only the cells with letters are translated and the row is joined again. One escaped
+# tilde is ordinary text ("\~5 grame") and does not cut anything.
+def _cells(text: str) -> list[str]:
+    return text.split("\\~") if text.count("\\~") >= 2 else [text]
+
+
 def chunks_of(segment: str, max_chars: int) -> list[str]:
-    masked, _ = _mask(_clean(segment))
-    if not _LETTER.search(masked):
-        return []
-    return [chunk for _, chunk in _split(masked, max_chars)]
+    found: list[str] = []
+    for cell in _cells(_clean(segment)):
+        masked, _ = _mask(cell.strip())
+        if _LETTER.search(masked):
+            found.extend(chunk for _, chunk in _split(masked, max_chars))
+    return found
 
 
 # Every chunk translate_markdown would send for `text`.
@@ -697,11 +729,16 @@ class OllamaTranslator:
                 self._progress.total += len(chunk)
 
     def __call__(self, text: str) -> str:
-        cleaned = _clean(text)
-        masked, protected = _mask(cleaned)
+        return "\\~".join(self._translate_cell(cell) for cell in _cells(_clean(text)))
+
+    # One cell, or the whole text when it is not a flattened row; the blanks around it are kept.
+    def _translate_cell(self, cell: str) -> str:
+        leading = cell[: len(cell) - len(cell.lstrip())]
+        trailing = cell[len(cell.rstrip()) :]
+        masked, protected = _mask(cell.strip())
         self._protected = protected
         if not _LETTER.search(masked):
-            return cleaned
+            return cell
         pieces = []
         for separator, chunk in _split(masked, self._max_chars):
             translated = self._translate_chunk(chunk)
@@ -710,7 +747,7 @@ class OllamaTranslator:
                 self.failures += 1
                 translated = chunk
             pieces.append(separator + translated)
-        return _unmask("".join(pieces), protected)
+        return leading + _unmask("".join(pieces), protected) + trailing
 
     def _translate_chunk(self, chunk: str) -> str | None:
         key = _cache_key(self._model, chunk)
