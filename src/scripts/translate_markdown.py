@@ -650,12 +650,16 @@ class ProgressReporter:
 
 
 # The chunks the model would receive for one text segment, found without calling it.
-# A table row flattened into one line keeps its cells apart with escaped tildes: name\~1400\~180.
-# A model given the whole row translates the name and drops the numbers, so the row is cut at the
-# separators, only the cells with letters are translated and the row is joined again. One escaped
-# tilde is ordinary text ("\~5 grame") and does not cut anything.
+# A table row flattened into one line keeps its cells apart with escaped tildes glued to the text
+# before them: name\~1400\~180, or just two cells, herb\~herbs. A model given the whole row
+# translates the first cell and drops the rest, so the row is cut at the separators, only the cells
+# with letters are translated and the row is joined again. A tilde after a blank is ordinary text
+# ("aproximativ \~5 grame") and cuts nothing.
+_ROW_SEPARATOR = re.compile(r"(?<=\S)\\~")
+
+
 def _cells(text: str) -> list[str]:
-    return text.split("\\~") if text.count("\\~") >= 2 else [text]
+    return _ROW_SEPARATOR.split(text)
 
 
 def chunks_of(segment: str, max_chars: int) -> list[str]:
