@@ -1,4 +1,4 @@
-r"""Translate Markdown files from Romanian to English with a local Ollama model.
+r"""Translate every Markdown file of a folder from Romanian to English with a local Ollama model.
 
 Only prose reaches the model. Front matter, fenced code, HTML comments (the PDF page
 markers), table separators, Markdown markers, inline code and URLs are copied through
@@ -6,20 +6,22 @@ unchanged, so the output keeps the layout of the source. Nothing leaves the mach
 
 Requires a running Ollama with the model pulled: ollama pull translategemma:4b
 
-    PYTHONPATH=src python src/scripts/translate_markdown.py "<file-or-directory>" [-o OUTPUT]
+    PYTHONPATH=src python src/scripts/translate_markdown.py "<folder>" [-o OUTPUT_FOLDER]
 
 Without --output each file is replaced by its translation, and only once the whole file is
 translated: the translation is staged in a temporary file next to the original, which the
 atomic replacement then consumes. This destroys the Romanian text, so work on a copy; the
 Romanian corpus under documents/ro is refused. With --output the sources are kept.
 
-Once the content is replaced, the file name and the name of the folder that directly contains
-it are translated too (--keep-names to skip), unless they were produced by an earlier run.
+Files are handled one at a time: translate, replace, then rename the file to its English
+name. A folder that directly contains Markdown files is renamed as soon as nothing below it
+is still queued (--keep-names skips all renaming); names an earlier run produced are kept.
 
 A file with a segment the model cannot translate reliably is not written (the original stays
 intact) unless --allow-partial is given, and the exit code is 1, so an incomplete result is
-never mistaken for a finished one. Progress, percent and an mm:ss ETA are logged every
---progress-interval seconds (default 10) from a background thread.
+never mistaken for a finished one. Progress, percent and an mm:ss ETA for the whole folder
+(every file still to translate, plus the names) are logged every --progress-interval seconds
+(default 10) from a background thread.
 
 Two JSON-lines files outside the repository (next to --cache, default
 ~/.cache/medicina-naturista/) make a run resumable: accepted segments, so an interrupted run
@@ -391,14 +393,20 @@ class ProgressReporter:
         )
 
 
-# Every chunk translate_markdown would send for `text`, found without calling the model.
+# The chunks the model would receive for one text segment, found without calling it.
+def chunks_of(segment: str, max_chars: int) -> list[str]:
+    masked, _ = _mask(segment.strip())
+    if not _LETTER.search(masked):
+        return []
+    return [chunk for _, chunk in _split(masked, max_chars)]
+
+
+# Every chunk translate_markdown would send for `text`.
 def collect_chunks(text: str, max_chars: int) -> list[str]:
     found: list[str] = []
 
     def probe(segment: str) -> str:
-        masked, _ = _mask(segment.strip())
-        if _LETTER.search(masked):
-            found.extend(chunk for _, chunk in _split(masked, max_chars))
+        found.extend(chunks_of(segment, max_chars))
         return segment
 
     translate_markdown(text, probe)
@@ -553,8 +561,6 @@ def check_model(client: httpx.Client, model: str) -> None:
 
 
 def _markdown_files(source: Path) -> list[Path]:
-    if source.is_file():
-        return [source]
     # Staging files from a killed run match *.md too; they are never sources.
     return [path for path in sorted(source.rglob("*.md")) if not path.name.startswith(TEMP_PREFIX)]
 
@@ -570,27 +576,19 @@ def _reject_romanian_corpus(source: Path) -> None:
 
 @log_call
 def plan_jobs(source: Path, output: Path | None) -> list[tuple[Path, Path]]:
-    """Pair every source with its destination; without --output a file is its own destination."""
+    """Pair every Markdown file under the source folder with its destination (itself in place)."""
     source = source.resolve()
-    if not source.exists():
-        raise ValueError(f"Source not found: {source}")
+    if not source.is_dir():
+        raise ValueError(f"Source must be a folder: {source}")
     if output is None:
         _reject_romanian_corpus(source)
         return [(path, path) for path in _markdown_files(source)]
     target = output.resolve()
-    if source.is_file():
-        if target.is_dir():
-            target = target / source.name
-        jobs = [(source, target)]
-    else:
-        if target.is_file():
-            raise ValueError(f"Output must be a directory for a directory source: {target}")
-        if target == source or target.is_relative_to(source):
-            raise ValueError(f"Output must be outside the source directory: {target}")
-        jobs = [(path, target / path.relative_to(source)) for path in _markdown_files(source)]
-    if any(path == destination for path, destination in jobs):
-        raise ValueError("Output would overwrite the source; omit --output to replace it.")
-    return jobs
+    if target.is_file():
+        raise ValueError(f"Output must be a folder: {target}")
+    if target == source or target.is_relative_to(source):
+        raise ValueError(f"Output must be outside the source folder: {target}")
+    return [(path, target / path.relative_to(source)) for path in _markdown_files(source)]
 
 
 @log_call
@@ -670,40 +668,72 @@ def english_name(
 
 @log_call
 def rename_to_english(
-    finished: list[Path],
-    withheld: list[Path],
-    translator: Callable[[str], str],
-    done: PersistentMap,
-) -> None:
-    """Rename finished files, then the folders that directly contain them, deepest first.
+    path: Path, translator: Callable[[str], str], done: PersistentMap, *, is_file: bool
+) -> Path:
+    """Rename one file or folder to its English name; returns the path it has afterwards.
 
-    Runs after the contents are published and is idempotent, so a run interrupted here
-    completes on the next start. A folder holding a withheld file keeps its name until that
-    file is done; a name that is already taken is kept rather than overwritten.
+    Idempotent, so a run stopped right after publishing a file finishes the rename on the next
+    start. A name that is already taken is kept rather than overwritten.
     """
-    directories = {path.parent for path in finished} - {path.parent for path in withheld}
-    for path in finished:
-        candidate = path.with_name(english_name(path.name, translator, done, is_file=True))
-        if candidate == path:
-            continue
-        if candidate.exists():
-            LOGGER.warning("%s already exists; %s keeps its name", candidate, path)
-            continue
-        path.rename(candidate)
-        done.put(_name_key(candidate.name), "")
-        LOGGER.info("renamed file: %s -> %s", path.name, candidate.name)
-    for directory in sorted(directories, key=lambda entry: len(entry.parts), reverse=True):
-        candidate = directory.with_name(
-            english_name(directory.name, translator, done, is_file=False)
-        )
-        if candidate == directory:
-            continue
-        if candidate.exists():
-            LOGGER.warning("%s already exists; %s keeps its name", candidate, directory)
-            continue
-        directory.rename(candidate)
-        done.put(_name_key(candidate.name), "")
-        LOGGER.info("renamed folder: %s -> %s", directory.name, candidate.name)
+    candidate = path.with_name(english_name(path.name, translator, done, is_file=is_file))
+    if candidate == path:
+        return path
+    kind = "file" if is_file else "folder"
+    if candidate.exists():
+        LOGGER.warning("%s %s already exists; %s keeps its name", kind, candidate, path)
+        return path
+    path.rename(candidate)
+    done.put(_name_key(candidate.name), "")
+    LOGGER.info("renamed %s: %s -> %s", kind, path.name, candidate.name)
+    return candidate
+
+
+class FolderRenamer:
+    """Says when a folder can be renamed: nothing queued below it and none of its files withheld.
+
+    A folder renamed earlier would invalidate the path of every file still queued under it.
+    """
+
+    def __init__(self, root: Path, sources: list[Path]) -> None:
+        self._root = root
+        self._parents = {source.parent for source in sources}
+        self._pending: Counter[Path] = Counter()
+        self._blocked: set[Path] = set()
+        for source in sources:
+            self._pending.update(self._chain(source))
+
+    # The folders from the file's own up to the root, deepest first.
+    def _chain(self, source: Path) -> list[Path]:
+        chain = [source.parent]
+        while chain[-1] != self._root:
+            chain.append(chain[-1].parent)
+        return chain
+
+    def settle(self, source: Path, *, withheld: bool) -> list[Path]:
+        """Record that `source` needs no more work; return the folders now free, deepest first."""
+        if withheld:
+            self._blocked.add(source.parent)
+        free = []
+        for directory in self._chain(source):
+            self._pending[directory] -= 1
+            if (
+                self._pending[directory] == 0
+                and directory in self._parents
+                and directory not in self._blocked
+            ):
+                free.append(directory)
+        return free
+
+
+# Names are part of the work too: planning them keeps the ETA honest on folders of short files.
+def plan_names(
+    translator: OllamaTranslator, done: PersistentMap, sources: list[Path], max_chars: int
+) -> None:
+    names = {(source.name, True) for source in sources}
+    names |= {(source.parent.name, False) for source in sources}
+    for name, is_file in sorted(names):
+        if done.get(_name_key(name)) is None:
+            translator.plan(chunks_of(_split_name(name, is_file=is_file)[0], max_chars))
 
 
 def _host(value: str) -> str:
@@ -722,7 +752,9 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Translate Markdown files from Romanian to English with local Ollama."
     )
-    parser.add_argument("source", type=Path, help="Markdown file or directory (searched for *.md)")
+    parser.add_argument(
+        "source", type=Path, help="folder to translate (searched recursively for *.md)"
+    )
     parser.add_argument(
         "-o",
         "--output",
@@ -811,8 +843,6 @@ def main(argv: list[str] | None = None) -> int:
     logging.getLogger("httpx").setLevel(logging.WARNING)
     in_place = args.output is None
     withheld = 0
-    finished: list[Path] = []
-    failed_files: list[Path] = []
     try:
         jobs = plan_jobs(args.source, args.output)
         if not jobs:
@@ -843,47 +873,65 @@ def main(argv: list[str] | None = None) -> int:
                     retries=args.retries,
                     num_ctx=args.num_ctx,
                 )
-                pending: list[tuple[int, Path, Path]] = []
-                for index, (source, target) in enumerate(jobs, start=1):
-                    if _already_done(
+                todo: set[Path] = set()
+                for source, target in jobs:
+                    if not _already_done(
                         source, target, in_place=in_place, overwrite=args.overwrite, done=done
                     ):
-                        LOGGER.info("[%s/%s] skip, already done: %s", index, len(jobs), target)
-                        finished.append(source)
-                    else:
-                        pending.append((index, source, target))
+                        todo.add(source)
                         translator.plan(
                             collect_chunks(source.read_text(encoding="utf-8-sig"), args.max_chars)
                         )
-                if in_place and pending:
+                rename = in_place and not args.keep_names
+                if rename:
+                    plan_names(translator, done, [source for source, _ in jobs], args.max_chars)
+                    renamer = FolderRenamer(args.source.resolve(), [source for source, _ in jobs])
+                LOGGER.info(
+                    "plan: %s of %s file(s) to translate, %s characters for the model",
+                    len(todo),
+                    len(jobs),
+                    progress.total,
+                )
+                if in_place and todo:
                     LOGGER.warning(
                         "in-place mode: %s file(s) will be replaced by their translation "
                         "once each is complete",
-                        len(pending),
+                        len(todo),
                     )
                 progress.file_count = len(jobs)
                 progress.start()
-                for index, source, target in pending:
+                for index, (source, target) in enumerate(jobs, start=1):
                     progress.file_index = index
-                    LOGGER.info(
-                        "[%s/%s] %s",
-                        index,
-                        len(jobs),
-                        source if in_place else f"{source} -> {target}",
-                    )
-                    digest = translate_file(
-                        source, target, translator, allow_partial=args.allow_partial
-                    )
-                    if digest is None:
-                        withheld += 1
-                        failed_files.append(source)
-                        continue
-                    finished.append(source)
-                    if in_place:
-                        done.put(digest, "")
+                    blocked = False
+                    if source in todo:
+                        LOGGER.info(
+                            "[%s/%s] %s",
+                            index,
+                            len(jobs),
+                            source if in_place else f"{source} -> {target}",
+                        )
+                        digest = translate_file(
+                            source, target, translator, allow_partial=args.allow_partial
+                        )
+                        if digest is None:
+                            withheld += 1
+                            blocked = True
+                        else:
+                            if in_place:
+                                done.put(digest, "")
+                            progress.report()
+                    else:
+                        LOGGER.info("[%s/%s] skip, already done: %s", index, len(jobs), target)
+                    if rename:
+                        if not blocked:
+                            rename_to_english(source, translator, done, is_file=True)
+                        for directory in renamer.settle(source, withheld=blocked):
+                            rename_to_english(directory, translator, done, is_file=False)
+                # The last renames can fall after the final beat, and the planned names of a
+                # withheld file are never needed: close with the figure of the work really done.
+                if progress.total:
+                    progress.total = progress.done
                     progress.report()
-                if in_place and not args.keep_names:
-                    rename_to_english(finished, failed_files, translator, done)
     except KeyboardInterrupt:
         LOGGER.error("Interrupted; files already written are complete.")
         return 130
