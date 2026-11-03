@@ -8,15 +8,21 @@ Requires a running Ollama with the model pulled: ollama pull translategemma:4b
 
     PYTHONPATH=src python src/scripts/translate_markdown.py "<file-or-directory>" [-o OUTPUT]
 
-Default output: documents/ro/... becomes documents/en/...; elsewhere book.md becomes
-book.en.md (a directory becomes <name>.en). Existing outputs are skipped unless --overwrite
-is given. A segment the model cannot translate reliably stays in Romanian and the exit code
-is 1, so an incomplete result is never mistaken for a finished one.
+Without --output each file is replaced by its translation, and only once the whole file is
+translated: the translation is staged in a temporary file next to the original, which the
+atomic replacement then consumes. This destroys the Romanian text, so work on a copy; the
+Romanian corpus under documents/ro is refused. With --output the sources are kept.
 
-Every accepted translation is also appended to a JSON-lines cache outside the repository
-(~/.cache/medicina-naturista/translate_markdown.jsonl; --cache to move it, --no-cache to
-skip it), so an interrupted run resumes at the segment where it stopped. The cache holds
-corpus text: keep it out of git and delete it when the corpus is no longer needed.
+A file with a segment the model cannot translate reliably is not written (the original stays
+intact) unless --allow-partial is given, and the exit code is 1, so an incomplete result is
+never mistaken for a finished one. Progress, percent and an mm:ss ETA are logged every
+--progress-interval seconds (default 10) from a background thread.
+
+Two JSON-lines files outside the repository (next to --cache, default
+~/.cache/medicina-naturista/) make a run resumable: accepted segments, so an interrupted run
+continues at the segment where it stopped, and a digest of every file already replaced, so
+a finished file is never translated twice. They hold corpus text: keep them out of git and
+delete them when the corpus is no longer needed.
 """
 
 from __future__ import annotations
@@ -28,6 +34,7 @@ import logging
 import os
 import re
 import sys
+import threading
 import time
 from collections import Counter
 from collections.abc import Callable
@@ -55,7 +62,9 @@ SYSTEM_PROMPT = (
     "translation, without any additional explanations or commentary. Please translate the "
     "following Romanian text into English:"
 )
-PROGRESS_EVERY = 50
+DEFAULT_PROGRESS_INTERVAL = 10
+# Staging files live next to their destination; this prefix also identifies stale ones.
+TEMP_PREFIX = ".translate-"
 DEFAULT_CACHE = Path.home() / ".cache" / "medicina-naturista" / "translate_markdown.jsonl"
 
 _LETTER = re.compile(r"[^\W\d_]")
@@ -259,8 +268,18 @@ def _cache_key(model: str, chunk: str) -> str:
     return hashlib.sha256(f"{model}\0{SYSTEM_PROMPT}\0{chunk}".encode()).hexdigest()
 
 
-class SegmentCache:
-    """Accepted translations by key, optionally appended to a JSON-lines file as they happen."""
+def _digest(data: bytes) -> str:
+    return hashlib.sha256(data).hexdigest()
+
+
+def format_duration(seconds: float) -> str:
+    """mm:ss; minutes are not wrapped, so 2 h 15 min reads 135:00."""
+    total = max(0, round(seconds))
+    return f"{total // 60:02d}:{total % 60:02d}"
+
+
+class PersistentMap:
+    """String map appended to a JSON-lines file entry by entry, or memory-only without a path."""
 
     def __init__(self, path: Path | None) -> None:
         self._entries: dict[str, str] = {}
@@ -310,6 +329,77 @@ class SegmentCache:
             self._stream = None
 
 
+class ProgressReporter:
+    """Logs percent and ETA on a fixed beat, measured on the text the model must translate."""
+
+    def __init__(self, interval: float) -> None:
+        self._interval = interval
+        self._stop = threading.Event()
+        self._thread: threading.Thread | None = None
+        self._started: float | None = None
+        self.total = 0
+        self.done = 0
+        self.file_index = 0
+        self.file_count = 0
+
+    # The clock starts with the first request, so planning and idle time are not billed.
+    def begin(self) -> None:
+        if self._started is None:
+            self._started = time.monotonic()
+
+    def advance(self, chars: int) -> None:
+        self.done += chars
+
+    # A thread, not a hook on chunk completion: one CPU-bound answer can outlast the interval.
+    def start(self) -> None:
+        self._thread = threading.Thread(target=self._beat, name="progress", daemon=True)
+        self._thread.start()
+
+    def close(self) -> None:
+        self._stop.set()
+        if self._thread is not None:
+            self._thread.join()
+            self._thread = None
+
+    def _beat(self) -> None:
+        while not self._stop.wait(self._interval):
+            if self._started is not None:
+                self.report()
+
+    def report(self) -> None:
+        # Plain int reads from another thread: a one-chunk-stale value is harmless here.
+        done, total, started = self.done, self.total, self._started
+        elapsed = 0.0 if started is None else time.monotonic() - started
+        if started is None or done <= 0:
+            eta = "--:--"
+        else:
+            eta = format_duration((total - done) / (done / max(elapsed, 1e-9)))
+        LOGGER.info(
+            "progress file=%s/%s %.1f%% (%s/%s chars) elapsed=%s eta=%s",
+            self.file_index,
+            self.file_count,
+            100.0 * done / total if total else 100.0,
+            done,
+            total,
+            format_duration(elapsed),
+            eta,
+        )
+
+
+# Every chunk translate_markdown would send for `text`, found without calling the model.
+def collect_chunks(text: str, max_chars: int) -> list[str]:
+    found: list[str] = []
+
+    def probe(segment: str) -> str:
+        masked, _ = _mask(segment.strip())
+        if _LETTER.search(masked):
+            found.extend(chunk for _, chunk in _split(masked, max_chars))
+        return segment
+
+    translate_markdown(text, probe)
+    return found
+
+
 class OllamaTranslator:
     """Callable Romanian-to-English translator with a segment cache and per-chunk validation."""
 
@@ -318,7 +408,8 @@ class OllamaTranslator:
         client: httpx.Client,
         model: str,
         *,
-        cache: SegmentCache,
+        cache: PersistentMap,
+        progress: ProgressReporter,
         max_chars: int,
         retries: int,
         num_ctx: int | None,
@@ -326,6 +417,8 @@ class OllamaTranslator:
         self._client = client
         self._model = model
         self._cache = cache
+        self._progress = progress
+        self._planned: set[str] = set()
         self._failed: set[str] = set()
         self._max_chars = max_chars
         self._retries = retries
@@ -333,7 +426,14 @@ class OllamaTranslator:
         self.requests = 0
         self.cache_hits = 0
         self.failures = 0
-        self._started = time.monotonic()
+
+    def plan(self, chunks: list[str]) -> None:
+        """Count each distinct uncached chunk once, so progress has an honest denominator."""
+        for chunk in chunks:
+            key = _cache_key(self._model, chunk)
+            if key not in self._planned and self._cache.get(key) is None:
+                self._planned.add(key)
+                self._progress.total += len(chunk)
 
     def __call__(self, text: str) -> str:
         source = text.strip()
@@ -360,11 +460,14 @@ class OllamaTranslator:
         if key in self._failed:
             return None
         expected = Counter(_PLACEHOLDER.findall(chunk))
+        self._progress.begin()
+        result = None
         for attempt in range(1, self._retries + 2):
             output = self._chat(chunk)
             if output is not None and self._acceptable(chunk, output, expected):
                 self._cache.put(key, output)
-                return output
+                result = output
+                break
             # Lengths only: the corpus text must not reach the logs.
             LOGGER.warning(
                 "translation rejected attempt=%s/%s source_chars=%s",
@@ -372,8 +475,12 @@ class OllamaTranslator:
                 self._retries + 1,
                 len(chunk),
             )
-        self._failed.add(key)
-        return None
+        else:
+            self._failed.add(key)
+        # A failed chunk still consumed its time, so it counts as done for the ETA.
+        if key in self._planned:
+            self._progress.advance(len(chunk))
+        return result
 
     @staticmethod
     def _acceptable(source: str, output: str, expected: Counter[str]) -> bool:
@@ -402,14 +509,6 @@ class OllamaTranslator:
             "options": options,
         }
         self.requests += 1
-        if self.requests % PROGRESS_EVERY == 0:
-            LOGGER.info(
-                "progress requests=%s cached=%s failures=%s elapsed=%.0fs",
-                self.requests,
-                self.cache_hits,
-                self.failures,
-                time.monotonic() - self._started,
-            )
         try:
             response = self._client.post("/api/chat", json=payload)
         except httpx.TimeoutException:
@@ -448,24 +547,32 @@ def check_model(client: httpx.Client, model: str) -> None:
         raise OllamaError(f"Model {model} is not installed. Run: ollama pull {model}")
 
 
-# The corpus mirrors documents/ro under documents/en; the last such pair wins.
-def default_output(source: Path) -> Path:
-    parts = source.parts
-    for index in range(len(parts) - 1, 0, -1):
-        if parts[index] == "ro" and parts[index - 1] == "documents":
-            return Path(*parts[:index], "en", *parts[index + 1 :])
-    if source.is_dir():
-        return source.with_name(f"{source.name}.en")
-    return source.with_name(f"{source.stem}.en{source.suffix}")
+def _markdown_files(source: Path) -> list[Path]:
+    if source.is_file():
+        return [source]
+    # Staging files from a killed run match *.md too; they are never sources.
+    return [path for path in sorted(source.rglob("*.md")) if not path.name.startswith(TEMP_PREFIX)]
+
+
+# In-place work on the Romanian corpus would put English into documents/ro, which is not in git.
+def _reject_romanian_corpus(source: Path) -> None:
+    if any(a == "documents" and b == "ro" for a, b in zip(source.parts, source.parts[1:])):
+        raise ValueError(
+            "In-place translation would overwrite the Romanian corpus in documents/ro. "
+            "Copy it to documents/en first, or pass --output."
+        )
 
 
 @log_call
 def plan_jobs(source: Path, output: Path | None) -> list[tuple[Path, Path]]:
-    """Pair every source file with its destination, rejecting layouts that overwrite input."""
+    """Pair every source with its destination; without --output a file is its own destination."""
     source = source.resolve()
     if not source.exists():
         raise ValueError(f"Source not found: {source}")
-    target = output.resolve() if output is not None else default_output(source)
+    if output is None:
+        _reject_romanian_corpus(source)
+        return [(path, path) for path in _markdown_files(source)]
+    target = output.resolve()
     if source.is_file():
         if target.is_dir():
             target = target / source.name
@@ -475,23 +582,51 @@ def plan_jobs(source: Path, output: Path | None) -> list[tuple[Path, Path]]:
             raise ValueError(f"Output must be a directory for a directory source: {target}")
         if target == source or target.is_relative_to(source):
             raise ValueError(f"Output must be outside the source directory: {target}")
-        jobs = [(path, target / path.relative_to(source)) for path in sorted(source.rglob("*.md"))]
+        jobs = [(path, target / path.relative_to(source)) for path in _markdown_files(source)]
     if any(path == destination for path, destination in jobs):
-        raise ValueError("Output would overwrite the source; choose another --output.")
+        raise ValueError("Output would overwrite the source; omit --output to replace it.")
     return jobs
 
 
 @log_call
-def translate_file(source: Path, target: Path, translator: OllamaTranslator) -> None:
-    """Translate one file and publish it atomically, so a crash never leaves a half file."""
+def remove_stale_temps(jobs: list[tuple[Path, Path]]) -> None:
+    """Delete staging files a killed run left beside the destinations."""
+    for directory in sorted({target.parent for _, target in jobs}):
+        if directory.is_dir():
+            for stale in sorted(directory.glob(f"{TEMP_PREFIX}*.md")):
+                LOGGER.warning("removing stale temporary file %s", stale)
+                _remove_temp(stale)
+
+
+@log_call
+def translate_file(
+    source: Path, target: Path, translator: OllamaTranslator, *, allow_partial: bool
+) -> str | None:
+    """Translate `source` and publish it as `target` (the same path when in place).
+
+    The staged temporary file is consumed by the atomic replacement and removed on any
+    failure, so neither a half file nor a leftover remains. Returns the SHA-256 of the
+    published bytes, or None when failed segments withheld publication.
+    """
+    before = translator.failures
     translated = translate_markdown(source.read_text(encoding="utf-8-sig"), translator)
-    staged = _temporary_path(target.parent, prefix=".translate-", suffix=".md")
+    failed = translator.failures - before
+    if failed:
+        LOGGER.warning("%s segment(s) could not be translated in %s", failed, source)
+        if not allow_partial:
+            LOGGER.warning(
+                "%s not written; rerun, or pass --allow-partial to keep a partial result", target
+            )
+            return None
+    data = translated.encode("utf-8")
+    staged = _temporary_path(target.parent, prefix=TEMP_PREFIX, suffix=".md")
     try:
-        staged.write_text(translated, encoding="utf-8", newline="\n")
+        staged.write_bytes(data)
         _commit_outputs({target: staged})
     except BaseException:
         _remove_temp(staged)
         raise
+    return _digest(data)
 
 
 def _host(value: str) -> str:
@@ -511,7 +646,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         description="Translate Markdown files from Romanian to English with local Ollama."
     )
     parser.add_argument("source", type=Path, help="Markdown file or directory (searched for *.md)")
-    parser.add_argument("-o", "--output", type=Path, help="output file or directory")
+    parser.add_argument(
+        "-o",
+        "--output",
+        type=Path,
+        help="write translations here and keep the sources (default: replace each source)",
+    )
     parser.add_argument(
         "--model", default=DEFAULT_MODEL, help="Ollama model (default: %(default)s)"
     )
@@ -520,7 +660,14 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=os.environ.get("OLLAMA_HOST", DEFAULT_HOST),
         help="Ollama URL (default: $OLLAMA_HOST or %(default)s)",
     )
-    parser.add_argument("--overwrite", action="store_true", help="replace existing outputs")
+    parser.add_argument(
+        "--overwrite", action="store_true", help="with --output: replace existing outputs"
+    )
+    parser.add_argument(
+        "--allow-partial",
+        action="store_true",
+        help="publish a file even if some segments stayed in Romanian",
+    )
     parser.add_argument(
         "--max-chars",
         type=_positive,
@@ -543,10 +690,18 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--cache",
         type=Path,
         default=DEFAULT_CACHE,
-        help="segment cache file (default: %(default)s)",
+        help="segment cache file; the finished-files list sits next to it (default: %(default)s)",
     )
     parser.add_argument(
-        "--no-cache", action="store_true", help="neither read nor write the on-disk cache"
+        "--no-cache",
+        action="store_true",
+        help="skip the segment cache (the list of finished files is still kept)",
+    )
+    parser.add_argument(
+        "--progress-interval",
+        type=_positive,
+        default=DEFAULT_PROGRESS_INTERVAL,
+        help="seconds between progress lines (default: %(default)s)",
     )
     parser.add_argument("--num-ctx", type=_positive, help="override the model context size")
     parser.add_argument("--debug", action="store_true", help="trace function entry and parameters")
@@ -556,6 +711,15 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     return args
 
 
+def _already_done(
+    source: Path, target: Path, *, in_place: bool, overwrite: bool, done: PersistentMap
+) -> bool:
+    if in_place:
+        # Keyed by content, not path: a finished file is English now and must not be redone.
+        return done.get(_digest(source.read_bytes())) is not None
+    return target.exists() and not overwrite
+
+
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     logging.basicConfig(
@@ -563,10 +727,13 @@ def main(argv: list[str] | None = None) -> int:
         format="%(asctime)s %(levelname)s %(message)s",
     )
     logging.getLogger("httpx").setLevel(logging.WARNING)
+    in_place = args.output is None
+    withheld = 0
     try:
         jobs = plan_jobs(args.source, args.output)
         if not jobs:
             raise ValueError(f"No Markdown files found in {args.source}")
+        remove_stale_temps(jobs)
         # trust_env=False: the daemon is local and must never be reached through a proxy.
         with httpx.Client(
             base_url=_host(args.host),
@@ -574,30 +741,60 @@ def main(argv: list[str] | None = None) -> int:
             trust_env=False,
         ) as client:
             check_model(client, args.model)
-            with closing(SegmentCache(None if args.no_cache else args.cache)) as cache:
+            with (
+                closing(PersistentMap(None if args.no_cache else args.cache)) as cache,
+                closing(
+                    PersistentMap(args.cache.with_suffix(".done.jsonl") if in_place else None)
+                ) as done,
+                closing(ProgressReporter(args.progress_interval)) as progress,
+            ):
                 if cache.loaded:
                     LOGGER.info("cache: %s segments loaded from %s", cache.loaded, args.cache)
                 translator = OllamaTranslator(
                     client,
                     args.model,
                     cache=cache,
+                    progress=progress,
                     max_chars=args.max_chars,
                     retries=args.retries,
                     num_ctx=args.num_ctx,
                 )
+                pending: list[tuple[int, Path, Path]] = []
                 for index, (source, target) in enumerate(jobs, start=1):
-                    if target.exists() and not args.overwrite:
-                        LOGGER.info("[%s/%s] skip, output exists: %s", index, len(jobs), target)
-                        continue
-                    LOGGER.info("[%s/%s] %s -> %s", index, len(jobs), source, target)
-                    before = translator.failures
-                    translate_file(source, target, translator)
-                    if translator.failures > before:
-                        LOGGER.warning(
-                            "%s segment(s) left in Romanian in %s",
-                            translator.failures - before,
-                            target,
+                    if _already_done(
+                        source, target, in_place=in_place, overwrite=args.overwrite, done=done
+                    ):
+                        LOGGER.info("[%s/%s] skip, already done: %s", index, len(jobs), target)
+                    else:
+                        pending.append((index, source, target))
+                        translator.plan(
+                            collect_chunks(source.read_text(encoding="utf-8-sig"), args.max_chars)
                         )
+                if in_place and pending:
+                    LOGGER.warning(
+                        "in-place mode: %s file(s) will be replaced by their translation "
+                        "once each is complete",
+                        len(pending),
+                    )
+                progress.file_count = len(jobs)
+                progress.start()
+                for index, source, target in pending:
+                    progress.file_index = index
+                    LOGGER.info(
+                        "[%s/%s] %s",
+                        index,
+                        len(jobs),
+                        source if in_place else f"{source} -> {target}",
+                    )
+                    digest = translate_file(
+                        source, target, translator, allow_partial=args.allow_partial
+                    )
+                    if digest is None:
+                        withheld += 1
+                        continue
+                    if in_place:
+                        done.put(digest, "")
+                    progress.report()
     except KeyboardInterrupt:
         LOGGER.error("Interrupted; files already written are complete.")
         return 130
@@ -605,12 +802,13 @@ def main(argv: list[str] | None = None) -> int:
         LOGGER.error("%s", exc)
         return 2
     LOGGER.info(
-        "done requests=%s cached=%s failures=%s",
+        "done requests=%s cached=%s failures=%s withheld_files=%s",
         translator.requests,
         translator.cache_hits,
         translator.failures,
+        withheld,
     )
-    return 1 if translator.failures else 0
+    return 1 if translator.failures or withheld else 0
 
 
 if __name__ == "__main__":
