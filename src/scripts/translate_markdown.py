@@ -68,6 +68,11 @@ SYSTEM_PROMPT = (
     "following Romanian text into English:"
 )
 DEFAULT_PROGRESS_INTERVAL = 10
+# A segment of 1800 characters plus its answer needs about 2K tokens; the model's own maximum
+# (131072) would only reserve gigabytes of KV cache that translation never touches.
+DEFAULT_NUM_CTX = 4096
+# Prompt, template and slack on top of the characters that input and answer can occupy.
+CONTEXT_RESERVE = 512
 MAX_NAME_CHARS = 120
 # Staging files live next to their destination; this prefix also identifies stale ones.
 TEMP_PREFIX = ".translate-"
@@ -425,7 +430,7 @@ class OllamaTranslator:
         progress: ProgressReporter,
         max_chars: int,
         retries: int,
-        num_ctx: int | None,
+        num_ctx: int,
     ) -> None:
         self._client = client
         self._model = model
@@ -505,12 +510,11 @@ class OllamaTranslator:
         return len(source) < 40 or 0.25 <= len(output) / len(source) <= 4
 
     def _chat(self, chunk: str) -> str | None:
-        options: dict[str, float | int] = {
+        options = {
             "temperature": 0,
             "num_predict": len(chunk) // 2 + 256,
+            "num_ctx": self._num_ctx,
         }
-        if self._num_ctx is not None:
-            options["num_ctx"] = self._num_ctx
         payload = {
             "model": self._model,
             "stream": False,
@@ -817,11 +821,20 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=DEFAULT_PROGRESS_INTERVAL,
         help="seconds between progress lines (default: %(default)s)",
     )
-    parser.add_argument("--num-ctx", type=_positive, help="override the model context size")
+    parser.add_argument(
+        "--num-ctx",
+        type=_positive,
+        default=DEFAULT_NUM_CTX,
+        help="model context size in tokens (default: %(default)s)",
+    )
     parser.add_argument("--debug", action="store_true", help="trace function entry and parameters")
     args = parser.parse_args(argv)
     if args.retries < 0:
         parser.error("--retries must not be negative")
+    # Input and answer together can reach --max-chars tokens in the worst case (about one
+    # character per token), so a larger segment would be truncated silently by the model.
+    if args.max_chars + CONTEXT_RESERVE > args.num_ctx:
+        parser.error(f"--num-ctx must be at least --max-chars + {CONTEXT_RESERVE}")
     return args
 
 
