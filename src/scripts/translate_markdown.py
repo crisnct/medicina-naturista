@@ -1012,8 +1012,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument(
         "--log-rejected-answers",
-        action="store_true",
-        help="also log the first 200 characters of each rejected answer (derived from the text)",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="log the first 200 characters of each rejected answer; it is derived from the "
+        "text, so --no-log-rejected-answers turns it off (default: on)",
     )
     parser.add_argument("--debug", action="store_true", help="trace function entry and parameters")
     args = parser.parse_args(argv)
