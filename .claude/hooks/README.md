@@ -65,9 +65,19 @@ Refuses any Bash command that would create a commit or publish history:
 `git commit`, `merge`, `revert`, `cherry-pick`, `am`, `rebase`, `push`. Exit code 2
 blocks the tool call and shows the agent the reason.
 
-**Rationale.** Committing is a judgement call about what belongs in the project's
-history, and it is the user's to make. The agent does the work in the working tree and
-stops; the user reviews `git status`/`git diff` and commits.
+**Exception: the agent's own `claude/*` branch.** When `HEAD` is a `claude/*` branch,
+`git commit` and a non-destructive `git push` pass, so the agent can publish its work for a
+pull request. The push must target the current branch or a `claude/*` ref. Still blocked
+there: `--force`/`-f`, `--delete`/`-d`, `--mirror`, `--all`, `--tags`, `--prune`,
+`--no-verify`, `+refspec`, any non-`claude/*` target, git global options (`-C`, `-c`,
+`--git-dir`) that could aim the command elsewhere, and a `checkout`/`switch`/`reset`
+chained in the same command (the branch is read before the command runs). Every blocked
+verb in a chain must qualify, so `git commit ... && git push --force` is refused.
+`merge`, `revert`, `cherry-pick`, `am` and `rebase` stay blocked everywhere.
+
+**Rationale.** Committing to the project's shared history is a judgement call that is the
+user's to make. Outside a `claude/*` branch the agent does the work in the working tree
+and stops; the user reviews `git status`/`git diff` and commits.
 
 **Still allowed:** everything read-only or local-only — `status`, `diff`, `log`, `show`,
 `add`, `stash`, `branch`, `checkout`. Staging is permitted so an agent can still prepare
@@ -89,8 +99,8 @@ Self-test:
 echo '{"tool_input":{"command":"git commit -m x"}}' | node .claude/hooks/block-git-commit.js; echo "exit=$?"
 ```
 
-Expect `exit=2` with an explanation on stderr; `git status` should give `exit=0` and no
-output.
+Expect `exit=2` on any branch that is not `claude/*` (and for `git rebase main` on every
+branch) with an explanation on stderr; `git status` should give `exit=0` and no output.
 
 ## `ruff-format-check.js`
 
