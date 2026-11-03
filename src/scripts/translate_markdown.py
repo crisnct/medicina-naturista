@@ -38,6 +38,7 @@ import json
 import logging
 import os
 import re
+import signal
 import sys
 import threading
 import time
@@ -96,7 +97,6 @@ _PROTECTED = re.compile(
             r"`+[^`\n]+`+",
             r"<!--.*?-->",
             r"</?[A-Za-z][^<>\n]*>",
-            r"(?<=\]\()[^)\n]*(?=\))",
             r"https?://[^\s)\]>]+",
             # What is left of an image whose path was removed: !{width="0.11458333in" height="0.1in"}.
             # Only these: a span such as [text]{.underline} is kept as is, because the model drops
@@ -298,6 +298,66 @@ def _split_remnants(text: str) -> tuple[str, str, str]:
         end, trimmed = start, True
     tail_start = head_end + len(text[head_end:end].rstrip()) if trimmed else len(text)
     return text[:head_end], text[head_end:tail_start], text[tail_start:]
+
+
+# A closing bracket that is a bracket of the text, not one of a [[n]] placeholder.
+_BRACKET = re.compile(r"\[\[\d+\]\]|\]")
+
+
+# The index just past the ")" that balances the "(" at `start`, or None. Targets such as
+# javascript:void(0) contain parentheses of their own, which a pattern cannot match.
+def _balanced_end(text: str, start: int) -> int | None:
+    depth = 0
+    for position in range(start, min(len(text), start + 2000)):
+        char = text[position]
+        if char == "\n":
+            return None
+        depth += (char == "(") - (char == ")")
+        if depth == 0:
+            return position + 1
+    return None
+
+
+# Link targets never reach the model: given a placeholder it drops the link or its brackets, and
+# the answer is rejected. Each "(target)" that follows a closing bracket is cut out and remembered
+# by the index of that bracket, to be put back after the same bracket of the answer.
+def _detach_link_targets(text: str) -> tuple[str, dict[int, str]]:
+    parts: list[str] = []
+    targets: dict[int, str] = {}
+    last = 0
+    index = -1
+    for match in _BRACKET.finditer(text):
+        if match.group(0) != "]" or match.start() < last:
+            continue
+        index += 1
+        start = match.end()
+        end = _balanced_end(text, start) if text[start : start + 1] == "(" else None
+        if end is not None:
+            parts.append(text[last:start])
+            targets[index] = text[start:end]
+            last = end
+    parts.append(text[last:])
+    return "".join(parts), targets
+
+
+def _count_brackets(text: str) -> int:
+    return sum(1 for match in _BRACKET.finditer(text) if match.group(0) == "]")
+
+
+def _attach_link_targets(text: str, targets: dict[int, str]) -> str:
+    parts: list[str] = []
+    last = 0
+    index = -1
+    for match in _BRACKET.finditer(text):
+        if match.group(0) != "]":
+            continue
+        index += 1
+        if index in targets:
+            parts.append(text[last : match.end()])
+            parts.append(targets[index])
+            last = match.end()
+    parts.append(text[last:])
+    return "".join(parts)
 
 
 def _mask(text: str) -> tuple[str, list[str]]:
@@ -579,6 +639,7 @@ class OllamaTranslator:
         self._timeout = timeout
         self._log_answers = log_answers
         self._line: int | None = None
+        self._protected: list[str] = []
         self.requests = 0
         self.cache_hits = 0
         self.failures = 0
@@ -597,6 +658,7 @@ class OllamaTranslator:
     def __call__(self, text: str) -> str:
         head, core, tail = _split_remnants(text.strip())
         masked, protected = _mask(core)
+        self._protected = protected
         if not _LETTER.search(masked):
             return text
         pieces = []
@@ -618,20 +680,26 @@ class OllamaTranslator:
         # A failure is remembered for this run only; a later run may succeed (other model, retries).
         if key in self._failed:
             return None
-        expected = Counter(_PLACEHOLDER.findall(chunk))
+        request, targets = _detach_link_targets(chunk)
+        expected = Counter(_PLACEHOLDER.findall(request))
         self._progress.begin()
         result = None
         for attempt in range(1, self._retries + 2):
             self._check_cancelled()
-            output = self._chat(chunk, track=key in self._planned)
+            output = self._chat(request, track=key in self._planned)
             reason = (
-                self._rejection(chunk, output, expected)
+                self._rejection(request, output, expected)
                 if output is not None
                 else self._answer.get("why", "no_output")
             )
+            # Targets go back after their brackets, so the answer must keep every bracket.
+            if reason is None and output is not None and targets:
+                wanted, found = _count_brackets(request), _count_brackets(output)
+                if wanted != found:
+                    reason = f"brackets(expected={wanted},found={found})"
             if reason is None and output is not None:
-                self._cache.put(key, output)
-                result = output
+                result = _attach_link_targets(output, targets)
+                self._cache.put(key, result)
                 break
             # Counts and the model's own statistics only: the corpus text must not reach the logs.
             LOGGER.warning(
@@ -640,16 +708,24 @@ class OllamaTranslator:
                 self._line,
                 attempt,
                 self._retries + 1,
-                len(chunk),
+                len(request),
                 reason,
                 self._num_ctx,
                 " ".join(
                     f"{name}={value}" for name, value in self._answer.items() if name != "why"
                 ),
             )
-            if self._log_answers and output is not None:
-                # Opt-in: the model's own answer is derived from the corpus text.
-                LOGGER.warning("rejected answer line=%s: %r", self._line, output[:200])
+            if self._log_answers:
+                # The text itself comes from the corpus, hence the opt-out flag.
+                if attempt == 1:
+                    spans = {
+                        int(n): self._protected[int(n)][:60] for n in _PLACEHOLDER.findall(request)
+                    }
+                    LOGGER.warning(
+                        "rejected input line=%s: %r protected=%s", self._line, request[:400], spans
+                    )
+                if output is not None:
+                    LOGGER.warning("rejected answer line=%s: %r", self._line, output[:200])
         else:
             self._failed.add(key)
         # A failed chunk still consumed its time, so it counts as done for the ETA.
@@ -1228,29 +1304,34 @@ def main(argv: list[str] | None = None) -> int:
         except BaseException as exc:
             failure.append(exc)
 
-    # The work runs in a thread because on Windows a blocking network read cannot be
-    # interrupted by Ctrl+C; the main thread only sleeps in short steps, which can.
-    worker = threading.Thread(target=work, name="translate", daemon=True)
-    worker.start()
-    try:
-        while worker.is_alive():
-            worker.join(0.2)
-    except KeyboardInterrupt:
+    def on_interrupt(signum: int, frame: object) -> None:
+        if cancel.is_set():
+            # Second Ctrl+C: leave at once, with no exception and no traceback.
+            logging.shutdown()
+            os._exit(130)
+        cancel.set()
         LOGGER.warning(
             "Ctrl+C: stopping at the next safe point (at most %.0f s; press again to exit now)",
             INTERRUPT_GRACE_SECONDS,
         )
-        cancel.set()
-        try:
-            worker.join(INTERRUPT_GRACE_SECONDS)
-        except KeyboardInterrupt:
-            pass
-        if worker.is_alive():
-            # Stuck in a read with no data (model loading); finished files and cached segments
-            # are already on disk, and a stale staging file is removed at the next start.
-            LOGGER.error("Stopped without waiting for Ollama; the segment in flight is lost.")
-            logging.shutdown()
-            os._exit(130)
+
+    signal.signal(signal.SIGINT, on_interrupt)
+    # The work runs in a thread because on Windows a blocking network read cannot be
+    # interrupted by Ctrl+C; the main thread only waits in short steps, which can.
+    worker = threading.Thread(target=work, name="translate", daemon=True)
+    worker.start()
+    deadline: float | None = None
+    while worker.is_alive():
+        worker.join(0.2)
+        if cancel.is_set():
+            deadline = deadline or time.monotonic() + INTERRUPT_GRACE_SECONDS
+            if time.monotonic() >= deadline and worker.is_alive():
+                # Stuck in a read with no data (model loading); finished files and cached
+                # segments are already on disk, and a stale staging file is removed at the
+                # next start.
+                LOGGER.error("Stopped without waiting for Ollama; the segment in flight is lost.")
+                logging.shutdown()
+                os._exit(130)
     if failure:
         raise failure[0]
     return outcome[0]
