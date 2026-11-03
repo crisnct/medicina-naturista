@@ -17,7 +17,9 @@ Files are handled one at a time: translate and replace; file names are kept. A f
 directly contains Markdown files is renamed to its English name as soon as nothing below it
 is still queued (--keep-names skips that); names an earlier run produced are kept.
 
-A file with a segment the model cannot translate reliably is not written (the original stays
+The run stops at the first rejected segment (file and line in the message, exit code 1); with
+--keep-going it retries the segment instead, and a file with a segment the model cannot
+translate reliably is not written (the original stays
 intact) unless --allow-partial is given, and the exit code is 1, so an incomplete result is
 never mistaken for a finished one. Progress, percent and an mm:ss ETA for the whole folder
 (every file still to translate, plus the names) are logged every --progress-interval seconds
@@ -98,10 +100,6 @@ _PROTECTED = re.compile(
             r"<!--.*?-->",
             r"</?[A-Za-z][^<>\n]*>",
             r"https?://[^\s)\]>]+",
-            # What is left of an image whose path was removed: !{width="0.11458333in" height="0.1in"}.
-            # Only these: a span such as [text]{.underline} is kept as is, because the model drops
-            # the placeholder that replaces it and the answer is then rejected.
-            r"!\{[^{}\n]*\}",
         )
     )
 )
@@ -125,6 +123,15 @@ _PIPE = re.compile(r"(?<!\\)\|")
 _HEADING = re.compile(r"^( {0,3}#{1,6}[ \t]+)(.*)$")
 _LIST_ITEM = re.compile(r"^(\s*(?:[-*+]|\d{1,9}[.)])[ \t]+(?:\[[ xX]\][ \t]+)?)(.*)$")
 _QUOTE = re.compile(r"^(\s{0,3}(?:>[ \t]?)+)(.*)$")
+
+
+class TranslationRejected(RuntimeError):
+    """A segment failed validation and the run stops at the first one (see --keep-going)."""
+
+    def __init__(self, line: int | None, reason: str) -> None:
+        super().__init__(f"line {line}: {reason}")
+        self.line = line
+        self.reason = reason
 
 
 class OllamaError(RuntimeError):
@@ -273,31 +280,14 @@ def translate_markdown(
     return "\n".join(out)
 
 
-_REMNANT = r"!\{[^{}\n]*\}"
-_LEADING_REMNANT = re.compile(rf"\s*{_REMNANT}")
-_BRACES_OR_NEWLINE = re.compile(r"[{}\n]")
+# What is left of an image whose path was removed: !{width="0.11458333in" height="0.1in"}. It is
+# only noise, and a model asked to keep a placeholder for it drops it, so it is removed, together
+# with the blanks before it.
+_REMNANTS = re.compile(r"[ \t]*!\{[^{}\n]*\}")
 
 
-# Image remnants at either end of a segment never reach the model: asked to keep a placeholder
-# for them it drops it and the answer is rejected. They are put back unchanged afterwards.
-# Linear in the text: a backtracking pattern anchored at the end would be quadratic.
-def _split_remnants(text: str) -> tuple[str, str, str]:
-    position = 0
-    while match := _LEADING_REMNANT.match(text, position):
-        position = match.end()
-    head_end = len(text) - len(text[position:].lstrip()) if position else 0
-    end = len(text)
-    trimmed = False
-    while True:
-        stop = head_end + len(text[head_end:end].rstrip())
-        if stop <= head_end or text[stop - 1] != "}":
-            break
-        start = text.rfind("!{", head_end, stop)
-        if start == -1 or _BRACES_OR_NEWLINE.search(text, start + 2, stop - 1):
-            break
-        end, trimmed = start, True
-    tail_start = head_end + len(text[head_end:end].rstrip()) if trimmed else len(text)
-    return text[:head_end], text[head_end:tail_start], text[tail_start:]
+def _clean(text: str) -> str:
+    return _BREAKS.sub(" ", _REMNANTS.sub("", text)).strip()
 
 
 # A closing bracket that is a bracket of the text, not one of a [[n]] placeholder.
@@ -633,7 +623,7 @@ class ProgressReporter:
 
 # The chunks the model would receive for one text segment, found without calling it.
 def chunks_of(segment: str, max_chars: int) -> list[str]:
-    masked, _ = _mask(_split_remnants(_BREAKS.sub(" ", segment).strip())[1])
+    masked, _ = _mask(_clean(segment))
     if not _LETTER.search(masked):
         return []
     return [chunk for _, chunk in _split(masked, max_chars)]
@@ -667,6 +657,7 @@ class OllamaTranslator:
         num_ctx: int,
         timeout: float,
         log_answers: bool = False,
+        stop_on_rejection: bool = False,
     ) -> None:
         self._client = client
         self._model = model
@@ -680,6 +671,7 @@ class OllamaTranslator:
         self._num_ctx = num_ctx
         self._timeout = timeout
         self._log_answers = log_answers
+        self._stop_on_rejection = stop_on_rejection
         self._line: int | None = None
         self._protected: list[str] = []
         self.requests = 0
@@ -699,11 +691,11 @@ class OllamaTranslator:
                 self._progress.total += len(chunk)
 
     def __call__(self, text: str) -> str:
-        head, core, tail = _split_remnants(_BREAKS.sub(" ", text).strip())
-        masked, protected = _mask(core)
+        cleaned = _clean(text)
+        masked, protected = _mask(cleaned)
         self._protected = protected
         if not _LETTER.search(masked):
-            return text
+            return cleaned
         pieces = []
         for separator, chunk in _split(masked, self._max_chars):
             translated = self._translate_chunk(chunk)
@@ -712,7 +704,7 @@ class OllamaTranslator:
                 self.failures += 1
                 translated = chunk
             pieces.append(separator + translated)
-        return head + _unmask("".join(pieces), protected) + tail
+        return _unmask("".join(pieces), protected)
 
     def _translate_chunk(self, chunk: str) -> str | None:
         key = _cache_key(self._model, chunk)
@@ -771,6 +763,9 @@ class OllamaTranslator:
                     )
                 if output is not None:
                     LOGGER.warning("rejected answer line=%s: %r", self._line, output[:200])
+            if self._stop_on_rejection:
+                # At temperature 0 a retry repeats the same request and gets the same answer.
+                raise TranslationRejected(self._line, str(reason))
         else:
             self._failed.add(key)
         # A failed chunk still consumed its time, so it counts as done for the ETA.
@@ -1144,6 +1139,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="do not translate folder names (in-place mode only)",
     )
     parser.add_argument(
+        "--keep-going",
+        action="store_true",
+        help="do not stop at the first rejected segment: retry it, leave it in Romanian, go on",
+    )
+    parser.add_argument(
         "--allow-partial",
         action="store_true",
         help="publish a file even if some segments stayed in Romanian",
@@ -1219,6 +1219,7 @@ def _already_done(
 def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
     in_place = args.output is None
     withheld = 0
+    current: Path | None = None
     try:
         jobs = plan_jobs(args.source, args.output)
         if not jobs:
@@ -1250,6 +1251,7 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
                     num_ctx=args.num_ctx,
                     timeout=args.timeout,
                     log_answers=args.log_rejected_answers,
+                    stop_on_rejection=not args.keep_going,
                     cancel=cancel,
                 )
                 todo: set[Path] = set()
@@ -1282,6 +1284,7 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
                 for index, (source, target) in enumerate(jobs, start=1):
                     progress.file_index = index
                     blocked = False
+                    current = source
                     if source in todo:
                         LOGGER.info(
                             "[%s/%s] %s",
@@ -1312,6 +1315,15 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
     except KeyboardInterrupt:
         LOGGER.error("Interrupted; files already written are complete.")
         return 130
+    except TranslationRejected as exc:
+        LOGGER.error(
+            "Stopped at the first rejected segment: %s, line %s, reason %s. Nothing was written "
+            "for this file; fix the text and run again, or pass --keep-going.",
+            current,
+            exc.line,
+            exc.reason,
+        )
+        return 1
     except (OllamaError, ValueError, OSError) as exc:
         LOGGER.error("%s", exc)
         return 2
