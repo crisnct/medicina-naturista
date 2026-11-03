@@ -105,7 +105,6 @@ function findBlocked(command) {
     .replace(/'[^']*'/g, " ")
     .replace(/"[^"]*"/g, " ");
 
-  const hits = [];
   for (const segment of unquoted.split(/\|\||&&|[;|&\n]/)) {
     const words = segment.trim().split(/\s+/).filter(Boolean);
     const start = words.findIndex((w) => w === "git" || w.endsWith("/git"));
