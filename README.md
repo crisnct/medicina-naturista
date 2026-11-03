@@ -368,6 +368,7 @@ medicina-naturista/
 │   │   ├── evaluate_retrieval.py     # measuring search quality (P@10, MRR, nDCG)
 │   │   ├── google_oauth_setup.py     # Gmail OAuth2 authorization
 │   │   ├── extract_pdf_markdown.py   # structured extraction to Markdown
+│   │   ├── translate_markdown.py     # RO → EN Markdown translation with local Ollama (translategemma)
 │   │   └── merge_book_pdfs.py        # merging book parts from PDFs
 │   └── tests/                    # unit and integration tests
 ├── docker-compose.yaml
@@ -1402,6 +1403,23 @@ Useful options:
 The JSON report describes the extraction (the method used for each page: `text`, `vision` or `ocr`, and why a scanned page's layer was rejected) and the per-page warnings. The Markdown and the report are prepared before the results are replaced; if publishing fails, the script tries to restore the previous versions and keeps the recovery copies if restoration is blocked. Destinations that coincide with the source, including hardlinks, are rejected. OCR rendering is limited to 64 megapixels per page; reduce `--dpi` for very large pages. Check the titles, tables and degraded scans: the structure is inferred heuristically, and OCR errors are not corrected semantically.
 
 `src/scripts/merge_book_pdfs.py` merges the fragments `pag<first>-<last>.pdf` and straightens each page in memory, using PyMuPDF for all PDF operations. Each fragment is opened only once; the page count is checked during merging, and mismatches and missing ranges produce warnings. Overlapping ranges are rejected, including on direct calls from Python. It performs no OCR and generates no intermediate images. By default, the final PDF is saved in the project root (`D:\Workspace\medicina-naturista` in the current checkout), with the source folder's name and the `.pdf` extension; the destination is computed from the script's location, regardless of the directory it is launched from. `--output-dir` changes the destination, and `--deskew off` disables straightening. `--debug` enables logging the entry into each explicit function/method, with named parameters and large objects summarized. Progress is displayed at `INFO` level. The final PDF is verified before the atomic replacement of the destination; the sources, including aliases/hardlinks, are protected against overwriting.
+
+### Translating Markdown sources (RO → EN)
+
+`src/scripts/translate_markdown.py` translates Markdown files from Romanian to English with the local Ollama model `translategemma:4b` (`ollama pull translategemma:4b`), so the text never leaves the machine. It uses `httpx`, already a project dependency, and the Ollama native `/api/chat` endpoint at `$OLLAMA_HOST` (default `http://localhost:11434`).
+
+```powershell
+$env:PYTHONPATH = 'src'
+.\.venv\Scripts\python.exe src\scripts\translate_markdown.py "medicina-naturista-documente\data\documents\ro\Surse sigure\book"
+```
+
+The source can be a file or a directory (searched recursively for `*.md`). By default `documents/ro/...` is mirrored into `documents/en/...`; elsewhere `book.md` becomes `book.en.md`. `-o` sets another destination, existing outputs are skipped unless `--overwrite` is given, and the output can never be inside or equal to the source.
+
+Only prose is sent to the model, under the system prompt “You are a professional Romanian (ro) to English (en) translator…”, at temperature 0. YAML front matter, fenced code, HTML comments (including the `<!-- Pagina PDF N -->` markers), horizontal rules, table separators, reference definitions, inline code, link targets and bare URLs are copied unchanged; heading, list and quote markers are re-attached after translation and table cells are translated one by one. Long paragraphs are split at sentence boundaries (`--max-chars`, default 1800), and identical segments are translated once.
+
+Every answer is validated (protected spans intact, sane length, not truncated) and retried (`--retries`, default 2). A segment that still fails stays in Romanian, a warning with its length (never its text) is logged, and the exit code is `1`; `2` means Ollama is unreachable or the model is missing. Files are published atomically one at a time, so an interrupted run leaves only complete files, and a re-run skips the finished ones.
+
+Every accepted segment is also appended to a JSON-lines cache, flushed per entry, at `~/.cache/medicina-naturista/translate_markdown.jsonl` (outside the repository; `--cache PATH` moves it, `--no-cache` disables it). An interrupted run therefore resumes at the segment where it stopped, even in the middle of a long book, and a second language-model pass is never paid for identical text. The key is the hash of the model, the system prompt and the segment, so changing the model or the prompt starts clean; failures are never cached. `--overwrite` reuses cached segments too: to force a fresh translation, delete the cache or add `--no-cache`. The cache holds corpus text, so it is created readable by the owner only, must not be placed inside the repository, and should be deleted when no longer needed. Run one translation at a time per cache file. Machine translation is a draft: review the English sources before indexing them, as the translation quality of a 4B model has not been measured here.
 
 ## 📜 License
 
