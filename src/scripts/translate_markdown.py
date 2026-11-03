@@ -73,6 +73,8 @@ DEFAULT_PROGRESS_INTERVAL = 10
 DEFAULT_NUM_CTX = 4096
 # Prompt, template and slack on top of the characters that input and answer can occupy.
 CONTEXT_RESERVE = 512
+# Shorter measurements of the generation speed are too noisy to show as an ETA.
+MIN_ETA_SECONDS = 2.0
 MAX_NAME_CHARS = 120
 # Staging files live next to their destination; this prefix also identifies stale ones.
 TEMP_PREFIX = ".translate-"
@@ -369,13 +371,19 @@ class PersistentMap:
 
 
 class ProgressReporter:
-    """Logs percent and ETA on a fixed beat, measured on the text the model must translate."""
+    """Logs percent and ETA on a fixed beat, measured on the text the model must translate.
+
+    Progress moves with every streamed token, not only when a segment ends, and the speed
+    behind the ETA is measured from the first token, so model loading is not billed to it.
+    """
 
     def __init__(self, interval: float) -> None:
         self._interval = interval
         self._stop = threading.Event()
         self._thread: threading.Thread | None = None
         self._started: float | None = None
+        self._generating_since: float | None = None
+        self._inflight = 0.0
         self.total = 0
         self.done = 0
         self.file_index = 0
@@ -386,8 +394,18 @@ class ProgressReporter:
         if self._started is None:
             self._started = time.monotonic()
 
+    def token(self) -> None:
+        if self._generating_since is None:
+            self._generating_since = time.monotonic()
+
+    # The answer is about as long as the source, so its length so far estimates the share of
+    # the segment already translated; advance() replaces the estimate with the exact figure.
+    def set_inflight(self, chars: float) -> None:
+        self._inflight = chars
+
     def advance(self, chars: int) -> None:
         self.done += chars
+        self._inflight = 0.0
 
     # A thread, not a hook on chunk completion: one CPU-bound answer can outlast the interval.
     def start(self) -> None:
@@ -406,15 +424,17 @@ class ProgressReporter:
                 self.report()
 
     def report(self) -> None:
-        # Plain int reads from another thread: a one-chunk-stale value is harmless here.
-        done, total, started = self.done, self.total, self._started
-        elapsed = 0.0 if started is None else time.monotonic() - started
-        if started is None or done <= 0:
-            eta = "--:--"
-        else:
-            eta = format_duration((total - done) / (done / max(elapsed, 1e-9)))
+        # Plain reads from another thread: a one-token-stale value is harmless here.
+        now = time.monotonic()
+        total, started, generating = self.total, self._started, self._generating_since
+        done = min(self.done + self._inflight, float(total)) if total else float(self.done)
+        elapsed = 0.0 if started is None else now - started
+        eta = "--:--"
+        if generating is not None and done > 0 and now - generating >= MIN_ETA_SECONDS:
+            eta = format_duration((total - done) / (done / (now - generating)))
+        waiting = " (waiting for the model's first token)" if generating is None else ""
         LOGGER.info(
-            "progress file=%s/%s %.1f%% (%s/%s chars) elapsed=%s eta=%s",
+            "progress file=%s/%s %.1f%% (%.0f/%s chars) elapsed=%s eta=%s%s",
             self.file_index,
             self.file_count,
             100.0 * done / total if total else 100.0,
@@ -422,6 +442,7 @@ class ProgressReporter:
             total,
             format_duration(elapsed),
             eta,
+            waiting,
         )
 
 
@@ -509,7 +530,7 @@ class OllamaTranslator:
         self._progress.begin()
         result = None
         for attempt in range(1, self._retries + 2):
-            output = self._chat(chunk)
+            output = self._chat(chunk, track=key in self._planned)
             if output is not None and self._acceptable(chunk, output, expected):
                 self._cache.put(key, output)
                 result = output
@@ -537,7 +558,7 @@ class OllamaTranslator:
         # Catches refusals, runaway repetition and answers that drop most of the text.
         return len(source) < 40 or 0.25 <= len(output) / len(source) <= 4
 
-    def _chat(self, chunk: str) -> str | None:
+    def _chat(self, chunk: str, *, track: bool) -> str | None:
         options = {
             "temperature": 0,
             "num_predict": len(chunk) // 2 + 256,
@@ -545,7 +566,7 @@ class OllamaTranslator:
         }
         payload = {
             "model": self._model,
-            "stream": False,
+            "stream": True,
             "keep_alive": "10m",
             "messages": [
                 {"role": "system", "content": SYSTEM_PROMPT},
@@ -555,24 +576,50 @@ class OllamaTranslator:
         }
         self.requests += 1
         self.largest_request = max(self.largest_request, len(chunk))
+        self._progress.set_inflight(0.0)
         try:
-            response = self._client.post("/api/chat", json=payload)
+            with self._client.stream("POST", "/api/chat", json=payload) as response:
+                if response.status_code != 200:
+                    response.read()
+                    raise OllamaError(
+                        f"Ollama answered HTTP {response.status_code}: {response.text[:200]}"
+                    )
+                content, truncated = self._read_stream(response, len(chunk), track=track)
         except httpx.TimeoutException:
             return None
         except httpx.TransportError as exc:
             raise OllamaError(f"Ollama connection lost ({type(exc).__name__}).") from exc
-        if response.status_code != 200:
-            raise OllamaError(f"Ollama answered HTTP {response.status_code}: {response.text[:200]}")
-        try:
-            data = response.json()
-            content = str(data["message"]["content"]).strip()
-            truncated = data.get("done_reason") == "length"
-        except (ValueError, KeyError, TypeError) as exc:
-            raise OllamaError("Unexpected response format from Ollama.") from exc
         if truncated:
             return None
         wrapped = _WRAPPING_FENCE.match(content)
         return wrapped.group(1).strip() if wrapped and "```" not in chunk else content
+
+    # Newline-delimited JSON; every line carries a piece of the answer, the last one the reason.
+    def _read_stream(
+        self, response: httpx.Response, source_chars: int, *, track: bool
+    ) -> tuple[str, bool]:
+        parts: list[str] = []
+        length = 0
+        truncated = False
+        try:
+            for line in response.iter_lines():
+                if not line:
+                    continue
+                data = json.loads(line)
+                if "error" in data:
+                    raise OllamaError(f"Ollama error: {str(data['error'])[:200]}")
+                piece = str(data["message"]["content"])
+                if piece:
+                    parts.append(piece)
+                    length += len(piece)
+                    self._progress.token()
+                    if track:
+                        self._progress.set_inflight(min(length, source_chars))
+                if data.get("done"):
+                    truncated = data.get("done_reason") == "length"
+        except (ValueError, KeyError, TypeError) as exc:
+            raise OllamaError("Unexpected response format from Ollama.") from exc
+        return "".join(parts).strip(), truncated
 
 
 @log_call
