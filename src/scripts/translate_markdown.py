@@ -262,20 +262,47 @@ def _unmask(text: str, protected: list[str]) -> str:
     return _PLACEHOLDER.sub(lambda match: protected[int(match.group(1))], text)
 
 
-# Sentence-packed chunks, each with the whitespace that preceded it in the source.
-def _split(text: str, limit: int) -> list[tuple[str, str]]:
-    parts = re.split(r"(?<=[.!?…])(\s+)", text)
-    chunks = [("", parts[0])]
-    for separator, sentence in zip(parts[1::2], parts[2::2], strict=True):
-        before, current = chunks[-1]
-        if len(current) + len(separator) + len(sentence) <= limit:
-            chunks[-1] = (before, current + separator + sentence)
+_BOUNDARIES = (
+    re.compile(r"(?<=[.!?…])(\s+)"),
+    re.compile(r"(?<=[,;:])(\s+)"),
+    re.compile(r"(\s+)"),
+)
+
+
+# Alternating text and separator with every text at most `limit` long. Sentence boundaries
+# come first, then clauses, then words; only a single word longer than the limit is cut.
+def _fit(text: str, limit: int, level: int = 0) -> list[str]:
+    if len(text) <= limit:
+        return [text]
+    if level == len(_BOUNDARIES):
+        cuts = [text[start : start + limit] for start in range(0, len(text), limit)]
+        return [part for cut in cuts for part in (cut, "")][:-1]
+    parts = _BOUNDARIES[level].split(text)
+    if len(parts) == 1:
+        return _fit(text, limit, level + 1)
+    fitted: list[str] = []
+    for index, part in enumerate(parts):
+        if index % 2:
+            fitted.append(part)
         else:
-            chunks.append((separator, sentence))
+            fitted.extend(_fit(part, limit, level + 1))
+    return fitted
+
+
+# Chunks of at most `limit` characters, each with the whitespace that preceded it in the source.
+# The limit is the contract with the model context: no request may exceed it.
+def _split(text: str, limit: int) -> list[tuple[str, str]]:
+    parts = _fit(text, limit)
+    chunks = [("", parts[0])]
+    for separator, piece in zip(parts[1::2], parts[2::2], strict=True):
+        before, current = chunks[-1]
+        if len(current) + len(separator) + len(piece) <= limit:
+            chunks[-1] = (before, current + separator + piece)
+        else:
+            chunks.append((separator, piece))
     return chunks
 
 
-# The model and prompt are part of the key: changing either must not serve stale translations.
 def _cache_key(model: str, chunk: str) -> str:
     return hashlib.sha256(f"{model}\0{SYSTEM_PROMPT}\0{chunk}".encode()).hexdigest()
 
@@ -444,6 +471,7 @@ class OllamaTranslator:
         self.requests = 0
         self.cache_hits = 0
         self.failures = 0
+        self.largest_request = 0
 
     def plan(self, chunks: list[str]) -> None:
         """Count each distinct uncached chunk once, so progress has an honest denominator."""
@@ -526,6 +554,7 @@ class OllamaTranslator:
             "options": options,
         }
         self.requests += 1
+        self.largest_request = max(self.largest_request, len(chunk))
         try:
             response = self._client.post("/api/chat", json=payload)
         except httpx.TimeoutException:
@@ -952,8 +981,9 @@ def main(argv: list[str] | None = None) -> int:
         LOGGER.error("%s", exc)
         return 2
     LOGGER.info(
-        "done requests=%s cached=%s failures=%s withheld_files=%s",
+        "done requests=%s largest_request=%s chars cached=%s failures=%s withheld_files=%s",
         translator.requests,
+        translator.largest_request,
         translator.cache_hits,
         translator.failures,
         withheld,
