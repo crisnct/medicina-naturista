@@ -23,6 +23,7 @@ from backend.core.report_models import (
     ReportEffort,
     ReportModel,
     parse_report_models,
+    request_context_tokens,
 )
 from backend.core.score_formula import DEFAULT_FORMULA, compile_formula
 
@@ -127,7 +128,7 @@ def _ollama_output_limits(value: str | None) -> Mapping[ReportModel, int]:
     defaults = {
         model: spec.max_output_tokens
         for model, spec in REPORT_MODELS.items()
-        if spec.provider == "ollama" and spec.max_output_tokens is not None
+        if spec.provider == "ollama"
     }
     if not value or not value.strip():
         return _freeze_ollama_output_limits(defaults)
@@ -324,8 +325,7 @@ class Settings:
     message_classification_timeout_seconds: int = 10
     message_classification_max_output_tokens: int = 300
     ai_stream: bool = False
-    ai_max_output_tokens: int = 20000
-    ai_read_timeout_seconds: int = 300
+    ai_read_timeout_seconds: int = 720
     session_idle_seconds: int = 3600
     session_max_seconds: int = 14400
     max_chat_chars: int = 4000
@@ -501,8 +501,7 @@ class Settings:
                 "MESSAGE_CLASSIFICATION_MAX_OUTPUT_TOKENS", 300, env=env
             ),
             ai_stream=_bool("REPORT_GENERATION_AI_STREAM", False, env=env),
-            ai_max_output_tokens=_int("REPORT_GENERATION_MAX_OUTPUT_TOKENS", 20000, env=env),
-            ai_read_timeout_seconds=_int("REPORT_GENERATION_READ_TIMEOUT_SECONDS", 300, env=env),
+            ai_read_timeout_seconds=_int("REPORT_GENERATION_READ_TIMEOUT_SECONDS", 720, env=env),
             session_idle_seconds=_int("SESSION_IDLE_SECONDS", 3600, env=env),
             session_max_seconds=_int("SESSION_MAX_SECONDS", 14400, env=env),
             max_chat_chars=_int("MAX_CHAT_CHARS", 4000, env=env),
@@ -594,21 +593,19 @@ class Settings:
             if (
                 spec.provider == "ollama"
                 and spec.context_tokens is not None
-                and outputs.get(model, self.ai_max_output_tokens) >= spec.context_tokens
+                and outputs.get(model, spec.max_output_tokens) >= spec.context_tokens
             ):
                 raise ValueError("Ollama output token limit must be smaller than its context")
         object.__setattr__(self, "ollama_max_output_tokens_by_model", outputs)
         # Every active model must keep room for its input after the default output.
         for model in self.report_generation_models:
-            output = (
-                outputs.get(model, self.ai_max_output_tokens)
-                if REPORT_MODELS[model].provider == "ollama"
-                else self.ai_max_output_tokens
-            )
-            if contexts[model] - output < MIN_REPORT_INPUT_TOKENS:
+            output = outputs.get(model, REPORT_MODELS[model].max_output_tokens)
+            # The configured default may run batches in parallel, which use only part of it.
+            context = request_context_tokens(model, contexts[model], self.report_batch_workers)
+            if context - output < MIN_REPORT_INPUT_TOKENS:
                 raise ValueError(
                     f"The output token limit of {model} ({output}) leaves fewer than "
-                    f"{MIN_REPORT_INPUT_TOKENS} input tokens in its context ({contexts[model]})"
+                    f"{MIN_REPORT_INPUT_TOKENS} input tokens in its context ({context})"
                 )
         for name in ("ai_stream", "log_fragment_text", "log_ai_response_text", "cookie_secure"):
             if not isinstance(getattr(self, name), bool):
@@ -773,7 +770,6 @@ class Settings:
             "condition_ai_max_output_tokens",
             "message_classification_timeout_seconds",
             "message_classification_max_output_tokens",
-            "ai_max_output_tokens",
             "ai_read_timeout_seconds",
             "log_fragment_text_max_chars",
             "session_idle_seconds",

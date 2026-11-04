@@ -6,6 +6,7 @@ context only bounds I/O and rejects late results; it cannot kill Python threads.
 
 from __future__ import annotations
 
+import threading
 from collections.abc import Callable, Iterator
 from contextlib import contextmanager
 from contextvars import ContextVar
@@ -61,6 +62,41 @@ _batch_index: ContextVar[int | None] = ContextVar("report_batch_index", default=
 _batch_stopped: ContextVar[Callable[[], bool] | None] = ContextVar(
     "report_batch_stopped", default=None
 )
+
+
+class ReportUsage:
+    """The largest output one request of a report consumed; batches report from several threads."""
+
+    def __init__(self) -> None:
+        self._lock = threading.Lock()
+        self._max_output_tokens = 0
+
+    def add(self, output_tokens: int) -> None:
+        with self._lock:
+            self._max_output_tokens = max(self._max_output_tokens, output_tokens)
+
+    @property
+    def max_output_tokens(self) -> int | None:
+        return self._max_output_tokens or None
+
+
+_report_usage: ContextVar[ReportUsage | None] = ContextVar("report_usage", default=None)
+
+
+@contextmanager
+def report_usage_scope(usage: ReportUsage) -> Iterator[None]:
+    token = _report_usage.set(usage)
+    try:
+        yield
+    finally:
+        _report_usage.reset(token)
+
+
+# Requests outside a report (classifiers, condition lookup) have no scope and record nothing.
+def record_report_output_tokens(output_tokens: int) -> None:
+    usage = _report_usage.get()
+    if usage is not None:
+        usage.add(output_tokens)
 
 
 _report_effort: ContextVar[ReportEffort | None] = ContextVar("report_effort", default=None)

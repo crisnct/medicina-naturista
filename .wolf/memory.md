@@ -2830,3 +2830,83 @@ description: chronological action log per session, consolidated weekly
 | 06:13 | Edited src/scripts/translate_markdown.py | 4→6 lines | ~70 |
 | 06:13 | Edited src/scripts/translate_markdown.py | "for this file; fix the te" → "for this file; fix the te" | ~25 |
 | 06:13 | Edited src/scripts/translate_markdown.py | "A segment failed validati" → "A segment failed validati" | ~26 |
+| 09:34 | Edited src/backend/ai/client.py | modified _parse_json_object() | ~146 |
+| 10:45 | Edited docker-compose.yaml | 8→8 lines | ~152 |
+| 11:02 | Edited src/backend/ai/client.py | 6→8 lines | ~129 |
+| 11:02 | Edited src/backend/resources/texts.ro.toml | "Loturi cu un singur fragm" → "Loturi cu un singur fragm" | ~35 |
+| 11:02 | Edited src/backend/resources/texts.en.toml | "Batches with a single exc" → "Batches with a single exc" | ~35 |
+| 11:02 | Edited src/frontend/api/types.ts | inline fix | ~27 |
+| 11:34 | Edited src/frontend/components/GenerationBatchEstimate.tsx | modified tr() | ~45 |
+| 11:34 | Edited src/frontend/lib/texts.generated.ts | — | ~0 |
+| 11:34 | Edited src/backend/resources/texts.ro.toml | — | ~0 |
+| 11:34 | Edited src/backend/resources/texts.en.toml | — | ~0 |
+| 11:34 | Edited src/backend/core/text_contract.py | — | ~0 |
+| 11:46 | Edited src/backend/resources/texts.ro.toml | inline fix | ~50 |
+| 11:46 | Edited src/backend/resources/texts.en.toml | inline fix | ~45 |
+| 11:51 | Edited src/backend/core/report_models.py | 2→4 lines | ~52 |
+| 11:51 | Edited src/backend/core/report_models.py | 2→3 lines | ~40 |
+| 11:51 | Edited src/backend/config.py | 2→1 lines | ~11 |
+| 11:51 | Edited src/backend/config.py | — | ~0 |
+| 11:51 | Edited src/backend/config.py | 3→2 lines | ~24 |
+| 11:51 | Edited src/backend/config.py | 4→4 lines | ~37 |
+| 11:51 | Edited src/backend/config.py | inline fix | ~25 |
+| 11:51 | Edited src/backend/config.py | 5→1 lines | ~23 |
+| 11:52 | Edited src/backend/ai/providers.py | modified default_max_output_tokens() | ~399 |
+| 11:52 | Edited src/backend/ai/providers.py | 1→6 lines | ~38 |
+| 11:52 | Edited src/backend/ai/providers.py | removed 9 lines | ~8 |
+| 11:52 | Edited src/backend/ai/providers.py | — | ~0 |
+| 11:55 | Edited src/backend/resources/texts.en.toml | "Max output tokens" → "Max output tokens per bat" | ~16 |
+| 11:55 | Edited src/backend/resources/texts.ro.toml | "Tokeni max. de ieșire" → "Tokeni max. de ieșire per" | ~17 |
+| 12:11 | Edited src/backend/ai/client.py | 2→4 lines | ~47 |
+| 12:11 | Edited src/backend/ai/client.py | 2→4 lines | ~51 |
+| 12:11 | Edited src/backend/ai/client.py | added error handling | ~650 |
+| 12:12 | Edited src/backend/ai/client.py | 8→6 lines | ~66 |
+| 12:17 | Created src/backend/migrations/041_report_metrics_batch_output_tokens.sql | — | ~172 |
+| 12:17 | Edited src/backend/core/operation_context.py | modified __init__() | ~318 |
+| 12:17 | Edited src/backend/core/operation_context.py | added 1 import(s) | ~18 |
+| 12:17 | Edited src/backend/ai/client.py | modified isinstance() | ~53 |
+| 12:17 | Edited src/backend/ai/client.py | 1→2 lines | ~19 |
+| 12:17 | Edited src/backend/core/report_metrics.py | modified recommend_output_tokens() | ~250 |
+| 12:17 | Edited src/backend/core/report_metrics.py | modified __post_init__() | ~219 |
+| 12:18 | Edited src/backend/persistence/report_metrics.py | modified recommend_output_tokens() | ~545 |
+| 12:18 | Edited src/backend/persistence/report_metrics.py | 5→7 lines | ~54 |
+| 12:18 | Edited src/backend/core/contracts.py | modified __call__() | ~58 |
+| 12:18 | Edited src/backend/core/contracts.py | 1→5 lines | ~41 |
+| 12:18 | Edited src/backend/web/dependencies.py | 2→3 lines | ~19 |
+| 12:18 | Edited src/backend/web/dependencies.py | 2→3 lines | ~38 |
+| 12:18 | Edited src/backend/web/main.py | 1→2 lines | ~49 |
+| 12:18 | Edited src/backend/web/main.py | modified ReportOutputRecommendationResponse() | ~103 |
+| 12:18 | Edited src/backend/web/main.py | added error handling | ~426 |
+| 12:18 | Edited src/backend/core/conversation.py | expanded (+6 lines) | ~44 |
+| 12:18 | Edited src/backend/core/conversation.py | 3→4 lines | ~70 |
+| 12:18 | Edited src/backend/core/conversation.py | 2→3 lines | ~47 |
+| 12:19 | Edited src/backend/core/text_contract.py | 2→4 lines | ~52 |
+| 12:19 | Edited src/backend/resources/texts.en.toml | 2→4 lines | ~103 |
+| 12:19 | Edited src/backend/resources/texts.ro.toml | 2→4 lines | ~104 |
+| 12:19 | Edited src/frontend/lib/texts.generated.ts | expanded (+7 lines) | ~56 |
+| 12:19 | Edited src/frontend/api/types.ts | expanded (+8 lines) | ~84 |
+| 12:19 | Edited src/frontend/api/client.ts | 1→5 lines | ~103 |
+| 12:19 | Edited src/frontend/api/client.ts | 2→3 lines | ~21 |
+| 12:19 | Edited docker-compose.yaml | 2→3 lines | ~82 |
+| 12:19 | Edited docker-compose.yaml | 3→3 lines | ~31 |
+| 12:19 | Created src/frontend/hooks/useOutputRecommendation.ts | — | ~444 |
+| 12:19 | Edited src/frontend/components/GeneratePanel.tsx | CSS: effort, generationId | ~294 |
+| 12:20 | Edited src/frontend/components/GeneratePanel.tsx | 1→4 lines | ~94 |
+| 12:20 | Edited src/frontend/components/GeneratePanel.tsx | 2→1 lines | ~13 |
+| 12:20 | Edited src/frontend/components/GeneratePanel.tsx | inline fix | ~17 |
+| 12:20 | Edited src/frontend/components/GeneratePanel.tsx | CSS: tokens, tokens, count | ~168 |
+| 12:20 | Edited src/frontend/components/GeneratePanel.tsx | added 1 import(s) | ~37 |
+| 12:22 | Edited src/backend/core/report_models.py | 2→3 lines | ~56 |
+| 13:30 | Edited docker-compose.yaml | 3→3 lines | ~58 |
+| 13:30 | Edited docker-compose.yaml | 2→3 lines | ~23 |
+| 13:49 | Edited src/backend/core/report_models.py | 2→5 lines | ~85 |
+| 13:49 | Edited src/backend/core/report_models.py | 2→6 lines | ~52 |
+| 13:50 | Edited src/backend/core/report_models.py | modified request_context_tokens() | ~117 |
+| 13:50 | Edited src/backend/ai/providers.py | 1→4 lines | ~48 |
+| 13:50 | Edited src/backend/ai/providers.py | 2→4 lines | ~75 |
+| 13:50 | Edited src/backend/core/contracts.py | 3→4 lines | ~47 |
+
+## Session: 2026-11-04 14:34
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|

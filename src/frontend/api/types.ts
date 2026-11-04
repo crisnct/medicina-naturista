@@ -74,6 +74,8 @@ export interface ReportModelsResponse {
   effortModels?: ReportModel[];
   // The model's context window, and the effort the panel starts with for it.
   contextTokens?: Partial<Record<ReportModel, number>>;
+  // What one request may use while batches run in parallel; the whole context with 0 parallel batches.
+  parallelContextTokens?: Partial<Record<ReportModel, number>>;
   defaultEfforts?: Partial<Record<ReportModel, ReportEffort>>;
   // Generation limits and their configured defaults; sent to the admin only.
   batchMaxTokens?: Partial<Record<ReportModel, number>>;
@@ -106,6 +108,7 @@ export interface GenerationLimitDefaults {
 
 export interface ReportModelDetails {
   contextTokens: Partial<Record<ReportModel, number>>;
+  parallelContextTokens: Partial<Record<ReportModel, number>>;
   defaultEfforts: Partial<Record<ReportModel, ReportEffort>>;
 }
 
@@ -117,10 +120,18 @@ export interface ReportDurationEstimate {
   sampleCount: number;
 }
 
+export interface ReportOutputRecommendation {
+  model: ReportModel;
+  effort?: ReportEffort | null;
+  // Per-batch output limit the measured reports would have fitted; null without enough data.
+  recommendedTokens: number | null;
+  sampleCount: number;
+}
+
 export interface ReportBatchEstimate {
   searchId: string;
   batches: number;
-  // Batches whose single fragment is over the input limit by itself.
+  // Batches whose single fragment is over the model's context (minus the output) by itself.
   oversizedBatches: number;
   inputTokens: number;
 }

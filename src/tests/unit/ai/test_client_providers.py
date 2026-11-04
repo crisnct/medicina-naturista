@@ -52,8 +52,7 @@ PINNED = dict(
     ollama_model="deepseek-v4.1-flash:cloud",
     ollama_api_base="http://localhost:11434/v1",
     ai_stream=False,
-    ai_max_output_tokens=20000,
-    ai_read_timeout_seconds=300,
+    ai_read_timeout_seconds=720,
 )
 
 

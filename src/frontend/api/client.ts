@@ -15,6 +15,7 @@ import type {
   ReportModelsResponse,
   ReportBatchEstimate,
   ReportDurationEstimate,
+  ReportOutputRecommendation,
   SearchSignals,
   SendMessageResponse,
   SessionResponse,
@@ -113,10 +114,15 @@ export const api = {
     request<ReportDurationEstimate>(`/api/report-duration-estimate?${new URLSearchParams({ model, characters: String(characters), ...(effort ? { effort } : {}) })}`, {
       signal: AbortSignal.any([signal, AbortSignal.timeout(5000)]),
     }),
+  getReportOutputRecommendation: (model: ReportModel, effort: ReportEffort | undefined, signal: AbortSignal) =>
+    request<ReportOutputRecommendation>(`/api/report-output-recommendation?${new URLSearchParams({ model, ...(effort ? { effort } : {}) })}`, {
+      signal: AbortSignal.any([signal, AbortSignal.timeout(5000)]),
+    }),
   getReportBatchEstimate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort | undefined, limits: Partial<GenerationLimits> | undefined, signal: AbortSignal) => {
     const query = new URLSearchParams({ model, minScore: String(minScore) });
     if (effort) query.set("effort", effort);
     if (limits?.batchMaxTokens !== undefined) query.set("batchMaxTokens", String(limits.batchMaxTokens));
+    if (limits?.batchWorkers !== undefined) query.set("batchWorkers", String(limits.batchWorkers));
     if (limits?.maxOutputTokens !== undefined) query.set("maxOutputTokens", String(limits.maxOutputTokens));
     return request<ReportBatchEstimate>(`/api/searches/${encodeURIComponent(searchId)}/report-batches?${query}`, {
       signal: AbortSignal.any([signal, AbortSignal.timeout(10000)]),

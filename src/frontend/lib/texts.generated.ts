@@ -134,6 +134,13 @@ export const TEXT_PARAMETERS = {
     "maximum"
   ],
   "interface.generate_output_tokens_label": [],
+  "interface.generate_output_recommended": [
+    "tokens",
+    "count"
+  ],
+  "interface.generate_output_below_recommended": [
+    "tokens"
+  ],
   "interface.generate_tokens_invalid": [],
   "interface.generate_tokens_too_large": [
     "maximum"
@@ -155,7 +162,6 @@ export const TEXT_PARAMETERS = {
   "interface.generate_output_low": [
     "threshold"
   ],
-  "interface.generate_batches_all_separate": [],
   "interface.generate_batches_oversized": [
     "count"
   ],

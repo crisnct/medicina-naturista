@@ -21,7 +21,7 @@ export function GenerationBatchEstimate({
   // Undefined for models without an effort control.
   effort?: ReportEffort;
   // The admin's typed limits; undefined keeps the configured ones.
-  limits?: Pick<GenerationLimits, "batchMaxTokens" | "maxOutputTokens">;
+  limits?: Pick<GenerationLimits, "batchMaxTokens" | "batchWorkers" | "maxOutputTokens">;
   // Undefined while the search's fragments are unknown to the page.
   eligibleCount?: number;
   // False while a typed limit is not a usable number.
@@ -58,10 +58,8 @@ export function GenerationBatchEstimate({
   else if (result.data === null) value = tr("interface.estimate_temporarily_unavailable");
   else value = String(result.data.batches);
   const data = ask && result?.key === key ? result.data : null;
-  const warning = data === null ? undefined
-    : data.oversizedBatches > 0 ? tr("interface.generate_batches_oversized", { count: data.oversizedBatches })
-    : data.batches > 1 && eligibleCount !== undefined && data.batches === eligibleCount ? tr("interface.generate_batches_all_separate")
-    : undefined;
+  const warning = data !== null && data.oversizedBatches > 0
+    ? tr("interface.generate_batches_oversized", { count: data.oversizedBatches }) : undefined;
 
   const error = ask && result?.key === key ? result.error : undefined;
   return (

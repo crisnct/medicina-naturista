@@ -5158,8 +5158,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-287",
       "timestamp": "2026-10-28T04:20:59.388Z",
-      "last_seen": "2026-10-31T14:50:27.801Z",
-      "occurrences": 2,
+      "last_seen": "2026-11-04T10:19:08.275Z",
+      "occurrences": 3,
       "related_bugs": []
     },
     {
@@ -7300,8 +7300,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-406",
       "timestamp": "2026-10-31T01:31:34.159Z",
-      "last_seen": "2026-11-03T22:21:38.544Z",
-      "occurrences": 3,
+      "last_seen": "2026-11-04T10:20:09.112Z",
+      "occurrences": 5,
       "related_bugs": []
     },
     {
@@ -9337,6 +9337,150 @@
       "last_seen": "2026-11-04T04:13:31.299Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of client.py",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 9→11 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-520",
+      "timestamp": "2026-11-04T07:34:52.837Z",
+      "last_seen": "2026-11-04T07:34:52.837Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of client.py",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 6→8 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-521",
+      "timestamp": "2026-11-04T09:02:51.326Z",
+      "last_seen": "2026-11-04T09:02:51.326Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/config.py",
+      "root_cause": "Had \"ai_max_output_tokens\"",
+      "fix": "Changed to \"ai_read_timeout_seconds\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-522",
+      "timestamp": "2026-11-04T09:51:49.965Z",
+      "last_seen": "2026-11-04T09:51:49.965Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of providers.py",
+      "file": "src/backend/ai/providers.py",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 12→34 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-523",
+      "timestamp": "2026-11-04T09:52:04.514Z",
+      "last_seen": "2026-11-04T09:52:04.514Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _generate_batch_recovering()",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-524",
+      "timestamp": "2026-11-04T10:11:56.242Z",
+      "last_seen": "2026-11-04T10:11:56.242Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of report_metrics.py",
+      "file": "src/backend/persistence/report_metrics.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 17→36 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-525",
+      "timestamp": "2026-11-04T10:18:05.229Z",
+      "last_seen": "2026-11-04T10:18:05.229Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in report_output_recommendation()",
+      "file": "src/backend/web/main.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-526",
+      "timestamp": "2026-11-04T10:18:24.639Z",
+      "last_seen": "2026-11-04T10:18:24.639Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: SearchSignals should be ReportOutputRecommendation",
+      "file": "src/frontend/api/client.ts",
+      "root_cause": "Used \"SearchSignals\" instead of \"ReportOutputRecommendation\"",
+      "fix": "Changed SearchSignals → ReportOutputRecommendation",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-527",
+      "timestamp": "2026-11-04T10:19:14.192Z",
+      "last_seen": "2026-11-04T10:19:14.192Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -9894,7 +10038,18 @@
     "4f0b59cb-50fd-465d-abe8-1c468bfd872f": true,
     "3e693717-2649-43c0-8bdc-50f5b5c60922": true,
     "c3293db4-af84-48b3-bab9-536b47021174": true,
-    "dee75062-bdf0-46a6-9018-6b2474991d37": true
+    "dee75062-bdf0-46a6-9018-6b2474991d37": true,
+    "befa9a79-3486-4f8b-933a-cb6298295925": true,
+    "8833ed18-9c18-4296-91f8-b64def7c4149": true,
+    "68b4c988-2392-4222-b020-1210995b91f9": true,
+    "1fe7f20a-8906-4482-a56f-7768d74c2f14": true,
+    "7cad896d-a184-4dd6-a1fc-4048ce9d287f": true,
+    "60ea75f3-4081-4368-a634-61456d253da4": true,
+    "6b1b18d7-189b-45ef-910f-f3390d52e618": true,
+    "3ded9f15-7912-4d65-80f8-9e4a44a64d35": true,
+    "7f536c13-5a38-4497-8366-9c410e3d590c": true,
+    "63c28796-1b55-42ab-8084-848a7bc69299": true,
+    "d2c0f778-b08b-4332-bc2f-04c704136bff": true
   },
-  "next_id": 520
+  "next_id": 528
 }

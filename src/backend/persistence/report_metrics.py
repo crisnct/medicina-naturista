@@ -10,7 +10,9 @@ from psycopg_pool import ConnectionPool
 from backend.core.report_metrics import (
     ReportDurationEstimate,
     ReportMetrics,
+    ReportOutputRecommendation,
     estimate_duration_from_totals,
+    recommend_output_tokens,
 )
 from backend.core.report_models import ReportEffort, ReportModel
 
@@ -40,14 +42,32 @@ class PostgresReportMetricsRepository:
         assert row is not None
         return estimate_duration_from_totals(characters, int(row[0]), int(row[1]), int(row[2]))
 
+    # Only reports of the same model and effort count: another effort says nothing about how
+    # much a model reasons.
+    def recommend_output_tokens(
+        self, model: ReportModel, effort: ReportEffort | None = None
+    ) -> ReportOutputRecommendation:
+        with self.pool().connection(timeout=1.0) as connection, connection.transaction():
+            connection.execute("SELECT set_config('statement_timeout', '2000', true)")
+            connection.execute("SELECT set_config('lock_timeout', '500', true)")
+            row = connection.execute(
+                "SELECT COUNT(max_batch_output_tokens), COALESCE(MAX(max_batch_output_tokens), 0) "
+                "FROM report_generation_metrics "
+                "WHERE ai_model = %s AND ai_effort IS NOT DISTINCT FROM %s",
+                (model, effort),
+            ).fetchone()
+        assert row is not None
+        return recommend_output_tokens(int(row[0]), int(row[1]))
+
     def __call__(self, metrics: ReportMetrics) -> int:
         with self.pool().connection(timeout=1.0) as connection, connection.transaction():
             connection.execute("SELECT set_config('statement_timeout', '2000', true)")
             connection.execute("SELECT set_config('lock_timeout', '500', true)")
             row = connection.execute(
                 "INSERT INTO report_generation_metrics "
-                "(medical_condition, min_score, characters, ai_model, ai_effort, duration) "
-                "VALUES (%s, %s, %s, %s, %s, %s) RETURNING id",
+                "(medical_condition, min_score, characters, ai_model, ai_effort, duration, "
+                "max_batch_output_tokens) "
+                "VALUES (%s, %s, %s, %s, %s, %s, %s) RETURNING id",
                 (
                     metrics.medical_condition,
                     metrics.min_score,
@@ -55,6 +75,7 @@ class PostgresReportMetricsRepository:
                     metrics.ai_model,
                     metrics.ai_effort,
                     metrics.duration,
+                    metrics.max_batch_output_tokens,
                 ),
             ).fetchone()
             assert row is not None

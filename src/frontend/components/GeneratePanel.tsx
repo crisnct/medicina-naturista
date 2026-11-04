@@ -2,6 +2,7 @@ import { getLanguage, locale, tr } from "../lib/texts";
 import { useLayoutEffect, useRef, useState } from "react";
 import { REPORT_EFFORTS, type FragmentItem, type GenerateMessage, type GenerationLimitDefaults, type GenerationLimits, type ReportEffort, type ReportModel, type ReportModelDetails } from "../api/types";
 import { useMinScore } from "../hooks/useMinScore";
+import { useOutputRecommendation } from "../hooks/useOutputRecommendation";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { checkLimits } from "../lib/generationLimits";
 import { TypingIndicator } from "./TypingIndicator";
@@ -94,20 +95,38 @@ export function GeneratePanel({
   const effort = typedEffort?.model === selectedModel
     ? typedEffort.value : reportModelDetails?.defaultEfforts[selectedModel] ?? "low";
   const contextTokens = reportModelDetails?.contextTokens[selectedModel];
+  const effortSupported = effortReportModels.includes(selectedModel);
+  // Only the admin sees the limits, so only then is a recommendation needed.
+  const recommendation = useOutputRecommendation(
+    selectedModel,
+    effortSupported ? effort : undefined,
+    generationLimitDefaults !== undefined && allowedReportModels.includes(selectedModel),
+    feedback?.terminal ? feedback.generationId : undefined,
+  );
+  const recommendedTokens = recommendation?.tokens;
   const tokenValue = (field: TokenField) => {
     const typed = typedTokens[field];
-    return typed?.model === selectedModel ? typed.value : String(generationLimitDefaults?.[field][selectedModel] ?? "");
+    const configured = generationLimitDefaults?.[field][selectedModel];
+    // A measured need above the configured limit becomes the starting value.
+    const start = field === "maxOutputTokens" && configured !== undefined && recommendedTokens !== undefined
+      ? Math.max(configured, recommendedTokens) : configured;
+    return typed?.model === selectedModel ? typed.value : String(start ?? "");
   };
   const workersText = typedWorkers ?? "0";
   const maxWorkers = generationLimitDefaults?.batchWorkers.max ?? 0;
   const workers = /^\d{1,4}$/.test(workersText.trim()) && Number(workersText) <= maxWorkers ? Number(workersText) : null;
+  // One request may use only part of the context while batches run in parallel (0 and 1 = in succession).
+  const requestContext = workers !== null && workers <= 1 ? contextTokens : reportModelDetails?.parallelContextTokens[selectedModel] ?? contextTokens;
   const limitsCheck = generationLimitDefaults && checkLimits(
     tokenValue("batchMaxTokens"),
     tokenValue("maxOutputTokens"),
     generationLimitDefaults.tokenBounds,
-    contextTokens,
+    requestContext,
   );
   const tokensValid = (limitsCheck?.valid ?? true) && workers !== null;
+  // Below what reports of this model and effort have needed, the answer is likely to be cut off.
+  const belowRecommended = recommendedTokens !== undefined && limitsCheck?.limits !== undefined
+    && limitsCheck.limits.maxOutputTokens < recommendedTokens;
   const fieldError = (field: TokenField) => field === "batchMaxTokens" ? limitsCheck?.inputError : limitsCheck?.outputError;
   const eligibleFragments = fragments?.filter((fragment) => reachesMinScore(fragment.relevancePercent, minScore));
   const eligibleCount = eligibleFragments?.length;
@@ -116,13 +135,12 @@ export function GeneratePanel({
     0,
   );
   const noneReach = eligibleCount === 0;
-  const effortSupported = effortReportModels.includes(selectedModel);
   const noModels = reportModels.length === 0;
   const modelRestricted = !noModels && !allowedReportModels.includes(selectedModel);
   // Admin only: hidden while the model is not permitted or the server sent no limits.
   const showLimits = generationLimitDefaults !== undefined && !noModels && !modelRestricted;
   const disabled = message.busy || noneReach || actionsDisabled || noModels || modelRestricted
-    || (showLimits && !tokensValid);
+    || (showLimits && (!tokensValid || belowRecommended));
   const hasAnswer = Boolean(feedback?.streamPreview);
   const batched = feedback?.batchesTotal !== undefined || (!hasAnswer && !feedback?.thinkingPreview);
   const hasPreview = Boolean(feedback?.reportPreview) || hasAnswer || Boolean(feedback?.thinkingPreview);
@@ -213,6 +231,13 @@ export function GeneratePanel({
           {showLimits && TOKEN_FIELDS.map((field) => fieldError(field) && (
             <p key={field} className="generate-recipe-warning" role="status">{fieldError(field)}</p>
           ))}
+          {showLimits && recommendation && recommendedTokens !== undefined && (
+            <p className={belowRecommended ? "generate-recipe-warning" : "eligible-count"} role="status">
+              {belowRecommended
+                ? tr("interface.generate_output_below_recommended", { tokens: recommendedTokens.toLocaleString(locale()) })
+                : tr("interface.generate_output_recommended", { tokens: recommendedTokens.toLocaleString(locale()), count: recommendation.sampleCount })}
+            </p>
+          )}
           {showLimits && limitsCheck?.notes.map((note) => (
             <p key={note.text} className={note.warning ? "generate-recipe-warning" : "eligible-count"} role="status">{note.text}</p>
           ))}
@@ -242,7 +267,7 @@ export function GeneratePanel({
               minScore={minScore}
               model={selectedModel}
               effort={effortSupported ? effort : undefined}
-              limits={showLimits ? limitsCheck?.limits : undefined}
+              limits={showLimits && limitsCheck?.limits && workers !== null ? { ...limitsCheck.limits, batchWorkers: workers } : undefined}
               eligibleCount={eligibleCount}
               valid={!showLimits || tokensValid}
             />

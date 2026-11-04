@@ -19,7 +19,11 @@ if TYPE_CHECKING:
     from backend.ai.message_classification import MessageClassification
     from backend.ai.report_validation import ValidatedReport
     from backend.core.models import SessionSnapshot
-    from backend.core.report_metrics import ReportDurationEstimate, ReportMetrics
+    from backend.core.report_metrics import (
+        ReportDurationEstimate,
+        ReportMetrics,
+        ReportOutputRecommendation,
+    )
 
 
 class TranscriptEntry(TypedDict):
@@ -103,6 +107,7 @@ class AIProtocol(Protocol):
         effort: ReportEffort | None = None,
         batch_max_tokens: int | None = None,
         max_output_tokens: int | None = None,
+        batch_workers: int | None = None,
     ) -> ReportBatchPlan: ...
     def is_configured(self) -> bool: ...
     def close(self) -> None: ...
@@ -112,6 +117,12 @@ class EstimateReportDuration(Protocol):
     def __call__(
         self, model: ReportModel, characters: int, effort: ReportEffort | None = None
     ) -> ReportDurationEstimate: ...
+
+
+class RecommendReportOutput(Protocol):
+    def __call__(
+        self, model: ReportModel, effort: ReportEffort | None = None
+    ) -> ReportOutputRecommendation: ...
 
 
 class RetrievalProtocol(Protocol):

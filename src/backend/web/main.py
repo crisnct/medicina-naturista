@@ -71,6 +71,8 @@ from backend.core.report_models import (
     MAX_REPORT_BATCH_WORKERS,
     MAX_REPORT_TOKENS,
     MIN_REPORT_INPUT_TOKENS,
+    parallel_context_tokens,
+    request_context_tokens,
 )
 from backend.core.sessions import SessionStore
 from backend.core.texts import catalog, public_catalog, tr
@@ -188,6 +190,14 @@ class ReportDurationEstimateResponse(BaseModel):
     effort: ReportEffort | None = None
     characters: int = Field(ge=0, le=MAX_BIGINT)
     estimatedSeconds: int | None = Field(default=None, ge=0)
+    sampleCount: int = Field(ge=0)
+
+
+class ReportOutputRecommendationResponse(BaseModel):
+    model: ReportModel
+    effort: ReportEffort | None = None
+    # The per-batch output limit the measured reports would have fitted; None without enough data.
+    recommendedTokens: int | None = Field(default=None, ge=1)
     sampleCount: int = Field(ge=0)
 
 
@@ -667,7 +677,7 @@ def _generate_report(
 ) -> OperationResult:
     # Trusted Python-only entry point; HTTP admission supplies its verified session role.
     model = _select_report_model(deps.settings, model, owner_authorized=True)
-    _check_report_limits(deps.settings, model, batch_max_tokens, max_output_tokens)
+    _check_report_limits(deps.settings, model, batch_max_tokens, max_output_tokens, batch_workers)
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
     return _conversation(
         deps,
@@ -692,6 +702,7 @@ def _check_report_limits(
     model: ReportModel,
     batch_max_tokens: int | None,
     max_output_tokens: int | None,
+    batch_workers: int | None = None,
 ) -> None:
     if batch_max_tokens is None and max_output_tokens is None:
         return
@@ -701,7 +712,11 @@ def _check_report_limits(
             tr("errors.input_tokens_too_small", minimum=MIN_REPORT_INPUT_TOKENS),
             422,
         )
-    context = settings.report_generation_context_tokens[model]
+    context = request_context_tokens(
+        model,
+        settings.report_generation_context_tokens[model],
+        settings.report_batch_workers if batch_workers is None else batch_workers,
+    )
     if max_output_tokens is not None and max_output_tokens >= context:
         raise ApplicationError(
             "OUTPUT_TOKENS_TOO_LARGE",
@@ -760,6 +775,11 @@ def report_models(request: Request):
         # effort each model starts with.
         "contextTokens": {
             model: settings.report_generation_context_tokens[model] for model in configured
+        },
+        # What one request may use while batches run in parallel; the whole context for 0 or 1.
+        "parallelContextTokens": {
+            model: parallel_context_tokens(model, settings.report_generation_context_tokens[model])
+            for model in configured
         },
         "defaultEfforts": {
             model: settings.report_generation_default_effort[model] for model in configured
@@ -825,6 +845,44 @@ def report_duration_estimate(
     )
 
 
+@router.get("/api/report-output-recommendation", response_model=ReportOutputRecommendationResponse)
+def report_output_recommendation(
+    request: Request, model: ReportModel, effort: ReportEffort | None = None
+):
+    deps = _deps(request)
+    if model not in deps.settings.report_generation_models:
+        raise ApplicationError(
+            "MODEL_NOT_CONFIGURED",
+            tr("errors.model_not_configured"),
+            422,
+        )
+    deps.request_limiter.check(
+        (f"report-estimate:{_client_ip(request)}", deps.settings.max_requests_per_minute)
+    )
+    if deps.recommend_report_output is None:
+        raise ApplicationError(
+            "REPORT_ESTIMATE_UNAVAILABLE",
+            tr("errors.estimate_unavailable"),
+            503,
+        )
+    effective = _effective_effort(model, effort) if effort else None
+    try:
+        recommendation = deps.recommend_report_output(model, effective)
+    except Exception as exc:
+        logger.warning("report_output_recommendation_unavailable type=%s", type(exc).__name__)
+        raise ApplicationError(
+            "REPORT_ESTIMATE_UNAVAILABLE",
+            tr("errors.estimate_unavailable"),
+            503,
+        ) from None
+    return ReportOutputRecommendationResponse(
+        model=model,
+        effort=effective,
+        recommendedTokens=recommendation.tokens,
+        sampleCount=recommendation.sample_count,
+    )
+
+
 # The batch count generate() would produce for the chosen options, from the same partitioning.
 @router.get("/api/searches/{search_id}/report-batches", response_model=ReportBatchEstimateResponse)
 def report_batches_estimate(
@@ -835,12 +893,13 @@ def report_batches_estimate(
     effort: ReportEffort = DEFAULT_REPORT_EFFORT,
     batchMaxTokens: int | None = Query(default=None, ge=1, le=MAX_REPORT_TOKENS),
     maxOutputTokens: int | None = Query(default=None, ge=1, le=MAX_REPORT_TOKENS),
+    batchWorkers: int | None = Query(default=None, ge=0, le=MAX_REPORT_BATCH_WORKERS),
 ):
     deps = _deps(request)
     session = _current(request)
     if model not in deps.settings.report_generation_models:
         raise ApplicationError("MODEL_NOT_CONFIGURED", tr("errors.model_not_configured"), 422)
-    _check_report_limits(deps.settings, model, batchMaxTokens, maxOutputTokens)
+    _check_report_limits(deps.settings, model, batchMaxTokens, maxOutputTokens, batchWorkers)
     deps.request_limiter.check(
         (f"report-batches:{_client_ip(request)}", deps.settings.max_requests_per_minute)
     )
@@ -851,7 +910,12 @@ def report_batches_estimate(
         profile, evidence = search.profile, evidence_above(search.evidence, minScore)
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
     plan = ai.plan_report_batches(
-        profile, evidence, _effective_effort(model, effort), batchMaxTokens, maxOutputTokens
+        profile,
+        evidence,
+        _effective_effort(model, effort),
+        batchMaxTokens,
+        maxOutputTokens,
+        batchWorkers,
     )
     return ReportBatchEstimateResponse(
         searchId=search_id,
@@ -875,11 +939,11 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
         options.model,
         owner_authorized=getattr(request.state, "owner_authorized", False),
     )
-    _check_report_limits(deps.settings, model, options.batchMaxTokens, options.maxOutputTokens)
+    _check_report_limits(
+        deps.settings, model, options.batchMaxTokens, options.maxOutputTokens, options.batchWorkers
+    )
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
     effort = _effective_effort(model, options.effort)
-    # 0 means no parallelism, like 1; None keeps the configured value.
-    batch_workers = None if options.batchWorkers is None else max(options.batchWorkers, 1)
     service: ReportGenerationService = request.app.state.report_generation
     result = service.start(
         _conversation(
@@ -888,7 +952,7 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
             model_choice=model,
             effort=effort,
             batch_max_tokens=options.batchMaxTokens,
-            batch_workers=batch_workers,
+            batch_workers=options.batchWorkers,
             max_output_tokens=options.maxOutputTokens,
         ),
         session,
@@ -898,7 +962,7 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
         model,
         effort,
         options.batchMaxTokens,
-        batch_workers,
+        options.batchWorkers,
         options.maxOutputTokens,
     )
     return JSONResponse(
@@ -1199,6 +1263,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     report_clients=report_clients,
                     record_report_metrics=metrics_repository,
                     estimate_report_duration=metrics_repository.estimate_duration,
+                    recommend_report_output=metrics_repository.recommend_output_tokens,
                 )
                 application.state.dependencies = runtime
                 application.root_path = cfg.public_root_path

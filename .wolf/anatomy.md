@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-04T04:13:31.267Z
-> Files: 459 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-04T11:50:38.028Z
+> Files: 462 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -12,7 +12,7 @@
 - `.dockerignore` (~107 tok)
 - `AGENTS.md` — AGENTS.md (~3128 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
-- `docker-compose.yaml` — Docker Compose: 4 services (~2416 tok)
+- `docker-compose.yaml` — Docker Compose: 5 services (~3454 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
 - `README.md` — Project documentation (~44269 tok)
 
@@ -363,11 +363,11 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~11896 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~11800 tok)
 
 ## src/backend/ai/
 
-- `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~13532 tok)
+- `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~14864 tok)
 - `condition_ai.py` — Identification of the condition a message names when the dictionary does not (~3319 tok)
 - `condition_repository.py` — Ordered PostgreSQL condition snapshots shared by retrieval and indexing. (~1579 tok)
 - `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~3973 tok)
@@ -396,7 +396,7 @@
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
-- `providers.py` — Per-provider transport settings for report generation. (~1865 tok)
+- `providers.py` — Per-provider transport settings for report generation. (~2207 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~1940 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2910 tok)
 
@@ -426,19 +426,20 @@
 
 ## src/backend/core/
 
-- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~2421 tok)
-- `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~16126 tok)
+- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~2608 tok)
+- `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~16186 tok)
 - `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1309 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
 - `language.py` — Validated languages and isolated execution scopes; no process-wide mutable locale. (~353 tok)
 - `models.py` — Minimal medical context collected before report generation. (~5991 tok)
-- `operation_context.py` — Propagate a worker's deadline to synchronous I/O without changing public ports. (~1729 tok)
+- `operation_context.py` — Propagate a worker's deadline to synchronous I/O without changing public ports. (~2035 tok)
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2642 tok)
-- `report_models.py` — Supported report choices and their immutable provider routing. (~1746 tok)
+- `report_metrics.py` — Validated measurements for one published report, independent of storage. (~1040 tok)
+- `report_models.py` — Supported report choices and their immutable provider routing. (~2061 tok)
 - `score_formula.py` — Operator-supplied arithmetic over L1, L2 and L3; parsed from a whitelist, never `eval`-ed. (~736 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16342 tok)
-- `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6634 tok)
+- `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6688 tok)
 - `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
 
 ## src/backend/index_sql/
@@ -472,10 +473,11 @@
 - `039_drop_legacy_herb_safety_tables.sql` — The corpus-fragment safety workflow (029, 030) was replaced by model-knowledge safety (031, 036-038) (~109 tok)
 - `039_medical_conditions_version.sql` — A change counter for the condition dictionary, so a reader can tell with one tiny query (~463 tok)
 - `040_remove_primary_from_secondary_conditions.sql` — One-time cleanup of the rows indexed before backend/index_sql/001_remove_primary_from_secondary_cond (~159 tok)
+- `041_report_metrics_batch_output_tokens.sql` — PostgreSQL. Applied transactionally by scripts.migrate_database. (~172 tok)
 
 ## src/backend/persistence/
 
-- `report_metrics.py` — Short, bounded transactions for published report measurements. (~743 tok)
+- `report_metrics.py` — Short, bounded transactions for published report measurements. (~1057 tok)
 
 ## src/backend/reporting/
 
@@ -485,13 +487,13 @@
 
 ## src/backend/resources/
 
-- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~9228 tok)
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~9927 tok)
+- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~9492 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~10216 tok)
 
 ## src/backend/web/
 
-- `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~482 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~15678 tok)
+- `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~509 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~16192 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
@@ -507,8 +509,8 @@
 ## src/frontend/api/
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
-- `client.ts` — API routes: GET (1 endpoints) (~2864 tok)
-- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~2909 tok)
+- `client.ts` — API routes: GET (1 endpoints) (~2968 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3089 tok)
 
 ## src/frontend/components/
 
@@ -516,8 +518,8 @@
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~1017 tok)
 - `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3275 tok)
 - `GeneratePanel.test.tsx` — message (~877 tok)
-- `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~5057 tok)
-- `GenerationBatchEstimate.tsx` — Typing in a limit field must not ask the server for a count on every keystroke. (~706 tok)
+- `GeneratePanel.tsx` — MODEL_LABELS (~5502 tok)
+- `GenerationBatchEstimate.tsx` — Typing in a limit field must not ask the server for a count on every keystroke. (~900 tok)
 - `GenerationDurationEstimate.tsx` — GenerationDurationEstimate (~718 tok)
 - `GenerationReportPreview.tsx` — BatchPreview (~1711 tok)
 - `GenerationStreamPreview.tsx` — GenerationStreamPreview (~456 tok)
@@ -536,6 +538,7 @@
 - `useCategories.ts` — Exports useCategories (~405 tok)
 - `useConversation.ts` — Exports useConversation (~2537 tok)
 - `useMinScore.ts` — The "Scor minim" chosen for a search, shared by its fragments filter and by the (~222 tok)
+- `useOutputRecommendation.ts` — Exports OutputRecommendation, useOutputRecommendation (~444 tok)
 - `useReportGeneration.ts` — Exports activeGeneration, useReportGeneration (~3477 tok)
 - `useStartup.ts` — Exports useStartup (~248 tok)
 
@@ -544,7 +547,7 @@
 - `generationFeedback.ts` — Exports AI_ACTIVITY_LABELS, GenerationFeedback (~291 tok)
 - `inlineMarkdown.tsx` — Renders the very small Markdown subset _recommendation_text() produces (~369 tok)
 - `scoreFilter.ts` — "Scor minim" thresholds (relevance percent), shared by the fragments panel (~361 tok)
-- `texts.generated.ts` — Exports TEXT_PARAMETERS (~3937 tok)
+- `texts.generated.ts` — Exports TEXT_PARAMETERS (~3999 tok)
 - `texts.ts` — Exports Language, getLanguage, locale, useLanguage + 3 more (~1135 tok)
 
 ## src/scripts/

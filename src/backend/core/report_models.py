@@ -33,12 +33,14 @@ DEFAULT_REPORT_MODELS: tuple[ReportModel, ...] = (
 )
 DEFAULT_REPORT_MODEL: ReportModel = DEFAULT_REPORT_MODELS[0]
 DEFAULT_REPORT_BATCH_MAX_TOKENS: Final = 25_000
+# The output limit of every batch request unless the model or the admin sets another.
+DEFAULT_REPORT_OUTPUT_TOKENS: Final = 20_000
 # Bounds of the token limits the admin may type; the output warning is advice, not a rule.
 MIN_REPORT_INPUT_TOKENS: Final = 1_000
 MAX_REPORT_TOKENS: Final = 2_000_000
 LOW_REPORT_OUTPUT_TOKENS: Final = 2_000
 # Upper bound of the parallel batches the admin can type per report; 0 means no parallelism.
-MAX_REPORT_BATCH_WORKERS: Final = 1000
+MAX_REPORT_BATCH_WORKERS: Final = 300
 
 # The user-selected depth of AI reasoning; each provider maps it to its own parameter.
 ReportEffort = Literal["low", "medium", "high"]
@@ -60,7 +62,11 @@ class ReportModelSpec:
     context_tokens: int | None = None
     # The model's own context window, shown to the user; the default of the env setting.
     context_window: int = 32_768
-    max_output_tokens: int | None = None
+    # The limit of each batch request, not of the whole report.
+    max_output_tokens: int = DEFAULT_REPORT_OUTPUT_TOKENS
+    # With parallel batches one request may use only this fraction of the context (the server
+    # shares its memory between them); batches run one after another may use all of it.
+    parallel_context_divisor: int = 1
     effort_control: EffortControl = "none"
     temperature: float | None = None
     repeat_penalty: float | None = None
@@ -102,7 +108,11 @@ REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
         # Served by the `vllm-report` Compose service under this name. vLLM maps the Responses
         # `reasoning.effort` ("none" switches Qwen's thinking off) to the chat template itself.
         "vllm-qwen3.5:4b": ReportModelSpec(
-            "vllm", "qwen3.5-4b", context_window=262_144, effort_control="responses_effort"
+            "vllm",
+            "qwen3.5-4b",
+            context_window=131_072,
+            parallel_context_divisor=2,
+            effort_control="responses_effort",
         ),
         "deepseek-flash": ReportModelSpec(
             "deepseek",
@@ -127,6 +137,17 @@ REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
 EFFORT_MODELS: Final[tuple[ReportModel, ...]] = tuple(
     choice for choice, spec in REPORT_MODELS.items() if spec.effort_control != "none"
 )
+
+
+# The context one request may use while batches run in parallel.
+def parallel_context_tokens(model: ReportModel, context: int) -> int:
+    return context // REPORT_MODELS[model].parallel_context_divisor
+
+
+# The context one request may use. `workers` is the batches processed at once; 0 and 1 both
+# mean one after another, which may use the whole context.
+def request_context_tokens(model: ReportModel, context: int, workers: int) -> int:
+    return context if workers <= 1 else parallel_context_tokens(model, context)
 
 
 def parse_report_effort(value: str) -> ReportEffort:

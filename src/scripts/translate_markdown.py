@@ -5,7 +5,7 @@ markers), table separators, Markdown markers, inline code and URLs are copied th
 unchanged, so the output keeps the layout of the source. Nothing leaves the machine.
 
 The model is TranslateGemma 4B served locally by vLLM, an OpenAI-compatible server that batches
-many requests on the GPU: docker compose --profile vllm up -d vllm (see aiPlans/2026-11-03-
+many requests on the GPU: docker compose --profile vllm-translate up -d vllm-translate (see aiPlans/2026-11-03-
 integrare-vllm-translategemma.md). The server owns the prompt: its chat template, mounted from
 src/scripts/resources/translategemma_ro_en.jinja, renders the official TranslateGemma prompt
 for a plain user message, and its context size is set by --max-model-len.
@@ -605,9 +605,9 @@ class VllmBackend:
         except httpx.TransportError as exc:
             raise BackendError(
                 f"Cannot reach vLLM at {self._client.base_url} ({type(exc).__name__}). "
-                "Start it (docker compose --profile vllm up -d vllm) or pass --host; a server "
+                "Start it (docker compose --profile vllm-translate up -d vllm-translate) or pass --host; a server "
                 "started a moment ago is still loading the model (about 2 minutes): wait for "
-                "'Application startup complete' in docker logs medicina-vllm."
+                "'Application startup complete' in docker logs medicina-vllm-translate."
             ) from exc
         except (httpx.HTTPStatusError, ValueError, KeyError, TypeError) as exc:
             raise BackendError(f"Unexpected answer from the vLLM model list ({exc!r}).") from exc

@@ -47,6 +47,7 @@ from backend.core.operation_context import (
     emit_report_batch,
     emit_report_output,
     emit_report_thinking,
+    record_report_output_tokens,
     remaining_timeout,
     report_batch_context,
     report_batch_scope,
@@ -64,6 +65,8 @@ GENERATE_REPORT_SYSTEM_PROMPT_PATH = (
 
 # Tokens are estimated from UTF-8 bytes (contracts.estimate_tokens); reserve some for chat framing.
 REPORT_TOKEN_FRAMING_RESERVE = 256
+# A batch cut off by its output limit is retried with at most this multiple of the chosen limit.
+REPORT_OUTPUT_RETRY_FACTOR = 4
 
 
 # Evidence fragments as the AI request carries them, highest score first.
@@ -152,14 +155,16 @@ def json_error_details(error: BaseException | None) -> dict[str, int | str]:
 
 
 # Parse the model's JSON object, tolerating Markdown fences and text around it.
+# strict=False accepts raw control characters (newline, tab) inside strings, which small
+# models emit in long text values.
 def _parse_json_object(content: str) -> Any:
     try:
-        return json.loads(content)
+        return json.loads(content, strict=False)
     except ValueError:
         start, end = content.find("{"), content.rfind("}")
         if start < 0 or end <= start:
             raise
-        return json.loads(content[start : end + 1])
+        return json.loads(content[start : end + 1], strict=False)
 
 
 # The final response of a streamed request, shaped like the parts of
@@ -551,6 +556,8 @@ class ResponsesClient:
             raw_usage = payload.get("usage")
             usage = _response_metrics({"usage": raw_usage})
             output_tokens = usage.get("output_tokens")
+            if isinstance(output_tokens, int):
+                record_report_output_tokens(output_tokens)
             logger.info(
                 "ai_response_usage provider=%s input_tokens=%s output_tokens=%s max_output_tokens=%s",
                 self.provider.name,
@@ -619,7 +626,7 @@ class ResponsesClient:
             if isinstance(output_tokens, int) and output_tokens >= max_tokens:
                 logger.error(
                     "ai_response_truncated provider=%s model=%s output_tokens=%s max_output_tokens=%s "
-                    "hint=increase REPORT_GENERATION_MAX_OUTPUT_TOKENS or the report panel field",
+                    "hint=increase the max output tokens in the report panel",
                     self.provider.name,
                     self.provider.model,
                     output_tokens,
@@ -707,12 +714,21 @@ class ResponsesClient:
     def _report_max_output_tokens(self) -> int:
         return current_report_max_output_tokens() or self.provider.max_output_tokens
 
+    # 0 typed in the panel runs the batches one after another, like 1; nothing typed keeps the configured count.
     def _batch_workers(self) -> int:
-        return current_report_batch_workers() or self.batch_workers
+        workers = current_report_batch_workers()
+        return self.batch_workers if workers is None else max(workers, 1)
+
+    # The context one request may use: all of it when batches run one after another, else the
+    # fraction the model allows (the server shares its memory between parallel requests).
+    def _request_context_tokens(self) -> int:
+        if self._batch_workers() <= 1:
+            return self.context_tokens
+        return self.context_tokens // self.provider.parallel_context_divisor
 
     def _report_input_limit(self) -> int:
         limit = current_report_batch_max_tokens() or self.batch_max_tokens
-        return min(limit, self.context_tokens - self._report_max_output_tokens())
+        return min(limit, self._request_context_tokens() - self._report_max_output_tokens())
 
     def _partition(self, profile: ProfilePayload, evidence: Evidence) -> list[Evidence]:
         input_limit = self._report_input_limit()
@@ -730,21 +746,24 @@ class ResponsesClient:
         effort: ReportEffort | None = None,
         batch_max_tokens: int | None = None,
         max_output_tokens: int | None = None,
+        batch_workers: int | None = None,
     ) -> ReportBatchPlan:
         with (
             language_scope(validate_language(profile.get("language", current_language()))),
             report_effort_scope(effort),
-            report_batch_scope(batch_max_tokens, None, max_output_tokens),
+            report_batch_scope(batch_max_tokens, batch_workers, max_output_tokens),
         ):
             input_limit = self._report_input_limit()
             if not evidence:
                 return ReportBatchPlan(0, 0, input_limit)
             batches = self._partition(profile, evidence)
-            # A lone fragment over the limit is still sent whole; the provider decides.
+            # A lone fragment over the chosen limit is still sent whole; only one that cannot
+            # fit the model's context (leaving room for the output) is flagged.
+            context_room = self._request_context_tokens() - self._report_max_output_tokens()
             oversized = sum(
                 1
                 for batch in batches
-                if len(batch) == 1 and self._report_input_tokens(profile, batch) > input_limit
+                if len(batch) == 1 and self._report_input_tokens(profile, batch) > context_room
             )
             return ReportBatchPlan(len(batches), oversized, input_limit)
 
@@ -888,7 +907,9 @@ class ResponsesClient:
             self._report_input_limit(),
         )
         try:
-            result = self._generate_batch(profile, batch)
+            result = self._generate_batch_recovering(
+                profile, batch, self._report_max_output_tokens()
+            )
         except ReportValidationError as exc:
             logger.error(
                 "ai_report_validation_failed provider=%s model=%s batch=%s total=%s "
@@ -905,8 +926,57 @@ class ResponsesClient:
         checkpoint()
         return result
 
+    # An output cut-off never reaches the user while it can be repaired: the batch is retried
+    # with a larger output limit (reasoning shares it), then, with several fragments, as two
+    # smaller batches that start again from the chosen limit.
+    def _generate_batch_recovering(
+        self,
+        profile: ProfilePayload,
+        evidence: Evidence,
+        max_output_tokens: int,
+        chosen: int | None = None,
+    ) -> ValidatedReport:
+        chosen = chosen or max_output_tokens
+        try:
+            return self._generate_batch(profile, evidence, max_output_tokens)
+        except AIUnavailable as exc:
+            if exc.reason != "output_limit":
+                raise
+            checkpoint()
+            room = self._request_context_tokens() - self._report_input_tokens(profile, evidence)
+            larger = min(max_output_tokens * 2, room, chosen * REPORT_OUTPUT_RETRY_FACTOR)
+            if larger > max_output_tokens:
+                logger.warning(
+                    "report_batch_output_limit_retry provider=%s model=%s fragments=%s "
+                    "max_output_tokens=%s retry_max_output_tokens=%s",
+                    self.provider.name,
+                    self.provider.model,
+                    len(evidence),
+                    max_output_tokens,
+                    larger,
+                )
+                return self._generate_batch_recovering(profile, evidence, larger, chosen)
+            if len(evidence) == 1:
+                raise
+            logger.warning(
+                "report_batch_output_limit_split provider=%s model=%s fragments=%s",
+                self.provider.name,
+                self.provider.model,
+                len(evidence),
+            )
+            items = list(evidence.items())
+            middle = len(items) // 2
+            return combine_reports(
+                [
+                    self._generate_batch_recovering(profile, dict(half), chosen)
+                    for half in (items[:middle], items[middle:])
+                ]
+            )
+
     # Every request uses the original prompt and validates citations against only its own batch.
-    def _generate_batch(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport:
+    def _generate_batch(
+        self, profile: ProfilePayload, evidence: Evidence, max_output_tokens: int
+    ) -> ValidatedReport:
         input_tokens = self._report_input_tokens(profile, evidence)
         input_limit = self._report_input_limit()
         if input_tokens > input_limit:
@@ -935,13 +1005,11 @@ class ResponsesClient:
             result = self._complete_json(
                 self._report_prompt(),
                 user,
-                self._report_max_output_tokens(),
+                max_output_tokens,
                 schema=report_response_schema(evidence),
             )
         else:
-            result = self.complete_json(
-                self._report_prompt(), user, self._report_max_output_tokens()
-            )
+            result = self.complete_json(self._report_prompt(), user, max_output_tokens)
         return validate_report(result, evidence, allow_empty=True, strict=True)
 
 

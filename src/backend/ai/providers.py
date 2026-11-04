@@ -7,7 +7,12 @@ from typing import Any, Callable, Literal, TypedDict
 from urllib.parse import urlparse
 
 from backend.config import Settings
-from backend.core.report_models import REPORT_MODELS, EffortControl, ReportModel
+from backend.core.report_models import (
+    DEFAULT_REPORT_OUTPUT_TOKENS,
+    REPORT_MODELS,
+    EffortControl,
+    ReportModel,
+)
 
 # How the provider is asked for a JSON object: Responses-style `text.format`,
 # Chat-Completions-style `response_format`, or only through the system prompt
@@ -21,6 +26,7 @@ class _GenerationLimits(TypedDict):
     max_output_tokens: int
     read_timeout_seconds: int
     stream: bool
+    parallel_context_divisor: int
 
 
 @dataclass(frozen=True)
@@ -49,6 +55,8 @@ class ProviderConfig:
     repeat_last_n: int | None = None
     # How a report request carries the user-selected effort; classifiers keep "none".
     effort_control: EffortControl = "none"
+    # With parallel batches a request may use this fraction of the context (see the catalog).
+    parallel_context_divisor: int = 1
 
 
 # Whether the URL points at this machine (or the Docker host), where Ollama needs no key.
@@ -56,20 +64,45 @@ def _is_local(url: str) -> bool:
     return (urlparse(url).hostname or "") in LOCAL_HOSTS
 
 
-# The configured output limit of a report model: the Ollama per-model override, else the
-# shared REPORT_GENERATION_MAX_OUTPUT_TOKENS. The report panel shows it as the default.
+# The output limit of each batch request of a report model: the Ollama per-model override,
+# else the catalog value. The report panel shows it as the default.
 def default_max_output_tokens(settings: Settings, model: ReportModel) -> int:
-    if REPORT_MODELS[model].provider == "ollama":
-        return settings.ollama_max_output_tokens_by_model.get(model, settings.ai_max_output_tokens)
-    return settings.ai_max_output_tokens
+    spec = REPORT_MODELS[model]
+    if spec.provider == "ollama":
+        return settings.ollama_max_output_tokens_by_model.get(model, spec.max_output_tokens)
+    return spec.max_output_tokens
+
+
+# The catalog entry of the model the settings select, if it is one of the report choices.
+def _catalog_choice(settings: Settings) -> ReportModel | None:
+    selected = {
+        "xai": settings.xai_model,
+        "deepseek": settings.deepseek_model,
+        "huggingface": settings.hf_model,
+        "vllm": settings.vllm_model,
+    }.get(settings.ai_provider, settings.ollama_model)
+    return next(
+        (
+            choice
+            for choice, spec in REPORT_MODELS.items()
+            if spec.provider == settings.ai_provider and spec.model == selected
+        ),
+        None,
+    )
 
 
 # Generic constructor settings; report choices are resolved by the shared model catalog.
 def provider_config(settings: Settings) -> ProviderConfig:
+    choice = _catalog_choice(settings)
     common: _GenerationLimits = {
-        "max_output_tokens": settings.ai_max_output_tokens,
+        "max_output_tokens": default_max_output_tokens(settings, choice)
+        if choice is not None
+        else DEFAULT_REPORT_OUTPUT_TOKENS,
         "read_timeout_seconds": settings.ai_read_timeout_seconds,
         "stream": settings.ai_stream,
+        "parallel_context_divisor": REPORT_MODELS[choice].parallel_context_divisor
+        if choice is not None
+        else 1,
     }
     if settings.ai_provider == "xai":
         return ProviderConfig(
@@ -141,14 +174,6 @@ def provider_config(settings: Settings) -> ProviderConfig:
             effort_control="responses_effort",
             **common,
         )
-    choice = next(
-        (
-            choice
-            for choice, spec in REPORT_MODELS.items()
-            if spec.provider == "ollama" and spec.model == settings.ollama_model
-        ),
-        None,
-    )
     context_tokens = None
     effort_control: EffortControl = "none"
     temperature = None
@@ -156,7 +181,6 @@ def provider_config(settings: Settings) -> ProviderConfig:
     repeat_last_n = None
     if choice is not None:
         context_tokens = REPORT_MODELS[choice].context_tokens
-        common["max_output_tokens"] = default_max_output_tokens(settings, choice)
         effort_control = REPORT_MODELS[choice].effort_control
         temperature = REPORT_MODELS[choice].temperature
         repeat_penalty = REPORT_MODELS[choice].repeat_penalty

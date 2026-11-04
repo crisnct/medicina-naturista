@@ -88,8 +88,7 @@
       HERB_SAFETY_EXTENSION_PRODUCTS: ${HERB_SAFETY_EXTENSION_PRODUCTS:-}
       HERB_CONDITION_TOP_FORMULA: ${HERB_CONDITION_TOP_FORMULA:-2*L1+L2+100*L3}
       REPORT_GENERATION_AI_STREAM: ${REPORT_GENERATION_AI_STREAM:-false}
-      REPORT_GENERATION_MAX_OUTPUT_TOKENS: ${REPORT_GENERATION_MAX_OUTPUT_TOKENS:-20000}
-      REPORT_GENERATION_READ_TIMEOUT_SECONDS: ${REPORT_GENERATION_READ_TIMEOUT_SECONDS:-300}
+      REPORT_GENERATION_READ_TIMEOUT_SECONDS: ${REPORT_GENERATION_READ_TIMEOUT_SECONDS:-720}
       REPORT_GENERATION_TIMEOUT_SECONDS: ${REPORT_GENERATION_TIMEOUT_SECONDS:-600}
       REPORT_SHUTDOWN_TIMEOUT_SECONDS: ${REPORT_SHUTDOWN_TIMEOUT_SECONDS:-20}
       OPERATION_TIMEOUT_SECONDS: ${OPERATION_TIMEOUT_SECONDS:-600}
@@ -154,14 +153,14 @@
       # Host port outside the Windows-reserved 7772-7871 range; the container stays on 7860.
       - "127.0.0.1:${APP_HOST_PORT:-8760}:7860"
     networks: [internal]
-  # Local TranslateGemma server for src/scripts/translate_markdown.py --backend vllm. Not started
+  # Local TranslateGemma server for src/scripts/translate_markdown.py. Not started
   # by `docker compose up`; it needs the whole GPU, so stop host Ollama models first (ollama ps)
-  # and start it with: docker compose --profile vllm up -d vllm
+  # and start it with: docker compose --profile vllm-translate up -d vllm-translate
   # The model is gated on Hugging Face: accept its license and put HF_TOKEN in .env.
-  vllm:
-    profiles: [vllm]
+  vllm-translate:
+    profiles: [vllm-translate]
     image: vllm/vllm-openai:v0.32.0
-    container_name: medicina-vllm
+    container_name: medicina-vllm-translate
     restart: "no"
     ipc: host
     environment:
@@ -196,11 +195,14 @@
       - --limit-mm-per-prompt.image=0
     networks: [internal]
   # Local Qwen3.5-4B server for the report model vllm-qwen3.5:4b (Responses API at /v1/responses).
-  # It shares the GPU with the `vllm` translation service above, so run only one of the two, and
-  # stop host Ollama models first. Start it with: docker compose --profile vllm-report up -d vllm-report
+  # It shares the GPU with the `vllm-translate` service above, so run only one of the two, and
+  # stop host Ollama models first. Start it with:
+  # docker compose --profile vllm-report up -d vllm-report
   # The app reaches it as http://vllm-report:8000/v1 (VLLM_API_BASE); the host port 8001 is for the
-  # scripts and for native runs. --max-model-len must cover the batch input plus the output limit
-  # of the report (26,200 + 50,000 tokens in .env); raise it together with those limits.
+  # scripts and for native runs. --max-model-len is the limit of ONE request (its input plus its
+  # output), not a budget shared by the parallel batches; they share only the KV cache. 131072 is what
+  # the KV cache of the local GPU holds (262144, the model's native window, did not fit); keep the
+  # model's context_window in the report catalog equal to it.
   vllm-report:
     profiles: [vllm-report]
     image: vllm/vllm-openai:v0.32.0
@@ -226,7 +228,7 @@
       - --model=Qwen/Qwen3.5-4B
       - --served-model-name=qwen3.5-4b
       - --quantization=fp8_per_tensor
-      - --max-model-len=81920
+      - --max-model-len=131072
       - --max-num-seqs=32
       - --gpu-memory-utilization=0.84
       - --kv-cache-dtype=fp8

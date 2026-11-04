@@ -47,7 +47,13 @@ from backend.core.models import (
     SessionOperation,
     StoredReport,
 )
-from backend.core.operation_context import OperationBudget, operation_budget, report_batch_index
+from backend.core.operation_context import (
+    OperationBudget,
+    ReportUsage,
+    operation_budget,
+    report_batch_index,
+    report_usage_scope,
+)
 from backend.core.report_metrics import ReportMetrics, validate_min_score
 from backend.core.sessions import SessionStore
 from backend.core.texts import tr
@@ -1172,7 +1178,8 @@ class ConversationService:
                 )
             self.store.generation_stage(operation, "generating")
             characters = sum(len(item["text"]) for item in evidence.values())
-            with operation_budget(self.budget(operation)):
+            usage = ReportUsage()
+            with report_usage_scope(usage), operation_budget(self.budget(operation)):
                 sections = self.ai.generate(
                     profile,
                     evidence,
@@ -1234,6 +1241,7 @@ class ConversationService:
                                 ai_model=self.report_model_choice,
                                 ai_effort=self.report_ai_effort,
                                 duration=duration_ms,
+                                max_batch_output_tokens=usage.max_output_tokens,
                             )
                         )
                         logger.info(

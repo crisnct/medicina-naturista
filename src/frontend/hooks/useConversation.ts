@@ -164,6 +164,7 @@ export function useConversation() {
     ? { batchMaxTokens, batchWorkers, maxOutputTokens, tokenBounds } : undefined;
   const reportModelDetails: ReportModelDetails = {
     contextTokens: reportModelsQuery.data?.contextTokens ?? {},
+    parallelContextTokens: reportModelsQuery.data?.parallelContextTokens ?? {},
     defaultEfforts: reportModelsQuery.data?.defaultEfforts ?? {},
   };
 
