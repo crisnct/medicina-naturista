@@ -5,10 +5,14 @@ from __future__ import annotations
 import json
 import logging
 import math
+import queue
+import socket
 import threading
 import time
 from collections import Counter
+from collections.abc import Callable, Iterator
 from concurrent.futures import FIRST_COMPLETED, Future, ThreadPoolExecutor, wait
+from contextlib import contextmanager
 from contextvars import copy_context
 from dataclasses import replace
 from pathlib import Path
@@ -19,6 +23,7 @@ import httpx
 from backend.ai.effort import ollama_think, responses_effort
 from backend.ai.providers import ProviderConfig, provider_config
 from backend.ai.report_validation import (
+    SALVAGEABLE_WARNINGS,
     ReportValidationError,
     ValidatedReport,
     report_response_schema,
@@ -236,6 +241,111 @@ def _ollama_metrics(response: dict[str, Any]) -> dict[str, int | float]:
     return result
 
 
+# A blocked socket read cannot be interrupted, and a model can stay silent for minutes (prompt
+# processing, long thinking). Network waits therefore run in a helper thread while the worker
+# polls the cancellation checkpoint every CANCEL_POLL_SECONDS, so Cancel takes effect at once.
+CANCEL_POLL_SECONDS = 0.2
+
+
+# Run a blocking call in a helper thread; when the operation is cancelled meanwhile, abandon it
+# and hand its late result to `discard` (to close a connection that nobody will read).
+def _call_cancellable(call: Callable[[], Any], discard: Callable[[Any], None] | None = None) -> Any:
+    outcome: queue.Queue[tuple[bool, Any]] = queue.Queue(maxsize=1)
+    lock = threading.Lock()
+    abandoned = False
+
+    def run() -> None:
+        try:
+            result = (True, call())
+        except BaseException as exc:
+            result = (False, exc)
+        with lock:
+            if not abandoned:
+                outcome.put(result)
+                return
+        if result[0] and discard is not None:
+            discard(result[1])
+
+    threading.Thread(target=run, daemon=True, name="ai-http-call").start()
+    while True:
+        try:
+            ok, value = outcome.get(timeout=CANCEL_POLL_SECONDS)
+        except queue.Empty:
+            try:
+                checkpoint()
+            except BaseException:
+                with lock:
+                    abandoned = True
+                try:
+                    late = outcome.get_nowait()
+                except queue.Empty:
+                    pass
+                else:
+                    if late[0] and discard is not None:
+                        discard(late[1])
+                raise
+            continue
+        if ok:
+            return value
+        raise value
+
+
+# Shut the socket down so the server notices the cancellation and stops generating; a plain
+# close would wait for the helper thread's pending read.
+def _abort_stream(response: Any) -> None:
+    try:
+        response.extensions["network_stream"].get_extra_info("socket").shutdown(socket.SHUT_RDWR)
+    except Exception:  # noqa: BLE001 - best effort; the stream is already being abandoned
+        pass
+
+
+# Read the response lines in a helper thread, so a silent model cannot keep Cancel waiting.
+def _cancellable_lines(response: Any) -> Iterator[str]:
+    lines: queue.Queue[tuple[int, Any]] = queue.Queue()
+
+    def pump() -> None:
+        try:
+            for line in response.iter_lines():
+                lines.put((0, line))
+            lines.put((1, None))
+        except BaseException as exc:
+            lines.put((2, exc))
+
+    threading.Thread(target=pump, daemon=True, name="ai-stream-reader").start()
+    finished = False
+    try:
+        while True:
+            try:
+                kind, value = lines.get(timeout=CANCEL_POLL_SECONDS)
+            except queue.Empty:
+                checkpoint()
+                continue
+            if kind == 0:
+                yield value
+            elif kind == 1:
+                finished = True
+                return
+            else:
+                raise value
+    finally:
+        if not finished:
+            _abort_stream(response)
+
+
+# `http.stream(...)` whose connection wait (the response headers arrive only after the model has
+# processed the prompt) is cancellable too.
+@contextmanager
+def _open_stream(http: httpx.Client, *args: Any, **kwargs: Any) -> Iterator[Any]:
+    manager = http.stream(*args, **kwargs)
+    response = _call_cancellable(
+        manager.__enter__, discard=lambda _: manager.__exit__(None, None, None)
+    )
+    try:
+        yield response
+    finally:
+        manager.__exit__(None, None, None)
+
+
 # Fold Responses API server-sent events into the final response object.
 def _collect_stream(lines: Any) -> tuple[dict[str, Any], int]:
     deltas: list[str] = []
@@ -349,7 +459,9 @@ class ResponsesClient:
         )
         emit_report_activity(ReportActivity("request_started"))
         if not self.provider.stream:
-            response = self.http.post(url, headers=headers, json=payload, timeout=timeout)
+            response = _call_cancellable(
+                lambda: self.http.post(url, headers=headers, json=payload, timeout=timeout)
+            )
             checkpoint()
             if getattr(response, "status_code", 200) < 400:
                 final = response.json()
@@ -358,7 +470,8 @@ class ResponsesClient:
                         ReportActivity("response_finished", _response_metrics(final))
                     )
             return response
-        with self.http.stream(
+        with _open_stream(
+            self.http,
             "POST",
             url,
             headers={**headers, "Accept": "text/event-stream"},
@@ -368,7 +481,7 @@ class ResponsesClient:
             if response.status_code >= 400:
                 response.read()
                 response.raise_for_status()
-            final, raw_bytes = _collect_stream(response.iter_lines())
+            final, raw_bytes = _collect_stream(_cancellable_lines(response))
             return _StreamedResponse(final, response.status_code, response.headers, raw_bytes)
 
     # Send one request to the provider's Responses API with diagnostic logging.
@@ -927,8 +1040,13 @@ class ResponsesClient:
         if failures:
             raise failures[0]
         checkpoint()
-        combined = combine_reports([reports[index] for index in range(1, len(batches) + 1)])
-        return validate_report(combined.section_payload(), evidence, strict=True)
+        ordered = [reports[index] for index in range(1, len(batches) + 1)]
+        final = validate_report(combine_reports(ordered).section_payload(), evidence, strict=True)
+        # The merged payload is clean, so the partial flag of a salvaged batch must be carried over.
+        warnings = [warning for report in ordered for warning in report.validationWarnings]
+        if not warnings:
+            return final
+        return ValidatedReport(sections=final.sections, partial=True, validationWarnings=warnings)
 
     def _run_report_batch(
         self, profile: ProfilePayload, batch: Evidence, index: int, total: int
@@ -951,21 +1069,59 @@ class ResponsesClient:
             result = self._generate_batch_recovering(
                 profile, batch, self._report_max_output_tokens()
             )
-        except ReportValidationError as exc:
-            logger.error(
-                "ai_report_validation_failed provider=%s model=%s batch=%s total=%s "
-                "reason=%s issues=%s details=%s",
-                self.provider.name,
-                self.provider.model,
-                index,
-                total,
-                "REPORT_EMPTY" if str(exc) == "REPORT_EMPTY" else "REPORT_INVALID",
-                dict(Counter(warning.code for warning in exc.warnings)),
-                [warning.model_dump(exclude_none=True) for warning in exc.warnings[:20]],
-            )
-            raise
+        except ReportValidationError as first:
+            # A small model now and then returns a malformed item (an empty placeholder in a
+            # section with nothing to say). One more request usually fixes it; if it does not,
+            # the batch keeps its valid items so a single bad answer cannot discard the others.
+            self._log_validation_failure(first, index, total, logger.warning, "retrying")
+            checkpoint()
+            try:
+                result = self._generate_batch_recovering(
+                    profile, batch, self._report_max_output_tokens()
+                )
+            except ReportValidationError as second:
+                result = self._salvage_batch(first, second, index, total)
         checkpoint()
         return result
+
+    def _log_validation_failure(
+        self,
+        exc: ReportValidationError,
+        index: int,
+        total: int,
+        log: Callable[..., None],
+        outcome: str,
+    ) -> None:
+        log(
+            "ai_report_validation_failed provider=%s model=%s batch=%s total=%s "
+            "reason=%s outcome=%s issues=%s details=%s",
+            self.provider.name,
+            self.provider.model,
+            index,
+            total,
+            "REPORT_EMPTY" if str(exc) == "REPORT_EMPTY" else "REPORT_INVALID",
+            outcome,
+            dict(Counter(warning.code for warning in exc.warnings)),
+            [warning.model_dump(exclude_none=True) for warning in exc.warnings[:20]],
+        )
+
+    # Both attempts were invalid: keep the valid items of the cleaner one (partial), or fail
+    # the batch when neither answer was an object.
+    def _salvage_batch(
+        self,
+        first: ReportValidationError,
+        second: ReportValidationError,
+        index: int,
+        total: int,
+    ) -> ValidatedReport:
+        candidates = [exc for exc in (first, second) if exc.salvaged is not None]
+        if not candidates:
+            self._log_validation_failure(second, index, total, logger.error, "failed")
+            raise second
+        best = min(candidates, key=lambda exc: len(exc.warnings))
+        self._log_validation_failure(best, index, total, logger.error, "partial")
+        assert best.salvaged is not None
+        return best.salvaged
 
     # An output cut-off never reaches the user while it can be repaired: the batch is retried
     # with a larger output limit (reasoning shares it), then, with several fragments, as two
@@ -1066,7 +1222,16 @@ class ResponsesClient:
             )
         else:
             result = self.complete_json(self._report_prompt(), user, max_output_tokens)
-        return validate_report(result, evidence, allow_empty=True, strict=True)
+        try:
+            return validate_report(result, evidence, allow_empty=True, strict=True)
+        except ReportValidationError as exc:
+            # A non-object answer has nothing to keep, and invented or missing citations stay
+            # fatal; only malformed items are dropped, flagging the rest as partial.
+            if isinstance(result, dict) and all(
+                warning.code in SALVAGEABLE_WARNINGS for warning in exc.warnings
+            ):
+                exc.salvaged = validate_report(result, evidence, allow_empty=True)
+            raise
 
 
 class OllamaReportClient(ResponsesClient):
@@ -1136,8 +1301,8 @@ class OllamaReportClient(ResponsesClient):
         raw_bytes = 0
         final = None
         emit_report_activity(ReportActivity("request_started"))
-        with self.http.stream(
-            "POST", url, headers=headers, json=native, timeout=timeout
+        with _open_stream(
+            self.http, "POST", url, headers=headers, json=native, timeout=timeout
         ) as response:
             if response.status_code >= 400:
                 response.read()
@@ -1152,7 +1317,7 @@ class OllamaReportClient(ResponsesClient):
                     except ValueError:
                         pass
                 response.raise_for_status()
-            for line in response.iter_lines():
+            for line in _cancellable_lines(response):
                 checkpoint()
                 raw_bytes += len(line.encode("utf-8")) + 1
                 if not line:
@@ -1281,7 +1446,8 @@ class VllmReportClient(ResponsesClient):
         finish_reason = None
         usage: dict[str, Any] = {}
         emit_report_activity(ReportActivity("request_started"))
-        with self.http.stream(
+        with _open_stream(
+            self.http,
             "POST",
             url,
             headers={**headers, "Accept": "text/event-stream"},
@@ -1291,7 +1457,7 @@ class VllmReportClient(ResponsesClient):
             if response.status_code >= 400:
                 response.read()
                 response.raise_for_status()
-            for line in response.iter_lines():
+            for line in _cancellable_lines(response):
                 checkpoint()
                 raw_bytes += len(line.encode("utf-8")) + 1
                 if not line.startswith("data:"):

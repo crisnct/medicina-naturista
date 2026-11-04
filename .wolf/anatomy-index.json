@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-04T13:13:17.121Z",
-    "fileCount": 464,
+    "lastScanned": "2026-11-04T20:55:20.266Z",
+    "fileCount": 473,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "6cc9d8f1e65f31418a5b48fbe6d2fe62ffd1b4796750f481137bc98e085381b6",
-    "storeUpdatedAt": "2026-11-04T13:13:17.133Z",
-    "rootHash": "e487a7dbd926c5d3"
+    "renderedHash": "41207f675eaa258408d3267d1c25b41c7df8bbb0efa760e376dcf5bec6925dfe",
+    "storeUpdatedAt": "2026-11-04T20:55:20.277Z",
+    "rootHash": "780b70b102ed3bd6"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -868,11 +868,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 44269,
-      "hash": "544becd32cfc9e96",
-      "size": 178107,
-      "mtimeMs": 1793708494131.3142,
-      "updatedAt": "2026-11-03T12:21:34.595Z",
+      "tokens": 44793,
+      "hash": "4f4fd657cb0afe59",
+      "size": 180206,
+      "mtimeMs": 1793819326628.2476,
+      "updatedAt": "2026-11-04T19:08:47.022Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -2003,123 +2003,151 @@
     },
     "src/backend/ai/client.py": {
       "description": "Sequential whole-fragment report batches through the selected AI provider.",
-      "tokens": 17454,
-      "hash": "fce95681ce9e8657",
-      "size": 61089,
-      "mtimeMs": 1793797847268.7783,
-      "updatedAt": "2026-11-04T13:10:47.625Z",
+      "tokens": 19698,
+      "hash": "a26c9a0157a8b7cd",
+      "size": 68942,
+      "mtimeMs": 1793820623670.2273,
+      "updatedAt": "2026-11-04T19:30:24.059Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_ordered_entries",
           "kind": "fn",
-          "startLine": 76,
-          "endLine": 87,
+          "startLine": 86,
+          "endLine": 97,
           "tokens": 105
         },
         {
           "name": "AIUnavailable",
           "kind": "class",
-          "startLine": 88,
-          "endLine": 94,
+          "startLine": 98,
+          "endLine": 104,
           "tokens": 71
         },
         {
           "name": "_AIResponseError",
           "kind": "class",
-          "startLine": 95,
-          "endLine": 101,
+          "startLine": 105,
+          "endLine": 111,
           "tokens": 65
         },
         {
           "name": "_ollama_error_reason",
           "kind": "fn",
-          "startLine": 102,
-          "endLine": 136,
+          "startLine": 112,
+          "endLine": 146,
           "tokens": 377
         },
         {
           "name": "json_error_details",
           "kind": "fn",
-          "startLine": 137,
-          "endLine": 162,
+          "startLine": 147,
+          "endLine": 172,
           "tokens": 325
         },
         {
           "name": "_parse_json_object",
           "kind": "fn",
-          "startLine": 163,
-          "endLine": 174,
+          "startLine": 173,
+          "endLine": 184,
           "tokens": 124
         },
         {
           "name": "_StreamedResponse",
           "kind": "class",
-          "startLine": 175,
-          "endLine": 191,
+          "startLine": 185,
+          "endLine": 201,
           "tokens": 126
         },
         {
           "name": "_response_metrics",
           "kind": "fn",
-          "startLine": 192,
-          "endLine": 209,
+          "startLine": 202,
+          "endLine": 219,
           "tokens": 176
         },
         {
           "name": "_ollama_metrics",
           "kind": "fn",
-          "startLine": 210,
-          "endLine": 234,
-          "tokens": 227
+          "startLine": 220,
+          "endLine": 251,
+          "tokens": 348
+        },
+        {
+          "name": "_call_cancellable",
+          "kind": "fn",
+          "startLine": 252,
+          "endLine": 294,
+          "tokens": 398
+        },
+        {
+          "name": "_abort_stream",
+          "kind": "fn",
+          "startLine": 295,
+          "endLine": 302,
+          "tokens": 99
+        },
+        {
+          "name": "_cancellable_lines",
+          "kind": "fn",
+          "startLine": 303,
+          "endLine": 337,
+          "tokens": 302
+        },
+        {
+          "name": "_open_stream",
+          "kind": "fn",
+          "startLine": 338,
+          "endLine": 349,
+          "tokens": 116
         },
         {
           "name": "_collect_stream",
           "kind": "fn",
-          "startLine": 235,
-          "endLine": 289,
+          "startLine": 350,
+          "endLine": 404,
           "tokens": 691
         },
         {
           "name": "ResponsesClient",
           "kind": "class",
-          "startLine": 290,
-          "endLine": 1053,
-          "tokens": 9864
+          "startLine": 405,
+          "endLine": 1236,
+          "tokens": 10763
         },
         {
           "name": "OllamaReportClient",
           "kind": "class",
-          "startLine": 1054,
-          "endLine": 1193,
-          "tokens": 1868
+          "startLine": 1237,
+          "endLine": 1384,
+          "tokens": 1989
         },
         {
           "name": "VllmReportClient",
           "kind": "class",
-          "startLine": 1194,
-          "endLine": 1322,
-          "tokens": 1753
+          "startLine": 1385,
+          "endLine": 1518,
+          "tokens": 1820
         },
         {
           "name": "XAIClient",
           "kind": "class",
-          "startLine": 1323,
-          "endLine": 1329,
+          "startLine": 1519,
+          "endLine": 1525,
           "tokens": 95
         },
         {
           "name": "create_ai_client",
           "kind": "fn",
-          "startLine": 1330,
-          "endLine": 1339,
+          "startLine": 1526,
+          "endLine": 1535,
           "tokens": 120
         },
         {
           "name": "create_report_clients",
           "kind": "fn",
-          "startLine": 1340,
-          "endLine": 1368,
+          "startLine": 1536,
+          "endLine": 1564,
           "tokens": 379
         }
       ]
@@ -2251,110 +2279,110 @@
     },
     "src/backend/ai/herb_positive_repository.py": {
       "description": "Short snapshot/cache transactions and atomic publication of source-polarity generations.",
-      "tokens": 6360,
-      "hash": "8dd7ca18cfc1717c",
-      "size": 22259,
-      "mtimeMs": 1793601354518.1628,
-      "updatedAt": "2026-11-02T06:35:54.762Z",
+      "tokens": 6518,
+      "hash": "1bba17a380a2a3da",
+      "size": 22812,
+      "mtimeMs": 1793804728512.2114,
+      "updatedAt": "2026-11-04T15:05:28.850Z",
       "source": "hook",
       "symbols": [
         {
           "name": "active_key",
           "kind": "fn",
-          "startLine": 37,
-          "endLine": 40,
+          "startLine": 40,
+          "endLine": 43,
           "tokens": 30
         },
         {
           "name": "unavailable",
           "kind": "fn",
-          "startLine": 41,
-          "endLine": 49,
+          "startLine": 44,
+          "endLine": 52,
           "tokens": 87
         },
         {
           "name": "Snapshot",
           "kind": "class",
-          "startLine": 50,
-          "endLine": 62,
+          "startLine": 53,
+          "endLine": 65,
           "tokens": 137
         },
         {
           "name": "_preferred_names",
           "kind": "fn",
-          "startLine": 63,
-          "endLine": 85,
+          "startLine": 66,
+          "endLine": 88,
           "tokens": 289
         },
         {
           "name": "snapshot",
           "kind": "fn",
-          "startLine": 86,
-          "endLine": 155,
+          "startLine": 89,
+          "endLine": 158,
           "tokens": 871
         },
         {
           "name": "evidence_rows",
           "kind": "fn",
-          "startLine": 156,
-          "endLine": 164,
+          "startLine": 159,
+          "endLine": 167,
           "tokens": 106
         },
         {
           "name": "assert_integrity",
           "kind": "fn",
-          "startLine": 165,
-          "endLine": 201,
+          "startLine": 168,
+          "endLine": 204,
           "tokens": 604
         },
         {
           "name": "PositiveRepository",
           "kind": "class",
-          "startLine": 202,
-          "endLine": 459,
-          "tokens": 3498
+          "startLine": 205,
+          "endLine": 470,
+          "tokens": 3632
         },
         {
           "name": "active_run",
           "kind": "fn",
-          "startLine": 460,
-          "endLine": 484,
+          "startLine": 471,
+          "endLine": 495,
           "tokens": 263
         }
       ]
     },
     "src/scripts/positive_herb_ranking.py": {
       "description": "Explicit, resumable positive-ranking stages used by the existing index CLI.",
-      "tokens": 4477,
-      "hash": "a3e92e53bed32493",
-      "size": 15669,
-      "mtimeMs": 1793191787207.452,
-      "updatedAt": "2026-10-28T12:49:47.705Z",
+      "tokens": 4614,
+      "hash": "48878a427213bc86",
+      "size": 16146,
+      "mtimeMs": 1793804775563.032,
+      "updatedAt": "2026-11-04T15:06:15.904Z",
       "source": "hook",
       "symbols": [
         {
           "name": "run_positive_ranking",
           "kind": "fn",
-          "startLine": 42,
-          "endLine": 332,
-          "tokens": 3832
+          "startLine": 48,
+          "endLine": 345,
+          "tokens": 3950
         },
         {
           "name": "refresh_positive_ranking",
           "kind": "fn",
-          "startLine": 333,
-          "endLine": 348,
+          "startLine": 346,
+          "endLine": 361,
           "tokens": 242
         }
       ]
     },
     "src/scripts/build_hybrid_index.py": {
       "description": "Incrementally sync a traceable, local-only hybrid index for a Markdown",
-      "tokens": 19930,
-      "hash": "1eb7d26e49487dda",
-      "size": 69763,
-      "mtimeMs": 1793651159290.288,
-      "updatedAt": "2026-11-02T20:25:59.591Z",
+      "tokens": 20572,
+      "hash": "0db7136776739b29",
+      "size": 72011,
+      "mtimeMs": 1793824446973.1804,
+      "updatedAt": "2026-11-04T20:34:07.317Z",
       "source": "hook",
       "symbols": [
         {
@@ -2564,8 +2592,8 @@
           "name": "normalize_text",
           "kind": "fn",
           "startLine": 870,
-          "endLine": 1685,
-          "tokens": 9738
+          "endLine": 1726,
+          "tokens": 10368
         }
       ]
     },
@@ -5037,11 +5065,11 @@
     },
     "src/backend/ai/conditions.py": {
       "description": "Medical-condition matching over an ordered PostgreSQL catalog snapshot.",
-      "tokens": 3973,
-      "hash": "d7e0c1169c870627",
-      "size": 13909,
-      "mtimeMs": 1793629624763.9631,
-      "updatedAt": "2026-11-02T14:27:05.112Z",
+      "tokens": 4072,
+      "hash": "a4c1d80fcd43f8c9",
+      "size": 14256,
+      "mtimeMs": 1793819778890.106,
+      "updatedAt": "2026-11-04T19:16:19.309Z",
       "source": "hook",
       "symbols": [
         {
@@ -5097,28 +5125,28 @@
           "name": "ConditionDictionary",
           "kind": "class",
           "startLine": 133,
-          "endLine": 298,
-          "tokens": 2332
+          "endLine": 303,
+          "tokens": 2430
         },
         {
           "name": "load_dictionary",
           "kind": "fn",
-          "startLine": 299,
-          "endLine": 308,
+          "startLine": 304,
+          "endLine": 313,
           "tokens": 90
         },
         {
           "name": "find_conditions",
           "kind": "fn",
-          "startLine": 309,
-          "endLine": 314,
+          "startLine": 314,
+          "endLine": 319,
           "tokens": 73
         },
         {
           "name": "resolve_query",
           "kind": "fn",
-          "startLine": 315,
-          "endLine": 317,
+          "startLine": 320,
+          "endLine": 322,
           "tokens": 27
         }
       ]
@@ -5661,75 +5689,89 @@
     },
     "src/scripts/herb_index_requests.py": {
       "description": "Stream one indexing request per batch and emit aggregate telemetry without source content.",
-      "tokens": 4390,
-      "hash": "51474aacffe6f9a4",
-      "size": 15366,
-      "mtimeMs": 1793191772059.3743,
-      "updatedAt": "2026-10-28T12:49:33.156Z",
+      "tokens": 4885,
+      "hash": "fe4a85847e79da5f",
+      "size": 17099,
+      "mtimeMs": 1793823757113.4583,
+      "updatedAt": "2026-11-04T20:22:37.494Z",
       "source": "hook",
       "symbols": [
         {
           "name": "emit_index_event",
           "kind": "fn",
-          "startLine": 86,
-          "endLine": 92,
+          "startLine": 94,
+          "endLine": 100,
           "tokens": 64
         },
         {
           "name": "model_digest",
           "kind": "fn",
-          "startLine": 93,
-          "endLine": 113,
+          "startLine": 101,
+          "endLine": 121,
           "tokens": 217
         },
         {
           "name": "release_index_model",
           "kind": "fn",
-          "startLine": 114,
-          "endLine": 151,
+          "startLine": 122,
+          "endLine": 159,
           "tokens": 506
         },
         {
           "name": "warning_item_limit",
           "kind": "fn",
-          "startLine": 152,
-          "endLine": 156,
+          "startLine": 160,
+          "endLine": 164,
           "tokens": 72
         },
         {
           "name": "index_response_schema",
           "kind": "fn",
-          "startLine": 157,
-          "endLine": 180,
-          "tokens": 369
+          "startLine": 165,
+          "endLine": 195,
+          "tokens": 462
+        },
+        {
+          "name": "strict_json",
+          "kind": "fn",
+          "startLine": 196,
+          "endLine": 211,
+          "tokens": 181
         },
         {
           "name": "IndexClient",
           "kind": "class",
-          "startLine": 181,
-          "endLine": 208,
-          "tokens": 338
+          "startLine": 212,
+          "endLine": 227,
+          "tokens": 202
         },
         {
           "name": "make_client",
           "kind": "fn",
-          "startLine": 209,
-          "endLine": 226,
-          "tokens": 155
+          "startLine": 228,
+          "endLine": 251,
+          "tokens": 248
+        },
+        {
+          "name": "write_when_free",
+          "kind": "fn",
+          "startLine": 252,
+          "endLine": 263,
+          "tokens": 109
         },
         {
           "name": "BatchTelemetry",
           "kind": "class",
-          "startLine": 227,
-          "endLine": 316,
+          "startLine": 264,
+          "endLine": 353,
           "tokens": 1145
         },
         {
           "name": "index_batch",
           "kind": "fn",
-          "startLine": 317,
-          "endLine": 387,
-          "tokens": 758
+          "startLine": 354,
+          "endLine": 434,
+          "tokens": 836
         }
       ]
     },
@@ -6543,67 +6585,67 @@
     },
     "src/backend/ai/report_validation.py": {
       "description": "Validate the report contract against the exact evidence snapshot.",
-      "tokens": 1940,
-      "hash": "a05f99b66296d837",
-      "size": 6791,
-      "mtimeMs": 1793264417942.3726,
-      "updatedAt": "2026-10-29T09:00:18.421Z",
+      "tokens": 2070,
+      "hash": "ef0c32e630b7fafe",
+      "size": 7247,
+      "mtimeMs": 1793819309518.2646,
+      "updatedAt": "2026-11-04T19:08:29.869Z",
       "source": "hook",
       "symbols": [
         {
           "name": "partial_notice",
           "kind": "fn",
           "startLine": 12,
-          "endLine": 25,
-          "tokens": 86
+          "endLine": 30,
+          "tokens": 149
         },
         {
           "name": "ReportValidationError",
           "kind": "class",
-          "startLine": 26,
-          "endLine": 31,
-          "tokens": 62
+          "startLine": 31,
+          "endLine": 40,
+          "tokens": 126
         },
         {
           "name": "Recommendation",
           "kind": "class",
-          "startLine": 32,
-          "endLine": 37,
+          "startLine": 41,
+          "endLine": 46,
           "tokens": 34
         },
         {
           "name": "ValidationWarning",
           "kind": "class",
-          "startLine": 38,
-          "endLine": 44,
+          "startLine": 47,
+          "endLine": 53,
           "tokens": 42
         },
         {
           "name": "ValidatedReport",
           "kind": "class",
-          "startLine": 45,
-          "endLine": 63,
+          "startLine": 54,
+          "endLine": 72,
           "tokens": 167
         },
         {
           "name": "report_response_schema",
           "kind": "fn",
-          "startLine": 64,
-          "endLine": 110,
+          "startLine": 73,
+          "endLine": 119,
           "tokens": 437
         },
         {
           "name": "normalize_nutrition",
           "kind": "fn",
-          "startLine": 111,
-          "endLine": 126,
+          "startLine": 120,
+          "endLine": 135,
           "tokens": 171
         },
         {
           "name": "validate_report",
           "kind": "fn",
-          "startLine": 127,
-          "endLine": 189,
+          "startLine": 136,
+          "endLine": 198,
           "tokens": 826
         }
       ]
@@ -11903,6 +11945,267 @@
       "mtimeMs": 1793797948355.2434,
       "updatedAt": "2026-11-04T13:12:28.763Z",
       "source": "hook"
+    },
+    "aiPlans/2026-11-04-vllm-qwen35-9b-indexare.md": {
+      "description": "Indexare: `ollama-qwen3.5:9b` → `vllm-qwen3.5:9b` — abandonat",
+      "tokens": 3781,
+      "hash": "53add51a4616173b",
+      "size": 15580,
+      "mtimeMs": 1793804301125.5627,
+      "updatedAt": "2026-11-04T14:58:21.397Z",
+      "source": "hook"
+    },
+    "aiWork/bench_parallel_ollama.py": {
+      "description": "Benchmark: sequential vs 2 parallel threads of association batches to Ollama qwen3.5:9b.",
+      "tokens": 2687,
+      "hash": "c5bf4738a88c3bf1",
+      "size": 9402,
+      "mtimeMs": 1793802624979.6643,
+      "updatedAt": "2026-11-04T14:30:25.276Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "load_settings",
+          "kind": "fn",
+          "startLine": 41,
+          "endLine": 52,
+          "tokens": 136
+        },
+        {
+          "name": "build_batches",
+          "kind": "fn",
+          "startLine": 53,
+          "endLine": 79,
+          "tokens": 318
+        },
+        {
+          "name": "run_batch",
+          "kind": "fn",
+          "startLine": 80,
+          "endLine": 124,
+          "tokens": 490
+        },
+        {
+          "name": "vram_poller",
+          "kind": "fn",
+          "startLine": 125,
+          "endLine": 135,
+          "tokens": 102
+        },
+        {
+          "name": "run_group",
+          "kind": "fn",
+          "startLine": 136,
+          "endLine": 185,
+          "tokens": 524
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 186,
+          "endLine": 241,
+          "tokens": 715
+        }
+      ]
+    },
+    "aiWork/vllm_phase0_payload.py": {
+      "description": "Phase 0 helper: dump real association batches (system prompt, user payload, JSON schema) to",
+      "tokens": 1835,
+      "hash": "905b26b72c85b37f",
+      "size": 6422,
+      "mtimeMs": 1793803146150.7637,
+      "updatedAt": "2026-11-04T14:39:06.532Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "snapshot",
+          "kind": "fn",
+          "startLine": 35,
+          "endLine": 47,
+          "tokens": 106
+        },
+        {
+          "name": "dump",
+          "kind": "fn",
+          "startLine": 48,
+          "endLine": 75,
+          "tokens": 356
+        },
+        {
+          "name": "run",
+          "kind": "fn",
+          "startLine": 76,
+          "endLine": 146,
+          "tokens": 869
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 147,
+          "endLine": 165,
+          "tokens": 186
+        }
+      ]
+    },
+    "src/backend/migrations/043_gripa_flu_synonyms.sql": {
+      "description": "Plain English names of Gripa; the catalog only had \"seasonal flu\". Safe to run more than once.",
+      "tokens": 94,
+      "hash": "09c28491f27db7ba",
+      "size": 352,
+      "mtimeMs": 1793820970951.3977,
+      "updatedAt": "2026-11-04T19:36:11.243Z",
+      "source": "hook"
+    },
+    "aiWork/bench_gpu_slice.py": {
+      "description": "Measure windows/s of the CUDA embedder for several _GPU_SLICE values (run with .venv-gpu).",
+      "tokens": 573,
+      "hash": "ee6a6a955dd0bb8e",
+      "size": 2004,
+      "mtimeMs": 1793823940495.6003,
+      "updatedAt": "2026-11-04T20:25:40.861Z",
+      "source": "hook"
+    },
+    "aiWork/patch_deepseek.py": {
+      "description": "One-off patch: remove the DeepSeek stage from the safety extension (run once, then delete).",
+      "tokens": 3330,
+      "hash": "46a25bfa426fddc7",
+      "size": 11652,
+      "mtimeMs": 1793823746461.5374,
+      "updatedAt": "2026-11-04T20:22:26.854Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "sub",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 259,
+          "tokens": 3294
+        }
+      ]
+    },
+    "aiWork/test_reuse_embeddings.py": {
+      "description": "Throwaway check (not part of the repo tests): a dictionary-only change reuses stored vectors.",
+      "tokens": 1118,
+      "hash": "719791ec7cba2b47",
+      "size": 3910,
+      "mtimeMs": 1793824511738.3992,
+      "updatedAt": "2026-11-04T20:35:12.060Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "random_embed",
+          "kind": "fn",
+          "startLine": 21,
+          "endLine": 26,
+          "tokens": 77
+        },
+        {
+          "name": "ReuseTests",
+          "kind": "class",
+          "startLine": 27,
+          "endLine": 92,
+          "tokens": 887
+        }
+      ]
+    },
+    "aiWork/vllm/assoc_bench.py": {
+      "description": "Benchmark: real association batches on vLLM Qwen3.5-4B at several concurrency levels.",
+      "tokens": 3598,
+      "hash": "4d1732e91e419d2f",
+      "size": 12591,
+      "mtimeMs": 1793825450948.8318,
+      "updatedAt": "2026-11-04T20:50:51.281Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "load_settings",
+          "kind": "fn",
+          "startLine": 51,
+          "endLine": 62,
+          "tokens": 136
+        },
+        {
+          "name": "wait_for_server",
+          "kind": "fn",
+          "startLine": 63,
+          "endLine": 76,
+          "tokens": 154
+        },
+        {
+          "name": "reference_runs",
+          "kind": "fn",
+          "startLine": 77,
+          "endLine": 87,
+          "tokens": 142
+        },
+        {
+          "name": "reference_labels",
+          "kind": "fn",
+          "startLine": 88,
+          "endLine": 126,
+          "tokens": 418
+        },
+        {
+          "name": "data_language",
+          "kind": "fn",
+          "startLine": 127,
+          "endLine": 130,
+          "tokens": 19
+        },
+        {
+          "name": "one_request",
+          "kind": "fn",
+          "startLine": 131,
+          "endLine": 211,
+          "tokens": 861
+        },
+        {
+          "name": "run_level",
+          "kind": "fn",
+          "startLine": 212,
+          "endLine": 245,
+          "tokens": 427
+        },
+        {
+          "name": "agreement",
+          "kind": "fn",
+          "startLine": 246,
+          "endLine": 259,
+          "tokens": 188
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 260,
+          "endLine": 322,
+          "tokens": 816
+        }
+      ]
+    },
+    "aiWork/vllm/assoc_sample.py": {
+      "description": "Quality sample for one herb: the real association batches that contain it, on vLLM Qwen3.5-4B.",
+      "tokens": 2334,
+      "hash": "a5b63b5558e58330",
+      "size": 8169,
+      "mtimeMs": 1793825719955.1704,
+      "updatedAt": "2026-11-04T20:55:20.265Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "ask",
+          "kind": "fn",
+          "startLine": 40,
+          "endLine": 70,
+          "tokens": 306
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 71,
+          "endLine": 191,
+          "tokens": 1656
+        }
+      ]
     }
   },
   "preamble": [

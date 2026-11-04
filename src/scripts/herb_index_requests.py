@@ -17,7 +17,6 @@ from typing import Any, Literal
 import httpx
 
 from backend.ai.client import AIUnavailable, OllamaReportClient, ResponsesClient, json_error_details
-from backend.ai.effort import responses_effort
 from backend.ai.herb_association_classification import make_client as association_client
 from backend.ai.herb_association_classification import model_digest as association_model_digest
 from backend.ai.herb_association_classification import response_schema
@@ -26,7 +25,7 @@ from backend.ai.herb_product_safety import (
     dedup_response_schema,
     product_response_schema,
 )
-from backend.ai.providers import ProviderConfig
+from backend.ai.index_state import IndexUnavailable
 from backend.config import Settings
 from backend.core.errors import OperationCancelled
 from backend.core.operation_context import (
@@ -36,7 +35,6 @@ from backend.core.operation_context import (
     operation_budget,
     remaining_timeout,
 )
-from backend.core.report_models import DEFAULT_REPORT_EFFORT
 
 BatchKind = Literal["associations", "combined", "warnings_only", "product_safety"]
 logger = logging.getLogger("naturist.ai")
@@ -242,37 +240,22 @@ def make_client(settings: Settings) -> ResponsesClient:
     return client
 
 
-# The external stage sends only catalog identities to DeepSeek. Its documentation confirms the
-# json_object format but not json_schema, so the strict batch validation is the only gate.
-class DeepSeekSafetyClient(ResponsesClient):
-    def complete_batch(self, system: str, user: str, max_tokens: int) -> dict[str, Any]:
-        return self._complete_json(system, user, max_tokens)
-
-    def _parse_content(self, content: str) -> Any:
-        return strict_json(content)
+INDEX_WRITE_WAIT_SECONDS = 600.0
 
 
-# DeepSeek is allowed only for this stage; the report provider selection is not consulted.
-def make_deepseek_client(settings: Settings) -> DeepSeekSafetyClient:
-    provider = ProviderConfig(
-        name="deepseek",
-        label="DeepSeek",
-        base_url=settings.deepseek_api_base,
-        model=settings.deepseek_model,
-        reasoning_effort=responses_effort(DEFAULT_REPORT_EFFORT),
-        api_key=settings.deepseek_api_key,
-        api_key_env="DEEPSEEK_API_KEY",
-        api_key_required=True,
-        json_format="text_format",
-        send_store=False,
-        max_context_chars=0,
-        max_output_tokens=settings.herb_safety_deepseek_max_output_tokens,
-        read_timeout_seconds=settings.ai_read_timeout_seconds,
-        # A lot of 100 products generates for many minutes; only a stream keeps the read alive.
-        stream=True,
-        effort_control="responses_effort",
-    )
-    return DeepSeekSafetyClient(provider, settings)
+# A repository write try-locks the index exclusively and fails at once while any reader, such as a
+# web request, holds the shared lock. One short reader must not abort an hours-long run, so a
+# per-batch write waits for the readers to leave and keeps its original error after the deadline.
+def write_when_free(write: Callable[..., Any], *args: Any) -> Any:
+    deadline = time.monotonic() + INDEX_WRITE_WAIT_SECONDS
+    while True:
+        try:
+            return write(*args)
+        except IndexUnavailable as error:
+            if error.code != "INDEX_MAINTENANCE" or time.monotonic() >= deadline:
+                raise
+        checkpoint()
+        time.sleep(0.5)
 
 
 class BatchTelemetry:

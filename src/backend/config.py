@@ -105,8 +105,12 @@ def _model_limits(
         ):
             if key in entry:
                 limit = entry[key]
-                if type(limit) is not int or limit <= 0:
-                    raise ValueError(f"Report model {key} must be a positive integer")
+                # A model that cannot think has "thinking": 0, no room reserved for it.
+                if type(limit) is not int or limit < (0 if key == "thinking" else 1):
+                    raise ValueError(
+                        f"Report model {key} must be "
+                        + ("a nonnegative integer" if key == "thinking" else "a positive integer")
+                    )
                 target[model] = limit
         if "effort" in entry:
             effort = entry["effort"]
@@ -328,12 +332,9 @@ class Settings:
     herb_safety_ai_max_output_tokens: int = 40000
     herb_safety_build_timeout_seconds: int = 86400
     herb_safety_ministral_batch_size: int = 10
-    herb_safety_deepseek_batch_size: int = 100
-    herb_safety_deepseek_max_output_tokens: int = 160000
     # Local model that groups equivalent messages; chosen by comparing three local models.
     herb_safety_dedup_model: str = "gemma4:12b"
-    # Local model of the generation stage (stage id `ministral`); empty
-    # disables the local stage so only DeepSeek generates.
+    # Local model of the generation stage (stage id `ministral`); required by the extension.
     herb_safety_generation_model: str = "ministral-3:8b"
     # Empty keeps the single-product monolingual flow; see parse_safety_scope.
     herb_safety_extension_products: str = ""
@@ -500,10 +501,6 @@ class Settings:
                 "HERB_SAFETY_BUILD_TIMEOUT_SECONDS", 86400, env=env
             ),
             herb_safety_ministral_batch_size=_int("HERB_SAFETY_MINISTRAL_BATCH_SIZE", 10, env=env),
-            herb_safety_deepseek_batch_size=_int("HERB_SAFETY_DEEPSEEK_BATCH_SIZE", 100, env=env),
-            herb_safety_deepseek_max_output_tokens=_int(
-                "HERB_SAFETY_DEEPSEEK_MAX_OUTPUT_TOKENS", 160000, env=env
-            ),
             herb_safety_dedup_model=env.get("HERB_SAFETY_DEDUP_MODEL", "gemma4:12b").strip(),
             herb_safety_generation_model=env.get(
                 "HERB_SAFETY_GENERATION_MODEL", "ministral-3:8b"
@@ -609,10 +606,10 @@ class Settings:
         if (
             not isinstance(thinking, Mapping)
             or set(thinking) != set(REPORT_MODELS)
-            or any(type(value) is not int or value <= 0 for value in thinking.values())
+            or any(type(value) is not int or value < 0 for value in thinking.values())
         ):
             raise ValueError(
-                "Report model thinking budgets must map every supported model to a positive integer"
+                "Report model thinking budgets must map every supported model to a nonnegative integer"
             )
         object.__setattr__(
             self, "report_generation_thinking_tokens", MappingProxyType(dict(thinking))
@@ -699,8 +696,6 @@ class Settings:
             "herb_safety_ai_max_output_tokens",
             "herb_safety_build_timeout_seconds",
             "herb_safety_ministral_batch_size",
-            "herb_safety_deepseek_batch_size",
-            "herb_safety_deepseek_max_output_tokens",
         ):
             if type(getattr(self, name)) is not int or getattr(self, name) <= 0:
                 raise ValueError(f"{name} must be a positive integer")
@@ -721,11 +716,6 @@ class Settings:
                 > self.herb_safety_ai_max_output_tokens
             ):
                 raise ValueError("herb safety ministral batch does not fit the output token limit")
-            if (
-                safety_output_estimate(self.herb_safety_deepseek_batch_size)
-                > self.herb_safety_deepseek_max_output_tokens
-            ):
-                raise ValueError("herb safety deepseek batch does not fit the output token limit")
         if self.herb_association_ai_max_units > 6:
             raise ValueError("herb_association_ai_max_units must not exceed 6 source passages")
         if (

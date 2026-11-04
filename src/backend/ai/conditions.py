@@ -133,9 +133,11 @@ def _folded_words(text: str) -> list[str]:
 class ConditionDictionary:
     def __init__(self, conditions: Iterable[Condition], language: Language | None = None) -> None:
         self.language = language or current_language()
+        english = self.language == "en"
+        conditions = tuple(conditions)
         self.conditions = tuple(
             Condition(item.name, (item.english,), item.english)
-            if self.language == "en" and item.english
+            if english and item.english
             else item
             for item in conditions
         )
@@ -144,9 +146,16 @@ class ConditionDictionary:
         # Phrase index for find(): first folded word -> [(folded words, condition indexes)],
         # longest phrase first so the most specific term wins at a position.
         self._phrases: dict[str, list[tuple[tuple[str, ...], list[int]]]] = {}
-        for index, condition in enumerate(self.conditions):
-            for term in condition.terms:
-                self._by_term.setdefault(_normalize(term), []).append(index)
+        for index, item in enumerate(conditions):
+            # English shows and searches only the English name, but every synonym of the
+            # catalog still identifies the condition ("flu" for the influenza entry).
+            for term in dict.fromkeys(
+                _normalize(term)
+                for term in (
+                    (item.english, *item.terms) if english and item.english else item.terms
+                )
+            ):
+                self._by_term.setdefault(term, []).append(index)
         self._terms = list(self._by_term)
         for term, indexes in self._by_term.items():
             words = tuple(

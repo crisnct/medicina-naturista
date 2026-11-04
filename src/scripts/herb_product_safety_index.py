@@ -241,10 +241,9 @@ def run_product_safety_index(
             if publish:
                 # Each generation owns its language pointer, whatever --language says.
                 language = repository.run_language(publish)
-                # An extension run records the digest of the model that generated it (the local
-                # generation model, or the grouping model when DeepSeek alone generates).
+                # An extension run records the digest of the model that generated it.
                 model = (
-                    settings.herb_safety_generation_model or settings.herb_safety_dedup_model
+                    settings.herb_safety_generation_model
                     if extension
                     else settings.herb_association_ai_model
                 )

@@ -11,12 +11,10 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, Literal
 
-from backend.ai.effort import responses_effort
 from backend.ai.herb_association_rules import content_hash
 from backend.ai.herbs import Herb
 from backend.config import Settings
 from backend.core.language import current_language, read_prompt
-from backend.core.report_models import DEFAULT_REPORT_EFFORT
 
 logger = logging.getLogger("naturist.ai")
 MessageType = Literal["warning", "contraindication", "interaction"]
@@ -29,8 +27,8 @@ BILINGUAL_PROMPT_PATH = (
     Path(__file__).with_name("prompts") / "herb_product_safety_bilingual_system.md"
 )
 DEDUP_PROMPT_PATH = Path(__file__).with_name("prompts") / "herb_product_safety_dedup_system.md"
-Stage = Literal["ministral", "deepseek"]
-STAGES: tuple[Stage, ...] = ("ministral", "deepseek")
+Stage = Literal["ministral"]
+STAGES: tuple[Stage, ...] = ("ministral",)
 BILINGUAL_VERSION = 2
 # Bumped when the bilingual text validation changes, so earlier cached answers are asked again.
 BILINGUAL_VALIDATION_VERSION = 3
@@ -467,16 +465,9 @@ def stage_semantic(settings: Settings, stage: Stage) -> dict[str, Any]:
         "max_words": MAX_WORDS,
         "message_types": list(MESSAGE_TYPES),
     }
-    if stage == "ministral":
-        return {**semantic, "model": settings.herb_safety_generation_model, "temperature": 0}
-    return {
-        **semantic,
-        "model": settings.deepseek_model,
-        "reasoning_effort": responses_effort(DEFAULT_REPORT_EFFORT),
-    }
+    return {**semantic, "model": settings.herb_safety_generation_model, "temperature": 0}
 
 
-# An external API has no weights digest, so its model name inside the semantics is the identity.
 def stage_cache_key(herb: Herb, semantic: dict[str, Any], digest: str | None) -> str:
     return content_hash([product_identity(herb), semantic, digest])
 
@@ -496,7 +487,6 @@ def run_semantic(settings: Settings, language: str, stages: Sequence[Stage]) -> 
         "model": settings.herb_safety_generation_model,
         "temperature": 0,
         "stages": list(stages),
-        "deepseek_model": settings.deepseek_model if "deepseek" in stages else None,
         "dedup_prompt": content_hash(dedup_prompt()),
         "scope": settings.herb_safety_extension_products,
     }

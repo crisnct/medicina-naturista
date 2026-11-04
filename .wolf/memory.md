@@ -2938,3 +2938,83 @@ description: chronological action log per session, consolidated weekly
 | 15:21 | Session end: 11 writes across 6 files (client.py, vllm_thinking_budget_check.py, providers.py, docker-compose.yaml, 042_report_batch_usage.sql) | 7 reads | ~8770 tok |
 <!-- session:Nzc4Mjg0ZTctZTQxYy00YjVmLTg0MmYtMmU3MDkzM2JjMDE3 -->
 | 2026-11-04T13:35:09.739Z | Report panel gets an admin thinkingTokens field (medium/high only) end to end: API, job, conversation, client override, validation <= context/4, RO/EN texts, README | src/backend/web/main.py,src/backend/ai/client.py,src/frontend/components/GeneratePanel.tsx,src/frontend/lib/generationLimits.ts | 683 backend + 58 frontend tests pass, typecheck ok; browser not verified |
+
+## Session: 2026-11-04 15:37
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 15:53 | Created aiPlans/2026-11-04-vllm-qwen35-9b-indexare.md | — | ~3308 |
+| 16:00 | Session end: 1 writes across 1 files (2026-11-04-vllm-qwen35-9b-indexare.md) | 10 reads | ~5487 tok |
+| 16:29 | Created aiWork/bench_parallel_ollama.py | — | ~2690 |
+| 16:30 | Edited aiWork/bench_parallel_ollama.py | 3→3 lines | ~52 |
+| 16:33 | Edited aiPlans/2026-11-04-vllm-qwen35-9b-indexare.md | expanded (+10 lines) | ~215 |
+<!-- session:MjJmYWNhZWYtN2NmZi00NDdkLWJiZDAtMTcyZDJiNjc3ODE4 -->
+| 2026-11-04T14:33:46.805Z | Benchmarked sequential vs 2-thread association batches to Ollama qwen3.5:9b; no real speedup (requests serialized). Wrote vLLM qwen3.5:9b indexing plan. | aiWork/bench_parallel_ollama.py,aiPlans/2026-11-04-vllm-qwen35-9b-indexare.md | benchmark ran, 0 invalid responses; no src changes |
+| 16:39 | Created aiWork/vllm_phase0_payload.py | — | ~1835 |
+| 16:58 | Edited aiPlans/2026-11-04-vllm-qwen35-9b-indexare.md | 3→4 lines | ~64 |
+| 16:58 | Edited aiPlans/2026-11-04-vllm-qwen35-9b-indexare.md | modified Neverificate() | ~497 |
+<!-- session:MjJmYWNhZWYtN2NmZi00NDdkLWJiZDAtMTcyZDJiNjc3ODE4 -->
+| 2026-11-04T14:58:35.833Z | vLLM qwen3.5:9b phase 0 run and abandoned by user; removed temp container, alpine image, downloaded checkpoint (9.08 GB) from vllm_hf_cache and vLLM scratch files; plan marked abandoned with results | aiPlans/2026-11-04-vllm-qwen35-9b-indexare.md | cleanup complete; no src changes |
+
+## Session: 2026-11-04 17:04
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 17:05 | Edited src/backend/ai/herb_positive_repository.py | expanded (+8 lines) | ~237 |
+| 17:05 | Edited src/backend/ai/herb_positive_repository.py | 2→4 lines | ~30 |
+| 17:05 | Edited src/backend/ai/herb_positive_repository.py | added 1 import(s) | ~20 |
+| 17:06 | Edited src/scripts/herb_index_requests.py | added error handling | ~208 |
+| 17:06 | Edited src/scripts/herb_index_requests.py | added 1 import(s) | ~52 |
+| 17:06 | Edited src/scripts/positive_herb_ranking.py | admit_request() → write_when_free() | ~63 |
+| 17:06 | Edited src/scripts/positive_herb_ranking.py | save_cache() → write_when_free() | ~118 |
+| 17:06 | Edited src/scripts/positive_herb_ranking.py | expanded (+6 lines) | ~40 |
+| 17:18 | Session end: 8 writes across 3 files (herb_positive_repository.py, herb_index_requests.py, positive_herb_ranking.py) | 3 reads | ~768 tok |
+| 21:02 | Edited src/backend/ai/report_validation.py | modified __init__() | ~106 |
+| 21:02 | Edited src/backend/ai/client.py | added error handling | ~155 |
+| 21:02 | Edited src/backend/ai/client.py | modified _log_validation_failure() | ~687 |
+| 21:02 | Edited src/backend/ai/client.py | 2→7 lines | ~148 |
+| 21:02 | Edited src/backend/ai/client.py | added 1 import(s) | ~27 |
+| 21:04 | Edited README.md | inline fix | ~105 |
+| 21:08 | Edited src/backend/ai/report_validation.py | modified ReportValidationError() | ~139 |
+| 21:08 | Edited src/backend/ai/client.py | modified all() | ~122 |
+| 21:08 | Edited src/backend/ai/client.py | 2→3 lines | ~28 |
+| 21:08 | Edited README.md | "AI_RESPONSE_INVALID" → "INVALID_ITEM" | ~84 |
+| 21:16 | Edited src/backend/ai/conditions.py | modified find() | ~320 |
+| 21:16 | Edited src/backend/ai/conditions.py | 2→3 lines | ~32 |
+
+## Session: 2026-11-04 21:28
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 21:29 | Edited src/backend/ai/client.py | added 3 import(s) | ~90 |
+| 21:30 | Edited src/backend/ai/client.py | added error handling | ~1062 |
+| 21:30 | Edited src/backend/ai/client.py | inline fix | ~14 |
+| 21:30 | Edited src/backend/ai/client.py | 2→4 lines | ~50 |
+| 21:30 | Edited src/backend/ai/client.py | 11→12 lines | ~122 |
+| 21:30 | Edited src/backend/ai/client.py | stream() → _open_stream() | ~38 |
+| 21:30 | Edited src/backend/ai/client.py | stream() → _open_stream() | ~65 |
+| 21:30 | Edited src/backend/ai/client.py | iter_lines() → _cancellable_lines() | ~49 |
+| 21:30 | Edited src/backend/ai/client.py | iter_lines() → _cancellable_lines() | ~55 |
+| 21:32 | Session end: 9 writes across 1 files (client.py) | 3 reads | ~3988 tok |
+| 21:36 | Created src/backend/migrations/043_gripa_flu_synonyms.sql | — | ~94 |
+| 21:57 | Created aiWork/bench_gpu_slice.py | — | ~472 |
+| 21:57 | Edited aiWork/bench_gpu_slice.py | 3→3 lines | ~32 |
+| 21:57 | Edited aiWork/bench_gpu_slice.py | removed 3 lines | ~1 |
+| 22:13 | Edited aiWork/bench_gpu_slice.py | 1→4 lines | ~69 |
+| 22:22 | Created aiWork/patch_deepseek.py | — | ~3330 |
+| 22:22 | Edited src/scripts/herb_index_requests.py | added error handling | ~208 |
+| 22:25 | Edited aiWork/bench_gpu_slice.py | 1→5 lines | ~73 |
+| 22:33 | Edited src/scripts/build_hybrid_index.py | modified enumerate() | ~449 |
+| 22:33 | Edited src/scripts/build_hybrid_index.py | modified _chunk_key() | ~374 |
+| 22:34 | Edited src/scripts/build_hybrid_index.py | 2→4 lines | ~56 |
+| 22:35 | Created aiWork/test_reuse_embeddings.py | — | ~1118 |
+
+## Session: 2026-11-04 22:42
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 22:50 | Created aiWork/vllm/assoc_bench.py | — | ~3746 |
+| 22:50 | Edited aiWork/vllm/assoc_bench.py | modified relation_id() | ~246 |
+| 22:55 | Created aiWork/vllm/assoc_sample.py | — | ~2334 |
+<!-- session:ZTI2ZDgyZmYtMmRkYS00YTVlLWJjMWEtNGVhOTliYWJmODM2 -->
+| 2026-11-04T21:15:11.201Z | Benchmarked real association batches on vLLM Qwen3.5-4B (1-24 workers) and compared with cached qwen3.5:9b decisions, including a St. John's wort sample; no src changes | aiWork/vllm/assoc_bench.py,aiWork/vllm/assoc_sample.py,aiWork/vllm/assoc_determinism.py | about 7x faster at 24 workers; ro agreement 87.6%, en 69.6%, caution often lost; concurrency alone changes 11/225 answers |

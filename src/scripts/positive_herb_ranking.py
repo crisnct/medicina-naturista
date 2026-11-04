@@ -33,7 +33,13 @@ from backend.ai.herb_positive_repository import PositiveRepository
 from backend.ai.herb_product_safety_repository import ProductSafetyRepository
 from backend.config import Settings, parse_safety_scope
 from backend.core.operation_context import OperationBudget, checkpoint, operation_budget
-from scripts.herb_index_requests import emit_index_event, index_batch, make_client, model_digest
+from scripts.herb_index_requests import (
+    emit_index_event,
+    index_batch,
+    make_client,
+    model_digest,
+    write_when_free,
+)
 from scripts.herb_product_safety_index import ProductSafetyCoordinator
 from scripts.herb_safety_index import format_duration, workflow_progress
 
@@ -253,8 +259,10 @@ def run_positive_ranking(
                         data.conditions,
                         condition_synonyms=data.condition_synonyms,
                     )
-                    repository.admit_request(
-                        counters["run_id"], settings.herb_association_ai_max_requests
+                    write_when_free(
+                        repository.admit_request,
+                        counters["run_id"],
+                        settings.herb_association_ai_max_requests,
                     )
                     counters["requests"] += 1
                     system = prompt
@@ -280,11 +288,12 @@ def run_positive_ranking(
                         entries = {
                             keys[identifier]: decision for identifier, decision in results.items()
                         }
-                        repository.save_cache(entries)
+                        write_when_free(repository.save_cache, entries)
                         if caution is not None:
                             projected = model_projections(raw, batch, results)
-                            caution.save_cache(
-                                {keys[key]: value for key, value in projected.items()}
+                            write_when_free(
+                                caution.save_cache,
+                                {keys[key]: value for key, value in projected.items()},
                             )
                     cached.update(entries)
                     counters["completed"] += 1

@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-04T13:13:17.121Z
-> Files: 464 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-04T20:55:20.266Z
+> Files: 473 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -14,7 +14,7 @@
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
 - `docker-compose.yaml` — Docker Compose: 2 services (~3557 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~44269 tok)
+- `README.md` — Project documentation (~44793 tok)
 
 ## .claude/
 
@@ -75,6 +75,7 @@
 - `2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md` — Top produse pe afectiune: ordonare dupa formula L1/L2/L3 (~3395 tok)
 - `2026-11-02-eliminare-primary-din-secondary-conditions.md` — Eliminare afectiunilor primare din secondary_medical_conditions (script SQL la reindexare) (~4332 tok)
 - `2026-11-03-integrare-vllm-translategemma.md` — Plan: integrarea vLLM pentru `translate_markdown.py` (faza 1: `translategemma:4b`) (~5934 tok)
+- `2026-11-04-vllm-qwen35-9b-indexare.md` — Indexare: `ollama-qwen3.5:9b` → `vllm-qwen3.5:9b` — abandonat (~3781 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
@@ -177,12 +178,15 @@
 - `apply_limits.py` — Pydantic: ReportBatchEstimateResponse (~2797 tok)
 - `apply_model_limits.py` — edit, unique_pairs (~2794 tok)
 - `apply_tail.py` — prepare, run_language, resumable_run (~951 tok)
+- `bench_gpu_slice.py` — Measure windows/s of the CUDA embedder for several _GPU_SLICE values (run with .venv-gpu). (~573 tok)
+- `bench_parallel_ollama.py` — Benchmark: sequential vs 2 parallel threads of association batches to Ollama qwen3.5:9b. (~2687 tok)
 - `check_run_stage.py` — Throwaway: _run_stage with fakes -- local runs once, deepseek retries a transient failure. (~579 tok)
 - `check_write_retry.py` — Throwaway: ProductSafetyRepository.transaction retries a busy index lock on writes only. (~382 tok)
 - `e2e_extension.py` — Q: answer, complete_json, complete_batch, embed + 1 more (~2251 tok)
 - `e2e_resume.py` — Q: msgs, complete_json, complete_batch, run (~1203 tok)
 - `gen_compare.py` — Throwaway: the same 10-product generation batch with one model; saves the raw answer, no DB writes. (~654 tok)
 - `gen_single.py` — Throwaway: HERB_SAFETY_MINISTRAL_BATCH_SIZE=1 -- ten known products, one request each; no DB writes. (~649 tok)
+- `patch_deepseek.py` — One-off patch: remove the DeepSeek stage from the safety extension (run once, then delete). (~3330 tok)
 - `patch_ds_default.py` — patch (~1119 tok)
 - `patch_gemma.py` — patch, stage_digest, stage_digest (~1822 tok)
 - `patch_local_model.py` — patch (~2073 tok)
@@ -191,8 +195,10 @@
 - `patch_reindex.py` — patch (~676 tok)
 - `smoke_reindex.py` — Throwaway: the normal reindex calls the safety extension once, publishes both runs. (~276 tok)
 - `tail_new.py` — prepare (~4472 tok)
+- `test_reuse_embeddings.py` — Throwaway check (not part of the repo tests): a dictionary-only change reuses stored vectors. (~1118 tok)
 - `time_batches.py` — Throwaway timing: one real qwen batch of 10 products, then one gemma dedup batch; nothing is saved. (~558 tok)
 - `try_dedup_model.py` — Throwaway: run the dedup stage of one product with another local model; writes nothing to the DB. (~507 tok)
+- `vllm_phase0_payload.py` — Phase 0 helper: dump real association batches (system prompt, user payload, JSON schema) to (~1835 tok)
 - `vllm_thinking_budget_check.py` — Phase 0: does vLLM's Chat Completions honor thinking_token_budget with a JSON schema? (~857 tok)
 - `why_dedup_rejected.py` — Throwaway: send the products still without a cached grouping to gemma, one by one, and show (~604 tok)
 
@@ -330,6 +336,11 @@
 - `f079_012.txt` (~4119 tok)
 - `f079_013.txt` — # 84 | Acad. Dr Pharm, OVIDIU BOJOR (~4018 tok)
 
+## aiWork/vllm/
+
+- `assoc_bench.py` — Benchmark: real association batches on vLLM Qwen3.5-4B at several concurrency levels. (~3598 tok)
+- `assoc_sample.py` — Quality sample for one herb: the real association batches that contain it, on vLLM Qwen3.5-4B. (~2334 tok)
+
 ## aiWork/vlm/
 
 - `analyze.py` — Compare every extraction in rezultate/ against Sonnet 5.5 and surface contested spans. (~1140 tok)
@@ -368,10 +379,10 @@
 
 ## src/backend/ai/
 
-- `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~17454 tok)
+- `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~19698 tok)
 - `condition_ai.py` — Identification of the condition a message names when the dictionary does not (~3319 tok)
 - `condition_repository.py` — Ordered PostgreSQL condition snapshots shared by retrieval and indexing. (~1579 tok)
-- `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~3973 tok)
+- `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~4072 tok)
 - `effort.py` — Map the user-selected report effort to each provider's own reasoning parameter. (~264 tok)
 - `english_inflections.py` — Catalog-scoped British English noun forms from the bundled Hunspell dictionary. (~970 tok)
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~6314 tok)
@@ -384,7 +395,7 @@
 - `herb_display.py` — Restore unambiguous product spellings using the operation's bundled dictionary. (~528 tok)
 - `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2546 tok)
 - `herb_images.py` — Resolve catalog product images locally without exposing the source directory. (~710 tok)
-- `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~6360 tok)
+- `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~6518 tok)
 - `herb_product_safety_dedup.py` — Merge bilingual stage answers into one list per product, once, without duplicates. (~1417 tok)
 - `herb_product_safety_repository.py` — Cache per-product knowledge and publish complete catalog generations atomically. (~6772 tok)
 - `herb_product_safety.py` — Strict, concise product safety from local model knowledge, independent of the corpus. (~5389 tok)
@@ -398,7 +409,7 @@
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
 - `providers.py` — Per-provider transport settings for report generation. (~2206 tok)
-- `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~1940 tok)
+- `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2910 tok)
 
 ## src/backend/ai/prompts/
@@ -476,6 +487,7 @@
 - `040_remove_primary_from_secondary_conditions.sql` — One-time cleanup of the rows indexed before backend/index_sql/001_remove_primary_from_secondary_cond (~159 tok)
 - `041_report_metrics_batch_output_tokens.sql` — PostgreSQL. Applied transactionally by scripts.migrate_database. (~172 tok)
 - `042_report_batch_usage.sql` — PostgreSQL. Applied transactionally by scripts.migrate_database. (~383 tok)
+- `043_gripa_flu_synonyms.sql` — Plain English names of Gripa; the catalog only had "seasonal flu". Safe to run more than once. (~94 tok)
 
 ## src/backend/persistence/
 
@@ -556,12 +568,12 @@
 
 - `backup_database.bat` (~552 tok)
 - `backup_database.ps1` — Declares Invoke (~403 tok)
-- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~19930 tok)
+- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~20572 tok)
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20376 tok)
 - `extract_pdf_markdown.py` — Options: observe, body_size (~14210 tok)
 - `fix_markdown_headings.py` — fix_headings, main (~1489 tok)
-- `herb_index_requests.py` — Stream one indexing request per batch and emit aggregate telemetry without source content. (~4390 tok)
+- `herb_index_requests.py` — Stream one indexing request per batch and emit aggregate telemetry without source content. (~4885 tok)
 - `herb_product_safety_extension.py` — Bilingual product safety in batches: ministral and deepseek, one merge, a run per language. (~8449 tok)
 - `herb_product_safety_index.py` — One local-model request per uncached catalog product; no corpus or association inference. (~3632 tok)
 - `herb_safety_index.py` — Shared progress helpers and the public safety command, which uses product knowledge. (~647 tok)
@@ -570,7 +582,7 @@
 - `pdf_headings.py` — Give the headings of vision-transcribed pages the same levels across the whole book. (~2592 tok)
 - `pdf_layer_check.py` — Decide whether a scanned page's embedded text layer can stand for the page's text. (~1285 tok)
 - `pdf_vision.py` — Transcribe a scanned page image to Markdown with a local vision model served by Ollama. (~2197 tok)
-- `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~4477 tok)
+- `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~4614 tok)
 - `restore_database.bat` (~748 tok)
 - `restore_database.ps1` — Declares Invoke (~424 tok)
 - `set_gpu_clock.bat` (~827 tok)

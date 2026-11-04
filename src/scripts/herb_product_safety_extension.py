@@ -1,4 +1,4 @@
-"""Bilingual product safety in batches: ministral and deepseek, one merge, a run per language."""
+"""Bilingual product safety in batches by the local generation model, one merge per language."""
 
 from __future__ import annotations
 
@@ -48,14 +48,7 @@ from backend.config import (
 )
 from backend.core.language import LANGUAGES, language_scope
 from backend.core.operation_context import OperationBudget, checkpoint, operation_budget
-from backend.core.report_models import REPORT_MODELS
-from scripts.herb_index_requests import (
-    DeepSeekSafetyClient,
-    index_batch,
-    make_client,
-    make_deepseek_client,
-    model_digest,
-)
+from scripts.herb_index_requests import index_batch, make_client, model_digest
 from scripts.herb_safety_index import batch_progress
 
 DEDUP_REPORT = Path("aiWork") / "herb_safety_dedup_pairs.json"
@@ -64,12 +57,13 @@ BYTES_PER_TOKEN = 3
 INPUT_RESERVE_TOKENS = 512
 # The grouping answer is a few index lists, so its cap stays small beside a small context.
 DEDUP_OUTPUT_TOKENS = 4096
-# The external model wins between sources: it was the correct one in the first real comparison.
-PRIORITY: tuple[Stage, ...] = ("deepseek", "ministral")
-# A request to the external model lasts minutes and fails now and then on the network; the
-# failures below are retried, the others (output or context limit, credits) would repeat.
+PRIORITY: tuple[Stage, ...] = ("ministral",)
+# Products are generated, merged, grouped and written in chunks of this size, so a failure keeps
+# every earlier chunk in the database.
+CHUNK_PRODUCTS = 100
+# A request that fails transiently is repeated; the other failures (output or context limit)
+# would repeat too.
 REQUEST_ATTEMPTS = 3
-DEEPSEEK_RETRY_SECONDS = 30
 LOCAL_RETRY_SECONDS = 5
 # A local request normally lasts seconds, so a stalled server is detected long before the
 # global cap: a worst-case product (12000 tokens) still fits at the slowest measured rate.
@@ -134,9 +128,9 @@ class ExtensionCoordinator:
         self.targets = resolve_scope(self.herbs, self.scope)
         target_ids = {herb.id for herb in self.targets}
         self.outside = [herb for herb in self.herbs if herb.id not in target_ids]
-        # An empty generation model leaves DeepSeek as the only generating stage.
-        self.local = bool(settings.herb_safety_generation_model)
-        self.stages: tuple[Stage, ...] = ("ministral", "deepseek") if self.local else ("deepseek",)
+        if not settings.herb_safety_generation_model:
+            raise ValueError("HERB_PRODUCT_SAFETY_GENERATION_MODEL_MISSING")
+        self.stages: tuple[Stage, ...] = ("ministral",)
         self.generation_settings = replace(
             settings, herb_association_ai_model=settings.herb_safety_generation_model
         )
@@ -146,10 +140,7 @@ class ExtensionCoordinator:
         self.dedup_settings = replace(
             settings, herb_association_ai_model=settings.herb_safety_dedup_model
         )
-        self.sizes = {
-            "ministral": settings.herb_safety_ministral_batch_size,
-            "deepseek": settings.herb_safety_deepseek_batch_size,
-        }
+        self.sizes = {"ministral": settings.herb_safety_ministral_batch_size}
         self.started: float | None = None
         self.finished: float | None = None
         self.counters.update(
@@ -286,7 +277,6 @@ class ExtensionCoordinator:
         self,
         *,
         client_factory: Callable[[Settings], Any] = make_client,
-        deepseek_factory: Callable[[Settings], DeepSeekSafetyClient] = make_deepseek_client,
         digest_verifier: Callable[[Settings], str] = model_digest,
     ) -> dict[str, Any]:
         parent = copy_context()
@@ -297,22 +287,19 @@ class ExtensionCoordinator:
                 lambda: parent.run(checkpoint),
             )
         ):
-            return self._prepare(client_factory, deepseek_factory, digest_verifier)
+            return self._prepare(client_factory, digest_verifier)
 
-    # Products are processed in chunks (one DeepSeek batch each): generation, merge, grouping and
+    # Products are processed in chunks of CHUNK_PRODUCTS: generation, merge, grouping and
     # the write into both language runs finish for a chunk before the next one starts, so a failure
     # keeps every earlier chunk in the database and the next run continues from there.
     def _prepare(
         self,
         client_factory: Callable[[Settings], Any],
-        deepseek_factory: Callable[[Settings], DeepSeekSafetyClient],
         digest_verifier: Callable[[Settings], str],
     ) -> dict[str, Any]:
         settings = self.settings
         if not self.repository.extension_schema_available():
             raise ValueError("HERB_PRODUCT_SAFETY_EXTENSION_SCHEMA_MISSING")
-        if "deepseek" in self.stages and not settings.deepseek_api_key():
-            raise ValueError("HERB_PRODUCT_SAFETY_DEEPSEEK_KEY_MISSING")
         if self.outside:
             for language in LANGUAGES:
                 with language_scope(language):
@@ -320,8 +307,8 @@ class ExtensionCoordinator:
                         raise ValueError("HERB_PRODUCT_SAFETY_NO_ACTIVE_RUN")
         self.counters["progress_stage"] = "product_safety_cache"
         dedup_digest = digest_verifier(self.dedup_settings)
-        digest = digest_verifier(self.generation_settings) if self.local else dedup_digest
-        digests: dict[Stage, str | None] = {"ministral": digest, "deepseek": None}
+        digest = digest_verifier(self.generation_settings)
+        digests: dict[Stage, str | None] = {"ministral": digest}
         prompt = bilingual_prompt()
         answers: dict[Stage, dict[int, BilingualResult]] = {}
         for stage in self.stages:
@@ -329,7 +316,7 @@ class ExtensionCoordinator:
                 raise ValueError("HERB_PRODUCT_SAFETY_CONFIGURATION_CHANGED")
             answers[stage], _ = self._pending(stage, digests[stage])
         self.counters["safety_cache_hits"] = sum(len(found) for found in answers.values())
-        chunks = batches_of(list(self.targets), self.sizes["deepseek"])
+        chunks = batches_of(list(self.targets), CHUNK_PRODUCTS)
         plan = [
             {
                 stage: batches_of(
@@ -342,22 +329,12 @@ class ExtensionCoordinator:
         total = sum(len(batches) for step in plan for batches in step.values())
         if total > settings.herb_safety_ai_max_requests:
             raise ValueError("HERB_PRODUCT_SAFETY_REQUEST_LIMIT")
-        contexts = {
-            "ministral": (
-                settings.herb_safety_ai_context_tokens,
-                settings.herb_safety_ai_max_output_tokens,
-            ),
-            "deepseek": (
-                REPORT_MODELS["deepseek-flash"].context_window,
-                settings.herb_safety_deepseek_max_output_tokens,
-            ),
-        }
-        for stage in self.stages:
-            check_input_fits(
-                prompt,
-                [serialize_batch(batch) for step in plan for batch in step[stage]],
-                *contexts[stage],
-            )
+        check_input_fits(
+            prompt,
+            [serialize_batch(batch) for step in plan for batch in step["ministral"]],
+            settings.herb_safety_ai_context_tokens,
+            settings.herb_safety_ai_max_output_tokens,
+        )
         self.counters["safety_batches"] = total
         # Both runs exist before the first request, so their rows grow as products are prepared.
         runs = {language: self._open_run(language, digest) for language in LANGUAGES}
@@ -382,7 +359,6 @@ class ExtensionCoordinator:
                         prompt,
                         session,
                         client_factory,
-                        deepseek_factory,
                         digest_verifier,
                     )
             ready = [herb for herb in chunk if all(herb.id in answers[s] for s in self.stages)]
@@ -424,7 +400,7 @@ class ExtensionCoordinator:
         if missing:
             self.counters["safety_missing_products"] = len(missing)
             raise ValueError("HERB_PRODUCT_SAFETY_PRODUCTS_MISSING")
-        if total and self.local and digest_verifier(self.generation_settings) != digest:
+        if total and digest_verifier(self.generation_settings) != digest:
             raise ValueError("HERB_PRODUCT_SAFETY_MODEL_CHANGED")
         for stage in self.stages:
             if stage_semantic(settings, stage) != self.semantics[stage]:
@@ -466,21 +442,15 @@ class ExtensionCoordinator:
         prompt: str,
         session: str,
         client_factory: Callable[[Settings], Any],
-        deepseek_factory: Callable[[Settings], DeepSeekSafetyClient],
         digest_verifier: Callable[[Settings], str],
     ) -> None:
         settings = self.settings
-        local = stage == "ministral"
         request_settings = replace(
             self.generation_settings,
             herb_association_ai_context_tokens=settings.herb_safety_ai_context_tokens,
         )
-        output = (
-            settings.herb_safety_ai_max_output_tokens
-            if local
-            else settings.herb_safety_deepseek_max_output_tokens
-        )
-        client = client_factory(request_settings) if local else deepseek_factory(settings)
+        output = settings.herb_safety_ai_max_output_tokens
+        client = client_factory(request_settings)
         try:
             for number, batch in enumerate(batches, 1):
                 checkpoint()
@@ -488,18 +458,16 @@ class ExtensionCoordinator:
                 self.counters[f"{stage}_requests"] = self.counters.get(f"{stage}_requests", 0) + 1
                 ids = [herb.id for herb in batch]
                 user = serialize_batch(batch)
-                batch_settings = request_settings
-                if local:
-                    # A stalled local server must not hold a one-product request for the whole cap.
-                    timeout = LOCAL_TIMEOUT_BASE_SECONDS + LOCAL_TIMEOUT_PER_PRODUCT_SECONDS * len(
-                        batch
-                    )
-                    batch_settings = replace(
-                        request_settings,
-                        herb_association_ai_timeout_seconds=min(
-                            timeout, request_settings.herb_association_ai_timeout_seconds
-                        ),
-                    )
+                # A stalled local server must not hold a one-product request for the whole cap.
+                timeout = LOCAL_TIMEOUT_BASE_SECONDS + LOCAL_TIMEOUT_PER_PRODUCT_SECONDS * len(
+                    batch
+                )
+                batch_settings = replace(
+                    request_settings,
+                    herb_association_ai_timeout_seconds=min(
+                        timeout, request_settings.herb_association_ai_timeout_seconds
+                    ),
+                )
 
                 def request() -> int:
                     with index_batch(
@@ -512,19 +480,12 @@ class ExtensionCoordinator:
                         user=user,
                         max_tokens=output,
                         clock=self.clock,
-                        model=None if local else settings.deepseek_model,
-                        context_tokens=None
-                        if local
-                        else REPORT_MODELS["deepseek-flash"].context_window,
                     ):
-                        if local:
-                            raw = client.complete_json(prompt, user, output)
-                        else:
-                            raw = client.complete_batch(prompt, user, output)
+                        raw = client.complete_json(prompt, user, output)
                         checkpoint()
                         valid, invalid = validate_batch_response(raw, ids)
                         # Do not cache a response under weights replaced during its request.
-                        if local and digest_verifier(self.generation_settings) != digest:
+                        if digest_verifier(self.generation_settings) != digest:
                             raise ValueError("HERB_PRODUCT_SAFETY_MODEL_CHANGED")
                         saved = self.repository.save_stage(
                             stage,
@@ -535,9 +496,7 @@ class ExtensionCoordinator:
                         answers.update(saved)
                     return len(invalid)
 
-                rejected = self._attempts(
-                    request, DEEPSEEK_RETRY_SECONDS if not local else LOCAL_RETRY_SECONDS
-                )
+                rejected = self._attempts(request, LOCAL_RETRY_SECONDS)
                 self.counters["safety_rejected_products"] = (
                     self.counters.get("safety_rejected_products", 0) + rejected
                 )

@@ -1063,6 +1063,33 @@ def _write_document(
         )
 
 
+# The embedding input of a chunk is its category and file name (both from the path), its heading
+# and its text, so this key identifies it; the condition dictionary never enters it.
+def _chunk_key(chunk: Chunk) -> tuple[str, str, str]:
+    return chunk.source_relative_path, chunk.heading, chunk.text_sha256
+
+
+# Stored vectors that are still valid, when only the dictionary differs from the last sync. A new
+# model, dimension, passage profile or text representation changes the vectors, so none is reused.
+def _stored_embeddings(
+    connection, stored: Mapping[str, str], expected: Mapping[str, str], profile: EmbeddingProfile
+) -> dict[tuple[str, str, str], np.ndarray]:
+    vector_keys = ("model_name", "model_dimension", "passage_profile", "text_repr_version")
+    if any(stored.get(key) != expected[key] for key in vector_keys):
+        return {}
+    if _embedding_dimension(connection) != profile.dimension:
+        return {}
+    rows = connection.execute(
+        "SELECT source_relative_path, heading, text_sha256, embedding FROM chunks"
+    ).fetchall()
+    return {
+        (path, heading, digest): np.asarray(
+            vector.to_numpy() if hasattr(vector, "to_numpy") else vector, dtype=np.float32
+        )
+        for path, heading, digest, vector in rows
+    }
+
+
 # Sync medicina-naturista-documente/data/documents into Postgres: unchanged files (same SHA-256 already
 # stored) are skipped entirely; new/changed files are re-chunked, re-embedded,
 # and published together in one transaction; files removed from source are deleted.
@@ -1278,16 +1305,30 @@ def _build(
     embeddings = np.empty((0, profile.dimension), dtype=np.float32)
     if all_new_chunks:
         _build_stage("embeddings")
-        print(
-            f"Loading local embedding model {model_name} (device {settings.embedding_device})",
-            flush=True,
-        )
-        model = create_embedding_model(model_name, settings.model_cache_dir)
-        print(
-            f"Embedding {len(all_new_chunks)} chunks from {len(pending)} changed files (batch size {batch_size})",
-            flush=True,
-        )
-        embeddings = embed_chunks(model, all_new_chunks, batch_size, profile, gpu_usage=gpu_usage)
+        # A change of the condition dictionary alone re-reads every file, but a chunk with the same
+        # path, heading and text has the same model input, so its stored vector is reused.
+        reusable = _stored_embeddings(connection, stored, expected, profile)
+        keys = [_chunk_key(chunk) for chunk in all_new_chunks]
+        to_embed = [chunk for chunk, key in zip(all_new_chunks, keys) if key not in reusable]
+        embeddings = np.empty((len(all_new_chunks), profile.dimension), dtype=np.float32)
+        if to_embed:
+            print(
+                f"Loading local embedding model {model_name} (device {settings.embedding_device})",
+                flush=True,
+            )
+            model = create_embedding_model(model_name, settings.model_cache_dir)
+            print(
+                f"Embedding {len(to_embed)} chunks from {len(pending)} changed files "
+                f"(batch size {batch_size}); {len(all_new_chunks) - len(to_embed)} stored "
+                "embeddings are reused",
+                flush=True,
+            )
+            fresh = iter(embed_chunks(model, to_embed, batch_size, profile, gpu_usage=gpu_usage))
+        else:
+            print(f"Reusing all {len(all_new_chunks)} stored embeddings", flush=True)
+            fresh = iter(())
+        for index, key in enumerate(keys):
+            embeddings[index] = reusable[key] if key in reusable else next(fresh)
 
         changed_during_sync = []
         for relative, (size, mtime_ns) in initial_stats.items():

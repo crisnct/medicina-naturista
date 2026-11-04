@@ -9499,6 +9499,258 @@
       "last_seen": "2026-11-04T13:01:35.362Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in write_when_free()",
+      "file": "src/scripts/herb_index_requests.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-529",
+      "timestamp": "2026-11-04T15:06:05.632Z",
+      "last_seen": "2026-11-04T20:22:37.528Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of positive_herb_ranking.py",
+      "file": "src/scripts/positive_herb_ranking.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→5 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-530",
+      "timestamp": "2026-11-04T15:06:12.256Z",
+      "last_seen": "2026-11-04T15:06:12.256Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in client.py",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-531",
+      "timestamp": "2026-11-04T19:02:16.026Z",
+      "last_seen": "2026-11-04T19:02:16.026Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of client.py",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 19→57 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-532",
+      "timestamp": "2026-11-04T19:02:21.671Z",
+      "last_seen": "2026-11-04T19:02:21.671Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "Was returning: validate_report(combined.section_payload(), eviden",
+      "fix": "Now returns: final",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-533",
+      "timestamp": "2026-11-04T19:02:24.456Z",
+      "last_seen": "2026-11-04T19:02:24.456Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of report_validation.py",
+      "file": "src/backend/ai/report_validation.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 4→9 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-534",
+      "timestamp": "2026-11-04T19:08:29.912Z",
+      "last_seen": "2026-11-04T19:08:29.912Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of client.py",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 5→7 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-535",
+      "timestamp": "2026-11-04T19:08:36.620Z",
+      "last_seen": "2026-11-04T19:08:36.620Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: ReportValidationError should be SALVAGEABLE_WARNINGS",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "Used \"ReportValidationError\" instead of \"SALVAGEABLE_WARNINGS\"",
+      "fix": "Changed ReportValidationError → SALVAGEABLE_WARNINGS",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-536",
+      "timestamp": "2026-11-04T19:08:42.946Z",
+      "last_seen": "2026-11-04T19:08:42.946Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of conditions.py",
+      "file": "src/backend/ai/conditions.py",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 15→19 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-537",
+      "timestamp": "2026-11-04T19:16:09.859Z",
+      "last_seen": "2026-11-04T19:16:09.859Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _call_cancellable()",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-538",
+      "timestamp": "2026-11-04T19:30:05.104Z",
+      "last_seen": "2026-11-04T19:30:05.104Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: Iterable should be Iterator",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "Used \"Iterable\" instead of \"Iterator\"",
+      "fix": "Changed Iterable → Iterator",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-539",
+      "timestamp": "2026-11-04T19:30:12.042Z",
+      "last_seen": "2026-11-04T19:30:12.042Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiWork/bench_gpu_slice.py",
+      "root_cause": "Had \"cuda\"",
+      "fix": "Changed to \"Qwen/Qwen3-Embedding-0.6B\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-540",
+      "timestamp": "2026-11-04T19:57:55.677Z",
+      "last_seen": "2026-11-04T19:57:55.677Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of build_hybrid_index.py",
+      "file": "src/scripts/build_hybrid_index.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 15→29 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-541",
+      "timestamp": "2026-11-04T20:33:11.990Z",
+      "last_seen": "2026-11-04T20:33:11.990Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of assoc_bench.py",
+      "file": "aiWork/vllm/assoc_bench.py",
+      "root_cause": "7 lines replaced/restructured",
+      "fix": "Rewrote 36→22 lines (7 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-542",
+      "timestamp": "2026-11-04T20:50:51.318Z",
+      "last_seen": "2026-11-04T20:50:51.318Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -10068,7 +10320,22 @@
     "7f536c13-5a38-4497-8366-9c410e3d590c": true,
     "63c28796-1b55-42ab-8084-848a7bc69299": true,
     "d2c0f778-b08b-4332-bc2f-04c704136bff": true,
-    "17917a75-f708-4a6c-9582-37f8a22fa631": true
+    "17917a75-f708-4a6c-9582-37f8a22fa631": true,
+    "6b5a592b-60bc-45e1-8824-16b646c9ef77": true,
+    "48690f57-47d2-44fc-80c6-379f7133897b": true,
+    "38f39978-1be4-4bdf-8108-3797334827cb": true,
+    "064809ea-4d0b-4d6d-afeb-7e7895e935ea": true,
+    "a5ef9932-ab2d-40b3-9313-373f1b4c852f": true,
+    "5c8d0547-58ba-42a3-bad2-bb792f2de2cc": true,
+    "59574d2f-3d08-4bba-897e-74b2ce7feaae": true,
+    "934ddf0c-9668-436d-88b9-569539c4b2ca": true,
+    "4046b945-aa66-403d-9b0c-e183bd815464": true,
+    "22038ca6-84a8-45c8-b469-030fce4cf669": true,
+    "a2d25f0c-9117-4590-ac80-78763aa53c3b": true,
+    "2a6f2c9c-76fc-4955-b8cb-86c75c7aa97a": true,
+    "95303963-2f77-4844-a530-9e9772c01792": true,
+    "6f3cb812-d81c-48c3-b08f-b8103f3cb529": true,
+    "4862eacd-9549-4ea8-901c-095feb719470": true
   },
-  "next_id": 529
+  "next_id": 543
 }

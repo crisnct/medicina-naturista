@@ -23,7 +23,16 @@ SECTIONS: tuple[Section, ...] = (
 )
 
 
+# Only a malformed item can be dropped without trusting the model less: an invented or missing
+# citation says the answer is unreliable, so those still reject the batch.
+SALVAGEABLE_WARNINGS = frozenset({"INVALID_ITEM"})
+
+
 class ReportValidationError(ValueError):
+    # What a lenient pass kept of a rejected answer whose only problems are salvageable, so a batch
+    # that stays invalid after its retry can still contribute its valid items.
+    salvaged: ValidatedReport | None = None
+
     def __init__(self, code: str, *, warnings: list[ValidationWarning] | None = None) -> None:
         super().__init__(code)
         self.warnings = tuple(warnings or ())
