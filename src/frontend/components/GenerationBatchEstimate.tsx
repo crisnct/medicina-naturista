@@ -21,7 +21,7 @@ export function GenerationBatchEstimate({
   // Undefined for models without an effort control.
   effort?: ReportEffort;
   // The admin's typed limits; undefined keeps the configured ones.
-  limits?: Pick<GenerationLimits, "batchMaxTokens" | "batchWorkers" | "maxOutputTokens">;
+  limits?: Pick<GenerationLimits, "batchMaxTokens" | "batchWorkers" | "maxOutputTokens" | "thinkingTokens">;
   // Undefined while the search's fragments are unknown to the page.
   eligibleCount?: number;
   // False while a typed limit is not a usable number.

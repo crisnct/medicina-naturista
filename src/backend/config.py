@@ -32,7 +32,7 @@ CORPUS_DATA_DIR = ROOT / "medicina-naturista-documente" / "data"
 
 
 ENV_NAME = "REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL"
-_LIMIT_KEYS = frozenset({"tokens", "context", "effort"})
+_LIMIT_KEYS = frozenset({"tokens", "context", "effort", "thinking"})
 
 
 def _default_context() -> Mapping[ReportModel, int]:
@@ -43,13 +43,21 @@ def _default_effort() -> Mapping[ReportModel, ReportEffort]:
     return MappingProxyType({model: DEFAULT_REPORT_EFFORT for model in REPORT_MODELS})
 
 
+def _default_thinking() -> Mapping[ReportModel, int]:
+    return MappingProxyType({model: spec.thinking_tokens for model, spec in REPORT_MODELS.items()})
+
+
 # One JSON object per model: {"tokens": batch input budget, "context": the model's context
-# window, "effort": the effort preselected in the report panel}. Only "tokens" is required;
-# the others fall back to the catalog. The three results are immutable, like the provider snapshot.
+# window, "effort": the effort preselected in the report panel, "thinking": the default thinking
+# budget of a batch}. Only "tokens" is required; the others fall back to the catalog. The four
+# results are immutable, like the provider snapshot.
 def _model_limits(
     value: str | None = None,
 ) -> tuple[
-    Mapping[ReportModel, int], Mapping[ReportModel, int], Mapping[ReportModel, ReportEffort]
+    Mapping[ReportModel, int],
+    Mapping[ReportModel, int],
+    Mapping[ReportModel, ReportEffort],
+    Mapping[ReportModel, int],
 ]:
     def unique_pairs(pairs: list[tuple[str, object]]) -> dict[str, object]:
         result: dict[str, object] = {}
@@ -63,7 +71,7 @@ def _model_limits(
         {model: spec.batch_max_tokens for model, spec in REPORT_MODELS.items()}
     )
     if value is None or not value.strip():
-        return tokens, _default_context(), _default_effort()
+        return tokens, _default_context(), _default_effort(), _default_thinking()
     try:
         parsed = json.loads(value, object_pairs_hook=unique_pairs)
     except (ValueError, TypeError):
@@ -80,6 +88,7 @@ def _model_limits(
     tokens_result: dict[ReportModel, int] = {}
     context_result = dict(_default_context())
     effort_result = dict(_default_effort())
+    thinking_result = dict(_default_thinking())
     for model in REPORT_MODELS:
         if model not in parsed:
             continue
@@ -87,9 +96,13 @@ def _model_limits(
         if not isinstance(entry, dict) or entry.keys() - _LIMIT_KEYS or "tokens" not in entry:
             raise ValueError(
                 f'{ENV_NAME} entries must be objects like {{"tokens": 25000, "context": 262144, '
-                '"effort": "low"}; "tokens" is required'
+                '"effort": "low", "thinking": 8000}; "tokens" is required'
             )
-        for key, target in (("tokens", tokens_result), ("context", context_result)):
+        for key, target in (
+            ("tokens", tokens_result),
+            ("context", context_result),
+            ("thinking", thinking_result),
+        ):
             if key in entry:
                 limit = entry[key]
                 if type(limit) is not int or limit <= 0:
@@ -104,6 +117,7 @@ def _model_limits(
         MappingProxyType(tokens_result),
         MappingProxyType(context_result),
         MappingProxyType(effort_result),
+        MappingProxyType(thinking_result),
     )
 
 
@@ -273,6 +287,9 @@ class Settings:
     report_generation_default_effort: Mapping[ReportModel, ReportEffort] = field(
         default_factory=_default_effort
     )
+    report_generation_thinking_tokens: Mapping[ReportModel, int] = field(
+        default_factory=_default_thinking
+    )
     xai_model: str = REPORT_MODELS["grok-4.3"].model
     xai_api_base: str = "https://api.x.ai/v1"
     ai_provider: str = "ollama"
@@ -418,6 +435,7 @@ class Settings:
             report_generation_batch_max_tokens=model_limits[0],
             report_generation_context_tokens=model_limits[1],
             report_generation_default_effort=model_limits[2],
+            report_generation_thinking_tokens=model_limits[3],
             xai_api_base=env.get("XAI_API_BASE", "https://api.x.ai/v1").rstrip("/"),
             ai_provider=report_spec.provider,
             hf_api_base=env.get("HF_API_BASE", "https://router.huggingface.co/v1").rstrip("/"),
@@ -586,6 +604,18 @@ class Settings:
         )
         object.__setattr__(
             self, "report_generation_default_effort", MappingProxyType(dict(efforts))
+        )
+        thinking = self.report_generation_thinking_tokens
+        if (
+            not isinstance(thinking, Mapping)
+            or set(thinking) != set(REPORT_MODELS)
+            or any(type(value) is not int or value <= 0 for value in thinking.values())
+        ):
+            raise ValueError(
+                "Report model thinking budgets must map every supported model to a positive integer"
+            )
+        object.__setattr__(
+            self, "report_generation_thinking_tokens", MappingProxyType(dict(thinking))
         )
         _ai_provider(self.ai_provider)
         outputs = _freeze_ollama_output_limits(self.ollama_max_output_tokens_by_model)

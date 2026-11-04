@@ -9481,6 +9481,24 @@
       "last_seen": "2026-11-04T10:19:14.192Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "Was returning: current_report_max_output_tokens() or self.provide",
+      "fix": "Now returns: answer",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-528",
+      "timestamp": "2026-11-04T13:01:35.362Z",
+      "last_seen": "2026-11-04T13:01:35.362Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -10049,7 +10067,8 @@
     "3ded9f15-7912-4d65-80f8-9e4a44a64d35": true,
     "7f536c13-5a38-4497-8366-9c410e3d590c": true,
     "63c28796-1b55-42ab-8084-848a7bc69299": true,
-    "d2c0f778-b08b-4332-bc2f-04c704136bff": true
+    "d2c0f778-b08b-4332-bc2f-04c704136bff": true,
+    "17917a75-f708-4a6c-9582-37f8a22fa631": true
   },
-  "next_id": 528
+  "next_id": 529
 }

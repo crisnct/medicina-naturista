@@ -39,6 +39,11 @@ DEFAULT_REPORT_OUTPUT_TOKENS: Final = 20_000
 MIN_REPORT_INPUT_TOKENS: Final = 1_000
 MAX_REPORT_TOKENS: Final = 2_000_000
 LOW_REPORT_OUTPUT_TOKENS: Final = 2_000
+# The thinking room a batch gets on top of its answer budget when the effort enables reasoning;
+# REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL may set another value per model ("thinking").
+DEFAULT_REPORT_THINKING_TOKENS: Final = 8_000
+# The thinking of one request may use at most this share of its context.
+REPORT_THINKING_CONTEXT_DIVISOR: Final = 4
 # Upper bound of the parallel batches the admin can type per report; 0 means no parallelism.
 MAX_REPORT_BATCH_WORKERS: Final = 300
 
@@ -64,6 +69,8 @@ class ReportModelSpec:
     context_window: int = 32_768
     # The limit of each batch request, not of the whole report.
     max_output_tokens: int = DEFAULT_REPORT_OUTPUT_TOKENS
+    # The default thinking budget of each batch request, added to the answer's output limit.
+    thinking_tokens: int = DEFAULT_REPORT_THINKING_TOKENS
     # With parallel batches one request may use only this fraction of the context (the server
     # shares its memory between them); batches run one after another may use all of it.
     parallel_context_divisor: int = 1

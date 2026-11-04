@@ -16,6 +16,7 @@ from typing import TYPE_CHECKING, Literal
 from backend.core.contracts import ReportBatchCallback
 from backend.core.errors import OperationCancelled
 from backend.core.language import Language, current_language, language_scope
+from backend.core.report_metrics import ReportBatchUsage
 from backend.core.report_models import ReportEffort
 
 if TYPE_CHECKING:
@@ -65,19 +66,29 @@ _batch_stopped: ContextVar[Callable[[], bool] | None] = ContextVar(
 
 
 class ReportUsage:
-    """The largest output one request of a report consumed; batches report from several threads."""
+    """The tokens of every request of a report; batches report from several threads."""
 
     def __init__(self) -> None:
         self._lock = threading.Lock()
         self._max_output_tokens = 0
+        self._batches: list[ReportBatchUsage] = []
 
-    def add(self, output_tokens: int) -> None:
+    def add(self, output_tokens: int, reasoning_tokens: int | None, truncated: bool) -> None:
+        reasoning = None if reasoning_tokens is None else min(reasoning_tokens, output_tokens)
         with self._lock:
             self._max_output_tokens = max(self._max_output_tokens, output_tokens)
+            self._batches.append(
+                ReportBatchUsage(reasoning, output_tokens - (reasoning or 0), truncated)
+            )
 
     @property
     def max_output_tokens(self) -> int | None:
         return self._max_output_tokens or None
+
+    @property
+    def batches(self) -> tuple[ReportBatchUsage, ...]:
+        with self._lock:
+            return tuple(self._batches)
 
 
 _report_usage: ContextVar[ReportUsage | None] = ContextVar("report_usage", default=None)
@@ -93,10 +104,12 @@ def report_usage_scope(usage: ReportUsage) -> Iterator[None]:
 
 
 # Requests outside a report (classifiers, condition lookup) have no scope and record nothing.
-def record_report_output_tokens(output_tokens: int) -> None:
+def record_report_output_tokens(
+    output_tokens: int, reasoning_tokens: int | None = None, truncated: bool = False
+) -> None:
     usage = _report_usage.get()
     if usage is not None:
-        usage.add(output_tokens)
+        usage.add(output_tokens, reasoning_tokens, truncated)
 
 
 _report_effort: ContextVar[ReportEffort | None] = ContextVar("report_effort", default=None)
@@ -106,6 +119,9 @@ _report_batch_max_tokens: ContextVar[int | None] = ContextVar(
 _report_batch_workers: ContextVar[int | None] = ContextVar("report_batch_workers", default=None)
 _report_max_output_tokens: ContextVar[int | None] = ContextVar(
     "report_max_output_tokens", default=None
+)
+_report_thinking_override: ContextVar[int | None] = ContextVar(
+    "report_thinking_override", default=None
 )
 
 
@@ -127,6 +143,24 @@ def report_effort_scope(effort: ReportEffort | None) -> Iterator[None]:
         _report_effort.reset(token)
 
 
+# The thinking budget learned from earlier batches of this model and effort; None keeps the
+# model's configured budget ("thinking" in REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL).
+_report_thinking_tokens: ContextVar[int | None] = ContextVar("report_thinking_tokens", default=None)
+
+
+def current_report_thinking_tokens() -> int | None:
+    return _report_thinking_tokens.get()
+
+
+@contextmanager
+def report_thinking_scope(tokens: int | None) -> Iterator[None]:
+    token = _report_thinking_tokens.set(tokens)
+    try:
+        yield
+    finally:
+        _report_thinking_tokens.reset(token)
+
+
 # The admin's per-report overrides; None keeps the value configured for the model.
 def current_report_batch_max_tokens() -> int | None:
     return _report_batch_max_tokens.get()
@@ -140,18 +174,28 @@ def current_report_max_output_tokens() -> int | None:
     return _report_max_output_tokens.get()
 
 
+# The thinking budget typed in the report panel; it wins over the learned and configured ones.
+def current_report_thinking_override() -> int | None:
+    return _report_thinking_override.get()
+
+
 @contextmanager
 def report_batch_scope(
-    max_tokens: int | None, workers: int | None, max_output_tokens: int | None
+    max_tokens: int | None,
+    workers: int | None,
+    max_output_tokens: int | None,
+    thinking_tokens: int | None = None,
 ) -> Iterator[None]:
     tokens = (
         _report_batch_max_tokens.set(max_tokens),
         _report_batch_workers.set(workers),
         _report_max_output_tokens.set(max_output_tokens),
+        _report_thinking_override.set(thinking_tokens),
     )
     try:
         yield
     finally:
+        _report_thinking_override.reset(tokens[3])
         _report_max_output_tokens.reset(tokens[2])
         _report_batch_workers.reset(tokens[1])
         _report_batch_max_tokens.reset(tokens[0])

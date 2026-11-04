@@ -159,9 +159,9 @@ export function useConversation() {
     ?? [];
   const effortReportModels = reportModelsQuery.data?.effortModels ?? [];
   // Present only for the admin; the panel hides the limits without it.
-  const { batchMaxTokens, batchWorkers, maxOutputTokens, tokenBounds } = reportModelsQuery.data ?? {};
-  const generationLimitDefaults: GenerationLimitDefaults | undefined = batchMaxTokens && batchWorkers && maxOutputTokens && tokenBounds
-    ? { batchMaxTokens, batchWorkers, maxOutputTokens, tokenBounds } : undefined;
+  const { batchMaxTokens, batchWorkers, maxOutputTokens, thinkingTokens, tokenBounds } = reportModelsQuery.data ?? {};
+  const generationLimitDefaults: GenerationLimitDefaults | undefined = batchMaxTokens && batchWorkers && maxOutputTokens && thinkingTokens && tokenBounds
+    ? { batchMaxTokens, batchWorkers, maxOutputTokens, thinkingTokens, tokenBounds } : undefined;
   const reportModelDetails: ReportModelDetails = {
     contextTokens: reportModelsQuery.data?.contextTokens ?? {},
     parallelContextTokens: reportModelsQuery.data?.parallelContextTokens ?? {},

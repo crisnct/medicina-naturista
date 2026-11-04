@@ -124,6 +124,7 @@ export const api = {
     if (limits?.batchMaxTokens !== undefined) query.set("batchMaxTokens", String(limits.batchMaxTokens));
     if (limits?.batchWorkers !== undefined) query.set("batchWorkers", String(limits.batchWorkers));
     if (limits?.maxOutputTokens !== undefined) query.set("maxOutputTokens", String(limits.maxOutputTokens));
+    if (limits?.thinkingTokens !== undefined) query.set("thinkingTokens", String(limits.thinkingTokens));
     return request<ReportBatchEstimate>(`/api/searches/${encodeURIComponent(searchId)}/report-batches?${query}`, {
       signal: AbortSignal.any([signal, AbortSignal.timeout(10000)]),
     });

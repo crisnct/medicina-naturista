@@ -275,6 +275,7 @@ class ReportGeneration:
     batch_max_tokens: int | None = None
     batch_workers: int | None = None
     max_output_tokens: int | None = None
+    thinking_tokens: int | None = None
     state: str = "accepted"
     stage: str = "queued"
     started_at: float | None = None
@@ -343,6 +344,7 @@ class ReportGeneration:
             "batchMaxTokens": self.batch_max_tokens,
             "batchWorkers": self.batch_workers,
             "maxOutputTokens": self.max_output_tokens,
+            "thinkingTokens": self.thinking_tokens,
             "createdAt": self.created_at,
             "startedAt": self.started_at,
             "finishedAt": self.finished_at,

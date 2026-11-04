@@ -2910,3 +2910,31 @@ description: chronological action log per session, consolidated weekly
 
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
+
+## Session: 2026-11-04 14:52
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 15:01 | Edited src/backend/ai/client.py | 2→5 lines | ~75 |
+| 15:01 | Edited src/backend/ai/client.py | modified _report_max_output_tokens() | ~228 |
+| 15:01 | Edited src/backend/ai/client.py | modified _reasoning_enabled() | ~259 |
+<!-- session:Nzc4Mjg0ZTctZTQxYy00YjVmLTg0MmYtMmU3MDkzM2JjMDE3 -->
+| 2026-11-04T13:04:32.042Z | Report output limit: reasoning gets its own 8000-token room on top of the chosen answer budget (capped at context/4); a batch at its growth ceiling retries once with reasoning off before splitting | src/backend/ai/client.py | ruff ok; 647 existing unit tests pass; no live vLLM run |
+| 15:10 | Created aiWork/vllm_thinking_budget_check.py | — | ~857 |
+| 15:10 | Edited src/backend/ai/client.py | modified _configured_thinking_tokens() | ~1762 |
+| 15:10 | Edited src/backend/ai/client.py | 2→4 lines | ~70 |
+| 15:10 | Edited src/backend/ai/providers.py | report() → client() | ~52 |
+| 15:11 | Edited docker-compose.yaml | 3→4 lines | ~88 |
+| 15:11 | Edited docker-compose.yaml | 2→3 lines | ~63 |
+| 15:12 | Created src/backend/migrations/042_report_batch_usage.sql | — | ~383 |
+| 15:13 | Edited src/backend/core/report_metrics.py | inline fix | ~21 |
+
+## Session: 2026-11-04 15:13
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+<!-- session:Nzc4Mjg0ZTctZTQxYy00YjVmLTg0MmYtMmU3MDkzM2JjMDE3 -->
+| 2026-11-04T13:20:09.870Z | Levels 3-4: thinking key in REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL; VllmReportClient on chat completions with thinking_token_budget; reasoning-config in compose; report_batch_usage table (042) with p95 answer/thinking recommendations, recorded for failed reports too | src/backend/ai/client.py,src/backend/config.py,src/backend/core/report_models.py,src/backend/core/report_metrics.py,src/backend/core/operation_context.py,src/backend/core/conversation.py,src/backend/persistence/report_metrics.py,src/backend/migrations/042_report_batch_usage.sql,docker-compose.yaml,README.md | 683 unit tests pass, ruff ok; live vLLM: budget honored, JSON valid; thinking-off not verified (Docker Desktop stopped) |
+| 15:21 | Session end: 11 writes across 6 files (client.py, vllm_thinking_budget_check.py, providers.py, docker-compose.yaml, 042_report_batch_usage.sql) | 7 reads | ~8770 tok |
+<!-- session:Nzc4Mjg0ZTctZTQxYy00YjVmLTg0MmYtMmU3MDkzM2JjMDE3 -->
+| 2026-11-04T13:35:09.739Z | Report panel gets an admin thinkingTokens field (medium/high only) end to end: API, job, conversation, client override, validation <= context/4, RO/EN texts, README | src/backend/web/main.py,src/backend/ai/client.py,src/frontend/components/GeneratePanel.tsx,src/frontend/lib/generationLimits.ts | 683 backend + 58 frontend tests pass, typecheck ok; browser not verified |

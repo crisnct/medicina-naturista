@@ -222,17 +222,19 @@
             - driver: nvidia
               count: 1
               capabilities: [gpu]
-    # The qwen3 parser separates the thinking from the answer, and the Responses
-    # `reasoning.effort` "none" (effort low in the report panel) switches thinking off.
+    # The qwen3 parser separates the thinking from the answer; the app sends Chat Completions with
+    # enable_thinking and thinking_token_budget (the "thinking" value of the model). At the budget
+    # vLLM forces reasoning_end_str: Qwen's early-stopping phrase, then the end of the thinking.
     command:
       - --model=Qwen/Qwen3.5-4B
       - --served-model-name=qwen3.5-4b
       - --quantization=fp8_per_tensor
-      - --max-model-len=131072
-      - --max-num-seqs=32
+      - --max-model-len=101072
+      - --max-num-seqs=24
       - --gpu-memory-utilization=0.84
       - --kv-cache-dtype=fp8
       - --reasoning-parser=qwen3
+      - '--reasoning-config={"reasoning_end_str": "\n\nConsidering the limited time, I have to give the answer based on the thinking so far.\n</think>\n\n"}'
       - --language-model-only
     networks: [internal]
 networks:

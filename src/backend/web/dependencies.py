@@ -19,6 +19,7 @@ from backend.core.contracts import (
     LookupHerbSafety,
     LookupHerbSafetyEvidence,
     RecommendReportOutput,
+    RecordReportBatchUsage,
     RecordReportMetrics,
     RenderPDF,
     ReportModel,
@@ -50,6 +51,8 @@ class Dependencies:
     record_report_metrics: RecordReportMetrics | None = None
     estimate_report_duration: EstimateReportDuration | None = None
     recommend_report_output: RecommendReportOutput | None = None
+    record_report_batch_usage: RecordReportBatchUsage | None = None
+    recommend_report_thinking: RecommendReportOutput | None = None
     herb_evidence: LookupHerbEvidence | None = None
     top_herbs_for_condition: ListTopHerbsForCondition | None = None
     herb_safety: LookupHerbSafety | None = None

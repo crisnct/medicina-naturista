@@ -67,7 +67,13 @@ STATE_FIELDS = (
 
 # The per-report options that make a retried or concurrent request a different one.
 def _generation_options(job: ReportGeneration) -> tuple[Any, ...]:
-    return (job.effort, job.batch_max_tokens, job.batch_workers, job.max_output_tokens)
+    return (
+        job.effort,
+        job.batch_max_tokens,
+        job.batch_workers,
+        job.max_output_tokens,
+        job.thinking_tokens,
+    )
 
 
 def serialized_bytes(value) -> int:
@@ -490,9 +496,10 @@ class SessionStore:
         batch_max_tokens: int | None = None,
         batch_workers: int | None = None,
         max_output_tokens: int | None = None,
+        thinking_tokens: int | None = None,
     ) -> tuple[dict[str, Any], SessionOperation | None]:
         """Reserve exactly once, including retries whose first HTTP reply was lost."""
-        options = (effort, batch_max_tokens, batch_workers, max_output_tokens)
+        options = (effort, batch_max_tokens, batch_workers, max_output_tokens, thinking_tokens)
         with self._lock, session.lock:
             existing_id = session.generation_receipts.get(request_id)
             existing = session.generations.get(existing_id or "")
@@ -570,6 +577,7 @@ class SessionStore:
                 batch_max_tokens=batch_max_tokens,
                 batch_workers=batch_workers,
                 max_output_tokens=max_output_tokens,
+                thinking_tokens=thinking_tokens,
             )
             session.generations[job.job_id] = job
             session.generation_receipts[request_id] = job.job_id

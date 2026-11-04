@@ -43,6 +43,8 @@ from backend.core.operation_context import (
     current_report_batch_workers,
     current_report_effort,
     current_report_max_output_tokens,
+    current_report_thinking_override,
+    current_report_thinking_tokens,
     emit_report_activity,
     emit_report_batch,
     emit_report_output,
@@ -54,7 +56,11 @@ from backend.core.operation_context import (
     report_effort_scope,
 )
 from backend.core.report_batches import combine_reports, partition_evidence
-from backend.core.report_models import REPORT_MODELS, ReportEffort
+from backend.core.report_models import (
+    REPORT_MODELS,
+    REPORT_THINKING_CONTEXT_DIVISOR,
+    ReportEffort,
+)
 from backend.core.texts import tr
 
 logger = logging.getLogger("naturist.ai")
@@ -67,6 +73,8 @@ GENERATE_REPORT_SYSTEM_PROMPT_PATH = (
 REPORT_TOKEN_FRAMING_RESERVE = 256
 # A batch cut off by its output limit is retried with at most this multiple of the chosen limit.
 REPORT_OUTPUT_RETRY_FACTOR = 4
+# Reasoning shares the output limit with the JSON answer: the chosen limit stays the answer's
+# budget and a reasoning effort adds the thinking budget, capped by REPORT_THINKING_CONTEXT_DIVISOR.
 
 
 # Evidence fragments as the AI request carries them, highest score first.
@@ -302,6 +310,9 @@ class ResponsesClient:
             settings.report_generation_model
         ]
         self.context_tokens = settings.report_generation_context_tokens[
+            settings.report_generation_model
+        ]
+        self.thinking_tokens = settings.report_generation_thinking_tokens[
             settings.report_generation_model
         ]
         self.batch_workers = settings.report_batch_workers
@@ -557,7 +568,12 @@ class ResponsesClient:
             usage = _response_metrics({"usage": raw_usage})
             output_tokens = usage.get("output_tokens")
             if isinstance(output_tokens, int):
-                record_report_output_tokens(output_tokens)
+                reasoning_tokens = usage.get("reasoning_tokens")
+                record_report_output_tokens(
+                    output_tokens,
+                    reasoning_tokens if isinstance(reasoning_tokens, int) else None,
+                    payload.get("status") == "incomplete",
+                )
             logger.info(
                 "ai_response_usage provider=%s input_tokens=%s output_tokens=%s max_output_tokens=%s",
                 self.provider.name,
@@ -710,9 +726,32 @@ class ResponsesClient:
             + REPORT_TOKEN_FRAMING_RESERVE
         )
 
-    # Per-report overrides chosen by the admin win over the configured values.
+    # Per-report overrides chosen by the admin win over the configured values. The chosen limit is
+    # the answer's budget; when the model thinks, the thinking gets its own room on top of it.
     def _report_max_output_tokens(self) -> int:
-        return current_report_max_output_tokens() or self.provider.max_output_tokens
+        answer = current_report_max_output_tokens() or self.provider.max_output_tokens
+        return answer + self._thinking_budget()
+
+    # The thinking room of one batch request; 0 when the effort leaves reasoning off.
+    def _thinking_budget(self) -> int:
+        if not self._reasoning_enabled():
+            return 0
+        budget = self._configured_thinking_tokens()
+        return min(budget, self._request_context_tokens() // REPORT_THINKING_CONTEXT_DIVISOR)
+
+    # The panel's value wins, then the budget learned from earlier batches of this model and
+    # effort, then the configured one.
+    def _configured_thinking_tokens(self) -> int:
+        return (
+            current_report_thinking_override()
+            or current_report_thinking_tokens()
+            or self.thinking_tokens
+        )
+
+    # Only a model whose request carries the effort can have its reasoning switched off ("low").
+    def _reasoning_enabled(self) -> bool:
+        effort = current_report_effort()
+        return self.provider.effort_control != "none" and effort is not None and effort != "low"
 
     # 0 typed in the panel runs the batches one after another, like 1; nothing typed keeps the configured count.
     def _batch_workers(self) -> int:
@@ -747,11 +786,12 @@ class ResponsesClient:
         batch_max_tokens: int | None = None,
         max_output_tokens: int | None = None,
         batch_workers: int | None = None,
+        thinking_tokens: int | None = None,
     ) -> ReportBatchPlan:
         with (
             language_scope(validate_language(profile.get("language", current_language()))),
             report_effort_scope(effort),
-            report_batch_scope(batch_max_tokens, batch_workers, max_output_tokens),
+            report_batch_scope(batch_max_tokens, batch_workers, max_output_tokens, thinking_tokens),
         ):
             input_limit = self._report_input_limit()
             if not evidence:
@@ -776,6 +816,7 @@ class ResponsesClient:
         batch_max_tokens: int | None = None,
         batch_workers: int | None = None,
         max_output_tokens: int | None = None,
+        thinking_tokens: int | None = None,
     ) -> ValidatedReport:
         language = validate_language(profile.get("language", current_language()))
         if any(item.get("language", language) != language for item in evidence.values()):
@@ -785,7 +826,7 @@ class ResponsesClient:
         with (
             language_scope(language),
             report_effort_scope(effort),
-            report_batch_scope(batch_max_tokens, batch_workers, max_output_tokens),
+            report_batch_scope(batch_max_tokens, batch_workers, max_output_tokens, thinking_tokens),
         ):
             return self._generate(profile, evidence)
 
@@ -956,6 +997,21 @@ class ResponsesClient:
                     larger,
                 )
                 return self._generate_batch_recovering(profile, evidence, larger, chosen)
+            if self._reasoning_enabled():
+                # The limit cannot grow further and the thinking likely used it: answer the batch
+                # without thinking, which needs only the room of the JSON answer.
+                logger.warning(
+                    "report_batch_output_limit_no_reasoning provider=%s model=%s fragments=%s "
+                    "max_output_tokens=%s",
+                    self.provider.name,
+                    self.provider.model,
+                    len(evidence),
+                    max_output_tokens,
+                )
+                with report_effort_scope("low"):
+                    return self._generate_batch_recovering(
+                        profile, evidence, self._report_max_output_tokens(), None
+                    )
             if len(evidence) == 1:
                 raise
             logger.warning(
@@ -1076,6 +1132,7 @@ class OllamaReportClient(ResponsesClient):
             connect=remaining_timeout(10.0),
         )
         parts: list[str] = []
+        thinking_bytes = 0
         raw_bytes = 0
         final = None
         emit_report_activity(ReportActivity("request_started"))
@@ -1116,6 +1173,7 @@ class OllamaReportClient(ResponsesClient):
                 if thinking is not None and not isinstance(thinking, str):
                     raise _AIResponseError("invalid_thinking")
                 if isinstance(thinking, str):
+                    thinking_bytes += len(thinking.encode("utf-8"))
                     emit_report_thinking(thinking)
                 content = message.get("content")
                 if content is not None and not isinstance(content, str):
@@ -1147,9 +1205,148 @@ class OllamaReportClient(ResponsesClient):
                 "usage": {
                     "input_tokens": final.get("prompt_eval_count"),
                     "output_tokens": final.get("eval_count"),
+                    # Ollama counts no thinking tokens; estimate them from the thinking text.
+                    "output_tokens_details": {
+                        "reasoning_tokens": estimate_tokens(thinking_bytes)
+                        if thinking_bytes
+                        else None
+                    },
                 },
                 "incomplete_details": {"reason": "max_output_tokens"},
             }
+            return _StreamedResponse(result, response.status_code, response.headers, raw_bytes)
+
+
+class VllmReportClient(ResponsesClient):
+    """Native vLLM transport: Chat Completions, the only vLLM API that caps the thinking.
+
+    vLLM 0.32 accepts `thinking_token_budget` in Chat Completions but not in Responses. At the
+    budget the server forces the end of the thinking (and the transition text configured with
+    --reasoning-config), so the answer always gets its own room. The effort selects the budget:
+    high uses the model's whole thinking budget, medium half of it, low switches thinking off.
+    """
+
+    # The panel's value is used as typed; the server caps the thinking, so nothing is learned.
+    def _configured_thinking_tokens(self) -> int:
+        override = current_report_thinking_override()
+        if override is not None:
+            return override
+        if current_report_effort() == "medium":
+            return max(self.thinking_tokens // 2, 1)
+        return self.thinking_tokens
+
+    def _send(self, headers: dict[str, str], payload: dict[str, Any]) -> Any:
+        native: dict[str, Any] = {
+            "model": payload["model"],
+            "messages": payload["input"],
+            "max_tokens": payload["max_output_tokens"],
+            "stream": True,
+            "stream_options": {"include_usage": True},
+        }
+        text_format = payload.get("text", {}).get("format", {})
+        if text_format.get("type") == "json_schema":
+            native["response_format"] = {
+                "type": "json_schema",
+                "json_schema": {
+                    "name": text_format["name"],
+                    "schema": text_format["schema"],
+                    "strict": text_format.get("strict", True),
+                },
+            }
+        elif text_format.get("type") == "json_object" or "response_format" in payload:
+            native["response_format"] = {"type": "json_object"}
+        # Like vLLM's own Responses mapping: thinking is set only when an effort was requested.
+        effort = payload.get("reasoning", {}).get("effort")
+        if effort is not None:
+            native["chat_template_kwargs"] = {"enable_thinking": effort != "none"}
+            budget = self._thinking_budget()
+            if effort != "none" and budget > 0:
+                native["thinking_token_budget"] = budget
+        if "temperature" in payload:
+            native["temperature"] = payload["temperature"]
+        logger.info(
+            "vllm_request_prepared model=%s max_tokens=%s thinking=%s thinking_token_budget=%s",
+            native["model"],
+            native["max_tokens"],
+            native.get("chat_template_kwargs", {}).get("enable_thinking"),
+            native.get("thinking_token_budget"),
+        )
+        url = f"{self.provider.base_url}/chat/completions"
+        timeout = httpx.Timeout(
+            remaining_timeout(float(self.provider.read_timeout_seconds)),
+            connect=remaining_timeout(10.0),
+        )
+        parts: list[str] = []
+        raw_bytes = 0
+        finish_reason = None
+        usage: dict[str, Any] = {}
+        emit_report_activity(ReportActivity("request_started"))
+        with self.http.stream(
+            "POST",
+            url,
+            headers={**headers, "Accept": "text/event-stream"},
+            json=native,
+            timeout=timeout,
+        ) as response:
+            if response.status_code >= 400:
+                response.read()
+                response.raise_for_status()
+            for line in response.iter_lines():
+                checkpoint()
+                raw_bytes += len(line.encode("utf-8")) + 1
+                if not line.startswith("data:"):
+                    continue
+                data = line[5:].strip()
+                if not data or data == "[DONE]":
+                    continue
+                event = json.loads(data)
+                if not isinstance(event, dict):
+                    raise _AIResponseError("invalid_event")
+                if event.get("error"):
+                    raise _AIResponseError("stream_error")
+                if isinstance(event.get("usage"), dict):
+                    usage = event["usage"]
+                choices = event.get("choices") or []
+                if not isinstance(choices, list):
+                    raise _AIResponseError("invalid_choices")
+                for choice in choices:
+                    delta = choice.get("delta") if isinstance(choice, dict) else None
+                    if not isinstance(delta, dict):
+                        raise _AIResponseError("invalid_delta")
+                    emit_report_activity(ReportActivity("provider_activity"))
+                    thinking = delta.get("reasoning") or delta.get("reasoning_content")
+                    if isinstance(thinking, str):
+                        emit_report_thinking(thinking)
+                    content = delta.get("content")
+                    if content is not None and not isinstance(content, str):
+                        raise _AIResponseError("invalid_content")
+                    if content:
+                        parts.append(content)
+                        emit_report_output(content)
+                    finish_reason = choice.get("finish_reason") or finish_reason
+            if finish_reason is None:
+                raise _AIResponseError("missing_completion")
+            details = usage.get("completion_tokens_details")
+            result = {
+                "status": "incomplete" if finish_reason == "length" else "completed",
+                "output": [
+                    {
+                        "type": "message",
+                        "content": [{"type": "output_text", "text": "".join(parts)}],
+                    }
+                ],
+                "usage": {
+                    "input_tokens": usage.get("prompt_tokens"),
+                    "output_tokens": usage.get("completion_tokens"),
+                    "output_tokens_details": {
+                        "reasoning_tokens": details.get("reasoning_tokens")
+                        if isinstance(details, dict)
+                        else None
+                    },
+                },
+                "incomplete_details": {"reason": "max_output_tokens"},
+            }
+            emit_report_activity(ReportActivity("response_finished", _response_metrics(result)))
             return _StreamedResponse(result, response.status_code, response.headers, raw_bytes)
 
 
@@ -1165,6 +1362,8 @@ def create_ai_client(settings: Settings) -> ResponsesClient:
         return XAIClient(settings)
     if settings.ai_provider == "ollama":
         return OllamaReportClient(provider_config(settings), settings)
+    if settings.ai_provider == "vllm":
+        return VllmReportClient(provider_config(settings), settings)
     return ResponsesClient(provider_config(settings), settings)
 
 

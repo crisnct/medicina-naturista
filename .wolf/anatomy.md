@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-04T11:50:38.028Z
-> Files: 462 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-04T13:13:17.121Z
+> Files: 464 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -12,7 +12,7 @@
 - `.dockerignore` (~107 tok)
 - `AGENTS.md` — AGENTS.md (~3128 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
-- `docker-compose.yaml` — Docker Compose: 5 services (~3454 tok)
+- `docker-compose.yaml` — Docker Compose: 2 services (~3557 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
 - `README.md` — Project documentation (~44269 tok)
 
@@ -193,6 +193,7 @@
 - `tail_new.py` — prepare (~4472 tok)
 - `time_batches.py` — Throwaway timing: one real qwen batch of 10 products, then one gemma dedup batch; nothing is saved. (~558 tok)
 - `try_dedup_model.py` — Throwaway: run the dedup stage of one product with another local model; writes nothing to the DB. (~507 tok)
+- `vllm_thinking_budget_check.py` — Phase 0: does vLLM's Chat Completions honor thinking_token_budget with a JSON schema? (~857 tok)
 - `why_dedup_rejected.py` — Throwaway: send the products still without a cached grouping to gemma, one by one, and show (~604 tok)
 
 ## aiWork/translate/out/
@@ -367,7 +368,7 @@
 
 ## src/backend/ai/
 
-- `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~14864 tok)
+- `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~17454 tok)
 - `condition_ai.py` — Identification of the condition a message names when the dictionary does not (~3319 tok)
 - `condition_repository.py` — Ordered PostgreSQL condition snapshots shared by retrieval and indexing. (~1579 tok)
 - `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~3973 tok)
@@ -396,7 +397,7 @@
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
-- `providers.py` — Per-provider transport settings for report generation. (~2207 tok)
+- `providers.py` — Per-provider transport settings for report generation. (~2206 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~1940 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2910 tok)
 
@@ -435,7 +436,7 @@
 - `operation_context.py` — Propagate a worker's deadline to synchronous I/O without changing public ports. (~2035 tok)
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2642 tok)
-- `report_metrics.py` — Validated measurements for one published report, independent of storage. (~1040 tok)
+- `report_metrics.py` — Validated measurements for one published report, independent of storage. (~1282 tok)
 - `report_models.py` — Supported report choices and their immutable provider routing. (~2061 tok)
 - `score_formula.py` — Operator-supplied arithmetic over L1, L2 and L3; parsed from a whitelist, never `eval`-ed. (~736 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16342 tok)
@@ -474,6 +475,7 @@
 - `039_medical_conditions_version.sql` — A change counter for the condition dictionary, so a reader can tell with one tiny query (~463 tok)
 - `040_remove_primary_from_secondary_conditions.sql` — One-time cleanup of the rows indexed before backend/index_sql/001_remove_primary_from_secondary_cond (~159 tok)
 - `041_report_metrics_batch_output_tokens.sql` — PostgreSQL. Applied transactionally by scripts.migrate_database. (~172 tok)
+- `042_report_batch_usage.sql` — PostgreSQL. Applied transactionally by scripts.migrate_database. (~383 tok)
 
 ## src/backend/persistence/
 

@@ -47,6 +47,7 @@ class ReportGenerationService:
         batch_max_tokens: int | None = None,
         batch_workers: int | None = None,
         max_output_tokens: int | None = None,
+        thinking_tokens: int | None = None,
     ) -> dict:
         validate_min_score(min_score)
         with self._lock:
@@ -67,6 +68,7 @@ class ReportGenerationService:
                 batch_max_tokens,
                 batch_workers,
                 max_output_tokens,
+                thinking_tokens,
             )
             if operation is None:
                 return self.generation(session, job["jobId"])

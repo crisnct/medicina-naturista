@@ -87,6 +87,7 @@ class FakeAI:
         batch_max_tokens=None,
         batch_workers=None,
         max_output_tokens=None,
+        thinking_tokens=None,
     ):
         type(self).generate_calls += 1
         type(self).report_limits = (batch_max_tokens, batch_workers, max_output_tokens)

@@ -81,6 +81,8 @@ export interface ReportModelsResponse {
   batchMaxTokens?: Partial<Record<ReportModel, number>>;
   batchWorkers?: { max: number };
   maxOutputTokens?: Partial<Record<ReportModel, number>>;
+  // The configured thinking budget of a batch, added to the output limit when the model thinks.
+  thinkingTokens?: Partial<Record<ReportModel, number>>;
   // The bounds the limits must respect.
   tokenBounds?: TokenBounds;
 }
@@ -90,6 +92,8 @@ export interface TokenBounds {
   max: number;
   // Below this many output tokens the AI answer is likely to be cut off.
   lowOutput: number;
+  // The thinking of one request may use at most this share (1/n) of its context.
+  thinkingContextDivisor: number;
 }
 
 // The admin's per-report generation limits.
@@ -97,12 +101,15 @@ export interface GenerationLimits {
   batchMaxTokens: number;
   batchWorkers: number;
   maxOutputTokens: number;
+  // Sent only while the chosen effort lets the model think.
+  thinkingTokens?: number;
 }
 
 export interface GenerationLimitDefaults {
   batchMaxTokens: Partial<Record<ReportModel, number>>;
   batchWorkers: { max: number };
   maxOutputTokens: Partial<Record<ReportModel, number>>;
+  thinkingTokens: Partial<Record<ReportModel, number>>;
   tokenBounds: TokenBounds;
 }
 
@@ -283,6 +290,7 @@ export interface ReportGeneration {
   batchMaxTokens?: number | null;
   batchWorkers?: number | null;
   maxOutputTokens?: number | null;
+  thinkingTokens?: number | null;
   createdAt: number;
   startedAt?: number | null;
   deadlineAt: number;

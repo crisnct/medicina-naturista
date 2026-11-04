@@ -20,6 +20,7 @@ if TYPE_CHECKING:
     from backend.ai.report_validation import ValidatedReport
     from backend.core.models import SessionSnapshot
     from backend.core.report_metrics import (
+        ReportBatchUsage,
         ReportDurationEstimate,
         ReportMetrics,
         ReportOutputRecommendation,
@@ -99,6 +100,7 @@ class AIProtocol(Protocol):
         batch_max_tokens: int | None = None,
         batch_workers: int | None = None,
         max_output_tokens: int | None = None,
+        thinking_tokens: int | None = None,
     ) -> ValidatedReport: ...
     def plan_report_batches(
         self,
@@ -108,6 +110,7 @@ class AIProtocol(Protocol):
         batch_max_tokens: int | None = None,
         max_output_tokens: int | None = None,
         batch_workers: int | None = None,
+        thinking_tokens: int | None = None,
     ) -> ReportBatchPlan: ...
     def is_configured(self) -> bool: ...
     def close(self) -> None: ...
@@ -143,6 +146,9 @@ IdentifyCondition = Callable[["ResolvedQuery"], "AIConditionResult"]
 RenderPDF = Callable[[ProfilePayload, "ValidatedReport", Evidence, float], bytes]
 ClassifyMessage = Callable[[str, dict[str, object]], "MessageClassification"]
 RecordReportMetrics = Callable[["ReportMetrics"], int]
+RecordReportBatchUsage = Callable[
+    [ReportModel, "ReportEffort | None", "tuple[ReportBatchUsage, ...]"], None
+]
 ReportBatchCallback = Callable[[int, int, "ValidatedReport | None"], None]
 
 

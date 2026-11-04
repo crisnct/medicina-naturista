@@ -134,9 +134,10 @@ export const TEXT_PARAMETERS = {
     "maximum"
   ],
   "interface.generate_output_tokens_label": [],
+  "interface.generate_thinking_tokens_label": [],
   "interface.generate_output_recommended": [
-    "tokens",
-    "count"
+    "count",
+    "tokens"
   ],
   "interface.generate_output_below_recommended": [
     "tokens"
@@ -151,6 +152,10 @@ export const TEXT_PARAMETERS = {
   "interface.generate_output_exceeds_context": [
     "context"
   ],
+  "interface.generate_thinking_too_large": [
+    "limit"
+  ],
+  "interface.generate_thinking_note": [],
   "interface.generate_input_no_room": [
     "minimum",
     "tokens"

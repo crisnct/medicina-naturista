@@ -36,6 +36,7 @@ const EFFORT_LABELS = {
 const TOKEN_LABELS = {
   batchMaxTokens: "interface.generate_batch_tokens_label",
   maxOutputTokens: "interface.generate_output_tokens_label",
+  thinkingTokens: "interface.generate_thinking_tokens_label",
 } as const;
 type TokenField = keyof typeof TOKEN_LABELS;
 const TOKEN_FIELDS = Object.keys(TOKEN_LABELS) as TokenField[];
@@ -117,17 +118,25 @@ export function GeneratePanel({
   const workers = /^\d{1,4}$/.test(workersText.trim()) && Number(workersText) <= maxWorkers ? Number(workersText) : null;
   // One request may use only part of the context while batches run in parallel (0 and 1 = in succession).
   const requestContext = workers !== null && workers <= 1 ? contextTokens : reportModelDetails?.parallelContextTokens[selectedModel] ?? contextTokens;
+  // The thinking budget matters only while the chosen effort lets the model think.
+  const thinkingShown = effortSupported && effort !== "low";
+  const shownTokenFields = TOKEN_FIELDS.filter((field) => field !== "thinkingTokens" || thinkingShown);
   const limitsCheck = generationLimitDefaults && checkLimits(
     tokenValue("batchMaxTokens"),
     tokenValue("maxOutputTokens"),
     generationLimitDefaults.tokenBounds,
     requestContext,
+    thinkingShown ? tokenValue("thinkingTokens") : undefined,
   );
   const tokensValid = (limitsCheck?.valid ?? true) && workers !== null;
   // Below what reports of this model and effort have needed, the answer is likely to be cut off.
   const belowRecommended = recommendedTokens !== undefined && limitsCheck?.limits !== undefined
     && limitsCheck.limits.maxOutputTokens < recommendedTokens;
-  const fieldError = (field: TokenField) => field === "batchMaxTokens" ? limitsCheck?.inputError : limitsCheck?.outputError;
+  const fieldError = (field: TokenField) => ({
+    batchMaxTokens: limitsCheck?.inputError,
+    maxOutputTokens: limitsCheck?.outputError,
+    thinkingTokens: limitsCheck?.thinkingError,
+  })[field];
   const eligibleFragments = fragments?.filter((fragment) => reachesMinScore(fragment.relevancePercent, minScore));
   const eligibleCount = eligibleFragments?.length;
   const eligibleCharacters = eligibleFragments?.reduce(
@@ -212,7 +221,7 @@ export function GeneratePanel({
                 />
               </label>
             )}
-            {showLimits && TOKEN_FIELDS.map((field) => (
+            {showLimits && shownTokenFields.map((field) => (
               <label key={field} className="fragments-panel-filter">
                 {tr(TOKEN_LABELS[field])}<input
                   type="text"
@@ -228,9 +237,12 @@ export function GeneratePanel({
           {showLimits && workers === null && (
             <p className="generate-recipe-warning" role="status">{tr("interface.generate_batch_workers_invalid", { maximum: maxWorkers })}</p>
           )}
-          {showLimits && TOKEN_FIELDS.map((field) => fieldError(field) && (
+          {showLimits && shownTokenFields.map((field) => fieldError(field) && (
             <p key={field} className="generate-recipe-warning" role="status">{fieldError(field)}</p>
           ))}
+          {showLimits && thinkingShown && (
+            <p className="eligible-count" role="status">{tr("interface.generate_thinking_note")}</p>
+          )}
           {showLimits && recommendation && recommendedTokens !== undefined && (
             <p className={belowRecommended ? "generate-recipe-warning" : "eligible-count"} role="status">
               {belowRecommended

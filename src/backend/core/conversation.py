@@ -9,7 +9,7 @@ import logging
 import re
 import secrets
 from dataclasses import dataclass, replace
-from typing import Any
+from typing import Any, cast
 
 from backend.ai.categories import category_selection
 from backend.ai.client import AIUnavailable
@@ -29,6 +29,8 @@ from backend.core.contracts import (
     ListTopHerbs,
     ListTopHerbsForCondition,
     LookupHerb,
+    RecommendReportOutput,
+    RecordReportBatchUsage,
     RecordReportMetrics,
     RenderPDF,
     ReportEffort,
@@ -52,9 +54,11 @@ from backend.core.operation_context import (
     ReportUsage,
     operation_budget,
     report_batch_index,
+    report_thinking_scope,
     report_usage_scope,
 )
 from backend.core.report_metrics import ReportMetrics, validate_min_score
+from backend.core.report_models import ReportModel
 from backend.core.sessions import SessionStore
 from backend.core.texts import tr
 from backend.integrations.gmail import EMAIL_SKIPPED, GmailAuthorizationError
@@ -284,11 +288,48 @@ class ConversationService:
     report_model_choice: str = ""
     report_ai_effort: ReportEffort | None = None
     record_report_metrics: RecordReportMetrics | None = None
+    # Token usage of every batch request, published or failed, and the thinking budget it teaches.
+    record_report_batch_usage: RecordReportBatchUsage | None = None
+    recommend_report_thinking: RecommendReportOutput | None = None
     top_herbs_for_condition: ListTopHerbsForCondition | None = None
     # Admin overrides for this report; None keeps the configured values.
     report_batch_max_tokens: int | None = None
     report_batch_workers: int | None = None
     report_max_output_tokens: int | None = None
+    report_thinking_tokens: int | None = None
+
+    # Measurements must never stop a report: without them the configured budget applies.
+    def _learned_thinking_tokens(self) -> int | None:
+        if (
+            self.recommend_report_thinking is None
+            or not self.report_model_choice
+            or self.report_ai_effort in (None, "low")
+        ):
+            return None
+        try:
+            return self.recommend_report_thinking(
+                cast(ReportModel, self.report_model_choice), self.report_ai_effort
+            ).tokens
+        except Exception as exc:
+            logger.warning("report_thinking_recommendation_unavailable type=%s", type(exc).__name__)
+            return None
+
+    def _record_batch_usage(self, job_id: str, usage: ReportUsage) -> None:
+        if self.record_report_batch_usage is None or not self.report_model_choice:
+            return
+        try:
+            self.record_report_batch_usage(
+                cast(ReportModel, self.report_model_choice),
+                self.report_ai_effort,
+                usage.batches,
+            )
+        except Exception as exc:
+            logger.error(
+                "report_batch_usage_persistence_failed job_id=%s type=%s sqlstate=%s",
+                job_id,
+                type(exc).__name__,
+                getattr(exc, "sqlstate", None),
+            )
 
     # The search runs before a model is chosen, so it collects what the largest configured
     # batch limit can hold; each model's own batch limit then splits it.
@@ -1179,15 +1220,23 @@ class ConversationService:
             self.store.generation_stage(operation, "generating")
             characters = sum(len(item["text"]) for item in evidence.values())
             usage = ReportUsage()
-            with report_usage_scope(usage), operation_budget(self.budget(operation)):
-                sections = self.ai.generate(
-                    profile,
-                    evidence,
-                    self.report_ai_effort,
-                    self.report_batch_max_tokens,
-                    self.report_batch_workers,
-                    self.report_max_output_tokens,
-                )
+            try:
+                with (
+                    report_usage_scope(usage),
+                    report_thinking_scope(self._learned_thinking_tokens()),
+                    operation_budget(self.budget(operation)),
+                ):
+                    sections = self.ai.generate(
+                        profile,
+                        evidence,
+                        self.report_ai_effort,
+                        self.report_batch_max_tokens,
+                        self.report_batch_workers,
+                        self.report_max_output_tokens,
+                        self.report_thinking_tokens,
+                    )
+            finally:
+                self._record_batch_usage(operation.operation_id, usage)
             self.store.generation_stage(operation, "validating")
             if not isinstance(sections, ValidatedReport):
                 sections = validate_report(sections, evidence)

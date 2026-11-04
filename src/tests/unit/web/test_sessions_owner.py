@@ -46,6 +46,7 @@ class FakeAI:
         batch_max_tokens=None,
         batch_workers=None,
         max_output_tokens=None,
+        thinking_tokens=None,
     ):
         self.calls += 1
         if self.entered:

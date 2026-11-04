@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 from dataclasses import dataclass
 
 from backend.core.errors import ApplicationError
@@ -34,25 +35,44 @@ def estimate_duration_from_totals(
     return ReportDurationEstimate((numerator + denominator - 1) // denominator, sample_count)
 
 
-# Reports with a measured batch output needed before the panel trusts them, and the margin
-# added to the largest one.
-MIN_OUTPUT_SAMPLES = 3
-OUTPUT_RECOMMENDATION_MARGIN_PERCENT = 125
+# Budgets are learned from the most recent batch requests of one model and effort: their 95th
+# percentile plus a margin. The percentile, not the largest value, keeps one reasoning loop from
+# raising the budget for good; the rare larger request is left to the output-limit recovery.
+MIN_BATCH_SAMPLES = 20
+RECENT_BATCH_SAMPLES = 200
+BUDGET_PERCENTILE = 0.95
+BUDGET_MARGIN_PERCENT = 125
 
 
 @dataclass(frozen=True)
 class ReportOutputRecommendation:
-    # None until enough reports were measured for the model and effort.
+    # None until enough batches were measured for the model and effort.
     tokens: int | None
     sample_count: int
 
 
-def recommend_output_tokens(sample_count: int, largest_output: int) -> ReportOutputRecommendation:
-    """The output limit per batch that every measured report would have fitted, with a margin."""
-    if sample_count < MIN_OUTPUT_SAMPLES or largest_output <= 0:
+def recommend_tokens(sample_count: int, percentile: float | None) -> ReportOutputRecommendation:
+    """A per-batch budget from the percentile of the recent measured batches, with a margin."""
+    if sample_count < MIN_BATCH_SAMPLES or percentile is None or percentile <= 0:
         return ReportOutputRecommendation(None, sample_count)
-    margin = OUTPUT_RECOMMENDATION_MARGIN_PERCENT
-    return ReportOutputRecommendation((largest_output * margin + 99) // 100, sample_count)
+    tokens = (math.ceil(percentile) * BUDGET_MARGIN_PERCENT + 99) // 100
+    return ReportOutputRecommendation(tokens, sample_count)
+
+
+@dataclass(frozen=True)
+class ReportBatchUsage:
+    """The tokens one AI request of a report used; a truncated one is a lower bound."""
+
+    reasoning_tokens: int | None
+    answer_tokens: int
+    truncated: bool
+
+    def __post_init__(self) -> None:
+        for value in (self.answer_tokens, self.reasoning_tokens):
+            if value is not None and (type(value) is not int or not 0 <= value <= MAX_BIGINT):
+                raise ValueError("Batch tokens must be nonnegative BIGINT values")
+        if type(self.truncated) is not bool:
+            raise ValueError("Batch truncation must be a boolean")
 
 
 def validate_min_score(value: int) -> None:

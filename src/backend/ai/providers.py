@@ -156,8 +156,8 @@ def provider_config(settings: Settings) -> ProviderConfig:
             effort_control="responses_effort",
             **common,
         )
-    # The local vLLM server speaks the Responses API like the cloud providers, so it needs no
-    # client of its own. Its structured-output grammar is requested per report (client.py).
+    # The local vLLM server. Its report client (VllmReportClient in client.py) sends Chat
+    # Completions, the vLLM API that caps the thinking; the grammar is requested per report.
     if settings.ai_provider == "vllm":
         return ProviderConfig(
             name="vllm",
