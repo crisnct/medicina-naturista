@@ -75,11 +75,22 @@ export function GenerationReportPreview({
   }, [text]);
   const title = terminal && !succeeded ? tr("interface.preview_incomplete_title") : tr("interface.preview_title");
   const hasRawOutput = Boolean(answer || thinking);
+  // Parallel batches each measure their own speed; the total is the sum of those still running.
+  const runningRates = (batches ?? [])
+    .filter((batch) => batch.state === "running")
+    .map((batch) => batch.streamTokensPerSecond ?? batch.thinkingTokensPerSecond)
+    .filter((rate): rate is number => rate != null && Number.isFinite(rate) && rate >= 0);
+  const totalRate = runningRates.length ? runningRates.reduce((sum, rate) => sum + rate, 0) : null;
   return (
     <section className="generation-stream-preview" aria-label={title}>
       <h4>
         {title}
         {total > 0 && <span>{tr("interface.preview_batch_progress", { completed, total })}</span>}
+        {totalRate != null && (
+          <span title={tr("interface.preview_total_speed_hint")}>
+            {tr("interface.preview_total_speed", { tokens_per_second: Math.round(totalRate) })}
+          </span>
+        )}
         {!batches?.length && tokensPerSecond != null && Number.isFinite(tokensPerSecond) && tokensPerSecond >= 0 && (
           <span title={tr("interface.preview_speed_hint")}>
             {tr("common.token_rate", { tokens_per_second: Math.round(tokensPerSecond) })}

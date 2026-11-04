@@ -68,10 +68,9 @@ from backend.core.report_models import (
     DEFAULT_REPORT_MODELS,
     EFFORT_MODELS,
     LOW_REPORT_OUTPUT_TOKENS,
+    MAX_REPORT_BATCH_WORKERS,
     MAX_REPORT_TOKENS,
     MIN_REPORT_INPUT_TOKENS,
-    REPORT_BATCH_WORKER_OPTIONS,
-    ReportBatchWorkers,
 )
 from backend.core.sessions import SessionStore
 from backend.core.texts import catalog, public_catalog, tr
@@ -168,7 +167,7 @@ class GenerateRequest(BaseModel):
     effort: ReportEffort = DEFAULT_REPORT_EFFORT
     # Admin overrides of the configured values; None keeps what the model is configured with.
     batchMaxTokens: int | None = Field(default=None, strict=True, ge=1, le=MAX_REPORT_TOKENS)
-    batchWorkers: ReportBatchWorkers | None = None
+    batchWorkers: int | None = Field(default=None, strict=True, ge=0, le=MAX_REPORT_BATCH_WORKERS)
     maxOutputTokens: int | None = Field(default=None, strict=True, ge=1, le=MAX_REPORT_TOKENS)
     requestId: str = Field(
         default_factory=lambda: secrets.token_urlsafe(24), pattern=r"^[A-Za-z0-9_-]{8,64}$"
@@ -771,10 +770,7 @@ def report_models(request: Request):
         response["batchMaxTokens"] = {
             model: settings.report_generation_batch_max_tokens[model] for model in configured
         }
-        response["batchWorkers"] = {
-            "default": min(settings.report_batch_workers, max(REPORT_BATCH_WORKER_OPTIONS)),
-            "options": list(REPORT_BATCH_WORKER_OPTIONS),
-        }
+        response["batchWorkers"] = {"max": MAX_REPORT_BATCH_WORKERS}
         response["maxOutputTokens"] = {
             model: default_max_output_tokens(settings, model) for model in configured
         }
@@ -882,6 +878,8 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
     _check_report_limits(deps.settings, model, options.batchMaxTokens, options.maxOutputTokens)
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
     effort = _effective_effort(model, options.effort)
+    # 0 means no parallelism, like 1; None keeps the configured value.
+    batch_workers = None if options.batchWorkers is None else max(options.batchWorkers, 1)
     service: ReportGenerationService = request.app.state.report_generation
     result = service.start(
         _conversation(
@@ -890,7 +888,7 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
             model_choice=model,
             effort=effort,
             batch_max_tokens=options.batchMaxTokens,
-            batch_workers=options.batchWorkers,
+            batch_workers=batch_workers,
             max_output_tokens=options.maxOutputTokens,
         ),
         session,
@@ -900,7 +898,7 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
         model,
         effort,
         options.batchMaxTokens,
-        options.batchWorkers,
+        batch_workers,
         options.maxOutputTokens,
     )
     return JSONResponse(

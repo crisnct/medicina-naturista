@@ -1,10 +1,14 @@
-r"""Translate every Markdown file of a folder from Romanian to English with a local Ollama model.
+r"""Translate every Markdown file of a folder from Romanian to English with a local model.
 
 Only prose reaches the model. Front matter, fenced code, HTML comments (the PDF page
 markers), table separators, Markdown markers, inline code and URLs are copied through
 unchanged, so the output keeps the layout of the source. Nothing leaves the machine.
 
-Requires a running Ollama with the model pulled: ollama pull translategemma:4b
+The model is TranslateGemma 4B served locally by vLLM, an OpenAI-compatible server that batches
+many requests on the GPU: docker compose --profile vllm up -d vllm (see aiPlans/2026-11-03-
+integrare-vllm-translategemma.md). The server owns the prompt: its chat template, mounted from
+src/scripts/resources/translategemma_ro_en.jinja, renders the official TranslateGemma prompt
+for a plain user message, and its context size is set by --max-model-len.
 
     PYTHONPATH=src python src/scripts/translate_markdown.py "<folder>" [-o OUTPUT_FOLDER]
 
@@ -13,21 +17,21 @@ translated: the translation is staged in a temporary file next to the original, 
 atomic replacement then consumes. This destroys the Romanian text, so work on a copy; the
 Romanian corpus under documents/ro is refused. With --output the sources are kept.
 
-Files are handled one at a time: translate and replace; file names are kept. Inside a file two
-workers (--workers) send requests to Ollama at the same time, which only helps when Ollama
-accepts as many (OLLAMA_NUM_PARALLEL, with a context of --num-ctx for each); the file is
-assembled in order once all its segments are done. The logged throughput counts the tokens of
-all workers together. A folder that
+Files are published one at a time, in order: translate and replace; file names are kept. The
+workers (--workers, 32) send requests at the same time, which only helps when the server
+accepts as many (--max-num-seqs of vLLM). They do not wait for the file being published: the segments of
+the next files are already queued, up to four per worker, so the server stays busy across file
+boundaries. A file is assembled in order once all its segments are done. The logged throughput
+counts the tokens of all workers together. A folder that
 directly contains Markdown files is renamed to its English name as soon as nothing below it
 is still queued (--keep-names skips that); names an earlier run produced are kept.
 
 A refused answer is translated again in smaller pieces (cut at the protected spans, then in
-halves); only a piece refused at the smallest size is a rejection. The run stops at the first
-rejected segment (file and line in the message, exit code 1); with
---keep-going it leaves the segment in Romanian instead, and a file with a segment the model cannot
-translate reliably is not written (the original stays
-intact) unless --allow-partial is given, and the exit code is 1, so an incomplete result is
-never mistaken for a finished one. Progress, percent and an hh:mm:ss ETA for the whole folder
+halves); only a piece refused at the smallest size is a rejection. Such a segment is left in
+Romanian and the run goes on (--no-keep-going stops at the first one instead, with file and line
+in the message and exit code 1). A file with a segment the model cannot translate reliably is not
+written (the original stays intact) unless --allow-partial is given, and the exit code is 1, so
+an incomplete result is never mistaken for a finished one. Progress, percent and an hh:mm:ss ETA for the whole folder
 (every file still to translate, plus the names) are logged every --progress-interval seconds
 (default 10) from a background thread.
 
@@ -50,10 +54,10 @@ import signal
 import sys
 import threading
 import time
-from collections import Counter
+from collections import Counter, deque
 from collections.abc import Callable
-from concurrent.futures import ThreadPoolExecutor
-from contextlib import closing
+from concurrent.futures import Future, ThreadPoolExecutor
+from contextlib import ExitStack, closing
 from dataclasses import dataclass
 from pathlib import Path
 from typing import TextIO
@@ -68,8 +72,11 @@ else:
     from script_logging import log_call
 
 LOGGER = logging.getLogger(__name__)
-DEFAULT_MODEL = "translategemma:4b"
-DEFAULT_HOST = "http://localhost:11434"
+# The name the vLLM service serves the model under (--served-model-name in docker-compose.yaml).
+DEFAULT_MODEL = "translategemma"
+DEFAULT_HOST = "http://127.0.0.1:8000"
+# The server renders this instruction from its own chat template (see the module docstring). The
+# text is not sent; it stays in the segment cache key so that cached segments remain valid.
 SYSTEM_PROMPT = (
     "You are a professional Romanian (ro) to English (en) translator. Your goal is to "
     "accurately convey the meaning and nuances of the original Romanian text while adhering "
@@ -78,8 +85,12 @@ SYSTEM_PROMPT = (
     "following Romanian text into English:"
 )
 DEFAULT_PROGRESS_INTERVAL = 10
-# Requests in flight at once. Ollama serves them side by side only up to its OLLAMA_NUM_PARALLEL.
-DEFAULT_WORKERS = 2
+# Requests in flight at once. vLLM batches up to its --max-num-seqs (32 in docker-compose.yaml),
+# which the workers match.
+DEFAULT_WORKERS = 32
+# Segments queued ahead of the file being published, per worker, so that the server stays busy
+# while a file is assembled and across the boundary between two files.
+PREFETCH_PER_WORKER = 4
 # A segment of 1800 characters plus its answer needs about 2K tokens; the model's own maximum
 # (131072) would only reserve gigabytes of KV cache that translation never touches.
 DEFAULT_NUM_CTX = 4096
@@ -93,16 +104,15 @@ CONTEXT_WARNING_RATIO = 0.9
 MIN_PIECE_CHARS = 40
 # The answer must keep at least this share of the source length, and not exceed this multiple.
 # A short text varies more in length when translated (Lacramioarele is 13 characters, "Lily of the
-# valley" 20, "Tears" 5), so below STRICT_RATIO_CHARS the floor is lower.
+# valley" 20, "Tears" 5, "Accident vascular cerebral" is 26 and "Stroke" 6), so below
+# STRICT_RATIO_CHARS the floor is lower.
 MIN_OUTPUT_RATIO = 0.4
-MIN_SHORT_OUTPUT_RATIO = 0.25
+MIN_SHORT_OUTPUT_RATIO = 0.15
 MAX_OUTPUT_RATIO = 4
 RATIO_MIN_CHARS = 12
 STRICT_RATIO_CHARS = 40
 # After Ctrl+C the worker gets this long to stop at a safe point before the process exits anyway.
 INTERRUPT_GRACE_SECONDS = 5.0
-# A request that makes Ollama load the model for longer than this is worth a warning.
-LOAD_WARNING_SECONDS = 2.0
 MAX_NAME_CHARS = 120
 # Staging files live next to their destination; this prefix also identifies stale ones.
 TEMP_PREFIX = ".translate-"
@@ -149,7 +159,7 @@ _QUOTE = re.compile(r"^(\s{0,3}(?:>[ \t]?)+)(.*)$")
 
 
 class TranslationRejected(RuntimeError):
-    """A segment failed validation and the run stops at the first one (see --keep-going)."""
+    """A segment failed validation and the run stops at the first one (--no-keep-going)."""
 
     def __init__(self, line: int | None, reason: str) -> None:
         super().__init__(f"line {line}: {reason}")
@@ -170,8 +180,8 @@ class _Rejection:
     spans: dict[int, str]
 
 
-class OllamaError(RuntimeError):
-    """Ollama is unreachable or answered in a way no retry can fix."""
+class BackendError(RuntimeError):
+    """The model server is unreachable or answered in a way no retry can fix."""
 
 
 @dataclass(slots=True)
@@ -550,13 +560,126 @@ def _split(text: str, limit: int) -> list[tuple[str, str]]:
     return chunks
 
 
-# Ollama's own message from a JSON error body; it names the problem (memory, context, model)
+# The server's own message from a JSON error body; it names the problem (memory, context, model)
 # without echoing the prompt.
 def _error_text(response: httpx.Response) -> str:
     try:
-        return str(response.json()["error"])[:300]
+        return str(response.json()["error"]["message"])[:300]
     except (ValueError, KeyError, TypeError):
         return response.text[:200] or "no error message"
+
+
+@dataclass(slots=True)
+class Completion:
+    """One finished model answer."""
+
+    content: str
+    done_reason: str | None
+    prompt_tokens: int
+    output_tokens: int
+    # From the first streamed piece to the last, so queueing and prompt processing are excluded.
+    seconds: float
+
+    @property
+    def truncated(self) -> bool:
+        return self.done_reason == "length"
+
+
+class VllmBackend:
+    """vLLM's OpenAI-compatible /v1/chat/completions.
+
+    The request is only the user message: the server's chat template adds the TranslateGemma
+    instruction and the context size is fixed by the server (--max-model-len), not per request.
+    """
+
+    def __init__(self, client: httpx.Client, model: str, num_ctx: int) -> None:
+        self._client = client
+        self._model = model
+        self._num_ctx = num_ctx
+
+    def check(self) -> None:
+        try:
+            response = self._client.get("/v1/models")
+            response.raise_for_status()
+            served = {str(entry["id"]): entry for entry in response.json()["data"]}
+        except httpx.TransportError as exc:
+            raise BackendError(
+                f"Cannot reach vLLM at {self._client.base_url} ({type(exc).__name__}). "
+                "Start it (docker compose --profile vllm up -d vllm) or pass --host; a server "
+                "started a moment ago is still loading the model (about 2 minutes): wait for "
+                "'Application startup complete' in docker logs medicina-vllm."
+            ) from exc
+        except (httpx.HTTPStatusError, ValueError, KeyError, TypeError) as exc:
+            raise BackendError(f"Unexpected answer from the vLLM model list ({exc!r}).") from exc
+        if self._model not in served:
+            raise BackendError(
+                f"vLLM does not serve {self._model}; it serves {', '.join(sorted(served))}."
+            )
+        window = served[self._model].get("max_model_len")
+        if isinstance(window, int) and window < self._num_ctx:
+            raise BackendError(
+                f"vLLM context is {window} tokens, below --num-ctx {self._num_ctx}: raise "
+                "--max-model-len on the server or lower --max-chars and --num-ctx."
+            )
+
+    def complete(self, chunk: str, max_tokens: int, on_piece: Callable[[str], None]) -> Completion:
+        payload = {
+            "model": self._model,
+            "stream": True,
+            "stream_options": {"include_usage": True},
+            "temperature": 0,
+            "max_tokens": max_tokens,
+            "messages": [{"role": "user", "content": chunk}],
+        }
+        with self._client.stream("POST", "/v1/chat/completions", json=payload) as response:
+            if response.status_code != 200:
+                response.read()
+                raise BackendError(
+                    f"vLLM answered HTTP {response.status_code}: {_error_text(response)}"
+                )
+            return self._read(response, on_piece)
+
+    # Server-sent events: "data: {json}" lines, the last real one carrying the token usage.
+    @staticmethod
+    def _read(response: httpx.Response, on_piece: Callable[[str], None]) -> Completion:
+        parts: list[str] = []
+        usage: dict[str, object] = {}
+        finish: str | None = None
+        first = last = 0.0
+        try:
+            for line in response.iter_lines():
+                body = line[5:].strip() if line.startswith("data:") else ""
+                if not body:
+                    on_piece("")
+                    continue
+                if body == "[DONE]":
+                    break
+                data = json.loads(body)
+                if "error" in data:
+                    error = data["error"]
+                    message = error.get("message") if isinstance(error, dict) else error
+                    raise BackendError(f"vLLM error in the stream: {str(message)[:300]}")
+                usage = data.get("usage") or usage
+                piece = ""
+                for choice in data.get("choices") or []:
+                    piece += str(choice.get("delta", {}).get("content") or "")
+                    finish = choice.get("finish_reason") or finish
+                if piece:
+                    parts.append(piece)
+                    last = time.monotonic()
+                    first = first or last
+                on_piece(piece)
+            return Completion(
+                content="".join(parts),
+                done_reason=finish,
+                prompt_tokens=int(str(usage.get("prompt_tokens") or 0)),
+                output_tokens=int(str(usage.get("completion_tokens") or 0)),
+                seconds=last - first,
+            )
+        except (ValueError, KeyError, TypeError, AttributeError) as exc:
+            raise BackendError(
+                f"Unexpected response format from vLLM ({type(exc).__name__}: {exc})"
+            ) from exc
 
 
 def _cache_key(model: str, chunk: str) -> str:
@@ -670,8 +793,8 @@ class ProgressReporter:
         with self._lock:
             self._inflight[threading.get_ident()] = chars
 
-    # Ollama's own figures for the tokens it generated and the time that took, so the speed
-    # excludes model loading and prompt processing.
+    # The tokens the server reports for an answer and the time between its first and last piece,
+    # so the speed excludes queueing and prompt processing.
     def add_output(self, tokens: int, seconds: float) -> None:
         with self._lock:
             self.output_tokens += tokens
@@ -683,8 +806,8 @@ class ProgressReporter:
         return self.output_tokens / self.output_seconds if self.output_seconds > 0 else None
 
     # Tokens of all the workers together per wall-clock second since the first token, so time
-    # spent queued behind another client counts. The speed above cannot show that: Ollama times
-    # only the generation itself, and per stream.
+    # spent queued behind another client counts. The speed above cannot show that: it times only
+    # the generation itself, and per stream.
     @property
     def output_throughput(self) -> float | None:
         generating = self._generating_since
@@ -804,18 +927,26 @@ class _WorkerState(threading.local):
         self.line: int | None = None
         self.protected: list[str] = []
         self.answer: dict[str, object] = {}
+        self.streamed = 0
+        # Chunks of the segment being translated that stayed in Romanian.
+        self.failed = 0
 
 
-class OllamaTranslator:
+# A translated segment and the number of its chunks that could not be translated.
+SegmentResult = tuple[str, int]
+
+
+class Translator:
     """Callable Romanian-to-English translator with a segment cache and per-chunk validation.
 
-    translate_segments() runs `workers` requests against Ollama at the same time. The calls
-    themselves may come from several threads: the state of a request lives in the thread.
+    submit_segments() queues segments for `workers` threads that send requests to the server
+    at the same time. The calls themselves may come from several threads: the state of a
+    request lives in the thread.
     """
 
     def __init__(
         self,
-        client: httpx.Client,
+        backend: VllmBackend,
         model: str,
         *,
         cache: PersistentMap,
@@ -829,14 +960,18 @@ class OllamaTranslator:
         log_answers: bool = False,
         stop_on_rejection: bool = False,
     ) -> None:
-        self._client = client
+        self._backend = backend
         self._model = model
         self._cache = cache
         self._progress = progress
         self._cancel = cancel
         self._abort = threading.Event()
+        self._pool: ThreadPoolExecutor | None = None
         self._planned: set[str] = set()
         self._failed: set[str] = set()
+        # Chunks being translated right now: a second worker asking for one waits for its answer.
+        self._running: dict[str, Future[str | None]] = {}
+        self._active = 0
         self._max_chars = max_chars
         self._retries = retries
         self._num_ctx = num_ctx
@@ -850,6 +985,7 @@ class OllamaTranslator:
         self.cache_hits = 0
         self.failures = 0
         self.largest_request = 0
+        self.max_active = 0
         self.context_used_max = 0
         self.dead_links_removed = 0
 
@@ -864,36 +1000,32 @@ class OllamaTranslator:
     def __call__(self, text: str) -> str:
         return "\\~".join(self._translate_cell(cell) for cell in _cells(_clean(text)))
 
-    def translate_segments(self, segments: dict[str, int | None]) -> dict[str, str]:
-        """Translate every segment (text -> its source line), `workers` at a time.
+    def submit_segments(self, segments: dict[str, int | None]) -> dict[str, Future[SegmentResult]]:
+        """Queue every segment (text -> its source line) for the workers; keyed by segment text.
 
-        The result is keyed by the segment text. A failure is raised for the first segment in
-        file order that has one, as a sequential run would; the requests still in flight are
-        stopped and what they finished stays in the cache.
+        A failure is raised by the future of the segment that failed, so a caller that waits in
+        file order meets the first failure of a file as a sequential run would. After close()
+        the requests still queued are dropped and what the others finished stays in the cache.
         """
-        results: dict[str, str] = {}
-        try:
-            with ThreadPoolExecutor(self._workers, thread_name_prefix="ollama") as pool:
-                futures = [
-                    (text, pool.submit(self._translate_segment, text, line))
-                    for text, line in segments.items()
-                ]
-                try:
-                    for text, future in futures:
-                        results[text] = future.result()
-                except BaseException:
-                    # Leaving the pool waits for the requests in flight; they stop at the next piece.
-                    self._abort.set()
-                    for _, future in futures:
-                        future.cancel()
-                    raise
-        finally:
-            self._abort.clear()
-        return results
+        if self._pool is None:
+            self._pool = ThreadPoolExecutor(self._workers, thread_name_prefix="translate")
+        return {
+            text: self._pool.submit(self._translate_segment, text, line)
+            for text, line in segments.items()
+        }
 
-    def _translate_segment(self, text: str, line: int | None) -> str:
+    def close(self) -> None:
+        """Stop the workers: queued segments are dropped, running ones stop at the next piece."""
+        self._abort.set()
+        if self._pool is not None:
+            self._pool.shutdown(wait=True, cancel_futures=True)
+            self._pool = None
+
+    def _translate_segment(self, text: str, line: int | None) -> SegmentResult:
         self.set_line(line)
-        return self(text)
+        self._state.failed = 0
+        translated = self(text)
+        return translated, self._state.failed
 
     # One cell, or the whole text when it is not a flattened row; the blanks around it are kept.
     def _translate_cell(self, cell: str) -> str:
@@ -910,6 +1042,7 @@ class OllamaTranslator:
                 # Untranslated Romanian is visible and fixable; a corrupted translation is not.
                 with self._counters:
                     self.failures += 1
+                self._state.failed += 1
                 translated = chunk
             pieces.append(separator + translated)
         return leading + _unmask("".join(pieces), protected) + trailing
@@ -924,6 +1057,26 @@ class OllamaTranslator:
         # A failure is remembered for this run only; a later run may succeed (other model).
         if key in self._failed:
             return None
+        with self._counters:
+            running = self._running.get(key)
+            owner = running is None
+            if running is None:
+                running = self._running[key] = Future()
+        if not owner:
+            return running.result()
+        try:
+            result = self._translate_new(key, chunk)
+        except BaseException as exc:
+            running.set_exception(exc)
+            raise
+        else:
+            running.set_result(result)
+            return result
+        finally:
+            with self._counters:
+                del self._running[key]
+
+    def _translate_new(self, key: str, chunk: str) -> str | None:
         self._progress.begin()
         stripped, dead = _drop_dead_links(chunk)
         if dead:
@@ -1116,66 +1269,53 @@ class OllamaTranslator:
         return f"model={self._model} segment_chars={segment_chars} num_ctx={self._num_ctx}"
 
     def _chat(self, chunk: str, *, track: bool) -> str | None:
-        options = {
-            "temperature": 0,
-            "num_predict": len(chunk) // 2 + 256,
-            "num_ctx": self._num_ctx,
-        }
-        payload = {
-            "model": self._model,
-            "stream": True,
-            "keep_alive": "10m",
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": chunk},
-            ],
-            "options": options,
-        }
         with self._counters:
             self.requests += 1
             self.largest_request = max(self.largest_request, len(chunk))
+            self._active += 1
+            self.max_active = max(self.max_active, self._active)
         self._progress.set_inflight(0.0)
         self._state.answer = {}
+        self._state.streamed = 0
+
+        # Called for every line the server streams: the place where Ctrl+C and a failure of
+        # another worker stop this request, and where the progress sees the answer grow.
+        def on_piece(piece: str) -> None:
+            self._check_cancelled()
+            if piece:
+                self._state.streamed += len(piece)
+                self._progress.token()
+                if track:
+                    self._progress.set_inflight(min(self._state.streamed, len(chunk)))
+
         try:
-            with self._client.stream("POST", "/api/chat", json=payload) as response:
-                if response.status_code != 200:
-                    response.read()
-                    raise OllamaError(
-                        f"Ollama answered HTTP {response.status_code}: {_error_text(response)} "
-                        f"[{self._context(len(chunk))}]"
-                    )
-                raw, truncated, final = self._read_stream(response, len(chunk), track=track)
+            completion = self._backend.complete(chunk, len(chunk) // 2 + 256, on_piece)
         except httpx.TimeoutException as exc:
             self._state.answer = {"why": f"timeout({type(exc).__name__}, limit={self._timeout}s)"}
             return None
         except httpx.TransportError as exc:
-            raise OllamaError(
-                f"Ollama connection lost ({type(exc).__name__}: {exc}) "
+            raise BackendError(
+                f"Connection to the model server lost ({type(exc).__name__}: {exc}) "
                 f"[{self._context(len(chunk))}]"
             ) from exc
-        loaded = float(str(final.get("load_duration") or 0)) / 1e9
-        if loaded >= LOAD_WARNING_SECONDS:
-            # A load in the middle of a run means Ollama reloaded the model, for example because
-            # another client asked for a different context size.
-            LOGGER.warning(
-                "ollama loaded the model during a request: load_duration=%.1fs [%s]",
-                loaded,
-                self._context(len(chunk)),
-            )
+        except BackendError as exc:
+            raise BackendError(f"{exc} [{self._context(len(chunk))}]") from exc
+        finally:
+            with self._counters:
+                self._active -= 1
+        raw = completion.content
         content = raw.strip()
         answer = self._state.answer = {
             "output_chars": len(content),
             # Much more than output_chars means the answer is padded with blanks or line breaks.
             "raw_chars": len(raw),
-            "done_reason": final.get("done_reason"),
-            "prompt_tokens": final.get("prompt_eval_count"),
-            "output_tokens": final.get("eval_count"),
+            "done_reason": completion.done_reason,
+            "prompt_tokens": completion.prompt_tokens,
+            "output_tokens": completion.output_tokens,
         }
-        tokens = int(str(final.get("eval_count") or 0))
-        seconds = float(str(final.get("eval_duration") or 0)) / 1e9
-        # Prompt and answer share the window. Ollama may leave out prompt tokens it reused from
-        # its cache, so this can undercount, never overcount.
-        used = int(str(final.get("prompt_eval_count") or 0)) + tokens
+        tokens = completion.output_tokens
+        # Prompt and answer share the window.
+        used = completion.prompt_tokens + tokens
         with self._counters:
             self.context_used_max = max(self.context_used_max, used)
         if used >= self._num_ctx * CONTEXT_WARNING_RATIO:
@@ -1185,71 +1325,17 @@ class OllamaTranslator:
                 self._num_ctx,
                 self._context(len(chunk)),
             )
-        if tokens > 0 and seconds > 0:
-            self._progress.add_output(tokens, seconds)
-            answer["tokens_per_s"] = round(tokens / seconds, 1)
-        if truncated:
-            answer["why"] = f"truncated(done_reason={final.get('done_reason')})"
+        if tokens > 0 and completion.seconds > 0:
+            self._progress.add_output(tokens, completion.seconds)
+            answer["tokens_per_s"] = round(tokens / completion.seconds, 1)
+        if completion.truncated:
+            answer["why"] = f"truncated(done_reason={completion.done_reason})"
             # The cut-off answer is not returned, but a rejection must be able to show it.
             answer["partial"] = content
             answer["tail"] = raw[-60:]
             return None
         wrapped = _WRAPPING_FENCE.match(content)
         return wrapped.group(1).strip() if wrapped and "```" not in chunk else content
-
-    # Newline-delimited JSON; every line carries a piece of the answer, the last one the reason.
-    def _read_stream(
-        self, response: httpx.Response, source_chars: int, *, track: bool
-    ) -> tuple[str, bool, dict[str, object]]:
-        parts: list[str] = []
-        final: dict[str, object] = {}
-        length = 0
-        truncated = False
-        try:
-            for line in response.iter_lines():
-                self._check_cancelled()
-                if not line:
-                    continue
-                data = json.loads(line)
-                if "error" in data:
-                    raise OllamaError(
-                        f"Ollama error in the stream: {str(data['error'])[:300]} "
-                        f"[{self._context(source_chars)}]"
-                    )
-                piece = str(data["message"]["content"])
-                if piece:
-                    parts.append(piece)
-                    length += len(piece)
-                    self._progress.token()
-                    if track:
-                        self._progress.set_inflight(min(length, source_chars))
-                if data.get("done"):
-                    final = data
-                    truncated = data.get("done_reason") == "length"
-        except (ValueError, KeyError, TypeError) as exc:
-            raise OllamaError(
-                f"Unexpected response format from Ollama ({type(exc).__name__}: {exc}) "
-                f"[{self._context(source_chars)}]"
-            ) from exc
-        return "".join(parts), truncated, final
-
-
-@log_call
-def check_model(client: httpx.Client, model: str) -> None:
-    """Fail before any work if the daemon is down or the model is not installed."""
-    try:
-        response = client.get("/api/tags")
-        response.raise_for_status()
-        installed = {str(entry["name"]) for entry in response.json()["models"]}
-    except httpx.TransportError as exc:
-        raise OllamaError(
-            f"Cannot reach Ollama at {client.base_url} ({type(exc).__name__}). "
-            "Start it or pass --host."
-        ) from exc
-    except (httpx.HTTPStatusError, ValueError, KeyError, TypeError) as exc:
-        raise OllamaError(f"Unexpected answer from Ollama model list ({exc!r}).") from exc
-    if (model if ":" in model else f"{model}:latest") not in installed:
-        raise OllamaError(f"Model {model} is not installed. Run: ollama pull {model}")
 
 
 def _markdown_files(source: Path) -> list[Path]:
@@ -1293,22 +1379,61 @@ def remove_stale_temps(jobs: list[tuple[Path, Path]]) -> None:
                 _remove_temp(stale)
 
 
+@dataclass(slots=True)
+class PreparedFile:
+    """A source text whose segments are already queued with the translator."""
+
+    text: str
+    futures: dict[str, Future[SegmentResult]]
+
+
+class SegmentPrefetch:
+    """Queues the segments of the files still to do, a bounded amount ahead of the one published.
+
+    The workers then never wait for a file to be assembled and written, and the short last
+    segments of a file overlap with the first ones of the next. Files are still taken, and
+    published, in order. `limit` counts segments queued and not yet taken; the next file is
+    queued whole, so the count can pass the limit by the size of one file.
+    """
+
+    def __init__(self, translator: Translator, sources: list[Path], limit: int) -> None:
+        self._translator = translator
+        self._waiting = deque(sources)
+        self._ready: dict[Path, PreparedFile] = {}
+        self._limit = limit
+        self._queued = 0
+
+    def take(self, source: Path) -> PreparedFile:
+        """The prepared file for `source`, which must be the next one in order."""
+        self._fill()
+        prepared = self._ready.pop(source)
+        self._queued -= len(prepared.futures)
+        self._fill()
+        return prepared
+
+    def _fill(self) -> None:
+        while self._waiting and self._queued < self._limit:
+            source = self._waiting.popleft()
+            text = source.read_text(encoding="utf-8-sig")
+            futures = self._translator.submit_segments(collect_segments(text))
+            self._ready[source] = PreparedFile(text, futures)
+            self._queued += len(futures)
+
+
 @log_call
 def translate_file(
-    source: Path, target: Path, translator: OllamaTranslator, *, allow_partial: bool
+    source: Path, target: Path, prepared: PreparedFile, *, allow_partial: bool
 ) -> str | None:
-    """Translate `source` and publish it as `target` (the same path when in place).
+    """Wait for the queued segments of `source` and publish it as `target` (itself in place).
 
     The staged temporary file is consumed by the atomic replacement and removed on any
     failure, so neither a half file nor a leftover remains. Returns the SHA-256 of the
     published bytes, or None when failed segments withheld publication.
     """
-    text = source.read_text(encoding="utf-8-sig")
-    before = translator.failures
-    # The segments are translated at once, in parallel; the file is then put together from them.
-    results = translator.translate_segments(collect_segments(text))
-    translated = translate_markdown(text, results.__getitem__)
-    failed = translator.failures - before
+    # Waiting in file order: the first segment that failed raises, as a sequential run would.
+    results = {segment: future.result() for segment, future in prepared.futures.items()}
+    translated = translate_markdown(prepared.text, lambda segment: results[segment][0])
+    failed = sum(count for _, count in results.values())
     if failed:
         LOGGER.warning("%s segment(s) could not be translated in %s", failed, source)
         if not allow_partial:
@@ -1408,7 +1533,7 @@ class FolderRenamer:
 
 # Names are part of the work too: planning them keeps the ETA honest on folders of short files.
 def plan_names(
-    translator: OllamaTranslator, done: PersistentMap, sources: list[Path], max_chars: int
+    translator: Translator, done: PersistentMap, sources: list[Path], max_chars: int
 ) -> None:
     for name in sorted({source.parent.name for source in sources}):
         if done.get(_name_key(name)) is None:
@@ -1429,7 +1554,7 @@ def _positive(value: str) -> int:
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Translate Markdown files from Romanian to English with local Ollama."
+        description="Translate Markdown files from Romanian to English with a local model."
     )
     parser.add_argument(
         "source", type=Path, help="folder to translate (searched recursively for *.md)"
@@ -1441,12 +1566,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="write translations here and keep the sources (default: replace each source)",
     )
     parser.add_argument(
-        "--model", default=DEFAULT_MODEL, help="Ollama model (default: %(default)s)"
+        "--model", default=DEFAULT_MODEL, help="model name served by vLLM (default: %(default)s)"
     )
     parser.add_argument(
         "--host",
-        default=os.environ.get("OLLAMA_HOST", DEFAULT_HOST),
-        help="Ollama URL (default: $OLLAMA_HOST or %(default)s)",
+        default=os.environ.get("VLLM_HOST", DEFAULT_HOST),
+        help="vLLM URL (default: $VLLM_HOST or %(default)s)",
     )
     parser.add_argument(
         "--overwrite", action="store_true", help="with --output: replace existing outputs"
@@ -1458,8 +1583,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument(
         "--keep-going",
-        action="store_true",
-        help="do not stop at the first rejected segment: retry it, leave it in Romanian, go on",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="on a rejected segment, retry it, leave it in Romanian and go on; "
+        "--no-keep-going stops at the first one (default: on)",
     )
     parser.add_argument(
         "--allow-partial",
@@ -1505,8 +1632,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--workers",
         type=_positive,
         default=DEFAULT_WORKERS,
-        help="requests sent to Ollama at the same time; Ollama must allow as many "
-        "(OLLAMA_NUM_PARALLEL) or they queue (default: %(default)s)",
+        help="requests sent at the same time; vLLM must allow as many (--max-num-seqs) or they "
+        "queue (default: %(default)s)",
     )
     parser.add_argument(
         "--num-ctx",
@@ -1556,29 +1683,39 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
             timeout=httpx.Timeout(args.timeout, connect=10),
             trust_env=False,
         ) as client:
-            check_model(client, args.model)
-            with (
-                closing(PersistentMap(None if args.no_cache else args.cache)) as cache,
-                closing(
-                    PersistentMap(args.cache.with_suffix(".done.jsonl") if in_place else None)
-                ) as done,
-                closing(ProgressReporter(args.progress_interval)) as progress,
-            ):
+            backend = VllmBackend(client, args.model, args.num_ctx)
+            backend.check()
+            # Closed in reverse order: the translator's workers stop before the cache they
+            # write to is closed.
+            with ExitStack() as stack:
+                cache = stack.enter_context(
+                    closing(PersistentMap(None if args.no_cache else args.cache))
+                )
+                done = stack.enter_context(
+                    closing(
+                        PersistentMap(args.cache.with_suffix(".done.jsonl") if in_place else None)
+                    )
+                )
+                progress = stack.enter_context(closing(ProgressReporter(args.progress_interval)))
                 if cache.loaded:
                     LOGGER.info("cache: %s segments loaded from %s", cache.loaded, args.cache)
-                translator = OllamaTranslator(
-                    client,
-                    args.model,
-                    cache=cache,
-                    progress=progress,
-                    max_chars=args.max_chars,
-                    retries=args.retries,
-                    num_ctx=args.num_ctx,
-                    timeout=args.timeout,
-                    workers=args.workers,
-                    log_answers=args.log_rejected_answers,
-                    stop_on_rejection=not args.keep_going,
-                    cancel=cancel,
+                translator = stack.enter_context(
+                    closing(
+                        Translator(
+                            backend,
+                            args.model,
+                            cache=cache,
+                            progress=progress,
+                            max_chars=args.max_chars,
+                            retries=args.retries,
+                            num_ctx=args.num_ctx,
+                            timeout=args.timeout,
+                            workers=args.workers,
+                            log_answers=args.log_rejected_answers,
+                            stop_on_rejection=not args.keep_going,
+                            cancel=cancel,
+                        )
+                    )
                 )
                 todo: set[Path] = set()
                 for source, target in jobs:
@@ -1607,6 +1744,11 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
                     )
                 progress.file_count = len(jobs)
                 progress.start()
+                prefetch = SegmentPrefetch(
+                    translator,
+                    [source for source, _ in jobs if source in todo],
+                    limit=args.workers * PREFETCH_PER_WORKER,
+                )
                 for index, (source, target) in enumerate(jobs, start=1):
                     progress.file_index = index
                     blocked = False
@@ -1619,7 +1761,7 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
                             source if in_place else f"{source} -> {target}",
                         )
                         digest = translate_file(
-                            source, target, translator, allow_partial=args.allow_partial
+                            source, target, prefetch.take(source), allow_partial=args.allow_partial
                         )
                         if digest is None:
                             withheld += 1
@@ -1644,20 +1786,22 @@ def _run(args: argparse.Namespace, cancel: threading.Event) -> int:
     except TranslationRejected as exc:
         LOGGER.error(
             "Stopped at the first rejected segment: %s, line %s, reason %s. Nothing was written "
-            "for this file; fix the text and run again, or pass --keep-going.",
+            "for this file; fix the text and run again, or leave out --no-keep-going.",
             current,
             exc.line,
             exc.reason,
         )
         return 1
-    except (OllamaError, ValueError, OSError) as exc:
+    except (BackendError, ValueError, OSError) as exc:
         LOGGER.error("%s", exc)
         return 2
     LOGGER.info(
-        "done requests=%s largest_request=%s chars cached=%s failures=%s withheld_files=%s "
+        "done requests=%s max_concurrent=%s largest_request=%s chars cached=%s failures=%s "
+        "withheld_files=%s "
         "output_tokens=%s output_speed=%s output_throughput=%s context_used_max=%s/%s "
         "dead_links_removed=%s",
         translator.requests,
+        translator.max_active,
         translator.largest_request,
         translator.cache_hits,
         translator.failures,
@@ -1714,7 +1858,7 @@ def main(argv: list[str] | None = None) -> int:
                 # Stuck in a read with no data (model loading); finished files and cached
                 # segments are already on disk, and a stale staging file is removed at the
                 # next start.
-                LOGGER.error("Stopped without waiting for Ollama; the segment in flight is lost.")
+                LOGGER.error("Stopped without waiting for vLLM; the segment in flight is lost.")
                 logging.shutdown()
                 os._exit(130)
     if failure:

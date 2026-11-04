@@ -190,8 +190,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-011",
       "timestamp": "2026-10-21T03:25:17.683Z",
-      "last_seen": "2026-10-31T14:50:39.485Z",
-      "occurrences": 7,
+      "last_seen": "2026-11-03T22:21:42.164Z",
+      "occurrences": 9,
       "related_bugs": []
     },
     {
@@ -7300,8 +7300,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-406",
       "timestamp": "2026-10-31T01:31:34.159Z",
-      "last_seen": "2026-10-31T01:31:36.381Z",
-      "occurrences": 2,
+      "last_seen": "2026-11-03T22:21:38.544Z",
+      "occurrences": 3,
       "related_bugs": []
     },
     {
@@ -8977,6 +8977,366 @@
       "last_seen": "2026-11-03T20:50:07.677Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of translate_markdown.py",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 9→15 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-500",
+      "timestamp": "2026-11-03T21:28:47.091Z",
+      "last_seen": "2026-11-03T21:28:47.091Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of translate_markdown.py",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 5→7 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-501",
+      "timestamp": "2026-11-03T21:28:50.886Z",
+      "last_seen": "2026-11-03T21:28:50.886Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "Had \"Ollama is unreachable or answered in a way no ret",
+      "fix": "Changed to \"The model server is unreachable or answered in a ",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-502",
+      "timestamp": "2026-11-03T21:29:05.812Z",
+      "last_seen": "2026-11-03T21:29:05.812Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of translate_markdown.py",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 8→200 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-503",
+      "timestamp": "2026-11-03T21:29:24.996Z",
+      "last_seen": "2026-11-03T21:29:24.996Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of translate_markdown.py",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 25→33 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-504",
+      "timestamp": "2026-11-03T21:29:45.596Z",
+      "last_seen": "2026-11-03T21:29:45.596Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _translate_chunk()",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-505",
+      "timestamp": "2026-11-03T21:29:56.809Z",
+      "last_seen": "2026-11-03T21:29:56.809Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of translate_markdown.py",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "7 lines replaced/restructured",
+      "fix": "Rewrote 17→56 lines (7 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-506",
+      "timestamp": "2026-11-03T21:30:36.920Z",
+      "last_seen": "2026-11-03T21:30:36.920Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: OllamaError should be BackendError",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "Used \"OllamaError\" instead of \"BackendError\"",
+      "fix": "Changed OllamaError → BackendError",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-507",
+      "timestamp": "2026-11-03T21:31:07.663Z",
+      "last_seen": "2026-11-03T21:31:07.663Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: REPORT_BATCH_WORKER_OPTIONS should be MAX_REPORT_BATCH_WORKERS",
+      "file": "src/backend/web/main.py",
+      "root_cause": "Used \"REPORT_BATCH_WORKER_OPTIONS\" instead of \"MAX_REPORT_BATCH_WORKERS\"",
+      "fix": "Changed REPORT_BATCH_WORKER_OPTIONS → MAX_REPORT_BATCH_WORKERS",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-508",
+      "timestamp": "2026-11-03T22:20:27.108Z",
+      "last_seen": "2026-11-03T22:20:27.108Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/web/main.py",
+      "root_cause": "Had \"options\"",
+      "fix": "Changed to \"max\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-509",
+      "timestamp": "2026-11-03T22:20:30.830Z",
+      "last_seen": "2026-11-03T22:20:30.830Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/lib/texts.generated.ts",
+      "root_cause": "Had \"interface.generate_batch_workers_none\"",
+      "fix": "Changed to \"interface.generate_batch_workers_invalid\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-510",
+      "timestamp": "2026-11-03T22:21:18.444Z",
+      "last_seen": "2026-11-03T22:21:18.444Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/core/text_contract.py",
+      "root_cause": "Had \"interface.generate_batch_workers_none\"",
+      "fix": "Changed to \"interface.generate_batch_workers_invalid\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-511",
+      "timestamp": "2026-11-03T22:21:20.754Z",
+      "last_seen": "2026-11-03T22:21:20.754Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: options should be max",
+      "file": "src/frontend/api/types.ts",
+      "root_cause": "Used \"options\" instead of \"max\"",
+      "fix": "Changed options → max",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-512",
+      "timestamp": "2026-11-03T22:21:25.494Z",
+      "last_seen": "2026-11-03T22:21:27.887Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: number should be string",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "Used \"number\" instead of \"string\"",
+      "fix": "Changed number → string",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-513",
+      "timestamp": "2026-11-03T22:21:33.801Z",
+      "last_seen": "2026-11-03T22:21:33.801Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong condition in logic",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "Condition was: if (!limits)",
+      "fix": "Changed to: if (!limits || workers === null)",
+      "tags": [
+        "auto-detected",
+        "logic-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-514",
+      "timestamp": "2026-11-03T22:21:44.438Z",
+      "last_seen": "2026-11-03T22:21:44.438Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: String should be 0",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "Used \"String\" instead of \"0\"",
+      "fix": "Changed String → 0",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-515",
+      "timestamp": "2026-11-03T22:21:53.718Z",
+      "last_seen": "2026-11-03T22:21:53.718Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: default should be max",
+      "file": "src/frontend/api/types.ts",
+      "root_cause": "Used \"default\" instead of \"max\"",
+      "fix": "Changed default → max",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-516",
+      "timestamp": "2026-11-03T22:21:56.051Z",
+      "last_seen": "2026-11-03T22:21:58.564Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of translate_markdown.py",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 4→6 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-517",
+      "timestamp": "2026-11-04T04:13:23.213Z",
+      "last_seen": "2026-11-04T04:13:23.213Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "Had \"for this file; fix the text and run again, or pas",
+      "fix": "Changed to \"for this file; fix the text and run again, or lea",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-518",
+      "timestamp": "2026-11-04T04:13:25.854Z",
+      "last_seen": "2026-11-04T04:13:25.854Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/translate_markdown.py",
+      "root_cause": "Had \"A segment failed validation and the run stops at ",
+      "fix": "Changed to \"A segment failed validation and the run stops at ",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-519",
+      "timestamp": "2026-11-04T04:13:31.299Z",
+      "last_seen": "2026-11-04T04:13:31.299Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -9509,7 +9869,32 @@
     "67ec5e41-806c-43ab-b7f5-d2c318ccb788": true,
     "128f2e87-7663-4508-b922-1c5c1df52349": true,
     "7250269c-cdf6-4abd-a49e-53750963fa16": true,
-    "241ac989-0547-43e1-b5c5-09bb6897f79e": true
+    "241ac989-0547-43e1-b5c5-09bb6897f79e": true,
+    "d989162d-8a1d-4376-b545-d3d1495bd88b": true,
+    "0e55debb-0e9a-4729-982d-59c19abe545b": true,
+    "7f1c8d1b-01e5-47e2-9dca-4a574981f9a2": true,
+    "1976abe1-3aee-487c-9340-49178b4731c8": true,
+    "d7a2d703-079a-45c9-b83e-f5a94c862367": true,
+    "f60428cb-f607-42f1-aef9-ba9cb449fafc": true,
+    "dd062d39-812e-4c6e-aa94-fa7dd06e7d91": true,
+    "4d864083-db63-4064-988e-b3e242d6a3f8": true,
+    "0866db59-523e-48bc-a1ec-d819540a8fec": true,
+    "747c9e9b-976c-4733-986e-c07c2753890d": true,
+    "1d703c8c-8bd6-49cb-b170-a922b6a88144": true,
+    "e35e6974-7f48-4d9f-beb5-1589c055b0ec": true,
+    "9a9a458a-5b3b-4f16-98ac-c7efb8688218": true,
+    "dbb96d83-745c-45ea-a764-f997046c9523": true,
+    "e05d4df1-89c9-456d-849b-7d0b7e9a631c": true,
+    "229d6f73-5a90-49ce-aa4b-44a9e830ed05": true,
+    "63b23995-4c15-4ed4-9b6c-d849b09af834": true,
+    "95af937b-1bbc-40ad-954c-d94d1563ed0f": true,
+    "c4062c2a-8c52-4210-8837-d3bb1784b00c": true,
+    "6382f824-e4b6-4812-a304-5211c3dd0586": true,
+    "714e5c37-2ed6-41c2-bd3d-12b8d556f529": true,
+    "4f0b59cb-50fd-465d-abe8-1c468bfd872f": true,
+    "3e693717-2649-43c0-8bdc-50f5b5c60922": true,
+    "c3293db4-af84-48b3-bab9-536b47021174": true,
+    "dee75062-bdf0-46a6-9018-6b2474991d37": true
   },
-  "next_id": 500
+  "next_id": 520
 }

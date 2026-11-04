@@ -130,7 +130,9 @@ export const TEXT_PARAMETERS = {
   "interface.effort_unsupported_hint": [],
   "interface.generate_batch_tokens_label": [],
   "interface.generate_batch_workers_label": [],
-  "interface.generate_batch_workers_none": [],
+  "interface.generate_batch_workers_invalid": [
+    "maximum"
+  ],
   "interface.generate_output_tokens_label": [],
   "interface.generate_tokens_invalid": [],
   "interface.generate_tokens_too_large": [
@@ -371,6 +373,10 @@ export const TEXT_PARAMETERS = {
     "completed",
     "total"
   ],
+  "interface.preview_total_speed": [
+    "tokens_per_second"
+  ],
+  "interface.preview_total_speed_hint": [],
   "interface.estimate_units": [],
   "interface.category_expand": [],
   "interface.categories_documents_one": [
@@ -388,6 +394,7 @@ export const TEXT_PARAMETERS = {
   "interface.model_qwen35_4b": [],
   "interface.model_ministral3": [],
   "interface.model_deepseek_r1": [],
+  "interface.model_vllm_qwen35_4b": [],
   "interface.model_deepseek_flash": [],
   "interface.model_huggingface_deepseek_flash": [],
   "interface.model_grok43": []

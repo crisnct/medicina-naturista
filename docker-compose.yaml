@@ -1,4 +1,4 @@
-services:
+﻿services:
   db:
     image: pgvector/pgvector:pg16
     restart: unless-stopped
@@ -51,6 +51,7 @@ services:
       DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
       DEEPSEEK_API_BASE: ${DEEPSEEK_API_BASE:-https://api.deepseek.com}
       OLLAMA_API_BASE: ${OLLAMA_API_BASE:-http://host.docker.internal:11434/v1}
+      VLLM_API_BASE: ${VLLM_API_BASE:-http://vllm-report:8000/v1}
       OLLAMA_KEEP_ALIVE_SECONDS: ${OLLAMA_KEEP_ALIVE_SECONDS:-60}
       OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
       OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL: ${OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL:-}
@@ -153,7 +154,88 @@ services:
       # Host port outside the Windows-reserved 7772-7871 range; the container stays on 7860.
       - "127.0.0.1:${APP_HOST_PORT:-8760}:7860"
     networks: [internal]
+  # Local TranslateGemma server for src/scripts/translate_markdown.py --backend vllm. Not started
+  # by `docker compose up`; it needs the whole GPU, so stop host Ollama models first (ollama ps)
+  # and start it with: docker compose --profile vllm up -d vllm
+  # The model is gated on Hugging Face: accept its license and put HF_TOKEN in .env.
+  vllm:
+    profiles: [vllm]
+    image: vllm/vllm-openai:v0.32.0
+    container_name: medicina-vllm
+    restart: "no"
+    ipc: host
+    environment:
+      HF_TOKEN: ${HF_TOKEN:-}
+    volumes:
+      - vllm_hf_cache:/root/.cache/huggingface
+      - type: bind
+        source: ./src/scripts/resources/translategemma_ro_en.jinja
+        target: /templates/translategemma.jinja
+        read_only: true
+    ports:
+      - "127.0.0.1:${VLLM_HOST_PORT:-8000}:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    # FP8 weights keep the 4B model near 5 GB and the FP8 KV cache holds twice the tokens of bf16; the context and 32 sequences match the script
+    # (--num-ctx 4096, --workers 32). The chat template renders the official TranslateGemma
+    # prompt for a plain user message. Lower --gpu-memory-utilization if the GPU is shared.
+    command:
+      - --model=google/translategemma-4b-it
+      - --served-model-name=translategemma
+      - --quantization=fp8_per_tensor
+      - --max-model-len=4096
+      - --max-num-seqs=32
+      - --gpu-memory-utilization=0.84
+      - --kv-cache-dtype=fp8
+      - --chat-template=/templates/translategemma.jinja
+      - --limit-mm-per-prompt.image=0
+    networks: [internal]
+  # Local Qwen3.5-4B server for the report model vllm-qwen3.5:4b (Responses API at /v1/responses).
+  # It shares the GPU with the `vllm` translation service above, so run only one of the two, and
+  # stop host Ollama models first. Start it with: docker compose --profile vllm-report up -d vllm-report
+  # The app reaches it as http://vllm-report:8000/v1 (VLLM_API_BASE); the host port 8001 is for the
+  # scripts and for native runs. --max-model-len must cover the batch input plus the output limit
+  # of the report (26,200 + 50,000 tokens in .env); raise it together with those limits.
+  vllm-report:
+    profiles: [vllm-report]
+    image: vllm/vllm-openai:v0.32.0
+    container_name: medicina-vllm-report
+    restart: "no"
+    ipc: host
+    environment:
+      HF_TOKEN: ${HF_TOKEN:-}
+    volumes:
+      - vllm_hf_cache:/root/.cache/huggingface
+    ports:
+      - "127.0.0.1:${VLLM_REPORT_HOST_PORT:-8001}:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    # The qwen3 parser separates the thinking from the answer, and the Responses
+    # `reasoning.effort` "none" (effort low in the report panel) switches thinking off.
+    command:
+      - --model=Qwen/Qwen3.5-4B
+      - --served-model-name=qwen3.5-4b
+      - --quantization=fp8_per_tensor
+      - --max-model-len=81920
+      - --max-num-seqs=32
+      - --gpu-memory-utilization=0.84
+      - --kv-cache-dtype=fp8
+      - --reasoning-parser=qwen3
+      - --language-model-only
+    networks: [internal]
 networks:
   internal:
 volumes:
   pg_data:
+  vllm_hf_cache:
+    name: vllm_hf_cache

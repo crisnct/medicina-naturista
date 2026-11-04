@@ -123,6 +123,24 @@ def provider_config(settings: Settings) -> ProviderConfig:
             effort_control="responses_effort",
             **common,
         )
+    # The local vLLM server speaks the Responses API like the cloud providers, so it needs no
+    # client of its own. Its structured-output grammar is requested per report (client.py).
+    if settings.ai_provider == "vllm":
+        return ProviderConfig(
+            name="vllm",
+            label="vLLM",
+            base_url=settings.vllm_api_base,
+            model=settings.vllm_model,
+            reasoning_effort=None,
+            api_key=lambda: "",
+            api_key_env="VLLM_API_KEY",
+            api_key_required=False,
+            json_format=None,
+            send_store=False,
+            max_context_chars=0,
+            effort_control="responses_effort",
+            **common,
+        )
     choice = next(
         (
             choice

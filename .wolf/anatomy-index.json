@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-03T20:55:53.649Z",
-    "fileCount": 458,
+    "lastScanned": "2026-11-04T04:13:31.267Z",
+    "fileCount": 459,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "de2ae3e85b4b0b451436b46ed3bc4716dd18b402e5fa3059c5ec7647cadccfde",
-    "storeUpdatedAt": "2026-11-03T20:55:53.661Z",
-    "rootHash": "7c8ad00afa48a20b"
+    "renderedHash": "aacaef27c324a96a3223e6d7b34ed72523b9220d88f6305cf4e2c7b59a6e9d7c",
+    "storeUpdatedAt": "2026-11-04T04:13:31.279Z",
+    "rootHash": "0444248c5e0ed854"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -362,222 +362,222 @@
     },
     "src/backend/web/main.py": {
       "description": "FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits.",
-      "tokens": 15666,
-      "hash": "924931e451fc4c0f",
-      "size": 54834,
-      "mtimeMs": 1793630109875.8267,
-      "updatedAt": "2026-11-02T14:35:10.408Z",
+      "tokens": 15678,
+      "hash": "5ce212a80969c30f",
+      "size": 54874,
+      "mtimeMs": 1793744520643.8083,
+      "updatedAt": "2026-11-03T22:22:00.916Z",
       "source": "hook",
       "symbols": [
         {
           "name": "owner_only_message",
           "kind": "fn",
-          "startLine": 99,
-          "endLine": 106,
+          "startLine": 98,
+          "endLine": 105,
           "tokens": 37
         },
         {
           "name": "application_texts",
           "kind": "fn",
-          "startLine": 107,
-          "endLine": 112,
+          "startLine": 106,
+          "endLine": 111,
           "tokens": 76
         },
         {
           "name": "localized_source_label",
           "kind": "fn",
-          "startLine": 113,
-          "endLine": 125,
+          "startLine": 112,
+          "endLine": 124,
           "tokens": 125
         },
         {
           "name": "_category_node_payload",
           "kind": "fn",
-          "startLine": 126,
-          "endLine": 137,
+          "startLine": 125,
+          "endLine": 136,
           "tokens": 117
         },
         {
           "name": "SignalsPayload",
           "kind": "class",
-          "startLine": 138,
-          "endLine": 154,
+          "startLine": 137,
+          "endLine": 153,
           "tokens": 149
         },
         {
           "name": "MessageRequest",
           "kind": "class",
-          "startLine": 155,
-          "endLine": 163,
+          "startLine": 154,
+          "endLine": 162,
           "tokens": 118
         },
         {
           "name": "GenerateRequest",
           "kind": "class",
-          "startLine": 164,
-          "endLine": 177,
-          "tokens": 206
+          "startLine": 163,
+          "endLine": 176,
+          "tokens": 220
         },
         {
           "name": "AIActivityResponse",
           "kind": "class",
-          "startLine": 178,
-          "endLine": 186,
+          "startLine": 177,
+          "endLine": 185,
           "tokens": 122
         },
         {
           "name": "ReportDurationEstimateResponse",
           "kind": "class",
-          "startLine": 187,
-          "endLine": 194,
+          "startLine": 186,
+          "endLine": 193,
           "tokens": 74
         },
         {
           "name": "ReportBatchEstimateResponse",
           "kind": "class",
-          "startLine": 195,
-          "endLine": 203,
+          "startLine": 194,
+          "endLine": 202,
           "tokens": 86
         },
         {
           "name": "ReportBatchPreviewResponse",
           "kind": "class",
-          "startLine": 204,
-          "endLine": 214,
+          "startLine": 203,
+          "endLine": 213,
           "tokens": 133
         },
         {
           "name": "GenerateResponse",
           "kind": "class",
-          "startLine": 215,
-          "endLine": 251,
+          "startLine": 214,
+          "endLine": 250,
           "tokens": 389
         },
         {
           "name": "_deps",
           "kind": "fn",
-          "startLine": 252,
-          "endLine": 255,
+          "startLine": 251,
+          "endLine": 254,
           "tokens": 26
         },
         {
           "name": "_identity",
           "kind": "fn",
-          "startLine": 256,
-          "endLine": 267,
+          "startLine": 255,
+          "endLine": 266,
           "tokens": 135
         },
         {
           "name": "_current",
           "kind": "fn",
-          "startLine": 268,
-          "endLine": 277,
+          "startLine": 267,
+          "endLine": 276,
           "tokens": 107
         },
         {
           "name": "change_language",
           "kind": "fn",
-          "startLine": 278,
-          "endLine": 283,
+          "startLine": 277,
+          "endLine": 282,
           "tokens": 53
         },
         {
           "name": "_client_ip",
           "kind": "fn",
-          "startLine": 284,
-          "endLine": 289,
+          "startLine": 283,
+          "endLine": 288,
           "tokens": 74
         },
         {
           "name": "_application_error_response",
           "kind": "fn",
-          "startLine": 290,
-          "endLine": 298,
+          "startLine": 289,
+          "endLine": 297,
           "tokens": 109
         },
         {
           "name": "_revision",
           "kind": "fn",
-          "startLine": 299,
-          "endLine": 311,
+          "startLine": 298,
+          "endLine": 310,
           "tokens": 103
         },
         {
           "name": "_cancelled",
           "kind": "fn",
-          "startLine": 312,
-          "endLine": 316,
+          "startLine": 311,
+          "endLine": 315,
           "tokens": 34
         },
         {
           "name": "healthz",
           "kind": "fn",
-          "startLine": 317,
-          "endLine": 334,
+          "startLine": 316,
+          "endLine": 333,
           "tokens": 155
         },
         {
           "name": "readyz",
           "kind": "fn",
-          "startLine": 335,
-          "endLine": 344,
+          "startLine": 334,
+          "endLine": 343,
           "tokens": 75
         },
         {
           "name": "startup_status",
           "kind": "fn",
-          "startLine": 345,
-          "endLine": 354,
+          "startLine": 344,
+          "endLine": 353,
           "tokens": 85
         },
         {
           "name": "_require_initialized",
           "kind": "fn",
-          "startLine": 355,
-          "endLine": 365,
+          "startLine": 354,
+          "endLine": 364,
           "tokens": 96
         },
         {
           "name": "download",
           "kind": "fn",
-          "startLine": 366,
-          "endLine": 383,
+          "startLine": 365,
+          "endLine": 382,
           "tokens": 187
         },
         {
           "name": "get_session",
           "kind": "fn",
-          "startLine": 384,
-          "endLine": 423,
+          "startLine": 383,
+          "endLine": 422,
           "tokens": 457
         },
         {
           "name": "_warm_categories",
           "kind": "fn",
-          "startLine": 424,
-          "endLine": 430,
+          "startLine": 423,
+          "endLine": 429,
           "tokens": 57
         },
         {
           "name": "get_categories",
           "kind": "fn",
-          "startLine": 431,
-          "endLine": 438,
+          "startLine": 430,
+          "endLine": 437,
           "tokens": 95
         },
         {
           "name": "_categories_payload",
           "kind": "fn",
-          "startLine": 439,
-          "endLine": 447,
+          "startLine": 438,
+          "endLine": 446,
           "tokens": 84
         },
         {
           "name": "get_herb_image",
           "kind": "fn",
-          "startLine": 448,
-          "endLine": 1434,
-          "tokens": 11036
+          "startLine": 447,
+          "endLine": 1432,
+          "tokens": 11041
         }
       ]
     },
@@ -877,19 +877,19 @@
     },
     "src/frontend/components/GeneratePanel.tsx": {
       "description": "Display names are editable; provider routing continues to use the original IDs.",
-      "tokens": 4974,
-      "hash": "a35355ce61405043",
-      "size": 17409,
-      "mtimeMs": 1793633458008.7556,
-      "updatedAt": "2026-11-02T15:30:58.331Z",
+      "tokens": 5057,
+      "hash": "85a856003cafd2af",
+      "size": 17698,
+      "mtimeMs": 1793744513382.4045,
+      "updatedAt": "2026-11-03T22:21:53.685Z",
       "source": "hook",
       "symbols": [
         {
           "name": "GeneratePanel",
           "kind": "fn",
-          "startLine": 41,
-          "endLine": 322,
-          "tokens": 4386
+          "startLine": 42,
+          "endLine": 329,
+          "tokens": 4453
         }
       ]
     },
@@ -936,11 +936,11 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 10040,
-      "hash": "61c1bd84f0f051c8",
-      "size": 38846,
-      "mtimeMs": 1793623436095.023,
-      "updatedAt": "2026-11-02T12:43:56.380Z",
+      "tokens": 9927,
+      "hash": "28aed5a8068c6ade",
+      "size": 38422,
+      "mtimeMs": 1793744483870.838,
+      "updatedAt": "2026-11-03T22:21:24.137Z",
       "source": "hook"
     },
     "src/frontend/components/Composer.tsx": {
@@ -2119,11 +2119,11 @@
     },
     "src/backend/config.py": {
       "description": "Environment-backed settings. No patient data belongs in configuration or logs.",
-      "tokens": 11704,
-      "hash": "25a54cb276814548",
-      "size": 40964,
-      "mtimeMs": 1793556079437.2402,
-      "updatedAt": "2026-11-01T18:01:19.705Z",
+      "tokens": 11896,
+      "hash": "8651c93c2923a828",
+      "size": 41634,
+      "mtimeMs": 1793743333731.7732,
+      "updatedAt": "2026-11-03T22:02:14.029Z",
       "source": "hook",
       "symbols": [
         {
@@ -2144,91 +2144,91 @@
           "name": "_model_limits",
           "kind": "fn",
           "startLine": 48,
-          "endLine": 104,
-          "tokens": 712
+          "endLine": 109,
+          "tokens": 793
         },
         {
           "name": "_freeze_ollama_output_limits",
           "kind": "fn",
-          "startLine": 105,
-          "endLine": 119,
+          "startLine": 110,
+          "endLine": 124,
           "tokens": 172
         },
         {
           "name": "_ollama_output_limits",
           "kind": "fn",
-          "startLine": 120,
-          "endLine": 147,
+          "startLine": 125,
+          "endLine": 152,
           "tokens": 323
         },
         {
           "name": "_int",
           "kind": "fn",
-          "startLine": 148,
-          "endLine": 163,
+          "startLine": 153,
+          "endLine": 168,
           "tokens": 139
         },
         {
           "name": "_bool",
           "kind": "fn",
-          "startLine": 164,
-          "endLine": 183,
+          "startLine": 169,
+          "endLine": 188,
           "tokens": 200
         },
         {
           "name": "SafetyScope",
           "kind": "class",
-          "startLine": 184,
-          "endLine": 190,
+          "startLine": 189,
+          "endLine": 195,
           "tokens": 61
         },
         {
           "name": "normalize_latin",
           "kind": "fn",
-          "startLine": 191,
-          "endLine": 195,
+          "startLine": 196,
+          "endLine": 200,
           "tokens": 52
         },
         {
           "name": "parse_safety_scope",
           "kind": "fn",
-          "startLine": 196,
-          "endLine": 212,
+          "startLine": 201,
+          "endLine": 217,
           "tokens": 212
         },
         {
           "name": "safety_output_estimate",
           "kind": "fn",
-          "startLine": 213,
-          "endLine": 220,
+          "startLine": 218,
+          "endLine": 225,
           "tokens": 74
         },
         {
           "name": "_embedding_device",
           "kind": "fn",
-          "startLine": 221,
-          "endLine": 231,
-          "tokens": 128
+          "startLine": 226,
+          "endLine": 236,
+          "tokens": 130
         },
         {
           "name": "_ai_provider",
           "kind": "fn",
-          "startLine": 232,
-          "endLine": 239,
+          "startLine": 237,
+          "endLine": 244,
           "tokens": 72
         },
         {
           "name": "Settings",
           "kind": "class",
-          "startLine": 240,
-          "endLine": 844,
-          "tokens": 8992
+          "startLine": 245,
+          "endLine": 856,
+          "tokens": 9100
         },
         {
           "name": "configure_settings",
           "kind": "fn",
-          "startLine": 845,
-          "endLine": 857,
+          "startLine": 857,
+          "endLine": 869,
           "tokens": 137
         }
       ]
@@ -3648,11 +3648,11 @@
     },
     "src/backend/core/text_contract.py": {
       "description": "Generated key/parameter contract. Regenerate with scripts.manage_texts --generate.",
-      "tokens": 6290,
-      "hash": "087e8e524047e87f",
-      "size": 22015,
-      "mtimeMs": 1793458222055.4932,
-      "updatedAt": "2026-10-31T14:50:22.347Z",
+      "tokens": 6634,
+      "hash": "a479d2a7fc30905f",
+      "size": 23218,
+      "mtimeMs": 1793744480430.8171,
+      "updatedAt": "2026-11-03T22:21:20.721Z",
       "source": "hook"
     },
     "src/backend/migrations/027_essential_oil_source_aliases.sql": {
@@ -3946,11 +3946,11 @@
     },
     "src/frontend/api/types.ts": {
       "description": "Mirrors the JSON shapes produced by backend/web/main.py and",
-      "tokens": 2916,
-      "hash": "593b596b81817751",
-      "size": 10213,
-      "mtimeMs": 1793630114446.9817,
-      "updatedAt": "2026-11-02T14:35:14.696Z",
+      "tokens": 2909,
+      "hash": "7c8d24bd60177034",
+      "size": 10187,
+      "mtimeMs": 1793744518117.0845,
+      "updatedAt": "2026-11-03T22:21:58.530Z",
       "source": "hook",
       "symbols": [
         {
@@ -3993,14 +3993,14 @@
           "kind": "section",
           "startLine": 54,
           "endLine": 68,
-          "tokens": 147
+          "tokens": 152
         },
         {
           "name": "ReportModelsResponse",
           "kind": "section",
           "startLine": 69,
           "endLine": 85,
-          "tokens": 216
+          "tokens": 210
         },
         {
           "name": "TokenBounds",
@@ -4021,7 +4021,7 @@
           "kind": "section",
           "startLine": 100,
           "endLine": 106,
-          "tokens": 70
+          "tokens": 63
         },
         {
           "name": "ReportModelDetails",
@@ -6940,39 +6940,39 @@
     },
     "src/backend/core/report_models.py": {
       "description": "Supported report choices and their immutable provider routing.",
-      "tokens": 1355,
-      "hash": "1993b6659057a8d0",
-      "size": 4741,
-      "mtimeMs": 1793410172182.6548,
-      "updatedAt": "2026-10-31T01:29:32.431Z",
+      "tokens": 1746,
+      "hash": "1af173f269eeefe8",
+      "size": 6111,
+      "mtimeMs": 1793744425589.8862,
+      "updatedAt": "2026-11-03T22:20:25.841Z",
       "source": "hook",
       "symbols": [
         {
           "name": "ReportModelSpec",
           "kind": "class",
-          "startLine": 48,
-          "endLine": 97,
-          "tokens": 567
+          "startLine": 54,
+          "endLine": 131,
+          "tokens": 854
         },
         {
           "name": "parse_report_effort",
           "kind": "fn",
-          "startLine": 98,
-          "endLine": 104,
+          "startLine": 132,
+          "endLine": 138,
           "tokens": 80
         },
         {
           "name": "parse_report_model",
           "kind": "fn",
-          "startLine": 105,
-          "endLine": 111,
+          "startLine": 139,
+          "endLine": 145,
           "tokens": 78
         },
         {
           "name": "parse_report_models",
           "kind": "fn",
-          "startLine": 112,
-          "endLine": 124,
+          "startLine": 146,
+          "endLine": 158,
           "tokens": 189
         }
       ]
@@ -7345,11 +7345,11 @@
     },
     "src/backend/resources/texts.en.toml": {
       "description": "English application copy. Keys and named parameters match texts.ro.toml exactly.",
-      "tokens": 9327,
-      "hash": "760de02bcb69d093",
-      "size": 35110,
-      "mtimeMs": 1793623437273.123,
-      "updatedAt": "2026-11-02T12:43:57.727Z",
+      "tokens": 9228,
+      "hash": "01f11b241a067e2c",
+      "size": 34740,
+      "mtimeMs": 1793744482744.1782,
+      "updatedAt": "2026-11-03T22:21:22.998Z",
       "source": "hook"
     },
     "src/backend/migrations/032_bilingual_chunks.sql": {
@@ -11506,232 +11506,241 @@
     },
     "src/scripts/translate_markdown.py": {
       "description": "from: translate_markdown, flush",
-      "tokens": 20390,
-      "hash": "a4b823e254c5f3f0",
-      "size": 71369,
-      "mtimeMs": 1793739022851.1836,
-      "updatedAt": "2026-11-03T20:50:23.158Z",
+      "tokens": 21734,
+      "hash": "45c790baf0985fc7",
+      "size": 76072,
+      "mtimeMs": 1793765610921.473,
+      "updatedAt": "2026-11-04T04:13:31.266Z",
       "source": "hook",
       "symbols": [
         {
           "name": "TranslationRejected",
           "kind": "class",
-          "startLine": 151,
-          "endLine": 160,
+          "startLine": 161,
+          "endLine": 170,
           "tokens": 94
         },
         {
           "name": "_Rejection",
           "kind": "class",
-          "startLine": 161,
-          "endLine": 172,
+          "startLine": 171,
+          "endLine": 182,
           "tokens": 73
         },
         {
-          "name": "OllamaError",
+          "name": "BackendError",
           "kind": "class",
-          "startLine": 173,
-          "endLine": 177,
-          "tokens": 37
+          "startLine": 183,
+          "endLine": 187,
+          "tokens": 40
         },
         {
           "name": "_Paragraph",
           "kind": "class",
-          "startLine": 178,
-          "endLine": 186,
+          "startLine": 188,
+          "endLine": 196,
           "tokens": 52
         },
         {
           "name": "_one_line",
           "kind": "fn",
-          "startLine": 187,
-          "endLine": 191,
+          "startLine": 197,
+          "endLine": 201,
           "tokens": 46
         },
         {
           "name": "_front_matter_end",
           "kind": "fn",
-          "startLine": 192,
-          "endLine": 202,
+          "startLine": 202,
+          "endLine": 212,
           "tokens": 90
         },
         {
           "name": "_closes_fence",
           "kind": "fn",
-          "startLine": 203,
-          "endLine": 207,
+          "startLine": 213,
+          "endLine": 217,
           "tokens": 43
         },
         {
           "name": "_translate_cell",
           "kind": "fn",
-          "startLine": 208,
-          "endLine": 218,
+          "startLine": 218,
+          "endLine": 228,
           "tokens": 122
         },
         {
           "name": "_translate_row",
           "kind": "fn",
-          "startLine": 219,
-          "endLine": 222,
+          "startLine": 229,
+          "endLine": 232,
           "tokens": 45
         },
         {
           "name": "_render",
           "kind": "fn",
-          "startLine": 223,
-          "endLine": 230,
+          "startLine": 233,
+          "endLine": 240,
           "tokens": 89
         },
         {
           "name": "translate_markdown",
           "kind": "fn",
-          "startLine": 231,
-          "endLine": 325,
+          "startLine": 241,
+          "endLine": 335,
           "tokens": 947
         },
         {
           "name": "_drop_noise",
           "kind": "fn",
-          "startLine": 326,
-          "endLine": 336,
+          "startLine": 336,
+          "endLine": 346,
           "tokens": 129
         },
         {
           "name": "_drop_stray_brackets",
           "kind": "fn",
-          "startLine": 337,
-          "endLine": 357,
+          "startLine": 347,
+          "endLine": 367,
           "tokens": 204
         },
         {
           "name": "_clean",
           "kind": "fn",
-          "startLine": 358,
-          "endLine": 367,
+          "startLine": 368,
+          "endLine": 377,
           "tokens": 120
         },
         {
           "name": "_balanced_end",
           "kind": "fn",
-          "startLine": 368,
-          "endLine": 382,
+          "startLine": 378,
+          "endLine": 392,
           "tokens": 110
         },
         {
           "name": "_is_dead_target",
           "kind": "fn",
-          "startLine": 383,
-          "endLine": 390,
+          "startLine": 393,
+          "endLine": 400,
           "tokens": 126
         },
         {
           "name": "_drop_dead_links",
           "kind": "fn",
-          "startLine": 391,
-          "endLine": 420,
+          "startLine": 401,
+          "endLine": 430,
           "tokens": 373
         },
         {
           "name": "_detach_link_targets",
           "kind": "fn",
-          "startLine": 421,
-          "endLine": 439,
+          "startLine": 431,
+          "endLine": 449,
           "tokens": 175
         },
         {
           "name": "_count_brackets",
           "kind": "fn",
-          "startLine": 440,
-          "endLine": 443,
+          "startLine": 450,
+          "endLine": 453,
           "tokens": 35
         },
         {
           "name": "_attach_link_targets",
           "kind": "fn",
-          "startLine": 444,
-          "endLine": 462,
+          "startLine": 454,
+          "endLine": 472,
           "tokens": 199
         },
         {
           "name": "_split_spans",
           "kind": "fn",
-          "startLine": 463,
-          "endLine": 497,
+          "startLine": 473,
+          "endLine": 507,
           "tokens": 336
         },
         {
           "name": "_mask",
           "kind": "fn",
-          "startLine": 498,
-          "endLine": 507,
+          "startLine": 508,
+          "endLine": 517,
           "tokens": 74
         },
         {
           "name": "_unmask",
           "kind": "fn",
-          "startLine": 508,
-          "endLine": 520,
+          "startLine": 518,
+          "endLine": 530,
           "tokens": 124
         },
         {
           "name": "_fit",
           "kind": "fn",
-          "startLine": 521,
-          "endLine": 540,
+          "startLine": 531,
+          "endLine": 550,
           "tokens": 227
         },
         {
           "name": "_split",
           "kind": "fn",
-          "startLine": 541,
-          "endLine": 554,
-          "tokens": 160
+          "startLine": 551,
+          "endLine": 564,
+          "tokens": 161
         },
         {
           "name": "_error_text",
           "kind": "fn",
-          "startLine": 555,
-          "endLine": 561,
-          "tokens": 62
+          "startLine": 565,
+          "endLine": 572,
+          "tokens": 71
+        },
+        {
+          "name": "Completion",
+          "kind": "class",
+          "startLine": 573,
+          "endLine": 587,
+          "tokens": 102
+        },
+        {
+          "name": "VllmBackend",
+          "kind": "class",
+          "startLine": 588,
+          "endLine": 684,
+          "tokens": 1276
         },
         {
           "name": "_cache_key",
           "kind": "fn",
-          "startLine": 562,
-          "endLine": 565,
+          "startLine": 685,
+          "endLine": 688,
           "tokens": 38
         },
         {
           "name": "_digest",
           "kind": "fn",
-          "startLine": 566,
-          "endLine": 569,
-          "tokens": 23
-        },
-        {
-          "name": "format_duration",
-          "kind": "fn",
-          "startLine": 570,
-          "endLine": 575,
-          "tokens": 65
-        },
-        {
-          "name": "PersistentMap",
-          "kind": "class",
-          "startLine": 576,
-          "endLine": 1727,
-          "tokens": 13654
+          "startLine": 689,
+          "endLine": 1871,
+          "tokens": 13912
         }
       ]
     },
     "aiPlans/2026-11-03-integrare-vllm-translategemma.md": {
       "description": "Plan: integrarea vLLM pentru `translate_markdown.py` (faza 1: `translategemma:4b`)",
-      "tokens": 5302,
-      "hash": "4a1e7d178f682469",
-      "size": 21935,
-      "mtimeMs": 1793739353305.79,
-      "updatedAt": "2026-11-03T20:55:53.649Z",
+      "tokens": 5934,
+      "hash": "9455182a464e982c",
+      "size": 24530,
+      "mtimeMs": 1793741115455.0227,
+      "updatedAt": "2026-11-03T21:25:15.734Z",
+      "source": "hook"
+    },
+    "src/frontend/lib/texts.generated.ts": {
+      "description": "Exports TEXT_PARAMETERS",
+      "tokens": 3937,
+      "hash": "2ab3e2410fa8c78e",
+      "size": 13779,
+      "mtimeMs": 1793744478168.8794,
+      "updatedAt": "2026-11-03T22:21:18.410Z",
       "source": "hook"
     }
   },

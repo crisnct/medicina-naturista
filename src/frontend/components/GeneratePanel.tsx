@@ -20,6 +20,7 @@ const MODEL_LABELS = {
   "ollama-qwen3.5:4b": "interface.model_qwen35_4b",
   "ollama-ministral-3:8b": "interface.model_ministral3",
   "ollama-deepseek-r1:8b": "interface.model_deepseek_r1",
+  "vllm-qwen3.5:4b": "interface.model_vllm_qwen35_4b",
   "deepseek-flash": "interface.model_deepseek_flash",
   "huggingface-deepseek-v4-flash": "interface.model_huggingface_deepseek_flash",
   "grok-4.3": "interface.model_grok43",
@@ -86,7 +87,7 @@ export function GeneratePanel({
   // An edited token field belongs to the model it was typed for, so choosing
   // another model shows that model's configured value again.
   const [typedTokens, setTypedTokens] = useState<Partial<Record<TokenField, { model: ReportModel; value: string }>>>({});
-  const [typedWorkers, setTypedWorkers] = useState<number | null>(null);
+  const [typedWorkers, setTypedWorkers] = useState<string | null>(null);
   const preferredModel = model ?? defaultReportModel ?? reportModels[0];
   const selectedModel = reportModels.includes(preferredModel)
     ? preferredModel : reportModels[0] ?? "ollama-gemma4:12b";
@@ -97,14 +98,16 @@ export function GeneratePanel({
     const typed = typedTokens[field];
     return typed?.model === selectedModel ? typed.value : String(generationLimitDefaults?.[field][selectedModel] ?? "");
   };
-  const workers = typedWorkers ?? generationLimitDefaults?.batchWorkers.default ?? 2;
+  const workersText = typedWorkers ?? "0";
+  const maxWorkers = generationLimitDefaults?.batchWorkers.max ?? 0;
+  const workers = /^\d{1,4}$/.test(workersText.trim()) && Number(workersText) <= maxWorkers ? Number(workersText) : null;
   const limitsCheck = generationLimitDefaults && checkLimits(
     tokenValue("batchMaxTokens"),
     tokenValue("maxOutputTokens"),
     generationLimitDefaults.tokenBounds,
     contextTokens,
   );
-  const tokensValid = limitsCheck?.valid ?? true;
+  const tokensValid = (limitsCheck?.valid ?? true) && workers !== null;
   const fieldError = (field: TokenField) => field === "batchMaxTokens" ? limitsCheck?.inputError : limitsCheck?.outputError;
   const eligibleFragments = fragments?.filter((fragment) => reachesMinScore(fragment.relevancePercent, minScore));
   const eligibleCount = eligibleFragments?.length;
@@ -181,13 +184,14 @@ export function GeneratePanel({
             </label>
             {showLimits && (
               <label className="fragments-panel-filter">
-                {tr("interface.generate_batch_workers_label")}<select
-                  value={workers}
+                {tr("interface.generate_batch_workers_label")}<input
+                  type="text"
+                  inputMode="numeric"
+                  value={workersText}
                   disabled={message.busy || actionsDisabled}
-                  onChange={(event) => setTypedWorkers(Number(event.target.value))}
-                >
-                  {generationLimitDefaults.batchWorkers.options.map((option) => <option key={option} value={option}>{option === 1 ? tr("interface.generate_batch_workers_none") : option}</option>)}
-                </select>
+                  aria-invalid={workers === null}
+                  onChange={(event) => setTypedWorkers(event.target.value)}
+                />
               </label>
             )}
             {showLimits && TOKEN_FIELDS.map((field) => (
@@ -203,6 +207,9 @@ export function GeneratePanel({
               </label>
             ))}
           </div>
+          {showLimits && workers === null && (
+            <p className="generate-recipe-warning" role="status">{tr("interface.generate_batch_workers_invalid", { maximum: maxWorkers })}</p>
+          )}
           {showLimits && TOKEN_FIELDS.map((field) => fieldError(field) && (
             <p key={field} className="generate-recipe-warning" role="status">{fieldError(field)}</p>
           ))}
@@ -247,7 +254,7 @@ export function GeneratePanel({
             aria-disabled={disabled}
             onClick={() => {
               const limits = showLimits ? limitsCheck?.limits : undefined;
-              if (!limits) return onGenerate(message.searchId, minScore, selectedModel, effort);
+              if (!limits || workers === null) return onGenerate(message.searchId, minScore, selectedModel, effort);
               onGenerate(message.searchId, minScore, selectedModel, effort, { ...limits, batchWorkers: workers });
             }}
           >

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from types import MappingProxyType
-from typing import Final, Literal, Mapping, cast, get_args
+from typing import Final, Literal, Mapping, cast
 
 ReportModel = Literal[
     "ollama-gemma4:12b",
@@ -13,10 +13,13 @@ ReportModel = Literal[
     "ollama-qwen3.5:4b",
     "ollama-ministral-3:8b",
     "ollama-deepseek-r1:8b",
+    "vllm-qwen3.5:4b",
     "deepseek-flash",
     "huggingface-deepseek-v4-flash",
     "grok-4.3",
 ]
+# The default list stays Ollama and cloud only; the local vLLM model is opted into through
+# REPORT_GENERATION_MODELS, because it needs its own GPU server (see docker-compose.yaml).
 DEFAULT_REPORT_MODELS: tuple[ReportModel, ...] = (
     "ollama-gemma3:1b",
     "ollama-gemma4:12b",
@@ -34,9 +37,8 @@ DEFAULT_REPORT_BATCH_MAX_TOKENS: Final = 25_000
 MIN_REPORT_INPUT_TOKENS: Final = 1_000
 MAX_REPORT_TOKENS: Final = 2_000_000
 LOW_REPORT_OUTPUT_TOKENS: Final = 2_000
-# Parallel batches the admin can choose per report.
-ReportBatchWorkers = Literal[1, 2, 3]
-REPORT_BATCH_WORKER_OPTIONS: Final[tuple[int, ...]] = get_args(ReportBatchWorkers)
+# Upper bound of the parallel batches the admin can type per report; 0 means no parallelism.
+MAX_REPORT_BATCH_WORKERS: Final = 1000
 
 # The user-selected depth of AI reasoning; each provider maps it to its own parameter.
 ReportEffort = Literal["low", "medium", "high"]
@@ -96,6 +98,11 @@ REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
             context_window=32_768,
             max_output_tokens=8_192,
             effort_control="ollama_think",
+        ),
+        # Served by the `vllm-report` Compose service under this name. vLLM maps the Responses
+        # `reasoning.effort` ("none" switches Qwen's thinking off) to the chat template itself.
+        "vllm-qwen3.5:4b": ReportModelSpec(
+            "vllm", "qwen3.5-4b", context_window=262_144, effort_control="responses_effort"
         ),
         "deepseek-flash": ReportModelSpec(
             "deepseek",

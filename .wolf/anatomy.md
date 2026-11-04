@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-03T20:55:53.649Z
-> Files: 458 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-04T04:13:31.267Z
+> Files: 459 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -74,7 +74,7 @@
 - `2026-10-30-clean-documents-english.md` — English document cleanup (~224 tok)
 - `2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md` — Top produse pe afectiune: ordonare dupa formula L1/L2/L3 (~3395 tok)
 - `2026-11-02-eliminare-primary-din-secondary-conditions.md` — Eliminare afectiunilor primare din secondary_medical_conditions (script SQL la reindexare) (~4332 tok)
-- `2026-11-03-integrare-vllm-translategemma.md` — Plan: integrarea vLLM pentru `translate_markdown.py` (faza 1: `translategemma:4b`) (~5302 tok)
+- `2026-11-03-integrare-vllm-translategemma.md` — Plan: integrarea vLLM pentru `translate_markdown.py` (faza 1: `translategemma:4b`) (~5934 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
@@ -363,7 +363,7 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~11704 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~11896 tok)
 
 ## src/backend/ai/
 
@@ -435,10 +435,10 @@
 - `operation_context.py` — Propagate a worker's deadline to synchronous I/O without changing public ports. (~1729 tok)
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2642 tok)
-- `report_models.py` — Supported report choices and their immutable provider routing. (~1355 tok)
+- `report_models.py` — Supported report choices and their immutable provider routing. (~1746 tok)
 - `score_formula.py` — Operator-supplied arithmetic over L1, L2 and L3; parsed from a whitelist, never `eval`-ed. (~736 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16342 tok)
-- `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6290 tok)
+- `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6634 tok)
 - `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
 
 ## src/backend/index_sql/
@@ -485,13 +485,13 @@
 
 ## src/backend/resources/
 
-- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~9327 tok)
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~10040 tok)
+- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~9228 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~9927 tok)
 
 ## src/backend/web/
 
 - `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~482 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~15666 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~15678 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
@@ -508,7 +508,7 @@
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
 - `client.ts` — API routes: GET (1 endpoints) (~2864 tok)
-- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~2916 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~2909 tok)
 
 ## src/frontend/components/
 
@@ -516,7 +516,7 @@
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~1017 tok)
 - `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3275 tok)
 - `GeneratePanel.test.tsx` — message (~877 tok)
-- `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~4974 tok)
+- `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~5057 tok)
 - `GenerationBatchEstimate.tsx` — Typing in a limit field must not ask the server for a count on every keystroke. (~706 tok)
 - `GenerationDurationEstimate.tsx` — GenerationDurationEstimate (~718 tok)
 - `GenerationReportPreview.tsx` — BatchPreview (~1711 tok)
@@ -544,6 +544,7 @@
 - `generationFeedback.ts` — Exports AI_ACTIVITY_LABELS, GenerationFeedback (~291 tok)
 - `inlineMarkdown.tsx` — Renders the very small Markdown subset _recommendation_text() produces (~369 tok)
 - `scoreFilter.ts` — "Scor minim" thresholds (relevance percent), shared by the fragments panel (~361 tok)
+- `texts.generated.ts` — Exports TEXT_PARAMETERS (~3937 tok)
 - `texts.ts` — Exports Language, getLanguage, locale, useLanguage + 3 more (~1135 tok)
 
 ## src/scripts/
@@ -569,7 +570,7 @@
 - `restore_database.ps1` — Declares Invoke (~424 tok)
 - `set_gpu_clock.bat` (~827 tok)
 - `setup_gpu_clock.bat` (~593 tok)
-- `translate_markdown.py` — from: translate_markdown, flush (~20390 tok)
+- `translate_markdown.py` — from: translate_markdown, flush (~21734 tok)
 
 ## src/tests/integration/
 

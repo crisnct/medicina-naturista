@@ -1,0 +1,9 @@
+{{- bos_token -}}
+{%- for message in messages -%}
+{%- if message['role'] == 'user' -%}
+{{- '<start_of_turn>user\nYou are a professional Romanian (ro) to English (en) translator. Your goal is to accurately convey the meaning and nuances of the original Romanian text while adhering to English grammar, vocabulary, and cultural sensitivities.\nProduce only the English translation, without any additional explanations or commentary. Please translate the following Romanian text into English:\n\n\n' + (message['content'] | trim) + '<end_of_turn>\n' -}}
+{%- else -%}
+{{- '<start_of_turn>model\n' + (message['content'] | trim) + '<end_of_turn>\n' -}}
+{%- endif -%}
+{%- endfor -%}
+{%- if add_generation_prompt -%}{{- '<start_of_turn>model\n' -}}{%- endif -%}

@@ -2770,3 +2770,63 @@ description: chronological action log per session, consolidated weekly
 |------|--------|---------|---------|--------|
 | 22:55 | Created aiPlans/2026-11-03-integrare-vllm-translategemma.md | — | ~5656 |
 | 22:55 | Edited aiPlans/2026-11-03-integrare-vllm-translategemma.md | inline fix | ~12 |
+
+## Session: 2026-11-03 23:08
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 23:25 | Edited aiPlans/2026-11-03-integrare-vllm-translategemma.md | modified Calitate() | ~702 |
+| 23:28 | Edited src/scripts/translate_markdown.py | modified backends() | ~305 |
+| 23:28 | Edited src/scripts/translate_markdown.py | 5→7 lines | ~176 |
+| 23:28 | Edited src/scripts/translate_markdown.py | 7→7 lines | ~78 |
+| 23:28 | Edited src/scripts/translate_markdown.py | 3→8 lines | ~130 |
+| 23:28 | Edited src/scripts/translate_markdown.py | 2→6 lines | ~122 |
+| 23:29 | Edited src/scripts/translate_markdown.py | OllamaError() → BackendError() | ~33 |
+| 23:29 | Edited src/scripts/translate_markdown.py | modified _error_text() | ~2383 |
+| 23:29 | Edited src/scripts/translate_markdown.py | translate_segments() → submit_segments() | ~305 |
+| 23:29 | Edited src/scripts/translate_markdown.py | 8→12 lines | ~144 |
+| 23:29 | Edited src/scripts/translate_markdown.py | 3→4 lines | ~38 |
+| 23:29 | Edited src/scripts/translate_markdown.py | modified submit_segments() | ~362 |
+| 23:29 | Edited src/scripts/translate_markdown.py | added error handling | ~392 |
+| 23:30 | Edited src/scripts/translate_markdown.py | modified __init__() | ~691 |
+| 23:31 | Edited src/scripts/translate_markdown.py | 13→15 lines | ~190 |
+| 23:31 | Edited src/scripts/translate_markdown.py | modified enumerate() | ~109 |
+| 23:31 | Edited src/scripts/translate_markdown.py | 3→3 lines | ~50 |
+| 23:31 | Edited src/scripts/translate_markdown.py | inline fix | ~16 |
+| 23:40 | Edited src/scripts/translate_markdown.py | modified model() | ~103 |
+| 23:45 | Session end: 21 writes across 2 files (2026-11-03-integrare-vllm-translategemma.md, translate_markdown.py) | 4 reads | ~15966 tok |
+| 00:02 | Edited src/backend/config.py | modified isinstance() | ~122 |
+
+## Session: 2026-11-03 00:19
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 00:20 | Edited src/backend/core/report_models.py | 3→2 lines | ~38 |
+| 00:20 | Edited src/backend/core/report_models.py | inline fix | ~14 |
+| 00:20 | Edited src/backend/web/main.py | 3→2 lines | ~9 |
+| 00:20 | Edited src/backend/web/main.py | inline fix | ~28 |
+| 00:20 | Edited src/backend/web/main.py | 2→2 lines | ~37 |
+| 00:20 | Edited src/backend/web/main.py | 10→12 lines | ~151 |
+| 00:20 | Edited src/backend/web/main.py | 4→4 lines | ~27 |
+| 00:21 | Edited src/frontend/lib/texts.generated.ts | 1→3 lines | ~19 |
+| 00:21 | Edited src/backend/core/text_contract.py | "interface.generate_batch_" → "interface.generate_batch_" | ~18 |
+| 00:21 | Edited src/backend/resources/texts.en.toml | "No" → "Enter a whole number from" | ~31 |
+| 00:21 | Edited src/backend/resources/texts.ro.toml | "Nu" → "Introdu un număr întreg d" | ~30 |
+| 00:21 | Edited src/frontend/api/types.ts | inline fix | ~15 |
+| 00:21 | Edited src/frontend/api/types.ts | inline fix | ~14 |
+| 00:21 | Edited src/frontend/components/GeneratePanel.tsx | inline fix | ~21 |
+| 00:21 | Edited src/frontend/components/GeneratePanel.tsx | modified Number() | ~88 |
+| 00:21 | Edited src/frontend/components/GeneratePanel.tsx | inline fix | ~21 |
+| 00:21 | Edited src/frontend/components/GeneratePanel.tsx | 8→9 lines | ~111 |
+| 00:21 | Edited src/frontend/components/GeneratePanel.tsx | CSS: maximum | ~80 |
+| 00:21 | Edited src/frontend/components/GeneratePanel.tsx | inline fix | ~34 |
+| 00:21 | Edited src/frontend/components/GeneratePanel.tsx | inline fix | ~6 |
+| 00:21 | Edited src/frontend/api/types.ts | inline fix | ~10 |
+| 00:21 | Edited src/frontend/api/types.ts | inline fix | ~10 |
+| 00:22 | Edited src/backend/web/main.py | 4→1 lines | ~20 |
+| 00:39 | Edited src/scripts/translate_markdown.py | 4→5 lines | ~80 |
+| 00:40 | Session end: 23 writes across 8 files (report_models.py, main.py, texts.generated.ts, text_contract.py, texts.en.toml) | 2 reads | ~1735 tok |
+| 06:13 | Edited src/scripts/translate_markdown.py | 6→5 lines | ~127 |
+| 06:13 | Edited src/scripts/translate_markdown.py | 4→6 lines | ~70 |
+| 06:13 | Edited src/scripts/translate_markdown.py | "for this file; fix the te" → "for this file; fix the te" | ~25 |
+| 06:13 | Edited src/scripts/translate_markdown.py | "A segment failed validati" → "A segment failed validati" | ~26 |

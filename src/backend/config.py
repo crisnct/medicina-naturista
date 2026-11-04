@@ -69,6 +69,11 @@ def _model_limits(
         raise ValueError(f"{ENV_NAME} must be a JSON object with unique model keys") from None
     if not isinstance(parsed, dict):
         raise ValueError(f"{ENV_NAME} must be a JSON object")
+    # Like REPORT_GENERATION_MODELS, the model names are matched without regard to case.
+    folded = {key.strip().casefold(): item for key, item in parsed.items()}
+    if len(folded) != len(parsed):
+        raise ValueError(f"{ENV_NAME} contains duplicate keys")
+    parsed = folded
     if parsed.keys() - REPORT_MODELS.keys():
         raise ValueError("Report batch limits contain an unsupported model")
     tokens_result: dict[ReportModel, int] = {}
@@ -225,7 +230,7 @@ def _embedding_device(env: Mapping[str, str] | None = None) -> str:
     return device
 
 
-AI_PROVIDERS = ("xai", "huggingface", "ollama", "deepseek")
+AI_PROVIDERS = ("xai", "huggingface", "ollama", "deepseek", "vllm")
 
 
 # Validate the provider used by generic Python client constructors, not an env selector.
@@ -280,6 +285,8 @@ class Settings:
     )
     deepseek_model: str = REPORT_MODELS["deepseek-flash"].model
     deepseek_api_base: str = "https://api.deepseek.com"
+    vllm_model: str = REPORT_MODELS["vllm-qwen3.5:4b"].model
+    vllm_api_base: str = "http://localhost:8001/v1"
     # Identification of a condition the dictionary does not know (ai/condition_ai.py):
     # Identification uses only the host Ollama model, with no provider fallback.
     medical_condition_ai_local_model: str = "gemma3:1b"
@@ -423,6 +430,10 @@ class Settings:
                 env.get("OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL")
             ),
             deepseek_api_base=env.get("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/"),
+            vllm_model=report_spec.model
+            if report_spec.provider == "vllm"
+            else REPORT_MODELS["vllm-qwen3.5:4b"].model,
+            vllm_api_base=env.get("VLLM_API_BASE", "http://localhost:8001/v1").rstrip("/"),
             medical_condition_ai_local_model=env.get(
                 "MEDICAL_CONDITION_AI_LOCAL_MODEL", "gemma3:1b"
             ),
@@ -613,6 +624,7 @@ class Settings:
             "hf_api_base",
             "ollama_api_base",
             "deepseek_api_base",
+            "vllm_api_base",
             "condition_ai_local_base",
             "herb_association_ai_base",
         ):

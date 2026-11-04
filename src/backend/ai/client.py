@@ -308,6 +308,12 @@ class ResponsesClient:
             else self.generate_system_prompt
         )
 
+    # Local providers constrain the answer with the report's JSON schema; the cloud ones follow
+    # the system prompt and are checked afterwards.
+    @property
+    def _sends_schema(self) -> bool:
+        return self.provider.name in ("ollama", "vllm")
+
     # Whether the active provider can be called (its key is present when one is required).
     def is_configured(self) -> bool:
         return not self.provider.api_key_required or bool(self.provider.api_key())
@@ -690,7 +696,7 @@ class ResponsesClient:
             self._report_prompt(),
             self._report_user_message(profile, evidence),
             self._report_max_output_tokens(),
-            schema=report_response_schema(evidence) if self.provider.name == "ollama" else None,
+            schema=report_response_schema(evidence) if self._sends_schema else None,
         )
         return (
             estimate_tokens(len(json.dumps(payload, ensure_ascii=False).encode("utf-8")))
@@ -925,7 +931,7 @@ class ResponsesClient:
             input_tokens,
             len(entries),
         )
-        if self.provider.name == "ollama":
+        if self._sends_schema:
             result = self._complete_json(
                 self._report_prompt(),
                 user,
@@ -1110,6 +1116,7 @@ def create_report_clients(settings: Settings) -> dict[ReportModel, AIProtocol]:
                 else settings.deepseek_model,
                 hf_model=spec.model if spec.provider == "huggingface" else settings.hf_model,
                 xai_model=spec.model if spec.provider == "xai" else settings.xai_model,
+                vllm_model=spec.model if spec.provider == "vllm" else settings.vllm_model,
             )
             clients[choice] = (
                 OllamaReportClient(provider_config(selected), selected)
