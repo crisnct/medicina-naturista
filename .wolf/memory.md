@@ -3018,3 +3018,9 @@ description: chronological action log per session, consolidated weekly
 | 22:55 | Created aiWork/vllm/assoc_sample.py | — | ~2334 |
 <!-- session:ZTI2ZDgyZmYtMmRkYS00YTVlLWJjMWEtNGVhOTliYWJmODM2 -->
 | 2026-11-04T21:15:11.201Z | Benchmarked real association batches on vLLM Qwen3.5-4B (1-24 workers) and compared with cached qwen3.5:9b decisions, including a St. John's wort sample; no src changes | aiWork/vllm/assoc_bench.py,aiWork/vllm/assoc_sample.py,aiWork/vllm/assoc_determinism.py | about 7x faster at 24 workers; ro agreement 87.6%, en 69.6%, caution often lost; concurrency alone changes 11/225 answers |
+| 23:33 | Session end: 3 writes across 2 files (assoc_bench.py, assoc_sample.py) | 8 reads | ~22289 tok |
+
+## Session: 2026-11-05 22:08
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
