@@ -176,6 +176,24 @@ class AIStreamRate:
         return round((self.characters_received - self.first_chunk_characters) / 4 / elapsed, 1)
 
 
+# One speed for a finished batch: all text it produced (reasoning and answer) over the time from
+# its first to its last chunk. The first chunk is excluded, as in AIStreamRate.tokens_per_second.
+def combined_tokens_per_second(*rates: AIStreamRate) -> float | None:
+    spans = [
+        (rate.first_chunk_at, rate.last_chunk_at, rate.first_chunk_characters, rate)
+        for rate in rates
+        if rate.first_chunk_at is not None and rate.last_chunk_at is not None
+    ]
+    if not spans:
+        return None
+    start, _, first_characters, _ = min(spans, key=lambda span: span[0] or 0.0)
+    elapsed = max(span[1] or 0.0 for span in spans) - (start or 0.0)
+    if elapsed < 1:
+        return None
+    characters = sum(span[3].characters_received for span in spans) - first_characters
+    return round(characters / 4 / elapsed, 1)
+
+
 @dataclass
 class AIActivity:
     request_started_at: float
@@ -252,6 +270,12 @@ class ReportBatchPreview:
             "aiActivity": self.ai_activity.as_dict(now) if self.ai_activity else None,
             "streamTokensPerSecond": self.stream_rate.tokens_per_second(),
             "thinkingTokensPerSecond": self.thinking_rate.tokens_per_second(),
+            # The running rates above are live; a finished batch reports its whole-batch average.
+            "averageTokensPerSecond": combined_tokens_per_second(
+                self.stream_rate, self.thinking_rate
+            )
+            if state == "validated"
+            else None,
         }
 
 

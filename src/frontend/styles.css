@@ -12,6 +12,7 @@
     --nature-danger: #c1352b;
     --nature-danger-hover: #a02a22;
     --nature-warning: #a64b00;
+    --nature-success: #2e7d32;
 }
 
 * {
@@ -646,6 +647,11 @@ body {
 .generation-batch-previews { display: grid; gap: 12px; }
 .generation-batch-preview h5 { display: inline; margin: 0; color: var(--nature-primary); font-size: 14px; }
 .generation-batch-state { color: var(--nature-muted); }
+/* The icon is centered on the line whatever its size; the disclosure arrow stays on the summary. */
+.generation-batch-heading-row { display: inline-flex; align-items: center; gap: 0.4em; vertical-align: middle; }
+.generation-batch-icon { flex: 0 0 auto; margin-left: 4px; }
+.generation-batch-icon-success { color: var(--nature-success); }
+.generation-batch-icon-failed { color: var(--nature-danger); }
 .generation-batch-preview summary { cursor: pointer; color: var(--nature-primary); }
 .generation-batch-preview .generation-report-text { margin-top: 10px; }
 

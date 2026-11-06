@@ -6,19 +6,26 @@ import { GenerationStreamPreview } from "./GenerationStreamPreview";
 import type { ReportBatchPreview } from "../api/types";
 import { AI_ACTIVITY_LABELS } from "../lib/generationFeedback";
 
+// Large state marks beside a batch's line; the state text next to them stays the accessible name.
+function CheckIcon() {
+  return <svg className="generation-batch-icon generation-batch-icon-success" viewBox="0 0 24 24" width="30" height="30" aria-hidden="true" focusable="false">
+    <path d="M4 12.5 9.5 18 20 6.5" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>;
+}
+
+function CrossIcon() {
+  return <svg className="generation-batch-icon generation-batch-icon-failed" viewBox="0 0 24 24" width="30" height="30" aria-hidden="true" focusable="false">
+    <path d="M6 6 18 18M18 6 6 18" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+  </svg>;
+}
+
 function BatchPreview({ batch, total, terminal, succeeded, pendingLabel }: {
   batch: ReportBatchPreview; total: number; terminal?: boolean; succeeded?: boolean; pendingLabel?: string;
 }) {
   const field = useRef<HTMLDivElement>(null);
-  const details = useRef<HTMLDetailsElement>(null);
   useEffect(() => {
     if (field.current) field.current.scrollTop = field.current.scrollHeight;
   }, [batch.reportPreview]);
-  // React updates `open` only when the prop changes, not when the reader toggled the element by
-  // hand, so a validated batch is folded explicitly; opening it afterwards stays the reader's choice.
-  useEffect(() => {
-    if (batch.state === "validated" && !succeeded && details.current) details.current.open = false;
-  }, [batch.state, succeeded]);
   const title = tr("interface.preview_batch_title", { index: batch.index, total });
   const stateLabels = {
     pending: terminal ? tr("interface.preview_batch_not_started") : tr("interface.preview_batch_waiting"),
@@ -32,10 +39,17 @@ function BatchPreview({ batch, total, terminal, succeeded, pendingLabel }: {
   const validated = batch.state === "validated";
   // The batch's final result lives inside its section, so a folded batch shows nothing of it.
   const foldable = hasRawOutput || validated;
-  // One line: the batch title and its state; with raw AI output the line is the
-  // <summary> that opens it, so the disclosure arrow sits on the title itself.
-  const rate = batch.streamTokensPerSecond ?? batch.thinkingTokensPerSecond;
-  const heading = <>
+  // A finished batch shows its whole-batch average; a running one the live rate.
+  const liveRate = batch.streamTokensPerSecond ?? batch.thinkingTokensPerSecond;
+  const rate = validated ? batch.averageTokensPerSecond ?? liveRate : liveRate;
+  const notStarted = batch.state === "pending" && terminal;
+  const icon = validated ? <CheckIcon />
+    : batch.state === "failed" || notStarted ? <CrossIcon />
+      : batch.state === "running" ? <span className="loader" aria-hidden="true" /> : null;
+  // One line: the batch title, its state, its speed and the state icon; with a result or raw AI
+  // output the line is the <summary> that opens the batch (folded by default), so the disclosure
+  // arrow sits on the title itself.
+  const heading = <span className="generation-batch-heading-row">
     <h5>{title}</h5>
     <span className="generation-batch-state"> – {stateLabels[batch.state]}</span>
     {rate != null && Number.isFinite(rate) && rate >= 0 && (
@@ -43,9 +57,10 @@ function BatchPreview({ batch, total, terminal, succeeded, pendingLabel }: {
         {tr("common.token_rate", { tokens_per_second: Math.round(rate) })}
       </span>
     )}
-  </>;
+    {icon}
+  </span>;
   return <section className="generation-stream-preview generation-batch-preview" aria-label={title}>
-    {foldable ? <details ref={details} open={!validated || Boolean(succeeded)}>
+    {foldable ? <details>
       <summary>{heading}</summary>
       <div className="generation-live-output">
         {hasRawOutput && batch.thinkingPreview && <GenerationStreamPreview

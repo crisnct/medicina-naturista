@@ -221,6 +221,7 @@ class ReportBatchPreviewResponse(BaseModel):
     aiActivity: AIActivityResponse | None = None
     streamTokensPerSecond: float | None = Field(default=None, ge=0)
     thinkingTokensPerSecond: float | None = Field(default=None, ge=0)
+    averageTokensPerSecond: float | None = Field(default=None, ge=0)
 
 
 class GenerateResponse(BaseModel):

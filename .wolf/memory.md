@@ -3057,3 +3057,7 @@ description: chronological action log per session, consolidated weekly
 | 15:33 | Edited src/backend/core/text_contract.py | 1→2 lines | ~27 |
 | 15:37 | Edited src/backend/resources/texts.ro.toml | " — total: {tokens_per_sec" → " — debit curent (toate lo" | ~24 |
 | 15:37 | Edited src/backend/resources/texts.en.toml | " — total: {tokens_per_sec" → " — current throughput (al" | ~25 |
+| 15:53 | Edited src/backend/core/models.py | modified combined_tokens_per_second() | ~256 |
+| 15:53 | Edited src/backend/core/models.py | expanded (+6 lines) | ~140 |
+| 15:53 | Edited src/backend/web/main.py | modified GenerateResponse() | ~84 |
+| 15:53 | Edited src/frontend/api/types.ts | 6→8 lines | ~75 |

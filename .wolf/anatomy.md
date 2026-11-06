@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-06T13:37:30.663Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-06T13:53:05.818Z
 > Files: 473 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -443,7 +443,7 @@
 - `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1309 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
 - `language.py` — Validated languages and isolated execution scopes; no process-wide mutable locale. (~353 tok)
-- `models.py` — Minimal medical context collected before report generation. (~5991 tok)
+- `models.py` — Minimal medical context collected before report generation. (~6346 tok)
 - `operation_context.py` — Propagate a worker's deadline to synchronous I/O without changing public ports. (~2035 tok)
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2642 tok)
@@ -507,7 +507,7 @@
 ## src/backend/web/
 
 - `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~509 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~16192 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~16858 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
@@ -524,7 +524,7 @@
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
 - `client.ts` — API routes: GET (1 endpoints) (~2968 tok)
-- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3089 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3316 tok)
 
 ## src/frontend/components/
 

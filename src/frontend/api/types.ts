@@ -277,6 +277,8 @@ export interface ReportBatchPreview {
   aiActivity?: AIActivity | null;
   streamTokensPerSecond?: number | null;
   thinkingTokensPerSecond?: number | null;
+  // Whole-batch average, present once the batch is validated.
+  averageTokensPerSecond?: number | null;
 }
 
 export interface ReportGeneration {
