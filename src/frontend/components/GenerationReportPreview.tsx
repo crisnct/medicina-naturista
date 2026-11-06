@@ -44,7 +44,7 @@ function BatchPreview({ batch, total, terminal, succeeded, pendingLabel }: {
   const rate = validated ? batch.averageTokensPerSecond ?? liveRate : liveRate;
   const notStarted = batch.state === "pending" && terminal;
   const icon = validated ? <CheckIcon />
-    : batch.state === "failed" || notStarted ? <CrossIcon />
+    : ["failed", "cancelled", "timed_out"].includes(batch.state) || notStarted ? <CrossIcon />
       : batch.state === "running" ? <span className="loader" aria-hidden="true" /> : null;
   // One line: the batch title, its state, its speed and the state icon; with a result or raw AI
   // output the line is the <summary> that opens the batch (folded by default), so the disclosure

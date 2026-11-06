@@ -35,6 +35,11 @@ DEFAULT_REPORT_MODEL: ReportModel = DEFAULT_REPORT_MODELS[0]
 DEFAULT_REPORT_BATCH_MAX_TOKENS: Final = 25_000
 # The output limit of every batch request unless the model or the admin sets another.
 DEFAULT_REPORT_OUTPUT_TOKENS: Final = 20_000
+# The same limit for every vLLM model (see catalog_output_tokens).
+DEFAULT_VLLM_REPORT_OUTPUT_TOKENS: Final = 3_000
+# Parallel batches every vLLM model starts with (its server batches the requests continuously);
+# the other models keep REPORT_BATCH_WORKERS. See default_batch_workers.
+DEFAULT_VLLM_REPORT_BATCH_WORKERS: Final = 24
 # Bounds of the token limits the admin may type; the output warning is advice, not a rule.
 MIN_REPORT_INPUT_TOKENS: Final = 1_000
 MAX_REPORT_TOKENS: Final = 2_000_000
@@ -144,6 +149,21 @@ REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
 EFFORT_MODELS: Final[tuple[ReportModel, ...]] = tuple(
     choice for choice, spec in REPORT_MODELS.items() if spec.effort_control != "none"
 )
+
+
+# The catalog's output limit of a model; every vLLM model takes the vLLM default, whatever its
+# catalog entry says, so a model added later needs no extra setting.
+def catalog_output_tokens(model: ReportModel) -> int:
+    spec = REPORT_MODELS[model]
+    return DEFAULT_VLLM_REPORT_OUTPUT_TOKENS if spec.provider == "vllm" else spec.max_output_tokens
+
+
+# The parallel batches of a report when the admin sets no number: the vLLM default for every vLLM
+# model, whatever its catalog entry says, else the configured REPORT_BATCH_WORKERS.
+def default_batch_workers(model: ReportModel, configured: int) -> int:
+    return (
+        DEFAULT_VLLM_REPORT_BATCH_WORKERS if REPORT_MODELS[model].provider == "vllm" else configured
+    )
 
 
 # A vLLM server limits each request to --max-model-len whatever the parallelism (the batches share

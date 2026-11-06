@@ -89,7 +89,7 @@ export function GeneratePanel({
   // An edited token field belongs to the model it was typed for, so choosing
   // another model shows that model's configured value again.
   const [typedTokens, setTypedTokens] = useState<Partial<Record<TokenField, { model: ReportModel; value: string }>>>({});
-  const [typedWorkers, setTypedWorkers] = useState<string | null>(null);
+  const [typedWorkers, setTypedWorkers] = useState<{ model: ReportModel; value: string } | null>(null);
   const preferredModel = model ?? defaultReportModel ?? reportModels[0];
   const selectedModel = reportModels.includes(preferredModel)
     ? preferredModel : reportModels[0] ?? "ollama-gemma4:12b";
@@ -113,7 +113,9 @@ export function GeneratePanel({
       ? Math.max(configured, recommendedTokens) : configured;
     return typed?.model === selectedModel ? typed.value : String(start ?? "");
   };
-  const workersText = typedWorkers ?? "0";
+  // A model with its own starting count (vLLM) shows it; the others start at 0 (in succession).
+  const workersText = typedWorkers?.model === selectedModel
+    ? typedWorkers.value : String(generationLimitDefaults?.batchWorkers.defaults?.[selectedModel] ?? 0);
   const maxWorkers = generationLimitDefaults?.batchWorkers.max ?? 0;
   const workers = /^\d{1,4}$/.test(workersText.trim()) && Number(workersText) <= maxWorkers ? Number(workersText) : null;
   // One request may use only part of the context while batches run in parallel (0 and 1 = in succession).
@@ -217,7 +219,7 @@ export function GeneratePanel({
                   value={workersText}
                   disabled={message.busy || actionsDisabled}
                   aria-invalid={workers === null}
-                  onChange={(event) => setTypedWorkers(event.target.value)}
+                  onChange={(event) => setTypedWorkers({ model: selectedModel, value: event.target.value })}
                 />
               </label>
             )}

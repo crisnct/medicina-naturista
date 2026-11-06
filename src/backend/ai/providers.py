@@ -12,6 +12,7 @@ from backend.core.report_models import (
     REPORT_MODELS,
     EffortControl,
     ReportModel,
+    catalog_output_tokens,
     parallel_context_divisor,
 )
 
@@ -71,7 +72,7 @@ def default_max_output_tokens(settings: Settings, model: ReportModel) -> int:
     spec = REPORT_MODELS[model]
     if spec.provider == "ollama":
         return settings.ollama_max_output_tokens_by_model.get(model, spec.max_output_tokens)
-    return spec.max_output_tokens
+    return catalog_output_tokens(model)
 
 
 # The catalog entry of the model the settings select, if it is one of the report choices.

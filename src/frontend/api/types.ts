@@ -79,7 +79,8 @@ export interface ReportModelsResponse {
   defaultEfforts?: Partial<Record<ReportModel, ReportEffort>>;
   // Generation limits and their configured defaults; sent to the admin only.
   batchMaxTokens?: Partial<Record<ReportModel, number>>;
-  batchWorkers?: { max: number };
+  // `defaults`: the count a model starts with when it has its own (the others start at 0).
+  batchWorkers?: { max: number; defaults?: Partial<Record<ReportModel, number>> };
   maxOutputTokens?: Partial<Record<ReportModel, number>>;
   // The configured thinking budget of a batch, added to the output limit when the model thinks.
   thinkingTokens?: Partial<Record<ReportModel, number>>;
@@ -107,7 +108,7 @@ export interface GenerationLimits {
 
 export interface GenerationLimitDefaults {
   batchMaxTokens: Partial<Record<ReportModel, number>>;
-  batchWorkers: { max: number };
+  batchWorkers: { max: number; defaults?: Partial<Record<ReportModel, number>> };
   maxOutputTokens: Partial<Record<ReportModel, number>>;
   thinkingTokens: Partial<Record<ReportModel, number>>;
   tokenBounds: TokenBounds;

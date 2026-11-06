@@ -66,6 +66,7 @@ from backend.core.report_models import (
     REPORT_MODELS,
     REPORT_THINKING_CONTEXT_DIVISOR,
     ReportEffort,
+    default_batch_workers,
 )
 from backend.core.texts import tr
 
@@ -441,7 +442,9 @@ class ResponsesClient:
         self.thinking_tokens = settings.report_generation_thinking_tokens[
             settings.report_generation_model
         ]
-        self.batch_workers = settings.report_batch_workers
+        self.batch_workers = default_batch_workers(
+            settings.report_generation_model, settings.report_batch_workers
+        )
 
     def _report_prompt(self) -> str:
         return (

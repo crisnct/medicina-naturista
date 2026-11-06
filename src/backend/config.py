@@ -22,6 +22,8 @@ from backend.core.report_models import (
     REPORT_MODELS,
     ReportEffort,
     ReportModel,
+    catalog_output_tokens,
+    default_batch_workers,
     parse_report_models,
     request_context_tokens,
 )
@@ -626,9 +628,11 @@ class Settings:
         object.__setattr__(self, "ollama_max_output_tokens_by_model", outputs)
         # Every active model must keep room for its input after the default output.
         for model in self.report_generation_models:
-            output = outputs.get(model, REPORT_MODELS[model].max_output_tokens)
+            output = outputs.get(model, catalog_output_tokens(model))
             # The configured default may run batches in parallel, which use only part of it.
-            context = request_context_tokens(model, contexts[model], self.report_batch_workers)
+            context = request_context_tokens(
+                model, contexts[model], default_batch_workers(model, self.report_batch_workers)
+            )
             if context - output < MIN_REPORT_INPUT_TOKENS:
                 raise ValueError(
                     f"The output token limit of {model} ({output}) leaves fewer than "

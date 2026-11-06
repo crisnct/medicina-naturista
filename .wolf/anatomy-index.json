@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-06T13:53:05.818Z",
+    "lastScanned": "2026-11-06T14:43:16.511Z",
     "fileCount": 473,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "832f20757950dc36a9f475d5cda26d5c0d238f77836ed0f19ff395bc9f409aaf",
-    "storeUpdatedAt": "2026-11-06T13:53:05.830Z",
-    "rootHash": "c3f3c272be7219a4"
+    "renderedHash": "2fc04419dca38c8f725195f302a9d6112a82bda7407fe0b8a4e5b7b2a3067915",
+    "storeUpdatedAt": "2026-11-06T14:43:16.523Z",
+    "rootHash": "d045418dc4bfb389"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -362,222 +362,222 @@
     },
     "src/backend/web/main.py": {
       "description": "FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits.",
-      "tokens": 16858,
-      "hash": "774dfcad5c024afb",
-      "size": 59005,
-      "mtimeMs": 1793973183628.1516,
-      "updatedAt": "2026-11-06T13:53:04.005Z",
+      "tokens": 16976,
+      "hash": "ef3b461126428f43",
+      "size": 59417,
+      "mtimeMs": 1793976193598.6138,
+      "updatedAt": "2026-11-06T14:43:13.893Z",
       "source": "hook",
       "symbols": [
         {
           "name": "owner_only_message",
           "kind": "fn",
-          "startLine": 101,
-          "endLine": 108,
+          "startLine": 103,
+          "endLine": 110,
           "tokens": 37
         },
         {
           "name": "application_texts",
           "kind": "fn",
-          "startLine": 109,
-          "endLine": 114,
+          "startLine": 111,
+          "endLine": 116,
           "tokens": 76
         },
         {
           "name": "localized_source_label",
           "kind": "fn",
-          "startLine": 115,
-          "endLine": 127,
+          "startLine": 117,
+          "endLine": 129,
           "tokens": 125
         },
         {
           "name": "_category_node_payload",
           "kind": "fn",
-          "startLine": 128,
-          "endLine": 139,
+          "startLine": 130,
+          "endLine": 141,
           "tokens": 117
         },
         {
           "name": "SignalsPayload",
           "kind": "class",
-          "startLine": 140,
-          "endLine": 156,
+          "startLine": 142,
+          "endLine": 158,
           "tokens": 149
         },
         {
           "name": "MessageRequest",
           "kind": "class",
-          "startLine": 157,
-          "endLine": 165,
+          "startLine": 159,
+          "endLine": 167,
           "tokens": 118
         },
         {
           "name": "GenerateRequest",
           "kind": "class",
-          "startLine": 166,
-          "endLine": 180,
+          "startLine": 168,
+          "endLine": 182,
           "tokens": 247
         },
         {
           "name": "AIActivityResponse",
           "kind": "class",
-          "startLine": 181,
-          "endLine": 189,
+          "startLine": 183,
+          "endLine": 191,
           "tokens": 122
         },
         {
           "name": "ReportDurationEstimateResponse",
           "kind": "class",
-          "startLine": 190,
-          "endLine": 197,
+          "startLine": 192,
+          "endLine": 199,
           "tokens": 74
         },
         {
           "name": "ReportOutputRecommendationResponse",
           "kind": "class",
-          "startLine": 198,
-          "endLine": 205,
+          "startLine": 200,
+          "endLine": 207,
           "tokens": 90
         },
         {
           "name": "ReportBatchEstimateResponse",
           "kind": "class",
-          "startLine": 206,
-          "endLine": 214,
+          "startLine": 208,
+          "endLine": 216,
           "tokens": 86
         },
         {
           "name": "ReportBatchPreviewResponse",
           "kind": "class",
-          "startLine": 215,
-          "endLine": 226,
+          "startLine": 217,
+          "endLine": 228,
           "tokens": 153
         },
         {
           "name": "GenerateResponse",
           "kind": "class",
-          "startLine": 227,
-          "endLine": 264,
+          "startLine": 229,
+          "endLine": 266,
           "tokens": 400
         },
         {
           "name": "_deps",
           "kind": "fn",
-          "startLine": 265,
-          "endLine": 268,
+          "startLine": 267,
+          "endLine": 270,
           "tokens": 26
         },
         {
           "name": "_identity",
           "kind": "fn",
-          "startLine": 269,
-          "endLine": 280,
+          "startLine": 271,
+          "endLine": 282,
           "tokens": 135
         },
         {
           "name": "_current",
           "kind": "fn",
-          "startLine": 281,
-          "endLine": 290,
+          "startLine": 283,
+          "endLine": 292,
           "tokens": 107
         },
         {
           "name": "change_language",
           "kind": "fn",
-          "startLine": 291,
-          "endLine": 296,
+          "startLine": 293,
+          "endLine": 298,
           "tokens": 53
         },
         {
           "name": "_client_ip",
           "kind": "fn",
-          "startLine": 297,
-          "endLine": 302,
+          "startLine": 299,
+          "endLine": 304,
           "tokens": 74
         },
         {
           "name": "_application_error_response",
           "kind": "fn",
-          "startLine": 303,
-          "endLine": 311,
+          "startLine": 305,
+          "endLine": 313,
           "tokens": 109
         },
         {
           "name": "_revision",
           "kind": "fn",
-          "startLine": 312,
-          "endLine": 324,
+          "startLine": 314,
+          "endLine": 326,
           "tokens": 103
         },
         {
           "name": "_cancelled",
           "kind": "fn",
-          "startLine": 325,
-          "endLine": 329,
+          "startLine": 327,
+          "endLine": 331,
           "tokens": 34
         },
         {
           "name": "healthz",
           "kind": "fn",
-          "startLine": 330,
-          "endLine": 347,
+          "startLine": 332,
+          "endLine": 349,
           "tokens": 155
         },
         {
           "name": "readyz",
           "kind": "fn",
-          "startLine": 348,
-          "endLine": 357,
+          "startLine": 350,
+          "endLine": 359,
           "tokens": 75
         },
         {
           "name": "startup_status",
           "kind": "fn",
-          "startLine": 358,
-          "endLine": 367,
+          "startLine": 360,
+          "endLine": 369,
           "tokens": 85
         },
         {
           "name": "_require_initialized",
           "kind": "fn",
-          "startLine": 368,
-          "endLine": 378,
+          "startLine": 370,
+          "endLine": 380,
           "tokens": 96
         },
         {
           "name": "download",
           "kind": "fn",
-          "startLine": 379,
-          "endLine": 396,
+          "startLine": 381,
+          "endLine": 398,
           "tokens": 187
         },
         {
           "name": "get_session",
           "kind": "fn",
-          "startLine": 397,
-          "endLine": 436,
+          "startLine": 399,
+          "endLine": 438,
           "tokens": 457
         },
         {
           "name": "_warm_categories",
           "kind": "fn",
-          "startLine": 437,
-          "endLine": 443,
+          "startLine": 439,
+          "endLine": 445,
           "tokens": 57
         },
         {
           "name": "get_categories",
           "kind": "fn",
-          "startLine": 444,
-          "endLine": 451,
+          "startLine": 446,
+          "endLine": 453,
           "tokens": 95
         },
         {
           "name": "_categories_payload",
           "kind": "fn",
-          "startLine": 452,
-          "endLine": 1535,
-          "tokens": 12131
+          "startLine": 454,
+          "endLine": 1547,
+          "tokens": 12236
         }
       ]
     },
@@ -2003,274 +2003,281 @@
     },
     "src/backend/ai/client.py": {
       "description": "Sequential whole-fragment report batches through the selected AI provider.",
-      "tokens": 20332,
-      "hash": "8f2d98b6cd0f59d7",
-      "size": 71162,
-      "mtimeMs": 1793967894822.7983,
-      "updatedAt": "2026-11-06T12:24:55.160Z",
+      "tokens": 20363,
+      "hash": "82dd13935ba4b39d",
+      "size": 71271,
+      "mtimeMs": 1793976189273.2842,
+      "updatedAt": "2026-11-06T14:43:09.556Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_ordered_entries",
           "kind": "fn",
-          "startLine": 87,
-          "endLine": 98,
+          "startLine": 88,
+          "endLine": 99,
           "tokens": 105
         },
         {
           "name": "AIUnavailable",
           "kind": "class",
-          "startLine": 99,
-          "endLine": 105,
+          "startLine": 100,
+          "endLine": 106,
           "tokens": 71
         },
         {
           "name": "_AIResponseError",
           "kind": "class",
-          "startLine": 106,
-          "endLine": 112,
+          "startLine": 107,
+          "endLine": 113,
           "tokens": 65
         },
         {
           "name": "_ollama_error_reason",
           "kind": "fn",
-          "startLine": 113,
-          "endLine": 148,
+          "startLine": 114,
+          "endLine": 149,
           "tokens": 405
         },
         {
           "name": "_vllm_error_reason",
           "kind": "fn",
-          "startLine": 149,
-          "endLine": 162,
+          "startLine": 150,
+          "endLine": 163,
           "tokens": 177
         },
         {
           "name": "json_error_details",
           "kind": "fn",
-          "startLine": 163,
-          "endLine": 188,
+          "startLine": 164,
+          "endLine": 189,
           "tokens": 325
         },
         {
           "name": "_parse_json_object",
           "kind": "fn",
-          "startLine": 189,
-          "endLine": 200,
+          "startLine": 190,
+          "endLine": 201,
           "tokens": 124
         },
         {
           "name": "_StreamedResponse",
           "kind": "class",
-          "startLine": 201,
-          "endLine": 217,
+          "startLine": 202,
+          "endLine": 218,
           "tokens": 126
         },
         {
           "name": "_response_metrics",
           "kind": "fn",
-          "startLine": 218,
-          "endLine": 235,
+          "startLine": 219,
+          "endLine": 236,
           "tokens": 176
         },
         {
           "name": "_ollama_metrics",
           "kind": "fn",
-          "startLine": 236,
-          "endLine": 267,
+          "startLine": 237,
+          "endLine": 268,
           "tokens": 348
         },
         {
           "name": "_call_cancellable",
           "kind": "fn",
-          "startLine": 268,
-          "endLine": 310,
+          "startLine": 269,
+          "endLine": 311,
           "tokens": 398
         },
         {
           "name": "_abort_stream",
           "kind": "fn",
-          "startLine": 311,
-          "endLine": 318,
+          "startLine": 312,
+          "endLine": 319,
           "tokens": 99
         },
         {
           "name": "_cancellable_lines",
           "kind": "fn",
-          "startLine": 319,
-          "endLine": 353,
+          "startLine": 320,
+          "endLine": 354,
           "tokens": 302
         },
         {
           "name": "_open_stream",
           "kind": "fn",
-          "startLine": 354,
-          "endLine": 365,
+          "startLine": 355,
+          "endLine": 366,
           "tokens": 116
         },
         {
           "name": "_collect_stream",
           "kind": "fn",
-          "startLine": 366,
-          "endLine": 420,
+          "startLine": 367,
+          "endLine": 421,
           "tokens": 691
         },
         {
           "name": "ResponsesClient",
           "kind": "class",
-          "startLine": 421,
-          "endLine": 1279,
-          "tokens": 11174
+          "startLine": 422,
+          "endLine": 1282,
+          "tokens": 11197
         },
         {
           "name": "OllamaReportClient",
           "kind": "class",
-          "startLine": 1280,
-          "endLine": 1427,
+          "startLine": 1283,
+          "endLine": 1430,
           "tokens": 1989
         },
         {
           "name": "VllmReportClient",
           "kind": "class",
-          "startLine": 1428,
-          "endLine": 1561,
+          "startLine": 1431,
+          "endLine": 1564,
           "tokens": 1820
         },
         {
           "name": "XAIClient",
           "kind": "class",
-          "startLine": 1562,
-          "endLine": 1568,
+          "startLine": 1565,
+          "endLine": 1571,
           "tokens": 95
         },
         {
           "name": "create_ai_client",
           "kind": "fn",
-          "startLine": 1569,
-          "endLine": 1578,
+          "startLine": 1572,
+          "endLine": 1581,
           "tokens": 120
         },
         {
           "name": "create_report_clients",
           "kind": "fn",
-          "startLine": 1579,
-          "endLine": 1607,
+          "startLine": 1582,
+          "endLine": 1610,
           "tokens": 379
         }
       ]
     },
     "src/backend/config.py": {
       "description": "Environment-backed settings. No patient data belongs in configuration or logs.",
-      "tokens": 11800,
-      "hash": "79b0acc74b87b23e",
-      "size": 41297,
-      "mtimeMs": 1793785914632.103,
-      "updatedAt": "2026-11-04T09:51:54.953Z",
+      "tokens": 12081,
+      "hash": "096e870662f88ea1",
+      "size": 42282,
+      "mtimeMs": 1793976196115.7354,
+      "updatedAt": "2026-11-06T14:43:16.510Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_default_context",
           "kind": "fn",
-          "startLine": 37,
-          "endLine": 40,
+          "startLine": 40,
+          "endLine": 43,
           "tokens": 44
         },
         {
           "name": "_default_effort",
           "kind": "fn",
-          "startLine": 41,
+          "startLine": 44,
           "endLine": 47,
-          "tokens": 124
+          "tokens": 43
+        },
+        {
+          "name": "_default_thinking",
+          "kind": "fn",
+          "startLine": 48,
+          "endLine": 55,
+          "tokens": 141
         },
         {
           "name": "_model_limits",
           "kind": "fn",
-          "startLine": 48,
-          "endLine": 109,
-          "tokens": 793
+          "startLine": 56,
+          "endLine": 130,
+          "tokens": 934
         },
         {
           "name": "_freeze_ollama_output_limits",
           "kind": "fn",
-          "startLine": 110,
-          "endLine": 124,
+          "startLine": 131,
+          "endLine": 145,
           "tokens": 172
         },
         {
           "name": "_ollama_output_limits",
           "kind": "fn",
-          "startLine": 125,
-          "endLine": 152,
+          "startLine": 146,
+          "endLine": 173,
           "tokens": 312
         },
         {
           "name": "_int",
           "kind": "fn",
-          "startLine": 153,
-          "endLine": 168,
+          "startLine": 174,
+          "endLine": 189,
           "tokens": 139
         },
         {
           "name": "_bool",
           "kind": "fn",
-          "startLine": 169,
-          "endLine": 188,
+          "startLine": 190,
+          "endLine": 209,
           "tokens": 200
         },
         {
           "name": "SafetyScope",
           "kind": "class",
-          "startLine": 189,
-          "endLine": 195,
+          "startLine": 210,
+          "endLine": 216,
           "tokens": 61
         },
         {
           "name": "normalize_latin",
           "kind": "fn",
-          "startLine": 196,
-          "endLine": 200,
+          "startLine": 217,
+          "endLine": 221,
           "tokens": 52
         },
         {
           "name": "parse_safety_scope",
           "kind": "fn",
-          "startLine": 201,
-          "endLine": 217,
+          "startLine": 222,
+          "endLine": 238,
           "tokens": 212
         },
         {
           "name": "safety_output_estimate",
           "kind": "fn",
-          "startLine": 218,
-          "endLine": 225,
+          "startLine": 239,
+          "endLine": 246,
           "tokens": 74
         },
         {
           "name": "_embedding_device",
           "kind": "fn",
-          "startLine": 226,
-          "endLine": 236,
+          "startLine": 247,
+          "endLine": 257,
           "tokens": 130
         },
         {
           "name": "_ai_provider",
           "kind": "fn",
-          "startLine": 237,
-          "endLine": 244,
+          "startLine": 258,
+          "endLine": 265,
           "tokens": 72
         },
         {
           "name": "Settings",
           "kind": "class",
-          "startLine": 245,
-          "endLine": 849,
-          "tokens": 9014
+          "startLine": 266,
+          "endLine": 876,
+          "tokens": 9069
         },
         {
           "name": "configure_settings",
           "kind": "fn",
-          "startLine": 850,
-          "endLine": 862,
+          "startLine": 877,
+          "endLine": 889,
           "tokens": 137
         }
       ]
@@ -6183,54 +6190,54 @@
     },
     "src/backend/ai/providers.py": {
       "description": "Per-provider transport settings for report generation.",
-      "tokens": 2211,
-      "hash": "e590c30c1f36bd92",
-      "size": 7737,
-      "mtimeMs": 1793969218605.9812,
-      "updatedAt": "2026-11-06T12:46:58.912Z",
+      "tokens": 2216,
+      "hash": "06d08f4f1366f615",
+      "size": 7753,
+      "mtimeMs": 1793975987735.421,
+      "updatedAt": "2026-11-06T14:39:48.169Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_GenerationLimits",
           "kind": "class",
-          "startLine": 26,
-          "endLine": 33,
+          "startLine": 27,
+          "endLine": 34,
           "tokens": 49
         },
         {
           "name": "ProviderConfig",
           "kind": "class",
-          "startLine": 34,
-          "endLine": 63,
+          "startLine": 35,
+          "endLine": 64,
           "tokens": 306
         },
         {
           "name": "_is_local",
           "kind": "fn",
-          "startLine": 64,
-          "endLine": 69,
+          "startLine": 65,
+          "endLine": 70,
           "tokens": 72
         },
         {
           "name": "default_max_output_tokens",
           "kind": "fn",
-          "startLine": 70,
-          "endLine": 77,
-          "tokens": 104
+          "startLine": 71,
+          "endLine": 78,
+          "tokens": 106
         },
         {
           "name": "_catalog_choice",
           "kind": "fn",
-          "startLine": 78,
-          "endLine": 95,
+          "startLine": 79,
+          "endLine": 96,
           "tokens": 170
         },
         {
           "name": "provider_config",
           "kind": "fn",
-          "startLine": 96,
-          "endLine": 209,
-          "tokens": 1227
+          "startLine": 97,
+          "endLine": 208,
+          "tokens": 1222
         }
       ]
     },
@@ -6674,26 +6681,40 @@
       "source": "hook"
     },
     "src/frontend/components/GenerationReportPreview.tsx": {
-      "description": "BatchPreview",
-      "tokens": 2112,
-      "hash": "02e1b4dce6accb97",
-      "size": 7391,
-      "mtimeMs": 1793971997586.3103,
-      "updatedAt": "2026-11-06T13:33:17.968Z",
+      "description": "Large state marks beside a batch's line; the state text next to them stays the accessible name.",
+      "tokens": 2401,
+      "hash": "4929fd791e7d8bd4",
+      "size": 8403,
+      "mtimeMs": 1793975646657.599,
+      "updatedAt": "2026-11-06T14:34:07.081Z",
       "source": "hook",
       "symbols": [
         {
+          "name": "CheckIcon",
+          "kind": "fn",
+          "startLine": 10,
+          "endLine": 15,
+          "tokens": 94
+        },
+        {
+          "name": "CrossIcon",
+          "kind": "fn",
+          "startLine": 16,
+          "endLine": 21,
+          "tokens": 87
+        },
+        {
           "name": "BatchPreview",
           "kind": "fn",
-          "startLine": 9,
-          "endLine": 71,
-          "tokens": 1030
+          "startLine": 22,
+          "endLine": 86,
+          "tokens": 1066
         },
         {
           "name": "GenerationReportPreview",
           "kind": "fn",
-          "startLine": 72,
-          "endLine": 140,
+          "startLine": 87,
+          "endLine": 155,
           "tokens": 972
         }
       ]
@@ -7045,60 +7066,74 @@
     },
     "src/backend/core/report_models.py": {
       "description": "Supported report choices and their immutable provider routing.",
-      "tokens": 2290,
-      "hash": "14bca5ec9113d564",
-      "size": 8014,
-      "mtimeMs": 1793969212813.3098,
-      "updatedAt": "2026-11-06T12:46:53.274Z",
+      "tokens": 2592,
+      "hash": "04e459476f442d3e",
+      "size": 9072,
+      "mtimeMs": 1793976183178.3228,
+      "updatedAt": "2026-11-06T14:43:03.518Z",
       "source": "hook",
       "symbols": [
         {
           "name": "ReportModelSpec",
           "kind": "class",
-          "startLine": 61,
-          "endLine": 150,
-          "tokens": 1069
+          "startLine": 66,
+          "endLine": 155,
+          "tokens": 1061
+        },
+        {
+          "name": "catalog_output_tokens",
+          "kind": "fn",
+          "startLine": 156,
+          "endLine": 162,
+          "tokens": 106
+        },
+        {
+          "name": "default_batch_workers",
+          "kind": "fn",
+          "startLine": 163,
+          "endLine": 170,
+          "tokens": 110
         },
         {
           "name": "parallel_context_divisor",
           "kind": "fn",
-          "startLine": 151,
-          "endLine": 156,
+          "startLine": 171,
+          "endLine": 176,
           "tokens": 66
         },
         {
           "name": "parallel_context_tokens",
           "kind": "fn",
-          "startLine": 157,
-          "endLine": 162,
+          "startLine": 177,
+          "endLine": 182,
           "tokens": 79
         },
         {
           "name": "request_context_tokens",
           "kind": "fn",
-          "startLine": 163,
-          "endLine": 166,
+          "startLine": 183,
+          "endLine": 186,
           "tokens": 47
         },
         {
           "name": "parse_report_effort",
           "kind": "fn",
-          "startLine": 167,
-          "endLine": 173,
+          "startLine": 187,
+          "endLine": 193,
           "tokens": 80
         },
         {
           "name": "parse_report_model",
           "kind": "fn",
-          "startLine": 174,
-          "endLine": 180,
+          "startLine": 194,
+          "endLine": 200,
           "tokens": 78
         },
         {
           "name": "parse_report_models",
           "kind": "fn",
-          "startLine": 181,
-          "endLine": 193,
+          "startLine": 201,
+          "endLine": 213,
           "tokens": 189
         }
       ]

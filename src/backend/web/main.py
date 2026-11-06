@@ -71,7 +71,9 @@ from backend.core.report_models import (
     MAX_REPORT_BATCH_WORKERS,
     MAX_REPORT_TOKENS,
     MIN_REPORT_INPUT_TOKENS,
+    REPORT_MODELS,
     REPORT_THINKING_CONTEXT_DIVISOR,
+    default_batch_workers,
     parallel_context_tokens,
     request_context_tokens,
 )
@@ -728,7 +730,9 @@ def _check_report_limits(
     context = request_context_tokens(
         model,
         settings.report_generation_context_tokens[model],
-        settings.report_batch_workers if batch_workers is None else batch_workers,
+        default_batch_workers(model, settings.report_batch_workers)
+        if batch_workers is None
+        else batch_workers,
     )
     if max_output_tokens is not None and max_output_tokens >= context:
         raise ApplicationError(
@@ -810,7 +814,15 @@ def report_models(request: Request):
         response["batchMaxTokens"] = {
             model: settings.report_generation_batch_max_tokens[model] for model in configured
         }
-        response["batchWorkers"] = {"max": MAX_REPORT_BATCH_WORKERS}
+        # Only the models with their own starting count are listed; the panel starts the others at 0.
+        response["batchWorkers"] = {
+            "max": MAX_REPORT_BATCH_WORKERS,
+            "defaults": {
+                model: default_batch_workers(model, 0)
+                for model in configured
+                if REPORT_MODELS[model].provider == "vllm"
+            },
+        }
         response["maxOutputTokens"] = {
             model: default_max_output_tokens(settings, model) for model in configured
         }

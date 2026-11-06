@@ -9805,6 +9805,42 @@
       "last_seen": "2026-11-06T13:33:18.004Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: REPORT_MODELS should be catalog_output_tokens",
+      "file": "src/backend/config.py",
+      "root_cause": "Used \"REPORT_MODELS\" instead of \"catalog_output_tokens\"",
+      "fix": "Changed REPORT_MODELS → catalog_output_tokens",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-546",
+      "timestamp": "2026-11-06T14:39:49.900Z",
+      "last_seen": "2026-11-06T14:39:49.900Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: parse_report_models should be default_batch_workers",
+      "file": "src/backend/config.py",
+      "root_cause": "Used \"parse_report_models\" instead of \"default_batch_workers\"",
+      "fix": "Changed parse_report_models → default_batch_workers",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-547",
+      "timestamp": "2026-11-06T14:43:16.545Z",
+      "last_seen": "2026-11-06T14:43:16.545Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -10393,7 +10429,9 @@
     "7546fec0-f4a6-4ee3-b853-b8eed1cb1f38": true,
     "48dcfafa-86b9-428f-a8d2-ea7615515cdd": true,
     "06437f7e-4f05-49fc-a93b-4cd861e62fc5": true,
-    "37f242af-2281-43fc-8902-da9ae0a7e1e8": true
+    "37f242af-2281-43fc-8902-da9ae0a7e1e8": true,
+    "bad52a19-2b74-4f03-979d-86c459abf0ac": true,
+    "042517f5-28cf-4431-8312-4aaa11302fb7": true
   },
-  "next_id": 546
+  "next_id": 548
 }
