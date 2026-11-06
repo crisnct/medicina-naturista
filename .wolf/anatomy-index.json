@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-04T20:55:20.266Z",
+    "lastScanned": "2026-11-06T06:11:31.286Z",
     "fileCount": 473,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "41207f675eaa258408d3267d1c25b41c7df8bbb0efa760e376dcf5bec6925dfe",
-    "storeUpdatedAt": "2026-11-04T20:55:20.277Z",
-    "rootHash": "780b70b102ed3bd6"
+    "renderedHash": "19a25daf0c338df9196d158728e286621028a935f8ebebb18cc6c5f598dd3e0b",
+    "storeUpdatedAt": "2026-11-06T06:11:31.308Z",
+    "rootHash": "3cb59c73f4df599a"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -6321,11 +6321,11 @@
     },
     "aiPlans/2026-10-27-imagini-produse-naturiste.md": {
       "description": "Imagini pentru produsele din herbs",
-      "tokens": 1032,
-      "hash": "6ca58f01efa3d171",
-      "size": 4125,
-      "mtimeMs": 1793161005773.5828,
-      "updatedAt": "2026-10-28T04:16:46.415Z",
+      "tokens": 1332,
+      "hash": "04d1615e0b17ac2c",
+      "size": 5326,
+      "mtimeMs": 1793945490752.9526,
+      "updatedAt": "2026-11-06T06:11:31.285Z",
       "source": "hook"
     },
     "src/backend/ai/herb_images.py": {

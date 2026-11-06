@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-04T20:55:20.266Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-06T06:11:31.286Z
 > Files: 473 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -59,7 +59,7 @@
 - `2026-10-26-plante-afectiuni-utile-si-interzise.md` — Plan: afecțiuni în care o plantă este utilă sau interzisă (~8307 tok)
 - `2026-10-26-top-produse-naturiste-pentru-afectiune.md` — Plan: top produse naturiste pentru o afectiune (~4761 tok)
 - `2026-10-27-afisare-imagini-produse-in-chat.md` — Afișarea imaginilor produselor în chat (~2023 tok)
-- `2026-10-27-imagini-produse-naturiste.md` — Imagini pentru produsele din herbs (~1032 tok)
+- `2026-10-27-imagini-produse-naturiste.md` — Imagini pentru produsele din herbs (~1332 tok)
 - `2026-10-28-detalii-ai-in-timpul-generarii.md` — Detalii AI în timpul generării (~398 tok)
 - `2026-10-28-diagnostic-ollama-si-validare-raport.md` — Diagnostic Ollama și validare raport (~1008 tok)
 - `2026-10-28-previzualizare-separata-pe-lot.md` — Previzualizare separată pentru fiecare lot (~681 tok)
