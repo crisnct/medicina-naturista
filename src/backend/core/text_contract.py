@@ -168,6 +168,7 @@ TEXT_PARAMETERS: dict[str, tuple[str, ...]] = {
     "interface.preview_batch_cancelled": (),
     "interface.preview_batch_timed_out": (),
     "interface.preview_batch_empty": (),
+    "interface.preview_batch_result_title": (),
     "interface.preview_speed_hint": (),
     "interface.stream_waiting": (),
     "interface.stream_content_label": (),

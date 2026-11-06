@@ -10,9 +10,15 @@ function BatchPreview({ batch, total, terminal, succeeded, pendingLabel }: {
   batch: ReportBatchPreview; total: number; terminal?: boolean; succeeded?: boolean; pendingLabel?: string;
 }) {
   const field = useRef<HTMLDivElement>(null);
+  const details = useRef<HTMLDetailsElement>(null);
   useEffect(() => {
     if (field.current) field.current.scrollTop = field.current.scrollHeight;
   }, [batch.reportPreview]);
+  // React updates `open` only when the prop changes, not when the reader toggled the element by
+  // hand, so a validated batch is folded explicitly; opening it afterwards stays the reader's choice.
+  useEffect(() => {
+    if (batch.state === "validated" && !succeeded && details.current) details.current.open = false;
+  }, [batch.state, succeeded]);
   const title = tr("interface.preview_batch_title", { index: batch.index, total });
   const stateLabels = {
     pending: terminal ? tr("interface.preview_batch_not_started") : tr("interface.preview_batch_waiting"),
@@ -23,6 +29,9 @@ function BatchPreview({ batch, total, terminal, succeeded, pendingLabel }: {
     timed_out: tr("interface.preview_batch_timed_out"),
   };
   const hasRawOutput = !succeeded && Boolean(batch.streamPreview || batch.thinkingPreview);
+  const validated = batch.state === "validated";
+  // The batch's final result lives inside its section, so a folded batch shows nothing of it.
+  const foldable = hasRawOutput || validated;
   // One line: the batch title and its state; with raw AI output the line is the
   // <summary> that opens it, so the disclosure arrow sits on the title itself.
   const rate = batch.streamTokensPerSecond ?? batch.thinkingTokensPerSecond;
@@ -36,24 +45,27 @@ function BatchPreview({ batch, total, terminal, succeeded, pendingLabel }: {
     )}
   </>;
   return <section className="generation-stream-preview generation-batch-preview" aria-label={title}>
-    {hasRawOutput ? <details open={batch.state !== "validated"}>
+    {foldable ? <details ref={details} open={!validated || Boolean(succeeded)}>
       <summary>{heading}</summary>
       <div className="generation-live-output">
-        {batch.thinkingPreview && <GenerationStreamPreview
+        {hasRawOutput && batch.thinkingPreview && <GenerationStreamPreview
           text={batch.thinkingPreview}
           title={tr("interface.generate_analysis_title")}
           label={`${title}: ${tr("interface.generate_analysis_label")}`}
         />}
-        {batch.streamPreview && <GenerationStreamPreview
+        {hasRawOutput && batch.streamPreview && <GenerationStreamPreview
           text={batch.streamPreview}
           title={tr("interface.generate_answer_label")}
           label={`${title}: ${tr("interface.generate_answer_label")}`}
         />}
+        {validated && <section className="generation-stream-preview" aria-label={tr("interface.preview_batch_result_title")}>
+          <h4>{tr("interface.preview_batch_result_title")}</h4>
+          <div ref={field} className="generation-report-text" tabIndex={0} aria-label={`${title}: ${tr("interface.preview_content_label")}`}>
+            {batch.reportPreview ? renderRecommendationText(batch.reportPreview) : <p>{tr("interface.preview_batch_empty")}</p>}
+          </div>
+        </section>}
       </div>
     </details> : <div className="generation-batch-heading">{heading}</div>}
-    {batch.state === "validated" && <div ref={field} className="generation-report-text" tabIndex={0} aria-label={`${title}: ${tr("interface.preview_content_label")}`}>
-      {batch.reportPreview ? renderRecommendationText(batch.reportPreview) : <p>{tr("interface.preview_batch_empty")}</p>}
-    </div>}
   </section>;
 }
 

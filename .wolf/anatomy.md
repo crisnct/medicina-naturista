@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-06T06:11:31.286Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-06T13:37:30.663Z
 > Files: 473 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -379,7 +379,7 @@
 
 ## src/backend/ai/
 
-- `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~19698 tok)
+- `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~20332 tok)
 - `condition_ai.py` — Identification of the condition a message names when the dictionary does not (~3319 tok)
 - `condition_repository.py` — Ordered PostgreSQL condition snapshots shared by retrieval and indexing. (~1579 tok)
 - `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~4072 tok)
@@ -408,7 +408,7 @@
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
-- `providers.py` — Per-provider transport settings for report generation. (~2206 tok)
+- `providers.py` — Per-provider transport settings for report generation. (~2211 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2910 tok)
 
@@ -448,10 +448,10 @@
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2642 tok)
 - `report_metrics.py` — Validated measurements for one published report, independent of storage. (~1282 tok)
-- `report_models.py` — Supported report choices and their immutable provider routing. (~2061 tok)
+- `report_models.py` — Supported report choices and their immutable provider routing. (~2290 tok)
 - `score_formula.py` — Operator-supplied arithmetic over L1, L2 and L3; parsed from a whitelist, never `eval`-ed. (~736 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16342 tok)
-- `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6688 tok)
+- `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6762 tok)
 - `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
 
 ## src/backend/index_sql/
@@ -501,8 +501,8 @@
 
 ## src/backend/resources/
 
-- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~9492 tok)
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~10216 tok)
+- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~9618 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~10348 tok)
 
 ## src/backend/web/
 
@@ -535,7 +535,7 @@
 - `GeneratePanel.tsx` — MODEL_LABELS (~5502 tok)
 - `GenerationBatchEstimate.tsx` — Typing in a limit field must not ask the server for a count on every keystroke. (~900 tok)
 - `GenerationDurationEstimate.tsx` — GenerationDurationEstimate (~718 tok)
-- `GenerationReportPreview.tsx` — BatchPreview (~1711 tok)
+- `GenerationReportPreview.tsx` — BatchPreview (~2112 tok)
 - `GenerationStreamPreview.tsx` — GenerationStreamPreview (~456 tok)
 - `HerbConditionsPanel.test.tsx` — message (~2834 tok)
 - `HerbConditionsPanel.tsx` — Remount for each product so an earlier image's load/error cannot alter its successor. (~2094 tok)

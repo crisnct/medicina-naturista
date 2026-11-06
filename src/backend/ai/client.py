@@ -26,6 +26,7 @@ from backend.ai.report_validation import (
     SALVAGEABLE_WARNINGS,
     ReportValidationError,
     ValidatedReport,
+    ValidationWarning,
     report_response_schema,
     validate_report,
 )
@@ -141,6 +142,21 @@ def _ollama_error_reason(error: Any) -> str:
     if any(marker in lowered for marker in ("failed to load model", "error loading model")):
         return "model_load_failed"
     return "provider_error"
+
+
+# vLLM refuses an over-long prompt with a 400 that names the context length; a max_tokens above
+# the model length is a configuration problem, not a matter of the selected fragments.
+def _vllm_error_reason(error: Any) -> str:
+    detail = error.get("error") if isinstance(error, dict) else None
+    if not isinstance(detail, dict):
+        return "http_error"
+    message = detail.get("message")
+    lowered = message.lower() if isinstance(message, str) else ""
+    if detail.get("param") == "input_tokens" or "maximum context length" in lowered:
+        return "context_limit"
+    if detail.get("param") in ("max_tokens", "max_completion_tokens"):
+        return "output_exceeds_context"
+    return "http_error"
 
 
 # Keep JSON diagnostics useful without exposing any generated text or source content.
@@ -536,6 +552,11 @@ class ResponsesClient:
                 reason = _ollama_error_reason(
                     error.get("error") if isinstance(error, dict) else None
                 )
+            elif self.provider.name == "vllm" and response.status_code == 400:
+                try:
+                    reason = _vllm_error_reason(response.json())
+                except ValueError:
+                    pass
             logger.error(
                 "ai_request_failed provider=%s model=%s stage=http status=%s "
                 "reason=%s duration_ms=%s request_id=%s body=%s",
@@ -547,6 +568,8 @@ class ResponsesClient:
                 request_id,
                 body[:12000],
             )
+            if self.provider.name == "vllm" and reason == "context_limit":
+                raise AIUnavailable(tr("errors.ai_context_limit"), reason="context_limit") from exc
             raise AIUnavailable(
                 f"Serviciul AI ({self.provider.label}) a respins cererea "
                 f"(HTTP {response.status_code}, request_id={request_id}).",
@@ -890,6 +913,17 @@ class ResponsesClient:
             evidence, input_limit, lambda batch: self._report_input_tokens(profile, batch)
         )
 
+    # A fragment whose own request leaves no room for the output in the context is refused by
+    # the server however it is batched, so it stays out of the report; the count is reported.
+    def _fit_evidence(self, profile: ProfilePayload, evidence: Evidence) -> tuple[Evidence, int]:
+        room = self._request_context_tokens() - self._report_max_output_tokens()
+        fitting = {
+            token: item
+            for token, item in evidence.items()
+            if self._report_input_tokens(profile, {token: item}) <= room
+        }
+        return fitting, len(evidence) - len(fitting)
+
     # What generate() would send for these limits, without calling the provider.
     def plan_report_batches(
         self,
@@ -909,16 +943,13 @@ class ResponsesClient:
             input_limit = self._report_input_limit()
             if not evidence:
                 return ReportBatchPlan(0, 0, input_limit)
-            batches = self._partition(profile, evidence)
-            # A lone fragment over the chosen limit is still sent whole; only one that cannot
-            # fit the model's context (leaving room for the output) is flagged.
-            context_room = self._request_context_tokens() - self._report_max_output_tokens()
-            oversized = sum(
-                1
-                for batch in batches
-                if len(batch) == 1 and self._report_input_tokens(profile, batch) > context_room
-            )
-            return ReportBatchPlan(len(batches), oversized, input_limit)
+            # A lone fragment over the chosen limit is still sent whole; one that cannot fit the
+            # model's context (leaving room for the output) is left out and counted as oversized.
+            fitting, excluded = self._fit_evidence(profile, evidence)
+            if not fitting:
+                return ReportBatchPlan(0, excluded, input_limit)
+            batches = self._partition(profile, fitting)
+            return ReportBatchPlan(len(batches), excluded, input_limit)
 
     # The single FIFO report owner drains all batch workers before releasing its capacity.
     def generate(
@@ -952,6 +983,16 @@ class ResponsesClient:
             len(evidence),
             sum(len(value.get("text", "")) for value in evidence.values()),
         )
+        evidence, excluded = self._fit_evidence(profile, evidence)
+        if excluded:
+            logger.warning(
+                "report_fragments_excluded provider=%s model=%s count=%s reason=context_limit",
+                self.provider.name,
+                self.provider.model,
+                excluded,
+            )
+        if not evidence:
+            raise AIUnavailable(tr("errors.ai_context_limit"), reason="context_limit")
         batches = self._partition(profile, evidence)
         emit_report_batch(0, len(batches))
         reports: dict[int, ValidatedReport] = {}
@@ -1044,6 +1085,8 @@ class ResponsesClient:
         final = validate_report(combine_reports(ordered).section_payload(), evidence, strict=True)
         # The merged payload is clean, so the partial flag of a salvaged batch must be carried over.
         warnings = [warning for report in ordered for warning in report.validationWarnings]
+        if excluded:
+            warnings.append(ValidationWarning(code="FRAGMENT_TOO_LARGE", count=excluded))
         if not warnings:
             return final
         return ValidatedReport(sections=final.sections, partial=True, validationWarnings=warnings)

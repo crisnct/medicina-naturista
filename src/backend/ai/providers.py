@@ -12,6 +12,7 @@ from backend.core.report_models import (
     REPORT_MODELS,
     EffortControl,
     ReportModel,
+    parallel_context_divisor,
 )
 
 # How the provider is asked for a JSON object: Responses-style `text.format`,
@@ -100,9 +101,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
         else DEFAULT_REPORT_OUTPUT_TOKENS,
         "read_timeout_seconds": settings.ai_read_timeout_seconds,
         "stream": settings.ai_stream,
-        "parallel_context_divisor": REPORT_MODELS[choice].parallel_context_divisor
-        if choice is not None
-        else 1,
+        "parallel_context_divisor": parallel_context_divisor(choice) if choice is not None else 1,
     }
     if settings.ai_provider == "xai":
         return ProviderConfig(

@@ -73,6 +73,7 @@ class ReportModelSpec:
     thinking_tokens: int = DEFAULT_REPORT_THINKING_TOKENS
     # With parallel batches one request may use only this fraction of the context (the server
     # shares its memory between them); batches run one after another may use all of it.
+    # Ignored for the vLLM provider, see parallel_context_divisor().
     parallel_context_divisor: int = 1
     effort_control: EffortControl = "none"
     temperature: float | None = None
@@ -118,7 +119,6 @@ REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
             "vllm",
             "qwen3.5-4b",
             context_window=131_072,
-            parallel_context_divisor=2,
             effort_control="responses_effort",
         ),
         "deepseek-flash": ReportModelSpec(
@@ -146,9 +146,16 @@ EFFORT_MODELS: Final[tuple[ReportModel, ...]] = tuple(
 )
 
 
+# A vLLM server limits each request to --max-model-len whatever the parallelism (the batches share
+# only its KV cache), so no vLLM model divides its context, whatever its catalog entry says.
+def parallel_context_divisor(model: ReportModel) -> int:
+    spec = REPORT_MODELS[model]
+    return 1 if spec.provider == "vllm" else spec.parallel_context_divisor
+
+
 # The context one request may use while batches run in parallel.
 def parallel_context_tokens(model: ReportModel, context: int) -> int:
-    return context // REPORT_MODELS[model].parallel_context_divisor
+    return context // parallel_context_divisor(model)
 
 
 # The context one request may use. `workers` is the batches processed at once; 0 and 1 both

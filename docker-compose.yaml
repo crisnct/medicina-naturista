@@ -226,7 +226,7 @@
       - --model=Qwen/Qwen3.5-4B
       - --served-model-name=qwen3.5-4b
       - --quantization=fp8_per_tensor
-      - --max-model-len=101072
+      - --max-model-len=30000
       - --max-num-seqs=24
       - --gpu-memory-utilization=0.84
       - --kv-cache-dtype=fp8

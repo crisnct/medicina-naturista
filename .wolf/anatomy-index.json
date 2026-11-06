@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-06T06:11:31.286Z",
+    "lastScanned": "2026-11-06T13:37:30.663Z",
     "fileCount": 473,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "19a25daf0c338df9196d158728e286621028a935f8ebebb18cc6c5f598dd3e0b",
-    "storeUpdatedAt": "2026-11-06T06:11:31.308Z",
-    "rootHash": "3cb59c73f4df599a"
+    "renderedHash": "d7bca668f5b7b95dc57c0cd48b61ddcffd5830269001b785cb2db719d506cc65",
+    "storeUpdatedAt": "2026-11-06T13:37:30.675Z",
+    "rootHash": "6061cb5051b48125"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -936,11 +936,11 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 10216,
-      "hash": "1f66279ec786505e",
-      "size": 39519,
-      "mtimeMs": 1793787545610.2366,
-      "updatedAt": "2026-11-04T10:19:05.883Z",
+      "tokens": 10348,
+      "hash": "b133ec7b006659e1",
+      "size": 40029,
+      "mtimeMs": 1793972249174.4866,
+      "updatedAt": "2026-11-06T13:37:29.472Z",
       "source": "hook"
     },
     "src/frontend/components/Composer.tsx": {
@@ -2003,151 +2003,158 @@
     },
     "src/backend/ai/client.py": {
       "description": "Sequential whole-fragment report batches through the selected AI provider.",
-      "tokens": 19698,
-      "hash": "a26c9a0157a8b7cd",
-      "size": 68942,
-      "mtimeMs": 1793820623670.2273,
-      "updatedAt": "2026-11-04T19:30:24.059Z",
+      "tokens": 20332,
+      "hash": "8f2d98b6cd0f59d7",
+      "size": 71162,
+      "mtimeMs": 1793967894822.7983,
+      "updatedAt": "2026-11-06T12:24:55.160Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_ordered_entries",
           "kind": "fn",
-          "startLine": 86,
-          "endLine": 97,
+          "startLine": 87,
+          "endLine": 98,
           "tokens": 105
         },
         {
           "name": "AIUnavailable",
           "kind": "class",
-          "startLine": 98,
-          "endLine": 104,
+          "startLine": 99,
+          "endLine": 105,
           "tokens": 71
         },
         {
           "name": "_AIResponseError",
           "kind": "class",
-          "startLine": 105,
-          "endLine": 111,
+          "startLine": 106,
+          "endLine": 112,
           "tokens": 65
         },
         {
           "name": "_ollama_error_reason",
           "kind": "fn",
-          "startLine": 112,
-          "endLine": 146,
-          "tokens": 377
+          "startLine": 113,
+          "endLine": 148,
+          "tokens": 405
+        },
+        {
+          "name": "_vllm_error_reason",
+          "kind": "fn",
+          "startLine": 149,
+          "endLine": 162,
+          "tokens": 177
         },
         {
           "name": "json_error_details",
           "kind": "fn",
-          "startLine": 147,
-          "endLine": 172,
+          "startLine": 163,
+          "endLine": 188,
           "tokens": 325
         },
         {
           "name": "_parse_json_object",
           "kind": "fn",
-          "startLine": 173,
-          "endLine": 184,
+          "startLine": 189,
+          "endLine": 200,
           "tokens": 124
         },
         {
           "name": "_StreamedResponse",
           "kind": "class",
-          "startLine": 185,
-          "endLine": 201,
+          "startLine": 201,
+          "endLine": 217,
           "tokens": 126
         },
         {
           "name": "_response_metrics",
           "kind": "fn",
-          "startLine": 202,
-          "endLine": 219,
+          "startLine": 218,
+          "endLine": 235,
           "tokens": 176
         },
         {
           "name": "_ollama_metrics",
           "kind": "fn",
-          "startLine": 220,
-          "endLine": 251,
+          "startLine": 236,
+          "endLine": 267,
           "tokens": 348
         },
         {
           "name": "_call_cancellable",
           "kind": "fn",
-          "startLine": 252,
-          "endLine": 294,
+          "startLine": 268,
+          "endLine": 310,
           "tokens": 398
         },
         {
           "name": "_abort_stream",
           "kind": "fn",
-          "startLine": 295,
-          "endLine": 302,
+          "startLine": 311,
+          "endLine": 318,
           "tokens": 99
         },
         {
           "name": "_cancellable_lines",
           "kind": "fn",
-          "startLine": 303,
-          "endLine": 337,
+          "startLine": 319,
+          "endLine": 353,
           "tokens": 302
         },
         {
           "name": "_open_stream",
           "kind": "fn",
-          "startLine": 338,
-          "endLine": 349,
+          "startLine": 354,
+          "endLine": 365,
           "tokens": 116
         },
         {
           "name": "_collect_stream",
           "kind": "fn",
-          "startLine": 350,
-          "endLine": 404,
+          "startLine": 366,
+          "endLine": 420,
           "tokens": 691
         },
         {
           "name": "ResponsesClient",
           "kind": "class",
-          "startLine": 405,
-          "endLine": 1236,
-          "tokens": 10763
+          "startLine": 421,
+          "endLine": 1279,
+          "tokens": 11174
         },
         {
           "name": "OllamaReportClient",
           "kind": "class",
-          "startLine": 1237,
-          "endLine": 1384,
+          "startLine": 1280,
+          "endLine": 1427,
           "tokens": 1989
         },
         {
           "name": "VllmReportClient",
           "kind": "class",
-          "startLine": 1385,
-          "endLine": 1518,
+          "startLine": 1428,
+          "endLine": 1561,
           "tokens": 1820
         },
         {
           "name": "XAIClient",
           "kind": "class",
-          "startLine": 1519,
-          "endLine": 1525,
+          "startLine": 1562,
+          "endLine": 1568,
           "tokens": 95
         },
         {
           "name": "create_ai_client",
           "kind": "fn",
-          "startLine": 1526,
-          "endLine": 1535,
+          "startLine": 1569,
+          "endLine": 1578,
           "tokens": 120
         },
         {
           "name": "create_report_clients",
           "kind": "fn",
-          "startLine": 1536,
-          "endLine": 1564,
+          "startLine": 1579,
+          "endLine": 1607,
           "tokens": 379
         }
       ]
@@ -3683,11 +3690,11 @@
     },
     "src/backend/core/text_contract.py": {
       "description": "Generated key/parameter contract. Regenerate with scripts.manage_texts --generate.",
-      "tokens": 6688,
-      "hash": "5ebde62ccc30ad60",
-      "size": 23407,
-      "mtimeMs": 1793787542968.182,
-      "updatedAt": "2026-11-04T10:19:03.247Z",
+      "tokens": 6762,
+      "hash": "5797394293b31526",
+      "size": 23665,
+      "mtimeMs": 1793972007517.1333,
+      "updatedAt": "2026-11-06T13:33:27.946Z",
       "source": "hook"
     },
     "src/backend/migrations/027_essential_oil_source_aliases.sql": {
@@ -6169,54 +6176,54 @@
     },
     "src/backend/ai/providers.py": {
       "description": "Per-provider transport settings for report generation.",
-      "tokens": 2206,
-      "hash": "ecf6281efa5dd225",
-      "size": 7720,
-      "mtimeMs": 1793797853438.156,
-      "updatedAt": "2026-11-04T13:10:53.900Z",
+      "tokens": 2211,
+      "hash": "e590c30c1f36bd92",
+      "size": 7737,
+      "mtimeMs": 1793969218605.9812,
+      "updatedAt": "2026-11-06T12:46:58.912Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_GenerationLimits",
           "kind": "class",
-          "startLine": 25,
-          "endLine": 32,
+          "startLine": 26,
+          "endLine": 33,
           "tokens": 49
         },
         {
           "name": "ProviderConfig",
           "kind": "class",
-          "startLine": 33,
-          "endLine": 62,
+          "startLine": 34,
+          "endLine": 63,
           "tokens": 306
         },
         {
           "name": "_is_local",
           "kind": "fn",
-          "startLine": 63,
-          "endLine": 68,
+          "startLine": 64,
+          "endLine": 69,
           "tokens": 72
         },
         {
           "name": "default_max_output_tokens",
           "kind": "fn",
-          "startLine": 69,
-          "endLine": 76,
+          "startLine": 70,
+          "endLine": 77,
           "tokens": 104
         },
         {
           "name": "_catalog_choice",
           "kind": "fn",
-          "startLine": 77,
-          "endLine": 94,
+          "startLine": 78,
+          "endLine": 95,
           "tokens": 170
         },
         {
           "name": "provider_config",
           "kind": "fn",
-          "startLine": 95,
-          "endLine": 208,
-          "tokens": 1231
+          "startLine": 96,
+          "endLine": 209,
+          "tokens": 1227
         }
       ]
     },
@@ -6661,26 +6668,26 @@
     },
     "src/frontend/components/GenerationReportPreview.tsx": {
       "description": "BatchPreview",
-      "tokens": 1711,
-      "hash": "7e5a6e8d8e3d8008",
-      "size": 5989,
-      "mtimeMs": 1793442913094.0613,
-      "updatedAt": "2026-10-31T10:35:13.373Z",
+      "tokens": 2112,
+      "hash": "02e1b4dce6accb97",
+      "size": 7391,
+      "mtimeMs": 1793971997586.3103,
+      "updatedAt": "2026-11-06T13:33:17.968Z",
       "source": "hook",
       "symbols": [
         {
           "name": "BatchPreview",
           "kind": "fn",
           "startLine": 9,
-          "endLine": 59,
-          "tokens": 791
+          "endLine": 71,
+          "tokens": 1030
         },
         {
           "name": "GenerationReportPreview",
           "kind": "fn",
-          "startLine": 60,
-          "endLine": 117,
-          "tokens": 777
+          "startLine": 72,
+          "endLine": 140,
+          "tokens": 972
         }
       ]
     },
@@ -7031,46 +7038,60 @@
     },
     "src/backend/core/report_models.py": {
       "description": "Supported report choices and their immutable provider routing.",
-      "tokens": 2061,
-      "hash": "cc1a94482c1a49d1",
-      "size": 7213,
-      "mtimeMs": 1793792999999.498,
-      "updatedAt": "2026-11-04T11:50:00.361Z",
+      "tokens": 2290,
+      "hash": "14bca5ec9113d564",
+      "size": 8014,
+      "mtimeMs": 1793969212813.3098,
+      "updatedAt": "2026-11-06T12:46:53.274Z",
       "source": "hook",
       "symbols": [
         {
           "name": "ReportModelSpec",
           "kind": "class",
-          "startLine": 57,
-          "endLine": 144,
-          "tokens": 1010
+          "startLine": 61,
+          "endLine": 150,
+          "tokens": 1069
+        },
+        {
+          "name": "parallel_context_divisor",
+          "kind": "fn",
+          "startLine": 151,
+          "endLine": 156,
+          "tokens": 66
+        },
+        {
+          "name": "parallel_context_tokens",
+          "kind": "fn",
+          "startLine": 157,
+          "endLine": 162,
+          "tokens": 79
         },
         {
           "name": "request_context_tokens",
           "kind": "fn",
-          "startLine": 145,
-          "endLine": 148,
-          "tokens": 54
+          "startLine": 163,
+          "endLine": 166,
+          "tokens": 47
         },
         {
           "name": "parse_report_effort",
           "kind": "fn",
-          "startLine": 149,
-          "endLine": 155,
+          "startLine": 167,
+          "endLine": 173,
           "tokens": 80
         },
         {
           "name": "parse_report_model",
           "kind": "fn",
-          "startLine": 156,
-          "endLine": 162,
+          "startLine": 174,
+          "endLine": 180,
           "tokens": 78
         },
         {
           "name": "parse_report_models",
           "kind": "fn",
-          "startLine": 163,
-          "endLine": 175,
+          "startLine": 181,
+          "endLine": 193,
           "tokens": 189
         }
       ]
@@ -7443,11 +7464,11 @@
     },
     "src/backend/resources/texts.en.toml": {
       "description": "English application copy. Keys and named parameters match texts.ro.toml exactly.",
-      "tokens": 9492,
-      "hash": "db78382d675b8fb8",
-      "size": 35732,
-      "mtimeMs": 1793787544220.7249,
-      "updatedAt": "2026-11-04T10:19:04.688Z",
+      "tokens": 9618,
+      "hash": "e80ceaaa06efab55",
+      "size": 36203,
+      "mtimeMs": 1793972250345.5923,
+      "updatedAt": "2026-11-06T13:37:30.662Z",
       "source": "hook"
     },
     "src/backend/migrations/032_bilingual_chunks.sql": {

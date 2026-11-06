@@ -3030,3 +3030,30 @@ description: chronological action log per session, consolidated weekly
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
 | 08:11 | Edited aiPlans/2026-10-27-imagini-produse-naturiste.md | expanded (+17 lines) | ~390 |
+| 14:24 | Edited src/backend/ai/client.py | 3→4 lines | ~28 |
+| 14:24 | Edited src/backend/ai/client.py | modified _vllm_error_reason() | ~222 |
+| 14:24 | Edited src/backend/ai/client.py | added error handling | ~112 |
+| 14:24 | Edited src/backend/ai/client.py | 4→6 lines | ~94 |
+| 14:24 | Edited src/backend/ai/client.py | modified _fit_evidence() | ~194 |
+| 14:24 | Edited src/backend/ai/client.py | 10→7 lines | ~139 |
+| 14:24 | Edited src/backend/ai/client.py | expanded (+10 lines) | ~152 |
+| 14:24 | Edited src/backend/ai/client.py | 2→4 lines | ~65 |
+| 14:25 | Edited src/backend/resources/texts.ro.toml | "Raportul este parțial: un" → "Raportul este parțial: un" | ~32 |
+| 14:25 | Edited src/backend/resources/texts.ro.toml | "Loturi cu un singur fragm" → "Fragmente peste contextul" | ~29 |
+| 14:25 | Edited src/backend/resources/texts.en.toml | "This report is partial: s" → "This report is partial: s" | ~31 |
+| 14:25 | Edited src/backend/resources/texts.en.toml | "Batches with a single exc" → "Excerpts over the model c" | ~30 |
+| 14:46 | Edited src/backend/core/report_models.py | 3→2 lines | ~24 |
+| 14:46 | Edited src/backend/core/report_models.py | modified parallel_context_divisor() | ~156 |
+| 14:46 | Edited src/backend/core/report_models.py | 2→3 lines | ~72 |
+| 14:46 | Edited src/backend/ai/providers.py | 5→6 lines | ~25 |
+| 14:46 | Edited src/backend/ai/providers.py | 2→2 lines | ~28 |
+| 15:29 | Edited src/frontend/components/GenerationReportPreview.tsx | added 1 condition(s) | ~182 |
+| 15:29 | Edited src/frontend/components/GenerationReportPreview.tsx | inline fix | ~23 |
+| 15:33 | Edited src/frontend/components/GenerationReportPreview.tsx | 3→3 lines | ~44 |
+| 15:33 | Edited src/frontend/components/GenerationReportPreview.tsx | 1→4 lines | ~81 |
+| 15:33 | Edited src/frontend/components/GenerationReportPreview.tsx | modified renderRecommendationText() | ~363 |
+| 15:33 | Edited src/backend/resources/texts.ro.toml | 1→2 lines | ~27 |
+| 15:33 | Edited src/backend/resources/texts.en.toml | 1→2 lines | ~29 |
+| 15:33 | Edited src/backend/core/text_contract.py | 1→2 lines | ~27 |
+| 15:37 | Edited src/backend/resources/texts.ro.toml | " — total: {tokens_per_sec" → " — debit curent (toate lo" | ~24 |
+| 15:37 | Edited src/backend/resources/texts.en.toml | " — total: {tokens_per_sec" → " — current throughput (al" | ~25 |

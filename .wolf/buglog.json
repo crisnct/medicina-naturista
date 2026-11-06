@@ -9550,8 +9550,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-531",
       "timestamp": "2026-11-04T19:02:16.026Z",
-      "last_seen": "2026-11-04T19:02:16.026Z",
-      "occurrences": 1,
+      "last_seen": "2026-11-06T12:24:46.790Z",
+      "occurrences": 2,
       "related_bugs": []
     },
     {
@@ -9749,6 +9749,60 @@
       "id": "bug-542",
       "timestamp": "2026-11-04T20:50:51.318Z",
       "last_seen": "2026-11-04T20:50:51.318Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/core/report_models.py",
+      "root_cause": "Was returning: context // REPORT_MODELS[model].parallel_context_d",
+      "fix": "Now returns: 1 if spec.provider == \"vllm\" else spec.parallel_co",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-543",
+      "timestamp": "2026-11-06T12:46:50.692Z",
+      "last_seen": "2026-11-06T12:46:50.692Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong condition in logic",
+      "file": "src/frontend/components/GenerationReportPreview.tsx",
+      "root_cause": "Condition was: if (batch.state === \"validated\" && details.current)",
+      "fix": "Changed to: if (batch.state === \"validated\" && !succeeded && detai)",
+      "tags": [
+        "auto-detected",
+        "logic-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-544",
+      "timestamp": "2026-11-06T13:33:11.863Z",
+      "last_seen": "2026-11-06T13:33:11.863Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong operator: === should be ||",
+      "file": "src/frontend/components/GenerationReportPreview.tsx",
+      "root_cause": "Used \"===\" instead of \"||\"",
+      "fix": "Changed operator === → ||",
+      "tags": [
+        "auto-detected",
+        "operator-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-545",
+      "timestamp": "2026-11-06T13:33:18.004Z",
+      "last_seen": "2026-11-06T13:33:18.004Z",
       "occurrences": 1,
       "related_bugs": []
     }
@@ -10335,7 +10389,11 @@
     "2a6f2c9c-76fc-4955-b8cb-86c75c7aa97a": true,
     "95303963-2f77-4844-a530-9e9772c01792": true,
     "6f3cb812-d81c-48c3-b08f-b8103f3cb529": true,
-    "4862eacd-9549-4ea8-901c-095feb719470": true
+    "4862eacd-9549-4ea8-901c-095feb719470": true,
+    "7546fec0-f4a6-4ee3-b853-b8eed1cb1f38": true,
+    "48dcfafa-86b9-428f-a8d2-ea7615515cdd": true,
+    "06437f7e-4f05-49fc-a93b-4cd861e62fc5": true,
+    "37f242af-2281-43fc-8902-da9ae0a7e1e8": true
   },
-  "next_id": 543
+  "next_id": 546
 }
