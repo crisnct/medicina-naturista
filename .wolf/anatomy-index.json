@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-06T14:43:16.511Z",
-    "fileCount": 473,
+    "lastScanned": "2026-11-07T05:49:02.587Z",
+    "fileCount": 478,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "2fc04419dca38c8f725195f302a9d6112a82bda7407fe0b8a4e5b7b2a3067915",
-    "storeUpdatedAt": "2026-11-06T14:43:16.523Z",
-    "rootHash": "d045418dc4bfb389"
+    "renderedHash": "01ade99f8dfefe3c9e85527d476f7fface3badd715a04b984ae0b63063103743",
+    "storeUpdatedAt": "2026-11-07T05:49:02.598Z",
+    "rootHash": "3d9b3a86a576de0d"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -6342,11 +6342,11 @@
     },
     "aiPlans/2026-10-27-imagini-produse-naturiste.md": {
       "description": "Imagini pentru produsele din herbs",
-      "tokens": 1332,
-      "hash": "04d1615e0b17ac2c",
-      "size": 5326,
-      "mtimeMs": 1793945490752.9526,
-      "updatedAt": "2026-11-06T06:11:31.285Z",
+      "tokens": 1668,
+      "hash": "22bc92bc754661b2",
+      "size": 6669,
+      "mtimeMs": 1794030510302.0105,
+      "updatedAt": "2026-11-07T05:48:30.858Z",
       "source": "hook"
     },
     "src/backend/ai/herb_images.py": {
@@ -12269,6 +12269,76 @@
           "tokens": 1656
         }
       ]
+    },
+    "aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md": {
+      "description": "Phi-4-mini report model and on-demand vLLM containers",
+      "tokens": 5142,
+      "hash": "2751d15a1b00f80c",
+      "size": 20567,
+      "mtimeMs": 1794030542338.4219,
+      "updatedAt": "2026-11-07T05:49:02.586Z",
+      "source": "hook"
+    },
+    "aiWork/vllm/phi4_report.py": {
+      "description": "Phase 0: one full Phi-4-mini report through VllmReportClient.generate with real chunks; no src chang",
+      "tokens": 1118,
+      "hash": "4cfee437012213d1",
+      "size": 3911,
+      "mtimeMs": 1794028271047.5295,
+      "updatedAt": "2026-11-07T05:11:11.425Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "metrics",
+          "kind": "fn",
+          "startLine": 59,
+          "endLine": 85,
+          "tokens": 385
+        }
+      ]
+    },
+    "aiWork/vllm/phi4_raw.py": {
+      "description": "Phase 0: capture the real report request of Phi-4-mini, then replay it and save the raw answer.",
+      "tokens": 1190,
+      "hash": "e01f075e5c808b4e",
+      "size": 4163,
+      "mtimeMs": 1794028949202.1687,
+      "updatedAt": "2026-11-07T05:22:29.511Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Captured",
+          "kind": "class",
+          "startLine": 42,
+          "endLine": 48,
+          "tokens": 16
+        },
+        {
+          "name": "capture",
+          "kind": "fn",
+          "startLine": 49,
+          "endLine": 89,
+          "tokens": 538
+        }
+      ]
+    },
+    "aiWork/vllm/phi4_mechanics.sh": {
+      "description": "Phase 0 mechanics, Ollama HTTP API only (the ollama CLI hung under this shell). Every call has a tim",
+      "tokens": 572,
+      "hash": "ae43462332e2c34e",
+      "size": 2143,
+      "mtimeMs": 1794030087303.8025,
+      "updatedAt": "2026-11-07T05:41:27.575Z",
+      "source": "hook"
+    },
+    "aiWork/vllm/phi4_gpu_mix.sh": {
+      "description": "Phase 0: Ollama cold load beside vLLM, and vLLM start beside a large Ollama model.",
+      "tokens": 766,
+      "hash": "a7d152c4406cc456",
+      "size": 2869,
+      "mtimeMs": 1794030258847.2712,
+      "updatedAt": "2026-11-07T05:44:19.085Z",
+      "source": "hook"
     }
   },
   "preamble": [

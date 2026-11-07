@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌿 Adjuvant Natural Remedies - from Dr. Cuișor
+# 🌿 NaturaMind: AI Assistant for Naturopathic Medicine
 
 ### AI naturopathy assistant based on local sources
 

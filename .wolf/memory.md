@@ -3077,3 +3077,32 @@ description: chronological action log per session, consolidated weekly
 | 16:43 | Edited src/backend/web/main.py | expanded (+8 lines) | ~111 |
 | 16:43 | Edited src/backend/config.py | 1→3 lines | ~45 |
 | 16:43 | Edited src/backend/config.py | 2→3 lines | ~23 |
+
+## Session: 2026-11-06 17:11
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 17:24 | Created aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | — | ~4387 |
+| 17:29 | Session end: 1 writes across 1 files (2026-11-06-vllm-phi4-mini-on-demand-containers.md) | 10 reads | ~24412 tok |
+| 07:11 | Created aiWork/vllm/phi4_report.py | — | ~1118 |
+
+## Session: 2026-11-07 07:20
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 07:22 | Created aiWork/vllm/phi4_raw.py | — | ~1190 |
+| 07:41 | Created aiWork/vllm/phi4_mechanics.sh | — | ~572 |
+| 07:44 | Created aiWork/vllm/phi4_gpu_mix.sh | — | ~766 |
+| 07:48 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | review() → done() | ~54 |
+| 07:48 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | inline fix | ~66 |
+| 07:48 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | 2→2 lines | ~43 |
+| 07:48 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | 2→2 lines | ~93 |
+| 07:48 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | 4→6 lines | ~76 |
+| 07:48 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | 2→5 lines | ~122 |
+| 07:48 | Edited aiPlans/2026-10-27-imagini-produse-naturiste.md | expanded (+19 lines) | ~387 |
+| 07:48 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | 2→2 lines | ~102 |
+| 07:48 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | expanded (+52 lines) | ~1182 |
+| 07:49 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | 12→13 lines | ~328 |
+| 07:49 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | 1→3 lines | ~84 |
+<!-- session:YjFjOThmMDktYTFhMy00ZGM5LWJiNzctMjQ0NjYyNTA5MjFh -->
+| 2026-11-07T05:49:08.206Z | Planned on-demand vLLM containers and ran Phase 0 for Phi-4-mini: loads on the stock image; valid report JSON needs disable_any_whitespace and temperature 0; Romanian quality gate not met; compose, socket and GPU mechanics measured | aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md,aiWork/vllm/phi4_report.py,aiWork/vllm/phi4_raw.py,aiWork/vllm/phi4_mechanics.sh,aiWork/vllm/phi4_gpu_mix.sh,aiWork/vllm/phi4_check_claims.py | Live measurements only; nothing in src or docker-compose changed; no implementation started |

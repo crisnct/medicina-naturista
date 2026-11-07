@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-06T14:43:16.511Z
-> Files: 473 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-07T05:49:02.587Z
+> Files: 478 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -59,7 +59,7 @@
 - `2026-10-26-plante-afectiuni-utile-si-interzise.md` — Plan: afecțiuni în care o plantă este utilă sau interzisă (~8307 tok)
 - `2026-10-26-top-produse-naturiste-pentru-afectiune.md` — Plan: top produse naturiste pentru o afectiune (~4761 tok)
 - `2026-10-27-afisare-imagini-produse-in-chat.md` — Afișarea imaginilor produselor în chat (~2023 tok)
-- `2026-10-27-imagini-produse-naturiste.md` — Imagini pentru produsele din herbs (~1332 tok)
+- `2026-10-27-imagini-produse-naturiste.md` — Imagini pentru produsele din herbs (~1668 tok)
 - `2026-10-28-detalii-ai-in-timpul-generarii.md` — Detalii AI în timpul generării (~398 tok)
 - `2026-10-28-diagnostic-ollama-si-validare-raport.md` — Diagnostic Ollama și validare raport (~1008 tok)
 - `2026-10-28-previzualizare-separata-pe-lot.md` — Previzualizare separată pentru fiecare lot (~681 tok)
@@ -76,6 +76,7 @@
 - `2026-11-02-eliminare-primary-din-secondary-conditions.md` — Eliminare afectiunilor primare din secondary_medical_conditions (script SQL la reindexare) (~4332 tok)
 - `2026-11-03-integrare-vllm-translategemma.md` — Plan: integrarea vLLM pentru `translate_markdown.py` (faza 1: `translategemma:4b`) (~5934 tok)
 - `2026-11-04-vllm-qwen35-9b-indexare.md` — Indexare: `ollama-qwen3.5:9b` → `vllm-qwen3.5:9b` — abandonat (~3781 tok)
+- `2026-11-06-vllm-phi4-mini-on-demand-containers.md` — Phi-4-mini report model and on-demand vLLM containers (~5142 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
@@ -340,6 +341,10 @@
 
 - `assoc_bench.py` — Benchmark: real association batches on vLLM Qwen3.5-4B at several concurrency levels. (~3598 tok)
 - `assoc_sample.py` — Quality sample for one herb: the real association batches that contain it, on vLLM Qwen3.5-4B. (~2334 tok)
+- `phi4_gpu_mix.sh` — Phase 0: Ollama cold load beside vLLM, and vLLM start beside a large Ollama model. (~766 tok)
+- `phi4_mechanics.sh` — Phase 0 mechanics, Ollama HTTP API only (the ollama CLI hung under this shell). Every call has a tim (~572 tok)
+- `phi4_raw.py` — Phase 0: capture the real report request of Phi-4-mini, then replay it and save the raw answer. (~1190 tok)
+- `phi4_report.py` — Phase 0: one full Phi-4-mini report through VllmReportClient.generate with real chunks; no src chang (~1118 tok)
 
 ## aiWork/vlm/
 
