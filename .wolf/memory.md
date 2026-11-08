@@ -3188,3 +3188,87 @@ description: chronological action log per session, consolidated weekly
 | 09:10 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | expanded (+32 lines) | ~713 |
 | 09:19 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | modified containers() | ~364 |
 | 09:24 | Session end: 4 writes across 1 files (README.md) | 1 reads | ~320 tok |
+
+## Session: 2026-11-08 09:29
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 09:31 | Edited src/backend/ai/model_runtime.py | 3→3 lines | ~30 |
+| 09:31 | Edited src/backend/ai/model_runtime.py | modified _prepare_ollama() | ~211 |
+| 09:31 | Edited src/backend/ai/model_runtime.py | modified _serves() | ~89 |
+| 09:31 | Edited src/backend/ai/model_runtime.py | modified _unload_ollama() | ~450 |
+| 09:32 | Edited README.md | inline fix | ~110 |
+| 09:32 | Edited src/backend/ai/model_runtime.py | modified in() | ~140 |
+| 09:32 | Edited src/backend/ai/model_runtime.py | modified _prepare_ollama() | ~140 |
+| 09:32 | Edited src/backend/ai/model_runtime.py | 3→2 lines | ~20 |
+| 09:32 | Edited src/backend/ai/model_runtime.py | modified _unload_ollama() | ~91 |
+| 09:32 | Edited src/backend/ai/model_runtime.py | inline fix | ~12 |
+| 09:32 | Edited src/backend/ai/model_runtime.py | modified _ollama_loaded() | ~70 |
+| 09:32 | Edited README.md | inline fix | ~50 |
+| 09:34 | Edited src/backend/ai/model_runtime.py | 11→15 lines | ~258 |
+| 09:34 | Edited src/backend/ai/model_runtime.py | modified close() | ~65 |
+| 09:34 | Edited README.md | inline fix | ~99 |
+| 09:36 | Session end: 15 writes across 2 files (model_runtime.py, README.md) | 2 reads | ~1853 tok |
+| 09:50 | Edited src/backend/resources/texts.ro.toml | "adjuvante" → "NaturaMIND" | ~10 |
+| 09:50 | Edited src/backend/resources/texts.ro.toml | inline fix | ~6 |
+| 09:50 | Edited src/backend/resources/texts.ro.toml | "Remedii Naturiste Adjuvan" → "NaturaMIND — Dr. Cuișor" | ~11 |
+| 09:50 | Edited src/backend/resources/texts.en.toml | "supportive" → "NaturaMIND" | ~10 |
+| 09:50 | Edited src/backend/resources/texts.en.toml | inline fix | ~6 |
+| 09:50 | Edited src/backend/resources/texts.en.toml | "Supportive Natural Remedi" → "NaturaMIND — Dr. Cuișor" | ~11 |
+| 09:54 | Edited src/backend/resources/texts.ro.toml | "Dr. Cuișor, asistent virt" → "Moș Cuișor, asistent virt" | ~15 |
+| 09:54 | Edited src/backend/resources/texts.ro.toml | "Dr. Cuișor" → "Moș Cuișor" | ~9 |
+| 09:54 | Edited src/backend/resources/texts.ro.toml | "Personajul virtual Dr. Cu" → "Personajul virtual Moș Cu" | ~14 |
+| 09:54 | Edited src/backend/resources/texts.ro.toml | "NaturaMIND — Dr. Cuișor" → "NaturaMIND — Moș Cuișor" | ~11 |
+| 09:54 | Edited src/backend/resources/texts.ro.toml | "de la dr. Cuișor" → "de la Moș Cuișor" | ~9 |
+| 09:54 | Edited src/backend/resources/texts.ro.toml | "Remedii naturiste de la D" → "Remedii naturiste de la M" | ~12 |
+| 09:54 | Edited src/backend/resources/texts.en.toml | "Dr. Cuișor, virtual AI as" → "Grandpa Cuișor, virtual A" | ~16 |
+| 09:54 | Edited src/backend/resources/texts.en.toml | "Dr. Cuișor" → "Grandpa Cuișor" | ~10 |
+| 09:54 | Edited src/backend/resources/texts.en.toml | "The virtual character Dr." → "The virtual character Gra" | ~16 |
+| 09:54 | Edited src/backend/resources/texts.en.toml | "NaturaMIND — Dr. Cuișor" → "NaturaMIND — Grandpa Cuiș" | ~12 |
+| 09:54 | Edited src/backend/resources/texts.en.toml | "by Dr. Cuișor" → "by Grandpa Cuișor" | ~10 |
+| 09:55 | Edited src/backend/resources/texts.en.toml | "Natural remedies from Dr." → "Natural remedies from Gra" | ~13 |
+| 09:55 | Edited src/tests/unit/web/test_web.py | "de la dr. Cuișor" → "de la Moș Cuișor" | ~12 |
+| 09:55 | Edited README.md | inline fix | ~7 |
+| 09:55 | Edited src/backend/resources/texts.ro.toml | inline fix | ~89 |
+| 09:55 | Edited src/backend/resources/texts.en.toml | inline fix | ~89 |
+| 09:56 | Edited src/backend/resources/texts.ro.toml | inline fix | ~50 |
+| 09:56 | Edited src/backend/resources/texts.en.toml | inline fix | ~50 |
+| 09:59 | Edited src/frontend/components/LanguageSelect.tsx | 5→7 lines | ~98 |
+| 10:00 | Edited src/frontend/components/LanguageSelect.tsx | 2→6 lines | ~54 |
+| 10:00 | Edited src/frontend/App.tsx | inline fix | ~12 |
+| 10:00 | Edited src/frontend/App.test.tsx | 3→3 lines | ~58 |
+| 10:00 | Edited src/frontend/App.test.tsx | 3→3 lines | ~58 |
+| 10:00 | Edited src/frontend/styles.css | 3→3 lines | ~19 |
+| 10:00 | Edited src/frontend/styles.css | inline fix | ~24 |
+| 10:09 | Edited src/backend/resources/texts.ro.toml | inline fix | ~107 |
+| 10:12 | Edited src/frontend/components/Hero.tsx | expanded (+14 lines) | ~411 |
+| 10:14 | Edited src/frontend/styles.css | 4→3 lines | ~20 |
+| 10:14 | Edited src/backend/resources/texts.ro.toml | inline fix | ~11 |
+| 10:14 | Edited src/backend/resources/texts.ro.toml | inline fix | ~8 |
+| 10:14 | Edited src/backend/resources/texts.ro.toml | inline fix | ~9 |
+| 10:14 | Edited src/backend/resources/texts.ro.toml | inline fix | ~11 |
+| 10:14 | Edited src/backend/resources/texts.en.toml | inline fix | ~11 |
+| 10:14 | Edited src/backend/resources/texts.en.toml | inline fix | ~9 |
+| 10:14 | Edited src/backend/resources/texts.en.toml | inline fix | ~12 |
+| 10:14 | Edited src/backend/resources/texts.en.toml | inline fix | ~12 |
+| 10:14 | Edited src/frontend/App.tsx | 1→3 lines | ~41 |
+| 10:14 | Edited src/frontend/styles.css | CSS: padding-left, li, margin-bottom | ~56 |
+| 10:17 | Edited src/frontend/App.tsx | expanded (+18 lines) | ~364 |
+| 10:18 | Edited src/frontend/styles.css | expanded (+13 lines) | ~229 |
+| 10:19 | Created src/frontend/components/HeroEmblem.tsx | — | ~943 |
+| 10:25 | Edited src/backend/resources/texts.ro.toml | 1→3 lines | ~37 |
+| 10:25 | Edited src/backend/resources/texts.en.toml | 1→3 lines | ~33 |
+| 10:25 | Created src/frontend/components/FirstVisitNotice.tsx | — | ~789 |
+| 10:25 | Edited src/frontend/styles.css | inline fix | ~6 |
+| 10:25 | Edited src/frontend/styles.css | expanded (+28 lines) | ~291 |
+| 10:25 | Edited src/frontend/App.tsx | added 1 import(s) | ~35 |
+| 10:25 | Edited src/frontend/App.tsx | 2→3 lines | ~22 |
+| 10:25 | Edited src/frontend/setupTests.ts | 4→7 lines | ~85 |
+| 10:27 | Edited src/backend/resources/texts.ro.toml | 1→3 lines | ~91 |
+| 10:27 | Edited src/backend/resources/texts.en.toml | 1→3 lines | ~87 |
+| 10:27 | Edited src/frontend/components/FirstVisitNotice.tsx | 2→6 lines | ~104 |
+| 10:28 | Edited src/frontend/styles.css | CSS: position, bottom, box-shadow | ~36 |
+| 10:36 | Edited src/frontend/lib/texts.ts | modified tr() | ~136 |
+| 10:36 | Created src/frontend/components/FirstVisitNotice.tsx | — | ~1004 |
+| 10:36 | Edited src/frontend/styles.css | 2→2 lines | ~23 |
+| 10:36 | Edited src/frontend/styles.css | modified media() | ~146 |

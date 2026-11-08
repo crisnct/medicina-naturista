@@ -100,8 +100,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-006",
       "timestamp": "2026-10-21T03:06:53.499Z",
-      "last_seen": "2026-10-21T03:06:53.499Z",
-      "occurrences": 1,
+      "last_seen": "2026-11-08T08:25:39.785Z",
+      "occurrences": 2,
       "related_bugs": []
     },
     {
@@ -10003,6 +10003,330 @@
       "last_seen": "2026-11-08T06:37:06.121Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of model_runtime.py",
+      "file": "src/backend/ai/model_runtime.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 9→12 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-557",
+      "timestamp": "2026-11-08T07:31:41.324Z",
+      "last_seen": "2026-11-08T07:31:41.324Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of model_runtime.py",
+      "file": "src/backend/ai/model_runtime.py",
+      "root_cause": "7 lines replaced/restructured",
+      "fix": "Rewrote 12→9 lines (7 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-558",
+      "timestamp": "2026-11-08T07:32:44.204Z",
+      "last_seen": "2026-11-08T07:32:44.204Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of model_runtime.py",
+      "file": "src/backend/ai/model_runtime.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 8→7 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-559",
+      "timestamp": "2026-11-08T07:32:47.469Z",
+      "last_seen": "2026-11-08T07:32:47.469Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/ai/model_runtime.py",
+      "root_cause": "Was returning: [name for name in names if name != keep]",
+      "fix": "Now returns: [item[\"name\"] for item in response.json().get(\"mod",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-560",
+      "timestamp": "2026-11-08T07:32:50.683Z",
+      "last_seen": "2026-11-08T07:32:50.683Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/web/test_web.py",
+      "root_cause": "Had \"de la dr. Cuișor\"",
+      "fix": "Changed to \"de la Moș Cuișor\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-561",
+      "timestamp": "2026-11-08T07:55:01.383Z",
+      "last_seen": "2026-11-08T07:55:01.383Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of LanguageSelect.tsx",
+      "file": "src/frontend/components/LanguageSelect.tsx",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 5→7 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-562",
+      "timestamp": "2026-11-08T07:59:58.779Z",
+      "last_seen": "2026-11-08T07:59:58.779Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Type error",
+      "file": "src/frontend/components/LanguageSelect.tsx",
+      "root_cause": "Missing or incorrect type annotation",
+      "fix": "Added type assertion/annotation",
+      "tags": [
+        "auto-detected",
+        "type-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-563",
+      "timestamp": "2026-11-08T08:00:01.229Z",
+      "last_seen": "2026-11-08T08:00:01.229Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/App.tsx",
+      "root_cause": "Had \"Language\"",
+      "fix": "Changed to \"Limbă\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-564",
+      "timestamp": "2026-11-08T08:00:03.716Z",
+      "last_seen": "2026-11-08T08:00:03.716Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/App.test.tsx",
+      "root_cause": "Had \"Limbă\"",
+      "fix": "Changed to \"Language\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-565",
+      "timestamp": "2026-11-08T08:00:06.087Z",
+      "last_seen": "2026-11-08T08:00:06.087Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/App.test.tsx",
+      "root_cause": "Had \"Language\"",
+      "fix": "Changed to \"Limbă\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-566",
+      "timestamp": "2026-11-08T08:00:08.369Z",
+      "last_seen": "2026-11-08T08:00:08.369Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 39px should be 54px",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"39px\" instead of \"54px\"",
+      "fix": "Changed 39px → 54px",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-567",
+      "timestamp": "2026-11-08T08:00:39.096Z",
+      "last_seen": "2026-11-08T08:00:39.096Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 34px should be 42px",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"34px\" instead of \"42px\"",
+      "fix": "Changed 34px → 42px",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-568",
+      "timestamp": "2026-11-08T08:00:41.525Z",
+      "last_seen": "2026-11-08T08:00:41.525Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of Hero.tsx",
+      "file": "src/frontend/components/Hero.tsx",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 4→18 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-569",
+      "timestamp": "2026-11-08T08:12:02.909Z",
+      "last_seen": "2026-11-08T08:12:02.909Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: margin",
+      "file": "src/frontend/styles.css",
+      "root_cause": "margin: 0 → 0 0 4px",
+      "fix": "Changed margin: 0 → 0 0 4px",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-570",
+      "timestamp": "2026-11-08T08:14:50.599Z",
+      "last_seen": "2026-11-08T08:14:50.599Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of App.tsx",
+      "file": "src/frontend/App.tsx",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→21 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-571",
+      "timestamp": "2026-11-08T08:17:59.302Z",
+      "last_seen": "2026-11-08T08:17:59.302Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: margin",
+      "file": "src/frontend/styles.css",
+      "root_cause": "margin: 0 0 4px → 12px 0 0",
+      "fix": "Changed margin: 0 0 4px → 12px 0 0",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-572",
+      "timestamp": "2026-11-08T08:18:02.959Z",
+      "last_seen": "2026-11-08T08:18:02.959Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/frontend/lib/texts.ts",
+      "root_cause": "Was returning: catalog()[key].replace(tokens, (match, name: strin",
+      "fix": "Now returns: trIn(language, key, ...args);",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-573",
+      "timestamp": "2026-11-08T08:36:18.536Z",
+      "last_seen": "2026-11-08T08:36:18.536Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 520px should be 980px",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"520px\" instead of \"980px\"",
+      "fix": "Changed 520px → 980px",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-574",
+      "timestamp": "2026-11-08T08:36:44.806Z",
+      "last_seen": "2026-11-08T08:36:44.806Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -10603,7 +10927,26 @@
     "dd64774f-8e6e-4986-bdc0-40e436f0485b": true,
     "f65ac3df-a698-457b-b2f4-381e729c1d04": true,
     "0eeead16-5766-4db7-8718-bd0d288a1a34": true,
-    "8c86b259-6593-41ff-a4cc-0c365509674b": true
+    "8c86b259-6593-41ff-a4cc-0c365509674b": true,
+    "6130b942-7ef0-4b2a-a0f7-1147142a17b1": true,
+    "c0c0d170-f591-41d5-8f15-7d5ba961c010": true,
+    "81e78d33-f89b-42de-a8af-ec0d2c29972f": true,
+    "24a3c708-8374-4b5d-bab5-0ceb8f5ec0f8": true,
+    "daa68a2f-20e7-4a13-aee1-11e9529bc6ce": true,
+    "0614bfeb-77aa-42e0-9f19-1602aac9d481": true,
+    "728ee064-4853-49b5-82ea-73d33fed2fd6": true,
+    "2e755ad0-eb8d-401d-abb6-486883f3e496": true,
+    "4a9f6ff5-93b9-4231-81c8-0e1765624338": true,
+    "b59c0f9d-d416-43b0-bfdd-5f4c63e579c7": true,
+    "87480444-1800-4fe0-ad0c-a5a7fc512de1": true,
+    "ca906226-2aff-4c65-bd00-aefe92276379": true,
+    "5f0ea4e6-200a-48a9-ba1e-0cbfce144e36": true,
+    "c2fe5fcd-dad0-495e-9b10-fed59b80b104": true,
+    "c7b3f525-a326-4761-80cf-549ebf2982d0": true,
+    "702d8d66-348e-47a7-ba01-f84eeb87206d": true,
+    "b0c3674a-731e-43f5-b792-4b37c4bc4497": true,
+    "9e8fb8c5-f120-47b5-a219-0034fd5dfede": true,
+    "5ef97abb-7af3-4f7b-bcb3-850428390a9d": true
   },
-  "next_id": 557
+  "next_id": 575
 }

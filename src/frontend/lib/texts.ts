@@ -96,8 +96,13 @@ function catalog(selected: Language = language): Readonly<Record<string, string>
 }
 
 export function tr<K extends TextKey>(key: K, ...args: Arguments<K>): string {
+  return trIn(language, key, ...args);
+}
+
+// A text in a chosen language, for the few places that show both (the first-visit notice).
+export function trIn<K extends TextKey>(selected: Language, key: K, ...args: Arguments<K>): string {
   const parameters = (args[0] ?? {}) as Record<string, string | number>;
-  return catalog()[key].replace(tokens, (match, name: string | undefined) => {
+  return catalog(selected)[key].replace(tokens, (match, name: string | undefined) => {
     if (!name) return match === "{{" ? "{" : "}";
     if (!(name in parameters)) {
       throw new Error(`Missing application text parameter: ${key}.${name}`);

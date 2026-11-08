@@ -6,6 +6,7 @@ import { Composer } from "./components/Composer";
 import { CategoryFilterPanel } from "./components/CategoryFilterPanel";
 import { LanguageSelect } from "./components/LanguageSelect";
 import { OwnerNotice } from "./components/OwnerNotice";
+import { FirstVisitNotice } from "./components/FirstVisitNotice";
 import { useConversation } from "./hooks/useConversation";
 import { useCategories } from "./hooks/useCategories";
 import { useSearchSignals } from "./hooks/useSearchSignals";
@@ -62,8 +63,9 @@ export function App() {
 
   return (
     <div id="app-shell">
+      <FirstVisitNotice />
       <Hero documentCount={categories.documentCount ?? conversation.documentCounts?.[language] ?? null} controls={<div className="language-selector">
-        <span id="application-language-label">{language === "en" ? "Language" : "Limbă"}</span>
+        <span id="application-language-label">{language === "en" ? "Limbă" : "Language"}</span>
         <LanguageSelect value={language} labelId="application-language-label"
           disabled={changingLanguage || conversation.isLoading || conversation.isSending || conversation.isGenerating || conversation.isReconnecting || !startup.ready}
           onChange={(next) => void changeLanguage(next)} />
@@ -120,7 +122,27 @@ export function App() {
         <footer className="source-notice">
           <aside className="source-information" aria-labelledby="source-information-title">
             <h3 id="source-information-title">{tr("interface.app_data_usage_title")}</h3>
-            <p>{tr("interface.app_data_usage_notice")}</p>
+            <ul className="source-points">
+              <li>
+                <span className="source-point-icon" aria-hidden="true">📚</span>
+                <div><strong>{tr("interface.app_data_usage_sources_label")}</strong>{tr("interface.app_data_usage_sources_text")}</div>
+              </li>
+              <li>
+                <span className="source-point-icon" aria-hidden="true">🤖</span>
+                <div><strong>{tr("interface.app_data_usage_providers_label")}</strong>{tr("interface.app_data_usage_providers_text")}</div>
+              </li>
+              <li>
+                <span className="source-point-icon" aria-hidden="true">🔒</span>
+                <div><strong>{tr("interface.app_data_usage_storage_label")}</strong>{tr("interface.app_data_usage_storage_text")}</div>
+              </li>
+              <li>
+                <span className="source-point-icon" aria-hidden="true">🛡️</span>
+                <div><strong>{tr("interface.app_data_usage_gdpr_label")}</strong>{tr("interface.app_data_usage_gdpr_text")}</div>
+              </li>
+            </ul>
+            <p className="source-important">
+              <strong>⚕️ {tr("interface.app_data_usage_medical_label")}</strong>{tr("interface.app_data_usage_medical_text")}
+            </p>
           </aside>
         </footer>
       </div>

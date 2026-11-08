@@ -9,3 +9,6 @@ Object.defineProperty(globalThis, "localStorage", {
   configurable: true,
   get: () => jsdom.window.localStorage,
 });
+
+// The first-visit notice is a modal; existing tests start as a returning visitor.
+beforeEach(() => { jsdom.window.localStorage.setItem("naturist_first_visit_notice", "1"); });

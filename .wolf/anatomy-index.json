@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-08T07:19:12.921Z",
-    "fileCount": 486,
+    "lastScanned": "2026-11-08T08:36:47.595Z",
+    "fileCount": 488,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "25af444efcbe55fe3a5fbd31d09979074c1e58b8428b0915ceec6bf8effbd7da",
-    "storeUpdatedAt": "2026-11-08T07:19:12.933Z",
-    "rootHash": "62a7eedd10005797"
+    "renderedHash": "507720feb813e6f8b460a34903e324ef4e2629dd3291d1bc69646ff875439b84",
+    "storeUpdatedAt": "2026-11-08T08:36:47.606Z",
+    "rootHash": "bb61aaddcee9a947"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -169,12 +169,12 @@
       ]
     },
     "src/frontend/styles.css": {
-      "description": "Styles: 95 rules, 14 vars",
-      "tokens": 11038,
-      "hash": "5ff5cafdd76f79e7",
-      "size": 38632,
-      "mtimeMs": 1793651039772.0327,
-      "updatedAt": "2026-11-02T20:24:00.030Z",
+      "description": "Styles: 90 rules, 15 vars",
+      "tokens": 12694,
+      "hash": "a6c2e6a1b0ef83a6",
+      "size": 44429,
+      "mtimeMs": 1794127007339.2493,
+      "updatedAt": "2026-11-08T08:36:47.594Z",
       "source": "hook"
     },
     "src/backend/core/texts.py": {
@@ -242,12 +242,12 @@
       ]
     },
     "src/frontend/lib/texts.ts": {
-      "description": "Exports Language, getLanguage, locale, useLanguage + 3 more",
-      "tokens": 1135,
-      "hash": "383ea9ee3c65754e",
-      "size": 3970,
-      "mtimeMs": 1793285333069.2236,
-      "updatedAt": "2026-10-29T14:48:53.642Z",
+      "description": "Exports Language, getLanguage, locale, useLanguage + 4 more",
+      "tokens": 1206,
+      "hash": "d321a9e669dcc775",
+      "size": 4218,
+      "mtimeMs": 1794126978251.7478,
+      "updatedAt": "2026-11-08T08:36:18.504Z",
       "source": "hook",
       "symbols": [
         {
@@ -303,8 +303,15 @@
           "name": "tr",
           "kind": "fn",
           "startLine": 98,
-          "endLine": 108,
-          "tokens": 127
+          "endLine": 102,
+          "tokens": 61
+        },
+        {
+          "name": "trIn",
+          "kind": "fn",
+          "startLine": 103,
+          "endLine": 113,
+          "tokens": 135
         }
       ]
     },
@@ -592,11 +599,11 @@
     },
     "src/frontend/setupTests.ts": {
       "description": "Declares __APP_TEST_TEXTS__",
-      "tokens": 148,
-      "hash": "fb35ee6a11a730f0",
-      "size": 517,
-      "mtimeMs": 1792552012503.5981,
-      "updatedAt": "2026-10-21T03:06:53.470Z",
+      "tokens": 206,
+      "hash": "9785c93a4dde4b1b",
+      "size": 719,
+      "mtimeMs": 1794126339503.0168,
+      "updatedAt": "2026-11-08T08:25:39.752Z",
       "source": "hook"
     },
     "src/backend/integrations/gmail.py": {
@@ -868,11 +875,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 33082,
-      "hash": "2082ec58d511fb15",
-      "size": 133233,
-      "mtimeMs": 1794121252624.1018,
-      "updatedAt": "2026-11-08T07:00:52.878Z",
+      "tokens": 33177,
+      "hash": "257ba48a256a9122",
+      "size": 133610,
+      "mtimeMs": 1794124503450.8806,
+      "updatedAt": "2026-11-08T07:55:03.723Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -936,11 +943,11 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 10348,
-      "hash": "b133ec7b006659e1",
-      "size": 40029,
-      "mtimeMs": 1793972249174.4866,
-      "updatedAt": "2026-11-06T13:37:29.472Z",
+      "tokens": 11037,
+      "hash": "bc1651dff057b835",
+      "size": 42705,
+      "mtimeMs": 1794126470871.9678,
+      "updatedAt": "2026-11-08T08:27:51.111Z",
       "source": "hook"
     },
     "src/frontend/components/Composer.tsx": {
@@ -1640,10 +1647,10 @@
     "src/frontend/App.test.tsx": {
       "description": "capacityMessage",
       "tokens": 1534,
-      "hash": "bbe303432bb4b72a",
+      "hash": "6bd7e73478fbb97d",
       "size": 5391,
-      "mtimeMs": 1793634025784.8042,
-      "updatedAt": "2026-11-02T15:40:26.086Z",
+      "mtimeMs": 1794124808087.927,
+      "updatedAt": "2026-11-08T08:00:08.334Z",
       "source": "hook"
     },
     "aiPlans/2026-10-21-topuri-recomandari-pozitive-fara-contraindicatii.md": {
@@ -7522,11 +7529,11 @@
     },
     "src/backend/resources/texts.en.toml": {
       "description": "English application copy. Keys and named parameters match texts.ro.toml exactly.",
-      "tokens": 9618,
-      "hash": "e80ceaaa06efab55",
-      "size": 36203,
-      "mtimeMs": 1793972250345.5923,
-      "updatedAt": "2026-11-06T13:37:30.662Z",
+      "tokens": 10306,
+      "hash": "b469c8302548feaa",
+      "size": 38784,
+      "mtimeMs": 1794126471955.805,
+      "updatedAt": "2026-11-08T08:27:52.208Z",
       "source": "hook"
     },
     "src/backend/migrations/032_bilingual_chunks.sql": {
@@ -7673,19 +7680,19 @@
     },
     "src/frontend/App.tsx": {
       "description": "App",
-      "tokens": 1793,
-      "hash": "5dffdb7e8ca9e962",
-      "size": 6275,
-      "mtimeMs": 1793634012955.837,
-      "updatedAt": "2026-11-02T15:40:13.219Z",
+      "tokens": 2166,
+      "hash": "62152ff49474d400",
+      "size": 7595,
+      "mtimeMs": 1794126338166.26,
+      "updatedAt": "2026-11-08T08:25:38.402Z",
       "source": "hook",
       "symbols": [
         {
           "name": "App",
           "kind": "fn",
-          "startLine": 16,
-          "endLine": 130,
-          "tokens": 1565
+          "startLine": 17,
+          "endLine": 152,
+          "tokens": 1919
         }
       ]
     },
@@ -7786,19 +7793,19 @@
     },
     "src/frontend/components/Hero.tsx": {
       "description": "Hero",
-      "tokens": 549,
-      "hash": "f82329c0e8acac54",
-      "size": 1919,
-      "mtimeMs": 1793622114039.8972,
-      "updatedAt": "2026-11-02T12:21:54.286Z",
+      "tokens": 868,
+      "hash": "6744077c586c8f7a",
+      "size": 3035,
+      "mtimeMs": 1794125522628.7285,
+      "updatedAt": "2026-11-08T08:12:02.876Z",
       "source": "hook",
       "symbols": [
         {
           "name": "Hero",
           "kind": "fn",
           "startLine": 6,
-          "endLine": 41,
-          "tokens": 488
+          "endLine": 55,
+          "tokens": 802
         }
       ]
     },
@@ -8174,75 +8181,75 @@
     },
     "src/tests/unit/web/test_web.py": {
       "description": "Smoke tests for the local web application; no live xAI requests.",
-      "tokens": 29629,
-      "hash": "5efcc9a959757554",
-      "size": 104124,
-      "mtimeMs": 1793410331582.6045,
-      "updatedAt": "2026-10-31T01:32:11.827Z",
+      "tokens": 29280,
+      "hash": "92ab3c0da23e63d3",
+      "size": 102906,
+      "mtimeMs": 1794124501080.526,
+      "updatedAt": "2026-11-08T07:55:01.352Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_headers",
           "kind": "fn",
-          "startLine": 60,
-          "endLine": 66,
+          "startLine": 61,
+          "endLine": 67,
           "tokens": 64
         },
         {
           "name": "FakeAI",
           "kind": "class",
-          "startLine": 67,
-          "endLine": 99,
-          "tokens": 312
+          "startLine": 68,
+          "endLine": 105,
+          "tokens": 307
         },
         {
           "name": "FakeRetriever",
           "kind": "class",
-          "startLine": 100,
-          "endLine": 117,
+          "startLine": 106,
+          "endLine": 123,
           "tokens": 150
         },
         {
           "name": "FakeResponse",
           "kind": "class",
-          "startLine": 118,
-          "endLine": 139,
+          "startLine": 124,
+          "endLine": 145,
           "tokens": 178
         },
         {
           "name": "_by_kind",
           "kind": "fn",
-          "startLine": 140,
-          "endLine": 147,
+          "startLine": 146,
+          "endLine": 153,
           "tokens": 123
         },
         {
           "name": "_send",
           "kind": "fn",
-          "startLine": 148,
-          "endLine": 177,
+          "startLine": 154,
+          "endLine": 183,
           "tokens": 313
         },
         {
           "name": "post_report",
           "kind": "fn",
-          "startLine": 178,
-          "endLine": 206,
+          "startLine": 184,
+          "endLine": 212,
           "tokens": 315
         },
         {
           "name": "_classify_latest",
           "kind": "fn",
-          "startLine": 207,
-          "endLine": 213,
+          "startLine": 213,
+          "endLine": 219,
           "tokens": 73
         },
         {
           "name": "WebTests",
           "kind": "class",
-          "startLine": 214,
-          "endLine": 2244,
-          "tokens": 26790
+          "startLine": 220,
+          "endLine": 2269,
+          "tokens": 27071
         }
       ]
     },
@@ -9422,27 +9429,27 @@
       "source": "hook"
     },
     "src/frontend/components/LanguageSelect.tsx": {
-      "description": "OPTIONS",
-      "tokens": 1399,
-      "hash": "afc46ca60430e126",
-      "size": 4897,
-      "mtimeMs": 1793634060099.5132,
-      "updatedAt": "2026-11-02T15:41:00.380Z",
+      "description": "Names are shown in the other language than the interface's, so a visitor stuck in the wrong",
+      "tokens": 1503,
+      "hash": "245a0a46fad2023a",
+      "size": 5264,
+      "mtimeMs": 1794124800911.3535,
+      "updatedAt": "2026-11-08T08:00:01.195Z",
       "source": "hook",
       "symbols": [
         {
           "name": "Flag",
           "kind": "fn",
-          "startLine": 10,
-          "endLine": 36,
+          "startLine": 12,
+          "endLine": 38,
           "tokens": 333
         },
         {
           "name": "LanguageSelect",
           "kind": "fn",
-          "startLine": 37,
-          "endLine": 125,
-          "tokens": 964
+          "startLine": 39,
+          "endLine": 131,
+          "tokens": 1007
         }
       ]
     },
@@ -12448,11 +12455,11 @@
     },
     "src/backend/ai/model_runtime.py": {
       "description": "Brings the GPU to the state a report model needs before the job sends its first request.",
-      "tokens": 2682,
-      "hash": "05659c7adc92fcd3",
-      "size": 9384,
-      "mtimeMs": 1794031262020.3508,
-      "updatedAt": "2026-11-07T06:01:02.292Z",
+      "tokens": 2866,
+      "hash": "6e8e6ed35c06837e",
+      "size": 10029,
+      "mtimeMs": 1794123269816.7505,
+      "updatedAt": "2026-11-08T07:34:30.071Z",
       "source": "hook",
       "symbols": [
         {
@@ -12466,8 +12473,8 @@
           "name": "VllmRuntime",
           "kind": "class",
           "startLine": 36,
-          "endLine": 228,
-          "tokens": 2390
+          "endLine": 237,
+          "tokens": 2574
         }
       ]
     },
@@ -12584,6 +12591,77 @@
       "mtimeMs": 1794120797714.3862,
       "updatedAt": "2026-11-08T06:53:18.008Z",
       "source": "hook"
+    },
+    "src/frontend/components/HeroEmblem.tsx": {
+      "description": "Emblems for the hero kicker. Hero.tsx renders one of them; to switch back, change the import",
+      "tokens": 943,
+      "hash": "648383a6ede61fc8",
+      "size": 3299,
+      "mtimeMs": 1794125942003.0952,
+      "updatedAt": "2026-11-08T08:19:02.272Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Book",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 14,
+          "tokens": 116
+        },
+        {
+          "name": "BookSprigEmblem",
+          "kind": "fn",
+          "startLine": 15,
+          "endLine": 37,
+          "tokens": 324
+        },
+        {
+          "name": "BookSunflowerEmblem",
+          "kind": "fn",
+          "startLine": 38,
+          "endLine": 67,
+          "tokens": 431
+        }
+      ]
+    },
+    "src/frontend/components/FirstVisitNotice.tsx": {
+      "description": "ACKNOWLEDGED_KEY — renders modal",
+      "tokens": 1004,
+      "hash": "b168183127fb5894",
+      "size": 3528,
+      "mtimeMs": 1794126990294.7039,
+      "updatedAt": "2026-11-08T08:36:30.571Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "wasAcknowledged",
+          "kind": "fn",
+          "startLine": 8,
+          "endLine": 11,
+          "tokens": 39
+        },
+        {
+          "name": "remember",
+          "kind": "fn",
+          "startLine": 12,
+          "endLine": 16,
+          "tokens": 68
+        },
+        {
+          "name": "NoticeColumn",
+          "kind": "fn",
+          "startLine": 17,
+          "endLine": 43,
+          "tokens": 440
+        },
+        {
+          "name": "FirstVisitNotice",
+          "kind": "fn",
+          "startLine": 44,
+          "endLine": 86,
+          "tokens": 386
+        }
+      ]
     }
   },
   "preamble": [

@@ -50,6 +50,8 @@ class VllmRuntime:
         self._http = http or httpx.Client()
         self._clock = clock
         self._sleep = sleep
+        # Kept in memory only: after an app restart the first local report releases the GPU once.
+        self._last_local_model: ReportModel | None = None
 
     def close(self) -> None:
         self._http.close()
@@ -62,12 +64,20 @@ class VllmRuntime:
     ) -> None:
         spec = REPORT_MODELS[model]
         # A cloud report leaves the GPU alone, so returning to a running vLLM model stays instant.
+        # A local report with a model other than the previous local report's frees the GPU first:
+        # every Ollama model is unloaded, and the vLLM containers are stopped below (all but the
+        # chosen vLLM model's own). Repeating the same model releases nothing.
+        local = spec.provider in ("ollama", "vllm")
+        if local and model != self._last_local_model:
+            self._unload_ollama()
         if spec.provider == "ollama":
             self._prepare_ollama(on_stage)
         elif spec.provider == "vllm":
             if spec.vllm_service is None:
                 raise ValueError(f"The vLLM model {model} names no Compose service")
             self._prepare_vllm(spec.vllm_service, spec.model, on_stage, checkpoint)
+        if local:
+            self._last_local_model = model
 
     # Without the supervisor nothing can be stopped, but Ollama itself still answers: the report
     # may run slower beside a vLLM server, which beats refusing every local report.
@@ -106,7 +116,6 @@ class VllmRuntime:
             on_stage("warming_model")
         else:
             on_stage("warming_model")
-            self._unload_ollama()
             self._start(service)
         self._wait_ready(service, served_model, checkpoint)
 
@@ -160,8 +169,8 @@ class VllmRuntime:
         logger.info("vllm_starting service=%s", service)
 
     # A model held on the GPU keeps vLLM from allocating its share (it exits on startup), and
-    # OLLAMA_KEEP_ALIVE_SECONDS can hold one for a long time. If this fails the server's own
-    # failure is what the user sees, so a problem here is only logged.
+    # OLLAMA_KEEP_ALIVE_SECONDS can hold one for a long time. If this fails the report's own
+    # request is what the user sees, so a problem here is only logged.
     def _unload_ollama(self) -> None:
         if not self._ollama_local:
             return

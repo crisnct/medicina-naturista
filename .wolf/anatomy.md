@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-08T07:19:12.921Z
-> Files: 486 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-08T08:36:47.595Z
+> Files: 488 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -14,7 +14,7 @@
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
 - `docker-compose.yaml` — Docker Compose: 2 services (~4213 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~33082 tok)
+- `README.md` — Project documentation (~33177 tok)
 
 ## .claude/
 
@@ -418,7 +418,7 @@
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
-- `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~2682 tok)
+- `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~2866 tok)
 - `providers.py` — Per-provider transport settings for report generation. (~2270 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2910 tok)
@@ -512,8 +512,8 @@
 
 ## src/backend/resources/
 
-- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~9618 tok)
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~10348 tok)
+- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~10306 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~11037 tok)
 
 ## src/backend/web/
 
@@ -524,11 +524,11 @@
 ## src/frontend/
 
 - `App.test.tsx` — capacityMessage (~1534 tok)
-- `App.tsx` — App (~1793 tok)
+- `App.tsx` — App (~2166 tok)
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
-- `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~148 tok)
-- `styles.css` — Styles: 95 rules, 14 vars (~11038 tok)
+- `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~206 tok)
+- `styles.css` — Styles: 90 rules, 15 vars (~12694 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 
 ## src/frontend/api/
@@ -541,6 +541,7 @@
 
 - `ChatHistory.tsx` — ChatHistory (~966 tok)
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~1017 tok)
+- `FirstVisitNotice.tsx` — ACKNOWLEDGED_KEY — renders modal (~1004 tok)
 - `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3275 tok)
 - `GeneratePanel.test.tsx` — message (~877 tok)
 - `GeneratePanel.tsx` — MODEL_LABELS (~6060 tok)
@@ -553,8 +554,9 @@
 - `HerbEvidencePanel.tsx` — Python offsets count Unicode code points; ordinary JS slice counts UTF-16 units. (~1730 tok)
 - `HerbImageViewer.tsx` — Native modal dialogs keep keyboard focus inside and make the page beneath inert. (~432 tok)
 - `HerbWarningsPanel.tsx` — groups (~1081 tok)
-- `Hero.tsx` — Hero (~549 tok)
-- `LanguageSelect.tsx` — OPTIONS (~1399 tok)
+- `Hero.tsx` — Hero (~868 tok)
+- `HeroEmblem.tsx` — Emblems for the hero kicker. Hero.tsx renders one of them; to switch back, change the import (~943 tok)
+- `LanguageSelect.tsx` — Names are shown in the other language than the interface's, so a visitor stuck in the wrong (~1503 tok)
 - `MessageBubble.tsx` — MessageBubble (~824 tok)
 - `ModelWarmupDialog.tsx` — Driven by the polled job, so it reappears after a refresh and closes by itself at the next stage. (~770 tok)
 - `TypingIndicator.tsx` — A slow status ring and elapsed time while retrieval or report generation is pending. (~466 tok)
@@ -574,7 +576,7 @@
 - `inlineMarkdown.tsx` — Renders the very small Markdown subset _recommendation_text() produces (~369 tok)
 - `scoreFilter.ts` — "Scor minim" thresholds (relevance percent), shared by the fragments panel (~361 tok)
 - `texts.generated.ts` — Exports TEXT_PARAMETERS (~3999 tok)
-- `texts.ts` — Exports Language, getLanguage, locale, useLanguage + 3 more (~1135 tok)
+- `texts.ts` — Exports Language, getLanguage, locale, useLanguage + 4 more (~1206 tok)
 
 ## src/scripts/
 
@@ -638,4 +640,4 @@
 - `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~9278 tok)
 - `test_report_metrics.py` — HTTP model binding, strict score validation and receipt idempotency. (~1677 tok)
 - `test_sessions_owner.py` — HTTP races, owner revocation and streaming limits, using synthetic dependencies. (~10126 tok)
-- `test_web.py` — Smoke tests for the local web application; no live xAI requests. (~29629 tok)
+- `test_web.py` — Smoke tests for the local web application; no live xAI requests. (~29280 tok)

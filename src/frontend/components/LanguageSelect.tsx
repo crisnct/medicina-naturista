@@ -1,10 +1,12 @@
 import { useEffect, useId, useRef, useState, type KeyboardEvent } from "react";
 import type { Language } from "../lib/texts";
 
-const OPTIONS: { value: Language; name: string }[] = [
-  { value: "ro", name: "Română" },
-  { value: "en", name: "English" },
-];
+// Names are shown in the other language than the interface's, so a visitor stuck in the wrong
+// language still recognizes them: "Romanian" / "English" in Romanian, "Română" / "Engleză" in English.
+const NAMES: Record<Language, Record<Language, string>> = {
+  ro: { ro: "Romanian", en: "English" },
+  en: { ro: "Română", en: "Engleză" },
+};
 
 // Flags are drawn, not emoji: Windows has no flag emoji, and a native <select> cannot show images.
 function Flag({ language }: { language: Language }) {
@@ -41,6 +43,10 @@ export function LanguageSelect({ value, labelId, disabled, onChange }: {
   onChange: (language: Language) => void;
 }) {
   const listId = useId();
+  const OPTIONS: { value: Language; name: string }[] = [
+    { value: "ro", name: NAMES[value].ro },
+    { value: "en", name: NAMES[value].en },
+  ];
   const root = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);

@@ -2221,7 +2221,7 @@ class WebTests(unittest.TestCase):
         self.assertGreater(len(pages), 1)
         text = "\n".join(page.extract_text() for page in pages)
         self.assertIn("ă â î ș ț", text)
-        self.assertIn("de la dr. Cuișor", text)
+        self.assertIn("de la Moș Cuișor", text)
         self.assertIn("1. Uz intern", text.splitlines())
         self.assertIn("Surse 1-2", text)
         self.assertNotIn("Cuprins", text)

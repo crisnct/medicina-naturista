@@ -45,7 +45,7 @@ The project turns a local collection of Markdown documents about naturopathy and
 | **Email delivery** | After generation, it can send the report through the Gmail API with OAuth2 to the address the user writes in the chat, if configured. |
 
 The interface uses a fluid column of at most 640 px, a cream header with a legible title,
-Dr. Cuișor's portrait and discreet botanical decoration. On mobile, the portrait appears below the description.
+Grandpa Cuișor's portrait and discreet botanical decoration. On mobile, the portrait appears below the description.
 The identity of a virtual AI assistant and the medical warning remain visible. The same portrait
 is used in the header, the conversation avatars, the application icon and the new PDF reports.
 
@@ -832,7 +832,7 @@ After changing `.env`, recreate only the application with `docker compose up -d 
 
 ### vLLM report models
 
-`docker compose up` starts no vLLM server. The `create` step above only creates the report containers (`vllm-qwen35`, `vllm-qwen25`); repeat it after changing those services. A report with a vLLM model starts that model's container, waits until `/v1/models` lists the model (the browser shows a warm-up dialog meanwhile) and then sends the requests. The server stays up until a report needs the GPU for another model: an Ollama report, or the other vLLM model, stops it first. Reports with DeepSeek, xAI or Hugging Face leave it running. To free the GPU by hand (reindexing, translation, large Ollama models):
+`docker compose up` starts no vLLM server. The `create` step above only creates the report containers (`vllm-qwen35`, `vllm-qwen25`); repeat it after changing those services. A report with a vLLM model starts that model's container, waits until `/v1/models` lists the model (the browser shows a warm-up dialog meanwhile) and then sends the requests. The server stays up until a report needs the GPU for another model: an Ollama report, or the other vLLM model, stops it first. When a local report (Ollama or vLLM) uses a different model from the previous local report, its first step is to unload all Ollama models from the GPU, so a model left over from an earlier report does not hold VRAM; repeating the same model releases nothing. The previous model is remembered in memory only, so the first local report after an app restart releases once. Reports with DeepSeek, xAI or Hugging Face leave the GPU untouched. To free the GPU by hand (reindexing, translation, large Ollama models):
 
 ```powershell
 docker compose --profile vllm-report stop vllm-qwen35 vllm-qwen25
