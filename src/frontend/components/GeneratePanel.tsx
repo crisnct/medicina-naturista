@@ -11,6 +11,7 @@ import { GenerationReportPreview } from "./GenerationReportPreview";
 import { GenerationBatchEstimate } from "./GenerationBatchEstimate";
 import { GenerationDurationEstimate } from "./GenerationDurationEstimate";
 import { DoctorAvatar } from "./DoctorAvatar";
+import { ModelWarmupDialog } from "./ModelWarmupDialog";
 import { AI_ACTIVITY_LABELS, type GenerationFeedback } from "../lib/generationFeedback";
 
 // Display names are editable; provider routing continues to use the original IDs.
@@ -22,6 +23,7 @@ const MODEL_LABELS = {
   "ollama-ministral-3:8b": "interface.model_ministral3",
   "ollama-deepseek-r1:8b": "interface.model_deepseek_r1",
   "vllm-qwen3.5:4b": "interface.model_vllm_qwen35_4b",
+  "vllm-qwen2.5:7b": "interface.model_vllm_qwen25_7b",
   "deepseek-flash": "interface.model_deepseek_flash",
   "huggingface-deepseek-v4-flash": "interface.model_huggingface_deepseek_flash",
   "grok-4.3": "interface.model_grok43",
@@ -159,6 +161,14 @@ export function GeneratePanel({
 
   return (
     <section className="generate-recipe-panel">
+      {feedback?.modelStage && (
+        <ModelWarmupDialog
+          key={feedback.generationId}
+          stage={feedback.modelStage}
+          model={feedback.modelName ?? ""}
+          onCancel={feedback.cancel}
+        />
+      )}
       <div className="generate-recipe-copy">
         <div className="chatbot-message-header">
           <DoctorAvatar />

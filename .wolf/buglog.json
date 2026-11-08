@@ -7300,8 +7300,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-406",
       "timestamp": "2026-10-31T01:31:34.159Z",
-      "last_seen": "2026-11-04T10:20:09.112Z",
-      "occurrences": 5,
+      "last_seen": "2026-11-07T06:02:59.355Z",
+      "occurrences": 6,
       "related_bugs": []
     },
     {
@@ -9841,6 +9841,168 @@
       "last_seen": "2026-11-06T14:43:16.545Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/api/types.ts",
+      "root_cause": "Had \"deepseek-flash\"",
+      "fix": "Changed to \"vllm-qwen2.5:7b\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-548",
+      "timestamp": "2026-11-07T06:02:41.820Z",
+      "last_seen": "2026-11-07T06:02:41.820Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: 5",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "5: 4b\": \"interface.model_vllm_qwen35_4b\", → 7b\": \"interface.model_vllm_qwen25_7b\",",
+      "fix": "Changed 5: 4b\": \"interface.model_vllm_qwen35_4b\", → 7b\": \"interface.model_vllm_qwen25_7b\",",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-549",
+      "timestamp": "2026-11-07T06:02:47.714Z",
+      "last_seen": "2026-11-07T06:02:47.714Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "Had \"../lib/generationFeedback\"",
+      "fix": "Changed to \"./ModelWarmupDialog\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-550",
+      "timestamp": "2026-11-07T06:02:53.401Z",
+      "last_seen": "2026-11-07T06:02:53.401Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: preparing should be stopping_model",
+      "file": "src/frontend/hooks/useReportGeneration.ts",
+      "root_cause": "Used \"preparing\" instead of \"stopping_model\"",
+      "fix": "Changed preparing → stopping_model",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-551",
+      "timestamp": "2026-11-07T06:03:06.348Z",
+      "last_seen": "2026-11-07T06:03:06.348Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/vllm_supervisor.py",
+      "root_cause": "Had \"vllm-report\"",
+      "fix": "Changed to \"vllm-qwen35\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-552",
+      "timestamp": "2026-11-08T06:14:23.387Z",
+      "last_seen": "2026-11-08T06:14:23.387Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/core/report_models.py",
+      "root_cause": "Had `vllm-report`",
+      "fix": "Changed to `vllm-qwen35`",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-553",
+      "timestamp": "2026-11-08T06:14:30.933Z",
+      "last_seen": "2026-11-08T06:14:30.933Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/core/report_models.py",
+      "root_cause": "Had \"vllm-report\"",
+      "fix": "Changed to \"vllm-qwen35\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-554",
+      "timestamp": "2026-11-08T06:14:36.101Z",
+      "last_seen": "2026-11-08T06:14:36.101Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiWork/vllm/flag_bench.sh",
+      "root_cause": "Had \"GPU KV cache size|Free memory on device|init engi",
+      "fix": "Changed to \"GPU KV cache size|Free memory on device|init engi",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "sh"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-555",
+      "timestamp": "2026-11-08T06:29:18.577Z",
+      "last_seen": "2026-11-08T06:29:18.577Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of flag_bench.sh",
+      "file": "aiWork/vllm/flag_bench.sh",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→7 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "sh"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-556",
+      "timestamp": "2026-11-08T06:37:06.121Z",
+      "last_seen": "2026-11-08T06:37:06.121Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -10431,7 +10593,17 @@
     "06437f7e-4f05-49fc-a93b-4cd861e62fc5": true,
     "37f242af-2281-43fc-8902-da9ae0a7e1e8": true,
     "bad52a19-2b74-4f03-979d-86c459abf0ac": true,
-    "042517f5-28cf-4431-8312-4aaa11302fb7": true
+    "042517f5-28cf-4431-8312-4aaa11302fb7": true,
+    "60666928-d19d-4a3c-9a64-c9e172dc85a4": true,
+    "0d89f890-5f83-4920-b3cb-b7e07c12e967": true,
+    "2d73d5e9-e727-4907-8eff-2777a269462d": true,
+    "c27a8ce8-4435-4535-ac50-52f9214429fe": true,
+    "896153c6-fa1d-4430-861c-53273b63be43": true,
+    "94129bd3-7599-4036-8e87-bd9f33b15c70": true,
+    "dd64774f-8e6e-4986-bdc0-40e436f0485b": true,
+    "f65ac3df-a698-457b-b2f4-381e729c1d04": true,
+    "0eeead16-5766-4db7-8718-bd0d288a1a34": true,
+    "8c86b259-6593-41ff-a4cc-0c365509674b": true
   },
-  "next_id": 548
+  "next_id": 557
 }

@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-07T05:49:02.587Z
-> Files: 478 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-08T07:19:12.921Z
+> Files: 486 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -12,9 +12,9 @@
 - `.dockerignore` (~107 tok)
 - `AGENTS.md` — AGENTS.md (~3128 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
-- `docker-compose.yaml` — Docker Compose: 2 services (~3557 tok)
+- `docker-compose.yaml` — Docker Compose: 2 services (~4213 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~44793 tok)
+- `README.md` — Project documentation (~33082 tok)
 
 ## .claude/
 
@@ -76,7 +76,7 @@
 - `2026-11-02-eliminare-primary-din-secondary-conditions.md` — Eliminare afectiunilor primare din secondary_medical_conditions (script SQL la reindexare) (~4332 tok)
 - `2026-11-03-integrare-vllm-translategemma.md` — Plan: integrarea vLLM pentru `translate_markdown.py` (faza 1: `translategemma:4b`) (~5934 tok)
 - `2026-11-04-vllm-qwen35-9b-indexare.md` — Indexare: `ollama-qwen3.5:9b` → `vllm-qwen3.5:9b` — abandonat (~3781 tok)
-- `2026-11-06-vllm-phi4-mini-on-demand-containers.md` — Phi-4-mini report model and on-demand vLLM containers (~5142 tok)
+- `2026-11-06-vllm-phi4-mini-on-demand-containers.md` — On-demand vLLM containers and the Qwen2.5-7B report model (~4930 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
@@ -341,10 +341,15 @@
 
 - `assoc_bench.py` — Benchmark: real association batches on vLLM Qwen3.5-4B at several concurrency levels. (~3598 tok)
 - `assoc_sample.py` — Quality sample for one herb: the real association batches that contain it, on vLLM Qwen3.5-4B. (~2334 tok)
+- `flag_bench.py` — vLLM flag benchmark against a running Qwen3.5-4B server on 127.0.0.1:8001; deterministic phases. (~1112 tok)
+- `flag_bench.sh` — Start a throwaway Qwen3.5-4B vLLM container with the compose flags plus the variant's, benchmark it, (~930 tok)
 - `phi4_gpu_mix.sh` — Phase 0: Ollama cold load beside vLLM, and vLLM start beside a large Ollama model. (~766 tok)
 - `phi4_mechanics.sh` — Phase 0 mechanics, Ollama HTTP API only (the ollama CLI hung under this shell). Every call has a tim (~572 tok)
 - `phi4_raw.py` — Phase 0: capture the real report request of Phi-4-mini, then replay it and save the raw answer. (~1190 tok)
 - `phi4_report.py` — Phase 0: one full Phi-4-mini report through VllmReportClient.generate with real chunks; no src chang (~1118 tok)
+- `qwen25_plain.py` — Phase 0: plain chat against the Qwen2.5 Q4_K_M probe, no JSON grammar, to tell broken weights from a (~365 tok)
+- `qwen25_up.sh` — Phase 0: start a Qwen2.5 Q4_K_M probe. Usage: qwen25_up.sh <model_ref> [extra vllm flags...] (~350 tok)
+- `runtime_check.py` — Phase 0: the real VllmRuntime against the real supervisor, run inside the app container. (~769 tok)
 
 ## aiWork/vlm/
 
@@ -380,7 +385,7 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~12081 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~12271 tok)
 
 ## src/backend/ai/
 
@@ -413,7 +418,8 @@
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
-- `providers.py` — Per-provider transport settings for report generation. (~2216 tok)
+- `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~2682 tok)
+- `providers.py` — Per-provider transport settings for report generation. (~2270 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2910 tok)
 
@@ -443,7 +449,7 @@
 
 ## src/backend/core/
 
-- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~2608 tok)
+- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~2789 tok)
 - `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~16186 tok)
 - `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1309 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
@@ -451,11 +457,11 @@
 - `models.py` — Minimal medical context collected before report generation. (~6346 tok)
 - `operation_context.py` — Propagate a worker's deadline to synchronous I/O without changing public ports. (~2035 tok)
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
-- `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2642 tok)
+- `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2911 tok)
 - `report_metrics.py` — Validated measurements for one published report, independent of storage. (~1282 tok)
-- `report_models.py` — Supported report choices and their immutable provider routing. (~2592 tok)
+- `report_models.py` — Supported report choices and their immutable provider routing. (~2754 tok)
 - `score_formula.py` — Operator-supplied arithmetic over L1, L2 and L3; parsed from a whitelist, never `eval`-ed. (~736 tok)
-- `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16342 tok)
+- `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16550 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6762 tok)
 - `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
 
@@ -511,8 +517,8 @@
 
 ## src/backend/web/
 
-- `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~509 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~16976 tok)
+- `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~577 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~17104 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
@@ -529,7 +535,7 @@
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
 - `client.ts` — API routes: GET (1 endpoints) (~2968 tok)
-- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3316 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3377 tok)
 
 ## src/frontend/components/
 
@@ -537,7 +543,7 @@
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~1017 tok)
 - `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3275 tok)
 - `GeneratePanel.test.tsx` — message (~877 tok)
-- `GeneratePanel.tsx` — MODEL_LABELS (~5502 tok)
+- `GeneratePanel.tsx` — MODEL_LABELS (~6060 tok)
 - `GenerationBatchEstimate.tsx` — Typing in a limit field must not ask the server for a count on every keystroke. (~900 tok)
 - `GenerationDurationEstimate.tsx` — GenerationDurationEstimate (~718 tok)
 - `GenerationReportPreview.tsx` — Large state marks beside a batch's line; the state text next to them stays the accessible name. (~2401 tok)
@@ -550,6 +556,7 @@
 - `Hero.tsx` — Hero (~549 tok)
 - `LanguageSelect.tsx` — OPTIONS (~1399 tok)
 - `MessageBubble.tsx` — MessageBubble (~824 tok)
+- `ModelWarmupDialog.tsx` — Driven by the polled job, so it reappears after a refresh and closes by itself at the next stage. (~770 tok)
 - `TypingIndicator.tsx` — A slow status ring and elapsed time while retrieval or report generation is pending. (~466 tok)
 
 ## src/frontend/hooks/
@@ -558,12 +565,12 @@
 - `useConversation.ts` — Exports useConversation (~2537 tok)
 - `useMinScore.ts` — The "Scor minim" chosen for a search, shared by its fragments filter and by the (~222 tok)
 - `useOutputRecommendation.ts` — Exports OutputRecommendation, useOutputRecommendation (~444 tok)
-- `useReportGeneration.ts` — Exports activeGeneration, useReportGeneration (~3477 tok)
+- `useReportGeneration.ts` — Exports activeGeneration, useReportGeneration (~3571 tok)
 - `useStartup.ts` — Exports useStartup (~248 tok)
 
 ## src/frontend/lib/
 
-- `generationFeedback.ts` — Exports AI_ACTIVITY_LABELS, GenerationFeedback (~291 tok)
+- `generationFeedback.ts` — Exports AI_ACTIVITY_LABELS, ModelStage, GenerationFeedback (~366 tok)
 - `inlineMarkdown.tsx` — Renders the very small Markdown subset _recommendation_text() produces (~369 tok)
 - `scoreFilter.ts` — "Scor minim" thresholds (relevance percent), shared by the fragments panel (~361 tok)
 - `texts.generated.ts` — Exports TEXT_PARAMETERS (~3999 tok)
@@ -593,6 +600,7 @@
 - `set_gpu_clock.bat` (~827 tok)
 - `setup_gpu_clock.bat` (~593 tok)
 - `translate_markdown.py` — from: translate_markdown, flush (~21734 tok)
+- `vllm_supervisor.py` — The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers. (~1968 tok)
 
 ## src/tests/integration/
 

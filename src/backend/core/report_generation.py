@@ -6,11 +6,13 @@ import logging
 import threading
 from collections import deque
 from concurrent.futures import ThreadPoolExecutor
+from typing import cast
 
 import httpx
 
 from backend.ai.client import AIUnavailable
 from backend.ai.report_validation import ReportValidationError
+from backend.core.contracts import ReportModel, ReportModelRuntime
 from backend.core.conversation import ConversationService, evidence_above
 from backend.core.errors import ApplicationError, OperationCancelled
 from backend.core.language import language_scope
@@ -24,8 +26,11 @@ logger = logging.getLogger("naturist.reports")
 
 
 class ReportGenerationService:
-    def __init__(self, store: SessionStore) -> None:
+    def __init__(
+        self, store: SessionStore, model_runtime: ReportModelRuntime | None = None
+    ) -> None:
         self.store = store
+        self.model_runtime = model_runtime
         self.executor = ThreadPoolExecutor(
             max_workers=REPORT_GENERATION_WORKERS,
             thread_name_prefix="report-generation",
@@ -145,6 +150,7 @@ class ReportGenerationService:
     ) -> None:
         logger.info("report_job_started job_id=%s", operation.operation_id)
         try:
+            self._prepare_model(conversation, operation)
             self.store.generation_stage(operation, "preparing")
             result = conversation.generate(
                 operation.session,
@@ -204,6 +210,20 @@ class ReportGenerationService:
         finally:
             self.store.finish_operation(operation)
             logger.info("report_job_worker_finished job_id=%s", operation.operation_id)
+
+    # Runs when the job leaves the queue, never at admission: a queued job with another model must
+    # not disturb the report that is generating.
+    def _prepare_model(
+        self, conversation: ConversationService, operation: SessionOperation
+    ) -> None:
+        choice = getattr(conversation, "report_model_choice", "")
+        if self.model_runtime is None or not choice:
+            return
+        self.model_runtime.prepare(
+            cast(ReportModel, choice),
+            lambda stage: self.store.generation_model_stage(operation, stage),
+            lambda: self.store.checkpoint(operation),
+        )
 
     def close(self, *, wait: bool = True) -> None:
         with self._lock:

@@ -52,6 +52,8 @@
       DEEPSEEK_API_BASE: ${DEEPSEEK_API_BASE:-https://api.deepseek.com}
       OLLAMA_API_BASE: ${OLLAMA_API_BASE:-http://host.docker.internal:11434/v1}
       VLLM_API_BASE: ${VLLM_API_BASE:-http://vllm-report:8000/v1}
+      MODEL_SUPERVISOR_URL: ${MODEL_SUPERVISOR_URL-http://vllm-supervisor:8080}
+      VLLM_WARMUP_TIMEOUT_SECONDS: ${VLLM_WARMUP_TIMEOUT_SECONDS:-900}
       OLLAMA_KEEP_ALIVE_SECONDS: ${OLLAMA_KEEP_ALIVE_SECONDS:-60}
       OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
       OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL: ${OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL:-}
@@ -150,7 +152,7 @@
     ports:
       # Host port outside the Windows-reserved 7772-7871 range; the container stays on 7860.
       - "127.0.0.1:${APP_HOST_PORT:-8760}:7860"
-    networks: [internal]
+    networks: [internal, supervisor]
   # Local TranslateGemma server for src/scripts/translate_markdown.py. Not started
   # by `docker compose up`; it needs the whole GPU, so stop host Ollama models first (ollama ps)
   # and start it with: docker compose --profile vllm-translate up -d vllm-translate
@@ -192,24 +194,53 @@
       - --chat-template=/templates/translategemma.jinja
       - --limit-mm-per-prompt.image=0
     networks: [internal]
-  # Local Qwen3.5-4B server for the report model vllm-qwen3.5:4b (Responses API at /v1/responses).
-  # It shares the GPU with the `vllm-translate` service above, so run only one of the two, and
-  # stop host Ollama models first. Start it with:
-  # docker compose --profile vllm-report up -d vllm-report
-  # The app reaches it as http://vllm-report:8000/v1 (VLLM_API_BASE); the host port 8001 is for the
-  # scripts and for native runs. --max-model-len is the limit of ONE request (its input plus its
-  # output), not a budget shared by the parallel batches; they share only the KV cache. 131072 is what
-  # the KV cache of the local GPU holds (262144, the model's native window, did not fit); keep the
-  # model's context_window in the report catalog equal to it.
-  vllm-report:
+  # The only container with the Docker socket, which is root-equivalent on the host. It can start and
+  # stop only the vLLM report servers (src/scripts/vllm_supervisor.py), and only the app can reach it,
+  # so the app itself stays without any Docker access. Set MODEL_SUPERVISOR_URL empty to manage the
+  # servers by hand.
+  vllm-supervisor:
+    image: python:3.11-slim-bookworm
+    container_name: medicina-vllm-supervisor
+    restart: unless-stopped
+    init: true
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 32
+    mem_limit: 64m
+    command: ["python", "/supervisor/vllm_supervisor.py"]
+    volumes:
+      - type: bind
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+      - type: bind
+        source: ./src/scripts/vllm_supervisor.py
+        target: /supervisor/vllm_supervisor.py
+        read_only: true
+    networks: [supervisor]
+  # The vLLM report servers. Neither starts with `docker compose up`: a report starts its model, and
+  # the model stays up until a report needs the GPU for another model. The containers must exist first,
+  # once and after every change to these services:
+  # docker compose --profile vllm-report create
+  # Only one runs at a time, so both use one address: http://vllm-report:8000/v1 (VLLM_API_BASE) and
+  # the host port 8001 for the scripts and native runs. The supervisor enforces that rule, because a
+  # start that fails on the shared port breaks that container until it is recreated.
+  # --max-model-len is the limit of ONE request (its input plus its output), not a budget shared by
+  # the parallel batches; they share only the KV cache. Keep the model's `context` value in
+  # REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL equal to it.
+  vllm-qwen35:
+    profiles: [vllm-report]
     image: vllm/vllm-openai:v0.32.0
-    container_name: medicina-vllm-report
+    container_name: medicina-vllm-qwen35
     restart: "no"
+    stop_grace_period: 30s
     ipc: host
     environment:
       HF_TOKEN: ${HF_TOKEN:-}
     volumes:
       - vllm_hf_cache:/root/.cache/huggingface
+      # The compiled graphs: a start that finds them is ready in about 60 s instead of 190 s.
+      - vllm_compile_cache:/root/.cache/vllm
     ports:
       - "127.0.0.1:${VLLM_REPORT_HOST_PORT:-8001}:8000"
     deploy:
@@ -233,10 +264,54 @@
       - --reasoning-parser=qwen3
       - '--reasoning-config={"reasoning_end_str": "\n\nConsidering the limited time, I have to give the answer based on the thinking so far.\n</think>\n\n"}'
       - --language-model-only
-    networks: [internal]
+    # The shared address the app uses (VLLM_API_BASE); the service name no longer provides it.
+    networks:
+      internal:
+        aliases: [vllm-report]
+  # Qwen2.5-7B-Instruct in 4-bit AWQ for the report model vllm-qwen2.5:7b. Weights about 5.5 GB, in the
+  # shared volume. The Q4_K_M GGUF build of this model was tried first and produced garbage on vLLM 0.32
+  # with the GGUF plugin 0.0.5 (its quantized weights were loaded into unquantized parameters).
+  vllm-qwen25:
+    profiles: [vllm-report]
+    image: vllm/vllm-openai:v0.32.0
+    container_name: medicina-vllm-qwen25
+    restart: "no"
+    stop_grace_period: 30s
+    ipc: host
+    environment:
+      HF_TOKEN: ${HF_TOKEN:-}
+    volumes:
+      - vllm_hf_cache:/root/.cache/huggingface
+      # The compiled graphs: a start that finds them is ready in about 60 s instead of 190 s.
+      - vllm_compile_cache:/root/.cache/vllm
+    ports:
+      - "127.0.0.1:${VLLM_REPORT_HOST_PORT:-8001}:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    # Whitespace off: the schema grammar otherwise lets a model emit whitespace up to the output limit.
+    command:
+      - --model=Qwen/Qwen2.5-7B-Instruct-AWQ
+      - --served-model-name=qwen2.5-7b
+      - --max-model-len=32768
+      - --max-num-seqs=8
+      - --gpu-memory-utilization=0.84
+      - '--structured-outputs-config={"backend": "xgrammar", "disable_any_whitespace": true}'
+    networks:
+      internal:
+        aliases: [vllm-report]
 networks:
   internal:
+  # Only the app and the supervisor; no route out and no other container can reach the supervisor.
+  supervisor:
+    internal: true
 volumes:
   pg_data:
   vllm_hf_cache:
     name: vllm_hf_cache
+  # Shared by the report servers: only one runs at a time, and the entries are keyed by model and flags.
+  vllm_compile_cache:

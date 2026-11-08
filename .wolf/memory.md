@@ -3106,3 +3106,85 @@ description: chronological action log per session, consolidated weekly
 | 07:49 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | 1→3 lines | ~84 |
 <!-- session:YjFjOThmMDktYTFhMy00ZGM5LWJiNzctMjQ0NjYyNTA5MjFh -->
 | 2026-11-07T05:49:08.206Z | Planned on-demand vLLM containers and ran Phase 0 for Phi-4-mini: loads on the stock image; valid report JSON needs disable_any_whitespace and temperature 0; Romanian quality gate not met; compose, socket and GPU mechanics measured | aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md,aiWork/vllm/phi4_report.py,aiWork/vllm/phi4_raw.py,aiWork/vllm/phi4_mechanics.sh,aiWork/vllm/phi4_gpu_mix.sh,aiWork/vllm/phi4_check_claims.py | Live measurements only; nothing in src or docker-compose changed; no implementation started |
+| 07:59 | Created aiWork/vllm/qwen25_up.sh | — | ~350 |
+| 08:00 | Created src/scripts/vllm_supervisor.py | — | ~1968 |
+| 08:01 | Created src/backend/ai/model_runtime.py | — | ~2682 |
+| 08:01 | Edited src/backend/core/contracts.py | modified prepare() | ~121 |
+| 08:01 | Edited src/backend/core/sessions.py | modified generation_model_stage() | ~208 |
+| 08:01 | Edited src/backend/core/report_generation.py | modified __init__() | ~49 |
+| 08:01 | Edited src/backend/core/report_generation.py | 3→4 lines | ~60 |
+| 08:01 | Edited src/backend/core/report_generation.py | modified _prepare_model() | ~188 |
+| 08:01 | Edited src/backend/core/report_generation.py | added 2 import(s) | ~96 |
+| 08:01 | Edited src/backend/web/dependencies.py | 3→4 lines | ~23 |
+| 08:01 | Edited src/backend/web/dependencies.py | 2→3 lines | ~34 |
+| 08:01 | Edited src/backend/web/main.py | 3→5 lines | ~101 |
+| 08:01 | Edited src/backend/web/main.py | modified hasattr() | ~64 |
+| 08:01 | Edited src/backend/web/main.py | modified values() | ~64 |
+| 08:01 | Edited src/backend/web/main.py | 1→3 lines | ~40 |
+| 08:01 | Edited src/backend/web/main.py | added 1 import(s) | ~29 |
+| 08:01 | Edited src/backend/config.py | modified know() | ~116 |
+| 08:01 | Edited src/backend/config.py | 2→6 lines | ~103 |
+| 08:01 | Edited src/backend/config.py | modified in() | ~120 |
+| 08:01 | Edited src/backend/config.py | 4→5 lines | ~55 |
+| 08:02 | Edited src/backend/core/report_models.py | 7→8 lines | ~88 |
+| 08:02 | Edited src/backend/core/report_models.py | 5→7 lines | ~79 |
+| 08:02 | Edited src/backend/core/report_models.py | expanded (+10 lines) | ~232 |
+| 08:02 | Edited src/backend/ai/providers.py | 4→5 lines | ~94 |
+| 08:02 | Edited src/backend/ai/providers.py | 8→9 lines | ~103 |
+| 08:02 | Edited src/frontend/api/types.ts | inline fix | ~32 |
+| 08:02 | Edited src/frontend/components/GeneratePanel.tsx | 2→3 lines | ~32 |
+| 08:02 | Edited src/frontend/components/GeneratePanel.tsx | added 1 import(s) | ~55 |
+| 08:02 | Edited src/frontend/components/GeneratePanel.tsx | added optional chaining | ~94 |
+| 08:03 | Edited src/frontend/lib/generationFeedback.ts | 2→7 lines | ~71 |
+| 08:03 | Edited src/frontend/hooks/useReportGeneration.ts | modified queued() | ~72 |
+| 08:03 | Edited src/frontend/hooks/useReportGeneration.ts | 2→4 lines | ~79 |
+| 08:03 | Created src/frontend/components/ModelWarmupDialog.tsx | — | ~632 |
+| 08:03 | Edited docker-compose.yaml | 2→4 lines | ~62 |
+| 08:03 | Edited docker-compose.yaml | 4→4 lines | ~54 |
+| 08:03 | Edited docker-compose.yaml | holds() → servers() | ~556 |
+| 08:03 | Edited docker-compose.yaml | expanded (+39 lines) | ~472 |
+| 06:23 | Edited README.md | modified else() | ~382 |
+| 06:23 | Edited README.md | 1→3 lines | ~184 |
+
+## Session: 2026-11-08 06:40
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 07:06 | Created aiWork/vllm/qwen25_plain.py | — | ~365 |
+| 07:25 | Edited docker-compose.yaml | 7→7 lines | ~122 |
+| 07:25 | Edited docker-compose.yaml | 4→2 lines | ~24 |
+| 07:25 | Edited src/backend/core/report_models.py | 2→2 lines | ~49 |
+| 07:34 | Created aiWork/vllm/runtime_check.py | — | ~769 |
+| 07:34 | Edited README.md | 1→2 lines | ~43 |
+| 07:39 | Created aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | — | ~3770 |
+| 07:43 | Edited src/frontend/components/ModelWarmupDialog.tsx | 9→12 lines | ~114 |
+| 07:43 | Edited src/frontend/components/ModelWarmupDialog.tsx | added 1 condition(s) | ~147 |
+| 07:45 | Edited src/frontend/components/ModelWarmupDialog.tsx | inline fix | ~27 |
+<!-- session:YjFjOThmMDktYTFhMy00ZGM5LWJiNzctMjQ0NjYyNTA5MjFh -->
+| 2026-11-08T05:46:08.507Z | Built on-demand vLLM lifecycle: supervisor sidecar, VllmRuntime, model stages, warm-up dialog, compose profiles; Qwen2.5-7B served as AWQ (Q4_K_M GGUF garbage on vLLM 0.32, 0.33 image unpullable); app container rebuilt after text-key crash loop | src/scripts/vllm_supervisor.py,src/backend/ai/model_runtime.py,src/frontend/components/ModelWarmupDialog.tsx,docker-compose.yaml,README.md,aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | 452 unit tests, 58 frontend tests, ruff, mypy pass; live lifecycle scenarios pass on real Docker; dialog checked in browser preview; not committed |
+| 07:46 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | browser() → edits() | ~54 |
+| 07:46 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | expanded (+10 lines) | ~282 |
+| 07:46 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | 3→5 lines | ~130 |
+| 07:58 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | 2→3 lines | ~83 |
+| 07:58 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | expanded (+8 lines) | ~142 |
+| 08:14 | Edited docker-compose.yaml | 3→6 lines | ~64 |
+| 08:14 | Edited src/scripts/vllm_supervisor.py | "vllm-report" → "vllm-qwen35" | ~14 |
+| 08:14 | Edited src/backend/core/report_models.py | "vllm-report" → "vllm-qwen35" | ~27 |
+| 08:14 | Edited src/backend/core/report_models.py | "vllm-report" → "vllm-qwen35" | ~12 |
+| 08:24 | Created aiWork/vllm/flag_bench.py | — | ~1112 |
+| 08:24 | Created aiWork/vllm/flag_bench.sh | — | ~538 |
+| 08:29 | Edited aiWork/vllm/flag_bench.sh | "GPU KV cache size|Free me" → "GPU KV cache size|Free me" | ~63 |
+| 08:37 | Edited aiWork/vllm/flag_bench.sh | 3→7 lines | ~226 |
+
+## Session: 2026-11-08 08:50
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 08:53 | Edited aiWork/vllm/flag_bench.sh | added 3 condition(s) | ~321 |
+| 08:57 | Edited README.md | 1→5 lines | ~212 |
+| 08:57 | Edited README.md | 1→3 lines | ~44 |
+| 09:00 | Edited README.md | reduced (-9 lines) | ~9 |
+| 09:00 | Edited README.md | 2→4 lines | ~34 |
+| 09:10 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | expanded (+32 lines) | ~713 |
+| 09:19 | Edited aiPlans/2026-11-06-vllm-phi4-mini-on-demand-containers.md | modified containers() | ~364 |
+| 09:24 | Session end: 4 writes across 1 files (README.md) | 1 reads | ~320 tok |

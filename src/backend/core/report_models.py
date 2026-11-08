@@ -14,12 +14,13 @@ ReportModel = Literal[
     "ollama-ministral-3:8b",
     "ollama-deepseek-r1:8b",
     "vllm-qwen3.5:4b",
+    "vllm-qwen2.5:7b",
     "deepseek-flash",
     "huggingface-deepseek-v4-flash",
     "grok-4.3",
 ]
-# The default list stays Ollama and cloud only; the local vLLM model is opted into through
-# REPORT_GENERATION_MODELS, because it needs its own GPU server (see docker-compose.yaml).
+# The default list stays Ollama and cloud only; the local vLLM models are opted into through
+# REPORT_GENERATION_MODELS, because each needs its own GPU server (see docker-compose.yaml).
 DEFAULT_REPORT_MODELS: tuple[ReportModel, ...] = (
     "ollama-gemma3:1b",
     "ollama-gemma4:12b",
@@ -84,6 +85,8 @@ class ReportModelSpec:
     temperature: float | None = None
     repeat_penalty: float | None = None
     repeat_last_n: int | None = None
+    # The Compose service that serves a vLLM model; started and stopped on demand.
+    vllm_service: str | None = None
 
 
 REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
@@ -118,13 +121,23 @@ REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
             max_output_tokens=8_192,
             effort_control="ollama_think",
         ),
-        # Served by the `vllm-report` Compose service under this name. vLLM maps the Responses
+        # Served by the `vllm-qwen35` Compose service under this name. vLLM maps the Responses
         # `reasoning.effort` ("none" switches Qwen's thinking off) to the chat template itself.
         "vllm-qwen3.5:4b": ReportModelSpec(
             "vllm",
             "qwen3.5-4b",
             context_window=131_072,
             effort_control="responses_effort",
+            vllm_service="vllm-qwen35",
+        ),
+        # The 4-bit AWQ weights, served by the `vllm-qwen25` service. It has no thinking mode, and
+        # its window is fixed by the weights (max_position_embeddings).
+        "vllm-qwen2.5:7b": ReportModelSpec(
+            "vllm",
+            "qwen2.5-7b",
+            context_window=32_768,
+            thinking_tokens=0,
+            vllm_service="vllm-qwen25",
         ),
         "deepseek-flash": ReportModelSpec(
             "deepseek",

@@ -4,11 +4,15 @@
 
 ### AI naturopathy assistant based on local sources
 
+🌱 **Verifiable sources · local retrieval · adjuvant recommendations**
+
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![Hybrid retrieval](https://img.shields.io/badge/Retrieval-pgvector%20%2B%20tsvector-6A5ACD)](#-how-it-works)
 [![License](https://img.shields.io/badge/License-Business%20Source%201.1-D22128)](LICENSE)
+
+🩺 **6,285 medical conditions** · 🌱 **1,585 plants and natural products**
 
 🟢 **local sources** · 🔵 **semantic search** · 🟠 **lexical search** · 🟣 **PDF report**
 
@@ -21,6 +25,12 @@
 ## ✨ About the project
 
 The project turns a local collection of Markdown documents about naturopathy and complementary therapies into a queryable hybrid index. The web interface receives the problem described by the user and displays the relevant fragments found in the local archive. After the fragments are reviewed, the administrator authorized through `/owner` chooses the model for each report, including local Ollama models. The application sends the evidence to the chosen provider to write the structured answer and generates a PDF report with references to the sources. Generation is reserved for the administrator for all models.
+
+> ### 🩺 6,285 &nbsp;medical conditions &nbsp;·&nbsp; 🌱 1,585 &nbsp;plants & natural products &nbsp;·&nbsp; 🗂️ 11 &nbsp;categories
+>
+> **Name a problem, get the plants.** NaturaMind knows **6,285 medical conditions**, each with its own synonyms, so "flu", "influenza" and "gripa" all lead to the same answer. 🔎
+> It also knows **1,585 herbs, fruits, vegetables, seeds, oils, vitamins, minerals and supplements**, and for every one it tells you what it is useful for ✅, what it is forbidden for ⛔ and which warnings, contraindications and interactions to keep in mind ⚠️.
+> Ask about a condition and see the best natural products for it 🏆, or ask about a plant and see everything it can do 🌿. All of it comes from your own local library of sources, with the exact passage one click away 📚.
 
 | 🧩 Component | Role |
 |---|---|
@@ -41,255 +51,28 @@ is used in the header, the conversation avatars, the application icon and the ne
 
 ## 🎨 How it works
 
-Every message goes through **Message classification**, with deterministic shortcuts for explicit requests and local Ollama `gemma3:1b` (`MEDICAL_CONDITION_AI_LOCAL_MODEL`) when needed. `POST /api/messages` quickly displays the message and saves the context, then `POST /api/classify` selects:
+Every message goes through **message classification**: deterministic shortcuts for explicit requests, otherwise local Ollama `gemma3:1b` (`MEDICAL_CONDITION_AI_LOCAL_MODEL`). `POST /api/messages` saves the message and context, then `POST /api/classify` selects one of five flows:
 
-- **Remedies:** condition resolution and the existing search, with optional AI identification.
-- **Plant/product:** the name/alias is resolved in the catalog, then the answer shows
-  the name and the available Latin name in the header, with two distinct lists below.
-  The number of conditions appears in the section title, without repetition in the header.
-  Section titles and ranking entries use the same agreement with
-  the Romanian name: masculine → “util/interzis”, feminine or neuter → “utilă/interzisă”,
-  plural → “utile/interzise” and “sunt”. The determination uses the local Romanian dictionary,
-  the first noun of the name and rules for ambiguous or irregular forms; “gutui”
-  and “pătlăgele” are treated as plural. For unlisted words,
-  the endings are used; unusual names may need additional lexical rules.
-  No AI requests, migration or reindexing are needed. New structured messages include
-  `herbAgreement`, used by the frontend; old messages without the field keep the feminine form.
-  The number M of prohibitions appears only in the title of the dedicated section. The uses
-  read the same `positive` pairs and the same published run as the rankings; the number N
-  matches the product's ranking. The prohibitions read the `herb_caution_pairs` pairs
-  with explicit `prohibition` evidence, from the caution run linked to that positive run;
-  M matches `herb_caution_rankings.prohibition_ranking`. Cautions are kept
-  separate and are not counted as prohibitions. Prohibitions require an explicit wording in the
-  text about the respective product and condition; an AI or historical `caution` label is not
-  enough. Recommendations alone do not appear in the list of prohibitions. The classification of sources
-  is not clinical validation. A missing/incompatible positive run produces the same error
-  as the rankings, without falling back to historical co-occurrences. A missing caution part is displayed as
-  unavailability, and historical information that cannot be recovered is explicitly marked as partial.
-  For any entry in `herbs`, each section has the number of conditions in its title.
-  The product picture is loaded locally through `GET /api/herb-images/{herb_id}`, by the ID
-  from the catalog. The search tries the Latin name, then the Romanian name, in `HERB_IMAGES_DIR`
-  (by default `medicina-naturista-documente/data/images`), PNG files only. It ignores
-  upper/lower case and applies the replacement of disallowed characters from the
-  generation process; ambiguous matches are omitted. The folder is mounted read-only in Docker
-  and excluded from the container image. The endpoint does not expose the registry or other files.
-  After a successful load, the picture appears on the left (at most 280 × 280 px, without cropping),
-  and the short lists remain in two columns on the right. When the text exceeds the space
-  next to the image, the list of useful conditions flows into three columns: the first starts below the picture,
-  the other two to its right and continue aligned down to the bottom. Long lists thus
-  also use the space below the image. The alphabetical order reads from top to bottom
-  in each column, then in the next column. The title and the sources remain full
-  width; the prohibitions and warnings are not rearranged. Until loading, or
-  if the picture is missing/fails, the existing three-column display remains on desktop.
-  At most 640 px, the picture appears above the two-column list; at most 420 px, the list
-  has one column. A missing product, folder or picture produces `404`, without a placeholder.
-  New images are found on the next request, without reindexing or AI calls.
-  A click on the picture opens the image in a modal panel as large as the page, above the
-  interface, with proportions preserved and without cropping. Escape or the X button at the
-  top close the panel and return focus to the picture. The image can also be opened
-  from the keyboard, with Enter/Space; the page behind stays inactive while the panel is open.
-  The product name is 24 px and the section titles are 20 px; the whole text of the prohibitions section, including
-  the sources, is orange. The three sections are separated by 3 px lines;
-  the source panels have no outer borders. Each “View source excerpts — N excerpts from M documents” panel
-  is initially closed. On opening,
-  20 whole fragments are loaded, with a filter by condition and “Load more”.
-  Filters and pagination are independent. Empty sections keep the panel with zero sources,
-  without HTTP requests. Each fragment appears only once in its section, with all
-  the eligible conditions, the title, the document and the source lines. The product/aliases are
-  highlighted in green; the conditions and their synonyms, in yellow. The original text is kept.
-  `GET /api/herb-evidence/{groupId}?evidenceKind=positive|contraindication&conditionId=…&offset=…`
-  selects the sources of the requested section (`positive` by default) and is limited to the session
-  and tab that own the message. The filter must belong to the section. It does not call the AI and
-  does not run a new hybrid search.
-  Changing the run produces `HERB_EVIDENCE_STALE`; an expired/evicted answer produces
-  `HERB_EVIDENCE_UNAVAILABLE`. The interface asks for the question to be repeated, without combining
-  generations. The loaded fragments are kept only temporarily in the interface.
+- **Remedies:** resolves the condition and runs the search, with optional AI identification of unknown conditions.
+- **Plant/product:** the name or alias is resolved in the catalog (ignoring case, diacritics and hyphens, and accepting Romanian inflections; a name shared by several species asks the user to choose). The answer shows the name and Latin name, the product picture when one exists, and three sections, each with its count in the title:
+  - **Useful conditions (N):** the product's `positive` pairs, so N matches its ranking.
+  - **Conditions with prohibitions (M):** only pairs with explicit `prohibition` wording in the sources; an AI or historical `caution` label is not enough.
+  - **Warnings, contraindications and interactions:** the local model's knowledge about the product, shown in red, without source quotations.
 
-  The additive migration `028_herb_caution_rankings.sql` creates `herb_caution_runs`,
-  `herb_caution_evidence`, `herb_caution_pairs`, `herb_caution_rankings` and
-  `herb_caution_cache`. The caution projection reuses the local rules and the
-  `recommendation`/`prohibition` values from the answers that the positive classification already requests.
-  The caution projection adds no AI requests and keeps the classification rules. Information
-  missing from the old caution cache is recovered only locally or marked `unknown`.
-  The product warnings section uses the mechanism described separately below.
-  Caution projection version 2 also checks the explicit lists of foods to avoid,
-  including broken OCR lines. A warning about another product or procedure in the
-  same fragment does not validate a prohibition for the product asked about.
-  Positive preparation also prepares caution; publishing through the CLI atomically activates the two
-  compatible runs. The active caution marker stays in `herb_caution_runs.is_active`,
-  outside the metadata that enters the fingerprint of the positive index.
+  Titles agree with the gender and number of the Romanian name (`herbAgreement`). The first two sections have a closed “View source excerpts” panel that loads 20 whole fragments at a time, with a condition filter (`GET /api/herb-evidence/{groupId}`), highlighting the product in green and the conditions in yellow; it makes no AI call and no new search, and a changed or expired answer (`HERB_EVIDENCE_STALE`, `HERB_EVIDENCE_UNAVAILABLE`) asks the user to repeat the question. The picture comes from `GET /api/herb-images/{herb_id}`: a PNG found in `HERB_IMAGES_DIR` (default `medicina-naturista-documente/data/images`) by Latin, then Romanian name, shown at most 280 × 280 px and opened full size on click; a missing product or picture returns `404`. A missing or incompatible positive run produces the same error as the rankings, with no fallback to historical co-occurrences. The classification of sources is not clinical validation. How the prohibitions and warnings are prepared: [Warnings and prohibitions data](#warnings-and-prohibitions-data).
+- **Top plants/products:** the positive ranking from `herb_positive_rankings`, filtered by category before sorting and limiting. The interface offers “Top 100 natural products” and “Top 10 natural products for flu” as clickable examples. “Top X natural products” without a condition lists the 11 categories by number to choose from; direct commands such as “Top 20 supplements” or “First 20 vitamins” also work, and “Top 100”, “general top” or “all categories” include everything. Without a quantity, 100 entries are returned (1–10000 accepted), and an unknown or multiple category asks for a single choice. The answer shows the number returned, the associations and the regional aliases, with no hybrid search or AI generation.
+- **Top for a condition:** “Top 10 natural products for flu” lists only the products with a `positive` pair for that condition, and “Top 5 supplements against flu” adds a category (`pentru`, `contra` and `împotriva` are equivalent). Ordering uses `HERB_CONDITION_TOP_FORMULA` (default `2*L1+L2+100*L3`), then L3, then ID, with the filters applied before the limit N:
+  - **L1:** distinct fragments with the condition in the title and a positive mention of the product.
+  - **L2:** distinct fragments that mention the product and name the condition in the text.
+  - **L3:** the product's total number of positive conditions.
 
-  After the operator has explicitly applied the migrations, populating the already-active
-  positive ranking can be done separately, without inference or reindexing:
+  Each row ends with “· X fragments dedicated to the condition · Y fragments that mention it · useful in N conditions”. The values are precomputed in `herb_condition_scores` (migration `037`). Synonyms and diacritics are resolved locally; an unknown condition asks for rephrasing, and an ambiguous name or several conditions ask for a single one, keeping N and the category. Results may be fewer than N, and an unavailable ranking returns the usual error with no fallback to historical associations.
+- **Miscellaneous:** searches by the original message, without AI identification of the condition. Report generation stays as in the remedies flow.
+- **Report email:** a locally validated address plus the previous PDF of the same session, with no new search. The message can be an address alone or “Send the report to name@example.com”.
 
-  ```powershell
-  $env:PYTHONPATH = 'src'
-  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-caution-ranking
-  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-caution-ranking RUN_ID
-  ```
+The classification sends local Ollama only the message and minimal routing context (no PDF or corpus), with temperature 0, no API key and no Hugging Face fallback; a JSON schema restricts the answer to the five intents and strict validation is repeated in the application. Plant names are also matched in the local catalog. On failure the existing flow continues with a notification, unclear requests ask for the plant or recipient, and nothing is retried automatically (the message identifier and revision prevent repeating a shipment).
 
-  The first command returns the ID of the new caution run and the number of unknown historical evidence items.
-  The second accepts that ID only if the index, the positive run and the activation observed at
-  preparation are still compatible. Both report `ai_requests_sent_total=0` and call
-  neither the provider nor the model verification endpoint. Applying the migration
-  alone does not populate or activate this data. The application does not migrate at startup.
-
-  When updating from caution projection 1 to 2, only a new caution run is
-  prepared and published through the commands above, using the updated code. Caches
-  or tables are not deleted and the documents/embeddings are not reindexed. A caution
-  run with the old version is displayed as outdated until the new one is published.
-
-  **Warnings, contraindications and interactions:** the section uses exclusively the knowledge of the
-  local Ollama model about each product in `herbs`, regardless of category and of whether
-  documents or product–condition associations exist. On reindexing, a single request is sent
-  for each product without a compatible result in the cache. The request contains only
-  the product's identity: ID, Romanian name, Latin name when present, English names,
-  category, family and aliases. It contains no fragments, conditions or quotations.
-  The Latin species must be respected; a missing species is not invented.
-
-  The answer is strict JSON with `herb_id`, `status=complete|uncertain` and `messages`.
-  Each element has exactly `message_type=warning|contraindication|interaction` and
-  `problem`. The messages are in Romanian, preferably 10–25 words, at most 240
-  characters and 40 words, without automatic truncation. Interactions take into account
-  medications, drug classes, supplements, other natural products, fruits,
-  vegetables, foods and drinks. Uncertain identity or insufficient knowledge is
-  marked `uncertain`; an empty list does not confirm the absence of risks.
-
-  The additive migration `031_herb_product_safety_knowledge.sql` creates the table
-  `herb_safety_messages`: `herb_id`, `message_type`, `problem`, plus `run_id` and
-  `message_id` for publishing and deduplication. A product has several rows.
-  `herb_product_safety_results` explicitly keeps the products with an empty list too,
-  `herb_product_safety_cache` keeps the validated answers, and
-  `herb_product_safety_runs` manages the atomic preparation and activation.
-  For the current messages, `herb_safety_messages` is filtered through the generation with
-  `herb_product_safety_runs.is_active=true`; publication deletes the superseded generations
-  of the language (their results and messages go with them).
-  The fragment-based tables `herb_safety_runs`, `herb_safety_cache`, `herb_safety_analysis`,
-  `herb_safety_warnings` and `herb_safety_evidence` (migrations 029-030) were never part of this
-  flow and are dropped by migration `039_drop_legacy_herb_safety_tables.sql`. The migration is
-  applied through the normal indexing command or through the migration operator, never at
-  application startup.
-
-  The cache key depends on that product's identity and aliases, the prompt,
-  the version of the JSON rules, the model and its digest. Changing another product, the
-  documents or the conditions does not invalidate the answers of unchanged products.
-  Valid empty or uncertain results are reused too. Each product's result
-  is saved immediately; a failure does not lose the products already processed. A normal run
-  without parameters creates a new generation and reuses the compatible cache.
-  A change of product, prompt or model requires a new answer for the affected product.
-  The old document-extraction cache cannot substitute for this analysis.
-
-  Warnings are no longer added to the product–condition requests and requests
-  per product/fragment are no longer planned. The existing list **Conditions with prohibitions** stays
-  from `herb_caution_*`, with the same sources and rules; the new section displays separately
-  Warnings, Contraindications and Interactions from the model's knowledge. The interface
-  indicates this provenance and shows no quotations or “View source” for them.
-  The entire warnings section is red, with a main title of 20 px. The provenance
-  note spans the width of both columns and has the same size as the messages
-  about partial data. Each
-  problem starts with the category name in bold, followed by a period: “Warnings. …”,
-  “Contraindications. …” or “Interactions. …”; there are no separate subtitles.
-  The whole content of the section is split into two columns. On screens of at most 580 px a single
-  column is used. The counter “Showing N of M warnings” is not displayed; loading
-  further messages stays available when there are additional pages.
-  Valid JSON and a correct identity do not constitute clinical validation.
-
-  `GET /api/herb-safety/{groupId}` reads only the published generation, in pages of 20.
-  The references stay tied to the message, session and tab; a changed generation or catalog
-  produces `HERB_SAFETY_STALE`. There is no inference in the chat. The old evidence route does not
-  invent sources for the model's answers and responds unavailable.
-
-  The first population requires one request for each product in the catalog; subsequent
-  reindexes request only the products without a compatible cache. Normal positive preparation
-  also prepares this generation, and publishing activates it after checks.
-  `--skip-positive-ranking` keeps the behavior of also skipping the AI safety stage.
-  It can also be prepared/published separately, after applying migration 031:
-
-  ```powershell
-  $env:PYTHONPATH = 'src'
-  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --analyze-safety-warnings
-  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-safety-warnings
-  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-safety-warnings --resume-safety-warnings RUN_ID
-  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-safety-warnings RUN_ID
-  ```
-
-  The analysis performs no inference; publishing checks only the database and the model digest.
-  `RUN_ID` must belong to the new algorithm; the historical fragment-based runs are not
-  compatible. On interruption, wait for the prompt to return before relaunching.
-  The product in progress without a valid result can be resent; there is no automatic retry.
-  The model digest is also checked before saving each answer; these reads
-  of Ollama metadata run no inference and add no AI requests for the product.
-  An invalid answer stops the preparation and keeps the previously published generation.
-  Messages are not repaired heuristically, shortened or replaced with empty results.
-
-  Progress uses `progress_stage=product_safety`, `safety_products_total`,
-  `safety_products_completed`, `safety_cache_hits`, `product_safety_ai_requests`,
-  `safety_batches` and `safety_batches_completed`; a batch is now a single product.
-  `warnings_only_ai_requests` is kept as a compatibility alias of the number of
-  new safety requests. The ETA is measured after the first validated and saved AI product;
-  it stays `null` before the first measurement and is zero at `ready`/`published`.
-  The request metrics include `herb_id`, `safety_source=model_knowledge`, times/tokens,
-  the context, the output and the timeout. They do not include names, problems or generated text.
-
-  The default safety parameters are `HERB_SAFETY_AI_MAX_REQUESTS=10000`,
-  `HERB_SAFETY_BUILD_TIMEOUT_SECONDS=86400`, `HERB_SAFETY_AI_CONTEXT_TOKENS=65536`
-  and `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS=40000`. The request and time budgets were increased
-  because the limit now applies to products, not to fragment batches. The budget of the
-  combined command covers the time for associations plus the safety time; safety also has its
-  own deadline. The per-request timeout stays 900 seconds, `think=false`,
-  zero temperature and local streaming, with no cloud or repair AI requests.
-
-  **The bilingual extension (migration 036).** While `HERB_SAFETY_EXTENSION_PRODUCTS` is empty, the flow
-  above stays unchanged. When it is set, `--prepare-safety-warnings` rebuilds from scratch the
-  warnings, contraindications and interactions of the in-scope products, in a single run
-  for both languages, with the local model `HERB_SAFETY_GENERATION_MODEL` (batches of `HERB_SAFETY_MINISTRAL_BATCH_SIZE`,
-  required; no external model is called).
-  Each request receives only the identity of the products from the catalog (no fragments, conditions or
-  user data) and returns each message in Romanian and English with the same type. The prompt
-  `herb_product_safety_bilingual_system.md` asks for at least 7 messages in total, with no minimum per
-  category and without padding with invented messages; the minimum is not validated. The existing list is not
-  sent to the models. Valid answers are saved per product and stage in
-  `herb_product_safety_extension_cache`; an invalid or missing product stays uncached, and the
-  next preparation resends only the missing products. An invalid JSON envelope stops the preparation.
-  Exact duplicates are removed deterministically; semantic
-  ones are found by a local model, `HERB_SAFETY_DEDUP_MODEL` (migration 037, stage `dedup`, prompt
-  `herb_product_safety_dedup_system.md`, batches of `HERB_SAFETY_MINISTRAL_BATCH_SIZE` products, per-product
-  cache, the model's own digest): the model groups equivalent messages, regardless of type, and from each group the
-  message of the higher-priority source remains (for the same source, the more severe type). Removal is done once
-  on the bilingual message, so that the RO and EN lists stay identical in count, order and type.
-  Embeddings with a threshold do not separate real duplicates from distinct messages and are not used. The removed
-  pairs are written to `aiWork/herb_safety_dedup_pairs.json`. Contradictory messages about the
-  same partner are not resolved automatically.
-  The preparation creates two generations (RO and EN), copies the out-of-scope products from the language's
-  active generations and displays `run_id_ro` and `run_id_en`; each is published separately,
-  with `--publish-safety-warnings RUN_ID` (the language is read from the generation). While the extension is
-  active, positive preparation/publishing no longer touches the safety generations. Normal reindexing
-  (`build_hybrid_index` with no mode flags, which does not use `--skip-positive-ranking`) also runs at the
-  end the extension for the in-scope products, for both languages, and publishes the two generations;
-  all AI requests are made in this offline phase,
-  never at the chat question, which reads only the published generation.
-  The quality of the generated messages is not clinically validated.
-
-  Pilot, then full activation (`HERB_SAFETY_EXTENSION_PRODUCTS=hypericum perforatum`, then
-  `first:100` and `all`):
-
-  ```powershell
-  $env:PYTHONPATH = 'src'
-  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --analyze-safety-warnings
-  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-safety-warnings
-  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-safety-warnings RO_RUN_ID
-  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-safety-warnings EN_RUN_ID
-  ```
-
-  Matching of Romanian names accepts inflections from the bundled Hunspell dictionary (article, plural, genitive), with or without diacritics, including in multi-word names. The general rules for incomplete entries are validated with the same dictionary, without per-plant exception lists. The exact form takes priority; names shared by several species require choosing the species.
-- **Top plants/products:** positive ranking from `herb_positive_rankings`, filtered exactly by the requested category before sorting and limiting. The interface offers the examples “Top 100 natural products” and “Top 10 natural products for flu”; a click fills in the field and gives it focus, then the user sends the message. “Top X natural products” without a condition displays the 11 categories, each on a numbered row; the user answers with the category number and receives up to X products from that category. An invalid choice repeats the list without changing X. Direct commands such as “Top 20 supplements”, “Top 10 medicinal herbs”, “First 20 vitamins” and “Top 100 seeds” remain available. “Top 100”, “Top 100 plants”, “general top” and “all categories” include all categories. Without a quantity, 100 entries are used; unknown or multiple categories ask for a single category to be chosen, and an invalid number asks for a quantity between 1 and 10000. Clarifications keep the requested category/number. The answer shows the number actually returned, the associations and the regional aliases; no hybrid search or AI generation for explicit commands.
-- **Top for a condition:** “Top 10 natural products for flu” selects directly, from all categories, only the products with a `positive` pair for the condition from the catalog. “Top 5 supplements against flu” adds the exact category filter; the Romanian words for “for” (`pentru`) and “against” (`contra`, `împotriva`) are equivalent. Eligibility from `herb_positive_pairs` and the ranking from `herb_positive_rankings` use the same compatible published run, in a single transaction. The order is the descending score `HERB_CONDITION_TOP_FORMULA` (default `2*L1+L2+100*L3`), then L3 descending, then ID ascending, with the condition and category filters applied before the limit N. L1 = the distinct fragments with the condition in the title and a positive mention of the product; L2 = the distinct fragments that mention the product and name the condition in the text (title excluded, no polarity classification); L3 = the product's total number of positive conditions, displayed at the end of the row as “· useful in N conditions”, after “· X fragments dedicated to the condition · Y fragments that mention it” (L1 and L2; the L2 part is missing when it is zero) and after the regional names. The values are precomputed in `herb_condition_scores` (migration `037`), keyed on the active positive run, so the request reads a single index range and sorts in memory. The top without a condition stays ordered by L3. Synonyms and forms with/without diacritics are resolved locally; an unknown condition asks for rephrasing, while ambiguous names, approximations and requests with several conditions ask for a single condition to be chosen, keeping N and the category. Unrecognized qualifiers are not removed to widen the filter. The results may be fewer than N or zero; ranking unavailability produces the existing error, without falling back to historical associations. The flow does not generate a report, PDF or email and does not constitute clinical validation.
-- **Miscellaneous:** search by the original message, without identifying the condition through AI and without the notifications about the unknown condition. Generation of the naturopathy report stays as in the remedies flow.
-- **Report email:** locally validated address and the previous PDF from the same session; no new search. The message can be an address alone or a request such as “Send the report to name@example.com”.
-
-The classification sends to local Ollama only the message and minimal routing context, with no PDF or corpus. It reuses `CONDITION_AI_LOCAL_BASE` and `MEDICAL_CONDITION_AI_LOCAL_MODEL`, with temperature 0, no API key and no Hugging Face fallback. The JSON schema enforces one of the five intents and the allowed fields; strict validation is repeated in the application. Plant names and aliases are also recognized in the local catalog, regardless of diacritics or hyphens. An explicit name completes the clarification. If the name matches several plants, the application displays the Romanian and Latin names and asks the user to choose; this selects a single species and its associations. It is independent of `REPORT_GENERATION_MODELS`. On failure, the existing flow continues, with a notification; explicit email requests ask for clarification, and an address alone keeps the existing deterministic command. Unclear requests ask for the plant or the recipient. Classification and sending are not retried automatically; the message identifier and the revision prevent repeating the same shipment.
-
-Updated diagram: [chatbot-external-connections.xmind](architecture/chatbot-external-connections.xmind). Message classification and routing (XMind 8): [message-classification-plan.xmind](architecture/message-classification-plan.xmind).
+Diagrams: [chatbot-external-connections.xmind](architecture/chatbot-external-connections.xmind) and [message-classification-plan.xmind](architecture/message-classification-plan.xmind) (XMind 8).
 
 ```text
 📚 Markdown documents
@@ -307,7 +90,7 @@ Updated diagram: [chatbot-external-connections.xmind](architecture/chatbot-exter
 💬 recommendations in chat  +  📄 PDF report  +  ✉️ optional email
 ```
 
-> **Local vs. external:** the documents, fragmentation, indexing and retrieval run locally. Generation sends the consultation profile and the selected fragments to the model chosen in the UI: local models through `OLLAMA_API_BASE`, `deepseek-flash` through the DeepSeek API, `DeepSeek-V4-Flash` through the Hugging Face/DeepInfra router or `grok-4.3` through the xAI API. Generation with any model requires admin authorization. The selection applies only to the current report, without modifying environment variables or falling back to another provider. Identifying an unknown condition sends only the message to Ollama on the host. On timeout, communication error or invalid answer, the condition stays unidentified; no other AI provider is called. Delivery through Gmail is optional.
+> **Local vs. external:** documents, fragmentation, indexing and retrieval run locally. Generation sends the consultation profile and the selected fragments to the model chosen in the UI: local models through `OLLAMA_API_BASE`, `deepseek-flash` through the DeepSeek API, `DeepSeek-V4-Flash` through the Hugging Face/DeepInfra router, or `grok-4.3` through the xAI API. Every model requires admin authorization, applies only to the current report and never falls back to another provider. Identifying an unknown condition sends only the message to Ollama on the host; on timeout, error or invalid answer the condition stays unidentified and no other provider is called. Delivery through Gmail is optional.
 
 ## 🛠️ Technologies used
 
@@ -396,55 +179,32 @@ Place the Romanian documents in `medicina-naturista-documente/data/documents/ro/
 .\.venv\Scripts\python.exe src\scripts\clean_documents.py
 ```
 
-Diacritic replacement is active by default; the `--no-fold-diacritics` option keeps them. Word correction uses the Hunspell files `ro_RO.dic` and `ro_RO.aff` from `src/scripts/dictionaires/ro/` for the RO sources, and `en_GB.dic` and `en_GB.aff` from `src/scripts/dictionaires/en/` for the EN sources, located relative to the script. The language is determined from the `documents/ro` or `documents/en` directory, including when `--source` points to a subdirectory of it. To process only the English sources, add `--source medicina-naturista-documente/data/documents/en`.
+Diacritic replacement is on by default (`--no-fold-diacritics` keeps them). To clean only the English sources, add `--source medicina-naturista-documente/data/documents/en`.
 
-Correction runs after cleaning for the RO and EN sources: it joins two unrecognized OCR fragments, splits glued words and fixes rare unambiguous mistakes. Modernization of old spelling applies only to Romanian. Frequencies and function words are separated per language, so that the RO corpus does not influence the EN corrections and vice versa. For files outside the language directories, the previous handling is kept: only texts detected as Romanian receive spelling corrections; English or mixed ones receive only the general cleaning. Joining protects dictionary words, function words such as `la`, `de`, `si` and single-letter fragments; expressions such as `tumora la san` and `pieptul e` stay separate. The whole processing is planned in memory: frequencies are recomputed after each pass, until a complete pass changes nothing. Only then are the files rewritten. With the same corpus, dictionary and options, a new successful run no longer changes the documents or their modification dates. A cycle or exceeding the limit of 16 passes stops execution before any rewriting of the sources. `--dry-run` computes the same stable result, without modifying the documents.
+Spelling correction uses Hunspell dictionaries from `src/scripts/dictionaires/ro/` (`ro_RO`) for Romanian sources and `src/scripts/dictionaires/en/` (`en_GB`) for English ones; the language comes from the `documents/ro` or `documents/en` folder. It joins split OCR fragments, splits glued words and fixes rare unambiguous mistakes (old-spelling modernization is Romanian only). Frequencies are kept per language, and dictionary words, function words and single letters are never joined. Files outside the language folders get spelling correction only if they are detected as Romanian.
 
-Documents in `documents/ro` clearly detected as English use the EN dictionary during
-cleaning, without moving the files. Overriding the folder's language requires a minimum of 20
-words, at least four distinct function words specific to English and
-the EN result of the combined detector. Short texts or those classified as mixed/uncertain keep the folder's language.
-Detection combines the frequency of function words with the distinct vocabulary found exclusively
-in one of the dictionaries. Common and unknown words are neutral. The vocabulary
-vote requires at least five distinct exclusive words, coverage of at least 20%
-and a ratio of at least 2:1; a conflict with the function-word method produces the
-mixed result. Both dictionaries are loaded once, before the language selection,
-and reused for detection and correction. Hunspell expansion combines at most one
-prefix with a compatible suffix, without arbitrary accumulation of prefixes.
-The selection is announced in the console through `Dictionary override ro -> en`, including at
-`--dry-run`. This selection concerns only spelling correction; the language of the fragments
-at indexing stays that of the source folder.
+Processing is planned in memory and repeated until a pass changes nothing (at most 16 passes; a cycle or the limit aborts before any file is written). A rerun on the same corpus changes nothing, and `--dry-run` computes the same result without writing.
 
-The report `var/spelling_changes.tsv` contains the file, the line in the text cleaned at that pass, the rule, the before/after forms and the `pass` column with the pass number. It records the correction steps; later passes may remove lines and change the numbering. It is also generated at `--dry-run`. Use `--spelling-report` for another destination. A missing dictionary stops execution before the documents are modified. The protection of doses and numbers checks the result of each pass; files that violate it are kept intact and execution ends with an error. `--no-fold-diacritics` keeps the diacritics and uses the dictionary forms for replacements. Correction remains heuristic; it cannot guarantee the medical meaning of the text and does not automatically repair wrong joins produced by earlier versions.
+A document in `documents/ro` that is clearly English (at least 20 words, four distinct English function words and the EN verdict of the combined detector) is cleaned with the EN dictionary and announced as `Dictionary override ro -> en`. This affects spelling only, not the language of its fragments at indexing. Short or mixed texts keep the folder's language.
 
-You need a Postgres with the `pgvector` extension running and reachable at `DATABASE_URL` (by default `postgresql://medicina:medicina@127.0.0.1:5432/medicina`); the simplest way is `docker compose up -d db`, which requires `POSTGRES_PASSWORD` in `.env` (the user and database are `medicina` by default), so `DATABASE_URL` must use the same password.
+The report `var/spelling_changes.tsv` (or the path in `--spelling-report`) lists the file, line, rule, before/after forms and pass number, also at `--dry-run`. A missing dictionary stops the run before any change, and a file whose doses or numbers would change is left intact and the run ends with an error. Correction is heuristic and cannot guarantee the medical meaning of the text.
+
+A Postgres with `pgvector` must be reachable at `DATABASE_URL` (default `postgresql://medicina:medicina@127.0.0.1:5432/medicina`). The simplest way is `docker compose up -d db`, which needs `POSTGRES_PASSWORD` in `.env`; use the same password in `DATABASE_URL`.
 
 ### 2. Synchronizing the index
 
-The default reindex reads both roots, `DOCUMENTS_DIR` (by default
-`data/documents/ro`) and `DOCUMENTS_EN_DIR` (by default `data/documents/en`), and publishes
-a single atomic index. `--source-ro` (alias `--source`) and `--source-en` explicitly
-replace the roots. A missing, empty folder or one overlapping the other stops the build before
-publishing. The source identities are `ro/<path>` and `en/<path>`; the prefix is not a
-category. Fragments, score statistics, sources and rankings are filtered by language.
-After indexing, the default preparation/publishing of the recommendations and warnings runs
-for each language with its own prompt. The dedicated analysis, preparation, resume or
-publish commands accept `--language ro|en`; RUN_ID must be used in the language in which it was created.
-The search CLI accepts `-Language en`, and `fragment_report.py` and
-`evaluate_retrieval.py` accept `--language en`. Changing the representation version to
-`11` requires reindexing; the application does not apply migrations and does not start reindexing at startup.
-
+The default reindex reads both `DOCUMENTS_DIR` (default `data/documents/ro`) and `DOCUMENTS_EN_DIR` (default `data/documents/en`) and publishes one atomic index; `--source-ro` (alias `--source`) and `--source-en` replace the roots. A missing, empty or overlapping folder stops the build before publishing. Sources are identified as `ro/<path>` and `en/<path>`, and fragments, statistics and rankings are filtered by language. After indexing, recommendations and warnings are prepared and published for each language with its own prompt. The dedicated analysis, prepare, resume and publish commands accept `--language ro|en` (a `RUN_ID` only works in its own language), as do `fragment_report.py`, `evaluate_retrieval.py` and the search CLI (`-Language en`).
 
 ```powershell
 $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe src\scripts\build_hybrid_index.py
 ```
 
-The script imports the `backend` package, so it needs `PYTHONPATH=src`. The database comes from `DATABASE_URL` (`.env`); `--model` and `--source` are optional. The script starts with the Python you run it from (on CPU, no other environment); for GPU see below.
+The script needs `PYTHONPATH=src` and reads `DATABASE_URL` from `.env`; `--model` and `--source` are optional. It runs on CPU with the Python you launch it from (GPU is below).
 
-`TEXT_REPR_VERSION` is defined once in `src/backend/ai/index_constants.py`, with the value `"11"`. The indexing script and the backend read the same constant; it is not an environment variable. Changing the value makes the next script run reprocess all documents; until synchronization, the backend rejects the index with the old version. Modifying the constant does not automatically start reindexing. Restart the backend after changing the code.
+`TEXT_REPR_VERSION` (`"11"`, in `src/backend/ai/index_constants.py`) is a constant shared by the script and the backend, not an environment variable. Changing it makes the next run reprocess all documents, and until then the backend rejects the old index. Restart the backend after code changes; nothing reindexes automatically.
 
-The embedding model is `Qwen/Qwen3-Embedding-0.6B` (1024-dimension vectors); another model is not known to the code. Search reads the model from `sync_metadata` and writes the queries according to its profile (`ai/embedding_model.py`: the Qwen instruction on the query, no prefix on passages). **If the database contains an index made with another model or another dimension, the next build re-embeds all documents**, and the `chunks.embedding` column is recreated in the same transaction as the new documents and metadata. Any error keeps the previous generation and dimension. The duration depends on the corpus and hardware. GPU indexing requires a separate `.venv-gpu` environment, with the application's dependencies, `torch` with CUDA support and `sentence-transformers` already installed:
+The embedding model is `Qwen/Qwen3-Embedding-0.6B` (1024 dimensions); no other model is supported. **If the database holds an index made with another model or dimension, the next build re-embeds everything**, recreating `chunks.embedding` in the same transaction; any error keeps the previous generation. GPU indexing needs a separate `.venv-gpu` with the application's dependencies, CUDA `torch` and `sentence-transformers`:
 
 ```powershell
 $env:PYTHONPATH = "src"
@@ -452,29 +212,23 @@ $env:EMBEDDING_DEVICE = 'cuda'
 .\.venv-gpu\Scripts\python.exe src\scripts\build_hybrid_index.py
 ```
 
-Update the runtime dependencies in every Python environment used for indexing. The package `pyahocorasick` is imported as `ahocorasick`; installing it in `.venv` does not make it available in `.venv-gpu` or in the global Python. For an existing GPU environment that lacks this dependency:
+`pyahocorasick` (imported as `ahocorasick`) must be installed in every environment used for indexing; the builder checks it before starting and prints the install command. For an existing GPU environment:
 
 ```powershell
 .\.venv-gpu\Scripts\python.exe -m pip install --no-deps --only-binary=:all: pyahocorasick==2.3.1
 ```
 
-The builder checks that the package is available before starting the workers and shows the interpreter and the install command if the import fails.
+The model is downloaded to `model_cache/` on the first synchronization; afterwards search works offline (CPU search needs the FastEmbed/ONNX model, even when indexing used the GPU). Later synchronizations process only new or modified documents and drop deleted ones; changing the conditions catalog, the model or the text preparation requires a full rebuild. Progress and the estimated remaining time show in the terminal.
 
-On the first synchronization, the model is downloaded to `model_cache/` if it is missing. After that, search works offline. CPU search requires the FastEmbed/ONNX model, even if indexing was done on GPU with PyTorch.
+**Reindexing creates the database if it is missing and applies the SQL migrations.** This needs permission to create the database, schema and extensions (optionally a separate account in `DATABASE_BOOTSTRAP_URL`). The web application never migrates at startup. Conditions, plants and synonyms are read from PostgreSQL; add to them through new migrations in `src/backend/migrations/`, never by editing applied ones.
 
-On subsequent synchronizations, only new or modified documents are processed, and deleted ones are removed from the index. Changing the conditions catalog, the model or the way the text is prepared requires a complete rebuild of the index. Progress and the estimated remaining time are displayed in the terminal.
+During synchronization, search and the source list return `503`, while generation from fragments already found and PDF downloads continue. The new index is published only after all vectors are computed and validated, so a failure keeps the previous one. A missing or invalid catalog blocks search, and an incompatible index returns `INDEX_RESYNC_REQUIRED`. To rebuild an index, keep the documents, migrations, model and configuration; owner authorizations need a separate backup.
 
-**Reindexing creates the database if it is missing and automatically applies the SQL migrations.** Permissions to create the database, the schema and the extensions are required; optionally, `DATABASE_BOOTSTRAP_URL` can provide a separate account for creation. The web application does not run migrations at startup. Conditions, plants and synonyms are read from PostgreSQL; additions are made through new migrations in `src/backend/migrations/`, without modifying those already applied.
+Search uses only the selected sources: an empty selection searches nowhere, and if only some selected sources have disappeared, the valid ones are kept with a warning (if all have, a new selection is requested).
 
-During synchronization, search and the source list are temporarily unavailable (`503`). Generation from fragments already found and PDF downloads can continue. The new index is published only after all vectors have been computed and validated; a failure keeps the previous index. If the catalog has changed in the meantime, search requires the reindex to finish. A missing or invalid catalog blocks search, and an incompatible index requires resynchronization (`INDEX_RESYNC_REQUIRED`).
+In batch generation, a citation of a nonexistent fragment or of one from another batch invalidates the answer and stops the report (nutrition elements without citations are exempt). No partial PDF is published, and the search is kept for a manual retry. Citation checking is not medical validation, and the AI client logs hold only technical diagnostics.
 
-To rebuild the index, keep the source documents, the SQL migrations, the model and the configuration. Owner authorizations require a separate backup.
-
-Search uses only the selected sources. An empty selection searches nowhere; if all the selected sources have disappeared, the application asks for a new selection. If only some have disappeared, it keeps the valid ones and displays a warning.
-
-In batch generation, a reference to a nonexistent fragment or to one from another batch invalidates the answer and stops the whole report; nutrition elements without citations remain exempt. The reusable validator keeps the compatible partial-report mode for other consumers, but the new generation flow calls it strictly and does not publish a partial PDF. On failure, the search is kept for a manual retry. Citation checking is not medical validation. The AI client logs contain only technical diagnostics, without the text of the fragments or of the answer.
-
-To see which fragments would result, without writing to the index and without embeddings (requires the migrated catalog from PostgreSQL):
+To preview the fragments without writing to the index or computing embeddings (needs the migrated catalog):
 
 ```powershell
 $env:PYTHONPATH = "src"
@@ -529,20 +283,18 @@ $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe -m uvicorn backend.web.main:app --host 127.0.0.1 --port 7860
 ```
 
-If you synchronized the index in step 2, the migrations are already applied. To maintain an existing database, you can run them separately with `.\.venv\Scripts\python.exe -m scripts.migrate_database` (with `PYTHONPATH=src`). Open the chat at `http://127.0.0.1:7860/`, and `http://127.0.0.1:7860/owner` for login/logout. The form sends the key through `POST /api/owner/login`, with CSRF; logout revokes the token through `POST /api/owner/logout`. With the public prefix, the form is `/medicina/owner` on the configured HTTPS origin. The key must not be put in the URL or in the terminal history. Authorization remains valid across restarts until logout or key rotation. The old route with the key in the query remains only for compatibility. `/healthz` also checks the AI provider configuration; `/readyz` adds the check of the availability and compatibility of the index.
+If you synchronized the index in step 2, the migrations are already applied; for an existing database, run them separately with `.\.venv\Scripts\python.exe -m scripts.migrate_database` (`PYTHONPATH=src`). The chat is at `http://127.0.0.1:7860/` and the owner login/logout form at `/owner` (`/medicina/owner` under the public prefix). The form posts the key to `POST /api/owner/login` with CSRF, and `POST /api/owner/logout` revokes the token. Authorization survives restarts until logout or key rotation. Never put the key in the URL or terminal history; the old `?key=` route remains only for compatibility. `/healthz` checks the AI provider configuration, and `/readyz` adds index availability and compatibility.
 
-For message classification and local identification of conditions, start Ollama on `CONDITION_AI_LOCAL_BASE` (default `http://localhost:11434/v1`) and download the model once with `ollama pull gemma3:1b`. This model is separate from the provider chosen for report generation.
+For message classification and local condition identification, run Ollama on `CONDITION_AI_LOCAL_BASE` (default `http://localhost:11434/v1`) and download the model once with `ollama pull gemma3:1b`. It is separate from the report-generation provider.
 
-For interface development with automatic reload, run `npm run dev` in `src/frontend/`. Vite serves the interface locally at `http://localhost:5173/medicina/` and sends the API requests, health checks and the owner form to the production backend `https://cristiantone.taila68086.ts.net/medicina/`. Messages, searches and reports use this backend. The interface's TypeScript files are served locally, without being sent through the proxy. The backend must be available; `npm run dev` does not start it. `DEV_BACKEND_URL` can override the backend address.
-
-To use a locally started backend instead, set the address before launching Vite:
+For interface development with automatic reload, run `npm run dev` in `src/frontend/`. Vite serves the interface at `http://localhost:5173/medicina/` and proxies API requests, health checks and the owner form to the production backend `https://cristiantone.taila68086.ts.net/medicina/`, which must be reachable (`npm run dev` does not start it). `DEV_BACKEND_URL` overrides the address; to use a locally started backend:
 
 ```powershell
 $env:DEV_BACKEND_URL = "http://127.0.0.1:7860/"
 npm run dev
 ```
 
-In this variant, the local interface is at `http://localhost:5173/`. To return to the default production backend, remove the variable with `Remove-Item Env:DEV_BACKEND_URL -ErrorAction SilentlyContinue` and restart Vite. `PUBLIC_BASE_PATH` continues to configure the path for the production build.
+The local interface is then at `http://localhost:5173/`. To return to the default backend, run `Remove-Item Env:DEV_BACKEND_URL -ErrorAction SilentlyContinue` and restart Vite. `PUBLIC_BASE_PATH` sets the path for the production build.
 
 The JSON API (`src/backend/web/main.py`) is used by the React interface; the OpenAPI documentation (`/docs`) is disabled. `/api/...` requests with a session send the `X-Tab-Id` header (the tab identifier).
 
@@ -576,53 +328,17 @@ The JSON API (`src/backend/web/main.py`) is used by the React interface; the Ope
 
 ## Plant and product catalog
 
-Each non-empty top displays right under the title the instruction for selecting by product number, with the example `1` for the first product, before the score explanation and the list.
+The catalog and the aliases are read from PostgreSQL. It currently has **1,585 entries in 11 categories**: `plante medicinale` (medicinal herbs), `fructe` (fruits), `legume` (vegetables), `cereale` (cereals), `seminte` (seeds), `uleiuri esentiale` (essential oils), `uleiuri` (oils), `suplimente` (supplements), `aminoacizi` (amino acids), `vitamine` (vitamins) and `minerale` (minerals). Bee products, fibers, probiotics and prebiotics belong to `suplimente`, and there is no medicines category (`aspirina` was removed by migration 026). Categories are technical groupings, with no claim about medical status or efficacy, and they are never used as matching names or aliases. Catalog migrations `014`–`026` added the supplement and food products and reorganized the categories; each keeps the existing IDs, names, aliases, associations and rankings and refuses unexpected identities.
 
-After a plants or products top is displayed (general, per category or for a condition), the next message can be just the number of the position in the list: `1` opens the same details as the question `la ce e bun Ulei de măsline` (“what is olive oil good for”), if that is the first product displayed. The exact order of the displayed top is used, without a new AI classification. A number outside the list asks for a valid choice and keeps the list for a retry. Any other request ends this selection; the menus for category, number of entries or condition keep their own rules.
+The API intent `planta` covers every product, recognized by its `ro` and `en` names regardless of case, diacritics or hyphens. Products without a species return `species=[]` and are shown without empty parentheses. In plant requests the full name or alias takes priority; otherwise the beginning of a Romanian name, by whole words, offers the candidate species (“plop” asks to choose between plop alb, plop negru, plop tremurător and plop tremurător american). Romanian inflections and wordings with plant parts (“mugurii de plop”) are accepted, and after the choice only the selected species is used. This partial matching does not apply to mentions in the corpus or to citations in reports.
 
-The catalog of plants and products and the aliases are read from PostgreSQL. A plant search ignores differences in case, diacritics and hyphens; a name shared by several species asks the user to choose. The “Top N plants” requests display the ranking of plants and products by the number of distinct conditions with positive recommendations identified in the sources, and the regional names, without generating a report. Each entry uses the wording “useful in X conditions” (in Romanian “util/utilă/utile în X afecțiuni”, in agreement with the Romanian name); the note states that warnings, contraindications and mixed relationships are excluded from the score and that this classification is not clinical validation. The general lists of conditions of a product keep the historical associations, including warnings.
+**Tops.**
 
-The per-condition tops reuse this global ranking after filtering the positive pairs for the requested condition. A product with a higher ranking that has no positive association with the condition is excluded. The filter requires no migration or reindexing; it requires an already published and compatible positive run. The new local code and the examples from the text catalog become available in the running application only after the explicit delivery of the compatible version and a page reload.
+- “Top N plants” ranks products by the number of distinct conditions with positive recommendations found in the sources, with the regional names and no report. Each entry reads “useful in X conditions” (in agreement with the Romanian name), and a note says that warnings, contraindications and mixed relationships are excluded and that the classification is not clinical validation. The general lists of conditions of a product keep the historical associations, warnings included.
+- Per-condition tops reuse this ranking after filtering the positive pairs for the requested condition. They need no migration or reindexing, only a published and compatible positive run.
+- Each non-empty top shows, under the title, how to select a product by number (example `1`), before the score explanation and the list. The next message can then be just a position number: `1` opens the same details as the question “what is olive oil good for” for the first product, using the displayed order and no new AI classification. A number outside the list asks for a valid choice and keeps the list; any other request ends the selection.
 
-The accepted product categories are `seminte` (seeds), `suplimente` (supplements), `uleiuri esentiale` (essential oils), `uleiuri` (oils), `aminoacizi` (amino acids), `vitamine` (vitamins) and `minerale` (minerals). Bee products, fibers, probiotics and prebiotics belong to the `suplimente` category. The `medicamente` (medicines) category and the `aspirina` entry are removed by migration 026. These are technical catalog groupings, without establishing the medical status or efficacy of the product. The API intent `planta` and the existing routes also cover products, recognized by `ro` and `en`, regardless of case or diacritics. Products without a species return `species=[]` and are displayed without empty parentheses.
-
-Migrations `014`/`015` add 391 products (including the 12 commercial names confirmed under `suplimente`), reuse the records for psyllium, ashwagandha, brewer's yeast, spirulina and chlorella and add only to the plant Thuja the aliases `arborele vietii` and `thuya occidentalis`. The historical vitamin names and the three labels for jasmine, vanilla and white lotus oils are kept per the catalog requirement, with no claims about chemical identity or extraction. “Bilberry oil or extract” is excluded. The initial total after migration is 1,579 entries: 1,188 botanical and 391 products. The catalog does not automatically introduce synonyms such as `NAC`: the available canonical name is `N-acetilcisteina`.
-
-For migrations `014`/`015`, the compatible code must be delivered before the migration; after the migration, `scripts.build_hybrid_index --rebuild-herbs` is run for associations, ranking and fingerprints. Between these stages, the catalog results may require resynchronization. Unchanged documents keep their embeddings if their profile has not changed.
-
-Migration `016_separate_herb_category.sql` separates the category from the botanical family and rebuilds only the `herbs` table for the physical order `id, category, family, latin, ro, en, ranking`. For an upgrade from 015: prepare the compatible image, verify the backup and data snapshots, briefly stop the application, explicitly run `python -m scripts.migrate_database` with `PYTHONPATH=src` and the target database configuration, then start the new image and check `/healthz` and `/readyz`. The migration is transactional, keeps the IDs, names, aliases, associations and ranking; it refuses configurations or additional dependencies it does not cover. **For 016, reindexing, `--rebuild-herbs` or embeddings are not run**: the matching fingerprint and all the `sync_metadata` values remain unchanged. SQL NULL for family/latin is normalized to an empty string only in the runtime objects; the parser of the historical JSONL sources remains botanical. The runtime catalog fingerprint is versioned separately and includes the category and the family.
-
-Migration `017_food_categories_in_herbs.sql` introduces 12 categories: `plante medicinale` (medicinal herbs), `fructe` (fruits), `legume` (vegetables), `cereale` (cereals), `seminte`, `uleiuri esentiale`, `suplimente`, `aminoacizi`, `vitamine`, `minerale`, `produse apicole` (bee products), `fibre, probiotice, prebiotice` (fibers, probiotics, prebiotics). The four botanical groups keep the Latin name and the family. The food classification puts tomatoes under fruits, nuts/hazelnuts under fruits, food legumes under vegetables and buckwheat/quinoa/food amaranth under cereals. Whole genera or families are not moved. Source species and seeds consumed separately are distinct entries: the four seed products (sunflower, pumpkin, grape, flax) have SQL NULL `latin` and `family`. An oil from seeds stays in its own category. Categories do not become matching names or aliases.
-
-017 explicitly reclassifies 161 existing rows and adds the four seeds plus `chenopodium quinoa` (`amaranthaceae`): the seed total is **1,584**, with all the old IDs/names/families/aliases kept. The new rows receive identity IDs and an initial ranking of 0. The forms with/without a hyphen are already equivalent in matching and need no duplicate aliases. The common definitions are in `core/herb_categories.py`; the historical sources parser remains botanical.
-
-Migration `018_reclassify_oils_medicines_and_beta_carotene.sql`, applied after 017, extends the catalog to **14 categories** and moves only three entries: `beta-caroten` → `vitamine`, `ulei de masline` → the new category `uleiuri`, `aspirina` → the new category `medicamente`. It keeps the IDs, names, aliases, ranking, associations and the total of 1,584 entries. “Top N oils” and “Top N medicines” use the new filters; “essential oils” remains a distinct category. For 018 alone, the associations, fragments or embeddings are not rebuilt. If 017 is still unapplied, the rollout requirements for 017 below remain valid. The migration refuses unexpected identities or source categories and is not applied automatically at application startup.
-
-Migration `019_reclassify_additional_oils.sql` explicitly moves from `suplimente` to `uleiuri` the seven existing products: primrose, avocado, krill, fish, sea buckthorn, flax and coconut oil. It changes no IDs, names, rankings, aliases or associations; it keeps the total of 1,584 entries and the matching fingerprint. For this reclassification alone, the associations, fragments or embeddings are not rebuilt.
-
-Migration `020_reclassify_remaining_requested_oils.sql` moves another 13 existing products from `suplimente` to `uleiuri`: argan oil, okra - seeds, apricot - kernels, cucumber - seeds, cherry - kernels, black currant - seeds, pistachio, macadamia, rosehip, neem, papaya - seeds, tamanu and rice bran. It keeps all the other data, including the rankings of 0, and does not require rebuilding the associations, fragments or embeddings. Together with 018 and 019, the `uleiuri` category contains 21 products; the catalog total stays 1,584. Each migration explicitly checks the identities and the source category and refuses any deviation.
-
-Migration `021_reclassify_probiotic_products.sql` moves `Biogaia Prodendis`, `Biothin Probiotic`, `Digestive Advantage` and `Mood Probiotic` to the category `fibre, probiotice, prebiotice`, keeping the IDs, names, rankings and associations. It does not require rebuilding the associations or embeddings.
-
-Migration `022_add_sunflower_and_pumpkin_oils.sql` adds only `ulei de floarea-soarelui` and `ulei de dovleac`, with English names `sunflower oil` and `pumpkin seed oil`, in the `uleiuri` category. Both have SQL NULL family/latin, a new identity ID and an initial ranking of 0. No evening primrose oil or aliases for it are added. The audit checks the Romanian, English and Latin names and the aliases to refuse duplicates. The seed total becomes **1,586** entries, of which **23 are oils**. Being new products, after 022 `--rebuild-herbs-only` is run separately, following the procedure for 017 below: only associations/rankings from the existing fragments, without rebuilding the documents or embeddings. Applying the migrations and rebuilding the associations are not part of the local code changes.
-
-**Applying 017 is done separately from the implementation.** Prepare the compatible image and a backup verified by restoration; first save the complete fingerprints and xmin for `documents`/`chunks`, the catalog, associations and metadata. Briefly stop the application, explicitly apply the migration and then run only the rebuild of the associations:
-
-```powershell
-$env:PYTHONPATH = 'src'
-.\.venv\Scripts\python.exe -m scripts.migrate_database
-.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --rebuild-herbs-only
-```
-
-This mode requires an existing and compatible index, does not scan the corpus, does not fragment and does not load the embedding model. It publishes the associations and the ranking differentially in the same transaction and updates exclusively the five `herbs_benefits_*` keys, using the existing generation. It checks the previous catalog fingerprint: it allows additions with new IDs after those already indexed; modifying/deleting old names or any change to the old pairs/rankings stops publishing. `--rebuild-herbs` is still the general flow and can synchronize modified documents; do not use it for this application.
-
-Compare the fingerprints after the operation: the documents/chunks (including xmin), embeddings, generation and base metadata must be identical. Start the compatible application only after these checks; verify `/healthz`, `/readyz` and the tops. If the rebuild of the associations fails after the migration commit, fix the operation or restore the backup before starting. **Do not run the full reindex.**
-
-In plant requests, the full name or full alias takes priority. If it does not exist, the beginning of a Romanian name, by whole words, offers the candidate species: “plop” (poplar) asks to choose between plop alb (white poplar), plop negru (black poplar), plop tremurător (aspen) and plop tremurător american (American aspen). Romanian inflections and wordings with plant parts are also accepted, such as “muguri de plop” (poplar buds) or “mugurii de plop” (the poplar buds). After the choice, the result includes only the selected species. This partial matching does not apply to mentions in the corpus or to citations in reports.
-
-`build_hybrid_index.py` automatically rebuilds the `herbs_benefits` associations and the `herbs.ranking` ranking. An association means that the fragment's title names the condition (`primary_medical_conditions`), and the text mentions the plant or an alias. Negative mentions and contraindications are included: the association does not prove a therapeutic benefit.
-
-The associations are published in the same transaction as the index. Extending the plants/products catalog or changing the aliases rebuilds the associations without recomputing the embeddings for unchanged documents. For an explicit rebuild or audit:
+**Associations.** `build_hybrid_index.py` rebuilds the `herbs_benefits` associations and the `herbs.ranking` ranking automatically, in the same transaction as the index. An association means that the fragment's title names the condition (`primary_medical_conditions`) and the text mentions the plant or an alias. Negative mentions and contraindications are included, so an association does not prove a therapeutic benefit. Extending the catalog or changing aliases rebuilds the associations without recomputing the embeddings of unchanged documents. For an explicit rebuild or audit:
 
 ```powershell
 $env:PYTHONPATH = 'src'
@@ -630,26 +346,18 @@ $env:PYTHONPATH = 'src'
 .\.venv\Scripts\python.exe -m scripts.audit_herbs
 ```
 
-Additions and corrections to the catalogs are made through new SQL migrations in `src/backend/migrations/`, keeping the existing IDs. A missing or invalid catalog and unsynchronized associations block the plant results with an explicit error (`503`).
+**Catalog changes without reindexing.** Additions and corrections are made through new SQL migrations in `src/backend/migrations/`, keeping the existing IDs. When a migration adds or reclassifies products, apply it separately from the code change: deliver the compatible code, keep a backup verified by restoration, save the fingerprints (including `xmin`) of `documents`/`chunks`, the catalog, associations and metadata, briefly stop the application, then run only the association rebuild:
 
-### Merging fibers, probiotics and prebiotics into supplements
+```powershell
+$env:PYTHONPATH = 'src'
+.\.venv\Scripts\python.exe -m scripts.migrate_database
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --rebuild-herbs-only
+```
 
-The append-only migration `024_merge_fibre_probiotics_into_supplements.sql` moves all the entries
-from the old group into `suplimente` and removes the old value from the category
-constraints/index. After 024, the catalog had **13 categories**. On the complete seed there are 11 moved entries,
-61 supplements and 1,586 entries in total. The IDs, names, aliases, family, species,
-associations and historical scores are kept. The references above to the categories
-of migrations 014–021 describe the historical stages, replaced at this point by migration 024.
+This mode needs an existing, compatible index and does not scan the corpus, fragment it or load the embedding model. It publishes the associations and ranking differentially in one transaction and updates only the five `herbs_benefits_*` keys. It allows additions with new IDs, but changing or deleting old names, or any change to the old pairs or rankings, stops publishing. `--rebuild-herbs` is the general flow that also synchronizes modified documents; do not use it here. Afterwards the documents/chunks, embeddings, generation and base metadata must be identical to the saved fingerprints; check `/healthz`, `/readyz` and the tops before starting the application. If the rebuild fails after the migration commit, fix it or restore the backup before starting, and do not run the full reindex. A changed catalog fingerprint also requires the positive tops to be prepared and published again, reusing the compatible cache.
 
-“Top 100 probiotics”, “Top 100 prebiotics”, “Top 100 fibers” and the old
-full name now ask for the `suplimente` top, without additional AI classification for the
-explicit commands. The number and the rules of the strictly positive top stay the same.
+A missing or invalid catalog, or unsynchronized associations, block plant results with an explicit error (`503`).
 
-Applying to the active database is done separately, after a backup and a check of the pending versions;
-the usual migration command applies all the remaining migrations, including 023 if missing.
-Rebuilding the co-occurrences, fragments or embeddings is not necessary. The catalog fingerprint
-changes: an already published positive ranking requires a new preparation/publication, reusing
-the unaffected cache. The application is not started with the new definition over the old unmigrated catalog.
 
 ### Removing medicines and merging bee products
 
@@ -673,22 +381,6 @@ tops are prepared and published again, reusing the compatible cache. The migrati
 does not publish a new positive ranking.
 
 ## Rankings with positive recommendations
-
-### Recognizing essential oils
-
-Migration `027_essential_oil_source_aliases.sql` adds 183 aliases for the mixed
-Romanian/English forms in the sources, such as `ulei esential de peppermint`, using the full
-English name of the existing product. It creates no new products and assigns no generic
-name to all species, variants or chemotypes. The aliases are in `en_alt`,
-not in the regional names displayed in the top.
-
-In `Uleiuri esentiale.md`, the 55 lists confirmed by the operator as recommendations
-are explicitly labeled `Uleiuri recomandate` (recommended oils) and have one product per line. The 309
-mentions and the titles are kept. The rules recognize explicit list introductions
-for oils, without turning a simple mention or a disease title into a recommendation.
-Sources without recognized primary conditions and unidentified names stay outside the
-score. At the next indexing run by the operator, the migration is applied, the changed
-document is updated and the new run is prepared/published; the previous run is not modified.
 
 `herbs_benefits` and `herbs.ranking` keep the historical co-occurrences. The tops separately read
 `herb_positive_rankings.ranking`: the number of distinct **primary** conditions with at least one
@@ -995,22 +687,85 @@ local rules and model digest checks are not classification requests.
 On a resume, the displayed counter includes only the new requests of that run; the cumulative limit
 for `RUN_ID` continues to be checked separately in the database.
 
-## 📦 Hybrid index schema (Postgres)
+## Warnings and prohibitions data
 
-The main tables of the index, the catalog and the migrations are:
+The “Conditions with prohibitions” and “Warnings, contraindications and interactions” sections of a product are prepared offline, never at chat time. The application never migrates at startup: the migrations below are applied through the normal indexing command or `python -m scripts.migrate_database`.
+
+### Prohibitions (caution ranking)
+
+Migration `028_herb_caution_rankings.sql` creates the `herb_caution_*` tables. The caution projection reuses the `recommendation`/`prohibition` answers that the positive classification already requests, so it adds no AI requests; version 2 also checks explicit lists of foods to avoid, including broken OCR lines. A warning about another product or procedure in the same fragment does not validate a prohibition. Prohibitions come from `herb_caution_pairs` with explicit `prohibition` evidence, from the caution run linked to the active positive run, and match `herb_caution_rankings.prohibition_ranking`; cautions are kept separate and not counted. Positive preparation also prepares caution, and publishing activates both runs atomically. To populate it separately, without inference or reindexing:
+
+```powershell
+$env:PYTHONPATH = 'src'
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-caution-ranking
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-caution-ranking RUN_ID
+```
+
+The first command prints the new run ID and the number of unknown historical evidence items (recovered locally or marked `unknown`); the second accepts it only if the index, the positive run and the observed activation are still compatible. Both report `ai_requests_sent_total=0`. Updating from projection 1 to 2 needs only a new caution run, with no reindexing; the old run is shown as outdated until the new one is published. A missing caution part is shown as unavailable, and unrecoverable historical data is marked partial.
+
+### Warnings, contraindications and interactions
+
+The section uses only the local Ollama model's knowledge about each catalog product, regardless of category or whether documents mention it. One request is sent per product without a compatible cached result, containing only the product's identity (ID, Romanian and Latin names, English names, category, family, aliases), never fragments or conditions. The answer is strict JSON (`herb_id`, `status=complete|uncertain`, `messages`), each message with a `message_type` (`warning`, `contraindication` or `interaction`) and a `problem` in Romanian (10–25 words preferred, at most 240 characters). Interactions cover medications, supplements, other natural products, foods and drinks. Uncertain identity is marked `uncertain`, and an empty list does not confirm the absence of risks. Valid JSON and a correct identity are not clinical validation.
+
+In the interface the section is red, in two columns (one at most 580 px), each message starting with its bold category and with no “View source”. `GET /api/herb-safety/{groupId}` reads only the published generation, in pages of 20; a changed generation or catalog returns `HERB_SAFETY_STALE`.
+
+Migration `031_herb_product_safety_knowledge.sql` creates `herb_safety_messages` plus the run, result and cache tables (the legacy fragment-based safety tables are dropped by migration `039_drop_legacy_herb_safety_tables.sql`). The cache key covers the product identity and aliases, prompt, JSON rules, model and its digest, so a change affects only the products involved. Each result is saved immediately, an invalid answer stops the preparation and keeps the published generation, and there is no retry or repair. The first population needs one request per product, and later reindexes only the products without a compatible cache. Normal positive preparation also prepares and publishes this data (`--skip-positive-ranking` skips it), or run it separately:
+
+```powershell
+$env:PYTHONPATH = 'src'
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --analyze-safety-warnings
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-safety-warnings
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-safety-warnings --resume-safety-warnings RUN_ID
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-safety-warnings RUN_ID
+```
+
+Analysis runs no inference, and publishing checks only the database and the model digest. After an interruption, wait for the prompt before relaunching. Progress is reported under `progress_stage=product_safety`. Defaults: `HERB_SAFETY_AI_MAX_REQUESTS=10000`, `HERB_SAFETY_BUILD_TIMEOUT_SECONDS=86400`, `HERB_SAFETY_AI_CONTEXT_TOKENS=65536`, `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS=40000`, 900 s per request, `think=false`, temperature 0.
+
+### Bilingual extension (migration 036)
+
+While `HERB_SAFETY_EXTENSION_PRODUCTS` is empty, the flow above is unchanged. When it is set, `--prepare-safety-warnings` rebuilds the messages of the in-scope products for both languages in a single run, with the local model `HERB_SAFETY_GENERATION_MODEL` (batches of `HERB_SAFETY_MINISTRAL_BATCH_SIZE`). Each message is returned in Romanian and English with the same type, and the prompt asks for at least 7 messages per product without padding. Valid answers are cached per product and stage, so a retry resends only the missing products. Exact duplicates are removed deterministically and semantic ones by the local model `HERB_SAFETY_DEDUP_MODEL`, once per bilingual message so the RO and EN lists stay identical; the removed pairs are written to `aiWork/herb_safety_dedup_pairs.json`. Preparation creates two generations and prints `run_id_ro` and `run_id_en`, each published separately with `--publish-safety-warnings RUN_ID`. Normal reindexing also runs this extension at the end and publishes both. For a pilot, then full activation, set `HERB_SAFETY_EXTENSION_PRODUCTS=hypericum perforatum`, then `first:100` and `all`:
+
+```powershell
+$env:PYTHONPATH = 'src'
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --analyze-safety-warnings
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-safety-warnings
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-safety-warnings RO_RUN_ID
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-safety-warnings EN_RUN_ID
+```
+
+## 📦 Database schema
+
+The index lives in Postgres (`pgvector` and `unaccent` extensions). The tables below are the result of all the migrations in `src/backend/migrations/`.
+
+**Documents and fragments**
 
 | Table | Content |
 |---|---|
-| `documents` | One row per source file: path, SHA-256, encoding, line count; the category (folder) is a column generated from the path. Also used to decide which files are skipped at the next synchronization. |
-| `medical_conditions` | `id`, `name` (the canonical Romanian name) and `en` (the English equivalent, filled in through SQL); the condition identity is shared by both languages. |
-| `medical_condition_synonyms` | Only `id`, `medical_condition_id` and `synonym`: the synonyms tied to the condition by FK. |
-| `herbs` | Physical columns `id, category, family, latin, ro, en, ranking`; numeric identity ID. Plants keep lowercase names/families and a unique Latin name; products have `latin = NULL` and keep the capitalization requested for `ro`/`en`. The uniqueness of the product name (`lower(btrim(ro))`) is shared by all ten product categories, including `seminte`. Botanical entries use `plante medicinale`, `fructe`, `legume` or `cereale`; `family` keeps the original botanical family. For products, the technical category is only in `category`, and `family` is SQL NULL. `ranking` counts the distinct associated conditions from the fragment titles. Folk names can be shared by several species. |
-| `herb_aliases` | Columns `id, herb_id, name, kind`; lowercase aliases, FK with cascading delete, types `ro_regional`, `latin_synonyms`, `en_alt`. |
-| `herbs_benefits` | Associations derived from co-occurrence in the corpus: `id, herb_id, medical_condition_id, language`; unique pair per language, FK with cascading delete and individual indexes. Published atomically at the end of reindexing. |
+| `documents` | One row per source file, keyed by `relative_path` (`ro/<path>` or `en/<path>`): `absolute_path`, `size_bytes`, `modified_utc`, `sha256`, `encoding`, `line_count`, `char_count`. `category_id` is generated from the path (the folder without the language prefix, empty at the root). Used to skip unchanged files at synchronization. |
+| `chunks` | One row per fragment (`chunk_id`), tied to its document by `source_relative_path` (cascading delete): `source_absolute_path`, `source_sha256`, `line_start`, `line_end`, `heading` (path of headings), `text`, `text_sha256`, `char_count`, `language` (`ro`/`en`), `category_id` (generated from the path, used by source filtering), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions` and `secondary_medical_conditions` (`text[]`, GIN-indexed), `embedding vector(1024)` and `text_search tsvector` (GIN-indexed). The vector is searched exactly, without an ANN index. |
+| `sync_metadata` | Key/value pairs: `model_name`, `model_dimension`, `passage_profile`, `text_repr_version`, `dictionary_fingerprint` (with its version), `index_generation`, `last_synced_utc`, the five `herbs_benefits_*` markers and the active positive run per language (`herb_positive_active_run`, `herb_positive_active_run_en`). |
+
+**Conditions and catalog**
+
+| Table | Content |
+|---|---|
+| `medical_conditions` | `id`, `name` (unique canonical Romanian name) and `en` (English equivalent, required); the identity is shared by both languages. `medical_conditions_version` holds a single row with a version counter. |
+| `medical_condition_synonyms` | `id`, `medical_condition_id` (cascading delete) and `synonym`, unique per condition. |
+| `herbs` | `id, category, family, latin, ro, en, ranking`. `category` is one of 11 values: `plante medicinale`, `fructe`, `legume`, `cereale`, `seminte`, `uleiuri esentiale`, `uleiuri`, `suplimente`, `aminoacizi`, `vitamine`, `minerale`. The four botanical categories have a unique lowercase `latin` and a `family`, and lowercase `ro`/`en`; all other products have `latin` and `family` NULL, keep the capitalization of `ro`/`en`, and a unique `lower(btrim(ro))`. `ranking` counts the distinct conditions associated through fragment titles. |
+| `herb_aliases` | `id, herb_id, name, kind` (cascading delete); lowercase aliases, unique per `(herb_id, kind, name)`, with `kind` in `ro_regional`, `latin_synonyms`, `en_alt`. |
+| `herbs_benefits` | Co-occurrences `id, herb_id, medical_condition_id, language`, unique per language, published atomically at the end of reindexing. |
+
+**Rankings, safety and operations**
+
+| Tables | Content |
+|---|---|
+| `herb_positive_runs`, `_evidence`, `_pairs`, `_rankings`, `_cache` | The positive classification of product–condition pairs, per run and language. |
+| `herb_caution_runs`, `_evidence`, `_pairs`, `_rankings`, `_cache` | The prohibition and caution projection, linked to a positive run. |
+| `herb_condition_score_runs`, `herb_condition_scores` | L1, L2 and L3 per product and condition for the per-condition tops, keyed on the positive run. |
+| `herb_product_safety_runs`, `_results`, `_cache`, `_extension_cache`; `herb_safety_messages` | Warnings, contraindications and interactions per product and language. |
+| `report_generation_metrics`, `report_batch_usage` | Aggregate report-generation measurements, without conditions or medical text. |
+| `owner_sessions` | Owner authorizations: token hash and dates, no conversations or reports. |
 | `schema_migrations` | The ledger of the SQL migrations applied once. |
-| `owner_sessions` | Persistent owner authorizations: hashes and technical metadata; no conversations or reports. |
-| `chunks` | One row per fragment, with `language` (`ro`/`en`, RO for the existing rows): text, line range, the path of the headings (`heading`), the category generated from the path (`category_id`, used by source filtering), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, the semantic vector (`embedding vector(1024)`) and the lexical column (`text_search tsvector`). |
-| `sync_metadata` | The model, the dimension, the passage profile, the text version, the SHA-256 fingerprint of the dictionary, the index generation, the synchronization date and the five `herbs_benefits_*` markers. |
 
 If the index profile and the catalog fingerprint are unchanged, a document with the same SHA-256 is skipped at synchronization; a new or modified document replaces its fragments in a single transaction.
 
@@ -1030,23 +785,39 @@ For embeddings, a fragment longer than 1400 characters is split into windows tha
 
 ## 🐳 Running with Docker Compose
 
-Before building/starting, `medicina-naturista-documente/data/documents/`, `model_cache/` (with the embedding model already downloaded: the container runs offline) and the local `.env` file with the key of the chosen AI provider (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` or `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` and `OWNER_KEY` must exist. The stack has two services: `db` and `app`. The `db` service (Postgres 16 + `pgvector`, with `shared_buffers=512MB`) is exposed only on `127.0.0.1:5432` (`DB_HOST_PORT`), so the index is synchronized from the host with `python src/scripts/build_hybrid_index.py` (with `PYTHONPATH=src` and a `DATABASE_URL` pointing to `127.0.0.1` with the password `POSTGRES_PASSWORD`).
+Before building, make sure these exist: `medicina-naturista-documente/data/documents/`, `model_cache/` (with the embedding model already downloaded, because the container runs offline) and a local `.env` with `POSTGRES_PASSWORD`, `OWNER_KEY` and the key of the chosen AI provider (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` or `OLLAMA_API_KEY`).
 
-**Ollama runs separately, on the host (Windows), and must be started before the application.** The `app` container accesses it through `http://host.docker.internal:11434/v1`, both for message classification and condition identification (`CONDITION_AI_LOCAL_BASE`) and for reports with `ollama-gemma4:12b` (`OLLAMA_API_BASE`). Download the report model with `ollama pull gemma4:12b` and the model chosen in `MEDICAL_CONDITION_AI_LOCAL_MODEL` (default `gemma3:1b`). The models are managed by the Ollama installation on the host.
+The stack has these services:
 
-For Ollama reports, the client derives `/api/chat` from `OLLAMA_API_BASE` by removing the `/v1` suffix. It uses native JSON format, `truncate=false` and `shift=false`: the input is not shortened automatically and no portions are removed from the context in order to continue generation. Exceeding the context is reported as `AI_CONTEXT_LIMIT_EXCEEDED`, with the message to select fewer fragments or raise the minimum score. R1 8B has an explicit per-request context; for the other models, if there is no override, the Ollama server configuration is kept. Batches use conservative input token budgets; these do not replace the real context checked by Ollama. The input, the instructions and the output must fit together in the context. Message classification and condition identification also use the native `/api/chat` client, with `think=false`, to send the retention duration in the same request.
+- **`db`:** Postgres 16 with `pgvector` (`shared_buffers=512MB`), exposed only on `127.0.0.1:5432` (`DB_HOST_PORT`). Synchronize the index from the host with `python src/scripts/build_hybrid_index.py` (`PYTHONPATH=src`, and a `DATABASE_URL` pointing to `127.0.0.1` with `POSTGRES_PASSWORD`) after starting `db` and before using search.
+- **`app`:** published on `127.0.0.1:8760` (`APP_HOST_PORT`; the container port stays 7860) and, from there, through Tailscale Funnel, which handles HTTPS. It runs read-only, as a non-root user, without extra Linux capabilities; the documents are mounted read-only and temporary files go to `tmpfs`. The index lives in the `pg_data` volume, so resynchronizing does not require stopping the application.
+- **`vllm-supervisor`:** starts and stops the vLLM report containers on demand (see below).
 
-The application sends `keep_alive=60` for each Ollama request: the model is released after
-60 seconds of inactivity, without preloading at application startup. Reindexing separately uses
-`keep_alive=3600`. At the end of reindexing or of an explicit ranking/safety preparation,
-`build_hybrid_index.py` sends a control request with no prompt, with `keep_alive=0`, for the configured
-indexing model. Unloading is also requested on error or Ctrl+C; a forced stop of the
-process may skip the cleanup. The analysis, separate publishing, the caution projection without AI and
-`--skip-positive-ranking` do not unload the model. The `index_model_release` event confirms
-`released` only after Ollama's answer; on failure it displays `warning` without changing the result of the
-indexing. The control request generates no text and does not count in the number of inference requests.
+```powershell
+docker compose up -d --build
+docker compose --profile vllm-report create
+docker compose ps
+Invoke-WebRequest http://localhost:8760/healthz
+```
 
-For `gemma4:12b` with the maximum context of 262,144 tokens, the performance configuration measured on the local GPU uses the following variables **on Windows**, in PowerShell:
+To stop without deleting data, run `docker compose down`.
+
+> [!WARNING]
+> `docker compose down -v` deletes the Compose volumes, including the Postgres index (`pg_data`). The Ollama models on the host are managed separately.
+
+### Ollama on the host
+
+**Ollama runs separately, on the host (Windows), and must be started before the application.** The `app` container reaches it at `http://host.docker.internal:11434/v1` for message classification and condition identification (`CONDITION_AI_LOCAL_BASE`) and for Ollama reports (`OLLAMA_API_BASE`). Download the report model with `ollama pull gemma4:12b` and the model set in `MEDICAL_CONDITION_AI_LOCAL_MODEL` (default `gemma3:1b`); the host's Ollama manages them. Verify the connection from the container:
+
+```powershell
+docker compose exec -T app python -c "import urllib.request; print(urllib.request.urlopen('http://host.docker.internal:11434/api/version', timeout=5).read().decode())"
+```
+
+The client uses Ollama's native `/api/chat` (derived from `OLLAMA_API_BASE` by removing `/v1`) with JSON format, `truncate=false` and `shift=false`: input is never shortened silently, and exceeding the context returns `AI_CONTEXT_LIMIT_EXCEEDED` (select fewer fragments or raise the minimum score). Classification and identification use `think=false` and `reasoning.effort=none`, so thinking models spend their budget on the final JSON.
+
+Each request sends `keep_alive=60` (the model is released after 60 seconds of inactivity, with no preloading at startup), while reindexing uses `keep_alive=3600`. When reindexing or an explicit ranking/safety preparation ends (or fails, or is interrupted with Ctrl+C), `build_hybrid_index.py` asks Ollama to unload the indexing model; the `index_model_release` event reports `released` or a `warning` without changing the indexing result.
+
+For `gemma4:12b` with the maximum context of 262,144 tokens, the configuration measured on the local GPU sets these variables **on Windows** (PowerShell):
 
 ```powershell
 [Environment]::SetEnvironmentVariable("OLLAMA_FLASH_ATTENTION", "1", "User")
@@ -1055,46 +826,19 @@ For `gemma4:12b` with the maximum context of 262,144 tokens, the performance con
 [Environment]::SetEnvironmentVariable("OLLAMA_CONTEXT_LENGTH", "262144", "User")
 ```
 
-Fully close Ollama from the notification area and start it again from Start. Check the effective values and `offloaded …/49` in the log `%LOCALAPPDATA%\Ollama\server.log`; the desktop application may have its own settings. These variables configure the Ollama server, not the Python client: adding them to `.env` or to the environment of the Compose `app` service does not change the Ollama on the host.
+Fully close Ollama from the notification area, start it again and check the effective values in `%LOCALAPPDATA%\Ollama\server.log`. These variables configure the Ollama server, so putting them in `.env` or in the Compose `app` environment has no effect. A quantized KV cache lowers precision, and the speed measurement does not validate report quality on long inputs. For batches to run simultaneously, `OLLAMA_NUM_PARALLEL` must be at least `REPORT_BATCH_WORKERS` (default 2); otherwise requests are processed in succession. The application itself keeps `MAX_CONCURRENT_GENERATIONS=1`. Measurements and their limits: [Ollama investigation](aiPlans/2026-10-15-investigare-performanta-ollama.md).
 
-`q4_0` reduces the precision of the KV cache; the speed measurement does not validate the quality of reports on long inputs. For the batches to be actually processed simultaneously, the Ollama server must allow at least the number of requests per model configured through `REPORT_BATCH_WORKERS` (default `OLLAMA_NUM_PARALLEL>=2`). If it allows only one, the requests sent by the application may be processed in succession. Simultaneous contexts require more memory; speedup is not guaranteed and the server configuration is not changed automatically. The application separately keeps `MAX_CONCURRENT_GENERATIONS=1`. The historical local results and the limits of the measurement are in the [Ollama investigation](aiPlans/2026-10-15-investigare-performanta-ollama.md).
+After changing `.env`, recreate only the application with `docker compose up -d --no-deps --force-recreate app`.
 
-```dotenv
-CONDITION_AI_LOCAL_BASE=http://host.docker.internal:11434/v1
-MEDICAL_CONDITION_AI_LOCAL_MODEL=gemma4:12b
-CONDITION_AI_TIMEOUT_SECONDS=30
-MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS=30
-```
+### vLLM report models
 
-The two timeouts in the example are 30 seconds. Local classification and identification request `reasoning.effort=none`, so that models with “thinking” use the answer budget for the final JSON.
-
-To verify the connection from the container:
+`docker compose up` starts no vLLM server. The `create` step above only creates the report containers (`vllm-qwen35`, `vllm-qwen25`); repeat it after changing those services. A report with a vLLM model starts that model's container, waits until `/v1/models` lists the model (the browser shows a warm-up dialog meanwhile) and then sends the requests. The server stays up until a report needs the GPU for another model: an Ollama report, or the other vLLM model, stops it first. Reports with DeepSeek, xAI or Hugging Face leave it running. To free the GPU by hand (reindexing, translation, large Ollama models):
 
 ```powershell
-docker compose exec -T app python -c "import urllib.request; print(urllib.request.urlopen('http://host.docker.internal:11434/api/version', timeout=5).read().decode())"
+docker compose --profile vllm-report stop vllm-qwen35 vllm-qwen25
 ```
 
-After changing the configuration in `.env`, recreate the application with `docker compose up -d --no-deps --force-recreate app`. If you are migrating from the old Ollama service, stop and remove only the old container with `docker stop medicina-ollama` and `docker rm medicina-ollama`; its volume with models can be kept for recovery. The required models must be downloaded separately in the Ollama on the host.
-
-Synchronize the index after starting the `db` service, before using search.
-
-```powershell
-docker compose up -d --build
-docker compose --profile vllm-report up -d vllm-report
-docker compose ps
-Invoke-WebRequest http://localhost:8760/healthz
-```
-
-The application is published on the host at `127.0.0.1:8760` (`APP_HOST_PORT`; inside the container the port stays 7860, and 8760 avoids the port range reserved by Windows) and published through Tailscale Funnel, which handles HTTPS. It runs in a read-only container, without additional Linux capabilities, as a non-root user. The documents are mounted read-only, and the temporary directories use `tmpfs`. The index lives in Postgres (named volume `pg_data`), so there is no longer a need for a bind mount or for stopping the application during resynchronization.
-
-Stopping without deleting the volumes:
-
-```powershell
-docker compose down
-```
-
-> [!WARNING]
-> `docker compose down -v` deletes the named volumes declared in Compose: the Postgres index (`pg_data`). The Ollama models on the host are managed separately.
+`vllm-supervisor` is the only container with the Docker socket, which is root-equivalent on the host. It can start and stop only the two vLLM report servers, refuses to start one while the other (or `vllm-translate`) is running, and only the application can reach it. Set `MODEL_SUPERVISOR_URL` empty to manage the servers by hand.
 
 ### Publishing through Tailscale Funnel
 
@@ -1125,67 +869,6 @@ On first use, follow the activation link displayed by Tailscale. The application
 
 Migrating this application does not require modifying the shared Nginx proxy or stopping ngrok for the other projects. The Caddy service and configuration were removed; HTTPS is managed by Tailscale. The old access to Medicina Naturistă through ngrok is no longer the authorized origin for modifying requests after `PUBLIC_ORIGIN` was changed.
 
-## Application language and fixed texts
-
-The “Română / English” selector in the header changes the language of the interface and of the
-following operations. The first visit uses RO; the preference is saved in `localStorage` for
-new tabs. Tabs that are already open keep their language. The change is blocked while
-there is an active operation in that tab and does not recreate the session or the history.
-
-Each message, search and report keeps its original language. Actions on historical
-results use that language: a report generated from an RO search stays RO even if the
-interface has switched to EN, including the PDF and the email. For an EN report a new
-EN search is needed. EN search does not use RO fragments when EN results are missing.
-
-The texts are in two independent UTF-8 catalogs:
-`src/backend/resources/texts.ro.toml` and `src/backend/resources/texts.en.toml`.
-The RO catalog was kept unchanged when the EN language was introduced. Both have exactly the same
-468 keys and the same named parameters. The `common` and `interface` sections are public;
-`conversation`, `errors`, `authorization`, `report` and `email` stay on the backend.
-Missing or unknown keys, incompatible parameters or HTML stop validation;
-there is no fallback of the EN texts to RO.
-
-```powershell
-$env:PYTHONPATH = 'src'
-.venv/Scripts/python.exe -m scripts.manage_texts
-.venv/Scripts/python.exe -m scripts.manage_texts --public-json --language en
-```
-
-The HTML bootstrap passes both public catalogs before React starts.
-`GET /api/texts?language=en` exposes the public EN catalog; without a language, the compatible answer
-is RO. UI requests send `X-App-Language: ro|en`; navigation to authorization uses
-a validated language parameter. `POST /api/language` changes the session preference without
-deleting the conversation. The HTML and the public texts are `no-store`.
-
-The backend and each worker use an isolated language context derived from the operation's
-snapshot, without modifying a global AI client. The RO prompts stay in
-`ai/prompts/`; the EN variants are in `ai/prompts/en/`, with the same JSON keys and
-citation rules. Classification and condition identification remain exclusively local. The product
-warnings are prepared at reindexing for both languages, with separate caches and active generations;
-UI lookups do not initiate AI calls.
-
-`medical_conditions.en` is populated through an SQL migration from the bilingual aliases of the
-catalog, without changing the IDs and without AI translation at runtime. Products use
-`herbs.en`; when there is no common EN name, the scientific name is kept. Later
-additions of conditions through `scripts.condition_sql.additions_sql` must explicitly
-provide `Condition.english`. Source classification and citation checking are not
-medical validation of the translations or of the recommendations.
-
-In the UI, product names use the dictionary of the operation's language: `ro_RO` for RO
-and `src/scripts/dictionaires/en/en_GB.dic` / `en_GB.aff` for EN. When recognizing
-EN names, plurals validated by the dictionary's nominal rules are accepted,
-including in alternative names and multi-word expressions. Latin names stay
-exact; prefixes and derivations that change the meaning do not extend the matches. The display
-keeps ambiguous or unknown forms. The catalog caches are separate per
-language; entered messages and documents are not corrected automatically by this integration.
-The conditions catalog in PostgreSQL remains separate from the Hunspell spelling dictionary.
-
-When keys/parameters change, `python -m scripts.manage_texts --generate` regenerates
-only the common Python/TypeScript metadata. It does not duplicate the messages in the frontend. Compose
-mounts both catalogs read-only. Activating the new code requires rebuilding the application;
-later editing of only the values requires restarting the process and reloading the page.
-Vite in development must be connected to a backend that includes the bilingual contract.
-
 ## ⚙️ Configuration
 
 The `.env` file is ignored by Git. The main values recognized by the application are:
@@ -1201,10 +884,12 @@ The `.env` file is ignored by Git. The main values recognized by the application
 | `OLLAMA_API_BASE` | `http://localhost:11434/v1` | The Ollama base; in Docker Compose `http://host.docker.internal:11434/v1`. |
 | `OLLAMA_KEEP_ALIVE_SECONDS` | `60` | Retention duration after the application's last Ollama request (report, classification or identification). `0` unloads after each request. It does not change the context size and does not control reindexing. |
 | `OLLAMA_API_KEY` | — | Required only when `OLLAMA_API_BASE` is not local (e.g. `https://ollama.com/v1`). |
-| `VLLM_API_BASE` | `http://localhost:8001/v1` | The vLLM server of `vllm-qwen3.5:4b`; in Docker Compose `http://vllm-report:8000/v1`. |
+| `VLLM_API_BASE` | `http://localhost:8001/v1` | The address both vLLM report servers share (only one runs at a time); in Docker Compose `http://vllm-report:8000/v1`. |
+| `MODEL_SUPERVISOR_URL` | empty (`http://vllm-supervisor:8080` in Docker Compose) | The service that starts and stops the vLLM report servers when a report needs them. Empty means no lifecycle control: the operator starts the server by hand, as in a native run. |
+| `VLLM_WARMUP_TIMEOUT_SECONDS` | `900` | How long a report waits for a started vLLM server to list its model before it fails with `VLLM_WARMUP_TIMEOUT`; the first start also downloads the weights. Warm-up does not count against the report time limit. |
 | `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL` | `{"ollama-deepseek-r1:8b":8192}` | JSON object with the output limit per Ollama model. Omitted keys keep the default values from the catalog (R1 8B: 8192); the other models use the catalog default (20000). The values must be positive integers, and the output must be smaller than the context from the catalog (R1 8B: 32768). Unknown keys, external models and duplicates are rejected. It is the default value displayed in the report panel (admin only), where it can be overridden per report. |
 | `MEDICAL_CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | The local Ollama model for message classification and condition identification; downloaded on the host with `ollama pull <model>`, including when the application runs in Docker. |
-| `REPORT_GENERATION_MODELS` | the 9 models in the catalog order below | Ordered CSV list of the available models. The first is the default. The order in the UI is the same; rights control generation, not the visibility of the options. Empty lists, empty elements, unknown models and duplicates are rejected at startup. The choice in the UI applies only to that job. |
+| `REPORT_GENERATION_MODELS` | the 9 models of the catalog below that are not local vLLM models | Ordered CSV list of the available models. The first is the default. The order in the UI is the same; rights control generation, not the visibility of the options. Empty lists, empty elements, unknown models and duplicates are rejected at startup. The choice in the UI applies only to that job. |
 | `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` | `24000` for R1 8B, `25000` for the others; context from the catalog; effort `low` | JSON object with one entry per model: `{"tokens": …, "context": …, "effort": …, "thinking": …}`. `tokens` (required) is the input token budget per batch; it includes the complete serialized request and a reserve of 256 tokens, with local counting estimated at 3 UTF-8 bytes per token. `context` is the model's context window: it is displayed under the chosen model in the panel and limits the output (input + output fit within it). Startup is refused if the default output of an active model leaves fewer than 1,000 input tokens; for R1 8B it must match `num_ctx` from the catalog (32768). `effort` (`low`/`medium`/`high`) is the preselected effort when the user chooses the model. `thinking` is the default thinking budget of a batch (8000): with effort `medium` or `high` it is added to the output limit chosen in the panel, which stays the budget of the JSON answer, and it is capped at a quarter of the request context. `context`, `effort` and `thinking` are optional and have default values from the catalog/`low`/8000; `thinking` may be `0` for a model that does not think. Missing/empty value → the default values; an explicit object must include every enabled model. `tokens` is also the default value displayed in the report panel (admin only), where it can be overridden per report. The value can be written over several lines in `.env`, between single quotes. |
 | `REPORT_BATCH_WORKERS` | `2` | Positive integer: the maximum number of batches processed simultaneously in the active report. `1` processes in succession. It does not change the limit of a single active report. It is passed explicitly to the application through Docker Compose. The report panel (admin only) has an editable field from `0` to `300`, starting at `0` (in succession); `0` is sent as `1`. |
 | `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://host.docker.internal:11434/v1` (Compose) | The Ollama address on the host, used for message classification and condition identification. |
@@ -1369,240 +1054,147 @@ For public exposure, set `DEPLOYMENT_PROFILE=public`, `PUBLIC_ORIGIN=https://...
 
 ## PDF to Markdown extraction
 
-`src/scripts/extract_pdf_markdown.py` locally converts PDFs to Markdown, infers the titles and the reading order and keeps the `<!-- Pagina PDF N -->` markers (“PDF page N”). Install the optional dependencies, then run the conversion:
+`src/scripts/extract_pdf_markdown.py` converts a PDF to Markdown locally, infers titles and reading order, and keeps `<!-- Pagina PDF N -->` page markers. Install the optional dependencies, then run:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -e ".[pdf]"
 .\.venv\Scripts\python.exe src\scripts\extract_pdf_markdown.py "book.pdf"
 ```
 
-By default, for `book.pdf`, the script creates the folder `medicina-naturista-documente/data/documents/Surse sigure/book/` and saves `book.pdf.md` there. The folder receives the PDF's name without the extension, and the Markdown file keeps the PDF's full name, with `.md` added. The destination is relative to the project root, computed from the script's location, regardless of the launch directory. `-o` / `--output` allows explicitly choosing another output file.
+By default the output is `medicina-naturista-documente/data/documents/ro/Surse sigure/book/book.pdf.md` (a folder named after the PDF without its extension, a file keeping the full PDF name plus `.md`), resolved from the project root whatever the launch directory. `-o` / `--output` chooses another file, and `--report` writes a JSON report.
 
-PyMuPDF extracts the characters and font information and renders the pages. By default, each page is straightened separately before extraction and the columns are detected automatically. The text source is chosen per page. A page with a real text layer (born-digital) keeps that text. A scanned page carries an old OCR layer that can drop whole paragraphs without any error, so its layer is trusted only if three checks against the page image pass: no dark pixels outside the layer's text boxes, no garbled symbol strings, and a low share of words missing from the bundled Hunspell dictionary (`src/scripts/pdf_layer_check.py`; the thresholds were calibrated on a scanned Romanian book). A page that fails them, or that has no layer, is transcribed to Markdown by a local vision model served by Ollama (`src/scripts/pdf_vision.py`, default `qwen3.5:9b`, address from `OLLAMA_API_BASE` with `http://localhost:11434/v1` as default). If Ollama or the model is not available, those pages fall back to Tesseract and the report says so. The model is unloaded when the run ends. Tesseract runs in memory through `Page.get_textpage_ocr`, without starting its executable and without intermediate images or TSV files; it uses the language files `ron.traineddata` and `eng.traineddata`, found through `--tessdata` or `TESSDATA_PREFIX` (on Windows `C:\Program Files\Tesseract-OCR\tessdata` is detected by default).
+**Text source, per page.** PyMuPDF extracts characters and fonts. Each page is straightened and its columns detected automatically. A page with a real text layer keeps that text. A scanned page carries an old OCR layer that can silently drop paragraphs, so its layer is trusted only if three checks against the page image pass: no dark pixels outside the layer's text boxes, no garbled symbol strings, and a low share of words missing from the bundled Hunspell dictionary (`src/scripts/pdf_layer_check.py`). A page that fails them, or has no layer, is transcribed by a local vision model served by Ollama (`src/scripts/pdf_vision.py`, default `qwen3.5:9b`, address from `OLLAMA_API_BASE`, default `http://localhost:11434/v1`), which is unloaded when the run ends. Without Ollama or the model, those pages fall back to Tesseract in memory (`ron` and `eng` data from `--tessdata` or `TESSDATA_PREFIX`; on Windows `C:\Program Files\Tesseract-OCR\tessdata` is detected), and the report says so. The page image sent to the model is cropped to the printed area, which cuts the tokens per page and the time.
 
-The output never contains diacritics: `ț`, `ș`, `ă`, `â`, `î` and the other accented letters are written as `t`, `s`, `a`, `a`, `i` and so on, in the file name header and in the text. The vision model chooses its own heading levels (`##` and `###`), and its pages are not merged with the following page.
+The output never contains diacritics (`ț`, `ș`, `ă`, `â`, `î` become `t`, `s`, `a`, `a`, `i`), in the file header and in the text.
 
-Chapters are not guessed page by page. If the PDF has no outline, the script reads the running heads in the text layer (the chapter title printed at the top of every other page, and the book or author title that repeats on all pages), recovers the chapter list and the page where each chapter opens (`src/scripts/pdf_chapters.py`), and writes one `## CHAPTER TITLE` at the opening page of each chapter in every `--ocr` mode. On those pages the page's own title lines, its running head and the lone chapter number are removed, and all other headings are moved one level down (`###`, `####`), so that chapters are the only `##` headings. Running heads of different levels can alternate on facing pages (the part title on one side, a chapter or an article on the other, as in a reference book); a head joins the most recent run of pages whose head agrees with it, and a run that shares pages with a larger one is treated as part of it, so only the top level (for example the parts of a book) becomes `##` and the rest is left to the headings of the pages. Garbage made of upper-case letters without vowels (OCR of ornaments and contents pages) is not read as a head. A book without running heads, or with an outline, is not changed by this step. The chapter list and opening pages are in the JSON report (`chapters`). The result depends on the quality of the embedded text layer: a head that the old OCR misread on every page is not recognized.
+**Headings.** Chapters are not guessed page by page. Without a PDF outline, the script reads the running heads in the text layer, recovers the chapter list and opening pages (`src/scripts/pdf_chapters.py`), and writes one `## CHAPTER TITLE` where each chapter opens; the page's own title lines, running head and lone chapter number are removed, and other headings move one level down. A book without running heads, or with an outline, is left as is, and a head that the old OCR misread on every page is not recognized. Below the chapters, heading levels come from the printed font size in the text layer compared with a size learned from the whole book (`src/scripts/pdf_headings.py`): sections get `###` and parts `####` (a heading ending in a colon is always a part), so a section stays whole for the fragmenter. If the evidence is too thin, the model's own choice is kept. On vision pages, decorative `---` rules are dropped and a “heading” that is really a paragraph is turned back into one, with its label in bold.
 
-Below the chapters, heading levels do not depend on what the vision model decides for each page (it sees one page and, on a page that holds only small headings, would call them main headings). The printed size of each heading is read from the text layer (`src/scripts/pdf_headings.py`) and compared with a size learned from the whole book: pages where the model itself saw two heading styles show which size is a section and which is a part, and a heading that ends in a colon is a part wherever it stands. Sections get `###` and parts `####`, so a section (for example a remedy) always contains its parts and stays one fragment for the fragmenter. No heading text is hard-coded. If a book gives too little evidence, or a heading has no matching line in the layer, the model's own choice on that page is kept. Two clean-ups run on every vision page: decorative `---` rules are dropped, and a "heading" that is really a paragraph (longer than 100 characters, starting in lower case, or a label followed by a whole sentence) is turned back into a paragraph, with the label in bold.
+`src/scripts/fix_markdown_headings.py "book.pdf.md" "book.pdf"` applies the same heading rules to an existing Markdown file, with no AI call. It changes only heading marks, `---` rules and bold labels, and rewrites the file (`-o` writes elsewhere), so keep a copy.
 
-`src/scripts/fix_markdown_headings.py "book.pdf.md" "book.pdf"` applies these rules to a Markdown file that already exists, with no AI call: it re-reads only the heading sizes from the PDF, leaves the book title and the chapters (`##`) as they are, and changes nothing but heading marks, `---` rules and bold labels. It rewrites the file (`-o` writes elsewhere), so keep a copy first; the JSON report of a new extraction records the size it used in `section_heading_size`.
+Useful options (`--help` lists all):
 
-Useful options:
-
-- `--start-page N --end-page N`: converting a range of pages.
-- `--ocr vision|auto|always|never`: `vision` (default on the command line) transcribes every page with the vision model; `auto` is the per-page choice described above, which keeps a scanned page's text layer only when it passes the checks and is faster; `always` forces Tesseract, `never` uses only the existing text layer. Without Ollama, `vision` falls back to Tesseract and the report says so. The default of the Python `Options` class stays `auto`, so library calls and unit tests need no Ollama.
+- `--start-page N --end-page N`: convert a range of pages.
+- `--ocr vision|auto|always|never`: `vision` (the command-line default) transcribes every page with the vision model; `auto` applies the per-page choice above and is faster; `always` forces Tesseract; `never` uses only the existing text layer. The `Options` class defaults to `auto`, so library calls and tests need no Ollama.
 - `--vision-model NAME`: another Ollama model with vision support.
-- `--workers N` (default 1): pages sent to the vision model at the same time. The pages are prepared on one thread, in parallel with the requests, and written in page order; one page is always prepared ahead. Measured with `qwen3.5:9b`: Ollama logs `model architecture does not currently support parallel requests` for it and runs two simultaneous requests one after the other, so `N` above 1 saves no time with that model (8 pages: 186 s with 1 worker, 184 s with 2). Use it only with a model and an Ollama version that do run requests in parallel (`OLLAMA_NUM_PARALLEL` at least `N`).
-- The page image sent to the model is cropped to the printed area before it is sent, which removes the white scan margins: about 1,200 image tokens instead of 3,000 per page, around 10% less time per page with no loss of accuracy on the six pages checked.
-- `--columns 1|2|3` and `--deskew off`: manual control for ambiguous documents.
-- `--debug`: logging the entry into each explicit function/method, with the parameter names; passwords are masked, and large collections and objects are summarized. By default progress is displayed at `INFO` level.
-- `--help`: the full list of options.
+- `--workers N` (default 1): pages sent to the vision model at once. Ollama runs `qwen3.5` requests one after the other, so `N` above 1 saves no time with it; use it only with a model and Ollama version that serve requests in parallel.
+- `--columns auto|1|2|3`, `--deskew auto|off`, `--max-skew`, `--dpi` (default 250), `--lang` (default `ron+eng`), `--password`, `--tessdata`.
+- `--debug`: logs entry into each function with parameter names (passwords masked, large objects summarized).
 
-The JSON report describes the extraction (the method used for each page: `text`, `vision` or `ocr`, and why a scanned page's layer was rejected) and the per-page warnings. The Markdown and the report are prepared before the results are replaced; if publishing fails, the script tries to restore the previous versions and keeps the recovery copies if restoration is blocked. Destinations that coincide with the source, including hardlinks, are rejected. OCR rendering is limited to 64 megapixels per page; reduce `--dpi` for very large pages. Check the titles, tables and degraded scans: the structure is inferred heuristically, and OCR errors are not corrected semantically.
+The JSON report records the method used for each page (`text`, `vision` or `ocr`), why a scanned page's layer was rejected, the chapters and per-page warnings. Markdown and report are prepared before the old results are replaced, and a failed publish restores the previous versions. OCR rendering is limited to 64 megapixels per page, so lower `--dpi` for very large pages. Check titles, tables and degraded scans: the structure is inferred heuristically and OCR errors are not corrected semantically.
 
-`src/scripts/merge_book_pdfs.py` merges the fragments `pag<first>-<last>.pdf` and straightens each page in memory, using PyMuPDF for all PDF operations. Each fragment is opened only once; the page count is checked during merging, and mismatches and missing ranges produce warnings. Overlapping ranges are rejected, including on direct calls from Python. It performs no OCR and generates no intermediate images. By default, the final PDF is saved in the project root (`D:\Workspace\medicina-naturista` in the current checkout), with the source folder's name and the `.pdf` extension; the destination is computed from the script's location, regardless of the directory it is launched from. `--output-dir` changes the destination, and `--deskew off` disables straightening. `--debug` enables logging the entry into each explicit function/method, with named parameters and large objects summarized. Progress is displayed at `INFO` level. The final PDF is verified before the atomic replacement of the destination; the sources, including aliases/hardlinks, are protected against overwriting.
-
-## 📜 License
-
-The project's code is distributed under the [Business Source License 1.1](LICENSE) ([Romanian version](LICENSE.ro.md)). Use in non-production environments is free; use in production requires a separate commercial agreement with the licensor. Apache 2.0 is the license provided for after the change date, according to the terms in `LICENSE`, not the project's initial license.
-
----
-
-<div align="center">
-
-🌱 **Verifiable sources · local retrieval · adjuvant recommendations**
-
-</div>
-
+`src/scripts/merge_book_pdfs.py` merges `pag<first>-<last>.pdf` fragments into one PDF, straightening each page in memory with PyMuPDF and without OCR. It warns on page-count mismatches and missing ranges and rejects overlapping ranges. By default the result is saved in the project root, named after the source folder; `--output-dir` changes the destination and `--deskew off` disables straightening. The final PDF is verified before the destination is replaced atomically, and the sources are protected against overwriting.
 
 ## Background report generation
 
-The supported models are defined in a single backend catalog. `REPORT_GENERATION_MODELS` is the CSV list of the enabled models, in the UI order; the first model is the default. `/api/report-models` returns all the configured models in `models`, the first in `defaultModel` and, separately, the models permitted to the current user in `allowedModels`. All options remain visible and selectable for the public. Recipe/report generation is reserved for the administrator for all models, including local Ollama. An unauthorized user sees the message “Recipe generation is available only to the platform administrator.” and the generation button disabled for any model. `allowedModels` is empty for the public and contains the configured models for the administrator; missing permission metadata disables generation in the UI. The authenticated administrator can generate with all configured models. The same protection applies on the backend for all models: the request receives HTTP 403 with `MODEL_FORBIDDEN`, before the job is admitted or the AI is called, if the author session is not valid. Requests without a model use the first configured model and the same check, with no automatic switch to another model. An explicit model that is not configured is rejected with HTTP 422 and `MODEL_NOT_CONFIGURED`. The status and cancellation of a job also require a valid administrator session. Clients are built only for the configured models. The previous singular variable has been removed.
+### Models and access
 
-In the chat, the confirmation “The report is ready and was generated in …” also includes `using the AI model **<model>**`, with the effective model identifier displayed in bold. The information is kept in the report message in the session history, independent of later selections in the UI.
+The supported models are defined in one backend catalog (`src/backend/core/report_models.py`). `REPORT_GENERATION_MODELS` is the comma-separated list of enabled models, in UI order; the first is the default. `GET /api/report-models` returns all configured models in `models`, the first in `defaultModel` and the ones the current user may use in `allowedModels`.
 
-At the end of the PDF, after the bibliography and the generation summary, `AI model used: <model>` appears. The effective identifier sent to the provider is displayed, fixed from the client chosen for the report; a later change of the default does not modify this information for requests already admitted to the queue.
+Report generation is reserved for the administrator, for every model including local Ollama. The public sees all options but gets the message “Recipe generation is available only to the platform administrator.” and a disabled button. On the backend, a request without a valid administrator session gets HTTP 403 `MODEL_FORBIDDEN` before the job is admitted or any AI is called. A request without a model uses the first configured one, with the same check and no automatic switch; a model that is not configured gets HTTP 422 `MODEL_NOT_CONFIGURED`. Reading the status of a job and cancelling it also require the administrator session.
 
-| UI option / env | Provider | Model sent in the request |
+The chat confirmation (“The report is ready and was generated in …”) names the model in bold, and the end of the PDF shows `AI model used: <model>`. Both use the identifier fixed when the job was admitted, so later changes of the default or of the UI selection do not alter them.
+
+| UI option / env | Provider | Model sent |
 | --- | --- | --- |
-| `ollama-gemma3:1b` | Local Ollama | `gemma3:1b` |
-| `ollama-gemma4:12b` | Local Ollama | `gemma4:12b` |
-| `ollama-ministral-3:8b` | Local Ollama | `ministral-3:8b` |
-| `ollama-qwen3.5:9b` | Local Ollama | `qwen3.5:9b` |
-| `ollama-qwen3.5:4b` | Local Ollama | `qwen3.5:4b` |
-| `ollama-deepseek-r1:8b` | Local Ollama | `deepseek-r1:8b` |
+| `ollama-gemma3:1b`, `ollama-gemma4:12b`, `ollama-ministral-3:8b`, `ollama-qwen3.5:9b`, `ollama-qwen3.5:4b`, `ollama-deepseek-r1:8b` | Local Ollama | the tag after `ollama-` |
 | `vllm-qwen3.5:4b` | Local vLLM | `qwen3.5-4b` (`Qwen/Qwen3.5-4B`) |
+| `vllm-qwen2.5:7b` | Local vLLM | `qwen2.5-7b` (`Qwen/Qwen2.5-7B-Instruct-AWQ`, 4-bit) |
 | `deepseek-flash` | DeepSeek | `deepseek-flash` |
 | `huggingface-deepseek-v4-flash` | Hugging Face / DeepInfra | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` |
 | `grok-4.3` | xAI | `grok-4.3` |
 
-All Ollama models for reports use the native `/api/chat` route. Install the chosen local model on the host before use; the option `ollama-ministral-3:8b` uses the Ollama tag `ministral-3:8b`.
+The two vLLM options are not in the default list; add them to `REPORT_GENERATION_MODELS` (and their limits to `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`). Clients are built only for configured models.
 
-`vllm-qwen3.5:4b` is not in the default list: add it to `REPORT_GENERATION_MODELS` (and its limits to `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`). It uses the Chat Completions API of a local vLLM server, with the report's JSON schema as a structured-output grammar: vLLM 0.32 caps the thinking (`thinking_token_budget`) only there, not in its Responses API. Effort `high` sends the model's whole `thinking` budget, `medium` half of it; at the budget the server forces the early-stopping phrase of `--reasoning-config` and the end of the thinking, so the answer keeps its own room. Start the server with `docker compose --profile vllm-report up -d vllm-report` (first start downloads `Qwen/Qwen3.5-4B`, about 9 GB, into the `vllm_hf_cache` volume) and stop it with `docker compose --profile vllm-report stop vllm-report`. It needs the whole GPU, so it cannot run together with the `vllm` translation service or with large Ollama models. The `app` container reaches it at `VLLM_API_BASE` (`http://vllm-report:8000/v1`); a native run uses `http://localhost:8001/v1`. The report effort `low` sends `enable_thinking = false`, which switches Qwen's thinking off. The server's `--max-model-len` (131,072 in `docker-compose.yaml`, what the local GPU's KV cache holds) is the limit of one request, input plus output; keep the model's `context_window` in the report catalog equal to it. For this model one request may use the whole context only when the batches run one after another (`0` or `1` in the panel; for non-admin reports `REPORT_BATCH_WORKERS=1`); with more it may use half of it (`parallel_context_divisor` in the catalog), and the input limit, the output check and the retry room follow that.
+### Local models
 
-#### The report's AI effort
+**Ollama** models use the native `/api/chat` route and must be installed on the host. Ollama runs on the host GPU, so the FastAPI container needs no CUDA; check `ollama ps` for `100% GPU` during generation. If Ollama reports a missing model, the job ends with `AI_MODEL_NOT_FOUND`. No warm-up calls are made at startup.
 
-At “Generate report” the owner chooses, next to the model, an **effort**: `low` (default), `medium` or `high`. The value goes into the body of the request `POST /api/searches/{id}/generate` (`effort`) and is translated for each model; the `*_REASONING_EFFORT` environment variables no longer exist.
+- **`gemma3:1b`** sends `temperature=0`, `repeat_penalty=1.1` and `repeat_last_n=256` to reduce repetition loops in the JSON. This lowers the risk but guarantees neither the end of loops nor the quality of the recommendations. If Ollama aborts with `token repeat limit reached`, the job ends with `AI_REPETITION_LIMIT_EXCEEDED`, the other active batches are cancelled, and nothing is retried or published.
+- **`deepseek-r1:8b`** (tag DeepSeek-R1-0528-Qwen3-8B, Q4_K_M, installed with `ollama pull deepseek-r1:8b`) sends `num_ctx=32768` and `num_predict=8192`, with a conservative input budget of 24,000 tokens per batch. This explicit context replaces `OLLAMA_CONTEXT_LENGTH` for these requests.
+
+**vLLM** models run in Compose services started on demand (see [Running with Docker Compose](#-running-with-docker-compose)); the `app` container reaches them at `VLLM_API_BASE` (`http://vllm-report:8000/v1`, or `http://localhost:8001/v1` natively). They need the whole GPU, so they cannot run together with the `vllm` translation service or large Ollama models. By default a vLLM report uses 3,000 output tokens per batch and 24 parallel batches, because the server batches requests continuously.
+
+- **`vllm-qwen3.5:4b`** (service `vllm-qwen35`, first start downloads about 9 GB into `vllm_hf_cache`) uses the Chat Completions API with the report's JSON schema as a structured-output grammar, because vLLM caps the thinking (`thinking_token_budget`) only there. At the budget the server forces the end of the thinking so the answer keeps its own room. Its `--max-model-len` (131,072) is the limit of one request, input plus output, and the catalog `context_window` must equal it. A vLLM request always may use the whole context, whatever the number of parallel batches.
+- **`vllm-qwen2.5:7b`** (service `vllm-qwen25`, about 5.5 GB) has no thinking mode, so the effort selector is disabled and no budget is sent; its context is 32,768 tokens, and the server runs with `disable_any_whitespace` so the grammar cannot emit whitespace up to the output limit. The Q4_K_M GGUF build produced garbage on vLLM 0.32, so 4-bit AWQ weights are used. In test reports it also invented safety warnings (pregnancy, allergy, kidney, liver) that appear in none of the cited fragments, and the citation check cannot catch that, so review its reports.
+
+### Effort
+
+At “Generate report” the administrator also chooses an **effort**: `low` (default), `medium` or `high`. It is sent as `effort` in `POST /api/searches/{id}/generate` and translated per model (`src/backend/ai/effort.py`):
 
 | Model | `low` | `medium` | `high` |
 |---|---|---|---|
 | Ollama `gemma4:12b`, `qwen3.5:9b`, `qwen3.5:4b`, `deepseek-r1:8b` | `think=false` | `think=true` | `think=true` |
-| `deepseek-flash`, `huggingface-deepseek-v4-flash`, `grok-4.3` | `reasoning.effort="none"` (reasoning off) | `"medium"` | `"high"` |
-| Ollama `gemma3:1b`, `ministral-3:8b` | no control | no control | no control |
+| `vllm-qwen3.5:4b`, `deepseek-flash`, `huggingface-deepseek-v4-flash`, `grok-4.3` | `reasoning.effort="none"` | `"medium"` | `"high"` |
+| Ollama `gemma3:1b`, `ministral-3:8b`; `vllm-qwen2.5:7b` | no control | no control | no control |
 
-- For these models Ollama accepts only a boolean `think`, so `medium` and `high` produce the same request.
-- DeepSeek documents `none`/`low`/`high`/`max` and maps `medium` to `high` on its own; xAI documents `none`/`low`/`medium`/`high`. For Hugging Face only `low`/`medium`/`high` are documented: `none` on the DeepInfra route is not confirmed and must be verified with a real request (the mapping is in `src/backend/ai/effort.py`).
-- For models without control the selector is disabled, the server ignores the value, sends nothing and saves `ai_effort = NULL` in the metrics.
-- The chosen effort is saved in `report_generation_metrics.ai_effort`. The duration estimate (`GET /api/report-duration-estimate?model=…&characters=…&effort=…`) first uses the samples of the same effort and, if none exist, the model's samples.
-- The effort is part of the request's idempotency: the same `requestId` with a different effort receives `IDEMPOTENCY_CONFLICT`.
+- Ollama accepts only a boolean `think`, so `medium` and `high` produce the same request. For vLLM Qwen 3.5, `high` sends the model's whole `thinking` budget and `medium` half of it.
+- DeepSeek maps `medium` to `high` on its own. For Hugging Face only `low`/`medium`/`high` are documented, so `none` on the DeepInfra route must be verified with a real request.
+- For models without control the selector is disabled, the server sends nothing and stores `ai_effort = NULL`.
+- The effort is part of the request's idempotency: the same `requestId` with another effort gets `IDEMPOTENCY_CONFLICT`.
 
-For the `ollama-gemma3:1b` reports, the profile from the catalog sends `temperature=0`, `repeat_penalty=1.1` and `repeat_last_n=256`, to reduce repetition loops in the JSON answers. These options apply only to report generation with this model; the schema, the whole fragments, the context and the output limit are kept. The profile reduces the risk of repetitions, without guaranteeing their elimination or the semantic quality of the recommendations.
+### Jobs
 
-If Ollama interrupts the stream with `prediction aborted, token repeat limit reached`, the application recognizes it as `repetition_limit`, logs it without the generated text and ends the job with `AI_REPETITION_LIMIT_EXCEEDED`. The message explains the repetition loop, instead of reporting a generic JSON validation error. The other active batches are cancelled; there is no automatic retry, truncation or publishing of an incomplete PDF. The exception from the local budget for single-fragment requests remains valid.
+Generation starts with `POST /api/searches/{searchId}/generate`, which answers `202` with `jobId` and `Location`; the client sends a stable `requestId` per attempt, and duplicates are reconciled without duplicating the generation. `GET /api/report-generations/{jobId}` reads the status (polling launches no AI calls) and `POST /api/report-generations/{jobId}/cancel` requests cancellation. The frontend reconciles the job status with the session snapshot, so an old cached “queued” state cannot replace a final status.
 
-For `ollama-deepseek-r1:8b`, install the model with `ollama pull deepseek-r1:8b`. The current tag is DeepSeek-R1-0528-Qwen3-8B, Q4_K_M, which accepts the existing `system` prompt. The default profile sends `num_ctx=32768`, `num_predict=8192` and uses a conservative budget of 24,000 input tokens per batch, including the instructions, the profile and the JSON schema. The context was increased so that the conservative estimate of the instructions leaves room for the fragments too. The global output limit does not replace the R1-specific limit. A fragment that does not fit in the conservative budget is sent whole in a separate request; the real context limit remains checked by Ollama, with no truncation or fallback. Increasing the context may increase Ollama's memory consumption.
+A single FIFO worker (`REPORT_GENERATION_WORKERS = 1`, `MAX_CONCURRENT_GENERATIONS` must be 1) runs one report at a time. Accepted jobs start as `queued`, the status shows `queuePosition`, and cancelling a queued job removes it without an AI call. The queue does not survive a restart. The report timer starts when the worker picks the job up, so queue time is excluded; `REPORT_GENERATION_TIMEOUT_SECONDS` (default 600) limits the whole report (all batches and the PDF), `REPORT_GENERATION_READ_TIMEOUT_SECONDS` (720) limits I/O, and `OPERATION_TIMEOUT_SECONDS` (600) covers other operations. The worker slot stays occupied until the worker actually stops, even after cancellation or expiry.
 
-Ollama runs on the host's GPU; the FastAPI container does not need CUDA access for reports. The explicit R1 context replaces, for this request, the global value `OLLAMA_CONTEXT_LENGTH`. During generation, check `ollama ps`: `100% GPU` indicates the model is fully loaded on the GPU. The configuration alone does not guarantee fitting in VRAM. No warm-up calls are added at startup. R1 14B is not integrated.
+Sessions and jobs stay in memory in a single process, so a container restart loses them and relaunches nothing. Refreshing the same tab recovers the job if it reconnects within `SESSION_RECONNECT_GRACE_SECONDS` (30); explicit closing cancels immediately. Shutdown waits at most `REPORT_SHUTDOWN_TIMEOUT_SECONDS` (20) within a Docker grace period of 30 s. Job metadata is limited to 32 per session and counted in its memory budget.
 
-If Ollama responds that the requested model is not found, the job receives `AI_MODEL_NOT_FOUND`, and the interface displays that the selected model is not installed or not available.
+If the provider marks an answer incomplete with `max_output_tokens`, the job ends with `AI_OUTPUT_LIMIT_EXCEEDED`: distinct from a timeout or invalid JSON, the received text stays in the panel, and nothing is published or retried.
 
+### Batches
 
+Inside the single report, an executor runs up to `REPORT_BATCH_WORKERS` AI requests at once (default 2; `1` disables parallelism; invalid values are rejected at startup; Docker Compose passes it through `app.environment`). Each request gets the system prompt from `ai/prompts/generate_report_system.md`, the consultation profile and the whole fragments of its batch. When a batch ends, the next is admitted without waiting for the others. There is no automatic retry or consolidation request.
 
-Generation starts through `POST /api/searches/{searchId}/generate` and responds with `202`, `jobId` and `Location`. The client sends a stable `requestId` for each attempt. `GET /api/report-generations/{jobId}` reads the status, and `POST /api/report-generations/{jobId}/cancel` requests cancellation. Periodic checking launches no additional AI calls. The same execution works with all the supported AI clients; the chosen model is fixed at admission. The existing access restrictions for the chosen model also apply to reading/cancelling the operation.
-
-The frontend reconciles the job status with the session snapshot: on returning to a tab, an old cached “queued” state cannot replace a final status received together with the report. The same reconciled state controls the message, the generation indicator and the polling; stopping the worker is not reversed by an old snapshot.
-
-In the PDF, the items in `uz_intern`, `uz_extern`, `alte_recomandari` and `atentionari` are ordered descending by the **number of cited fragments**. Each valid fragment ID is counted once for an item; two different fragments from the same document are two sources. **X** stays displayed and computed as before: `● (57) Elderberry fruit tincture: description...`. Plants are identified only in the name, including through the catalog synonyms; for each plant the rows in `herbs_benefits` are counted, without filtering by the report's condition. If the name contains several plants, X is the maximum of the counts; if no plant is identified or there are no associations, X is zero and neither the number nor the parentheses are displayed. On a tie in the number of fragments, the maximum relevance of the cited fragments, the number of distinct references and the initial position are used. X reflects the indexed associations, not a measure of clinical efficacy, and does not influence sorting. Nutrition and the report text in the chat keep the existing ordering. The rule applies to newly generated PDFs.
-
-The report timer stays at `00:00` while the request waits for admission or is in the queue. It starts when the worker picks up the report, using `startedAt`, without including the wait. Stage changes and status updates do not reset it; a new attempt receives a new timer.
-
-If the provider marks the answer as incomplete with the reason `max_output_tokens`, the job receives `AI_OUTPUT_LIMIT_EXCEEDED` and a message explaining that the token limit was reached before the report was finished. This is distinct from a timeout and from an invalid JSON. The text received stays in the panel; an incomplete answer is not published as a report/PDF and is not retried automatically.
-
-After the complete PDF is successfully published, the application inserts a single measurement into the PostgreSQL table `report_generation_metrics`: `id`, `medical_condition`, `min_score`, `characters`, `ai_model`, `ai_effort`, `duration`. The condition is identified from the search snapshot and saved with the exact name from `medical_conditions.name`: for “Remedii naturiste pentru gripă” (“Natural remedies for flu”) `Gripa` is stored. For several conditions, the canonical names are kept in the order of identification, separated by commas. AI answers are accepted here only if they are mapped to the catalog; if there is no condition from the catalog, the measurement is not inserted, and the PDF remains available. `characters` counts the Unicode characters in the fragments actually provided to the AI, after filtering by score and budget. `ai_model` keeps the choice from the catalog (for example `ollama-gemma4:12b`), and `ai_effort` keeps the effort configured for the selected client, with `NULL` if unspecified. The recorded effort does not guarantee that the provider applies it. The API accepts `minScore` only as an integer between 0 and 100.
-
-`duration` is a `BIGINT` in **milliseconds**, measured with a monotonic clock until after publishing in the session; it excludes the queue, the statistics insertion and the email. Cancellations, failures and repeated requests for the same job add no measurements. The insertion uses the existing pool, with a wait of at most 1 s for a connection, `statement_timeout` of 2 s and `lock_timeout` of 500 ms in the transaction. If the insertion fails, the PDF remains available, and the log `report_metrics_persistence_failed` identifies the operation without medical content. There is no automatic retry or guarantee of recording if the database is unavailable or the process stops between publishing and INSERT.
-
-Under “Total number of characters”, the UI displays “Estimated duration: mm:ss (min:sec)” for the number of eligible characters and the chosen model. The calculation uses all the model's rows, without filters by condition, score or effort: linear regression through the origin, `duration_ms = selected_characters × SUM(characters × duration) / SUM(characters²)`. The durations in the table are in milliseconds; the result is rounded up to seconds. When the model or the characters change, the estimate is requested again, and the answers for earlier selections cannot overwrite the current selection. After a job finishes, the estimate is refreshed to include the new history. Without usable data, the UI displays “unavailable”; DB/network unavailability does not block generation. The route returns only the model, the characters, `estimatedSeconds` and `sampleCount`; the estimate launches no AI requests and does not change the generation rights.
-
-Migrations `011_report_generation_metrics.sql` and `012_seed_report_generation_metrics.sql` create the table and insert the six historical measurements provided (53,924 characters each). Apply them before activating the code, through `python -m scripts.migrate_database` with `PYTHONPATH=src` and the target database configuration; the migration registry prevents re-applying the seed. Reindexing is not required. Manually repeating the INSERT from migration 012 adds another six rows.
-
-Migration `013_canonical_report_metric_conditions.sql` corrects the historical labels that exactly match a name from the catalog, including the form “Remedii naturiste pentru <condition>” (“Natural remedies for <condition>”). The other values of the measurement are kept; texts without a match remain for manual verification.
-
-`REPORT_GENERATION_TIMEOUT_SECONDS` limits the whole report, including all the batches and the PDF build (default 600 s; configurable). `OPERATION_TIMEOUT_SECONDS` remains separate for the other operations, and `REPORT_GENERATION_READ_TIMEOUT_SECONDS` limits I/O. Waiting in the application queue does not start the report's timer.
-
-### A single active report, with configurable parallel batches
-
-The single FIFO worker (`REPORT_GENERATION_WORKERS = 1`) keeps a single active report.
-Inside it, a separate executor uses `REPORT_BATCH_WORKERS` from `.env`
-(default `2`) as the limit of simultaneous AI requests, exclusively for the batches of that
-report. `1` disables parallelism; non-integer or non-positive values are rejected
-at startup. Docker Compose passes the setting through `app.environment`.
-After a
-batch ends, the next one can be admitted, without waiting for the other active batches. The operation context,
-the deadline and the batch ID are propagated explicitly into each thread. There is no automatic
-retry or consolidation AI request. Each request receives the same system prompt
-from `ai/prompts/generate_report_system.md`, the consultation profile and the whole fragments
-of its batch.
-
-`REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` allows different input budgets per model and batch, plus each model's default context and effort. The value can be written over several lines in `.env`, between single quotes (read the same way by `python-dotenv` and by Docker Compose). Example with the default values:
+The admin can override the input and output limits, thinking budget and worker count for one report from the panel, without changing `.env`. The defaults come from the catalog and from `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`, which sets per model the input `tokens`, `context`, default `effort` and `thinking` budget. It may span several lines in `.env`, between single quotes (read the same way by `python-dotenv` and Docker Compose):
 
 ```dotenv
 REPORT_BATCH_WORKERS=2
 REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL='{
   "ollama-gemma3:1b": {"tokens": 25000, "context": 32768, "effort": "low", "thinking": 8000},
   "ollama-gemma4:12b": {"tokens": 25000, "context": 262144, "effort": "low", "thinking": 8000},
-  "ollama-ministral-3:8b": {"tokens": 25000, "context": 262144, "effort": "low", "thinking": 8000},
-  "ollama-qwen3.5:9b": {"tokens": 25000, "context": 262144, "effort": "low", "thinking": 8000},
-  "ollama-qwen3.5:4b": {"tokens": 25000, "context": 262144, "effort": "low", "thinking": 8000},
-  "ollama-deepseek-r1:8b": {"tokens": 24000, "context": 32768, "effort": "low", "thinking": 8000},
-  "deepseek-flash": {"tokens": 25000, "context": 1048576, "effort": "low", "thinking": 8000},
-  "huggingface-deepseek-v4-flash": {"tokens": 25000, "context": 1048576, "effort": "low", "thinking": 8000},
   "grok-4.3": {"tokens": 25000, "context": 1000000, "effort": "low", "thinking": 8000}
 }'
 ```
 
-The contexts are those published for each model (Gemma 3 1B: 32K; Gemma 4 12B, Ministral 3 8B, Qwen 3.5: 256K; DeepSeek V4 Flash: 1M; Grok 4.3: 1M). R1 8B stays at 32768, the `num_ctx` value sent by the application, not the model's 128K. The effective input of a batch is `min(tokens, context − output)`. `GET /api/report-models` sends everyone `contextTokens` and `defaultEfforts` for the configured models.
+The default contexts are the published ones (Gemma 3 1B: 32K; Gemma 4 12B, Ministral 3 8B, Qwen 3.5: 256K; DeepSeek V4 Flash: 1M; Grok 4.3: 1M), except R1 8B, which stays at the 32,768 `num_ctx` the application sends. The effective input of a batch is `min(tokens, context − output)`, and with an explicit Ollama `num_ctx` the output is reserved from it. The output limit (catalog default 20,000 tokens, or `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL`, or the panel field) applies to each batch request independently of the input budget. `GET /api/report-models` sends `contextTokens` and `defaultEfforts`. The old `REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` is rejected at startup so that characters are never silently read as tokens.
 
-Counting is local and estimated: tokens are estimated as the UTF-8 bytes of the complete JSON payload divided by 3 (rounded up), plus a fixed reserve of 256 tokens for message framing. The system prompt, the profile, the fragments, the sources, the IDs, the JSON schema and the request fields are included. No tokenizers are downloaded and the providers are not called for counting. The estimate is not the exact number produced by the model's tokenizer, and the provider remains the authority for the real context; if a batch exceeds the context, reduce “Max input tokens”.
+Counting is local and estimated: the UTF-8 bytes of the complete JSON payload (prompt, profile, fragments, sources, IDs, schema, request fields) divided by 3, rounded up, plus 256 tokens of framing. No tokenizer is downloaded and no provider is called; the provider remains the authority on the real context, and a batch that exceeds it ends with `AI_CONTEXT_LIMIT_EXCEEDED` (reduce “Max input tokens”). Because search runs before the model is chosen, it limits the selected content to the largest budget among the active models, keeping fragments whole in score order; each model's limit then splits them into batches.
 
-For Ollama with an explicit `num_ctx`, the effective input budget is the minimum of the configured limit and `num_ctx - num_predict`, so that the output has reserved space. Without an explicit context, the Ollama server configuration remains; the input budget must be chosen together with the output limit and the server context. The output limits (catalog default, `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL` and the panel field) apply to each batch request and remain independent of the input budget, independent of the input budget. The variables `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`, `REPORT_BATCH_WORKERS` and `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL` and the catalog provide the default values in the report panel; the admin can change them for a single report, without modifying `.env`.
+Fragments are kept whole and ordered by score. A single fragment that alone exceeds the budget goes whole into its own batch, and the local limit is ignored only for such one-fragment requests (logged as `report_batch_token_limit_bypassed`).
 
-The fragments are kept whole and ordered by score. If a single fragment with the whole overhead exceeds the budget, it is isolated in a batch and sent whole. The local per-batch limit is ignored only for requests with exactly one fragment, including when the effective budget is reduced by reserving the output from the explicit context. Batches with several fragments still respect the limit. The content is not shortened and the context or the output limit sent to the provider are not changed. The provider can still reject a request that exceeds the real context; the error remains `AI_CONTEXT_LIMIT_EXCEEDED`. The logs use `input_tokens_upper_bound` and `counting=utf8_bytes_div3`, and the local exception is marked by `report_batch_token_limit_bypassed` with `fragments=1`.
+### Validation and combining
 
-Search runs before the model is chosen, so it limits the total of the selected content to the largest value in `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` among the active models (`REPORT_GENERATION_MODELS`); each model's limit then splits the content into batches. Tokens are estimated from the fragments' UTF-8 bytes (3 bytes per token) with IDs, sources, titles and serialization; the prefix is kept in score order, without shortening the fragments. The prompt, the profile, the schema and the output are budgeted separately per request. SQL uses the budget multiplied by 3 as a prefilter in characters, then retrieval explicitly checks the estimate from UTF-8 bytes: thus, the token limit is not treated as a character limit. These local estimates are not the exact number of tokens computed by the providers.
+For Ollama, `format` receives the JSON schema of the five sections (including the Nutrition structure and the IDs allowed in the batch). Each answer is then strictly validated against the IDs of its batch, with no repair or retry, and recommendations outside Nutrition need at least one citation. A valid batch without recommendations is allowed. In Nutrition, empty text fields or ones made only of spaces, dashes and `•` count as no content. A batch whose answer fails only because of malformed items (`INVALID_ITEM`) is requested once more and, if still invalid, keeps its valid items and the report is labelled partial. Answers that are not JSON objects or cite unknown or missing evidence still fail the report (`AI_RESPONSE_INVALID`).
 
-The old variable `REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` must be removed and replaced with values chosen in the new unit; if it reaches the application's environment, startup rejects it explicitly, to avoid silently reinterpreting characters as tokens. After modifying `.env` and the code, the service's configuration and image must be updated by the operator.
+The code combines the batches in their initial order: only identical texts in the same section are removed, with their sources merged; different variants, doses and warnings are kept, and so are distinct recipes. This is no semantic reconciliation or clinical validation.
 
-Each answer is strictly validated against the IDs of its batch; a valid batch without recommendations is allowed. The results are combined by code: only identical texts in the same section are removed and their sources are merged. Different variants, doses and warnings are kept. The food lists remove only identical elements in the same subcategory; distinct culinary recipes from all batches are kept, without an additional global ceiling. Combining performs no semantic reconciliation or global clinical validation.
+In the PDF, the items in `uz_intern`, `uz_extern`, `alte_recomandari` and `atentionari` are sorted by the number of distinct cited fragments (two fragments from one document count twice), ties broken by the highest relevance, then the number of distinct references, then the initial position. The count **X** in `● (57) Elderberry fruit tincture: …` is the number of `herbs_benefits` rows of the plant(s) identified in the item name (the maximum if several), without filtering by the report's condition; it is omitted when zero, reflects indexed associations rather than clinical efficacy, and does not influence the sort.
 
-In the structured form of the Nutrition section, text fields that are empty or made up only of spaces, ASCII dashes and `•` markers are normalized as no content; for example, `"interzise": "-"` creates no empty recommendation and does not invalidate the batch. Recommendation objects without useful text, invalid citations, missing required fields and the other deviations continue to be rejected by strict validation.
+### Failure, cancellation and previews
 
-For Ollama reports, `format` receives the JSON schema of the five sections,
-including the Nutrition structure and the IDs allowed from the current batch. Recommendations outside
-Nutrition require at least one citation. The schema guides generation; the local validator
-remains mandatory and rejects invalid answers, without repair or automatic retry.
+The first request or validation error stops admitting new batches and asks the other active ones to cancel; the initial error is kept even if another thread's cancellation is observed first. User cancellation and the report timeout propagate to all batches. Blocked I/O calls cannot be killed, so the report's capacity stays occupied until all threads exit within the I/O timeouts. No partial PDF is published; the validated previews and the data of interrupted batches stay in the session, and a new generation replaces them.
 
-Ollama integration problems are logged with the model, the stage and the failure type:
-HTTP/network/timeout, missing model, insufficient loading or memory, context or output
-limit, interrupted protocol/stream, invalid JSON and result validation.
-`ai_report_validation_failed` includes the batch, the number of problems per code and at most
-20 affected positions (section/index), for example `UNKNOWN_EVIDENCE`,
-`MISSING_EVIDENCE`, `INVALID_ITEM` or `MISSING_NUTRITION_FIELD`.
-Message classification, condition identification, the model inventory and indexing
-use the same transport diagnostics; indexing also includes the known validation
-codes. Unexpected errors are logged by type, without the exception arguments.
-The logs do not include the prompt, the fragments, the raw answer, thinking or API keys;
-arbitrary provider messages are replaced with known technical reasons.
-For runtime diagnostics: `docker compose logs --since 30m app`.
+The “Report preview” shows one “Batch N of T” panel per planned batch, in processing order, each with its own scrolling, state (pending, active, validated, failed, cancelled, expired) and only its own recommendations and bibliography. While a batch runs, its panel shows the provider's analysis and the raw answer, collapsed after validation; raw text never goes into the report or PDF, and thinking is released after success. The API exposes `batchPreviews` (`index`, `state`, `reportPreview`, `streamPreview`, `thinkingPreview`), `previewVersion`, `batchesCompleted` and `batchesTotal`; the counter counts validated batches in any order and is not a percentage. The `aiActivity` state (`waiting`, `processing`, `thinking`, `answering`) comes from real events of the current request, with speed approximated at 4 characters per token.
 
-The “Report preview” area displays a separate “Batch N of T” panel for
-each planned batch, in processing order. Each panel keeps exclusively the
-recommendations and bibliography of its own batch, with its own scrolling; the previews do not
-accumulate. Pending, active, validated, failed, cancelled or expired batches
-have distinct states. During processing, the batch details display the analysis
-sent by the provider and the raw answer, including incomplete JSON. After validation,
-the raw details are collapsed; after success the validated previews of
-all batches remain. On failure/cancellation the details of the interrupted batch are also kept,
-and those not started are marked as unprocessed. The raw texts are not validated
-and do not go directly into the report or PDF.
+The PDF, the “The report is ready” message and one metrics row are published only after all batches end.
 
-The API exposes `batchPreviews`, with `index`, `state`, `reportPreview`, `streamPreview`
-and `thinkingPreview` for each batch, plus `previewVersion`, `batchesCompleted`
-and `batchesTotal`. The compatible field `reportPreview` contains the last validated batch.
-Each batch owns its own answer/analysis fragments and its own `aiActivity`,
-so that simultaneous text does not get mixed. The aggregate compatibility fields
-are built at read time, in batch order, without additional raw copies
-retained in the session. The formatted snapshots, the text and the batches' metadata (including
-a reserve of 2 KiB per batch for activity) are counted in the existing budgets.
-The counter of finished batches counts the validated batches, even if batch 2 finishes
-before batch 1; the versions grow monotonically. It is not a progress
-percentage. The final report and the PDF continue to combine all the batches in the backend,
-with the same validation and deduplication rules.
+### Metrics and duration estimate
 
-The first request or validation error stops admitting the following batches and requests
-cooperative cancellation of the other active batches. The initial error is kept even if
-the cancellation of another thread is observed first by the coordinator. User cancellation
-and the report timeout propagate to all active batches. I/O calls already blocked cannot
-be killed as Python threads: the report's capacity stays occupied until all threads
-actually exit, within the I/O timeouts. No partial PDF is published.
-The validated previews and the data of the interrupted batches remain in the session. Thinking and
-the raw answer do not go into the PDF or logs; thinking is released after success. A new
-generation replaces the previous preview. On success, the results are combined
-in the initial order of the batches, regardless of the order in which they arrive.
+After the PDF is published, one row is inserted into `report_generation_metrics`: `medical_condition` (the exact canonical name from `medical_conditions.name`, several names comma-separated; no row if no catalog condition is identified), `min_score` (integer 0–100), `characters` (those actually sent to the AI after score and budget filtering), `ai_model`, `ai_effort` (`NULL` if the model has no control; recorded effort does not guarantee the provider applied it), `duration` (milliseconds, monotonic clock, from pickup to publication, excluding queue, insertion and email) and `max_batch_output_tokens` (the largest output of any request, used by the output recommendation). Cancellations, failures and repeated requests add no row. The insert waits at most 1 s for a connection, with `statement_timeout` 2 s and `lock_timeout` 500 ms; if it fails, the PDF remains available and `report_metrics_persistence_failed` is logged without medical content.
 
-The PDF, the message “The report is ready” and a single `report_generation_metrics` measurement are published only after all the batches have ended. The duration is the real time of the report, not the sum of fictitious per-batch durations. The existing estimate continues to use all the model's observations; history with a single request may have different performance from the batch flow.
+Under “Total number of characters”, the UI shows “Estimated duration: mm:ss” for the eligible characters and the chosen model. It uses all the model's rows with a linear regression through the origin, `duration_ms = selected_characters × SUM(characters × duration) / SUM(characters²)`, rounded up to seconds, and refreshes it when the selection changes or a job finishes. Without usable data it shows “unavailable”, which never blocks generation. `GET /api/report-duration-estimate` returns only the model, characters, `estimatedSeconds` and `sampleCount`.
 
-The `aiActivity` state (`waiting`, `processing`, `thinking`, `answering`) and “Last activity received” are updated from the real events of the current request, without polling resetting the time. The speed remains approximated at 4 characters/token, separately for thinking and answer, without the diagnostic separators; it does not represent the tokens billed by the provider. Connection errors, cancellation and the validation/PDF stages take priority. No percentage progress bar is displayed.
+Migrations `011`–`013` create the table, seed six historical measurements and normalize their condition labels; apply them before activating the code with `python -m scripts.migrate_database` (`PYTHONPATH=src`). Reindexing is not required, and repeating the seed INSERT by hand adds six rows again.
 
-`report_ai_timing` records the local times until the first event, the first analysis and the first text of the answer, plus the duration of the AI call. For Ollama it includes the final durations of loading, prompt processing and generation, converted to milliseconds; for DeepSeek, the available usage, including reasoning tokens. Unknown values remain absent or `null`. `report_ai_phase_changed` records only the phase changes, without the content of the analysis or of the answer.
+### Startup and diagnostics
 
-The HTTP interface starts without waiting for the local search to be ready. In the background a single probe search runs to load the embeddings, the dictionary and the index, with `warm_up_started` / `warm_up_finished` times for the `search` stage. At startup no warm-up calls are made to Ollama, DeepSeek or Grok. `/api/startup` returns `initializing`, `ready` or `degraded`; the UI checks the state every second and displays the initialization. While the preparation runs, submitting questions is disabled, and the search/AI operations and `/readyz` respond with `APP_INITIALIZING` (503). `/healthz`, the interface and the session remain accessible. If the search preparation fails, the application signals degraded mode and allows a search to be attempted. The preparation task is tracked and awaited with a limit at shutdown; resources still in use are not closed prematurely.
+The HTTP interface starts without waiting for search. A background probe search loads the embeddings, dictionary and index (`warm_up_started` / `warm_up_finished`), and no warm-up calls go to any AI provider. `/api/startup` returns `initializing`, `ready` or `degraded`; while initializing, submitting questions is disabled and search/AI operations and `/readyz` return `APP_INITIALIZING` (503), while `/healthz`, the interface and the session stay available. If the preparation fails, the application signals degraded mode and still allows a search attempt.
 
-`MAX_CONCURRENT_GENERATIONS` must be 1. Accepted requests initially have the stage `queued`; the status query returns `queuePosition` (from 1), displayed in the interface. Cancelling a queued request removes it without an AI call. Duplicate requests are reconciled through `requestId`, without duplicating the generation. The waiting time does not consume the `REPORT_GENERATION_TIMEOUT_SECONDS` budget, which starts at pickup; the session's maximum duration remains applicable. The queue does not persist across a process restart. The slot stays occupied until the worker actually stops, including after logical cancellation or expiry. The terminal states and error codes can be read independently of the starting connection. The metadata is limited to 32 operations per session and is included in its memory budget.
+Integration problems are logged with the model, stage and failure type (HTTP/network/timeout, missing model, memory, context or output limit, interrupted stream, invalid JSON, validation). `ai_report_validation_failed` lists the batch, the problem count per code and at most 20 affected positions. `report_ai_timing` records the local times to the first event, analysis and answer text, the AI call duration and, where available, the provider's load, prompt and generation durations or usage; `report_ai_phase_changed` records phase changes only. Logs never include the prompt, fragments, raw answer, thinking or API keys. For runtime diagnostics: `docker compose logs --since 30m app`.
 
-Refreshing the same tab recovers the operation if it reconnects within `SESSION_RECONNECT_GRACE_SECONDS` (default 30 s). Explicit closing cancels immediately; without reconnection, the unload closes the session after this window. Sessions and operations stay in memory, in a single process: a container restart loses the results and does not automatically relaunch AI requests. Shutdown waits at most `REPORT_SHUTDOWN_TIMEOUT_SECONDS` (default 20 s), with a Docker grace period of 30 s; a blocked synchronous call may require stopping the process.
+To activate code or configuration changes: `docker compose up -d --build app`, then reload the page. Architecture: [asynchronous generation](architecture/report-generation-background.xmind).
 
-To activate code/configuration changes: `docker compose up -d --build app`, then reload the page. Architecture details: [asynchronous generation](architecture/report-generation-background.xmind).
+## 📜 License
 
-Migration `039_medical_conditions_version.sql` adds the counter `medical_conditions_version`, incremented by triggers on `medical_conditions` and `medical_condition_synonyms`. As long as the counter does not change, each read from the index reuses the in-memory conditions dictionary instead of reading it again (from ~300 ms to a few milliseconds). Apply the migration before activating the code, through `python -m scripts.migrate_database`; without it requests fail with `CONDITION_VERSION_SCHEMA_MISSING`. Reindexing is not required. After restoring a backup made before this migration, run the migrations again: the restoration removes the triggers, and the (idempotent) migration recreates them. If the index metadata does not match the cached dictionary, the reader re-reads the tables once before reporting `INDEX_RESYNC_REQUIRED`.
+The project's code is distributed under the [Business Source License 1.1](LICENSE) ([Romanian version](LICENSE.ro.md)). Use in non-production environments is free; use in production requires a separate commercial agreement with the licensor. Apache 2.0 is the license provided for after the change date, according to the terms in `LICENSE`, not the project's initial license.

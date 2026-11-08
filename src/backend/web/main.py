@@ -32,6 +32,7 @@ from backend.ai.herb_safety import lookup_herb_safety, lookup_herb_safety_eviden
 from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
 from backend.ai.message_classification import MessageClassifier
+from backend.ai.model_runtime import VllmRuntime
 from backend.ai.providers import default_max_output_tokens
 from backend.ai.report_validation import ValidationWarning
 from backend.ai.retrieval import Retriever
@@ -1314,6 +1315,8 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     recommend_report_output=metrics_repository.recommend_output_tokens,
                     record_report_batch_usage=metrics_repository.record_batch_usage,
                     recommend_report_thinking=metrics_repository.recommend_thinking_tokens,
+                    # Empty for native runs, where the operator starts any vLLM server by hand.
+                    model_runtime=VllmRuntime(cfg) if cfg.model_supervisor_url else None,
                 )
                 application.state.dependencies = runtime
                 application.root_path = cfg.public_root_path
@@ -1366,7 +1369,9 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                 warm_task = asyncio.create_task(warm_search(), name="search-warm-up")
             assert runtime is not None
             if not hasattr(application.state, "report_generation"):
-                application.state.report_generation = ReportGenerationService(runtime.store)
+                application.state.report_generation = ReportGenerationService(
+                    runtime.store, runtime.model_runtime
+                )
 
             async def cleanup():
                 while True:
@@ -1409,6 +1414,8 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
             if owned and drained:
                 for client in report_clients.values():
                     client.close()
+                if runtime and runtime.model_runtime:
+                    runtime.model_runtime.close()
                 if classifier:
                     classifier.close()
                 if auth:
@@ -1432,7 +1439,9 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
     }
     if dependencies:
         application.state.dependencies = dependencies
-        application.state.report_generation = ReportGenerationService(dependencies.store)
+        application.state.report_generation = ReportGenerationService(
+            dependencies.store, dependencies.model_runtime
+        )
 
     @application.exception_handler(ApplicationError)
     async def controlled_error(request: Request, exc: ApplicationError):

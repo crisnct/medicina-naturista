@@ -640,6 +640,16 @@ class SessionStore:
                 job.started_at = job.started_at or time.time()
                 logger.info("report_job_stage_changed job_id=%s stage=%s", job.job_id, stage)
 
+    # The job stays `accepted`: stopping and warming a model use neither the report budget nor the
+    # report timer, and generation_stage still starts both when the real work begins.
+    def generation_model_stage(self, operation: SessionOperation, stage: str) -> None:
+        with self._lock, operation.session.lock:
+            self.checkpoint(operation)
+            job = operation.session.generations.get(operation.operation_id)
+            if job:
+                job.stage = stage
+                logger.info("report_job_stage_changed job_id=%s stage=%s", job.job_id, stage)
+
     def generation_activity(
         self, operation: SessionOperation, event: ReportActivity, *, batch_index: int | None = None
     ) -> None:

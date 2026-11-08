@@ -159,6 +159,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
     # The local vLLM server. Its report client (VllmReportClient in client.py) sends Chat
     # Completions, the vLLM API that caps the thinking; the grammar is requested per report.
     if settings.ai_provider == "vllm":
+        vllm_spec = REPORT_MODELS[choice] if choice is not None else None
         return ProviderConfig(
             name="vllm",
             label="vLLM",
@@ -171,7 +172,8 @@ def provider_config(settings: Settings) -> ProviderConfig:
             json_format=None,
             send_store=False,
             max_context_chars=0,
-            effort_control="responses_effort",
+            effort_control=vllm_spec.effort_control if vllm_spec else "responses_effort",
+            temperature=vllm_spec.temperature if vllm_spec else None,
             **common,
         )
     context_tokens = None

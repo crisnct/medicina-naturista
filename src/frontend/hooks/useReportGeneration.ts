@@ -11,6 +11,7 @@ export const activeGeneration = (job: ReportGeneration) => job.state === "accept
 const observingGeneration = (job: ReportGeneration) => activeGeneration(job) || job.workerActive === true;
 const stages: Record<string, string> = {
   get queued() { return tr("interface.generation_queued_stage"); },
+  get stopping_model() { return tr("interface.generation_stopping_model_stage"); }, get warming_model() { return tr("interface.generation_warming_model_stage"); },
   get preparing() { return tr("interface.generation_prepare_stage"); }, get generating() { return tr("interface.generation_write_stage"); }, get validating() { return tr("interface.generation_validate_stage"); },
   get rendering_pdf() { return tr("interface.generation_pdf_stage"); }, get publishing() { return tr("interface.generation_publish_stage"); },
 };
@@ -162,6 +163,8 @@ export function useReportGeneration(
       generationId: job.jobId,
       generationStartedAt: job.startedAt,
       waitingInQueue: job.state === "accepted" || job.stage === "queued",
+      modelStage: activeGeneration(job) && (job.stage === "stopping_model" || job.stage === "warming_model") ? job.stage : undefined,
+      modelName: job.model,
       streamPreview: job.streamPreview,
       reportPreview: job.reportPreview,
       batchesCompleted: job.batchesCompleted,

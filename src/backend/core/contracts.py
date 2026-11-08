@@ -116,6 +116,21 @@ class AIProtocol(Protocol):
     def close(self) -> None: ...
 
 
+# What a report job shows while the GPU changes hands, before it starts its own timer.
+ModelStage = Literal["stopping_model", "warming_model"]
+
+
+class ReportModelRuntime(Protocol):
+    def prepare(
+        self,
+        model: ReportModel,
+        on_stage: Callable[[ModelStage], None],
+        checkpoint: Callable[[], None],
+    ) -> None: ...
+
+    def close(self) -> None: ...
+
+
 class EstimateReportDuration(Protocol):
     def __call__(
         self, model: ReportModel, characters: int, effort: ReportEffort | None = None

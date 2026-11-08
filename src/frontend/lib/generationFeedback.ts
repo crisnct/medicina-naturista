@@ -8,8 +8,13 @@ export const AI_ACTIVITY_LABELS: Record<AIActivity["phase"], string> = {
   get answering() { return tr("interface.activity_answering"); },
 };
 
+// The job stages during which a local model changes hands on the graphics card.
+export type ModelStage = "stopping_model" | "warming_model";
+
 export interface GenerationFeedback {
   message: string;
+  modelStage?: ModelStage;
+  modelName?: string;
   requiresAuthorization?: boolean;
   progress?: string;
   generationId?: string;

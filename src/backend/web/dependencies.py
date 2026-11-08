@@ -23,6 +23,7 @@ from backend.core.contracts import (
     RecordReportMetrics,
     RenderPDF,
     ReportModel,
+    ReportModelRuntime,
     RetrievalProtocol,
 )
 from backend.core.owner_auth import OwnerAuth
@@ -57,3 +58,4 @@ class Dependencies:
     top_herbs_for_condition: ListTopHerbsForCondition | None = None
     herb_safety: LookupHerbSafety | None = None
     herb_safety_evidence: LookupHerbSafetyEvidence | None = None
+    model_runtime: ReportModelRuntime | None = None

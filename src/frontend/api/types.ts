@@ -59,7 +59,7 @@ export interface GenerateMessage extends MessageIdentity {
 }
 
 export type ReportModel = "ollama-gemma4:12b" | "ollama-gemma3:1b" | "ollama-qwen3.5:9b" | "ollama-qwen3.5:4b"
-  | "ollama-ministral-3:8b" | "ollama-deepseek-r1:8b" | "vllm-qwen3.5:4b" | "deepseek-flash"
+  | "ollama-ministral-3:8b" | "ollama-deepseek-r1:8b" | "vllm-qwen3.5:4b" | "vllm-qwen2.5:7b" | "deepseek-flash"
   | "huggingface-deepseek-v4-flash" | "grok-4.3";
 
 export type ReportEffort = "low" | "medium" | "high";

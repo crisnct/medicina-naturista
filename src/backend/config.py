@@ -311,6 +311,10 @@ class Settings:
     deepseek_api_base: str = "https://api.deepseek.com"
     vllm_model: str = REPORT_MODELS["vllm-qwen3.5:4b"].model
     vllm_api_base: str = "http://localhost:8001/v1"
+    # The sidecar that starts and stops the vLLM servers; empty means the operator does it by hand.
+    model_supervisor_url: str = ""
+    # A first start also downloads the weights, so this is well above the usual warm-up.
+    vllm_warmup_timeout_seconds: int = 900
     # Identification of a condition the dictionary does not know (ai/condition_ai.py):
     # Identification uses only the host Ollama model, with no provider fallback.
     medical_condition_ai_local_model: str = "gemma3:1b"
@@ -455,6 +459,10 @@ class Settings:
             if report_spec.provider == "vllm"
             else REPORT_MODELS["vllm-qwen3.5:4b"].model,
             vllm_api_base=env.get("VLLM_API_BASE", "http://localhost:8001/v1").rstrip("/"),
+            model_supervisor_url=env.get("MODEL_SUPERVISOR_URL", "").rstrip("/"),
+            vllm_warmup_timeout_seconds=_int(
+                "VLLM_WARMUP_TIMEOUT_SECONDS", 900, minimum=1, env=env
+            ),
             medical_condition_ai_local_model=env.get(
                 "MEDICAL_CONDITION_AI_LOCAL_MODEL", "gemma3:1b"
             ),
@@ -655,7 +663,10 @@ class Settings:
             "vllm_api_base",
             "condition_ai_local_base",
             "herb_association_ai_base",
+            "model_supervisor_url",
         ):
+            if name == "model_supervisor_url" and not self.model_supervisor_url:
+                continue
             try:
                 parsed = urlsplit(getattr(self, name))
                 valid = (
@@ -818,6 +829,7 @@ class Settings:
             "report_shutdown_timeout_seconds",
             "session_reconnect_grace_seconds",
             "operation_reservation_bytes",
+            "vllm_warmup_timeout_seconds",
         ):
             if getattr(self, name) <= 0:
                 raise ValueError(f"{name} must be positive")

@@ -337,6 +337,18 @@ export const TEXT_PARAMETERS = {
   "interface.generation_stopping": [],
   "interface.generation_start_failed": [],
   "interface.generation_prepare_stage": [],
+  "interface.generation_stopping_model_stage": [],
+  "interface.generation_warming_model_stage": [],
+  "interface.model_warmup_stopping_title": [],
+  "interface.model_warmup_warming_title": [],
+  "interface.model_warmup_stopping_body": [],
+  "interface.model_warmup_warming_body": [
+    "model"
+  ],
+  "interface.model_warmup_note": [],
+  "interface.model_warmup_elapsed": [
+    "seconds"
+  ],
   "interface.generation_preparing": [],
   "interface.generation_sync_failed": [],
   "interface.generation_queued_stage": [],
@@ -407,6 +419,7 @@ export const TEXT_PARAMETERS = {
   "interface.model_ministral3": [],
   "interface.model_deepseek_r1": [],
   "interface.model_vllm_qwen35_4b": [],
+  "interface.model_vllm_qwen25_7b": [],
   "interface.model_deepseek_flash": [],
   "interface.model_huggingface_deepseek_flash": [],
   "interface.model_grok43": []
