@@ -1,8 +1,8 @@
 """Postgres connection pool and schema for the hybrid retrieval index.
 
 Replaces the old file-based index (embeddings.npy + index.sqlite3 + JSON/JSONL
-manifests). `chunks.embedding` (pgvector) is the semantic index; `chunks.text_search`
-(tsvector, GIN-indexed) is the lexical index. See scripts/build_hybrid_index.py
+manifests). `chunks.embedding` (pgvector) is the semantic index; the BM25 index
+`idx_chunks_bm25` (pg_search, migration 044) is the lexical one. See scripts/build_hybrid_index.py
 for how rows are written and ai/search.py for how they are queried.
 """
 
@@ -63,7 +63,6 @@ CREATE TABLE IF NOT EXISTS chunks (
         END
     ) STORED,
     embedding             vector(__DIMENSION__) NOT NULL,
-    text_search           tsvector NOT NULL,
     business_category     TEXT CHECK (business_category IN ('R1', 'R2', 'D1')),
     primary_medical_conditions   TEXT[] NOT NULL DEFAULT '{}',
     secondary_medical_conditions TEXT[] NOT NULL DEFAULT '{}'
@@ -86,7 +85,6 @@ CREATE INDEX IF NOT EXISTS idx_chunks_primary_conditions ON chunks USING GIN(pri
 CREATE INDEX IF NOT EXISTS idx_chunks_secondary_conditions ON chunks USING GIN(secondary_medical_conditions);
 CREATE INDEX IF NOT EXISTS idx_chunks_source ON chunks(source_relative_path, line_start);
 CREATE INDEX IF NOT EXISTS idx_chunks_category ON chunks(category_id);
-CREATE INDEX IF NOT EXISTS idx_chunks_text_search ON chunks USING GIN(text_search);
 
 CREATE TABLE IF NOT EXISTS sync_metadata (
     key   TEXT PRIMARY KEY,

@@ -35,7 +35,7 @@ The project turns a local collection of Markdown documents about naturopathy and
 | 🧩 Component | Role |
 |---|---|
 | **Semantic index** | Identifies fragments with a close meaning using 1024-dimension Qwen3-Embedding vectors, stored in Postgres (`pgvector`). |
-| **Lexical index** | Finds expressions with the terms in the same order, through `tsvector` in Postgres; uses prefixes for inflections and synonyms when the whole expression is a recognized condition. |
+| **Lexical index** | BM25 ranking through ParadeDB `pg_search` in Postgres: each comma-separated expression is searched by its words (at least 75%, in any order) and as a phrase (boosted), in the text and in the heading (boosted), with the Romanian or English stemmer and accents folded; when the whole expression is a recognized condition, all its names are searched as phrases. |
 | **Combined score** | Each fragment receives a single score, from the signals that the patient ticks in “Sources and search options” (conditions, lexical, semantic). With all three: `4·P1 + 2·P2 + L + V` (condition in title › condition in text › lexical match › semantic match), computed in a single SQL query. |
 | **Condition-based fragmentation** | Splits documents into R1 fragments (condition in the chapter title), R2 (condition in the chapter text) and D1 (the rest of the text), using the catalog of conditions and synonyms in PostgreSQL. |
 | **Source filtering** | In the same “Sources and search options” panel, the search can be restricted to certain folders under `medicina-naturista-documente/data/documents/` (a document's category is its folder). |
@@ -99,13 +99,13 @@ Diagrams: [chatbot-external-connections.xmind](architecture/chatbot-external-con
 | **Language and runtime** | Python ≥ 3.11 (documented local environment: 3.11), PowerShell, Node.js 22 for the frontend |
 | **Interface and API** | React 19, TypeScript, Vite, TanStack Query, FastAPI, Uvicorn |
 | **Local embeddings** | FastEmbed, ONNX Runtime, `Qwen/Qwen3-Embedding-0.6B` (optional GPU indexing, PyTorch fp16) |
-| **Index storage** | PostgreSQL, `pgvector` (cosine similarity), `unaccent` + `tsvector` (lexical search) |
+| **Index storage** | PostgreSQL, `pgvector` (cosine similarity), `pg_search` BM25 (lexical search) |
 | **Fragment scoring** | `4·P1 + 2·P2 + L + V` with all signals, prioritizing the condition in the title, then in the text; the patient can choose any combination of signals |
 | **AI generation** | Native Ollama `/api/chat` or DeepSeek Responses API (admin only), chosen for each report, structured JSON answer |
 | **Documents** | ReportLab for PDF, pypdf for processing and verification |
 | **Email** | Gmail API, OAuth2 with refresh token |
 | **Configuration** | python-dotenv, environment variables |
-| **Running and publishing** | Docker, Docker Compose, Tailscale Funnel, PostgreSQL (`pgvector/pgvector`) |
+| **Running and publishing** | Docker, Docker Compose, Tailscale Funnel, PostgreSQL (`paradedb/paradedb`: pgvector + pg_search) |
 | **Testing** | `unittest`, `pytest` + `testcontainers` (ephemeral Postgres) for the backend, Vitest for the frontend |
 
 ## 🗺️ Architecture documentation
@@ -742,7 +742,7 @@ The index lives in Postgres (`pgvector` and `unaccent` extensions). The tables b
 | Table | Content |
 |---|---|
 | `documents` | One row per source file, keyed by `relative_path` (`ro/<path>` or `en/<path>`): `absolute_path`, `size_bytes`, `modified_utc`, `sha256`, `encoding`, `line_count`, `char_count`. `category_id` is generated from the path (the folder without the language prefix, empty at the root). Used to skip unchanged files at synchronization. |
-| `chunks` | One row per fragment (`chunk_id`), tied to its document by `source_relative_path` (cascading delete): `source_absolute_path`, `source_sha256`, `line_start`, `line_end`, `heading` (path of headings), `text`, `text_sha256`, `char_count`, `language` (`ro`/`en`), `category_id` (generated from the path, used by source filtering), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions` and `secondary_medical_conditions` (`text[]`, GIN-indexed), `embedding vector(1024)` and `text_search tsvector` (GIN-indexed). The vector is searched exactly, without an ANN index. |
+| `chunks` | One row per fragment (`chunk_id`), tied to its document by `source_relative_path` (cascading delete): `source_absolute_path`, `source_sha256`, `line_start`, `line_end`, `heading` (path of headings), `text`, `text_sha256`, `char_count`, `language` (`ro`/`en`), `category_id` (generated from the path, used by source filtering), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions` and `secondary_medical_conditions` (`text[]`, GIN-indexed), `embedding vector(1024)`. The vector is searched exactly, without an ANN index; the lexical search uses the BM25 index `idx_chunks_bm25` (`pg_search`), which has no table of its own. |
 | `sync_metadata` | Key/value pairs: `model_name`, `model_dimension`, `passage_profile`, `text_repr_version`, `dictionary_fingerprint` (with its version), `index_generation`, `last_synced_utc`, the five `herbs_benefits_*` markers and the active positive run per language (`herb_positive_active_run`, `herb_positive_active_run_en`). |
 
 **Conditions and catalog**
@@ -779,7 +779,7 @@ Fragmentation (`src/backend/ai/fragmenter.py`) reads the conditions from `medica
 
 Conditions are searched as whole words, without diacritics and capitals, with tolerance for Romanian endings (`gripa`/`gripei`). File and folder names are not compared with the conditions. R1 and R2 fragments receive `primary_medical_conditions` (the conditions in the title) and `secondary_medical_conditions` (the conditions in the text); D1 has no conditions. R1 and R2 have no length limit. A condition that is primary is removed from `secondary_medical_conditions` of the same fragment: the idempotent script `src/backend/index_sql/001_remove_primary_from_secondary_conditions.sql` runs on every indexing, in the publication transaction, and migration `040_remove_primary_from_secondary_conditions.sql` cleans the rows indexed earlier without reindexing (afterwards run `--rebuild-condition-scores` for each language so that the per-condition tops recompute L2).
 
-At search time, each fragment receives the score `4·P1 + 2·P2 + L + V` (maximum 8, with all signals ticked): P1 = the searched condition is in `primary_medical_conditions`, P2 = it is in `secondary_medical_conditions`, L = the fraction of expressions (separated by commas) found in the fragment, V = the semantic similarity rescaled between the median and the maximum of the search. The patient can untick signals in the “Sources and search options” panel, and the formula adapts (for example `L + V` or only `2·P1 + P2`). The score is not stored in the DB; details are in [fragment-search-and-scoring.xmind](architecture/fragment-search-and-scoring.xmind).
+At search time, each fragment receives the score `4·P1 + 2·P2 + L + V` (maximum 8, with all signals ticked): P1 = the searched condition is in `primary_medical_conditions`, P2 = it is in `secondary_medical_conditions`, L = the BM25 of the fragment divided by the best BM25 of the search (the interface shows the raw BM25), V = the semantic similarity rescaled between the median and the maximum of the search. The patient can untick signals in the “Sources and search options” panel, and the formula adapts (for example `L + V` or only `2·P1 + P2`). The score is not stored in the DB; details are in [fragment-search-and-scoring.xmind](architecture/fragment-search-and-scoring.xmind).
 
 For embeddings, a fragment longer than 1400 characters is split into windows that overlap by 240, and their vectors are averaged (the values, vector dimension and text prefixes of each model are in its profile in `ai/embedding_model.py`). Diacritics are preserved through Unicode NFC normalization.
 

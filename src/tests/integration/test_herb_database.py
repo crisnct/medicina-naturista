@@ -255,7 +255,7 @@ class HerbDatabaseTests(unittest.TestCase):
                 "INSERT INTO documents(relative_path,absolute_path,size_bytes,modified_utc,sha256,encoding,line_count,char_count) VALUES('keep.md','keep.md',4,now(),'sha','utf-8',1,4)"
             )
             connection.execute(
-                "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding,text_search) VALUES('keep.md','keep.md','sha',1,1,'keep','keep','sha',4,%s,''::tsvector)",
+                "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding) VALUES('keep.md','keep.md','sha',1,1,'keep','keep','sha',4,%s)",
                 ("[" + ",".join(["0"] * 1024) + "]",),
             )
             documents = connection.execute(

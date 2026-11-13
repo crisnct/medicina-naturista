@@ -52,7 +52,7 @@ class EvidenceItem(TypedDict):
     text: str
     score: NotRequired[float]
     relevance_percent: NotRequired[float | None]
-    lexical_score: NotRequired[float | None]
+    lexical_bm25: NotRequired[float | None]
     semantic_score: NotRequired[float | None]
     semantic_similarity: NotRequired[float | None]
     condition_in_title: NotRequired[bool | None]

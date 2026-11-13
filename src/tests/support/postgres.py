@@ -40,13 +40,13 @@ class PostgresFixture:
         self._container: PostgresContainer | ExternalTestPostgres | None = None
         self._patch: mock._patch | None = None
 
-    # Start a pgvector-enabled container and point backend.ai.db at it.
+    # Start a ParadeDB (pgvector + pg_search) container and point backend.ai.db at it.
     def start(self) -> None:
         test_url = os.getenv("TEST_POSTGRES_URL")
         self._container = (
             ExternalTestPostgres(test_url)
             if test_url
-            else PostgresContainer("pgvector/pgvector:pg16", driver=None)
+            else PostgresContainer("paradedb/paradedb:0.26.6-pg16", driver=None)
         )
         self._container.start()
         # db_module._pool is a process-wide global. If anything already

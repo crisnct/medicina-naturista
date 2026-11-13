@@ -169,8 +169,8 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
               if (fragment.relevancePercent !== null) scoreParts.push(tr("interface.fragments_relevance_score", { score: Math.round(fragment.relevancePercent) }));
               if (signals.semantic && fragment.semanticScore != null)
                 scoreParts.push(tr("interface.fragments_semantic_score", { score: fragment.semanticScore.toFixed(2) }));
-              if (signals.lexical && fragment.lexicalScore != null)
-                scoreParts.push(tr("interface.fragments_lexical_score", { score: fragment.lexicalScore.toFixed(2) }));
+              if (signals.lexical && fragment.lexicalBm25 != null)
+                scoreParts.push(tr("interface.fragments_lexical_score", { score: fragment.lexicalBm25.toFixed(2) }));
               if (signals.conditions && fragment.conditionMatch !== null)
                 scoreParts.push(CONDITION_LABELS[fragment.conditionMatch]);
               if (signals.lexical && fragment.matchLabel) scoreParts.push(fragment.matchLabel);

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import re
 import sys
 from dataclasses import dataclass, replace
@@ -26,8 +27,9 @@ from backend.core.language import Language, current_language, language_scope, va
 # The signals of the score, each one a checkbox of the "Căutare avansată" panel:
 #   A conditions: P1 / P2 in {0, 1} — a condition the user named is in the
 #                 fragment's primary conditions (title) / secondary ones (text)
-#   B lexical   : L in [0, 1] — the fraction of the user's comma-separated
-#                 expressions that the fragment contains (see lexical_queries())
+#   B lexical   : L in [0, 1] — BM25 of the fragment for the user's comma-separated
+#                 expressions, relative to the best fragment of the search (see
+#                 lexical_query())
 #   C semantic  : V in [0, 1] — cosine similarity to the message, rescaled from
 #                 [median, max] of the search to [0, 1]
 # At least one must be on. A signal that is off is not computed at all.
@@ -119,93 +121,115 @@ def evidence_heading_prefix() -> str:
     return "Section: " if current_language() == "en" else EVIDENCE_HEADING_PREFIX
 
 
-# A word shorter than this is matched exactly in a phrase, so "de" does not
-# also find "deja" or "despre"; longer ones are matched by prefix.
-PREFIX_MATCH_MIN_CHARS = 3
-
-
 # Words of a text segment, capped at 32 — the raw material of a lexical query.
 def _words(segment: str) -> list[str]:
     return re.findall(r"[^\W_]+", segment, flags=re.UNICODE)[:32]
 
 
-# A word reduced to lowercase letters and digits without diacritics. These are
-# the only characters a tsquery operand is built from, so no tsquery syntax can
-# come from user text.
+# A word reduced to lowercase letters and digits without diacritics; two expressions
+# with the same folded words are the same expression.
 def _fold(word: str) -> str:
     return "".join(char for char in plain(word) if char.isalnum())
 
 
-# Prefix stem used for lexical matching. The index is built with the 'simple'
-# text-search config (no Romanian stemming), so "genunchi" would never match
-# "genunchiului"; matching on a trimmed prefix (`stem:*`) covers the common
-# inflections (genunchi/genunchiului, durere/dureri, gripa/gripei) without a
-# reindex. Short words keep their full length as prefix.
-def _stem(word: str) -> str:
-    folded = _fold(word)
-    if current_language() == "en":
-        return folded
-    return folded[: max(4, len(folded) - 2)] if len(folded) >= 6 else folded
+# How the lexical signal (BM25, ParadeDB pg_search) reads a question. Every expression
+# (the question split at commas, identical ones counted once) becomes one query, and
+# a fragment's BM25 is the sum over the expressions it matches. The words are analysed
+# by the index itself (language stemmer, lowercase, diacritics folded), so none of that
+# is done here, and the user's text only ever travels as a bound parameter.
+#   * a plain expression: the share of its words (TERMS_MATCH_FRACTION, rounded up) in
+#     any order, or the words as a phrase (up to PHRASE_SLOP words in between), which
+#     scores PHRASE_BOOST times more; found in the heading it scores HEADING_BOOST
+#     times more than in the text.
+#   * an expression that IS a condition (QuerySegment.whole_condition, an exact term or
+#     a near-identical spelling of one): every name of the condition as a phrase.
+# The index has one stemmer per language (idx_chunks_bm25, migration 044).
+TERMS_MATCH_FRACTION = 0.75
+PHRASE_SLOP = 1
+PHRASE_BOOST = 2
+HEADING_BOOST = 2
+_FIELD_LANGUAGES = ("ro", "en")
 
 
-def _phrase_operand(word: str) -> str | None:
-    folded = _fold(word)
-    if not folded:
-        return None
-    return folded if len(folded) < PREFIX_MATCH_MIN_CHARS else f"{_stem(word)}:*"
+class _Parameters:
+    def __init__(self) -> None:
+        self.values: dict[str, object] = {}
+
+    # Bind `value` and return its placeholder; the cast keeps ARRAY[...] unambiguous.
+    def text(self, value: str) -> str:
+        name = f"lexical_{len(self.values)}"
+        self.values[name] = value
+        return f"%({name})s::text"
 
 
-# The words of `text`, in the order written and adjacent (the tsquery operator
-# `<->`), as one parenthesised phrase; every word counts, generic and short ones
-# included. None when `text` has no word.
-#   "dureri de picioare" -> "(dure:* <-> de <-> picioa:*)"
-def _phrase(text: str) -> str | None:
-    operands = [operand for operand in map(_phrase_operand, _words(text)) if operand]
-    return "(" + " <-> ".join(operands) + ")" if operands else None
+def _terms_clause(field: str, words: list[str], parameters: _Parameters) -> str:
+    by_fold: dict[str, str] = {}
+    for word in words:
+        if folded := _fold(word):
+            by_fold.setdefault(folded, word)
+    terms = list(by_fold.values())
+    required = max(1, math.ceil(len(terms) * TERMS_MATCH_FRACTION))
+    matches = ", ".join(f"paradedb.match('{field}', {parameters.text(term)})" for term in terms)
+    return f"paradedb.boolean(should => ARRAY[{matches}], minimum_should_match => {required})"
 
 
-# The lexical queries of a resolved message: one tsquery per comma-separated
-# expression (identical expressions count once), so that L is the fraction of
-# them a fragment contains. An expression that IS a condition (an exact term or
-# a near-identical spelling of one, QuerySegment.whole_condition) is searched
-# under every name of the condition, as an OR of their phrases; any other
-# expression is searched as written, as one exact phrase — no synonyms, and no
-# condition looked up inside it ("gripa la copii" looks for that phrase only,
-# even though the conditions signal still recognises Gripa there):
-#   "zorbita" -> "(((zorbi:*) | (zorbito:*) | (zorb:* <-> disea:*)))"
-# Stems contain letters and digits only, so no tsquery syntax can come from user
-# text. Empty when the message has no usable word.
-def lexical_queries(resolved: ResolvedQuery) -> list[str]:
-    queries: list[str] = []
+def _phrase_clause(field: str, words: list[str], slop: int, parameters: _Parameters) -> str:
+    if len(words) == 1:
+        return f"paradedb.match('{field}', {parameters.text(words[0])})"
+    items = ", ".join(parameters.text(word) for word in words)
+    return f"paradedb.phrase('{field}', ARRAY[{items}], {slop})"
+
+
+# The clauses one expression is searched with in one field (text or heading).
+def _field_clauses(field: str, segment, parameters: _Parameters) -> list[str]:
+    if segment.whole_condition:
+        names = dict.fromkeys(term for condition in segment.conditions for term in condition.terms)
+        phrases = [_words(name) for name in names]
+        return [_phrase_clause(field, words, 0, parameters) for words in phrases if words]
+    words = _words(segment.text)
+    if not words:
+        return []
+    clauses = [_terms_clause(field, words, parameters)]
+    if len(words) > 1:
+        phrase = _phrase_clause(field, words, PHRASE_SLOP, parameters)
+        clauses.append(f"paradedb.boost({PHRASE_BOOST}, {phrase})")
+    return clauses
+
+
+# The lexical query of a resolved message and its parameters, or None when the
+# message has no usable word.
+def lexical_query(resolved: ResolvedQuery) -> tuple[str, dict[str, object]] | None:
+    language = current_language()
+    if language not in _FIELD_LANGUAGES:
+        raise ValueError(f"Unsupported lexical language {language!r}.")
+    parameters = _Parameters()
+    expressions: list[str] = []
     seen: set[str] = set()
     for segment in resolved.segments:
         key = " ".join(_fold(word) for word in _words(segment.text))
         if not key or key in seen:
             continue
         seen.add(key)
-        if segment.whole_condition:
-            names = dict.fromkeys(
-                term for condition in segment.conditions for term in condition.terms
-            )
-            phrases = list(dict.fromkeys(phrase for phrase in map(_phrase, names) if phrase))
-            query = "(" + " | ".join(phrases) + ")" if phrases else None
-        else:
-            query = _phrase(segment.text)
-        if query:
-            queries.append(query)
-    return queries
+        in_text = _field_clauses(f"text_{language}", segment, parameters)
+        in_heading = _field_clauses(f"heading_{language}", segment, parameters)
+        clauses = in_text + [f"paradedb.boost({HEADING_BOOST}, {clause})" for clause in in_heading]
+        if clauses:
+            expressions.append(f"paradedb.boolean(should => ARRAY[{', '.join(clauses)}])")
+    if not expressions:
+        return None
+    return f"paradedb.boolean(should => ARRAY[{', '.join(expressions)}])", parameters.values
 
 
 # The whole search as ONE query, so Postgres does every step next to the data:
 #   pool      every fragment of the selected categories: P1/P2 from the indexed
 #             condition arrays and the exact cosine similarity to the query
-#   lq / lex  the lexical expressions as tsqueries; the fragments any of them
-#             matches (GIN index) with the number of expressions they contain
+#   lex       the fragments the BM25 index finds for the lexical query (see
+#             lexical_query()) with their BM25 score, and lex_stats the best one
 #   cosine_stats  median/max cosine of THIS search, which is what makes V
 #             relative to the search (relevance_percent tells how good a
 #             fragment is within this search, not across searches)
 #             (all similarities equal, e.g. a one-fragment selection: V = 0)
-#   ranked    P1, P2, L = hits / number of expressions, V for every fragment
+#   ranked    P1, P2, L = BM25 / the best BM25 of THIS search, V for every fragment
 #   scored    score = w_primary*P1 + w_secondary*P2 + w_lexical*L + w_semantic*V
 #   kept      running sum of the evidence characters in score order, over the
 #             fragments with score > 0 (a condition, a lexical match or a
@@ -213,13 +237,13 @@ def lexical_queries(resolved: ResolvedQuery) -> list[str]:
 #             the budget survives, so the fragments cut from the tail are whole
 #             ones, never truncated
 # The signals that are off are written as constants (no condition arrays, no
-# vector, no tsquery, no statistics), so they cost nothing.
+# vector, no BM25 query, no statistics), so they cost nothing.
 # The text of the kept fragments is read through a LATERAL primary-key lookup, so
 # only those few rows are touched: a plain join makes Postgres hash the whole
 # table (text included), which was 3-5 times slower.
 # There is no candidate limit per signal: nothing is dropped before scoring.
-# {condition_columns}, {cosine_column}, {lexical}, {cosine_stats}, {lexical_value}
-# and {semantic_value} depend on the signals; {category_where} is an optional
+# {condition_columns}, {cosine_column}, {lexical}, {cosine_stats}, {lexical_join},
+# {lexical_value} and {semantic_value} depend on the signals; {category_where} is an optional
 # category filter.
 _RANK_SQL = """
 WITH
@@ -233,7 +257,7 @@ pool AS (
 {lexical}
 {cosine_stats}
 ranked AS (
-    SELECT p.chunk_id, p.p1, p.p2, p.cosine, l.hits,
+    SELECT p.chunk_id, p.p1, p.p2, p.cosine, l.bm25,
            {lexical_value} AS lexical,
            {semantic_value} AS semantic,
            p.char_count + CASE WHEN btrim(p.heading) <> ''
@@ -241,6 +265,7 @@ ranked AS (
     FROM pool p
     {cosine_join}
     LEFT JOIN lex l USING (chunk_id)
+    {lexical_join}
 ),
 scored AS (
     SELECT *, %(w_primary)s * p1 + %(w_secondary)s * p2 + %(w_lexical)s * lexical + %(w_semantic)s * semantic AS score
@@ -251,7 +276,7 @@ kept AS (
     FROM scored
     WHERE score > 0
 )
-SELECT k.chunk_id, k.score, k.p1, k.p2, k.lexical, k.semantic, k.cosine, k.hits,
+SELECT k.chunk_id, k.score, k.p1, k.p2, k.lexical, k.semantic, k.cosine, k.bm25,
        c.source_relative_path, c.source_absolute_path, c.line_start, c.line_end,
        c.heading, c.text, c.source_sha256, c.business_category,
        c.primary_medical_conditions, c.secondary_medical_conditions
@@ -276,20 +301,23 @@ _SEMANTIC_VALUE = (
 )
 _NO_SEMANTIC_VALUE = "0::double precision"
 
-# One tsquery per expression (`lq`, evaluated once), and for every fragment any
-# of them matches, how many of them it matches: the OR filter uses the GIN
-# index, the count is the numerator of L.
-_LEXICAL_CTE = """lq AS MATERIALIZED (
-    SELECT to_tsquery('simple', unaccent(expression)) AS query FROM unnest(%(expressions)s::text[]) AS expression
-),
-lex AS (
-    SELECT c.chunk_id, (SELECT count(*) FROM lq WHERE c.text_search @@ lq.query) AS hits
+# The BM25 index's own scan: it finds the fragments the lexical query matches and scores
+# them in one pass, and the best score of the search is what makes L relative to it.
+_LEXICAL_CTE = """lex AS (
+    SELECT c.chunk_id, pdb.score(c.chunk_id) AS bm25
     FROM chunks c
-    WHERE c.text_search @@ to_tsquery('simple', unaccent(%(any_expression)s)) {category_and}
+    WHERE c.chunk_id @@@ {query} {category_and}
+),
+lex_stats AS (
+    SELECT max(bm25) AS peak FROM lex
 ),"""
-_LEXICAL_VALUE = "coalesce(l.hits, 0)::double precision / %(expression_count)s"
+_LEXICAL_JOIN = "CROSS JOIN lex_stats ls"
+_LEXICAL_VALUE = "coalesce(l.bm25 / nullif(ls.peak, 0), 0)"
 # Lexical signal off, or no usable word in the message: nothing matches lexically.
-_NO_LEXICAL_CTE = "lex AS (SELECT NULL::bigint AS chunk_id, NULL::bigint AS hits WHERE FALSE),"
+_NO_LEXICAL_CTE = (
+    "lex AS (SELECT NULL::bigint AS chunk_id, NULL::double precision AS bm25 WHERE FALSE),"
+)
+_NO_LEXICAL_JOIN = ""
 _NO_LEXICAL_VALUE = "0::double precision"
 
 
@@ -302,7 +330,7 @@ _NO_LEXICAL_VALUE = "0::double precision"
 # fragment with score 0 is not returned. The conditions the message names (see
 # ai/conditions.py; each comma-separated expression is recognised on its own)
 # decide P1/P2; the lexical signal looks for each expression on its own (see
-# lexical_queries()); the semantic signal uses the message as typed. `resolved`
+# lexical_query()); the semantic signal uses the message as typed. `resolved`
 # is the message already resolved (the dictionary's conditions completed with
 # the ones the AI identified, see condition_ai.resolved_for()); without it the
 # message is resolved against the dictionary alone.
@@ -350,10 +378,10 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
         return []
     signals = effective_signals(signals, resolved)
     condition_names = list(resolved.condition_names) if signals.conditions else []
-    expressions = lexical_queries(resolved) if signals.lexical else []
+    lexical = lexical_query(resolved) if signals.lexical else None
     # Every signal that is on has nothing to look for (e.g. only the conditions
     # signal and no condition in the message): no fragment can score.
-    if not (condition_names or expressions or signals.semantic):
+    if not (condition_names or lexical or signals.semantic):
         return []
 
     category_where = "WHERE language = %(language)s" + (
@@ -366,10 +394,13 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
         condition_columns=_CONDITION_COLUMNS if signals.conditions else _NO_CONDITION_COLUMNS,
         cosine_column=_COSINE_COLUMN if signals.semantic else _NO_COSINE_COLUMN,
         category_where=category_where,
-        lexical=_LEXICAL_CTE.format(category_and=category_and) if expressions else _NO_LEXICAL_CTE,
+        lexical=_LEXICAL_CTE.format(query=lexical[0], category_and=category_and)
+        if lexical
+        else _NO_LEXICAL_CTE,
         cosine_stats=_COSINE_STATS if signals.semantic else "",
         cosine_join=_COSINE_JOIN if signals.semantic else "",
-        lexical_value=_LEXICAL_VALUE if expressions else _NO_LEXICAL_VALUE,
+        lexical_join=_LEXICAL_JOIN if lexical else _NO_LEXICAL_JOIN,
+        lexical_value=_LEXICAL_VALUE if lexical else _NO_LEXICAL_VALUE,
         semantic_value=_SEMANTIC_VALUE if signals.semantic else _NO_SEMANTIC_VALUE,
     )
 
@@ -377,9 +408,7 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
     parameters: dict[str, object] = {
         "language": current_language(),
         "conditions": condition_names,
-        "expressions": expressions,
-        "any_expression": " | ".join(expressions),
-        "expression_count": len(expressions),
+        **(lexical[1] if lexical else {}),
         "categories": list(category_ids) if category_ids else None,
         "heading_overhead": len(evidence_heading_prefix()) + len(EVIDENCE_HEADING_SEPARATOR),
         "w_primary": w_primary,
@@ -416,10 +445,11 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
             "score": float(row.score),
             "condition_in_title": bool(row.p1) if signals.conditions else None,
             "condition_in_text": bool(row.p2) if signals.conditions else None,
-            "lexical_score": float(row.lexical) if row.hits is not None else None,
+            "lexical_score": float(row.lexical) if row.bm25 is not None else None,
+            "lexical_bm25": float(row.bm25) if row.bm25 is not None else None,
             "semantic_score": float(row.semantic) if signals.semantic else None,
             "semantic_similarity": float(row.cosine) if signals.semantic else None,
-            "found_by_lexical": row.hits is not None,
+            "found_by_lexical": row.bm25 is not None,
             "business_category": row.business_category,
             "primary_medical_conditions": [
                 display_names.get(name, name) for name in row.primary_medical_conditions
@@ -483,7 +513,7 @@ def main() -> None:
         print(
             f"    score={result['score']:.3f} "
             f"P1={int(bool(result['condition_in_title']))} P2={int(bool(result['condition_in_text']))} "
-            f"L={result['lexical_score'] or 0.0:.3f} V={result['semantic_score'] or 0.0:.3f} "
+            f"L={result['lexical_score'] or 0.0:.3f} bm25={result['lexical_bm25'] or 0.0:.3f} V={result['semantic_score'] or 0.0:.3f} "
             f"cosine={result['semantic_similarity'] or 0.0:.4f}"
         )
         preview = re.sub(r"\s+", " ", str(result["text"]))[:500]

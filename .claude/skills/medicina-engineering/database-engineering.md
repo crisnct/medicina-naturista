@@ -45,8 +45,10 @@ Design notes that are load-bearing:
   tables — there is no independent value that can drift. Keep it that way; never write it.
 - **`chunks.embedding vector(__DIMENSION__)`** — the width is substituted at schema
   preparation from the embedding profile, not hardcoded.
-- **`chunks.text_search tsvector`, GIN-indexed** — the lexical index. GIN indexes also
-  cover `primary_medical_conditions` and `secondary_medical_conditions` (both `TEXT[]`).
+- **`idx_chunks_bm25` (ParadeDB `pg_search`, migration 044)** — the lexical index: text and heading
+  per language (Romanian / English stemmer, accents folded by the tokenizer). The old
+  `chunks.text_search tsvector` and its GIN index were dropped by migration 045.
+  GIN indexes also cover `primary_medical_conditions` and `secondary_medical_conditions` (both `TEXT[]`).
 - **`business_category` (R1/R2/D1) stays nullable** because rows written before it existed
   have no honest default; the next sync refills them.
 - **Priority is not stored.** It is decided per search in `ai/search.py`.
@@ -120,7 +122,7 @@ mismatched index.
 
 One SQL statement computes the whole ranking (`ai/search.py`): a candidate pool, exact
 cosine via `-(embedding <#> %(vector)s)`, per-search `percentile_cont(0.5)` and `max`
-cosine used to rescale `V` into `[0,1]`, lexical hit fraction `L`, condition flags
+cosine used to rescale `V` into `[0,1]`, lexical `L` (BM25 / the best BM25 of the search), condition flags
 `P1`/`P2`, then `score` and a window function accumulating `running_chars` so the context
 budget can be applied in the same pass. Signals the user switched off are not computed at
 all — the query is assembled from fragments (`_COSINE_COLUMN`, `_COSINE_STATS`,

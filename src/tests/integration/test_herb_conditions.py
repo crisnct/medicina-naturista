@@ -88,7 +88,7 @@ def catalog(postgres):
                 (path, path, digest, len(text)),
             )
             connection.execute(
-                "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding,primary_medical_conditions,text_search) VALUES(%s,%s,%s,1,4,%s,%s,%s,%s,%s::vector,%s,''::tsvector)",
+                "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding,primary_medical_conditions) VALUES(%s,%s,%s,1,4,%s,%s,%s,%s,%s::vector,%s)",
                 (
                     path,
                     path,
@@ -164,9 +164,9 @@ def test_specific_species_with_name_and_alias_resolution(catalog, name):
             connection.execute(
                 "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,"
                 "line_start,line_end,heading,text,text_sha256,char_count,embedding,"
-                "primary_medical_conditions,text_search) "
+                "primary_medical_conditions) "
                 "SELECT %s,%s,source_sha256,1,6,'Vertigo',%s,%s,%s,embedding,"
-                "ARRAY['Vertigo','Zorbita'],text_search FROM chunks LIMIT 1",
+                "ARRAY['Vertigo','Zorbita'] FROM chunks LIMIT 1",
                 (path, path, text, content_hash(text), len(text)),
             )
     from uuid import uuid4
@@ -415,7 +415,7 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
                 (path, path, content_hash(text), len(text)),
             )
             connection.execute(
-                "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding,primary_medical_conditions,text_search) VALUES(%s,%s,%s,1,1,%s,%s,%s,%s,%s::vector,%s,''::tsvector)",
+                "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding,primary_medical_conditions) VALUES(%s,%s,%s,1,1,%s,%s,%s,%s,%s::vector,%s)",
                 (
                     path,
                     path,

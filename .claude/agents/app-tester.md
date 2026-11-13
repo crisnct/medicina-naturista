@@ -108,7 +108,7 @@ assignment; `time.sleep` in a test is a defect, not a workaround. Use
 `unittest.mock`/`MagicMock` for collaborators and `tempfile.TemporaryDirectory` with
 `addCleanup` for filesystem state.
 
-**Integration tests** use `tests/support/postgres.py`: one `pgvector/pgvector:pg16`
+**Integration tests** use `tests/support/postgres.py`: one `paradedb/paradedb:0.26.6-pg16`
 container per **module** via `setUpModule`/`tearDownModule`, `reset()` between tests —
 per-test containers are too slow to be practical. They run the real `migrate()`, so a
 broken migration fails here. `TEST_POSTGRES_URL` may only ever point at a disposable
@@ -140,7 +140,7 @@ Postgres, `.env`, corpus, model or network. Clocks are injected
 (`SessionStore(..., clock=lambda: self.now)`) — a `time.sleep` in a unit test is a defect.
 Check that new pure logic landed in `core/` where it can be tested without infrastructure.
 
-**2. Integration.** `tests/support/postgres.py` starts one `pgvector/pgvector:pg16`
+**2. Integration.** `tests/support/postgres.py` starts one `paradedb/paradedb:0.26.6-pg16`
 container per module and `reset()`s between tests. Real migrations run, so a broken
 migration fails here. `TEST_POSTGRES_URL` may only ever point at a disposable database —
 the fixture rewrites schema and data. Verify: atomic index publication (a failed build

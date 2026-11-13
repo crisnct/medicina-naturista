@@ -3272,3 +3272,30 @@ description: chronological action log per session, consolidated weekly
 | 10:36 | Created src/frontend/components/FirstVisitNotice.tsx | — | ~1004 |
 | 10:36 | Edited src/frontend/styles.css | 2→2 lines | ~23 |
 | 10:36 | Edited src/frontend/styles.css | modified media() | ~146 |
+
+## Session: 2026-11-13 12:02
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-11-13 12:15
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-11-13 14:25
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 15:19 | Created aiPlans/2026-11-13-cautare-lexicala-bm25.md | — | ~3304 |
+| 15:20 | Edited aiPlans/2026-11-13-cautare-lexicala-bm25.md | inline fix | ~47 |
+| 15:43 | Edited aiPlans/2026-11-13-cautare-lexicala-bm25.md | inline fix | ~52 |
+| 15:43 | Edited aiPlans/2026-11-13-cautare-lexicala-bm25.md | 2→2 lines | ~22 |
+<!-- session:ODM0ZmYwNGQtMDczYi00NTI2LTg3YzItYTFhNGZhZTM5YjRh -->
+| 2026-11-13T13:43:43.843Z | Wrote BM25 lexical search plan (ParadeDB pg_search); user approved decisions D1-D5 as proposed. No code changed. | aiPlans/2026-11-13-cautare-lexicala-bm25.md | plan only, nothing implemented or run |
+| 15:47 | Edited aiPlans/2026-11-13-cautare-lexicala-bm25.md | modified surare() | ~266 |
+| 15:47 | Edited aiPlans/2026-11-13-cautare-lexicala-bm25.md | inline fix | ~44 |
+| 15:51 | Edited aiPlans/2026-11-13-cautare-lexicala-bm25.md | — | ~0 |
+| 15:52 | Edited aiPlans/2026-11-13-cautare-lexicala-bm25.md | 3→1 lines | ~69 |
+| 15:52 | Edited aiPlans/2026-11-13-cautare-lexicala-bm25.md | removed 1 lines | ~3 |
+| 17:05 | Session end: 9 writes across 1 files (2026-11-13-cautare-lexicala-bm25.md) | 9 reads | ~5665 tok |

@@ -62,8 +62,8 @@ class HerbsIndexDatabaseTests(TestCase):
 
     def add_chunk(self, conn, text, primary=(), secondary=(), heading=""):
         conn.execute(
-            "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding,text_search,primary_medical_conditions,secondary_medical_conditions) "
-            "VALUES ('a.md','a.md','hash',1,1,%s,%s,'hash',%s,%s,''::tsvector,%s,%s)",
+            "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding,primary_medical_conditions,secondary_medical_conditions) "
+            "VALUES ('a.md','a.md','hash',1,1,%s,%s,'hash',%s,%s,%s,%s)",
             (
                 heading,
                 text,

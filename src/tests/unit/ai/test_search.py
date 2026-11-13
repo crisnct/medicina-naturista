@@ -22,8 +22,16 @@ def _dictionary() -> ConditionDictionary:
     return ConditionDictionary(conditions_from_rows(DICTIONARY_TEXT))
 
 
-def _queries(text: str) -> list[str]:
-    return search.lexical_queries(_dictionary().resolve(text))
+def _lexical(text: str) -> tuple[str, dict[str, object]] | None:
+    return search.lexical_query(_dictionary().resolve(text))
+
+
+def _sql(text: str) -> str:
+    return _lexical(text)[0]
+
+
+def _words(text: str) -> list[object]:
+    return list(_lexical(text)[1].values())
 
 
 def _signals(code: str) -> search.SearchSignals:
@@ -55,74 +63,87 @@ class SearchSignalsTests(unittest.TestCase):
                 search.SearchSignals.from_code(code)
 
 
-class LexicalQueriesTests(unittest.TestCase):
-    def test_an_expression_is_one_phrase_of_prefix_stems_in_the_order_written(self):
-        self.assertEqual(_queries("durere de genunchi"), ["(dure:* <-> de <-> genunc:*)"])
+class LexicalQueryTests(unittest.TestCase):
+    def test_an_expression_is_searched_as_terms_and_as_a_phrase_in_text_and_heading(self):
+        sql = _sql("durere de genunchi")
+
+        # terms and phrase, in the text and in the heading: the words are bound four times
+        self.assertEqual(_words("durere de genunchi"), ["durere", "de", "genunchi"] * 4)
+        for field in ("text_ro", "heading_ro"):
+            self.assertIn(f"paradedb.match('{field}', %(lexical_", sql)
+            self.assertIn(f"paradedb.phrase('{field}', ARRAY[", sql)
+        self.assertIn("minimum_should_match => 3", sql)  # 75% of 3 words, rounded up
 
     def test_generic_and_short_words_are_kept(self):
         self.assertEqual(
-            _queries("ce sa iau pentru durere"), ["(ce <-> sa <-> iau:* <-> pent:* <-> dure:*)"]
+            _words("ce sa iau pentru durere")[:5], ["ce", "sa", "iau", "pentru", "durere"]
         )
-        self.assertEqual(_queries("acest guta"), ["(acest:* <-> guta:*)"])
+        self.assertIn("minimum_should_match => 4", _sql("ce sa iau pentru durere"))
 
-    def test_words_under_three_letters_match_exactly_and_the_rest_by_prefix(self):
-        query = _queries("la de cu pat")[0]
-
-        self.assertEqual(query, "(la <-> de <-> cu <-> pat:*)")
-
-    def test_short_query_keeps_its_words(self):
-        self.assertEqual(_queries("HPV"), ["(hpv:*)"])
+    def test_a_single_word_has_no_phrase(self):
+        self.assertEqual(_words("HPV"), ["HPV", "HPV"])  # text and heading
+        self.assertNotIn("paradedb.phrase", _sql("HPV"))
+        self.assertIn("minimum_should_match => 1", _sql("HPV"))
 
     def test_each_comma_separated_expression_is_its_own_query(self):
-        self.assertEqual(_queries("artroza genunchi, guta"), ["(artro:* <-> genunc:*)", "(guta:*)"])
+        sql = _sql("artroza genunchi, guta")
 
-    def test_an_expression_that_is_a_condition_is_an_or_of_the_phrases_of_all_its_names(self):
-        # A multi-word synonym ("zorbit disease") is a phrase itself.
-        self.assertEqual(
-            _queries("zorbita"),
-            ["((zorbi:*) | (zorbito:*) | (zorb:* <-> disea:*))"],
+        self.assertEqual(sql.count("minimum_should_match"), 4)  # 2 expressions x (text, heading)
+        self.assertEqual(_words("artroza genunchi, guta")[:2], ["artroza", "genunchi"])
+        self.assertIn("guta", _words("artroza genunchi, guta"))
+
+    def test_an_expression_that_is_a_condition_is_every_phrase_of_its_names(self):
+        # A multi-word synonym ("zorbit disease") is a phrase itself; no terms clause.
+        sql = _sql("zorbita")
+
+        self.assertEqual(_words("zorbita"), ["Zorbita", "zorbitoza", "zorbit", "disease"] * 2)
+        self.assertNotIn("minimum_should_match", sql)
+        self.assertIn(
+            "paradedb.phrase('text_ro', ARRAY[%(lexical_2)s::text, %(lexical_3)s::text], 0)", sql
         )
 
     def test_a_near_identical_spelling_of_a_condition_is_still_the_whole_condition(self):
-        self.assertEqual(_queries("vertiggo"), ["((verti:*) | (ametea:*))"])
+        self.assertEqual(_words("vertiggo"), ["Vertigo", "ameteala"] * 2)
+        self.assertNotIn("minimum_should_match", _sql("vertiggo"))
 
     def test_a_condition_inside_a_longer_expression_is_searched_as_written(self):
-        # No synonyms and no condition looked up inside the expression: just the phrase.
-        self.assertEqual(
-            _queries("tratament pentru zorbita la copii"),
-            ["(tratame:* <-> pent:* <-> zorbi:* <-> la <-> copii:*)"],
-        )
-        self.assertEqual(_queries("vertigo la copii"), ["(verti:* <-> la <-> copii:*)"])
+        # No synonyms and no condition looked up inside the expression.
+        words = _words("tratament pentru zorbita la copii")
+
+        self.assertEqual(words, ["tratament", "pentru", "zorbita", "la", "copii"] * 4)
+        self.assertNotIn("zorbitoza", words)
 
     def test_the_expressions_of_a_message_are_resolved_separately(self):
-        self.assertEqual(
-            _queries("durere de genunchi la efort, vertigo"),
-            ["(dure:* <-> de <-> genunc:* <-> la <-> efort:*)", "((verti:*) | (ametea:*))"],
-        )
+        words = _words("durere de genunchi la efort, vertigo")
+
+        self.assertEqual(words[:5], ["durere", "de", "genunchi", "la", "efort"])
+        self.assertEqual(words[-4:], ["Vertigo", "ameteala"] * 2)
 
     def test_identical_expressions_count_once(self):
-        self.assertEqual(len(_queries("zorbita, Zorbita")), 1)
-        self.assertEqual(len(_queries("durere de cap, DURERE  de   cap, ameteala")), 2)
+        self.assertEqual(len(_words("zorbita, Zorbita")), 8)
+        self.assertEqual(len(_words("durere de cap, DURERE  de   cap, ameteala")), 16)
         # Different expressions of the same condition stay different expressions.
-        self.assertEqual(len(_queries("zorbita, zorbitoza")), 2)
+        self.assertEqual(len(_words("zorbita, zorbitoza")), 16)
 
     def test_at_most_32_words_of_an_expression_are_used(self):
-        query = _queries(" ".join(f"cuvant{index}" for index in range(40)))[0]
+        self.assertEqual(len(_words(" ".join(f"cuvant{index}" for index in range(40)))), 32 * 4)
 
-        self.assertEqual(query.count("<->"), 31)
-
-    def test_text_cannot_inject_tsquery_syntax(self):
-        for text in ("gută'; DROP TABLE chunks; --", "a & b | !c <-> d:*", "(((", "zorbita) | (x"):
-            for query in _queries(text):
-                with self.subTest(text=text):
-                    self.assertRegex(query, r"^[a-z0-9:*()| <>-]+$")
-                    self.assertNotIn("'", query)
-                    self.assertNotIn("!", query)
-                    self.assertNotIn("&", query)
+    def test_text_travels_only_as_bound_parameters(self):
+        for text in ("guta'; DROP TABLE chunks; --", "a & b | !c <-> d:*", "(((", "zorbita) | (x"):
+            with self.subTest(text=text):
+                query = _lexical(text)
+                if query is None:  # no word at all
+                    continue
+                sql, parameters = query
+                self.assertNotIn("DROP", sql)
+                self.assertNotIn("chunks", sql)
+                self.assertNotIn("!", sql)
+                self.assertTrue(all(isinstance(value, str) for value in parameters.values()))
+                self.assertEqual(sql.count("%(lexical_"), len(parameters))
 
     def test_text_without_words_has_no_query(self):
-        self.assertEqual(_queries("?! ,"), [])
-        self.assertEqual(_queries(""), [])
+        self.assertIsNone(_lexical("?! ,"))
+        self.assertIsNone(_lexical(""))
 
 
 class WeightTests(unittest.TestCase):

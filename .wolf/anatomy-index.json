@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-08T08:36:47.595Z",
-    "fileCount": 488,
+    "lastScanned": "2026-11-13T13:52:43.371Z",
+    "fileCount": 489,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "507720feb813e6f8b460a34903e324ef4e2629dd3291d1bc69646ff875439b84",
-    "storeUpdatedAt": "2026-11-08T08:36:47.606Z",
-    "rootHash": "bb61aaddcee9a947"
+    "renderedHash": "870e1f36bd7c76be0eda1bdd688e19013b96d7fd600595df9b9ab6e42e16cdcb",
+    "storeUpdatedAt": "2026-11-13T13:52:43.382Z",
+    "rootHash": "fda405a3ae8e1e36"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -12662,6 +12662,15 @@
           "tokens": 386
         }
       ]
+    },
+    "aiPlans/2026-11-13-cautare-lexicala-bm25.md": {
+      "description": "Plan: căutare lexicală BM25 (modelul Lucene / Elasticsearch, în PostgreSQL)",
+      "tokens": 3140,
+      "hash": "2a93ab74a6b052c6",
+      "size": 13078,
+      "mtimeMs": 1794577963141.2737,
+      "updatedAt": "2026-11-13T13:52:43.371Z",
+      "source": "hook"
     }
   },
   "preamble": [

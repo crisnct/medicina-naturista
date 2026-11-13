@@ -21,7 +21,7 @@ Properties that must survive any edit:
 
 ## Compose
 
-`db` is `pgvector/pgvector:pg16` with `shared_buffers=512MB`, because the ~150 MB chunks
+`db` is `paradedb/paradedb:0.26.6-pg16` (pgvector + pg_search, preloaded) with `shared_buffers=512MB`, because the ~150 MB chunks
 table must fit or the first search after a restart costs ~0.5 s of disk reads.
 
 `app` runs hardened: `read_only: true`, `cap_drop: [ALL]`, `no-new-privileges`,
@@ -66,7 +66,7 @@ Five jobs: `static`, `unit`, `integration`, `frontend`, `container`.
   for adding to them belong to the **app-tester** role
   (`.claude/agents/app-tester.md`); as DevOps you own the jobs' environment —
   `HF_HUB_OFFLINE=1`, `TESTCONTAINERS_RYUK_DISABLED=true`, the
-  `pgvector/pgvector:pg16` service with its health check and `TEST_POSTGRES_URL`, the
+  `paradedb/paradedb:0.26.6-pg16` service with its health check and `TEST_POSTGRES_URL`, the
   `pip check` step, Node 22 with an npm cache, and the DejaVu/Liberation font install
   that PDF rendering needs.
 - `container` builds the image with `PUBLIC_BASE_PATH=/medicina`. Both catalogues ship as

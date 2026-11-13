@@ -1479,7 +1479,7 @@ class WebTests(unittest.TestCase):
                 "score": 2.0,
                 "condition_in_title": None,
                 "condition_in_text": None,
-                "lexical_score": 1.0,
+                "lexical_bm25": 1.0,
                 "semantic_score": 1.0,
                 "semantic_similarity": 0.9,
             }
@@ -2037,7 +2037,7 @@ class WebTests(unittest.TestCase):
                         "score": 3.0,
                         "condition_in_title": None,
                         "condition_in_text": None,
-                        "lexical_score": None,
+                        "lexical_bm25": None,
                         "semantic_score": None,
                         "semantic_similarity": None,
                     }

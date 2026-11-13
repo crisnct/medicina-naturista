@@ -64,7 +64,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        image: pgvector/pgvector:pg16
+        image: paradedb/paradedb:0.26.6-pg16
         env:
           POSTGRES_USER: test_user
           POSTGRES_PASSWORD: synthetic-password

@@ -23,7 +23,8 @@ export interface FragmentItem {
   charactersCount?: number;
   relevancePercent: number | null;
   semanticScore: number | null;
-  lexicalScore: number | null;
+  // Raw BM25 of the fragment for the question (the ranking uses it relative to the best one).
+  lexicalBm25: number | null;
   // Where the condition the patient named was found: in the fragment's title, in its text, or nowhere.
   conditionMatch: "title" | "text" | null;
   matchLabel: string;

@@ -192,7 +192,7 @@ class PriorityRankTests(RankTestCase):
         "catA/text.md": "# Plante\n\nCeaiul de musetel ajuta in zorbita usoara.",
         # R2 through a synonym of the condition.
         "catB/sinonim.md": "# Alte\n\nZorbitoza se trateaza cu odihna.",
-        # Lexical hit on the prefix only ("zorbicul" is not the condition).
+        # Not the condition ("zorbicul" is another word, and BM25 matches no prefixes).
         "catB/prefix.md": "# Diverse\n\nZorbicul este altceva.",
         # Nothing about the condition, but the semantically closest fragment.
         "catB/neutru.md": "# Diverse\n\nMuzica calma si liniste pe timpul noptii.",
@@ -229,10 +229,10 @@ class PriorityRankTests(RankTestCase):
         self.assertTrue(
             sinonim["condition_in_text"]
         )  # a synonym in the text counts as the condition
-        # The prefix-only fragment has the best possible cosine and a lexical hit,
-        # yet stays below the fragments that name the condition.
+        # The other-word fragment has the best possible cosine, yet stays below the
+        # fragments that name the condition.
         self.assertFalse(prefix["condition_in_text"])
-        self.assertTrue(prefix["found_by_lexical"])
+        self.assertFalse(prefix["found_by_lexical"])
         self.assertAlmostEqual(prefix["semantic_score"], 1.0)
         self.assertGreater(text["score"], prefix["score"])
         self.assertGreater(sinonim["score"], prefix["score"])
@@ -362,26 +362,24 @@ class PriorityRankTests(RankTestCase):
         self.assertAlmostEqual(results[0]["score"], 1.0)
         self.assertAlmostEqual(results[1]["score"], 0.9)
 
-    def test_only_the_lexical_signal_gives_every_found_fragment_the_same_score(self):
+    def test_only_the_lexical_signal_ranks_the_found_fragments_by_bm25_relative_to_the_best(self):
         results = search.rank("zorbita", signals=_signals("B"))
 
-        # One expression: L is 0 or 1, so the order inside the tie is chunk_id.
-        self.assertEqual({item["score"] for item in results}, {1.0})
-        ids = [item["chunk_id"] for item in results]
-        self.assertEqual(ids, sorted(ids))
-        self.assertEqual(
-            set(_paths(results)),
-            {"catA/titlu.md", "catA/text.md", "catB/sinonim.md", "catB/prefix.md"},
-        )
+        self.assertEqual(set(_paths(results)), {"catA/titlu.md", "catA/text.md", "catB/sinonim.md"})
+        scores = [item["score"] for item in results]
+        self.assertEqual(scores, sorted(scores, reverse=True))
+        self.assertAlmostEqual(scores[0], 1.0)  # the best fragment of the search
+        self.assertTrue(all(0 < score <= 1 for score in scores))
 
     def test_conditions_and_lexical_without_the_semantic_signal_ignore_the_cosine(self):
         results = self.by_path(search.rank("zorbita", signals=_signals("AB")))
 
-        # 3*P1 + 2*P2 + L; the cosine plays no part, so the semantic-only fragment is not there at all.
+        # 3*P1 + 2*P2 + L; the cosine plays no part, so the semantic-only fragments are not there.
         self.assertNotIn("catB/neutru.md", results)
-        self.assertAlmostEqual(results["catA/titlu.md"]["score"], 3 + 1)
-        self.assertAlmostEqual(results["catA/text.md"]["score"], 2 + 1)
-        self.assertAlmostEqual(results["catB/prefix.md"]["score"], 1)
+        self.assertNotIn("catB/prefix.md", results)
+        titlu, text = results["catA/titlu.md"], results["catA/text.md"]
+        self.assertAlmostEqual(titlu["score"], 3 + titlu["lexical_score"])
+        self.assertAlmostEqual(text["score"], 2 + text["lexical_score"])
 
     def test_conditions_and_semantic_without_the_lexical_signal_ignore_the_words(self):
         results = self.by_path(search.rank("zorbita", signals=_signals("AC")))
@@ -395,9 +393,11 @@ class PriorityRankTests(RankTestCase):
     def test_lexical_and_semantic_without_the_conditions_signal_know_no_conditions(self):
         results = self.by_path(search.rank("zorbita", signals=_signals("BC")))
 
-        # L + V: the title and text fragments are only lexical matches.
-        self.assertAlmostEqual(results["catA/titlu.md"]["score"], 1)
-        self.assertAlmostEqual(results["catB/prefix.md"]["score"], 2)  # lexical and the best cosine
+        # L + V: the title and text fragments are only lexical matches (cosine 0).
+        titlu = results["catA/titlu.md"]
+        self.assertAlmostEqual(titlu["score"], titlu["lexical_score"])
+        self.assertGreater(titlu["lexical_score"], 0)
+        self.assertAlmostEqual(results["catB/prefix.md"]["score"], 1)  # only the best cosine
         self.assertAlmostEqual(results["catB/neutru.md"]["score"], 0.9)
 
     def test_a_message_that_gives_the_chosen_signals_nothing_to_look_for_finds_nothing(self):
@@ -475,38 +475,43 @@ class ExpressionTests(RankTestCase):
     def lexical(self, query: str) -> dict[str, dict]:
         return self.by_path(search.rank(query, signals=_signals("B")))
 
-    def test_an_expression_is_found_only_as_the_exact_phrase_in_the_order_written(self):
-        # "durere genunchi efort": the words are there, but not next to each other.
-        self.assertEqual(self.lexical("durere genunchi efort"), {})
-        self.assertEqual(self.lexical("cap de durere"), {})
-        self.assertEqual(set(self.lexical("durere de cap")), {"e/doar-durere.md", "e/trei.md"})
+    def test_an_expression_is_found_by_its_words_in_any_order_and_the_exact_phrase_scores_more(
+        self,
+    ):
+        # The words need not be next to each other or in the order written ...
+        self.assertIn("e/toate.md", self.lexical("durere genunchi efort"))
+        self.assertEqual(set(self.lexical("cap de durere")), {"e/doar-durere.md", "e/trei.md"})
+        # ... but the phrase as written earns a bonus.
+        exact = self.lexical("durere de cap")["e/doar-durere.md"]["lexical_bm25"]
+        shuffled = self.lexical("cap de durere")["e/doar-durere.md"]["lexical_bm25"]
+        self.assertGreater(exact, shuffled)
 
-    def test_generic_and_short_words_are_part_of_the_phrase(self):
+    def test_a_fragment_needs_three_quarters_of_the_words_of_an_expression(self):
+        # 3 of the 4 words are enough ...
         self.assertEqual(set(self.lexical("durerea genunchiului la efort")), {"e/toate.md"})
-        # "durere de genunchi" is in no fragment, so the extra word costs the match.
-        self.assertEqual(self.lexical("durere de genunchi"), {})
+        # ... but "durere de genunchi" needs all 3: only one fragment has them.
+        self.assertEqual(set(self.lexical("durere de genunchi")), {"e/trei.md"})
 
     def test_words_match_through_their_inflections(self):
         # "durere genunchiul" finds "Durerea genunchiului" through the prefix stems.
         self.assertIn("e/toate.md", self.lexical("durere genunchiul"))
 
-    def test_l_is_the_fraction_of_expressions_found_in_the_fragment(self):
+    def test_a_fragment_matching_more_expressions_scores_higher_and_the_best_has_l_one(self):
         results = self.lexical("durere de cap, ameteala, genunchi")
 
-        # An expression counts once however many of its words or names appear.
-        self.assertAlmostEqual(results["e/genunchi-si-ameteala.md"]["lexical_score"], 2 / 3)
         self.assertAlmostEqual(results["e/trei.md"]["lexical_score"], 1.0)
-        for path in ("e/doar-durere.md", "e/ameteala.md", "e/toate.md"):
-            self.assertAlmostEqual(results[path]["lexical_score"], 1 / 3, msg=path)
-        # With L alone as the score, the best come first and ties follow chunk_id.
+        genunchi_ameteala = results["e/genunchi-si-ameteala.md"]["lexical_score"]
+        for path in ("e/ameteala.md", "e/toate.md"):
+            self.assertGreater(genunchi_ameteala, results[path]["lexical_score"], path)
         ranked = _paths(search.rank("durere de cap, ameteala, genunchi", signals=_signals("B")))
-        self.assertEqual(ranked[:2], ["e/trei.md", "e/genunchi-si-ameteala.md"])
+        self.assertEqual(ranked[0], "e/trei.md")
 
-    def test_a_condition_counts_once_even_when_several_of_its_names_are_in_the_fragment(self):
+    def test_the_names_of_a_condition_belong_to_its_expression_only(self):
         self.assertAlmostEqual(self.lexical("zorbita")["e/sinonime.md"]["lexical_score"], 1.0)
-        self.assertAlmostEqual(
-            self.lexical("zorbita, vertigo")["e/sinonime.md"]["lexical_score"], 0.5
-        )
+        # Another expression adds nothing to a fragment that has none of its words.
+        alone = self.lexical("zorbita")["e/sinonime.md"]["lexical_bm25"]
+        both = self.lexical("zorbita, vertigo")["e/sinonime.md"]["lexical_bm25"]
+        self.assertAlmostEqual(both, alone)
 
     def test_an_expression_that_is_a_condition_is_found_under_its_synonyms(self):
         # "vertigo" is an exact term, "vertiggo" a near-identical spelling: both find "ameteala".
@@ -548,7 +553,7 @@ class ExpressionTests(RankTestCase):
         ameteala = results["e/ameteala.md"]
         self.assertTrue(ameteala["found_by_lexical"])
         self.assertTrue(ameteala["condition_in_text"])
-        self.assertAlmostEqual(ameteala["lexical_score"], 0.5)
+        self.assertGreater(ameteala["lexical_score"], 0)
 
     def test_equal_similarities_give_a_semantic_score_of_zero(self):
         # Every document has cosine 0, so none is "above the median": V = 0, not NULL or 1.
@@ -579,12 +584,13 @@ class LexicalAgainstSemanticTests(RankTestCase):
         "l/zero.md": _one_hot(DIM, 5),
     }
 
-    def test_the_length_of_a_fragment_does_not_change_l(self):
+    def test_a_long_fragment_scores_below_a_short_one_with_the_same_phrase(self):
         results = self.by_path(search.rank("fraza cautata"))
 
-        # Both contain the one expression: L = 1 for the short and the long fragment alike.
+        # BM25 normalizes by length: the short fragment is the best of the search (L = 1).
         self.assertAlmostEqual(results["l/scurt.md"]["lexical_score"], 1.0)
-        self.assertAlmostEqual(results["l/lung.md"]["lexical_score"], 1.0)
+        self.assertLess(results["l/lung.md"]["lexical_score"], 1.0)
+        self.assertGreater(results["l/lung.md"]["lexical_score"], 0.0)
 
     def test_a_lexical_match_beats_a_strong_semantic_only_one_and_both_signals_beat_either(self):
         results = self.by_path(search.rank("fraza cautata"))
@@ -601,13 +607,12 @@ class LexicalAgainstSemanticTests(RankTestCase):
         # A fragment with neither signal has no score at all.
         self.assertNotIn("l/zero.md", results)
 
-    def test_without_the_semantic_signal_the_lexical_matches_tie(self):
+    def test_without_the_semantic_signal_the_shorter_lexical_match_comes_first(self):
         results = search.rank("fraza cautata", signals=_signals("B"))
 
-        self.assertEqual(set(_paths(results)), {"l/scurt.md", "l/lung.md"})
-        self.assertEqual({item["score"] for item in results}, {1.0})
-        ids = [item["chunk_id"] for item in results]
-        self.assertEqual(ids, sorted(ids))  # the tie is broken by chunk_id alone
+        self.assertEqual(_paths(results), ["l/scurt.md", "l/lung.md"])
+        self.assertAlmostEqual(results[0]["score"], 1.0)
+        self.assertLess(results[1]["score"], 1.0)
 
 
 class MultipleExpressionRankTests(RankTestCase):
@@ -619,14 +624,12 @@ class MultipleExpressionRankTests(RankTestCase):
     }
     vectors = {path: _one_hot(DIM, index + 3) for index, path in enumerate(documents)}
 
-    def test_two_of_three_expressions_make_l_two_thirds_even_if_none_has_all_three(self):
+    def test_the_fragment_matching_two_expressions_beats_the_ones_matching_one(self):
         results = self.by_path(search.rank("gripa, raceala, guta", signals=_signals("B")))
 
-        self.assertAlmostEqual(results["m/gripa-guta.md"]["lexical_score"], 2 / 3)
-        self.assertAlmostEqual(results["m/gripa.md"]["lexical_score"], 1 / 3)
-        self.assertAlmostEqual(results["m/raceala.md"]["lexical_score"], 1 / 3)
-        # L is not relative to the best fragment of the search: nothing reaches 1.
-        self.assertLess(max(item["lexical_score"] for item in results.values()), 1.0)
+        self.assertAlmostEqual(results["m/gripa-guta.md"]["lexical_score"], 1.0)
+        self.assertLess(results["m/gripa.md"]["lexical_score"], 1.0)
+        self.assertLess(results["m/raceala.md"]["lexical_score"], 1.0)
         self.assertNotIn("m/nimic.md", results)
 
 

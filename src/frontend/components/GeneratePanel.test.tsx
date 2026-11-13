@@ -18,7 +18,7 @@ function fragment(relevancePercent: number | null): FragmentItem {
     text: "Text.",
     relevancePercent,
     semanticScore: null,
-    lexicalScore: null,
+    lexicalBm25: null,
     conditionMatch: null,
     matchLabel: "",
     foundByLexical: false,

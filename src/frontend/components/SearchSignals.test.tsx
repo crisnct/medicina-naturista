@@ -78,7 +78,7 @@ const fragments: FragmentsMessage = {
       text: "Textul fragmentului.",
       relevancePercent: 80,
       semanticScore: 0.5,
-      lexicalScore: 1,
+      lexicalBm25: 1,
       conditionMatch: "title",
       matchLabel: "Găsire Lexicală",
       foundByLexical: true,
@@ -99,7 +99,7 @@ describe("the fragments panel", () => {
     expect(filterLabels()).toEqual(["Scor minim", "Scor semantic", "Afecțiune", "Găsire lexicală", "Document"]);
     const line = screen.getByText(/Scor relevanță: 80%/);
     expect(line).toHaveTextContent("Scor semantic: 0.50");
-    expect(line).toHaveTextContent("Scor lexical: 1.00");
+    expect(line).toHaveTextContent("Scor lexical (BM25): 1.00");
     expect(line).toHaveTextContent("Afecțiune în titlu");
     expect(line).toHaveTextContent("Găsire Lexicală");
   });

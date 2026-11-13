@@ -196,7 +196,7 @@ def report_started_message(session, retriever) -> dict:
 # its synonyms and is there only with the lexical signal on, and only for a
 # condition that is a whole expression of the message (an exact term or a
 # near-identical spelling of one) — the only case in which the lexical search
-# uses the synonyms (see ai/search.py's lexical_queries()). With the lexical
+# uses the synonyms (see ai/search.py's lexical_query()). With the lexical
 # signal alone, only those conditions are named; with neither, nothing is.
 # None when nothing is to be named. `health_problem` is the typed text, or the
 # message already resolved (dictionary plus AI conditions, see resolved_for());

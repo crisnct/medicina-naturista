@@ -990,13 +990,6 @@ def embed_chunks(
     return embeddings
 
 
-# The lexical text_search column indexes the same three fields the old
-# SQLite FTS5 virtual table did (text, heading, source path) — see
-# ai/search.py's lexical query for how it's matched against.
-def _text_search_input(chunk: Chunk) -> str:
-    return f"{chunk.text} {chunk.heading} {chunk.source_relative_path}"
-
-
 # Replace one document inside the caller-owned publication transaction.
 def _write_document(
     connection, source: SourceFile, chunks: Sequence[Chunk], embeddings: np.ndarray
@@ -1039,9 +1032,9 @@ def _write_document(
             """
             INSERT INTO chunks
                 (source_relative_path, source_absolute_path, source_sha256, line_start, line_end,
-                 heading, text, text_sha256, char_count, embedding, text_search,
+                 heading, text, text_sha256, char_count, embedding,
                  business_category, primary_medical_conditions, secondary_medical_conditions, language)
-            VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, to_tsvector('simple', unaccent(%s)), %s,%s,%s,%s)
+            VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, %s,%s,%s,%s)
             """,
             (
                 chunk.source_relative_path,
@@ -1054,7 +1047,6 @@ def _write_document(
                 chunk.text_sha256,
                 chunk.char_count,
                 embedding,
-                _text_search_input(chunk),
                 chunk.business_category,
                 list(chunk.primary_medical_conditions),
                 list(chunk.secondary_medical_conditions),

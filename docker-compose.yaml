@@ -1,11 +1,11 @@
 ﻿services:
   db:
-    image: pgvector/pgvector:pg16
+    image: paradedb/paradedb:0.26.6-pg16
     restart: unless-stopped
     container_name: medicina-db
     # The chunks table (~150 MB) must fit in shared_buffers (default 128 MB), or
     # the first search after a restart reads it from disk and takes ~0.5 s.
-    command: ["postgres", "-c", "shared_buffers=512MB"]
+    command: ["postgres", "-c", "shared_buffers=512MB", "-c", "shared_preload_libraries=pg_search"]
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-medicina}
       POSTGRES_USER: ${POSTGRES_USER:-medicina}
@@ -257,7 +257,7 @@
       - --model=Qwen/Qwen3.5-4B
       - --served-model-name=qwen3.5-4b
       - --quantization=fp8_per_tensor
-      - --max-model-len=30000
+      - --max-model-len=32768
       - --max-num-seqs=24
       - --gpu-memory-utilization=0.84
       - --kv-cache-dtype=fp8
@@ -299,6 +299,7 @@
       - --served-model-name=qwen2.5-7b
       - --max-model-len=32768
       - --max-num-seqs=8
+      - --kv-cache-dtype=fp8
       - --gpu-memory-utilization=0.84
       - '--structured-outputs-config={"backend": "xgrammar", "disable_any_whitespace": true}'
     networks:

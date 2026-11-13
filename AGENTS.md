@@ -74,7 +74,7 @@ PYTHONPATH=src .venv/Scripts/python.exe -m ruff check src && .venv/Scripts/pytho
 ```
 
 - **Unit tests** need no Docker, Postgres, `.env`, corpus or AI. Keep it that way.
-- **Integration tests** start an ephemeral `pgvector/pgvector:pg16` container via testcontainers.
+- **Integration tests** start an ephemeral `paradedb/paradedb:0.26.6-pg16` container (pgvector + pg_search) via testcontainers.
   `TEST_POSTGRES_URL` may point at a **disposable** database only — fixtures rewrite its schema.
 - Some function-style tests are pytest-only; `unittest discover` does not collect them. CI names
   them one by one per job (unit: `test_report_validation`, `test_report_integrity`,

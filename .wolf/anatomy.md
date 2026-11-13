@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-08T08:36:47.595Z
-> Files: 488 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-13T13:52:43.371Z
+> Files: 489 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -77,6 +77,7 @@
 - `2026-11-03-integrare-vllm-translategemma.md` — Plan: integrarea vLLM pentru `translate_markdown.py` (faza 1: `translategemma:4b`) (~5934 tok)
 - `2026-11-04-vllm-qwen35-9b-indexare.md` — Indexare: `ollama-qwen3.5:9b` → `vllm-qwen3.5:9b` — abandonat (~3781 tok)
 - `2026-11-06-vllm-phi4-mini-on-demand-containers.md` — On-demand vLLM containers and the Qwen2.5-7B report model (~4930 tok)
+- `2026-11-13-cautare-lexicala-bm25.md` — Plan: căutare lexicală BM25 (modelul Lucene / Elasticsearch, în PostgreSQL) (~3140 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
