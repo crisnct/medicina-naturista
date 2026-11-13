@@ -5,6 +5,7 @@ and the category filter."""
 from __future__ import annotations
 
 import unittest
+import unittest.mock
 
 from backend.ai import search
 from backend.ai.conditions import ConditionDictionary
@@ -146,21 +147,29 @@ class LexicalQueryTests(unittest.TestCase):
         self.assertIsNone(_lexical(""))
 
 
-class WeightTests(unittest.TestCase):
-    # (weights, ceiling) of every combination of signals.
-    EXPECTED = {
-        "ABC": ((4, 2, 1, 1), 8),
-        "AB": ((3, 2, 1, 0), 6),
-        "AC": ((3, 2, 0, 1), 6),
-        "BC": ((0, 0, 1, 1), 2),
-        "A": ((2, 1, 0, 0), 3),
-        "B": ((0, 0, 1, 0), 1),
-        "C": ((0, 0, 0, 1), 1),
-    }
+class ScoreFormulaTests(unittest.TestCase):
+    # The ceiling of every combination of signals under the default formula
+    # 4*P1 + 2*P2 + L + V: a signal that is off counts as 0.
+    EXPECTED = {"ABC": 8, "AB": 7, "AC": 7, "BC": 2, "A": 6, "B": 1, "C": 1}
 
-    def test_every_combination_has_its_weights_and_ceiling(self):
+    def test_every_combination_has_its_ceiling(self):
         self.assertEqual(set(self.EXPECTED), set(COMBINATIONS))
-        for code, (weights, ceiling) in self.EXPECTED.items():
+        for code, ceiling in self.EXPECTED.items():
             with self.subTest(code=code):
-                self.assertEqual(search.weights(_signals(code)), weights)
                 self.assertEqual(search.max_score(_signals(code)), ceiling)
+
+    def test_the_formula_comes_from_the_settings(self):
+        from dataclasses import replace
+
+        changed = replace(search.settings, search_score_formula="P1+P2+3*L+V")
+        with unittest.mock.patch.object(search, "settings", changed):
+            self.assertEqual(search.max_score(search.ALL_SIGNALS), 6)
+            self.assertEqual(search.max_score(_signals("B")), 3)
+            self.assertIn("3.0::double precision", search.score_sql())
+
+    def test_the_formula_is_one_sql_expression_over_the_ranked_columns(self):
+        sql = search.score_sql()
+
+        for column in ("p1", "p2", "lexical", "semantic"):
+            self.assertIn(f"({column}::double precision)", sql)
+        self.assertNotIn("P1", sql)

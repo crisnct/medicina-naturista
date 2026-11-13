@@ -112,6 +112,8 @@ fragments_characters_prefix = ", însumând "
 fragments_characters_label = "caractere"
 # Parameters: score
 fragments_lexical_score = "Scor lexical (BM25): {score}"
+fragments_legend_searched = "Afecțiune căutată"
+fragments_legend_lexical = "Cuvânt găsit"
 # Parameters: score
 fragments_relevance_score = "Scor relevanță: {score}%"
 fragments_semantic_score_label = "Scor semantic"

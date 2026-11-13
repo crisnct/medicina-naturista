@@ -110,6 +110,8 @@ TEXT_PARAMETERS: dict[str, tuple[str, ...]] = {
     "interface.fragments_characters_prefix": (),
     "interface.fragments_characters_label": (),
     "interface.fragments_lexical_score": ("score",),
+    "interface.fragments_legend_searched": (),
+    "interface.fragments_legend_lexical": (),
     "interface.fragments_relevance_score": ("score",),
     "interface.fragments_semantic_score_label": (),
     "interface.fragments_semantic_score": ("score",),

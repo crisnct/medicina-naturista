@@ -22,6 +22,7 @@ from backend.ai.index_state import index_reader
 from backend.ai.query_terms import plain
 from backend.config import settings
 from backend.core.language import Language, current_language, language_scope, validate_language
+from backend.core.score_formula import compile_search_formula, search_formula_sql
 
 
 # The signals of the score, each one a checkbox of the "Căutare avansată" panel:
@@ -44,7 +45,7 @@ class SearchSignals:
             raise ValueError("At least one search signal must be selected.")
 
     # The letters of the signals that are on, e.g. "AC" (A conditions, B
-    # lexical, C semantic) — also the key of the weights table below.
+    # lexical, C semantic).
     @property
     def code(self) -> str:
         flags = (("A", self.conditions), ("B", self.lexical), ("C", self.semantic))
@@ -64,35 +65,25 @@ class SearchSignals:
 
 ALL_SIGNALS = SearchSignals()
 
-# score = w_primary*P1 + w_secondary*P2 + w_lexical*L + w_semantic*V, with the
-# weights fixed per combination of signals. They keep the priorities in order:
-# with every signal on, P1 is worth as much as all the lower ones at their best
-# (4 = 2 + 1 + 1) and P2 as much as L plus V (2 = 1 + 1); without L or V the
-# weight of P1 is just above P2 plus the remaining one (3 = 2 + 1); with A alone
-# a condition in the title outweighs one in the text (2 > 1). Only in the extreme
-# tie (a perfect match on everything below) can a lower tier match a higher one.
-# L and V weigh the same, so an excellent semantic match can outrank a weak
-# lexical one and vice versa.
-# (w_primary, w_secondary, w_lexical, w_semantic) by SearchSignals.code.
-_WEIGHTS: dict[str, tuple[int, int, int, int]] = {
-    "ABC": (4, 2, 1, 1),
-    "AB": (3, 2, 1, 0),
-    "AC": (3, 2, 0, 1),
-    "BC": (0, 0, 1, 1),
-    "A": (2, 1, 0, 0),
-    "B": (0, 0, 1, 0),
-    "C": (0, 0, 0, 1),
-}
+# The score of a fragment is the operator's formula (SEARCH_SCORE_FORMULA in .env, default
+# 4*P1 + 2*P2 + L + V; grammar and checks in core/score_formula.py) over four numbers:
+# P1 and P2 in {0, 1}, L and V in [0, 1]. A signal that is off is 0 in the formula, so the
+# same formula serves every combination. The default keeps the priorities in order: P1 is
+# worth as much as all the lower ones at their best (4 = 2 + 1 + 1) and P2 as much as L
+# plus V (2 = 1 + 1), so only in the extreme tie (a perfect match on everything below) can
+# a lower tier match a higher one; L and V weigh the same.
+_SCORE_COLUMNS = {"P1": "p1", "P2": "p2", "L": "lexical", "V": "semantic"}
 
 
-def weights(signals: SearchSignals) -> tuple[int, int, int, int]:
-    return _WEIGHTS[signals.code]
+# The formula as a SQL expression over the columns of the `ranked` CTE.
+def score_sql() -> str:
+    return search_formula_sql(settings.search_score_formula, _SCORE_COLUMNS)
 
 
 # The signals a search can actually use. The conditions signal needs a condition
 # in the message (from the dictionary or identified by the AI, see
 # ai/condition_ai.py): without one no fragment can score on it, so it is left out
-# and the other signals keep their weights, which makes relevance_percent
+# and the other signals keep their place in the formula, which makes relevance_percent
 # relative to what could contribute (the best fragment can still reach 100%).
 # With the conditions signal alone there is nothing else to fall back on and it
 # stays (the search then finds nothing).
@@ -104,10 +95,16 @@ def effective_signals(signals: SearchSignals, resolved: ResolvedQuery) -> Search
     return replace(signals, conditions=False)
 
 
-# The highest score a fragment can reach with these signals;
-# relevance_percent = score / max_score(signals) * 100.
-def max_score(signals: SearchSignals) -> int:
-    return sum(weights(signals))
+# The highest score a fragment can reach with these signals: the formula with every signal
+# that is on at its maximum and the others at 0; relevance_percent = score / max_score * 100.
+def max_score(signals: SearchSignals) -> float:
+    on = (
+        float(signals.conditions),
+        float(signals.conditions),
+        float(signals.lexical),
+        float(signals.semantic),
+    )
+    return compile_search_formula(settings.search_score_formula)(*on)
 
 
 # What the evidence text of a fragment adds in front of its indexed text (see
@@ -196,6 +193,20 @@ def _field_clauses(field: str, segment, parameters: _Parameters) -> list[str]:
     return clauses
 
 
+# For highlighting: the words of the expressions the lexical query searches by their words
+# (the expressions that are not a condition) and the canonical names of the conditions it
+# searches by all their names (the expressions that are a condition).
+def lexical_terms(resolved: ResolvedQuery) -> tuple[list[str], set[str]]:
+    words: list[str] = []
+    names: set[str] = set()
+    for segment in resolved.segments:
+        if segment.whole_condition:
+            names.update(condition.name for condition in segment.conditions)
+        else:
+            words.extend(_words(segment.text))
+    return list(dict.fromkeys(words)), names
+
+
 # The lexical query of a resolved message and its parameters, or None when the
 # message has no usable word.
 def lexical_query(resolved: ResolvedQuery) -> tuple[str, dict[str, object]] | None:
@@ -230,7 +241,7 @@ def lexical_query(resolved: ResolvedQuery) -> tuple[str, dict[str, object]] | No
 #             fragment is within this search, not across searches)
 #             (all similarities equal, e.g. a one-fragment selection: V = 0)
 #   ranked    P1, P2, L = BM25 / the best BM25 of THIS search, V for every fragment
-#   scored    score = w_primary*P1 + w_secondary*P2 + w_lexical*L + w_semantic*V
+#   scored    score = the score formula over P1, P2, L, V (see score_sql())
 #   kept      running sum of the evidence characters in score order, over the
 #             fragments with score > 0 (a condition, a lexical match or a
 #             semantic similarity above the median); only the prefix that fits
@@ -243,7 +254,7 @@ def lexical_query(resolved: ResolvedQuery) -> tuple[str, dict[str, object]] | No
 # table (text included), which was 3-5 times slower.
 # There is no candidate limit per signal: nothing is dropped before scoring.
 # {condition_columns}, {cosine_column}, {lexical}, {cosine_stats}, {lexical_join},
-# {lexical_value} and {semantic_value} depend on the signals; {category_where} is an optional
+# {lexical_value} and {semantic_value} depend on the signals, {score} on the formula; {category_where} is an optional
 # category filter.
 _RANK_SQL = """
 WITH
@@ -268,7 +279,7 @@ ranked AS (
     {lexical_join}
 ),
 scored AS (
-    SELECT *, %(w_primary)s * p1 + %(w_secondary)s * p2 + %(w_lexical)s * lexical + %(w_semantic)s * semantic AS score
+    SELECT *, {score} AS score
     FROM ranked
 ),
 kept AS (
@@ -325,7 +336,7 @@ _NO_LEXICAL_VALUE = "0::double precision"
 # budget, best first (ties by chunk_id, so the order is deterministic).
 #
 # The query is the user's message. `signals` picks what the score is made of
-# (see SearchSignals and _WEIGHTS); the signals that are off are not computed,
+# (see SearchSignals and the score formula); the signals that are off are not computed,
 # in particular the question is not embedded without the semantic signal. A
 # fragment with score 0 is not returned. The conditions the message names (see
 # ai/conditions.py; each comma-separated expression is recognised on its own)
@@ -402,19 +413,15 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
         lexical_join=_LEXICAL_JOIN if lexical else _NO_LEXICAL_JOIN,
         lexical_value=_LEXICAL_VALUE if lexical else _NO_LEXICAL_VALUE,
         semantic_value=_SEMANTIC_VALUE if signals.semantic else _NO_SEMANTIC_VALUE,
+        score=score_sql(),
     )
 
-    w_primary, w_secondary, w_lexical, w_semantic = weights(signals)
     parameters: dict[str, object] = {
         "language": current_language(),
         "conditions": condition_names,
         **(lexical[1] if lexical else {}),
         "categories": list(category_ids) if category_ids else None,
         "heading_overhead": len(evidence_heading_prefix()) + len(EVIDENCE_HEADING_SEPARATOR),
-        "w_primary": w_primary,
-        "w_secondary": w_secondary,
-        "w_lexical": w_lexical,
-        "w_semantic": w_semantic,
         "max_chars": max_chars if max_chars is not None else UNLIMITED_CHARS,
     }
     with connection.cursor(row_factory=namedtuple_row) as cursor:

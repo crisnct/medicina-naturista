@@ -46,6 +46,12 @@ class ProfilePayload(TypedDict):
     ai_conditions: list[IdentifiedCondition]
 
 
+class FragmentHighlight(TypedDict):
+    start: int  # Unicode code points of the displayed text
+    end: int
+    kind: Literal["searched", "lexical"]
+
+
 class EvidenceItem(TypedDict):
     language: NotRequired[Language]
     source: str
@@ -61,6 +67,8 @@ class EvidenceItem(TypedDict):
     primary_medical_conditions: NotRequired[list[str]]
     secondary_medical_conditions: NotRequired[list[str]]
     found_by_lexical: NotRequired[bool]
+    # Where the question's conditions ("searched") and words ("lexical") are in the displayed text.
+    highlights: NotRequired[list[FragmentHighlight]]
 
 
 Evidence = dict[str, EvidenceItem]

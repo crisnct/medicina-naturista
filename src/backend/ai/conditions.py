@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import re
-from collections.abc import Iterable
+from collections.abc import Collection, Iterable
 from dataclasses import dataclass
 from difflib import get_close_matches
 from functools import lru_cache
@@ -183,6 +183,35 @@ class ConditionDictionary:
                     break
             position += matched or 1
         return [self.conditions[index] for index in dict.fromkeys(found)]
+
+    # Where the conditions called `names` (canonical names) are written in `text`: the character
+    # ranges of every term of those conditions, synonyms and inflected forms included. Same
+    # matching as find() (whole words, endings folded, the longest term at a position wins),
+    # so a range exists exactly where find() would have counted the condition.
+    def spans(self, text: str, names: Collection[str]) -> list[tuple[int, int]]:
+        wanted = {index for index, item in enumerate(self.conditions) if item.name in names}
+        if not wanted:
+            return []
+        tokens = list(re.finditer(r"[^\W_]+", text, flags=re.UNICODE))
+        words = []
+        for token in tokens:
+            pieces = re.findall(r"[^\W_]+", plain(token.group()), flags=re.UNICODE)
+            word = "".join(pieces)
+            words.append(_fold_word(word) if self.language == "ro" else word)
+        found: list[tuple[int, int]] = []
+        position = 0
+        while position < len(words):
+            matched = 0
+            for phrase, indexes in self._phrases.get(words[position], ()):
+                if tuple(words[position : position + len(phrase)]) == phrase:
+                    if wanted.intersection(indexes):
+                        found.append(
+                            (tokens[position].start(), tokens[position + len(phrase) - 1].end())
+                        )
+                    matched = len(phrase)
+                    break
+            position += matched or 1
+        return found
 
     def _contained_indexes(self, normalized: str) -> list[int]:
         """Prefer longer overlapping terms; retain separate mentions in text order."""

@@ -2007,7 +2007,7 @@ class WebTests(unittest.TestCase):
 
     # relevance_percent is the score over the ceiling of the signals the patient
     # chose, computed once here: the same score is 100 % with conditions alone
-    # (ceiling 3) and 37.5 % with every signal on (ceiling 8).
+    # (ceiling 6) and 37.5 % with every signal on (ceiling 8).
     def test_collect_computes_the_percent_against_the_ceiling_of_the_chosen_signals(self):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
@@ -2016,10 +2016,10 @@ class WebTests(unittest.TestCase):
         retriever._known_category_ids = frozenset()
         for code, ceiling in (
             ("ABC", 8),
-            ("AB", 6),
-            ("AC", 6),
+            ("AB", 7),
+            ("AC", 7),
             ("BC", 2),
-            ("A", 3),
+            ("A", 6),
             ("B", 1),
             ("C", 1),
         ):

@@ -29,6 +29,15 @@ export interface FragmentItem {
   conditionMatch: "title" | "text" | null;
   matchLabel: string;
   foundByLexical: boolean;
+  // Where the patient's conditions ("searched") and words ("lexical") are in `text`; absent in old messages.
+  highlights?: FragmentHighlight[];
+}
+
+// Half-open Unicode code-point offsets into the displayed fragment text.
+export interface FragmentHighlight {
+  start: number;
+  end: number;
+  kind: "searched" | "lexical";
 }
 
 // The signals a search's score is made of (chosen in the "Surse și opțiuni de căutare" panel).
@@ -185,7 +194,7 @@ export interface HerbConditionsMessage extends MessageIdentity {
 export interface HerbHighlight {
   start: number;
   end: number;
-  kind: "herb" | "condition" | "warning";
+  kind: "herb" | "condition" | "warning" | "searched" | "lexical";
 }
 
 export interface HerbWarning {

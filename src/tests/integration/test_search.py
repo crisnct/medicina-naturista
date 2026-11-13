@@ -18,6 +18,7 @@ from backend.ai import condition_ai, conditions, search
 from backend.ai import db as db_module
 from backend.ai.conditions import ConditionDictionary
 from backend.ai.embedding_model import PROFILES, EmbeddingProfile, get_profile
+from backend.core.score_formula import compile_search_formula
 from scripts import build_hybrid_index as builder
 from tests.support.conditions import conditions_from_rows
 from tests.support.postgres import PostgresFixture
@@ -215,7 +216,7 @@ class PriorityRankTests(RankTestCase):
         self.assertTrue(first["condition_in_title"])
         self.assertFalse(first["condition_in_text"])
         self.assertAlmostEqual(first["semantic_score"], 0.0)
-        self.assertGreaterEqual(first["score"], search.weights(search.ALL_SIGNALS)[0])
+        self.assertGreaterEqual(first["score"], 4)  # P1 under the default formula
 
     def test_condition_in_text_beats_lexical_plus_semantic(self):
         results = self.by_path(search.rank("zorbita"))
@@ -245,18 +246,18 @@ class PriorityRankTests(RankTestCase):
         self.assertLess(order.index("catB/sinonim.md"), order.index("catB/prefix.md"))
         self.assertLess(order.index("catB/prefix.md"), order.index("catB/neutru.md"))
 
-    def test_score_is_the_weighted_sum_of_the_chosen_signals_in_every_combination(self):
+    def test_score_is_the_formula_over_the_chosen_signals_in_every_combination(self):
         for code in COMBINATIONS:
             signals = _signals(code)
-            w_primary, w_secondary, w_lexical, w_semantic = search.weights(signals)
+            formula = compile_search_formula(search.settings.search_score_formula)
             results = search.rank("zorbita", signals=signals)
             self.assertTrue(results, code)
             for item in results:
-                expected = (
-                    w_primary * bool(item["condition_in_title"])
-                    + w_secondary * bool(item["condition_in_text"])
-                    + w_lexical * (item["lexical_score"] or 0.0)
-                    + w_semantic * (item["semantic_score"] or 0.0)
+                expected = formula(
+                    bool(item["condition_in_title"]),
+                    bool(item["condition_in_text"]),
+                    item["lexical_score"] or 0.0,
+                    item["semantic_score"] or 0.0,
                 )
                 with self.subTest(code=code, path=item["source_relative_path"]):
                     self.assertAlmostEqual(item["score"], expected, places=5)
@@ -374,18 +375,18 @@ class PriorityRankTests(RankTestCase):
     def test_conditions_and_lexical_without_the_semantic_signal_ignore_the_cosine(self):
         results = self.by_path(search.rank("zorbita", signals=_signals("AB")))
 
-        # 3*P1 + 2*P2 + L; the cosine plays no part, so the semantic-only fragments are not there.
+        # 4*P1 + 2*P2 + L (V is 0); the cosine plays no part, so the semantic-only fragments are not there.
         self.assertNotIn("catB/neutru.md", results)
         self.assertNotIn("catB/prefix.md", results)
         titlu, text = results["catA/titlu.md"], results["catA/text.md"]
-        self.assertAlmostEqual(titlu["score"], 3 + titlu["lexical_score"])
+        self.assertAlmostEqual(titlu["score"], 4 + titlu["lexical_score"])
         self.assertAlmostEqual(text["score"], 2 + text["lexical_score"])
 
     def test_conditions_and_semantic_without_the_lexical_signal_ignore_the_words(self):
         results = self.by_path(search.rank("zorbita", signals=_signals("AC")))
 
-        # 3*P1 + 2*P2 + V: "prefix" is only a lexical match, so it keeps just its cosine.
-        self.assertAlmostEqual(results["catA/titlu.md"]["score"], 3)
+        # 4*P1 + 2*P2 + V (L is 0): "prefix" is only a lexical match, so it keeps just its cosine.
+        self.assertAlmostEqual(results["catA/titlu.md"]["score"], 4)
         self.assertAlmostEqual(results["catA/text.md"]["score"], 2)
         self.assertAlmostEqual(results["catB/prefix.md"]["score"], 1)
         self.assertAlmostEqual(results["catB/neutru.md"]["score"], 0.9)
@@ -421,7 +422,7 @@ class ConditionsOnlyTests(RankTestCase):
         # repeats it in the text scores like a title-only one.
         self.assertEqual(
             {path: item["score"] for path, item in results.items()},
-            {"a/ambele.md": 2.0, "a/titlu.md": 2.0, "a/text.md": 1.0},
+            {"a/ambele.md": 4.0, "a/titlu.md": 4.0, "a/text.md": 2.0},
         )
 
     def test_fragments_without_the_condition_are_not_returned(self):
@@ -795,9 +796,7 @@ class AIConditionRankTests(RankTestCase):
 
         self.assertEqual(resolved.condition_names, ("Zorbita",))
         self.assertTrue(results["x/titlu.md"]["condition_in_title"])
-        self.assertGreaterEqual(
-            results["x/titlu.md"]["score"], search.weights(search.ALL_SIGNALS)[0]
-        )
+        self.assertGreaterEqual(results["x/titlu.md"]["score"], 4)  # P1 under the default formula
 
     def test_a_name_outside_the_dictionary_is_searched_lexically_under_its_names_only(self):
         resolved = self._ai("Cefalee", "migrena")

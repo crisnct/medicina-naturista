@@ -27,7 +27,12 @@ from backend.core.report_models import (
     parse_report_models,
     request_context_tokens,
 )
-from backend.core.score_formula import DEFAULT_FORMULA, compile_formula
+from backend.core.score_formula import (
+    DEFAULT_FORMULA,
+    DEFAULT_SEARCH_FORMULA,
+    compile_formula,
+    compile_search_formula,
+)
 
 ROOT = Path(__file__).resolve().parents[2]
 CORPUS_DATA_DIR = ROOT / "medicina-naturista-documente" / "data"
@@ -346,6 +351,8 @@ class Settings:
     herb_safety_extension_products: str = ""
     # Orders "top N <category> for <condition>"; see core/score_formula.py for the grammar.
     herb_condition_top_formula: str = DEFAULT_FORMULA
+    # Scores a fragment for a question: P1, P2, L, V (see ai/search.py and core/score_formula.py).
+    search_score_formula: str = DEFAULT_SEARCH_FORMULA
     message_classification_timeout_seconds: int = 10
     message_classification_max_output_tokens: int = 300
     ai_stream: bool = False
@@ -519,6 +526,7 @@ class Settings:
             herb_condition_top_formula=env.get(
                 "HERB_CONDITION_TOP_FORMULA", DEFAULT_FORMULA
             ).strip(),
+            search_score_formula=env.get("SEARCH_SCORE_FORMULA", DEFAULT_SEARCH_FORMULA).strip(),
             message_classification_timeout_seconds=_int(
                 "MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS", 10, env=env
             ),
@@ -721,6 +729,7 @@ class Settings:
         if any(c.isspace() for c in self.herb_safety_generation_model):
             raise ValueError("herb_safety_generation_model must be empty or a model tag")
         compile_formula(self.herb_condition_top_formula)
+        compile_search_formula(self.search_score_formula)
         if not isinstance(self.herb_safety_extension_products, str):
             raise ValueError("herb_safety_extension_products must be a string")
         # Batch sizes matter only while the bilingual extension is active, so the single-product

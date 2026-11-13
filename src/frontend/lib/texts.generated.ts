@@ -116,6 +116,8 @@ export const TEXT_PARAMETERS = {
   "interface.fragments_lexical_score": [
     "score"
   ],
+  "interface.fragments_legend_searched": [],
+  "interface.fragments_legend_lexical": [],
   "interface.fragments_relevance_score": [
     "score"
   ],

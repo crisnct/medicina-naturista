@@ -5,6 +5,7 @@ import { useMinScore } from "../hooks/useMinScore";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { ALL_SIGNALS } from "../lib/searchSignals";
 import { DoctorAvatar } from "./DoctorAvatar";
+import { HighlightedSource } from "./HerbEvidencePanel";
 
 type LexicalFilter = "all" | "yes" | "no";
 type ConditionFilter = "all" | "title" | "text" | "none";
@@ -153,6 +154,12 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
               </label>
             </div>
           </section>
+          {(signals.conditions || signals.lexical) && (
+            <p className="fragments-panel-legend">
+              {signals.conditions && <span><mark className="herb-evidence-mark-searched">{tr("interface.fragments_legend_searched")}</mark></span>}
+              {signals.lexical && <span><mark className="herb-evidence-mark-lexical">{tr("interface.fragments_legend_lexical")}</mark></span>}
+            </p>
+          )}
           <div className="fragments-panel-documents">
             <p className="fragments-panel-documents-title">{tr("interface.fragments_documents_heading")}{documents.length}{")"}</p>
             <ul className="fragments-panel-documents-list">
@@ -176,7 +183,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
               if (signals.lexical && fragment.matchLabel) scoreParts.push(fragment.matchLabel);
               return (
                 <div className="fragments-panel-fragment" key={index}>
-                  <p className="fragments-panel-fragment-text">{fragment.text}</p>
+                  <p className="fragments-panel-fragment-text"><HighlightedSource text={fragment.text} highlights={fragment.highlights ?? []} /></p>
                   <p className="fragment-source">{fragment.document}</p>
                   {scoreParts.length > 0 && (
                     <p className="fragments-panel-fragment-score">{scoreParts.join(", ")}</p>

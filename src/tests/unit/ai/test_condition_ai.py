@@ -15,7 +15,7 @@ import httpx
 from backend.ai import condition_ai, conditions
 from backend.ai.condition_ai import AIConditionResult
 from backend.ai.conditions import Condition, ConditionDictionary, resolve_query
-from backend.ai.search import ALL_SIGNALS, SearchSignals, effective_signals, max_score, weights
+from backend.ai.search import ALL_SIGNALS, SearchSignals, effective_signals, max_score
 from backend.config import settings as base_settings
 from backend.core.models import HealthProfile
 from backend.reporting.pdf import report_title
@@ -455,7 +455,6 @@ class EffectiveSignalsTests(unittest.TestCase):
         resolved = ConditionDictionary([]).resolve("durere de cap")
         effective = effective_signals(ALL_SIGNALS, resolved)
 
-        self.assertEqual(weights(effective), (0, 0, 1, 1))
         self.assertEqual(max_score(effective), 2)
         self.assertEqual(max_score(ALL_SIGNALS), 8)
 

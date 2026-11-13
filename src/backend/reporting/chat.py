@@ -14,6 +14,7 @@ import re
 from typing import Any
 from urllib.parse import quote
 
+from backend.ai.fragment_highlights import display_text
 from backend.ai.report_validation import ValidatedReport, partial_notice
 from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.core.contracts import ProfilePayload
@@ -101,7 +102,7 @@ def download_message(
 # match (like a single incidental word deep in a long fragment) needs to be
 # visible, not hidden behind a preview cutoff.
 def normalize_text(text: str) -> str:
-    return " ".join(text.split())
+    return display_text(text)
 
 
 # Romanian label for a fragment's provenance, built from the found_by_<signal>
@@ -157,6 +158,7 @@ def fragments_message(
                 "conditionMatch": condition_match(item),
                 "matchLabel": match_type_label(item),
                 "foundByLexical": bool(item.get("found_by_lexical")),
+                "highlights": item.get("highlights", []),
             }
         )
     entries.sort(key=lambda entry: entry["score"], reverse=True)

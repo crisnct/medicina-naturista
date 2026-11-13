@@ -8,6 +8,7 @@ import threading
 from pathlib import Path
 from typing import Any
 
+from backend.ai import fragment_highlights
 from backend.ai.categories import CategoryTree, category_selection, load_category_tree
 from backend.ai.condition_ai import resolved_for
 from backend.ai.index_state import index_reader
@@ -99,10 +100,12 @@ class Retriever:
     ) -> Evidence:
         with (
             language_scope(getattr(session, "language", current_language())),
-            index_reader() as (_connection, metadata),
+            index_reader() as (connection, metadata),
         ):
             tree, _generation = self.categories_snapshot()
-            return self._collect(session, max_chars, tree, metadata.index_generation)
+            evidence = self._collect(session, max_chars, tree, metadata.index_generation)
+            fragment_highlights.apply(evidence, connection)
+            return evidence
 
     def _collect(self, session, max_chars, tree, generation):
         token_budget = max_chars if isinstance(max_chars, EvidenceTokenBudget) else None
@@ -150,6 +153,9 @@ class Retriever:
         # Each fragment is one piece of evidence, exactly as indexed (fragments
         # are whole sections, see ai/fragmenter.py), best score first.
         evidence = EvidenceSnapshot(generation, removed)
+        # What the highlights of the fragments are computed from (see fragment_highlights.py).
+        evidence.resolved = resolved
+        evidence.signals = effective_signals(signals, resolved)
         content_bytes = 0
         for best in candidates:
             evidence_id = f"C{best['chunk_id']}"

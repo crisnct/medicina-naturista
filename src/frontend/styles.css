@@ -1183,6 +1183,11 @@ button.cat-toggle.cat-toggle-open svg {
 .herb-evidence-mark-herb { background: #bbf7d0; color: #153d27; }
 .herb-evidence-mark-condition { background: #fef08a; color: #44360a; }
 .herb-evidence-mark-warning { background: #ffedb5; color: #5c3b12; }
+/* Fragments panel: the patient's conditions (green) and the words the lexical search found (yellow). */
+.herb-evidence-mark-searched { background: #bbf7d0; color: #153d27; }
+.herb-evidence-mark-lexical { background: #fef08a; color: #44360a; }
+.fragments-panel-legend { display: flex; flex-wrap: wrap; gap: .75rem; font-size: .85rem; margin: .5rem 0; }
+.fragments-panel-list mark { border-radius: .15rem; }
 .herb-warnings-group > h5 { margin: .9rem 0 .35rem; padding-bottom: .1rem; font-size: .85rem; font-style: italic; border-bottom: 1px solid #b5b5b5; }
 .herb-warnings-list { margin: 0; padding-left: 1.35rem; }
 .herb-warnings-list > li { margin-bottom: .1rem; line-height: 1.3; overflow-wrap: anywhere; }
