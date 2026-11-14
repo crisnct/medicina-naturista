@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-14T12:16:02.104Z",
-    "fileCount": 493,
+    "lastScanned": "2026-11-14T13:19:14.400Z",
+    "fileCount": 494,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "3b95ba02d0e22ba8eff14a8d7fe33b824ebbc6b483731687a050b28062218126",
-    "storeUpdatedAt": "2026-11-14T12:16:02.116Z",
-    "rootHash": "0f4d95f1450de9de"
+    "renderedHash": "91a677109d9032ca8cae9b96965814edc8c75bbfdb81790753385e285f8dd46d",
+    "storeUpdatedAt": "2026-11-14T13:19:14.411Z",
+    "rootHash": "0dbe54aa9b83994b"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -12972,6 +12972,15 @@
           "tokens": 1091
         }
       ]
+    },
+    "src/backend/ai/resources/generic_query_words.txt": {
+      "description": "Declares types",
+      "tokens": 1966,
+      "hash": "bc4fb538358f8756",
+      "size": 7863,
+      "mtimeMs": 1794662354108.6653,
+      "updatedAt": "2026-11-14T13:19:14.399Z",
+      "source": "hook"
     }
   },
   "preamble": [

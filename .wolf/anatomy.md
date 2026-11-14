@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-14T12:16:02.104Z
-> Files: 493 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-14T13:19:14.400Z
+> Files: 494 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -450,6 +450,10 @@
 - `herb_safety_system.md` — Source-supported warnings and interactions (~923 tok)
 - `herb_safety_transport.md` — Warnings-only output (~149 tok)
 - `message_classification_system.md` — Deterministic message intent classification (~1045 tok)
+
+## src/backend/ai/resources/
+
+- `generic_query_words.txt` — Declares types (~1966 tok)
 
 ## src/backend/core/
 
