@@ -69,17 +69,22 @@ class LexicalQueryTests(unittest.TestCase):
         sql = _sql("durere de genunchi")
 
         # terms and phrase, in the text and in the heading: the words are bound four times
-        self.assertEqual(_words("durere de genunchi"), ["durere", "de", "genunchi"] * 4)
+        self.assertEqual(_words("durere de genunchi"), ["durere", "genunchi"] * 4)
         for field in ("text_ro", "heading_ro"):
             self.assertIn(f"paradedb.match('{field}', %(lexical_", sql)
             self.assertIn(f"paradedb.phrase('{field}', ARRAY[", sql)
-        self.assertIn("minimum_should_match => 3", sql)  # 75% of 3 words, rounded up
+        self.assertIn("minimum_should_match => 2", sql)  # 75% of 2 words, rounded up
 
-    def test_generic_and_short_words_are_kept(self):
+    def test_generic_words_are_left_out(self):
+        self.assertEqual(_words("ce sa iau pentru durere"), ["durere", "durere"])
+        self.assertIn("minimum_should_match => 1", _sql("ce sa iau pentru durere"))
         self.assertEqual(
-            _words("ce sa iau pentru durere")[:5], ["ce", "sa", "iau", "pentru", "durere"]
+            _words("Spune-mi tot ce știi despre Ovidiu Bojor")[:2], ["Ovidiu", "Bojor"]
         )
-        self.assertIn("minimum_should_match => 4", _sql("ce sa iau pentru durere"))
+
+    def test_an_expression_of_only_generic_words_keeps_them(self):
+        self.assertEqual(_words("ce este")[:2], ["ce", "este"])
+        self.assertIn("minimum_should_match => 2", _sql("ce este"))
 
     def test_a_single_word_has_no_phrase(self):
         self.assertEqual(_words("HPV"), ["HPV", "HPV"])  # text and heading
@@ -111,18 +116,18 @@ class LexicalQueryTests(unittest.TestCase):
         # No synonyms and no condition looked up inside the expression.
         words = _words("tratament pentru zorbita la copii")
 
-        self.assertEqual(words, ["tratament", "pentru", "zorbita", "la", "copii"] * 4)
+        self.assertEqual(words, ["zorbita", "copii"] * 4)
         self.assertNotIn("zorbitoza", words)
 
     def test_the_expressions_of_a_message_are_resolved_separately(self):
         words = _words("durere de genunchi la efort, vertigo")
 
-        self.assertEqual(words[:5], ["durere", "de", "genunchi", "la", "efort"])
+        self.assertEqual(words[:3], ["durere", "genunchi", "efort"])
         self.assertEqual(words[-4:], ["Vertigo", "ameteala"] * 2)
 
     def test_identical_expressions_count_once(self):
         self.assertEqual(len(_words("zorbita, Zorbita")), 8)
-        self.assertEqual(len(_words("durere de cap, DURERE  de   cap, ameteala")), 16)
+        self.assertEqual(len(_words("durere de cap, DURERE  de   cap, ameteala")), 12)
         # Different expressions of the same condition stay different expressions.
         self.assertEqual(len(_words("zorbita, zorbitoza")), 16)
 

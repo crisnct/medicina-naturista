@@ -10453,6 +10453,96 @@
       "last_seen": "2026-11-14T12:16:02.137Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: plain should be GENERIC_QUERY_WORDS",
+      "file": "src/backend/ai/search.py",
+      "root_cause": "Used \"plain\" instead of \"GENERIC_QUERY_WORDS\"",
+      "fix": "Changed plain → GENERIC_QUERY_WORDS",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-582",
+      "timestamp": "2026-11-14T13:33:45.349Z",
+      "last_seen": "2026-11-14T13:33:45.349Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: _words should be _query_words",
+      "file": "src/backend/ai/search.py",
+      "root_cause": "Used \"_words\" instead of \"_query_words\"",
+      "fix": "Changed _words → _query_words",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-583",
+      "timestamp": "2026-11-14T13:33:50.944Z",
+      "last_seen": "2026-11-14T13:33:53.256Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_search.py",
+      "file": "src/tests/unit/ai/test_search.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 12→17 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-584",
+      "timestamp": "2026-11-14T13:38:04.931Z",
+      "last_seen": "2026-11-14T13:38:04.931Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/ai/test_search.py",
+      "root_cause": "Had \"tratament\"",
+      "fix": "Changed to \"zorbita\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-585",
+      "timestamp": "2026-11-14T13:38:07.453Z",
+      "last_seen": "2026-11-14T13:38:07.453Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/ai/test_search.py",
+      "root_cause": "Had \"de\"",
+      "fix": "Changed to \"genunchi\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-586",
+      "timestamp": "2026-11-14T13:38:10.003Z",
+      "last_seen": "2026-11-14T13:38:10.003Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -11079,7 +11169,13 @@
     "ae2f69d1-53bd-4fe9-8f89-0d979f200368": true,
     "9c9a44bb-1da0-4242-8adf-75042b559179": true,
     "f559db38-6686-4b8b-baa7-c0e1131f5167": true,
-    "8fb981c2-7b56-45f4-8b2d-cb66c24c9ad6": true
+    "8fb981c2-7b56-45f4-8b2d-cb66c24c9ad6": true,
+    "a892153f-713b-419c-b6d9-2ee45cce3855": true,
+    "bba3f25f-d4bd-4a80-b5e8-65642114ff57": true,
+    "881e913c-dca5-4db4-bf02-93ec12da8e2c": true,
+    "516477b8-e190-4385-a267-48cdda4e5d58": true,
+    "85225804-3b5b-4740-9ac0-3244d18aa088": true,
+    "9ee6517b-8e5b-4167-9678-29285d1e8797": true
   },
-  "next_id": 582
+  "next_id": 587
 }

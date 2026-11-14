@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-14T13:19:14.400Z",
-    "fileCount": 494,
+    "lastScanned": "2026-11-14T13:38:12.452Z",
+    "fileCount": 495,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "91a677109d9032ca8cae9b96965814edc8c75bbfdb81790753385e285f8dd46d",
-    "storeUpdatedAt": "2026-11-14T13:19:14.411Z",
-    "rootHash": "0dbe54aa9b83994b"
+    "renderedHash": "e5641e992856caef6fce9ba4568d3c93afdcbba5f347aa082aee53b71f1f6d3c",
+    "storeUpdatedAt": "2026-11-14T13:38:12.463Z",
+    "rootHash": "22588214c0a64031"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -12736,131 +12736,145 @@
     },
     "src/backend/ai/search.py": {
       "description": "Offline search over the Postgres-backed medical index. Every fragment gets",
-      "tokens": 7297,
-      "hash": "3622e400727330fa",
-      "size": 25551,
-      "mtimeMs": 1794658336880.6987,
-      "updatedAt": "2026-11-14T12:12:17.166Z",
+      "tokens": 7538,
+      "hash": "50176e014d78ecc5",
+      "size": 26391,
+      "mtimeMs": 1794663232950.5015,
+      "updatedAt": "2026-11-14T13:33:53.223Z",
       "source": "hook",
       "symbols": [
         {
           "name": "SearchSignals",
           "kind": "class",
-          "startLine": 40,
-          "endLine": 80,
-          "tokens": 529
+          "startLine": 41,
+          "endLine": 82,
+          "tokens": 552
         },
         {
           "name": "score_sql",
           "kind": "fn",
-          "startLine": 81,
-          "endLine": 91,
-          "tokens": 177
+          "startLine": 83,
+          "endLine": 93,
+          "tokens": 184
         },
         {
           "name": "effective_signals",
           "kind": "fn",
-          "startLine": 92,
-          "endLine": 101,
-          "tokens": 135
+          "startLine": 94,
+          "endLine": 104,
+          "tokens": 146
         },
         {
           "name": "max_score",
           "kind": "fn",
-          "startLine": 102,
-          "endLine": 118,
-          "tokens": 164
+          "startLine": 105,
+          "endLine": 121,
+          "tokens": 179
         },
         {
           "name": "evidence_heading_prefix",
           "kind": "fn",
-          "startLine": 119,
-          "endLine": 123,
+          "startLine": 122,
+          "endLine": 126,
           "tokens": 58
         },
         {
           "name": "_words",
           "kind": "fn",
-          "startLine": 124,
-          "endLine": 129,
+          "startLine": 127,
+          "endLine": 132,
           "tokens": 70
         },
         {
           "name": "_fold",
           "kind": "fn",
-          "startLine": 130,
-          "endLine": 152,
-          "tokens": 334
+          "startLine": 133,
+          "endLine": 139,
+          "tokens": 100
+        },
+        {
+          "name": "_query_words",
+          "kind": "fn",
+          "startLine": 140,
+          "endLine": 164,
+          "tokens": 368
         },
         {
           "name": "_Parameters",
           "kind": "class",
-          "startLine": 153,
-          "endLine": 163,
+          "startLine": 165,
+          "endLine": 175,
           "tokens": 96
         },
         {
           "name": "_terms_clause",
           "kind": "fn",
-          "startLine": 164,
-          "endLine": 174,
+          "startLine": 176,
+          "endLine": 186,
           "tokens": 147
         },
         {
           "name": "_phrase_clause",
           "kind": "fn",
-          "startLine": 175,
-          "endLine": 182,
+          "startLine": 187,
+          "endLine": 194,
           "tokens": 114
         },
         {
           "name": "_field_clauses",
           "kind": "fn",
-          "startLine": 183,
-          "endLine": 200,
-          "tokens": 261
+          "startLine": 195,
+          "endLine": 212,
+          "tokens": 262
         },
         {
           "name": "lexical_terms",
           "kind": "fn",
-          "startLine": 201,
-          "endLine": 213,
-          "tokens": 142
+          "startLine": 213,
+          "endLine": 225,
+          "tokens": 144
         },
         {
           "name": "lexical_query",
           "kind": "fn",
-          "startLine": 214,
-          "endLine": 375,
-          "tokens": 2317
+          "startLine": 226,
+          "endLine": 389,
+          "tokens": 2314
         },
         {
           "name": "rank",
           "kind": "fn",
-          "startLine": 376,
-          "endLine": 390,
+          "startLine": 390,
+          "endLine": 404,
           "tokens": 153
         },
         {
           "name": "_rank",
           "kind": "fn",
-          "startLine": 391,
-          "endLine": 491,
-          "tokens": 1446
+          "startLine": 405,
+          "endLine": 502,
+          "tokens": 1393
+        },
+        {
+          "name": "_finite_rank",
+          "kind": "fn",
+          "startLine": 503,
+          "endLine": 509,
+          "tokens": 90
         },
         {
           "name": "warm_up",
           "kind": "fn",
-          "startLine": 492,
-          "endLine": 496,
+          "startLine": 510,
+          "endLine": 514,
           "tokens": 45
         },
         {
           "name": "main",
           "kind": "fn",
-          "startLine": 497,
-          "endLine": 546,
-          "tokens": 588
+          "startLine": 515,
+          "endLine": 564,
+          "tokens": 581
         }
       ]
     },
@@ -12975,12 +12989,79 @@
     },
     "src/backend/ai/resources/generic_query_words.txt": {
       "description": "Declares types",
-      "tokens": 1966,
-      "hash": "bc4fb538358f8756",
-      "size": 7863,
-      "mtimeMs": 1794662354108.6653,
-      "updatedAt": "2026-11-14T13:19:14.399Z",
+      "tokens": 1981,
+      "hash": "5ddaf7dc1821afcc",
+      "size": 7922,
+      "mtimeMs": 1794663250622.9504,
+      "updatedAt": "2026-11-14T13:34:10.944Z",
       "source": "hook"
+    },
+    "src/tests/unit/ai/test_search.py": {
+      "description": "Tests for the combined fragment score (backend.ai.search): the",
+      "tokens": 2241,
+      "hash": "d6b21f9cd83cfe91",
+      "size": 7844,
+      "mtimeMs": 1794663492154.1296,
+      "updatedAt": "2026-11-14T13:38:12.452Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_dictionary",
+          "kind": "fn",
+          "startLine": 22,
+          "endLine": 25,
+          "tokens": 33
+        },
+        {
+          "name": "_lexical",
+          "kind": "fn",
+          "startLine": 26,
+          "endLine": 29,
+          "tokens": 37
+        },
+        {
+          "name": "_sql",
+          "kind": "fn",
+          "startLine": 30,
+          "endLine": 33,
+          "tokens": 17
+        },
+        {
+          "name": "_words",
+          "kind": "fn",
+          "startLine": 34,
+          "endLine": 37,
+          "tokens": 24
+        },
+        {
+          "name": "_signals",
+          "kind": "fn",
+          "startLine": 38,
+          "endLine": 44,
+          "tokens": 45
+        },
+        {
+          "name": "SearchSignalsTests",
+          "kind": "class",
+          "startLine": 45,
+          "endLine": 66,
+          "tokens": 254
+        },
+        {
+          "name": "LexicalQueryTests",
+          "kind": "class",
+          "startLine": 67,
+          "endLine": 154,
+          "tokens": 1256
+        },
+        {
+          "name": "ScoreFormulaTests",
+          "kind": "class",
+          "startLine": 155,
+          "endLine": 181,
+          "tokens": 377
+        }
+      ]
     }
   },
   "preamble": [

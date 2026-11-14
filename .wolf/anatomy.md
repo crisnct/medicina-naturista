@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-14T13:19:14.400Z
-> Files: 494 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-14T13:38:12.452Z
+> Files: 495 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -425,7 +425,7 @@
 - `providers.py` — Per-provider transport settings for report generation. (~2270 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3048 tok)
-- `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~7297 tok)
+- `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~7538 tok)
 
 ## src/backend/ai/prompts/
 
@@ -453,7 +453,7 @@
 
 ## src/backend/ai/resources/
 
-- `generic_query_words.txt` — Declares types (~1966 tok)
+- `generic_query_words.txt` — Declares types (~1981 tok)
 
 ## src/backend/core/
 
@@ -639,6 +639,7 @@
 - `test_herb_ranking.py` — test_display_preserves_names_and_restores_known_accents, test_bundled_dictionary_restores_inflected_ (~890 tok)
 - `test_message_classification.py` — Strict intent contract and local Ollama wiring; no external traffic. (~5471 tok)
 - `test_report_validation.py` — report, test_invalid_recommendation_is_removed_whole, test_missing_invalid_and_extra_sections, test_ (~1323 tok)
+- `test_search.py` — Tests for the combined fragment score (backend.ai.search): the (~2241 tok)
 
 ## src/tests/unit/core/
 

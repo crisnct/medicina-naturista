@@ -3362,3 +3362,15 @@ description: chronological action log per session, consolidated weekly
 | 15:19 | Edited src/backend/ai/resources/generic_query_words.txt | inline fix | ~11 |
 | 15:19 | Edited src/backend/ai/resources/generic_query_words.txt | inline fix | ~10 |
 | 15:19 | Edited src/backend/ai/resources/generic_query_words.txt | 7→6 lines | ~72 |
+| 15:33 | Edited src/backend/ai/search.py | inline fix | ~18 |
+| 15:33 | Edited src/backend/ai/search.py | modified _query_words() | ~138 |
+| 15:33 | Edited src/backend/ai/search.py | 1→2 lines | ~40 |
+| 15:33 | Edited src/backend/ai/search.py | _words() → _query_words() | ~38 |
+| 15:33 | Edited src/backend/ai/search.py | inline fix | ~15 |
+| 15:33 | Edited src/backend/ai/search.py | inline fix | ~22 |
+| 15:34 | Edited src/backend/ai/resources/generic_query_words.txt | 1→2 lines | ~23 |
+| 15:38 | Edited src/tests/unit/ai/test_search.py | modified test_generic_words_are_left_out() | ~282 |
+| 15:38 | Edited src/tests/unit/ai/test_search.py | "tratament" → "zorbita" | ~17 |
+| 15:38 | Edited src/tests/unit/ai/test_search.py | inline fix | ~20 |
+| 15:38 | Edited src/tests/unit/ai/test_search.py | 16 → 12 | ~25 |
+| 16:08 | Session end: 22 writes across 3 files (generic_query_words.txt, search.py, test_search.py) | 5 reads | ~5163 tok |

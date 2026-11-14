@@ -19,7 +19,7 @@ from psycopg.rows import namedtuple_row
 from backend.ai.conditions import ResolvedQuery, load_dictionary, resolve_query
 from backend.ai.embedding_model import cached_query_model, get_profile
 from backend.ai.index_state import index_reader
-from backend.ai.query_terms import plain
+from backend.ai.query_terms import GENERIC_QUERY_WORDS, plain
 from backend.config import settings
 from backend.core.language import Language, current_language, language_scope, validate_language
 from backend.core.score_formula import compile_search_formula, search_formula_sql
@@ -134,12 +134,21 @@ def _fold(word: str) -> str:
     return "".join(char for char in plain(word) if char.isalnum())
 
 
+# The words of an expression the lexical signal searches: without the generic ones
+# (generic_query_words.txt: "spune", "tot", "despre", ...), or all of them when nothing
+# else is left, so an expression made only of generic words is still searched.
+def _query_words(segment: str) -> list[str]:
+    words = _words(segment)
+    return [word for word in words if _fold(word) not in GENERIC_QUERY_WORDS] or words
+
+
 # How the lexical signal (BM25, ParadeDB pg_search) reads a question. Every expression
 # (the question split at commas, identical ones counted once) becomes one query, and
 # a fragment's BM25 is the sum over the expressions it matches. The words are analysed
 # by the index itself (language stemmer, lowercase, diacritics folded), so none of that
 # is done here, and the user's text only ever travels as a bound parameter.
-#   * a plain expression: the share of its words (TERMS_MATCH_FRACTION, rounded up) in
+#   * a plain expression, without its generic words (see _query_words()): the share of
+#     its words (TERMS_MATCH_FRACTION, rounded up) in
 #     any order, or the words as a phrase (up to PHRASE_SLOP words in between), which
 #     scores PHRASE_BOOST times more; found in the heading it scores HEADING_BOOST
 #     times more than in the text.
@@ -188,7 +197,7 @@ def _field_clauses(field: str, segment, parameters: _Parameters) -> list[str]:
         names = dict.fromkeys(term for condition in segment.conditions for term in condition.terms)
         phrases = [_words(name) for name in names]
         return [_phrase_clause(field, words, 0, parameters) for words in phrases if words]
-    words = _words(segment.text)
+    words = _query_words(segment.text)
     if not words:
         return []
     clauses = [_terms_clause(field, words, parameters)]
@@ -208,7 +217,7 @@ def lexical_terms(resolved: ResolvedQuery) -> tuple[list[str], set[str]]:
         if segment.whole_condition:
             names.update(condition.name for condition in segment.conditions)
         else:
-            words.extend(_words(segment.text))
+            words.extend(_query_words(segment.text))
     return list(dict.fromkeys(words)), names
 
 
@@ -222,7 +231,7 @@ def lexical_query(resolved: ResolvedQuery) -> tuple[str, dict[str, object]] | No
     expressions: list[str] = []
     seen: set[str] = set()
     for segment in resolved.segments:
-        key = " ".join(_fold(word) for word in _words(segment.text))
+        key = " ".join(_fold(word) for word in _query_words(segment.text))
         if not key or key in seen:
             continue
         seen.add(key)
