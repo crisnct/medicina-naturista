@@ -77,7 +77,7 @@ const fragments: FragmentsMessage = {
       document: "Afectiuni/Guta.md",
       text: "Textul fragmentului.",
       relevancePercent: 80,
-      semanticScore: 0.5,
+      semanticSimilarity: 0.5,
       lexicalBm25: 1,
       conditionMatch: "title",
       matchLabel: "Găsire Lexicală",
@@ -87,7 +87,7 @@ const fragments: FragmentsMessage = {
 };
 
 function filterLabels(): string[] {
-  return ["Scor minim", "Scor semantic", "Afecțiune", "Găsire lexicală", "Document"].filter(
+  return ["Scor minim", "Similaritate semantică", "Afecțiune", "Găsire lexicală", "Document"].filter(
     (label) => screen.queryByText(label, { selector: "label" }) !== null,
   );
 }
@@ -96,9 +96,9 @@ describe("the fragments panel", () => {
   it("shows every score component and filter for a search scored with every signal", () => {
     render(<FragmentsPanel message={{ ...fragments, signals: ALL_SIGNALS }} />);
 
-    expect(filterLabels()).toEqual(["Scor minim", "Scor semantic", "Afecțiune", "Găsire lexicală", "Document"]);
+    expect(filterLabels()).toEqual(["Scor minim", "Similaritate semantică", "Afecțiune", "Găsire lexicală", "Document"]);
     const line = screen.getByText(/Scor relevanță: 80%/);
-    expect(line).toHaveTextContent("Scor semantic: 0.50");
+    expect(line).toHaveTextContent("Similaritate semantică: 0.50");
     expect(line).toHaveTextContent("Scor lexical (BM25): 1.00");
     expect(line).toHaveTextContent("Afecțiune în titlu");
     expect(line).toHaveTextContent("Găsire Lexicală");
@@ -107,20 +107,20 @@ describe("the fragments panel", () => {
   it("treats a message without signals as scored with every signal", () => {
     render(<FragmentsPanel message={fragments} />);
 
-    expect(filterLabels()).toEqual(["Scor minim", "Scor semantic", "Afecțiune", "Găsire lexicală", "Document"]);
+    expect(filterLabels()).toEqual(["Scor minim", "Similaritate semantică", "Afecțiune", "Găsire lexicală", "Document"]);
   });
 
   it("hides what the semantic signal brings when it was off", () => {
     render(<FragmentsPanel message={{ ...fragments, signals: { conditions: true, lexical: true, semantic: false } }} />);
 
     expect(filterLabels()).toEqual(["Scor minim", "Afecțiune", "Găsire lexicală", "Document"]);
-    expect(screen.getByText(/Scor relevanță: 80%/)).not.toHaveTextContent("Scor semantic");
+    expect(screen.getByText(/Scor relevanță: 80%/)).not.toHaveTextContent("Similaritate semantică");
   });
 
   it("hides what the lexical signal brings when it was off", () => {
     render(<FragmentsPanel message={{ ...fragments, signals: { conditions: true, lexical: false, semantic: true } }} />);
 
-    expect(filterLabels()).toEqual(["Scor minim", "Scor semantic", "Afecțiune", "Document"]);
+    expect(filterLabels()).toEqual(["Scor minim", "Similaritate semantică", "Afecțiune", "Document"]);
     const line = screen.getByText(/Scor relevanță: 80%/);
     expect(line).not.toHaveTextContent("Scor lexical");
     expect(line).not.toHaveTextContent("Găsire Lexicală");
@@ -129,14 +129,14 @@ describe("the fragments panel", () => {
   it("hides what the conditions signal brings when it was off", () => {
     render(<FragmentsPanel message={{ ...fragments, signals: { conditions: false, lexical: true, semantic: true } }} />);
 
-    expect(filterLabels()).toEqual(["Scor minim", "Scor semantic", "Găsire lexicală", "Document"]);
+    expect(filterLabels()).toEqual(["Scor minim", "Similaritate semantică", "Găsire lexicală", "Document"]);
     expect(screen.getByText(/Scor relevanță: 80%/)).not.toHaveTextContent("Afecțiune în titlu");
   });
 
   it("always keeps the relevance score and the document filter", () => {
     render(<FragmentsPanel message={{ ...fragments, signals: { conditions: false, lexical: false, semantic: true } }} />);
 
-    expect(filterLabels()).toEqual(["Scor minim", "Scor semantic", "Document"]);
+    expect(filterLabels()).toEqual(["Scor minim", "Similaritate semantică", "Document"]);
     expect(screen.getByText(/Scor relevanță: 80%/)).toBeInTheDocument();
   });
 });

@@ -37,7 +37,7 @@ from tests.support.conditions import replace_catalog
 from tests.support.postgres import PostgresFixture
 
 fixture = PostgresFixture()
-INITIAL_FINGERPRINT = "c9a7c2b69ceae64d8da26da3e8d23e42f6c6f6b7a962f41feda7fcd2c6582589"
+INITIAL_FINGERPRINT = "b9cec10442d3a1037b534961ba8250a35374190e0d4d69842651170f14e70343"
 
 
 def setUpModule():
@@ -139,7 +139,7 @@ class ConditionDatabaseTests(unittest.TestCase):
                     connection.execute(
                         "SELECT count(*) FROM medical_condition_synonyms"
                     ).fetchone()[0],
-                    39365,
+                    39367,
                 )
                 self.assertEqual(
                     connection.execute("SELECT count(*) FROM herbs").fetchone()[0], 1585
@@ -318,7 +318,7 @@ class ConditionDatabaseTests(unittest.TestCase):
             self.assertEqual(catalog_fingerprint(read_conditions(connection)), INITIAL_FINGERPRINT)
             self.assertEqual(
                 connection.execute("SELECT count(*) FROM medical_condition_synonyms").fetchone()[0],
-                39365,
+                39367,
             )
 
     def test_disease_without_synonyms_and_cascade_deletion(self):

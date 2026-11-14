@@ -180,8 +180,9 @@ aliases for the Windows lock.
 ## Scoring
 
 One SQL query produces one score per fragment from the signals the user enabled:
-`4·P1 + 2·P2 + L + V` (condition in title › condition in text › lexical › semantic), the default
-of `SEARCH_SCORE_FORMULA` (grammar in `core/score_formula.py`, used by `ai/search.py`). Changing weights changes retrieval quality —
+`4·P1 + 2·P2 + (K+1)/(K+L) + (K+1)/(K+V)` (condition in title › condition in text › lexical › semantic), the default
+of `SEARCH_SCORE_FORMULA` (grammar in `core/score_formula.py`, used by `ai/search.py`); L and V are
+ranks (RRF) and `K` = `SEARCH_RRF_K`. Changing weights or `K` changes retrieval quality —
 measure before and after with `scripts/evaluate_retrieval.py --content` against a labelled
 baseline, and say plainly that synthetic rankings validate the metric mechanism, not model quality.
 

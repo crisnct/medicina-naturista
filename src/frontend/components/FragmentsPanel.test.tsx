@@ -7,7 +7,7 @@ it("filters at 95% inclusively and excludes lower or missing scores", () => {
     kind: "fragments", role: "assistant", searchId: "search-95", fragmentsCount: 4, documentsCount: 1,
     fragments: [94.99, 95, 99, null].map((relevancePercent) => ({
       document: "plante.md", text: `Fragment ${relevancePercent}`, relevancePercent,
-      semanticScore: null, lexicalBm25: null, conditionMatch: null, matchLabel: "", foundByLexical: false,
+      semanticSimilarity: null, lexicalBm25: null, conditionMatch: null, matchLabel: "", foundByLexical: false,
     })),
   }} />);
   fireEvent.click(screen.getByText("Vezi fragmentele și sursele"));

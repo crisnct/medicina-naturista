@@ -153,7 +153,7 @@ def fragments_message(
                 "charactersCount": len(item["text"]),
                 "score": item.get("score", float("-inf")),
                 "relevancePercent": item.get("relevance_percent"),
-                "semanticScore": item.get("semantic_score"),
+                "semanticSimilarity": item.get("semantic_similarity"),
                 "lexicalBm25": item.get("lexical_bm25"),
                 "conditionMatch": condition_match(item),
                 "matchLabel": match_type_label(item),

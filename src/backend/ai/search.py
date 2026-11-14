@@ -28,12 +28,15 @@ from backend.core.score_formula import compile_search_formula, search_formula_sq
 # The signals of the score, each one a checkbox of the "Căutare avansată" panel:
 #   A conditions: P1 / P2 in {0, 1} — a condition the user named is in the
 #                 fragment's primary conditions (title) / secondary ones (text)
-#   B lexical   : L in [0, 1] — BM25 of the fragment for the user's comma-separated
-#                 expressions, relative to the best fragment of the search (see
-#                 lexical_query())
-#   C semantic  : V in [0, 1] — cosine similarity to the message, rescaled from
-#                 [median, max] of the search to [0, 1]
-# At least one must be on. A signal that is off is not computed at all.
+#   B lexical   : L = the rank (1 = best) of the fragment's BM25 for the user's comma-separated
+#                 expressions among the fragments the BM25 index finds; infinity when it is
+#                 not found (see lexical_query())
+#   C semantic  : V = the rank (1 = best) of the fragment's cosine similarity to the message
+#                 among the fragments of the search; infinity at or below the median cosine
+# Ties share a rank. The ranks are what reciprocal rank fusion needs: the formula turns them
+# into values, e.g. (K+1)/(K+L), which is 0 for an infinite rank (K is SEARCH_RRF_K). At
+# least one signal must be on. A signal that is off is not computed at all (its rank is
+# infinity).
 @dataclass(frozen=True)
 class SearchSignals:
     conditions: bool = True
@@ -66,18 +69,19 @@ class SearchSignals:
 ALL_SIGNALS = SearchSignals()
 
 # The score of a fragment is the operator's formula (SEARCH_SCORE_FORMULA in .env, default
-# 4*P1 + 2*P2 + L + V; grammar and checks in core/score_formula.py) over four numbers:
-# P1 and P2 in {0, 1}, L and V in [0, 1]. A signal that is off is 0 in the formula, so the
-# same formula serves every combination. The default keeps the priorities in order: P1 is
-# worth as much as all the lower ones at their best (4 = 2 + 1 + 1) and P2 as much as L
-# plus V (2 = 1 + 1), so only in the extreme tie (a perfect match on everything below) can
-# a lower tier match a higher one; L and V weigh the same.
+# 4*P1 + 2*P2 + (K+1)/(K+L) + (K+1)/(K+V); grammar and checks in core/score_formula.py) over
+# P1 and P2 in {0, 1}, the ranks L and V, and K = SEARCH_RRF_K. A signal that is off has
+# infinite ranks (and P1 = P2 = 0), so the same formula serves every combination. The default
+# keeps the priorities in order: (K+1)/(K+rank) is 1 for rank 1, so P1 is worth as much as all
+# the lower ones at their best (4 = 2 + 1 + 1) and P2 as much as L plus V (2 = 1 + 1), so only
+# in the extreme tie (a perfect match on everything below) can a lower tier match a higher
+# one; L and V weigh the same.
 _SCORE_COLUMNS = {"P1": "p1", "P2": "p2", "L": "lexical", "V": "semantic"}
 
 
 # The formula as a SQL expression over the columns of the `ranked` CTE.
 def score_sql() -> str:
-    return search_formula_sql(settings.search_score_formula, _SCORE_COLUMNS)
+    return search_formula_sql(settings.search_score_formula, _SCORE_COLUMNS, settings.search_rrf_k)
 
 
 # The signals a search can actually use. The conditions signal needs a condition
@@ -96,15 +100,16 @@ def effective_signals(signals: SearchSignals, resolved: ResolvedQuery) -> Search
 
 
 # The highest score a fragment can reach with these signals: the formula with every signal
-# that is on at its maximum and the others at 0; relevance_percent = score / max_score * 100.
+# that is on at its best (P = 1, rank 1) and the others off (P = 0, infinite rank);
+# relevance_percent = score / max_score * 100.
 def max_score(signals: SearchSignals) -> float:
     on = (
         float(signals.conditions),
         float(signals.conditions),
-        float(signals.lexical),
-        float(signals.semantic),
+        1.0 if signals.lexical else math.inf,
+        1.0 if signals.semantic else math.inf,
     )
-    return compile_search_formula(settings.search_score_formula)(*on)
+    return compile_search_formula(settings.search_score_formula, settings.search_rrf_k)(*on)
 
 
 # What the evidence text of a fragment adds in front of its indexed text (see
@@ -235,13 +240,15 @@ def lexical_query(resolved: ResolvedQuery) -> tuple[str, dict[str, object]] | No
 #   pool      every fragment of the selected categories: P1/P2 from the indexed
 #             condition arrays and the exact cosine similarity to the query
 #   lex       the fragments the BM25 index finds for the lexical query (see
-#             lexical_query()) with their BM25 score, and lex_stats the best one
-#   cosine_stats  median/max cosine of THIS search, which is what makes V
-#             relative to the search (relevance_percent tells how good a
-#             fragment is within this search, not across searches)
+#             lexical_query()) with their BM25 score and its rank (lex_rank)
+#   cosine_stats  median cosine of THIS search: V is 0 at or below it, so only the
+#             upper half of the fragments can score on similarity alone
 #             (all similarities equal, e.g. a one-fragment selection: V = 0)
-#   ranked    P1, P2, L = BM25 / the best BM25 of THIS search, V for every fragment
-#   scored    score = the score formula over P1, P2, L, V (see score_sql())
+#   ranked    P1, P2, L = the BM25 rank, V = the cosine rank (ranked over the pool,
+#             so both are relative to THIS search: relevance_percent tells how good
+#             a fragment is within this search, not across searches); infinity when
+#             the fragment has none
+#   scored    score = the score formula over P1, P2, L, V, K (see score_sql())
 #   kept      running sum of the evidence characters in score order, over the
 #             fragments with score > 0 (a condition, a lexical match or a
 #             semantic similarity above the median); only the prefix that fits
@@ -253,9 +260,9 @@ def lexical_query(resolved: ResolvedQuery) -> tuple[str, dict[str, object]] | No
 # only those few rows are touched: a plain join makes Postgres hash the whole
 # table (text included), which was 3-5 times slower.
 # There is no candidate limit per signal: nothing is dropped before scoring.
-# {condition_columns}, {cosine_column}, {lexical}, {cosine_stats}, {lexical_join},
-# {lexical_value} and {semantic_value} depend on the signals, {score} on the formula; {category_where} is an optional
-# category filter.
+# {condition_columns}, {cosine_column}, {lexical}, {cosine_stats}, {lexical_value} and
+# {semantic_value} depend on the signals, {score} on the formula; {category_where} is an
+# optional category filter.
 _RANK_SQL = """
 WITH
 pool AS (
@@ -276,7 +283,6 @@ ranked AS (
     FROM pool p
     {cosine_join}
     LEFT JOIN lex l USING (chunk_id)
-    {lexical_join}
 ),
 scored AS (
     SELECT *, {score} AS score
@@ -304,32 +310,40 @@ _NO_CONDITION_COLUMNS = "0 AS p1, 0 AS p2"
 _COSINE_COLUMN = "-(embedding <#> %(vector)s) AS cosine"
 _NO_COSINE_COLUMN = "NULL::double precision AS cosine"
 _COSINE_STATS = """cosine_stats AS (
-    SELECT percentile_cont(0.5) WITHIN GROUP (ORDER BY cosine) AS median, max(cosine) AS peak FROM pool
+    SELECT percentile_cont(0.5) WITHIN GROUP (ORDER BY cosine) AS median FROM pool
 ),"""
 _COSINE_JOIN = "CROSS JOIN cosine_stats cs"
+# The rank of the fragment's cosine in the pool (ties share it); the median gate keeps the
+# candidates of the semantic signal to the upper half of the pool, otherwise every fragment
+# would get a finite rank, a positive score and enter the budgeted prefix. The window ranks
+# the pool rows (the LEFT JOIN of `ranked` adds none). Infinity: no rank, so the formula's
+# (K+1)/(K+V) is 0.
+_INFINITE_RANK = "'Infinity'::double precision"
 _SEMANTIC_VALUE = (
-    "greatest(0, least(1, coalesce((p.cosine - cs.median) / nullif(cs.peak - cs.median, 0), 0)))"
+    "CASE WHEN p.cosine > cs.median "
+    "THEN (RANK() OVER (ORDER BY p.cosine DESC))::double precision "
+    f"ELSE {_INFINITE_RANK} END"
 )
-_NO_SEMANTIC_VALUE = "0::double precision"
+_NO_SEMANTIC_VALUE = _INFINITE_RANK
 
 # The BM25 index's own scan: it finds the fragments the lexical query matches and scores
-# them in one pass, and the best score of the search is what makes L relative to it.
+# them in one pass; their rank by BM25 (ties share it) is what L is made of. The scores are
+# read in an inner query so the ParadeDB scan computes them, and ranked outside it.
 _LEXICAL_CTE = """lex AS (
-    SELECT c.chunk_id, pdb.score(c.chunk_id) AS bm25
-    FROM chunks c
-    WHERE c.chunk_id @@@ {query} {category_and}
-),
-lex_stats AS (
-    SELECT max(bm25) AS peak FROM lex
+    SELECT chunk_id, bm25, RANK() OVER (ORDER BY bm25 DESC) AS lex_rank
+    FROM (
+        SELECT c.chunk_id, pdb.score(c.chunk_id) AS bm25
+        FROM chunks c
+        WHERE c.chunk_id @@@ {query} {category_and}
+    ) matches
 ),"""
-_LEXICAL_JOIN = "CROSS JOIN lex_stats ls"
-_LEXICAL_VALUE = "coalesce(l.bm25 / nullif(ls.peak, 0), 0)"
+_LEXICAL_VALUE = f"coalesce(l.lex_rank::double precision, {_INFINITE_RANK})"
 # Lexical signal off, or no usable word in the message: nothing matches lexically.
 _NO_LEXICAL_CTE = (
-    "lex AS (SELECT NULL::bigint AS chunk_id, NULL::double precision AS bm25 WHERE FALSE),"
+    "lex AS (SELECT NULL::bigint AS chunk_id, NULL::double precision AS bm25, "
+    "NULL::bigint AS lex_rank WHERE FALSE),"
 )
-_NO_LEXICAL_JOIN = ""
-_NO_LEXICAL_VALUE = "0::double precision"
+_NO_LEXICAL_VALUE = _INFINITE_RANK
 
 
 # Score every fragment for `query` and return the ones that fit the context
@@ -351,7 +365,7 @@ _NO_LEXICAL_VALUE = "0::double precision"
 # category_ids optionally restricts the search to chunks whose category_id is
 # one of the given ids (see backend.ai.categories). None means all sources; an
 # empty set means zero chunks. The filter is applied before the search
-# statistics (median cosine), so V stays relative to the fragments the user
+# ranks and statistics (median cosine), so L and V stay relative to the fragments the user
 # actually searches in.
 #
 # max_chars is the evidence budget (the AI provider's context limit): the
@@ -359,7 +373,7 @@ _NO_LEXICAL_VALUE = "0::double precision"
 # means no budget: every fragment is returned.
 #
 # Each result carries the fields of the signals that are on; those of a signal
-# that is off (condition_in_*, lexical_score, semantic_*) are None.
+# that is off (condition_in_*, lexical_*, semantic_*) are None.
 # Budget used when the caller sets none (fits Postgres bigint).
 UNLIMITED_CHARS = 2**62
 
@@ -410,7 +424,6 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
         else _NO_LEXICAL_CTE,
         cosine_stats=_COSINE_STATS if signals.semantic else "",
         cosine_join=_COSINE_JOIN if signals.semantic else "",
-        lexical_join=_LEXICAL_JOIN if lexical else _NO_LEXICAL_JOIN,
         lexical_value=_LEXICAL_VALUE if lexical else _NO_LEXICAL_VALUE,
         semantic_value=_SEMANTIC_VALUE if signals.semantic else _NO_SEMANTIC_VALUE,
         score=score_sql(),
@@ -452,9 +465,9 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
             "score": float(row.score),
             "condition_in_title": bool(row.p1) if signals.conditions else None,
             "condition_in_text": bool(row.p2) if signals.conditions else None,
-            "lexical_score": float(row.lexical) if row.bm25 is not None else None,
+            "lexical_rank": int(row.lexical) if row.bm25 is not None else None,
             "lexical_bm25": float(row.bm25) if row.bm25 is not None else None,
-            "semantic_score": float(row.semantic) if signals.semantic else None,
+            "semantic_rank": _finite_rank(row.semantic) if signals.semantic else None,
             "semantic_similarity": float(row.cosine) if signals.semantic else None,
             "found_by_lexical": row.bm25 is not None,
             "business_category": row.business_category,
@@ -475,6 +488,11 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
         }
         for row in rows
     ]
+
+
+# The rank as an int, None when the fragment has none (infinity).
+def _finite_rank(rank: float) -> int | None:
+    return int(rank) if math.isfinite(rank) else None
 
 
 # Run one throwaway search so the first real one is fast: it loads the
@@ -520,7 +538,7 @@ def main() -> None:
         print(
             f"    score={result['score']:.3f} "
             f"P1={int(bool(result['condition_in_title']))} P2={int(bool(result['condition_in_text']))} "
-            f"L={result['lexical_score'] or 0.0:.3f} bm25={result['lexical_bm25'] or 0.0:.3f} V={result['semantic_score'] or 0.0:.3f} "
+            f"L={result['lexical_rank']} bm25={result['lexical_bm25'] or 0.0:.3f} V={result['semantic_rank']} "
             f"cosine={result['semantic_similarity'] or 0.0:.4f}"
         )
         preview = re.sub(r"\s+", " ", str(result["text"]))[:500]

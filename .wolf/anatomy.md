@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-13T13:52:43.371Z
-> Files: 489 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-14T12:16:02.104Z
+> Files: 493 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -10,9 +10,9 @@
 ## ./
 
 - `.dockerignore` (~107 tok)
-- `AGENTS.md` — AGENTS.md (~3128 tok)
+- `AGENTS.md` — AGENTS.md (~3167 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
-- `docker-compose.yaml` — Docker Compose: 2 services (~4213 tok)
+- `docker-compose.yaml` — Docker Compose: 2 services (~4382 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
 - `README.md` — Project documentation (~33177 tok)
 
@@ -78,6 +78,7 @@
 - `2026-11-04-vllm-qwen35-9b-indexare.md` — Indexare: `ollama-qwen3.5:9b` → `vllm-qwen3.5:9b` — abandonat (~3781 tok)
 - `2026-11-06-vllm-phi4-mini-on-demand-containers.md` — On-demand vLLM containers and the Qwen2.5-7B report model (~4930 tok)
 - `2026-11-13-cautare-lexicala-bm25.md` — Plan: căutare lexicală BM25 (modelul Lucene / Elasticsearch, în PostgreSQL) (~3140 tok)
+- `2026-11-14-rrf-semnale-lexical-semantic.md` — Plan: RRF (Reciprocal Rank Fusion) for the L and V signals (~2962 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
@@ -195,6 +196,7 @@
 - `patch_orch.py` — sub, check_input_fits, check_input_fits (~3118 tok)
 - `patch_p3.py` — patch, dedup_prompt, dedup_semantic, dedup_cache_key (~2155 tok)
 - `patch_reindex.py` — patch (~676 tok)
+- `rrf_k_sweep.py` — Read-only sweep: RRF (rank-based L and V) vs the current score, for several k. (~1592 tok)
 - `smoke_reindex.py` — Throwaway: the normal reindex calls the safety extension once, publishes both runs. (~276 tok)
 - `tail_new.py` — prepare (~4472 tok)
 - `test_reuse_embeddings.py` — Throwaway check (not part of the repo tests): a dictionary-only change reuses stored vectors. (~1118 tok)
@@ -386,7 +388,7 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~12271 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~12456 tok)
 
 ## src/backend/ai/
 
@@ -422,7 +424,8 @@
 - `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~2866 tok)
 - `providers.py` — Per-provider transport settings for report generation. (~2270 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
-- `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2910 tok)
+- `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3048 tok)
+- `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~7297 tok)
 
 ## src/backend/ai/prompts/
 
@@ -461,7 +464,7 @@
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2911 tok)
 - `report_metrics.py` — Validated measurements for one published report, independent of storage. (~1282 tok)
 - `report_models.py` — Supported report choices and their immutable provider routing. (~2754 tok)
-- `score_formula.py` — Operator-supplied arithmetic over L1, L2 and L3; parsed from a whitelist, never `eval`-ed. (~736 tok)
+- `score_formula.py` — Operator-supplied arithmetic over named variables (L1/L2/L3 for the product tops, P1/P2/L/V for (~1577 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16550 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6762 tok)
 - `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
@@ -507,6 +510,7 @@
 
 ## src/backend/reporting/
 
+- `chat.py` — Reusable conversation rendering and structured chat-message builders. (~3438 tok)
 - `pdf.py` — Readable Romanian PDF report with source references next to each claim. (~15036 tok)
 - `recommendations.py` — Pure label extraction and PDF-only ordering of recommendation copies. (~820 tok)
 - `service.py` — Prepare database-derived PDF scores before entering the pure renderer. (~762 tok)
@@ -536,14 +540,14 @@
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
 - `client.ts` — API routes: GET (1 endpoints) (~2968 tok)
-- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3377 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3429 tok)
 
 ## src/frontend/components/
 
 - `ChatHistory.tsx` — ChatHistory (~966 tok)
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~1017 tok)
 - `FirstVisitNotice.tsx` — ACKNOWLEDGED_KEY — renders modal (~1004 tok)
-- `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3275 tok)
+- `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3406 tok)
 - `GeneratePanel.test.tsx` — message (~877 tok)
 - `GeneratePanel.tsx` — MODEL_LABELS (~6060 tok)
 - `GenerationBatchEstimate.tsx` — Typing in a limit field must not ask the server for a count on every keystroke. (~900 tok)

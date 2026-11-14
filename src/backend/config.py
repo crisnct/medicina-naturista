@@ -30,6 +30,7 @@ from backend.core.report_models import (
 from backend.core.score_formula import (
     DEFAULT_FORMULA,
     DEFAULT_SEARCH_FORMULA,
+    DEFAULT_SEARCH_RRF_K,
     compile_formula,
     compile_search_formula,
 )
@@ -353,6 +354,8 @@ class Settings:
     herb_condition_top_formula: str = DEFAULT_FORMULA
     # Scores a fragment for a question: P1, P2, L, V (see ai/search.py and core/score_formula.py).
     search_score_formula: str = DEFAULT_SEARCH_FORMULA
+    # RRF k for L and V: (k + 1) / (k + rank); see ai/search.py.
+    search_rrf_k: int = DEFAULT_SEARCH_RRF_K
     message_classification_timeout_seconds: int = 10
     message_classification_max_output_tokens: int = 300
     ai_stream: bool = False
@@ -527,6 +530,9 @@ class Settings:
                 "HERB_CONDITION_TOP_FORMULA", DEFAULT_FORMULA
             ).strip(),
             search_score_formula=env.get("SEARCH_SCORE_FORMULA", DEFAULT_SEARCH_FORMULA).strip(),
+            search_rrf_k=_int(
+                "SEARCH_RRF_K", DEFAULT_SEARCH_RRF_K, minimum=1, maximum=1000, env=env
+            ),
             message_classification_timeout_seconds=_int(
                 "MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS", 10, env=env
             ),
@@ -729,7 +735,7 @@ class Settings:
         if any(c.isspace() for c in self.herb_safety_generation_model):
             raise ValueError("herb_safety_generation_model must be empty or a model tag")
         compile_formula(self.herb_condition_top_formula)
-        compile_search_formula(self.search_score_formula)
+        compile_search_formula(self.search_score_formula, self.search_rrf_k)
         if not isinstance(self.herb_safety_extension_products, str):
             raise ValueError("herb_safety_extension_products must be a string")
         # Batch sizes matter only while the bilingual extension is active, so the single-product

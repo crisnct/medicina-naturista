@@ -116,9 +116,9 @@ fragments_legend_searched = "Afecțiune căutată"
 fragments_legend_lexical = "Cuvânt găsit"
 # Parameters: score
 fragments_relevance_score = "Scor relevanță: {score}%"
-fragments_semantic_score_label = "Scor semantic"
+fragments_semantic_score_label = "Similaritate semantică"
 # Parameters: score
-fragments_semantic_score = "Scor semantic: {score}"
+fragments_semantic_score = "Similaritate semantică: {score}"
 fragments_show_sources = "Vezi fragmentele și sursele"
 fragments_jump_to_filters = "Sari la filtre"
 generate_analysis_title = "Analiza modelului AI"

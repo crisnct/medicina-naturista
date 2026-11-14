@@ -10327,6 +10327,132 @@
       "last_seen": "2026-11-08T08:36:44.806Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of search.py",
+      "file": "src/backend/ai/search.py",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 6→8 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-575",
+      "timestamp": "2026-11-14T12:12:05.189Z",
+      "last_seen": "2026-11-14T12:12:05.189Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of search.py",
+      "file": "src/backend/ai/search.py",
+      "root_cause": "10 lines replaced/restructured",
+      "fix": "Rewrote 27→34 lines (10 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-576",
+      "timestamp": "2026-11-14T12:12:12.300Z",
+      "last_seen": "2026-11-14T12:12:12.300Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: compile_formula should be DEFAULT_SEARCH_RRF_K",
+      "file": "src/backend/config.py",
+      "root_cause": "Used \"compile_formula\" instead of \"DEFAULT_SEARCH_RRF_K\"",
+      "fix": "Changed compile_formula → DEFAULT_SEARCH_RRF_K",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-577",
+      "timestamp": "2026-11-14T12:12:27.313Z",
+      "last_seen": "2026-11-14T12:12:27.313Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/reporting/chat.py",
+      "root_cause": "Had \"semanticScore\"",
+      "fix": "Changed to \"semanticSimilarity\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-578",
+      "timestamp": "2026-11-14T12:13:03.899Z",
+      "last_seen": "2026-11-14T12:13:03.899Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong condition in logic",
+      "file": "src/frontend/components/FragmentsPanel.tsx",
+      "root_cause": "Condition was: if (minSemantic > 0 && !((fragment.semanticScore ?? -I)",
+      "fix": "Changed to: if (minSemantic > 0 && !((fragment.semanticSimilarity )",
+      "tags": [
+        "auto-detected",
+        "logic-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-579",
+      "timestamp": "2026-11-14T12:13:08.170Z",
+      "last_seen": "2026-11-14T12:13:08.170Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong condition in logic",
+      "file": "src/frontend/components/FragmentsPanel.tsx",
+      "root_cause": "Condition was: if (signals.semantic && fragment.semanticScore != null)",
+      "fix": "Changed to: if (signals.semantic && fragment.semanticSimilarity !=)",
+      "tags": [
+        "auto-detected",
+        "logic-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-580",
+      "timestamp": "2026-11-14T12:13:10.459Z",
+      "last_seen": "2026-11-14T12:13:10.459Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: length",
+      "file": "src/frontend/components/FragmentsPanel.tsx",
+      "root_cause": "length: 19 → 11",
+      "fix": "Changed length: 19 → 11",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-581",
+      "timestamp": "2026-11-14T12:16:02.137Z",
+      "last_seen": "2026-11-14T12:16:02.137Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -10946,7 +11072,14 @@
     "702d8d66-348e-47a7-ba01-f84eeb87206d": true,
     "b0c3674a-731e-43f5-b792-4b37c4bc4497": true,
     "9e8fb8c5-f120-47b5-a219-0034fd5dfede": true,
-    "5ef97abb-7af3-4f7b-bcb3-850428390a9d": true
+    "5ef97abb-7af3-4f7b-bcb3-850428390a9d": true,
+    "23baab09-5447-4c43-8cf2-d8357a6b24fc": true,
+    "d02d8512-0b63-4f4f-8990-e04b25dd24f8": true,
+    "a384edba-b0c3-4ae0-b13a-910007d3bd96": true,
+    "ae2f69d1-53bd-4fe9-8f89-0d979f200368": true,
+    "9c9a44bb-1da0-4242-8adf-75042b559179": true,
+    "f559db38-6686-4b8b-baa7-c0e1131f5167": true,
+    "8fb981c2-7b56-45f4-8b2d-cb66c24c9ad6": true
   },
-  "next_id": 575
+  "next_id": 582
 }

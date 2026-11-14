@@ -1480,7 +1480,7 @@ class WebTests(unittest.TestCase):
                 "condition_in_title": None,
                 "condition_in_text": None,
                 "lexical_bm25": 1.0,
-                "semantic_score": 1.0,
+                "semantic_rank": 1,
                 "semantic_similarity": 0.9,
             }
         ]
@@ -2038,7 +2038,7 @@ class WebTests(unittest.TestCase):
                         "condition_in_title": None,
                         "condition_in_text": None,
                         "lexical_bm25": None,
-                        "semantic_score": None,
+                        "semantic_rank": None,
                         "semantic_similarity": None,
                     }
                 ]
@@ -2054,7 +2054,7 @@ class WebTests(unittest.TestCase):
             self.assertEqual(captured, [signals])
             self.assertAlmostEqual(evidence["C1"]["relevance_percent"], 3.0 / ceiling * 100.0)
             # The components of a signal that is off stay None.
-            self.assertIsNone(evidence["C1"]["semantic_score"])
+            self.assertIsNone(evidence["C1"]["semantic_rank"])
             self.assertIsNone(evidence["C1"]["condition_in_title"])
 
     # A caller/test double without search_signals searches with every signal.

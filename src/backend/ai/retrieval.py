@@ -171,11 +171,11 @@ class Retriever:
                 "relevance_percent": best["score"] / ceiling * 100.0,
                 # The components of the score, informational only: the raw BM25 of
                 # the fragment (None when the query did not match it lexically; the
-                # ranking uses it relative to the best fragment of the search, L),
-                # V, and the raw cosine similarity behind V. Each is None when its
-                # signal is off.
+                # ranking uses its rank among the matches, L), the rank behind V, and the
+                # raw cosine similarity it comes from (the panel shows the cosine). Each
+                # is None when its signal is off (or the fragment has no rank).
                 "lexical_bm25": best.get("lexical_bm25"),
-                "semantic_score": best.get("semantic_score"),
+                "semantic_rank": best.get("semantic_rank"),
                 "semantic_similarity": best.get("semantic_similarity"),
                 # P1 / P2: the searched condition is in the fragment's title / text
                 # (None when the conditions signal is off).

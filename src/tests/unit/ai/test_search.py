@@ -149,7 +149,7 @@ class LexicalQueryTests(unittest.TestCase):
 
 class ScoreFormulaTests(unittest.TestCase):
     # The ceiling of every combination of signals under the default formula
-    # 4*P1 + 2*P2 + L + V: a signal that is off counts as 0.
+    # 4*P1 + 2*P2 + (K+1)/(K+L) + (K+1)/(K+V): a signal that is off has infinite ranks.
     EXPECTED = {"ABC": 8, "AB": 7, "AC": 7, "BC": 2, "A": 6, "B": 1, "C": 1}
 
     def test_every_combination_has_its_ceiling(self):
@@ -161,7 +161,7 @@ class ScoreFormulaTests(unittest.TestCase):
     def test_the_formula_comes_from_the_settings(self):
         from dataclasses import replace
 
-        changed = replace(search.settings, search_score_formula="P1+P2+3*L+V")
+        changed = replace(search.settings, search_score_formula="P1+P2+3*(K+1)/(K+L)+(K+1)/(K+V)")
         with unittest.mock.patch.object(search, "settings", changed):
             self.assertEqual(search.max_score(search.ALL_SIGNALS), 6)
             self.assertEqual(search.max_score(_signals("B")), 3)

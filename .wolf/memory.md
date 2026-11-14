@@ -3299,3 +3299,50 @@ description: chronological action log per session, consolidated weekly
 | 15:52 | Edited aiPlans/2026-11-13-cautare-lexicala-bm25.md | 3→1 lines | ~69 |
 | 15:52 | Edited aiPlans/2026-11-13-cautare-lexicala-bm25.md | removed 1 lines | ~3 |
 | 17:05 | Session end: 9 writes across 1 files (2026-11-13-cautare-lexicala-bm25.md) | 9 reads | ~5665 tok |
+
+## Session: 2026-11-14 11:45
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 13:52 | Created aiWork/rrf_k_sweep.py | — | ~1550 |
+| 13:56 | Edited aiWork/rrf_k_sweep.py | 3→8 lines | ~62 |
+| 13:57 | Edited aiWork/rrf_k_sweep.py | 5→5 lines | ~45 |
+| 14:01 | Created aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | — | ~2132 |
+| 14:06 | Edited aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | 2→2 lines | ~11 |
+| 14:06 | Edited aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | modified settings() | ~452 |
+| 14:06 | Edited aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | inline fix | ~26 |
+| 14:06 | Edited aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | 4.2 → 4.3 | ~5 |
+| 14:06 | Edited aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | modified 783() | ~197 |
+| 14:06 | Edited aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | 1→3 lines | ~50 |
+| 14:06 | Edited aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | 1→2 lines | ~32 |
+<!-- session:ZWRhNWY0MzEtYWNhMC00NDllLTkwMTAtMDdmNWY1YmEwZDQw -->
+| 2026-11-14T12:06:13.431Z | RRF k sweep on eval set (k=10 best, k=60 worse); plan for RRF L/V with SEARCH_RRF_K env setting written | aiWork/rrf_k_sweep.py,aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | sweep ran read-only; plan only, no production code changed |
+| 14:09 | Edited aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | 2→2 lines | ~46 |
+| 14:09 | Edited aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | expanded (+22 lines) | ~525 |
+| 14:09 | Edited aiPlans/2026-11-14-rrf-semnale-lexical-semantic.md | 11→11 lines | ~207 |
+
+## Session: 2026-11-14 14:11
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 14:12 | Edited src/backend/ai/search.py | 6→8 lines | ~186 |
+| 14:12 | Edited src/backend/ai/search.py | search() → rank() | ~182 |
+| 14:12 | Edited src/backend/ai/search.py | 3→3 lines | ~75 |
+| 14:12 | Edited src/backend/ai/search.py | 3→2 lines | ~12 |
+| 14:12 | Edited src/backend/ai/search.py | expanded (+7 lines) | ~476 |
+| 14:12 | Edited src/backend/ai/search.py | — | ~0 |
+| 14:12 | Edited src/backend/ai/search.py | 2→3 lines | ~29 |
+| 14:12 | Edited src/backend/ai/search.py | 2→2 lines | ~33 |
+| 14:12 | Edited src/backend/core/score_formula.py | 1→3 lines | ~45 |
+| 14:12 | Edited src/backend/config.py | 2→3 lines | ~22 |
+| 14:12 | Edited src/backend/config.py | 2→4 lines | ~51 |
+| 14:12 | Edited src/backend/config.py | 2→5 lines | ~66 |
+| 14:12 | Edited docker-compose.yaml | 2→3 lines | ~31 |
+| 14:13 | Edited AGENTS.md | 1→2 lines | ~59 |
+| 14:13 | Edited src/backend/reporting/chat.py | "semanticScore" → "semanticSimilarity" | ~20 |
+| 14:13 | Edited src/backend/ai/retrieval.py | 5→5 lines | ~114 |
+| 14:13 | Edited src/frontend/api/types.ts | 1→2 lines | ~39 |
+| 14:13 | Edited src/frontend/components/FragmentsPanel.tsx | 2→2 lines | ~56 |
+| 14:13 | Edited src/frontend/components/FragmentsPanel.tsx | 2→2 lines | ~58 |
+| 14:16 | Edited src/frontend/components/FragmentsPanel.tsx | CSS: 05 | ~88 |
+| 14:56 | Session end: 20 writes across 9 files (search.py, score_formula.py, config.py, docker-compose.yaml, AGENTS.md) | 6 reads | ~6200 tok |

@@ -1,4 +1,4 @@
-"""Operator-supplied arithmetic over named variables (L1/L2/L3 for the product tops, P1/P2/L/V for
+"""Operator-supplied arithmetic over named variables (L1/L2/L3 for the product tops, P1/P2/L/V/K for
 the fragment score); parsed from a whitelist, never `eval`-ed."""
 
 from __future__ import annotations
@@ -11,7 +11,9 @@ from functools import lru_cache
 from itertools import product
 
 DEFAULT_FORMULA = "2*L1+L2+100*L3"
-DEFAULT_SEARCH_FORMULA = "4*P1+2*P2+L+V"
+# L and V are ranks (reciprocal rank fusion, see ai/search.py); K is SEARCH_RRF_K.
+DEFAULT_SEARCH_FORMULA = "4*P1+2*P2+(K+1)/(K+L)+(K+1)/(K+V)"
+DEFAULT_SEARCH_RRF_K = 10
 VARIABLES = ("L1", "L2", "L3")
 MAX_LENGTH = 200
 MAX_NODES = 64
@@ -76,28 +78,33 @@ def compile_formula(source: str) -> ScoreFormula:
     return score
 
 
-# The fragment score: P1, P2 in {0, 1}, L and V in [0, 1]. Checked on a grid of those values
-# that the formula is defined, never negative, and highest when every variable is 1, so the
-# relevance percentage (score / the score of a perfect fragment) stays between 0 and 100.
-SEARCH_VARIABLES = ("P1", "P2", "L", "V")
+# The fragment score: P1, P2 in {0, 1}; L and V are ranks (1 = the best fragment of the signal,
+# infinity = the signal gave the fragment none: no match, at or below the median cosine, signal
+# off), so (K+1)/(K+L) is 0 for those; K is the RRF constant (SEARCH_RRF_K). Checked on a grid
+# of those values that the formula is defined, never negative, and highest when P1 = P2 = 1 and
+# both ranks are 1, so the relevance percentage (score / the score of a perfect fragment)
+# stays between 0 and 100.
+SEARCH_VARIABLES = ("P1", "P2", "L", "V", "K")
 SEARCH_PROBES = (0, 0.5, 1)
+SEARCH_RANK_PROBES = (1, 2, 10, 1000, math.inf)
 
 
 @lru_cache(maxsize=8)
-def compile_search_formula(source: str) -> NamedFormula:
+def compile_search_formula(source: str, k: int) -> NamedFormula:
     evaluate = _build(_parse(source, SEARCH_VARIABLES), SEARCH_VARIABLES)
 
-    def score(*values: float) -> float:
-        return float(evaluate(values))
+    def score(p1: float, p2: float, l: float, v: float) -> float:  # noqa: E741
+        return float(evaluate((p1, p2, l, v, float(k))))
 
     try:
         best = score(1, 1, 1, 1)
         if not math.isfinite(best) or best <= 0:
-            raise ValueError("formula must be positive when every variable is 1")
-        for values in product(SEARCH_PROBES, repeat=len(SEARCH_VARIABLES)):
-            result = score(*values)
-            if not math.isfinite(result) or result < 0 or result > best + 1e-9:
-                raise ValueError("formula must be between 0 and its value at P1=P2=L=V=1")
+            raise ValueError("formula must be positive for P1=P2=1 and L=V=1")
+        for p1, p2 in product(SEARCH_PROBES, repeat=2):
+            for rank_l, rank_v in product(SEARCH_RANK_PROBES, repeat=2):
+                result = score(p1, p2, rank_l, rank_v)
+                if not math.isfinite(result) or result < 0 or result > best + 1e-9:
+                    raise ValueError("formula must be between 0 and its value at P1=P2=1, L=V=1")
     except (ZeroDivisionError, OverflowError):
         raise ValueError("formula must be defined for every value") from None
     return score
@@ -105,13 +112,15 @@ def compile_search_formula(source: str) -> NamedFormula:
 
 # The same formula as one SQL expression over the given columns; every number is written as
 # a double and a division by zero gives NULL, so the database never evaluates user text.
-def search_formula_sql(source: str, columns: dict[str, str]) -> str:
-    compile_search_formula(source)
+def search_formula_sql(source: str, columns: dict[str, str], k: int) -> str:
+    compile_search_formula(source, k)
 
     def render(node: ast.expr) -> str:
         if isinstance(node, ast.Constant):
             return f"({float(node.value)!r}::double precision)"
         if isinstance(node, ast.Name):
+            if node.id == "K":
+                return f"({float(k)!r}::double precision)"
             return f"({columns[node.id]}::double precision)"
         if isinstance(node, ast.BinOp):
             left, right = render(node.left), render(node.right)
