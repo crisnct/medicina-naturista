@@ -22,10 +22,11 @@ export interface FragmentItem {
   // Original evidence text length, before display whitespace normalization.
   charactersCount?: number;
   relevancePercent: number | null;
-  // Raw cosine similarity to the question (the ranking uses its rank, V); absent in old messages.
+  // Raw cosine similarity to the question (the min-similarity filter uses it); absent in old messages.
   semanticSimilarity?: number | null;
-  // Raw BM25 of the fragment for the question (the ranking uses it relative to the best one).
-  lexicalBm25: number | null;
+  // The ranks the score formula uses: V (by cosine similarity) and L (by BM25); null without one.
+  semanticRank?: number | null;
+  lexicalRank?: number | null;
   // Where the condition the patient named was found: in the fragment's title, in its text, or nowhere.
   conditionMatch: "title" | "text" | null;
   matchLabel: string;

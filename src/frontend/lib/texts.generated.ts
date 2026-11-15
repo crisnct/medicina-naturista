@@ -113,8 +113,8 @@ export const TEXT_PARAMETERS = {
   "interface.fragments_relevant_in": [],
   "interface.fragments_characters_prefix": [],
   "interface.fragments_characters_label": [],
-  "interface.fragments_lexical_score": [
-    "score"
+  "interface.fragments_lexical_rank": [
+    "rank"
   ],
   "interface.fragments_legend_searched": [],
   "interface.fragments_legend_lexical": [],
@@ -122,8 +122,8 @@ export const TEXT_PARAMETERS = {
     "score"
   ],
   "interface.fragments_semantic_score_label": [],
-  "interface.fragments_semantic_score": [
-    "score"
+  "interface.fragments_semantic_rank": [
+    "rank"
   ],
   "interface.fragments_show_sources": [],
   "interface.fragments_jump_to_filters": [],

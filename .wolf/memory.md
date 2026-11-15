@@ -3392,3 +3392,35 @@ description: chronological action log per session, consolidated weekly
 | 09:31 | Edited src/frontend/hooks/useCategories.test.tsx | inline fix | ~9 |
 | 09:31 | Edited src/frontend/zz_tmp_app.test.tsx | added nullish coalescing | ~26 |
 | 09:31 | Edited src/frontend/zz_tmp_app.test.tsx | 2→2 lines | ~8 |
+
+## Session: 2026-11-15 23:24
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-11-15 23:44
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 23:45 | Edited src/backend/resources/texts.ro.toml | lexical() → BM25() | ~18 |
+| 23:45 | Edited src/backend/resources/texts.ro.toml | modified cosinus() | ~19 |
+| 23:45 | Edited src/backend/resources/texts.en.toml | "Lexical score (BM25): {sc" → "BM25 rank (L): {rank}" | ~13 |
+| 23:45 | Edited src/backend/resources/texts.en.toml | "Semantic similarity: {sco" → "Cosine rank (V): {rank}" | ~14 |
+| 23:45 | Edited src/backend/ai/retrieval.py | 7→7 lines | ~140 |
+| 23:45 | Edited src/backend/core/contracts.py | inline fix | ~12 |
+| 23:45 | Edited src/backend/reporting/chat.py | 1→2 lines | ~33 |
+| 23:45 | Edited src/frontend/api/types.ts | 4→5 lines | ~87 |
+| 23:45 | Edited src/frontend/components/FragmentsPanel.tsx | CSS: rank, rank | ~100 |
+| 23:45 | Edited src/tests/unit/web/test_web.py | "lexical_bm25" → "lexical_rank" | ~10 |
+| 23:45 | Edited src/tests/unit/web/test_web.py | "lexical_bm25" → "lexical_rank" | ~13 |
+| 23:45 | Edited src/frontend/components/SearchSignals.test.tsx | CSS: semanticRank, lexicalRank | ~13 |
+| 23:45 | Edited src/frontend/components/SearchSignals.test.tsx | modified toHaveTextContent() | ~33 |
+| 23:45 | Edited src/frontend/components/SearchSignals.test.tsx | "Similaritate semantică" → "Rang cosinus" | ~26 |
+| 23:45 | Edited src/frontend/components/SearchSignals.test.tsx | "Scor lexical" → "Rang BM25" | ~15 |
+| 23:45 | Edited src/frontend/components/GeneratePanel.test.tsx | inline fix | ~7 |
+| 23:45 | Edited src/frontend/components/FragmentsPanel.test.tsx | inline fix | ~6 |
+<!-- session:Njg0ZGJjNjYtNTQ5OC00N2Y0LWIzNzAtYzQyM2VhYWEwYjI3 -->
+| 2026-11-15T21:51:25.137Z | Fragments panel shows rank L (BM25) and rank V (cosine) used by the score formula instead of raw BM25 and cosine; lexical_rank/semanticRank passed through retrieval, chat message and UI; text keys renamed | src/backend/ai/retrieval.py,src/backend/reporting/chat.py,src/backend/core/contracts.py,src/backend/resources/texts.ro.toml,src/backend/resources/texts.en.toml,src/frontend/components/FragmentsPanel.tsx,src/frontend/api/types.ts | ruff, tsc, test_web.py and 3 vitest files pass; not checked in browser |
+| 23:57 | Edited src/frontend/components/FragmentsPanel.tsx | 7→6 lines | ~142 |
+| 23:57 | Edited src/frontend/components/SearchSignals.test.tsx | 2→2 lines | ~19 |
+| 23:57 | Edited src/frontend/components/SearchSignals.test.tsx | 2→1 lines | ~15 |

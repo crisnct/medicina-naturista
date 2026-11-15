@@ -78,7 +78,8 @@ const fragments: FragmentsMessage = {
       text: "Textul fragmentului.",
       relevancePercent: 80,
       semanticSimilarity: 0.5,
-      lexicalBm25: 1,
+      semanticRank: 3,
+      lexicalRank: 2,
       conditionMatch: "title",
       matchLabel: "Găsire Lexicală",
       foundByLexical: true,
@@ -98,10 +99,10 @@ describe("the fragments panel", () => {
 
     expect(filterLabels()).toEqual(["Scor minim", "Similaritate semantică", "Afecțiune", "Găsire lexicală", "Document"]);
     const line = screen.getByText(/Scor relevanță: 80%/);
-    expect(line).toHaveTextContent("Similaritate semantică: 0.50");
-    expect(line).toHaveTextContent("Scor lexical (BM25): 1.00");
+    expect(line).toHaveTextContent("Rang cosinus (V): 3");
+    expect(line).toHaveTextContent("Rang BM25 (L): 2");
     expect(line).toHaveTextContent("Afecțiune în titlu");
-    expect(line).toHaveTextContent("Găsire Lexicală");
+    expect(line).not.toHaveTextContent("Găsire Lexicală");
   });
 
   it("treats a message without signals as scored with every signal", () => {
@@ -114,7 +115,7 @@ describe("the fragments panel", () => {
     render(<FragmentsPanel message={{ ...fragments, signals: { conditions: true, lexical: true, semantic: false } }} />);
 
     expect(filterLabels()).toEqual(["Scor minim", "Afecțiune", "Găsire lexicală", "Document"]);
-    expect(screen.getByText(/Scor relevanță: 80%/)).not.toHaveTextContent("Similaritate semantică");
+    expect(screen.getByText(/Scor relevanță: 80%/)).not.toHaveTextContent("Rang cosinus");
   });
 
   it("hides what the lexical signal brings when it was off", () => {
@@ -122,8 +123,7 @@ describe("the fragments panel", () => {
 
     expect(filterLabels()).toEqual(["Scor minim", "Similaritate semantică", "Afecțiune", "Document"]);
     const line = screen.getByText(/Scor relevanță: 80%/);
-    expect(line).not.toHaveTextContent("Scor lexical");
-    expect(line).not.toHaveTextContent("Găsire Lexicală");
+    expect(line).not.toHaveTextContent("Rang BM25");
   });
 
   it("hides what the conditions signal brings when it was off", () => {

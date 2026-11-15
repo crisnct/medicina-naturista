@@ -175,13 +175,12 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
             filtered.map((fragment, index) => {
               const scoreParts: string[] = [];
               if (fragment.relevancePercent !== null) scoreParts.push(tr("interface.fragments_relevance_score", { score: Math.round(fragment.relevancePercent) }));
-              if (signals.semantic && fragment.semanticSimilarity != null)
-                scoreParts.push(tr("interface.fragments_semantic_score", { score: fragment.semanticSimilarity.toFixed(2) }));
-              if (signals.lexical && fragment.lexicalBm25 != null)
-                scoreParts.push(tr("interface.fragments_lexical_score", { score: fragment.lexicalBm25.toFixed(2) }));
               if (signals.conditions && fragment.conditionMatch !== null)
                 scoreParts.push(CONDITION_LABELS[fragment.conditionMatch]);
-              if (signals.lexical && fragment.matchLabel) scoreParts.push(fragment.matchLabel);
+              if (signals.lexical && fragment.lexicalRank != null)
+                scoreParts.push(tr("interface.fragments_lexical_rank", { rank: fragment.lexicalRank }));
+              if (signals.semantic && fragment.semanticRank != null)
+                scoreParts.push(tr("interface.fragments_semantic_rank", { rank: fragment.semanticRank }));
               return (
                 <div className="fragments-panel-fragment" key={index}>
                   <p className="fragments-panel-fragment-text"><HighlightedSource text={fragment.text} highlights={fragment.highlights ?? []} /></p>

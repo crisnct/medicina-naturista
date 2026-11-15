@@ -10633,6 +10633,168 @@
       "last_seen": "2026-11-15T07:31:19.372Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/reporting/chat.py",
+      "root_cause": "Had \"lexicalBm25\"",
+      "fix": "Changed to \"semanticRank\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-592",
+      "timestamp": "2026-11-15T21:45:12.627Z",
+      "last_seen": "2026-11-15T21:45:12.627Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong condition in logic",
+      "file": "src/frontend/components/FragmentsPanel.tsx",
+      "root_cause": "Condition was: if (signals.semantic && fragment.semanticSimilarity !=)",
+      "fix": "Changed to: if (signals.semantic && fragment.semanticRank != null)",
+      "tags": [
+        "auto-detected",
+        "logic-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-593",
+      "timestamp": "2026-11-15T21:45:16.418Z",
+      "last_seen": "2026-11-15T21:45:16.418Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/web/test_web.py",
+      "root_cause": "Had \"lexical_bm25\"",
+      "fix": "Changed to \"lexical_rank\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-594",
+      "timestamp": "2026-11-15T21:45:35.039Z",
+      "last_seen": "2026-11-15T21:45:38.386Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/SearchSignals.test.tsx",
+      "root_cause": "Had \"Similaritate semantică: 0.50\"",
+      "fix": "Changed to \"Rang cosinus (V): 3\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-595",
+      "timestamp": "2026-11-15T21:45:42.092Z",
+      "last_seen": "2026-11-15T21:45:42.092Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/SearchSignals.test.tsx",
+      "root_cause": "Had \"Similaritate semantică\"",
+      "fix": "Changed to \"Rang cosinus\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-596",
+      "timestamp": "2026-11-15T21:45:44.581Z",
+      "last_seen": "2026-11-15T21:45:44.581Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/SearchSignals.test.tsx",
+      "root_cause": "Had \"Scor lexical\"",
+      "fix": "Changed to \"Rang BM25\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-597",
+      "timestamp": "2026-11-15T21:45:47.031Z",
+      "last_seen": "2026-11-15T21:45:47.031Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: lexicalBm25 should be lexicalRank",
+      "file": "src/frontend/components/GeneratePanel.test.tsx",
+      "root_cause": "Used \"lexicalBm25\" instead of \"lexicalRank\"",
+      "fix": "Changed lexicalBm25 → lexicalRank",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-598",
+      "timestamp": "2026-11-15T21:45:49.779Z",
+      "last_seen": "2026-11-15T21:45:49.779Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: lexicalBm25 should be lexicalRank",
+      "file": "src/frontend/components/FragmentsPanel.test.tsx",
+      "root_cause": "Used \"lexicalBm25\" instead of \"lexicalRank\"",
+      "fix": "Changed lexicalBm25 → lexicalRank",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-599",
+      "timestamp": "2026-11-15T21:45:52.394Z",
+      "last_seen": "2026-11-15T21:45:52.394Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: rank",
+      "file": "src/frontend/components/FragmentsPanel.tsx",
+      "root_cause": "rank: fragment.lexicalRank → fragment.semanticRank",
+      "fix": "Changed rank: fragment.lexicalRank → fragment.semanticRank",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-600",
+      "timestamp": "2026-11-15T21:57:25.835Z",
+      "last_seen": "2026-11-15T21:57:25.835Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -11271,7 +11433,17 @@
     "6780f0cd-d81f-45a3-8272-2ac4b090c994": true,
     "1d71d5ca-6f4a-4c8f-b930-843f8a7f2491": true,
     "9c89d9fb-5674-4347-b380-4837d0873241": true,
-    "e18d94dd-e0ff-4b6f-95e4-9339764e2a76": true
+    "e18d94dd-e0ff-4b6f-95e4-9339764e2a76": true,
+    "e1155ef4-9702-468d-aeef-b95a71bf871b": true,
+    "3a20ed09-6678-4f49-bc1c-4c1686ee4d2f": true,
+    "dc36fa41-a077-4484-b5ef-57a42ce3c2d8": true,
+    "6079bb65-c831-4935-bef3-f9640161372f": true,
+    "9f5d7b27-1077-44de-a395-46ed19b71608": true,
+    "35306cd3-5ed8-4266-87dd-0b38a3967926": true,
+    "d22fca0f-64ee-47c7-a22b-2a897d3876db": true,
+    "9194a03f-e7fe-4d01-9cb3-5261d96f87b6": true,
+    "1cd9a94c-8b72-4bf4-ac54-d5ad782e0fe3": true,
+    "f8ade9df-dc9b-44a2-a5d6-94d0b2030d50": true
   },
-  "next_id": 592
+  "next_id": 601
 }

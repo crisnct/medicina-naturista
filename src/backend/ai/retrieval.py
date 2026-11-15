@@ -169,12 +169,12 @@ class Retriever:
                 # reads these fields directly and formats/orders from them.
                 "score": best["score"],
                 "relevance_percent": best["score"] / ceiling * 100.0,
-                # The components of the score, informational only: the raw BM25 of
-                # the fragment (None when the query did not match it lexically; the
-                # ranking uses its rank among the matches, L), the rank behind V, and the
-                # raw cosine similarity it comes from (the panel shows the cosine). Each
-                # is None when its signal is off (or the fragment has no rank).
-                "lexical_bm25": best.get("lexical_bm25"),
+                # The components of the score, informational only: the ranks L (by
+                # BM25) and V (by cosine similarity) the score formula uses, which the
+                # panel shows, and the raw cosine similarity behind V (the panel
+                # filters by it). Each is None when its signal is off (or the
+                # fragment has no rank).
+                "lexical_rank": best.get("lexical_rank"),
                 "semantic_rank": best.get("semantic_rank"),
                 "semantic_similarity": best.get("semantic_similarity"),
                 # P1 / P2: the searched condition is in the fragment's title / text

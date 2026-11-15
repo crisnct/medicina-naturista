@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-15T07:31:19.340Z
-> Files: 498 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-15T21:57:29.434Z
+> Files: 500 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -424,7 +424,7 @@
 - `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~2866 tok)
 - `providers.py` — Per-provider transport settings for report generation. (~2270 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
-- `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3048 tok)
+- `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3039 tok)
 - `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~7538 tok)
 
 ## src/backend/ai/prompts/
@@ -457,7 +457,7 @@
 
 ## src/backend/core/
 
-- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~2789 tok)
+- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~2780 tok)
 - `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~16186 tok)
 - `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1309 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
@@ -514,15 +514,15 @@
 
 ## src/backend/reporting/
 
-- `chat.py` — Reusable conversation rendering and structured chat-message builders. (~3438 tok)
+- `chat.py` — Reusable conversation rendering and structured chat-message builders. (~3455 tok)
 - `pdf.py` — Readable Romanian PDF report with source references next to each claim. (~15036 tok)
 - `recommendations.py` — Pure label extraction and PDF-only ordering of recommendation copies. (~820 tok)
 - `service.py` — Prepare database-derived PDF scores before entering the pure renderer. (~762 tok)
 
 ## src/backend/resources/
 
-- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~10306 tok)
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~11037 tok)
+- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~10183 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~10894 tok)
 
 ## src/backend/web/
 
@@ -545,15 +545,16 @@
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
 - `client.ts` — API routes: GET (1 endpoints) (~3102 tok)
-- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3429 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3441 tok)
 
 ## src/frontend/components/
 
 - `ChatHistory.tsx` — ChatHistory (~966 tok)
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~1017 tok)
 - `FirstVisitNotice.tsx` — ACKNOWLEDGED_KEY — renders modal (~1004 tok)
-- `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3406 tok)
-- `GeneratePanel.test.tsx` — message (~877 tok)
+- `FragmentsPanel.test.tsx` (~310 tok)
+- `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3368 tok)
+- `GeneratePanel.test.tsx` — message (~878 tok)
 - `GeneratePanel.tsx` — MODEL_LABELS (~6060 tok)
 - `GenerationBatchEstimate.tsx` — Typing in a limit field must not ask the server for a count on every keystroke. (~900 tok)
 - `GenerationDurationEstimate.tsx` — GenerationDurationEstimate (~718 tok)
@@ -569,6 +570,7 @@
 - `LanguageSelect.tsx` — Names are shown in the other language than the interface's, so a visitor stuck in the wrong (~1503 tok)
 - `MessageBubble.tsx` — MessageBubble (~824 tok)
 - `ModelWarmupDialog.tsx` — Driven by the polled job, so it reappears after a refresh and closes by itself at the next stage. (~770 tok)
+- `SearchSignals.test.tsx` — tree (~1596 tok)
 - `TypingIndicator.tsx` — A slow status ring and elapsed time while retrieval or report generation is pending. (~466 tok)
 
 ## src/frontend/hooks/
@@ -653,4 +655,4 @@
 - `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~9278 tok)
 - `test_report_metrics.py` — HTTP model binding, strict score validation and receipt idempotency. (~1677 tok)
 - `test_sessions_owner.py` — HTTP races, owner revocation and streaming limits, using synthetic dependencies. (~10126 tok)
-- `test_web.py` — Smoke tests for the local web application; no live xAI requests. (~29280 tok)
+- `test_web.py` — Smoke tests for the local web application; no live xAI requests. (~29277 tok)
