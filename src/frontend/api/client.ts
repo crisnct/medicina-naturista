@@ -98,7 +98,10 @@ export const api = {
       throw error;
     }
   },
-  getCategories: () => request<CategoriesResponse>("/api/categories"),
+  // The language is the one the caller means, not the current one: refetching a cached entry of
+  // another language must not return the current language's tree.
+  getCategories: (language?: Language) =>
+    request<CategoriesResponse>("/api/categories", language ? { headers: { "X-App-Language": language } } : undefined),
   getHerbEvidence: (groupId: string, conditionId: number | null, offset: number, signal: AbortSignal, evidenceKind: HerbEvidenceKind = "positive") => {
     const query = new URLSearchParams({ offset: String(offset) });
     if (evidenceKind !== "positive") query.set("evidenceKind", evidenceKind);

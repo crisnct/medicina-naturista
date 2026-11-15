@@ -8038,8 +8038,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-447",
       "timestamp": "2026-11-02T14:27:33.845Z",
-      "last_seen": "2026-11-02T14:35:27.030Z",
-      "occurrences": 2,
+      "last_seen": "2026-11-15T07:30:13.822Z",
+      "occurrences": 3,
       "related_bugs": []
     },
     {
@@ -10543,6 +10543,96 @@
       "last_seen": "2026-11-14T13:38:10.003Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: tree",
+      "file": "src/frontend/hooks/useCategories.test.tsx",
+      "root_cause": "tree: null, defaultSelection: [\"B\", \"C\"], indexGeneration: \"second\" → null, defaultSelection: [\"B\", \"C\"], indexGeneration: \"second\", language: \"ro\"",
+      "fix": "Changed tree: null, defaultSelection: [\"B\", \"C\"], indexGeneration: \"second\" → null, defaultSelection: [\"B\", \"C\"], indexGeneration: \"second\", language: \"ro\"",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-587",
+      "timestamp": "2026-11-15T07:30:16.216Z",
+      "last_seen": "2026-11-15T07:30:16.216Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of useCategories.ts",
+      "file": "src/frontend/hooks/useCategories.ts",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 8→6 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-588",
+      "timestamp": "2026-11-15T07:31:10.694Z",
+      "last_seen": "2026-11-15T07:31:10.694Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: indexGeneration",
+      "file": "src/frontend/hooks/useCategories.test.tsx",
+      "root_cause": "indexGeneration: \"second\", language: \"ro\" → \"second\"",
+      "fix": "Changed indexGeneration: \"second\", language: \"ro\" → \"second\"",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-589",
+      "timestamp": "2026-11-15T07:31:14.943Z",
+      "last_seen": "2026-11-15T07:31:14.943Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Null/undefined access in zz_tmp_app.test.tsx",
+      "file": "src/frontend/zz_tmp_app.test.tsx",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-590",
+      "timestamp": "2026-11-15T07:31:17.193Z",
+      "last_seen": "2026-11-15T07:31:17.193Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Type error",
+      "file": "src/frontend/zz_tmp_app.test.tsx",
+      "root_cause": "Missing or incorrect type annotation",
+      "fix": "Added type assertion/annotation",
+      "tags": [
+        "auto-detected",
+        "type-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-591",
+      "timestamp": "2026-11-15T07:31:19.372Z",
+      "last_seen": "2026-11-15T07:31:19.372Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -11175,7 +11265,13 @@
     "881e913c-dca5-4db4-bf02-93ec12da8e2c": true,
     "516477b8-e190-4385-a267-48cdda4e5d58": true,
     "85225804-3b5b-4740-9ac0-3244d18aa088": true,
-    "9ee6517b-8e5b-4167-9678-29285d1e8797": true
+    "9ee6517b-8e5b-4167-9678-29285d1e8797": true,
+    "120a76c3-f5ed-40d5-9333-a18390e980e9": true,
+    "f0be1528-8a3e-45b3-8d37-4f7ad7943edb": true,
+    "6780f0cd-d81f-45a3-8272-2ac4b090c994": true,
+    "1d71d5ca-6f4a-4c8f-b930-843f8a7f2491": true,
+    "9c89d9fb-5674-4347-b380-4837d0873241": true,
+    "e18d94dd-e0ff-4b6f-95e4-9339764e2a76": true
   },
-  "next_id": 587
+  "next_id": 592
 }

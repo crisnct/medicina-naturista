@@ -36,7 +36,8 @@ function Flag({ language }: { language: Language }) {
   );
 }
 
-export function LanguageSelect({ value, labelId, disabled, onChange }: {
+export function LanguageSelect({ id = "application-language", value, labelId, disabled, onChange }: {
+  id?: string;
   value: Language;
   labelId: string;
   disabled?: boolean;
@@ -89,7 +90,7 @@ export function LanguageSelect({ value, labelId, disabled, onChange }: {
     <div className="language-select" ref={root}>
       <button
         type="button"
-        id="application-language"
+        id={id}
         role="combobox"
         aria-haspopup="listbox"
         aria-expanded={open}

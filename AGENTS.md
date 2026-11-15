@@ -16,7 +16,7 @@ Read `.claude/README.md` for host-specific tools, shell syntax and skill entry p
 
 A bilingual (Romanian default, English) naturopathy assistant. A private local corpus of Markdown
 documents (separate `documents/ro` and `documents/en` sources) is
-turned into a **hybrid retrieval index** in PostgreSQL (pgvector + tsvector). A FastAPI backend
+turned into a **hybrid retrieval index** in PostgreSQL (pgvector + ParadeDB `pg_search` BM25). A FastAPI backend
 serves a React SPA: the user describes a health problem, the app classifies the message, searches
 the corpus, shows the retrieved fragments for review, and only then sends the selected evidence to
 a chosen LLM to draft a structured report, rendered as a PDF and optionally emailed via Gmail.

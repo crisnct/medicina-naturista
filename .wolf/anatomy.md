@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-14T13:38:12.452Z
-> Files: 495 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-15T07:31:19.340Z
+> Files: 498 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -10,7 +10,7 @@
 ## ./
 
 - `.dockerignore` (~107 tok)
-- `AGENTS.md` — AGENTS.md (~3167 tok)
+- `AGENTS.md` — AGENTS.md (~3120 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
 - `docker-compose.yaml` — Docker Compose: 2 services (~4382 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
@@ -539,11 +539,12 @@
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~206 tok)
 - `styles.css` — Styles: 90 rules, 15 vars (~12694 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
+- `zz_tmp_app.test.tsx` — node (~996 tok)
 
 ## src/frontend/api/
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
-- `client.ts` — API routes: GET (1 endpoints) (~2968 tok)
+- `client.ts` — API routes: GET (1 endpoints) (~3102 tok)
 - `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3429 tok)
 
 ## src/frontend/components/
@@ -572,7 +573,8 @@
 
 ## src/frontend/hooks/
 
-- `useCategories.ts` — Exports useCategories (~405 tok)
+- `useCategories.test.tsx` — client (~350 tok)
+- `useCategories.ts` — Exports useCategories (~578 tok)
 - `useConversation.ts` — Exports useConversation (~2537 tok)
 - `useMinScore.ts` — The "Scor minim" chosen for a search, shared by its fragments filter and by the (~222 tok)
 - `useOutputRecommendation.ts` — Exports OutputRecommendation, useOutputRecommendation (~444 tok)
@@ -581,6 +583,7 @@
 
 ## src/frontend/lib/
 
+- `categorySelection.ts` — localStorage key of the sources the patient ticked, one list per language (the folders (~376 tok)
 - `generationFeedback.ts` — Exports AI_ACTIVITY_LABELS, ModelStage, GenerationFeedback (~366 tok)
 - `inlineMarkdown.tsx` — Renders the very small Markdown subset _recommendation_text() produces (~369 tok)
 - `scoreFilter.ts` — "Scor minim" thresholds (relevance percent), shared by the fragments panel (~361 tok)

@@ -55,6 +55,9 @@ export function App() {
     };
   }, []);
 
+  const languageDisabled = changingLanguage || conversation.isLoading || conversation.isSending
+    || conversation.isGenerating || conversation.isReconnecting || !startup.ready;
+
   const handleSend = (message: string, onAccepted: () => void) => {
     if (!startup.ready || categories.isLoading || changingLanguage) return;
     conversation.clearBanner();
@@ -63,12 +66,12 @@ export function App() {
 
   return (
     <div id="app-shell">
-      <FirstVisitNotice />
+      <FirstVisitNotice language={language} languageDisabled={languageDisabled}
+        onLanguageChange={(next) => void changeLanguage(next)} />
       <Hero documentCount={categories.documentCount ?? conversation.documentCounts?.[language] ?? null} controls={<div className="language-selector">
         <span id="application-language-label">{language === "en" ? "Limbă" : "Language"}</span>
         <LanguageSelect value={language} labelId="application-language-label"
-          disabled={changingLanguage || conversation.isLoading || conversation.isSending || conversation.isGenerating || conversation.isReconnecting || !startup.ready}
-          onChange={(next) => void changeLanguage(next)} />
+          disabled={languageDisabled} onChange={(next) => void changeLanguage(next)} />
       </div>} />
       {languageError && <p role="alert">{tr("interface.api_unexpected_error")}</p>}
       <div id="conversation-card">

@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-14T13:38:12.452Z",
-    "fileCount": 495,
+    "lastScanned": "2026-11-15T07:31:19.340Z",
+    "fileCount": 498,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "e5641e992856caef6fce9ba4568d3c93afdcbba5f347aa082aee53b71f1f6d3c",
-    "storeUpdatedAt": "2026-11-14T13:38:12.463Z",
-    "rootHash": "22588214c0a64031"
+    "renderedHash": "0ef0e605c2d5db8f8e90182b841412cb09ee49cded61017ab1c1731de9780a6c",
+    "storeUpdatedAt": "2026-11-15T07:31:19.351Z",
+    "rootHash": "0627f0b7d6e662f3"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -2885,11 +2885,11 @@
     },
     "src/frontend/api/client.ts": {
       "description": "API routes: GET (1 endpoints)",
-      "tokens": 2968,
-      "hash": "f63a04adccf3fe93",
-      "size": 10392,
-      "mtimeMs": 1793787553807.9094,
-      "updatedAt": "2026-11-04T10:19:14.156Z",
+      "tokens": 3102,
+      "hash": "3620bd08b708a6a0",
+      "size": 10858,
+      "mtimeMs": 1794727869539.6418,
+      "updatedAt": "2026-11-15T07:31:09.762Z",
       "source": "hook",
       "symbols": [
         {
@@ -2917,21 +2917,21 @@
           "name": "request",
           "kind": "fn",
           "startLine": 57,
-          "endLine": 174,
-          "tokens": 1983
+          "endLine": 179,
+          "tokens": 2115
         },
         {
           "name": "errorMessage",
           "kind": "fn",
-          "startLine": 175,
-          "endLine": 192,
+          "startLine": 180,
+          "endLine": 197,
           "tokens": 346
         },
         {
           "name": "isSessionUnavailable",
           "kind": "fn",
-          "startLine": 193,
-          "endLine": 198,
+          "startLine": 198,
+          "endLine": 203,
           "tokens": 60
         }
       ]
@@ -7671,12 +7671,21 @@
     },
     "src/frontend/hooks/useCategories.ts": {
       "description": "Exports useCategories",
-      "tokens": 405,
-      "hash": "9135123587f75288",
-      "size": 1417,
-      "mtimeMs": 1793630126718.7883,
-      "updatedAt": "2026-11-02T14:35:26.998Z",
-      "source": "hook"
+      "tokens": 578,
+      "hash": "6aac1b0ac1bd1822",
+      "size": 2021,
+      "mtimeMs": 1794727873614.4646,
+      "updatedAt": "2026-11-15T07:31:13.870Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "useCategories",
+          "kind": "fn",
+          "startLine": 7,
+          "endLine": 52,
+          "tokens": 492
+        }
+      ]
     },
     "src/frontend/App.tsx": {
       "description": "App",
@@ -8115,11 +8124,11 @@
     },
     "AGENTS.md": {
       "description": "AGENTS.md",
-      "tokens": 3167,
-      "hash": "84fba2303721a573",
-      "size": 12706,
-      "mtimeMs": 1794658382566.509,
-      "updatedAt": "2026-11-14T12:13:02.831Z",
+      "tokens": 3120,
+      "hash": "f075249c0959048e",
+      "size": 12517,
+      "mtimeMs": 1794726908665.5833,
+      "updatedAt": "2026-11-15T07:15:08.933Z",
       "source": "hook"
     },
     ".claude/README.md": {
@@ -13060,6 +13069,49 @@
           "startLine": 155,
           "endLine": 181,
           "tokens": 377
+        }
+      ]
+    },
+    "src/frontend/lib/categorySelection.ts": {
+      "description": "localStorage key of the sources the patient ticked, one list per language (the folders",
+      "tokens": 376,
+      "hash": "5bab17d8fdfe7579",
+      "size": 1314,
+      "mtimeMs": 1794727417052.7112,
+      "updatedAt": "2026-11-15T07:23:37.322Z",
+      "source": "hook"
+    },
+    "src/frontend/hooks/useCategories.test.tsx": {
+      "description": "client",
+      "tokens": 350,
+      "hash": "8a7f127f822f39c8",
+      "size": 1223,
+      "mtimeMs": 1794727874663.149,
+      "updatedAt": "2026-11-15T07:31:14.910Z",
+      "source": "hook"
+    },
+    "src/frontend/zz_tmp_app.test.tsx": {
+      "description": "node",
+      "tokens": 996,
+      "hash": "c2c8fc38fbf39ea6",
+      "size": 3496,
+      "mtimeMs": 1794727879108.4727,
+      "updatedAt": "2026-11-15T07:31:19.339Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "node",
+          "kind": "fn",
+          "startLine": 9,
+          "endLine": 9,
+          "tokens": 42
+        },
+        {
+          "name": "treeFor",
+          "kind": "fn",
+          "startLine": 10,
+          "endLine": 55,
+          "tokens": 839
         }
       ]
     }

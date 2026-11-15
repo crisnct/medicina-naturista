@@ -1,47 +1,31 @@
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
-import { trIn, type Language } from "../lib/texts";
+import { tr, type Language } from "../lib/texts";
+import { LanguageSelect } from "./LanguageSelect";
 
 const ACKNOWLEDGED_KEY = "naturist_first_visit_notice";
-const LANGUAGES: Language[] = ["ro", "en"];
+const VALIDITY_MS = 365 * 24 * 60 * 60 * 1000;
 
+// The stored value is the time of acceptance; the notice shows again once a year has passed.
 function wasAcknowledged(): boolean {
-  try { return window.localStorage.getItem(ACKNOWLEDGED_KEY) === "1"; } catch { return false; }
+  try {
+    const acceptedAt = Number(window.localStorage.getItem(ACKNOWLEDGED_KEY));
+    return acceptedAt > 0 && Date.now() - acceptedAt < VALIDITY_MS;
+  } catch { return false; }
 }
 
 function remember() {
-  try { window.localStorage.setItem(ACKNOWLEDGED_KEY, "1"); } catch { /* The notice simply shows again. */ }
-}
-
-// One language of the notice. Both are always shown, side by side, whatever the interface language is.
-function NoticeColumn({ lang }: { lang: Language }) {
-  const points = [
-    { icon: "🤖", label: trIn(lang, "interface.app_data_usage_providers_label"), text: trIn(lang, "interface.app_data_usage_providers_text") },
-    { icon: "🔒", label: trIn(lang, "interface.app_data_usage_storage_label"), text: trIn(lang, "interface.app_data_usage_storage_text") },
-    { icon: "🛡️", label: trIn(lang, "interface.app_data_usage_gdpr_label"), text: trIn(lang, "interface.app_data_usage_gdpr_text") },
-    { icon: "🍪", label: trIn(lang, "interface.first_visit_cookies_label"), text: trIn(lang, "interface.first_visit_cookies_text") },
-  ];
-  return (
-    <section className="first-visit-column" lang={lang} aria-labelledby={`first-visit-title-${lang}`}>
-      <h2 id={`first-visit-title-${lang}`}>{trIn(lang, "interface.first_visit_title")}</h2>
-      <p className="source-important">
-        <strong>⚕️ {trIn(lang, "interface.app_data_usage_medical_label")}</strong>{trIn(lang, "interface.app_data_usage_medical_text")}
-      </p>
-      <ul className="source-points">
-        {points.map((point) => (
-          <li key={point.icon}>
-            <span className="source-point-icon" aria-hidden="true">{point.icon}</span>
-            <div><strong>{point.label}</strong>{point.text}</div>
-          </li>
-        ))}
-      </ul>
-    </section>
-  );
+  try { window.localStorage.setItem(ACKNOWLEDGED_KEY, String(Date.now())); } catch { /* The notice simply shows again. */ }
 }
 
 // An information notice, not a cookie wall: nothing is tracked, and the only way on is to confirm
-// that the medical warning and the data use were read. Shown once per browser, in both languages.
-export function FirstVisitNotice() {
+// that the medical warning and the data use were read. Shown in the interface language, with the
+// same language switch as the page, and again after a year.
+export function FirstVisitNotice({ language, languageDisabled, onLanguageChange }: {
+  language: Language;
+  languageDisabled?: boolean;
+  onLanguageChange: (language: Language) => void;
+}) {
   const [open, setOpen] = useState(() => !wasAcknowledged());
   const dialogRef = useRef<HTMLDialogElement>(null);
   const closing = useRef(false);
@@ -61,11 +45,19 @@ export function FirstVisitNotice() {
     setOpen(false);
   };
 
+  const points = [
+    { icon: "🤖", label: tr("interface.app_data_usage_providers_label"), text: tr("interface.app_data_usage_providers_text") },
+    { icon: "🔒", label: tr("interface.app_data_usage_storage_label"), text: tr("interface.app_data_usage_storage_text") },
+    { icon: "🛡️", label: tr("interface.app_data_usage_gdpr_label"), text: tr("interface.app_data_usage_gdpr_text") },
+    { icon: "🍪", label: tr("interface.first_visit_cookies_label"), text: tr("interface.first_visit_cookies_text") },
+  ];
+
   return createPortal(
     <dialog
       ref={dialogRef}
       className="first-visit-dialog"
-      aria-labelledby="first-visit-title-ro first-visit-title-en"
+      lang={language}
+      aria-labelledby="first-visit-title"
       // Escape must not skip the notice; only the button confirms it.
       onCancel={(event) => event.preventDefault()}
       onClose={(event) => {
@@ -73,11 +65,27 @@ export function FirstVisitNotice() {
         if (!closing.current && dialog.isConnected && !dialog.open) dialog.showModal();
       }}
     >
-      <div className="first-visit-columns">
-        {LANGUAGES.map((lang) => <NoticeColumn key={lang} lang={lang} />)}
+      <div className="first-visit-header">
+        <h2 id="first-visit-title">{tr("interface.first_visit_title")}</h2>
+        <div className="language-selector">
+          <span id="first-visit-language-label">{language === "en" ? "Limbă" : "Language"}</span>
+          <LanguageSelect id="first-visit-language" value={language} labelId="first-visit-language-label"
+            disabled={languageDisabled} onChange={onLanguageChange} />
+        </div>
       </div>
+      <p className="source-important">
+        <strong>⚕️ {tr("interface.app_data_usage_medical_label")}</strong>{tr("interface.app_data_usage_medical_text")}
+      </p>
+      <ul className="source-points">
+        {points.map((point) => (
+          <li key={point.icon}>
+            <span className="source-point-icon" aria-hidden="true">{point.icon}</span>
+            <div><strong>{point.label}</strong>{point.text}</div>
+          </li>
+        ))}
+      </ul>
       <button type="button" className="first-visit-confirm" autoFocus onClick={confirm}>
-        {LANGUAGES.map((lang) => trIn(lang, "interface.first_visit_button")).join(" / ")}
+        {tr("interface.first_visit_button")}
       </button>
     </dialog>,
     document.body,

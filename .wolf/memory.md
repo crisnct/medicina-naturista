@@ -3374,3 +3374,21 @@ description: chronological action log per session, consolidated weekly
 | 15:38 | Edited src/tests/unit/ai/test_search.py | inline fix | ~20 |
 | 15:38 | Edited src/tests/unit/ai/test_search.py | 16 → 12 | ~25 |
 | 16:08 | Session end: 22 writes across 3 files (generic_query_words.txt, search.py, test_search.py) | 5 reads | ~5163 tok |
+
+## Session: 2026-11-15 09:11
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 09:15 | Edited AGENTS.md | inline fix | ~14 |
+| 09:23 | Created src/frontend/lib/categorySelection.ts | — | ~376 |
+| 09:23 | Created src/frontend/hooks/useCategories.ts | — | ~548 |
+| 09:30 | Created src/frontend/hooks/useCategories.ts | — | ~642 |
+| 09:30 | Edited src/frontend/hooks/useCategories.ts | inline fix | ~20 |
+| 09:30 | Edited src/frontend/hooks/useCategories.test.tsx | inline fix | ~26 |
+| 09:31 | Edited src/frontend/api/client.ts | 1→4 lines | ~93 |
+| 09:31 | Edited src/frontend/hooks/useCategories.ts | 8→6 lines | ~58 |
+| 09:31 | Edited src/frontend/hooks/useCategories.ts | — | ~0 |
+| 09:31 | Edited src/frontend/hooks/useCategories.ts | inline fix | ~9 |
+| 09:31 | Edited src/frontend/hooks/useCategories.test.tsx | inline fix | ~9 |
+| 09:31 | Edited src/frontend/zz_tmp_app.test.tsx | added nullish coalescing | ~26 |
+| 09:31 | Edited src/frontend/zz_tmp_app.test.tsx | 2→2 lines | ~8 |
