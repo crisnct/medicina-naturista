@@ -1497,6 +1497,7 @@ class WebTests(unittest.TestCase):
                 "test-generation",
             )
             profile.ai_conditions = ({"index": 1, "name": "Cefalee", "terms": ["Cefalee"]},)
+            ranked[0].update(score=6.0, condition_in_title=True, condition_in_text=False)
             with_ai_condition = retriever._collect(
                 session,
                 None,
@@ -1508,8 +1509,8 @@ class WebTests(unittest.TestCase):
             without_condition["C1"]["relevance_percent"], 100.0
         )  # A left out: ceiling 2
         self.assertAlmostEqual(
-            with_ai_condition["C1"]["relevance_percent"], 25.0
-        )  # A on: ceiling 8
+            with_ai_condition["C1"]["relevance_percent"], 100.0
+        )  # A on, condition in the title (P2 = 0), L = V = 1: score 6 of its own ceiling 6
 
     # --- Fragment message building (pure function, no HTTP round trip needed) --
 
@@ -1982,11 +1983,16 @@ class WebTests(unittest.TestCase):
         retriever.documents_dir = Path(self.temp.name)
         retriever._known_category_ids = frozenset()
         # Purely about whether a low score still survives into evidence.
+        # P1 = P2 = 1 makes every fragment's own ceiling the global one (8).
+        both = {"condition_in_title": True, "condition_in_text": True}
         ranked = [
-            self._ranked(1, "a.md", 1, 5, 0.50),
-            self._ranked(2, "b.md", 1, 5, 0.05),  # would have failed the old default 10% threshold
-            self._ranked(3, "c.md", 1, 5, 0.90, lexical=True),
-            self._ranked(4, "d.md", 1, 5, 0.001, lexical=True),  # near-zero score, still kept
+            {**self._ranked(1, "a.md", 1, 5, 0.50), **both},
+            {
+                **self._ranked(2, "b.md", 1, 5, 0.05),
+                **both,
+            },  # would have failed the old 10% threshold
+            {**self._ranked(3, "c.md", 1, 5, 0.90, lexical=True), **both},
+            {**self._ranked(4, "d.md", 1, 5, 0.001, lexical=True), **both},  # near zero, still kept
         ]
 
         with patch("backend.ai.retrieval.rank", return_value=ranked):
@@ -2005,9 +2011,9 @@ class WebTests(unittest.TestCase):
         self.assertFalse(evidence["C1"]["found_by_lexical"])
         self.assertTrue(evidence["C3"]["found_by_lexical"])
 
-    # relevance_percent is the score over the ceiling of the signals the patient
-    # chose, computed once here: the same score is 100 % with conditions alone
-    # (ceiling 6) and 37.5 % with every signal on (ceiling 8).
+    # relevance_percent is the score over the ceiling of the fragment (its own P1 / P2 and
+    # the signals the patient chose), computed once here: a fragment with the condition in
+    # the title has ceiling 4 with conditions alone and 6 with every signal on.
     def test_collect_computes_the_percent_against_the_ceiling_of_the_chosen_signals(self):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
@@ -2015,11 +2021,11 @@ class WebTests(unittest.TestCase):
         retriever.documents_dir = Path(self.temp.name)
         retriever._known_category_ids = frozenset()
         for code, ceiling in (
-            ("ABC", 8),
-            ("AB", 7),
-            ("AC", 7),
+            ("ABC", 6),
+            ("AB", 5),
+            ("AC", 5),
             ("BC", 2),
-            ("A", 6),
+            ("A", 4),
             ("B", 1),
             ("C", 1),
         ):
@@ -2035,8 +2041,9 @@ class WebTests(unittest.TestCase):
                     {
                         **self._ranked(1, "a.md", 1, 5, 0.5),
                         "score": 3.0,
-                        "condition_in_title": None,
-                        "condition_in_text": None,
+                        # The condition is in the title when the signal is on (P2 = 0).
+                        "condition_in_title": True if signals.conditions else None,
+                        "condition_in_text": False if signals.conditions else None,
                         "lexical_rank": None,
                         "semantic_rank": None,
                         "semantic_similarity": None,
@@ -2055,7 +2062,9 @@ class WebTests(unittest.TestCase):
             self.assertAlmostEqual(evidence["C1"]["relevance_percent"], 3.0 / ceiling * 100.0)
             # The components of a signal that is off stay None.
             self.assertIsNone(evidence["C1"]["semantic_rank"])
-            self.assertIsNone(evidence["C1"]["condition_in_title"])
+            self.assertEqual(
+                evidence["C1"]["condition_in_title"], True if signals.conditions else None
+            )
 
     # A caller/test double without search_signals searches with every signal.
     def test_collect_defaults_to_every_signal(self):

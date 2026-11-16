@@ -19,7 +19,7 @@ from backend.ai.search import (
     EVIDENCE_HEADING_SEPARATOR,
     effective_signals,
     evidence_heading_prefix,
-    max_score,
+    fragment_ceiling,
     rank,
 )
 from backend.core.contracts import (
@@ -132,9 +132,10 @@ class Retriever:
             signals.code,
         )
         # The fragment's score is rank()'s score (ai/search.py: the weighted
-        # sum of the chosen signals, never above max_score(signals));
+        # sum of the chosen signals);
         # relevance_percent is that score as a percentage of the ceiling OF THAT
-        # COMBINATION, computed here once and never again. rank() cuts a whole-fragment
+        # FRAGMENT (fragment_ceiling(): the formula with its own P1 / P2 and ranks 1),
+        # computed here once and never again. rank() cuts a whole-fragment
         # prefix by characters; a token budget additionally bounds serialized content.
         # The message resolved as the chat saw it: the dictionary's conditions plus
         # the ones the AI identified. Without any condition the conditions signal
@@ -148,17 +149,20 @@ class Retriever:
             resolved=resolved,
             language=getattr(session, "language", current_language()),
         )
-        ceiling = max_score(effective_signals(signals, resolved))
+        effective = effective_signals(signals, resolved)
 
         # Each fragment is one piece of evidence, exactly as indexed (fragments
         # are whole sections, see ai/fragmenter.py), best score first.
         evidence = EvidenceSnapshot(generation, removed)
         # What the highlights of the fragments are computed from (see fragment_highlights.py).
         evidence.resolved = resolved
-        evidence.signals = effective_signals(signals, resolved)
+        evidence.signals = effective
         content_bytes = 0
         for best in candidates:
             evidence_id = f"C{best['chunk_id']}"
+            ceiling = fragment_ceiling(
+                effective, bool(best["condition_in_title"]), bool(best["condition_in_text"])
+            )
             item: EvidenceItem = {
                 "source": (
                     f"documents/{best['source_relative_path']}:{best['line_start']}-{best['line_end']}"

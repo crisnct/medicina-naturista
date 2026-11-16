@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-15T21:57:29.434Z",
+    "lastScanned": "2026-11-15T22:15:21.409Z",
     "fileCount": 500,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "b10a1d66b6e52079be6ff6da6abbbe20ee91ce3f9fa72ff86c5aaff6c3d06ea8",
-    "storeUpdatedAt": "2026-11-15T21:57:29.445Z",
-    "rootHash": "f9078feb93c3d1de"
+    "renderedHash": "51df8c2a65b5b76d98d7d8af70b82b4f1539aa6a9915750f70b99efd9300d25f",
+    "storeUpdatedAt": "2026-11-15T22:15:21.420Z",
+    "rootHash": "fe599e9bcb97df13"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -7170,11 +7170,11 @@
     },
     "src/backend/ai/retrieval.py": {
       "description": "Local-only retrieval over the existing hybrid index.",
-      "tokens": 3039,
-      "hash": "376a784ccdc918d9",
-      "size": 10635,
-      "mtimeMs": 1794779108552.0718,
-      "updatedAt": "2026-11-15T21:45:08.818Z",
+      "tokens": 3085,
+      "hash": "0177436e93399514",
+      "size": 10795,
+      "mtimeMs": 1794780894027.2175,
+      "updatedAt": "2026-11-15T22:14:54.253Z",
       "source": "hook",
       "symbols": [
         {
@@ -7188,14 +7188,14 @@
           "name": "Retriever",
           "kind": "class",
           "startLine": 48,
-          "endLine": 217,
-          "tokens": 2535
+          "endLine": 221,
+          "tokens": 2579
         },
         {
           "name": "EvidenceSnapshot",
           "kind": "class",
-          "startLine": 218,
-          "endLine": 223,
+          "startLine": 222,
+          "endLine": 227,
           "tokens": 64
         }
       ]
@@ -8197,11 +8197,11 @@
     },
     "src/tests/unit/web/test_web.py": {
       "description": "Smoke tests for the local web application; no live xAI requests.",
-      "tokens": 29277,
-      "hash": "586451bf4af1124b",
-      "size": 102897,
-      "mtimeMs": 1794779138074.102,
-      "updatedAt": "2026-11-15T21:45:38.356Z",
+      "tokens": 29438,
+      "hash": "ea08a6a259fb7354",
+      "size": 103462,
+      "mtimeMs": 1794780921131.187,
+      "updatedAt": "2026-11-15T22:15:21.409Z",
       "source": "hook",
       "symbols": [
         {
@@ -8264,8 +8264,8 @@
           "name": "WebTests",
           "kind": "class",
           "startLine": 220,
-          "endLine": 2269,
-          "tokens": 27068
+          "endLine": 2273,
+          "tokens": 27230
         }
       ]
     },
@@ -12752,11 +12752,11 @@
     },
     "src/backend/ai/search.py": {
       "description": "Offline search over the Postgres-backed medical index. Every fragment gets",
-      "tokens": 7538,
-      "hash": "50176e014d78ecc5",
-      "size": 26391,
-      "mtimeMs": 1794663232950.5015,
-      "updatedAt": "2026-11-14T13:33:53.223Z",
+      "tokens": 7650,
+      "hash": "49ae2325032d7a56",
+      "size": 26781,
+      "mtimeMs": 1794780885132.6646,
+      "updatedAt": "2026-11-15T22:14:45.365Z",
       "source": "hook",
       "symbols": [
         {
@@ -12777,119 +12777,126 @@
           "name": "effective_signals",
           "kind": "fn",
           "startLine": 94,
-          "endLine": 104,
-          "tokens": 146
+          "endLine": 106,
+          "tokens": 196
+        },
+        {
+          "name": "fragment_ceiling",
+          "kind": "fn",
+          "startLine": 107,
+          "endLine": 117,
+          "tokens": 117
         },
         {
           "name": "max_score",
           "kind": "fn",
-          "startLine": 105,
-          "endLine": 121,
-          "tokens": 179
+          "startLine": 118,
+          "endLine": 128,
+          "tokens": 123
         },
         {
           "name": "evidence_heading_prefix",
           "kind": "fn",
-          "startLine": 122,
-          "endLine": 126,
+          "startLine": 129,
+          "endLine": 133,
           "tokens": 58
         },
         {
           "name": "_words",
           "kind": "fn",
-          "startLine": 127,
-          "endLine": 132,
+          "startLine": 134,
+          "endLine": 139,
           "tokens": 70
         },
         {
           "name": "_fold",
           "kind": "fn",
-          "startLine": 133,
-          "endLine": 139,
+          "startLine": 140,
+          "endLine": 146,
           "tokens": 100
         },
         {
           "name": "_query_words",
           "kind": "fn",
-          "startLine": 140,
-          "endLine": 164,
+          "startLine": 147,
+          "endLine": 171,
           "tokens": 368
         },
         {
           "name": "_Parameters",
           "kind": "class",
-          "startLine": 165,
-          "endLine": 175,
+          "startLine": 172,
+          "endLine": 182,
           "tokens": 96
         },
         {
           "name": "_terms_clause",
           "kind": "fn",
-          "startLine": 176,
-          "endLine": 186,
+          "startLine": 183,
+          "endLine": 193,
           "tokens": 147
         },
         {
           "name": "_phrase_clause",
           "kind": "fn",
-          "startLine": 187,
-          "endLine": 194,
+          "startLine": 194,
+          "endLine": 201,
           "tokens": 114
         },
         {
           "name": "_field_clauses",
           "kind": "fn",
-          "startLine": 195,
-          "endLine": 212,
+          "startLine": 202,
+          "endLine": 219,
           "tokens": 262
         },
         {
           "name": "lexical_terms",
           "kind": "fn",
-          "startLine": 213,
-          "endLine": 225,
+          "startLine": 220,
+          "endLine": 232,
           "tokens": 144
         },
         {
           "name": "lexical_query",
           "kind": "fn",
-          "startLine": 226,
-          "endLine": 389,
+          "startLine": 233,
+          "endLine": 396,
           "tokens": 2314
         },
         {
           "name": "rank",
           "kind": "fn",
-          "startLine": 390,
-          "endLine": 404,
+          "startLine": 397,
+          "endLine": 411,
           "tokens": 153
         },
         {
           "name": "_rank",
           "kind": "fn",
-          "startLine": 405,
-          "endLine": 502,
+          "startLine": 412,
+          "endLine": 509,
           "tokens": 1393
         },
         {
           "name": "_finite_rank",
           "kind": "fn",
-          "startLine": 503,
-          "endLine": 509,
+          "startLine": 510,
+          "endLine": 516,
           "tokens": 90
         },
         {
           "name": "warm_up",
           "kind": "fn",
-          "startLine": 510,
-          "endLine": 514,
+          "startLine": 517,
+          "endLine": 521,
           "tokens": 45
         },
         {
           "name": "main",
           "kind": "fn",
-          "startLine": 515,
-          "endLine": 564,
+          "startLine": 522,
+          "endLine": 571,
           "tokens": 581
         }
       ]

@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-15T21:57:29.434Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-15T22:15:21.409Z
 > Files: 500 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -424,8 +424,8 @@
 - `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~2866 tok)
 - `providers.py` — Per-provider transport settings for report generation. (~2270 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
-- `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3039 tok)
-- `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~7538 tok)
+- `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3085 tok)
+- `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~7650 tok)
 
 ## src/backend/ai/prompts/
 
@@ -655,4 +655,4 @@
 - `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~9278 tok)
 - `test_report_metrics.py` — HTTP model binding, strict score validation and receipt idempotency. (~1677 tok)
 - `test_sessions_owner.py` — HTTP races, owner revocation and streaming limits, using synthetic dependencies. (~10126 tok)
-- `test_web.py` — Smoke tests for the local web application; no live xAI requests. (~29277 tok)
+- `test_web.py` — Smoke tests for the local web application; no live xAI requests. (~29438 tok)

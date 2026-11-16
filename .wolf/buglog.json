@@ -10795,6 +10795,114 @@
       "last_seen": "2026-11-15T21:57:25.835Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of search.py",
+      "file": "src/backend/ai/search.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 11→18 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-601",
+      "timestamp": "2026-11-15T22:14:45.401Z",
+      "last_seen": "2026-11-15T22:14:45.401Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: max_score should be fragment_ceiling",
+      "file": "src/backend/ai/retrieval.py",
+      "root_cause": "Used \"max_score\" instead of \"fragment_ceiling\"",
+      "fix": "Changed max_score → fragment_ceiling",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-602",
+      "timestamp": "2026-11-15T22:14:47.700Z",
+      "last_seen": "2026-11-15T22:14:47.700Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: effective_signals should be effective",
+      "file": "src/backend/ai/retrieval.py",
+      "root_cause": "Used \"effective_signals\" instead of \"effective\"",
+      "fix": "Changed effective_signals → effective",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-603",
+      "timestamp": "2026-11-15T22:14:52.068Z",
+      "last_seen": "2026-11-15T22:14:52.068Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_web.py",
+      "file": "src/tests/unit/web/test_web.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 6→8 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-604",
+      "timestamp": "2026-11-15T22:15:14.089Z",
+      "last_seen": "2026-11-15T22:15:14.089Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_web.py",
+      "file": "src/tests/unit/web/test_web.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 9→10 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-605",
+      "timestamp": "2026-11-15T22:15:18.956Z",
+      "last_seen": "2026-11-15T22:15:18.956Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: assertIsNone should be assertEqual",
+      "file": "src/tests/unit/web/test_web.py",
+      "root_cause": "Used \"assertIsNone\" instead of \"assertEqual\"",
+      "fix": "Changed assertIsNone → assertEqual",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-606",
+      "timestamp": "2026-11-15T22:15:21.439Z",
+      "last_seen": "2026-11-15T22:15:21.439Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -11443,7 +11551,13 @@
     "d22fca0f-64ee-47c7-a22b-2a897d3876db": true,
     "9194a03f-e7fe-4d01-9cb3-5261d96f87b6": true,
     "1cd9a94c-8b72-4bf4-ac54-d5ad782e0fe3": true,
-    "f8ade9df-dc9b-44a2-a5d6-94d0b2030d50": true
+    "f8ade9df-dc9b-44a2-a5d6-94d0b2030d50": true,
+    "0af933b1-2d62-4524-9dfc-0b5a4fe16df7": true,
+    "eba5a7c3-6b59-432c-bb9d-7cb6bcda64b3": true,
+    "560f9be5-b4d3-425d-a00a-0a49d541e077": true,
+    "ebd0bef8-09c3-4ddc-942e-3789143c5349": true,
+    "aa375abb-ce2b-4e6a-9727-05ff4388aada": true,
+    "3c2a711e-48ab-4e99-a6ea-9b81bde4afa0": true
   },
-  "next_id": 601
+  "next_id": 607
 }

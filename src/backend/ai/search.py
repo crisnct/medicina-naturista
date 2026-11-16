@@ -99,17 +99,24 @@ def effective_signals(signals: SearchSignals, resolved: ResolvedQuery) -> Search
     return replace(signals, conditions=False)
 
 
-# The highest score a fragment can reach with these signals: the formula with every signal
-# that is on at its best (P = 1, rank 1) and the others off (P = 0, infinite rank);
-# relevance_percent = score / max_score * 100.
-def max_score(signals: SearchSignals) -> float:
+# The highest score a fragment with these P1 / P2 can reach: the formula with its own P1 and P2
+# and every other signal that is on at its best (rank 1), the ones that are off with an
+# infinite rank. relevance_percent = score / fragment_ceiling * 100, so a fragment whose
+# condition is in the title (P2 = 0) is 100% with L = V = 1, even though P1 and P2 are never
+# both 1 for the same condition.
+def fragment_ceiling(signals: SearchSignals, p1: bool, p2: bool) -> float:
     on = (
-        float(signals.conditions),
-        float(signals.conditions),
+        float(p1),
+        float(p2),
         1.0 if signals.lexical else math.inf,
         1.0 if signals.semantic else math.inf,
     )
     return compile_search_formula(settings.search_score_formula, settings.search_rrf_k)(*on)
+
+
+# The highest score any fragment can reach with these signals (P1 = P2 = 1, every rank 1).
+def max_score(signals: SearchSignals) -> float:
+    return fragment_ceiling(signals, signals.conditions, signals.conditions)
 
 
 # What the evidence text of a fragment adds in front of its indexed text (see
