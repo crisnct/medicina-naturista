@@ -10903,6 +10903,42 @@
       "last_seen": "2026-11-15T22:15:21.439Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of merge_safety.py",
+      "file": "aiWork/merge_safety.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→4 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-607",
+      "timestamp": "2026-11-17T07:02:32.712Z",
+      "last_seen": "2026-11-17T07:02:32.712Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: bisect should be json",
+      "file": "aiWork/merge_safety.py",
+      "root_cause": "Used \"bisect\" instead of \"json\"",
+      "fix": "Changed bisect → json",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-608",
+      "timestamp": "2026-11-17T07:02:36.872Z",
+      "last_seen": "2026-11-17T07:02:36.872Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -11557,7 +11593,9 @@
     "560f9be5-b4d3-425d-a00a-0a49d541e077": true,
     "ebd0bef8-09c3-4ddc-942e-3789143c5349": true,
     "aa375abb-ce2b-4e6a-9727-05ff4388aada": true,
-    "3c2a711e-48ab-4e99-a6ea-9b81bde4afa0": true
+    "3c2a711e-48ab-4e99-a6ea-9b81bde4afa0": true,
+    "7e78c853-9caa-4c6e-98e0-3aa0ec788e35": true,
+    "5c6fe557-9e46-4bcf-8206-f6d7a3b3d6da": true
   },
-  "next_id": 607
+  "next_id": 609
 }

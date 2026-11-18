@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-15T22:15:21.409Z",
-    "fileCount": 500,
+    "lastScanned": "2026-11-18T05:14:13.867Z",
+    "fileCount": 511,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "51df8c2a65b5b76d98d7d8af70b82b4f1539aa6a9915750f70b99efd9300d25f",
-    "storeUpdatedAt": "2026-11-15T22:15:21.420Z",
-    "rootHash": "fe599e9bcb97df13"
+    "renderedHash": "056396684e98c626e7bed765d164310e958ef8dad2563c7815490047974dc489",
+    "storeUpdatedAt": "2026-11-18T05:14:13.879Z",
+    "rootHash": "08e1e31163536eb6"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -13162,6 +13162,211 @@
       "mtimeMs": 1794779152085.715,
       "updatedAt": "2026-11-15T21:45:52.362Z",
       "source": "hook"
+    },
+    "aiWork/export_safety_current.py": {
+      "description": "Scratch: dump the active herb_safety_messages rows (both languages) with herb identity.",
+      "tokens": 504,
+      "hash": "769bac59dbb3a7eb",
+      "size": 1762,
+      "mtimeMs": 1794898467902.5269,
+      "updatedAt": "2026-11-17T06:54:28.162Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "psql",
+          "kind": "fn",
+          "startLine": 32,
+          "endLine": 42,
+          "tokens": 109
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 43,
+          "endLine": 52,
+          "tokens": 79
+        }
+      ]
+    },
+    "aiWork/export_safety_current.sql": {
+      "description": "",
+      "tokens": 143,
+      "hash": "14d3c97fe55f81ea",
+      "size": 535,
+      "mtimeMs": 1794898495750.872,
+      "updatedAt": "2026-11-17T06:54:56.038Z",
+      "source": "hook"
+    },
+    "aiWork/safety_counts.sql": {
+      "description": "",
+      "tokens": 90,
+      "hash": "a5a72c8bb4f91ba3",
+      "size": 336,
+      "mtimeMs": 1794898497000.6418,
+      "updatedAt": "2026-11-17T06:54:57.275Z",
+      "source": "hook"
+    },
+    "aiWork/compare_safety.py": {
+      "description": "Scratch: find the herb_name rule of the JSON file and diff it against the live database.",
+      "tokens": 410,
+      "hash": "f054e4ff78a10483",
+      "size": 1433,
+      "mtimeMs": 1794898523226.7617,
+      "updatedAt": "2026-11-17T06:55:23.540Z",
+      "source": "hook"
+    },
+    "aiWork/inspect_file_format.py": {
+      "description": "Scratch: reproduce the JSON file byte-for-byte and find its sort order.",
+      "tokens": 853,
+      "hash": "c08d33d7549a7fc3",
+      "size": 2989,
+      "mtimeMs": 1794898573755.996,
+      "updatedAt": "2026-11-17T06:56:14.081Z",
+      "source": "hook"
+    },
+    "aiWork/sort_check.sql": {
+      "description": "Read-only: returns the original row positions (0-based) in the order the database collation sorts th",
+      "tokens": 80,
+      "hash": "25732563a8b74cd4",
+      "size": 298,
+      "mtimeMs": 1794898655438.5703,
+      "updatedAt": "2026-11-17T06:57:35.708Z",
+      "source": "hook"
+    },
+    "aiWork/merge_safety.py": {
+      "description": "Scratch: merge the database rows missing from herb_safety_messages.json into the file.",
+      "tokens": 1967,
+      "hash": "b6cd8e399ca98978",
+      "size": 6884,
+      "mtimeMs": 1794898956618.9668,
+      "updatedAt": "2026-11-17T07:02:36.840Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "read_json",
+          "kind": "fn",
+          "startLine": 25,
+          "endLine": 28,
+          "tokens": 25
+        },
+        {
+          "name": "herb_name",
+          "kind": "fn",
+          "startLine": 29,
+          "endLine": 33,
+          "tokens": 61
+        },
+        {
+          "name": "file_key",
+          "kind": "fn",
+          "startLine": 34,
+          "endLine": 37,
+          "tokens": 40
+        },
+        {
+          "name": "as_file_row",
+          "kind": "fn",
+          "startLine": 38,
+          "endLine": 46,
+          "tokens": 54
+        },
+        {
+          "name": "missing_rows",
+          "kind": "fn",
+          "startLine": 47,
+          "endLine": 59,
+          "tokens": 126
+        },
+        {
+          "name": "prep",
+          "kind": "fn",
+          "startLine": 60,
+          "endLine": 71,
+          "tokens": 131
+        },
+        {
+          "name": "merge",
+          "kind": "fn",
+          "startLine": 72,
+          "endLine": 162,
+          "tokens": 1254
+        }
+      ]
+    },
+    "aiWork/rank.sql": {
+      "description": "Read-only: ids of the strings in the order the database collation sorts (type, problem).",
+      "tokens": 59,
+      "hash": "260ab73fcbc470ff",
+      "size": 220,
+      "mtimeMs": 1794898887439.9094,
+      "updatedAt": "2026-11-17T07:01:27.687Z",
+      "source": "hook"
+    },
+    "aiWork/verify_merge.py": {
+      "description": "Scratch: independent checks of the merged candidate against the original file and the database.",
+      "tokens": 1068,
+      "hash": "f3f512db21a27d2f",
+      "size": 3737,
+      "mtimeMs": 1794898921933.2666,
+      "updatedAt": "2026-11-17T07:02:02.156Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "key",
+          "kind": "fn",
+          "startLine": 23,
+          "endLine": 26,
+          "tokens": 39
+        },
+        {
+          "name": "db_key",
+          "kind": "fn",
+          "startLine": 27,
+          "endLine": 65,
+          "tokens": 554
+        },
+        {
+          "name": "run_count",
+          "kind": "fn",
+          "startLine": 66,
+          "endLine": 90,
+          "tokens": 262
+        }
+      ]
+    },
+    "aiWork/extract_old_rows.py": {
+      "description": "Scratch: write the file rows that the database no longer holds into a separate JSON file.",
+      "tokens": 455,
+      "hash": "f0c0a253395cb76c",
+      "size": 1591,
+      "mtimeMs": 1794903821446.8613,
+      "updatedAt": "2026-11-17T08:23:41.728Z",
+      "source": "hook"
+    },
+    "aiWork/remove_old_rows.py": {
+      "description": "Scratch: remove from herb_safety_messages.json the rows listed in herb_safety_messages.not_in_databa",
+      "tokens": 705,
+      "hash": "37ff055acabd3881",
+      "size": 2465,
+      "mtimeMs": 1794978853571.7676,
+      "updatedAt": "2026-11-18T05:14:13.866Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "read_json",
+          "kind": "fn",
+          "startLine": 24,
+          "endLine": 27,
+          "tokens": 25
+        },
+        {
+          "name": "key",
+          "kind": "fn",
+          "startLine": 28,
+          "endLine": 58,
+          "tokens": 424
+        }
+      ]
     }
   },
   "preamble": [

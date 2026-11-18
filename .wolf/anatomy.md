@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-15T22:15:21.409Z
-> Files: 500 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-18T05:14:13.867Z
+> Files: 511 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -185,10 +185,16 @@
 - `bench_parallel_ollama.py` — Benchmark: sequential vs 2 parallel threads of association batches to Ollama qwen3.5:9b. (~2687 tok)
 - `check_run_stage.py` — Throwaway: _run_stage with fakes -- local runs once, deepseek retries a transient failure. (~579 tok)
 - `check_write_retry.py` — Throwaway: ProductSafetyRepository.transaction retries a busy index lock on writes only. (~382 tok)
+- `compare_safety.py` — Scratch: find the herb_name rule of the JSON file and diff it against the live database. (~410 tok)
 - `e2e_extension.py` — Q: answer, complete_json, complete_batch, embed + 1 more (~2251 tok)
 - `e2e_resume.py` — Q: msgs, complete_json, complete_batch, run (~1203 tok)
+- `export_safety_current.py` — Scratch: dump the active herb_safety_messages rows (both languages) with herb identity. (~504 tok)
+- `export_safety_current.sql` (~143 tok)
+- `extract_old_rows.py` — Scratch: write the file rows that the database no longer holds into a separate JSON file. (~455 tok)
 - `gen_compare.py` — Throwaway: the same 10-product generation batch with one model; saves the raw answer, no DB writes. (~654 tok)
 - `gen_single.py` — Throwaway: HERB_SAFETY_MINISTRAL_BATCH_SIZE=1 -- ten known products, one request each; no DB writes. (~649 tok)
+- `inspect_file_format.py` — Scratch: reproduce the JSON file byte-for-byte and find its sort order. (~853 tok)
+- `merge_safety.py` — Scratch: merge the database rows missing from herb_safety_messages.json into the file. (~1967 tok)
 - `patch_deepseek.py` — One-off patch: remove the DeepSeek stage from the safety extension (run once, then delete). (~3330 tok)
 - `patch_ds_default.py` — patch (~1119 tok)
 - `patch_gemma.py` — patch, stage_digest, stage_digest (~1822 tok)
@@ -196,12 +202,17 @@
 - `patch_orch.py` — sub, check_input_fits, check_input_fits (~3118 tok)
 - `patch_p3.py` — patch, dedup_prompt, dedup_semantic, dedup_cache_key (~2155 tok)
 - `patch_reindex.py` — patch (~676 tok)
+- `rank.sql` — Read-only: ids of the strings in the order the database collation sorts (type, problem). (~59 tok)
+- `remove_old_rows.py` — Scratch: remove from herb_safety_messages.json the rows listed in herb_safety_messages.not_in_databa (~705 tok)
 - `rrf_k_sweep.py` — Read-only sweep: RRF (rank-based L and V) vs the current score, for several k. (~1592 tok)
+- `safety_counts.sql` (~90 tok)
 - `smoke_reindex.py` — Throwaway: the normal reindex calls the safety extension once, publishes both runs. (~276 tok)
+- `sort_check.sql` — Read-only: returns the original row positions (0-based) in the order the database collation sorts th (~80 tok)
 - `tail_new.py` — prepare (~4472 tok)
 - `test_reuse_embeddings.py` — Throwaway check (not part of the repo tests): a dictionary-only change reuses stored vectors. (~1118 tok)
 - `time_batches.py` — Throwaway timing: one real qwen batch of 10 products, then one gemma dedup batch; nothing is saved. (~558 tok)
 - `try_dedup_model.py` — Throwaway: run the dedup stage of one product with another local model; writes nothing to the DB. (~507 tok)
+- `verify_merge.py` — Scratch: independent checks of the merged candidate against the original file and the database. (~1068 tok)
 - `vllm_phase0_payload.py` — Phase 0 helper: dump real association batches (system prompt, user payload, JSON schema) to (~1835 tok)
 - `vllm_thinking_budget_check.py` — Phase 0: does vLLM's Chat Completions honor thinking_token_budget with a JSON schema? (~857 tok)
 - `why_dedup_rejected.py` — Throwaway: send the products still without a cached grouping to gemma, one by one, and show (~604 tok)
