@@ -6,7 +6,8 @@ skipped entirely — no re-chunking, no re-embedding, no DB write — so adding
 or editing one document never touches the rest of the corpus."""
 
 # Run like this:
-#   .\.venv-gpu\Scripts\python src\scripts\build_hybrid_index.py
+#   $env:PYTHONPATH = 'src'; .\.venv\Scripts\python.exe src\scripts\build_hybrid_index.py
+# With EMBEDDING_DEVICE=vllm in .env the build starts and stops the vllm-embed server itself.
 from __future__ import annotations
 
 import argparse
@@ -69,8 +70,8 @@ from scripts.migrate_database import migrate
 
 # Minimum elapsed time between embedding progress messages.
 PROGRESS_INTERVAL_SECONDS = 10.0
-# Windows embedded per model call. 8 was the fastest on the GPU (fp16); larger
-# batches only add padding and memory (see architecture/plan-migrare-qwen3-embedding.md).
+# Windows embedded per model call on the CPU. With EMBEDDING_DEVICE=vllm the size of a request
+# is VLLM_EMBED_BATCH_SIZE instead (16; measured: 1 to 64 give the same speed, the GPU is the limit).
 BATCH_SIZE = 8
 # Selected after corpus benchmarks of total publication time with 1/2/4/8 workers.
 HERBS_INDEX_WORKERS = 2
@@ -104,9 +105,33 @@ HERBS_BENEFITS_INSERT_SQL = (
 )
 
 
+# What each stage does, in plain words; printed when the stage starts.
+_STAGE_MESSAGES = {
+    "database_bootstrap": "Checking that the database exists (it is created if missing)",
+    "migrations": "Applying the database migrations",
+    "index_lock": "Taking the exclusive index lock; search stays unavailable until the build ends",
+    "fragmentation": "Scanning the corpus: hashing the files and splitting changed ones into fragments",
+    "embeddings": "Computing the embeddings of the new fragments",
+    "chunks_publication": "Writing documents, fragments and embeddings to the database (one transaction)",
+    "conditions_cleanup": "Running the index SQL scripts (condition clean-up)",
+    "herbs_worker_preparation": "Herb-condition associations: preparing the worker processes",
+    "herbs_scan_and_copy": "Herb-condition associations: finding the herbs and conditions in the fragments",
+    "herbs_deduplication": "Herb-condition associations: removing duplicate pairs",
+    "herbs_publication": "Herb-condition associations: publishing the pairs",
+    "commit": "Committing the new index generation",
+}
+
+
+# Tell the operator what is about to happen; the build can be silent for minutes in one stage.
+def _announce(message: str) -> None:
+    print(f"==> {message}", flush=True)
+
+
 def _build_stage(stage: str) -> None:
     global _BUILD_STAGE
     _BUILD_STAGE = stage
+    if stage in _STAGE_MESSAGES:
+        _announce(_STAGE_MESSAGES[stage])
 
 
 # Idempotent scripts that run on every build, once the chunk rows are written (no ledger).
@@ -916,6 +941,20 @@ def format_duration(seconds: float) -> str:
     return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
 
 
+# With the "vllm" device the server runs only while the windows are embedded and is stopped
+# right after, even on an error; the other devices need nothing around the model.
+@contextmanager
+def _embedding_runtime() -> Iterator[None]:
+    if settings.embedding_device != "vllm":
+        yield
+        return
+    from backend.ai.vllm_embed_server import running_embedding_server
+
+    print("Starting the vllm-embed server (the first start also compiles the model)", flush=True)
+    with running_embedding_server():
+        yield
+
+
 # Generate, validate, and normalize embeddings while reporting measured
 # progress. Progress counts windows (see _embedding_windows()): almost every
 # fragment is longer than one window, so this is the real amount of work.
@@ -1304,18 +1343,24 @@ def _build(
         to_embed = [chunk for chunk, key in zip(all_new_chunks, keys) if key not in reusable]
         embeddings = np.empty((len(all_new_chunks), profile.dimension), dtype=np.float32)
         if to_embed:
+            device = settings.embedding_device
+            # The vLLM server takes bigger requests than the CPU model takes batches.
+            embed_batch = settings.vllm_embed_batch_size if device == "vllm" else batch_size
             print(
-                f"Loading local embedding model {model_name} (device {settings.embedding_device})",
+                f"Loading local embedding model {model_name} (device {device})",
                 flush=True,
             )
-            model = create_embedding_model(model_name, settings.model_cache_dir)
-            print(
-                f"Embedding {len(to_embed)} chunks from {len(pending)} changed files "
-                f"(batch size {batch_size}); {len(all_new_chunks) - len(to_embed)} stored "
-                "embeddings are reused",
-                flush=True,
-            )
-            fresh = iter(embed_chunks(model, to_embed, batch_size, profile, gpu_usage=gpu_usage))
+            with _embedding_runtime():
+                model = create_embedding_model(model_name, settings.model_cache_dir)
+                print(
+                    f"Embedding {len(to_embed)} chunks from {len(pending)} changed files "
+                    f"({embed_batch} windows per {'request' if device == 'vllm' else 'batch'}); "
+                    f"{len(all_new_chunks) - len(to_embed)} stored "
+                    "embeddings are reused",
+                    flush=True,
+                )
+                embedded = embed_chunks(model, to_embed, embed_batch, profile, gpu_usage=gpu_usage)
+            fresh = iter(embedded)
         else:
             print(f"Reusing all {len(all_new_chunks)} stored embeddings", flush=True)
             fresh = iter(())
@@ -1612,6 +1657,16 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
         if safety_stage:
             from scripts.herb_safety_index import run_safety_index
 
+            _announce(
+                "Product safety lists: "
+                + (
+                    "analysing the cache, no AI"
+                    if arguments.analyze_safety_warnings
+                    else "publishing the prepared run, no AI"
+                    if arguments.publish_safety_warnings
+                    else "asking the AI model for the products' safety answers (can take hours)"
+                )
+            )
             run_safety_index(
                 settings,
                 analyze=arguments.analyze_safety_warnings,
@@ -1621,12 +1676,31 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
         elif caution_stage:
             from scripts.caution_herb_ranking import run_caution_ranking
 
+            _announce(
+                "Caution warnings: "
+                + (
+                    "publishing the prepared projection, no AI"
+                    if arguments.publish_caution_ranking
+                    else "preparing the warnings from local rules and cache, no AI"
+                )
+            )
             run_caution_ranking(settings, publish=arguments.publish_caution_ranking)
         elif arguments.rebuild_condition_scores:
+            _announce(f"Condition scores L1/L2/L3 ({arguments.language}): recomputing, no AI")
             _rebuild_condition_scores()
         elif ranking_stage:
             from scripts.positive_herb_ranking import run_positive_ranking
 
+            _announce(
+                "Positive herb ranking: "
+                + (
+                    "analysing the inventory and cache, no AI"
+                    if arguments.analyze_positive_ranking
+                    else "publishing the prepared run, no AI"
+                    if arguments.publish_positive_ranking
+                    else "asking the AI model about the herb-condition pairs (can take hours)"
+                )
+            )
             run_positive_ranking(
                 settings,
                 analyze=arguments.analyze_positive_ranking,
@@ -1635,9 +1709,11 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
             )
             # A newly activated positive run has no scores until they are computed for it.
             if arguments.publish_positive_ranking:
+                _announce("Condition scores L1/L2/L3: recomputing for the new positive run, no AI")
                 _rebuild_condition_scores()
         else:
             if arguments.rebuild_herbs_only:
+                _announce("Rebuilding the herb-condition associations only (no re-embedding)")
                 rebuild_herbs_only()
             else:
                 build(
@@ -1652,14 +1728,24 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
                 ranking_stage = True
                 for language in LANGUAGES:
                     with language_scope(language):
+                        _announce(
+                            f"Positive herb ranking ({language}): reusing cached AI answers and "
+                            "asking the AI model for the rest (can take hours)"
+                        )
                         refresh_positive_ranking(settings)
+                        _announce(f"Condition scores L1/L2/L3 ({language}): recomputing, no AI")
                         _rebuild_condition_scores()
                 # With the bilingual extension enabled the reindex also rebuilds the safety lists
                 # of the chosen products (both languages in one pass) and publishes them.
                 if settings.herb_safety_extension_products:
                     from scripts.herb_safety_index import run_safety_index
 
+                    _announce(
+                        "Product safety lists (both languages): asking the AI model for the "
+                        "chosen products (can take hours)"
+                    )
                     prepared = run_safety_index(settings)
+                    _announce("Product safety lists: publishing the prepared runs, no AI")
                     for run_id in (prepared["run_id_ro"], prepared["run_id_en"]):
                         run_safety_index(settings, publish=run_id)
     except Exception as exc:

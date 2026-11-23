@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-18T05:14:13.867Z
-> Files: 511 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-23T14:17:30.862Z
+> Files: 516 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -12,9 +12,9 @@
 - `.dockerignore` (~107 tok)
 - `AGENTS.md` — AGENTS.md (~3120 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
-- `docker-compose.yaml` — Docker Compose: 2 services (~4382 tok)
+- `docker-compose.yaml` — Docker Compose: 2 services (~5044 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~33177 tok)
+- `README.md` — Project documentation (~34160 tok)
 
 ## .claude/
 
@@ -79,6 +79,7 @@
 - `2026-11-06-vllm-phi4-mini-on-demand-containers.md` — On-demand vLLM containers and the Qwen2.5-7B report model (~4930 tok)
 - `2026-11-13-cautare-lexicala-bm25.md` — Plan: căutare lexicală BM25 (modelul Lucene / Elasticsearch, în PostgreSQL) (~3140 tok)
 - `2026-11-14-rrf-semnale-lexical-semantic.md` — Plan: RRF (Reciprocal Rank Fusion) for the L and V signals (~2962 tok)
+- `2026-11-23-vllm-embeddings-indexare.md` — Embeddings la indexare prin vLLM (~5636 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
@@ -351,6 +352,11 @@
 - `f079_012.txt` (~4119 tok)
 - `f079_013.txt` — # 84 | Acad. Dr Pharm, OVIDIU BOJOR (~4018 tok)
 
+## aiWork/vllm-embed/
+
+- `prep.py` — Phase 0 prep: windows of the 10 test documents, exactly as build_hybrid_index produces them (~892 tok)
+- `rezultate-benchmark.md` — Faza 0, pasul A: rezultatele benchmark-ului vLLM (2026-11-23) (~919 tok)
+
 ## aiWork/vllm/
 
 - `assoc_bench.py` — Benchmark: real association batches on vLLM Qwen3.5-4B at several concurrency levels. (~3598 tok)
@@ -399,7 +405,7 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~12456 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~12679 tok)
 
 ## src/backend/ai/
 
@@ -408,6 +414,7 @@
 - `condition_repository.py` — Ordered PostgreSQL condition snapshots shared by retrieval and indexing. (~1579 tok)
 - `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~4072 tok)
 - `effort.py` — Map the user-selected report effort to each provider's own reasoning parameter. (~264 tok)
+- `embedding_model.py` — Shared local embedding model loading and per-model text profiles, used both (~2361 tok)
 - `english_inflections.py` — Catalog-scoped British English noun forms from the bundled Hunspell dictionary. (~970 tok)
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~6314 tok)
 - `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~15744 tok)
@@ -437,6 +444,7 @@
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3085 tok)
 - `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~7650 tok)
+- `vllm_embed_server.py` — Life cycle of the `vllm-embed` Compose service for an index build. (~1626 tok)
 
 ## src/backend/ai/prompts/
 
@@ -607,7 +615,7 @@
 
 - `backup_database.bat` (~552 tok)
 - `backup_database.ps1` — Declares Invoke (~403 tok)
-- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~20572 tok)
+- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~20760 tok)
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20376 tok)
 - `extract_pdf_markdown.py` — Options: observe, body_size (~14210 tok)
@@ -627,7 +635,7 @@
 - `set_gpu_clock.bat` (~827 tok)
 - `setup_gpu_clock.bat` (~593 tok)
 - `translate_markdown.py` — from: translate_markdown, flush (~21734 tok)
-- `vllm_supervisor.py` — The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers. (~1968 tok)
+- `vllm_supervisor.py` — The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers. (~1972 tok)
 
 ## src/tests/integration/
 

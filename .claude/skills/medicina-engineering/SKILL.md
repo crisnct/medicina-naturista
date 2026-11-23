@@ -68,7 +68,7 @@ PYTHONPATH=src .venv/Scripts/python.exe -m ruff check src
 PYTHONPATH=src .venv/Scripts/python.exe -m unittest discover -s src/tests/unit -t src -v
 ```
 
-The CPU environment is `.venv`; GPU index builds use the separate `.venv-gpu`. That is
+The CPU environment is `.venv`; GPU index builds use the `vllm-embed` container started by the build. That is
 the minimum gate — `.github/workflows/ci.yml` is authoritative and runs more (extra
 per-file mypy invocations, per-job pytest files, integration, frontend, container).
 Report what actually ran and what actually failed.

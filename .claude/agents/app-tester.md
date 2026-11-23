@@ -28,8 +28,8 @@ A clean report you did not earn is worse than no report.
 
 ## Environment
 
-Windows host, active shell may be PowerShell or Bash, CPU venv at `.venv` (GPU index builds use the separate
-`.venv-gpu`). `PYTHONPATH=src` is required for anything importing `backend` or
+Windows host, active shell may be PowerShell or Bash, CPU venv at `.venv` (GPU index builds use the `vllm-embed`
+container). `PYTHONPATH=src` is required for anything importing `backend` or
 `scripts`.
 
 If a command fails because the interpreter or a dependency is missing, say so and stop —

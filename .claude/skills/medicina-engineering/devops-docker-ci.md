@@ -17,7 +17,7 @@ Properties that must survive any edit:
 - DejaVu and Liberation fonts are installed because ReportLab needs them for Romanian
   diacritics in the PDF. CI installs them too; removing them breaks PDF tests.
 - `HEALTHCHECK` hits `/healthz`; `--workers 1` is mandatory, not a default.
-- torch is never installed — the GPU path lives only in the operator's `.venv-gpu`.
+- torch is never installed — the GPU path is the `vllm-embed` service (profile `vllm-embed`), started and stopped by the index build.
 
 ## Compose
 

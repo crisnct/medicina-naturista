@@ -114,7 +114,9 @@
       LOG_LEVEL: ${LOG_LEVEL:-INFO}
       LOG_FRAGMENT_TEXT: ${LOG_FRAGMENT_TEXT:-true}
       LOG_FRAGMENT_TEXT_MAX_CHARS: ${LOG_FRAGMENT_TEXT_MAX_CHARS:-4000}
-      EMBEDDING_THREADS: ${EMBEDDING_THREADS:-8}
+      # ONNX threads for questions. Fixed: EMBEDDING_THREADS in .env is for the index build (with
+      # EMBEDDING_DEVICE=vllm it counts simultaneous requests) and must not reach the app.
+      EMBEDDING_THREADS: "8"
       LOG_AI_RESPONSE_TEXT: ${LOG_AI_RESPONSE_TEXT:-false}
       COOKIE_SECURE: ${COOKIE_SECURE:-true}
       FORWARDED_ALLOW_IPS: ${FORWARDED_ALLOW_IPS:-127.0.0.1}
@@ -196,9 +198,57 @@
       - --chat-template=/templates/translategemma.jinja
       - --limit-mm-per-prompt.image=0
     networks: [internal]
+  # Qwen3-Embedding-0.6B for the index build (src/scripts/build_hybrid_index.py with
+  # EMBEDDING_DEVICE=vllm). Not started by `docker compose up`: the build starts it when there is
+  # something to embed and stops it afterwards, because it needs most of the GPU (stop host Ollama
+  # models first). Questions in the app never use it; they embed on the CPU.
+  # Create it once: docker compose --profile vllm-embed create
+  # The weights are read offline from ./model_cache (Hugging Face layout, models--Qwen--Qwen3-Embedding-0.6B).
+  # Measured on the RTX 3500 Ada (7037 windows, 32 simultaneous requests of 16): fp8 weights and fp8
+  # KV cache 103 windows/s, cosine against CPU fp32 min 0.9818 / mean 0.992 (accepted); fp8 weights
+  # alone 97 windows/s, 0.9887; bf16 82; fp16 75 (0.99986 / 0.999997). The former PyTorch path: 35.5.
+  # EMBEDDING_THREADS from .env (the simultaneous requests of the build) is also --max-num-seqs.
+  # 0.9 is the most the GPU allows next to the desktop; the vLLM default 0.92 does not start.
+  vllm-embed:
+    profiles: [vllm-embed]
+    image: vllm/vllm-openai:v0.32.0
+    container_name: medicina-vllm-embed
+    restart: "no"
+    stop_grace_period: 30s
+    ipc: host
+    environment:
+      HF_HUB_OFFLINE: "1"
+    volumes:
+      - type: bind
+        source: ./model_cache
+        target: /root/.cache/huggingface/hub
+        read_only: true
+      # The compiled graphs: a start that finds them is ready in about 60 s instead of 150 s.
+      - vllm_compile_cache:/root/.cache/vllm
+    ports:
+      - "127.0.0.1:${VLLM_EMBED_HOST_PORT:-8002}:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    command:
+      - --model=Qwen/Qwen3-Embedding-0.6B
+      - --served-model-name=Qwen/Qwen3-Embedding-0.6B
+      - --quantization=fp8_per_tensor
+      - --runner=pooling
+      - --dtype=float16
+      - --kv-cache-dtype=fp8
+      - --max-model-len=2048
+      - --max-num-seqs=${EMBEDDING_THREADS:-32}
+      - --gpu-memory-utilization=0.9
+    networks: [internal]
   # The only container with the Docker socket, which is root-equivalent on the host. It can start and
-  # stop only the vLLM report servers (src/scripts/vllm_supervisor.py), and only the app can reach it,
-  # so the app itself stays without any Docker access. Set MODEL_SUPERVISOR_URL empty to manage the
+  # stop only the vLLM report servers and vllm-embed (src/scripts/vllm_supervisor.py). Only the app and, on
+  # the loopback port below, the index build on the host can reach it, so the app itself stays without
+  # any Docker access. Set MODEL_SUPERVISOR_URL empty to manage the
   # servers by hand.
   vllm-supervisor:
     image: python:3.11-slim-bookworm
@@ -219,7 +269,11 @@
         source: ./src/scripts/vllm_supervisor.py
         target: /supervisor/vllm_supervisor.py
         read_only: true
-    networks: [supervisor]
+    # The index build runs on the host and starts/stops vllm-embed through this port. Published on the
+    # loopback only, and on a network of its own, so the database and the vLLM servers cannot reach it.
+    ports:
+      - "127.0.0.1:${VLLM_SUPERVISOR_HOST_PORT:-8081}:8080"
+    networks: [supervisor, supervisor_host]
   # The vLLM report servers. Neither starts with `docker compose up`: a report starts its model, and
   # the model stays up until a report needs the GPU for another model. The containers must exist first,
   # once and after every change to these services:
@@ -261,7 +315,7 @@
       - --quantization=fp8_per_tensor
       - --max-model-len=32768
       - --max-num-seqs=24
-      - --gpu-memory-utilization=0.84
+      - --gpu-memory-utilization=0.9
       - --kv-cache-dtype=fp8
       - --reasoning-parser=qwen3
       - '--reasoning-config={"reasoning_end_str": "\n\nConsidering the limited time, I have to give the answer based on the thinking so far.\n</think>\n\n"}'
@@ -302,7 +356,7 @@
       - --max-model-len=32768
       - --max-num-seqs=8
       - --kv-cache-dtype=fp8
-      - --gpu-memory-utilization=0.84
+      - --gpu-memory-utilization=0.9
       - '--structured-outputs-config={"backend": "xgrammar", "disable_any_whitespace": true}'
     networks:
       internal:
@@ -312,6 +366,8 @@ networks:
   # Only the app and the supervisor; no route out and no other container can reach the supervisor.
   supervisor:
     internal: true
+  # Carries only the supervisor's host port (an internal network cannot publish one).
+  supervisor_host:
 volumes:
   pg_data:
   vllm_hf_cache:

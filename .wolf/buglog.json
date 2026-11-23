@@ -10939,6 +10939,132 @@
       "last_seen": "2026-11-17T07:02:36.872Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: from should be relative",
+      "file": "aiWork/vllm-embed/prep.py",
+      "root_cause": "Used \"from\" instead of \"relative\"",
+      "fix": "Changed from → relative",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-609",
+      "timestamp": "2026-11-23T12:04:20.175Z",
+      "last_seen": "2026-11-23T12:04:20.175Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/config.py",
+      "root_cause": "Had \"cuda\"",
+      "fix": "Changed to \"vllm\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-610",
+      "timestamp": "2026-11-23T13:20:53.405Z",
+      "last_seen": "2026-11-23T13:20:53.405Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of config.py",
+      "file": "src/backend/config.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→8 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-611",
+      "timestamp": "2026-11-23T13:21:03.318Z",
+      "last_seen": "2026-11-23T13:21:03.318Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of embedding_model.py",
+      "file": "src/backend/ai/embedding_model.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 5→9 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-612",
+      "timestamp": "2026-11-23T13:21:55.803Z",
+      "last_seen": "2026-11-23T13:21:55.803Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of embedding_model.py",
+      "file": "src/backend/ai/embedding_model.py",
+      "root_cause": "44 lines replaced/restructured",
+      "fix": "Rewrote 55→68 lines (44 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-613",
+      "timestamp": "2026-11-23T13:22:21.080Z",
+      "last_seen": "2026-11-23T13:22:21.080Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of build_hybrid_index.py",
+      "file": "src/scripts/build_hybrid_index.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 13→18 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-614",
+      "timestamp": "2026-11-23T13:22:59.851Z",
+      "last_seen": "2026-11-23T13:22:59.851Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/build_hybrid_index.py",
+      "root_cause": "Had \"(batch size {embed_batch}); {len(all_new_chunks) ",
+      "fix": "Changed to \"({embed_batch} windows per {'",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-615",
+      "timestamp": "2026-11-23T14:17:30.971Z",
+      "last_seen": "2026-11-23T14:17:30.971Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -11595,7 +11721,14 @@
     "aa375abb-ce2b-4e6a-9727-05ff4388aada": true,
     "3c2a711e-48ab-4e99-a6ea-9b81bde4afa0": true,
     "7e78c853-9caa-4c6e-98e0-3aa0ec788e35": true,
-    "5c6fe557-9e46-4bcf-8206-f6d7a3b3d6da": true
+    "5c6fe557-9e46-4bcf-8206-f6d7a3b3d6da": true,
+    "facd4fe3-9b78-4a30-a3d0-6423413d8564": true,
+    "905c3cd2-5335-490c-9f96-9a1996664697": true,
+    "40a5ec00-229a-4dda-96e8-1481331283fd": true,
+    "841b736f-4775-479a-b37a-f50829b7118a": true,
+    "9f6b864b-4b89-4956-9fab-67cb29e83b23": true,
+    "757fdd76-e745-443d-b586-dee099b1b75a": true,
+    "e6daf45a-f1e5-4038-b6a4-9a15f80d140c": true
   },
-  "next_id": 609
+  "next_id": 616
 }

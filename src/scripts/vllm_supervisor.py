@@ -19,8 +19,13 @@ logger = logging.getLogger("naturist.vllm_supervisor")
 
 # A container is named medicina-<service>; the Compose label must agree before anything changes.
 MANAGED_SERVICES = ("vllm-qwen35", "vllm-qwen25")
-# Visible so the app can refuse to warm up beside it, never changed: it may be mid-translation.
-OBSERVED_SERVICES = ("vllm-translate",)
+# Visible so the app can refuse to warm up beside it, never changed by the app: it may be
+# mid-translation (vllm-translate) or mid-build (vllm-embed).
+OBSERVED_SERVICES = ("vllm-translate", "vllm-embed")
+# The index build starts and stops this one itself, from the host (EMBEDDING_DEVICE=vllm); the app's
+# report models never do, so it is listed above as observed and a report refuses to start beside it.
+BUILD_SERVICE = "vllm-embed"
+STARTABLE_SERVICES = (*MANAGED_SERVICES, BUILD_SERVICE)
 DOCKER_SOCKET = "/var/run/docker.sock"
 LISTEN_PORT = 8080
 STOP_GRACE_SECONDS = 30
@@ -88,14 +93,15 @@ def status_all() -> dict[str, Any]:
 
 
 def start_service(service: str) -> dict[str, Any]:
-    if service not in MANAGED_SERVICES:
+    if service not in STARTABLE_SERVICES:
         raise SupervisorError(404, "UNKNOWN_SERVICE")
     current = status_all()
-    if current["managed"][service]["state"] == "missing":
+    everything = {**current["managed"], **current["observed"]}
+    if everything[service]["state"] == "missing":
         raise SupervisorError(409, "CONTAINER_MISSING")
     # A start that fails on the port the report servers share leaves that container without a
     # working alias or port on its next start, so such a start must never be attempted.
-    others = {**current["managed"], **current["observed"]}
+    others = dict(everything)
     others.pop(service)
     if any(item["state"] in {"running", "restarting"} for item in others.values()):
         raise SupervisorError(409, "ANOTHER_SERVER_RUNNING")
@@ -109,7 +115,7 @@ def start_service(service: str) -> dict[str, Any]:
 
 # Answers only after the container has exited, which frees its GPU memory (measured).
 def stop_service(service: str) -> dict[str, Any]:
-    if service not in MANAGED_SERVICES:
+    if service not in STARTABLE_SERVICES:
         raise SupervisorError(404, "UNKNOWN_SERVICE")
     if service_status(service)["state"] == "missing":
         raise SupervisorError(409, "CONTAINER_MISSING")
@@ -164,7 +170,9 @@ class _Handler(BaseHTTPRequestHandler):
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
     server = ThreadingHTTPServer(("0.0.0.0", LISTEN_PORT), _Handler)
-    logger.info("supervisor_listening port=%s services=%s", LISTEN_PORT, ",".join(MANAGED_SERVICES))
+    logger.info(
+        "supervisor_listening port=%s services=%s", LISTEN_PORT, ",".join(STARTABLE_SERVICES)
+    )
     server.serve_forever()
 
 

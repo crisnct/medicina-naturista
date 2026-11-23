@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-18T05:14:13.867Z",
-    "fileCount": 511,
+    "lastScanned": "2026-11-23T14:17:30.862Z",
+    "fileCount": 516,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "056396684e98c626e7bed765d164310e958ef8dad2563c7815490047974dc489",
-    "storeUpdatedAt": "2026-11-18T05:14:13.879Z",
-    "rootHash": "08e1e31163536eb6"
+    "renderedHash": "1a0aa7e2eae71c91b933a8ebd291f00e8a9a95c0f0ef3af8c518d36d1687a4f6",
+    "storeUpdatedAt": "2026-11-23T14:17:30.903Z",
+    "rootHash": "b411261be0f2dd46"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -360,11 +360,11 @@
     },
     "docker-compose.yaml": {
       "description": "Docker Compose: 2 services",
-      "tokens": 4382,
-      "hash": "e1583c18c8cc3206",
-      "size": 15339,
-      "mtimeMs": 1794658359604.8613,
-      "updatedAt": "2026-11-14T12:12:39.855Z",
+      "tokens": 5044,
+      "hash": "f718503a7d90821c",
+      "size": 17654,
+      "mtimeMs": 1795440224160.646,
+      "updatedAt": "2026-11-23T13:23:45.204Z",
       "source": "hook"
     },
     "src/backend/web/main.py": {
@@ -875,11 +875,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 33177,
-      "hash": "257ba48a256a9122",
-      "size": 133610,
-      "mtimeMs": 1794124503450.8806,
-      "updatedAt": "2026-11-08T07:55:03.723Z",
+      "tokens": 34160,
+      "hash": "5fe4a385e7ccf38d",
+      "size": 137547,
+      "mtimeMs": 1795440295458.496,
+      "updatedAt": "2026-11-23T13:24:56.478Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -2168,11 +2168,11 @@
     },
     "src/backend/config.py": {
       "description": "Environment-backed settings. No patient data belongs in configuration or logs.",
-      "tokens": 12456,
-      "hash": "ca94864824e2e3e6",
-      "size": 43596,
-      "mtimeMs": 1794658350263.298,
-      "updatedAt": "2026-11-14T12:12:30.545Z",
+      "tokens": 12679,
+      "hash": "88d62d7402474791",
+      "size": 44376,
+      "mtimeMs": 1795440073802.955,
+      "updatedAt": "2026-11-23T13:21:14.145Z",
       "source": "hook",
       "symbols": [
         {
@@ -2277,14 +2277,14 @@
           "name": "Settings",
           "kind": "class",
           "startLine": 272,
-          "endLine": 903,
-          "tokens": 9417
+          "endLine": 914,
+          "tokens": 9640
         },
         {
           "name": "configure_settings",
           "kind": "fn",
-          "startLine": 904,
-          "endLine": 916,
+          "startLine": 915,
+          "endLine": 927,
           "tokens": 137
         }
       ]
@@ -2399,222 +2399,222 @@
     },
     "src/scripts/build_hybrid_index.py": {
       "description": "Incrementally sync a traceable, local-only hybrid index for a Markdown",
-      "tokens": 20572,
-      "hash": "0db7136776739b29",
-      "size": 72011,
-      "mtimeMs": 1793824446973.1804,
-      "updatedAt": "2026-11-04T20:34:07.317Z",
+      "tokens": 20760,
+      "hash": "a8cfc774df15db93",
+      "size": 72669,
+      "mtimeMs": 1795443449902.6604,
+      "updatedAt": "2026-11-23T14:17:30.859Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_build_stage",
           "kind": "fn",
-          "startLine": 107,
-          "endLine": 112,
+          "startLine": 108,
+          "endLine": 113,
           "tokens": 52
         },
         {
           "name": "_apply_index_sql",
           "kind": "fn",
-          "startLine": 113,
-          "endLine": 117,
+          "startLine": 114,
+          "endLine": 118,
           "tokens": 45
         },
         {
           "name": "_safe_index_error",
           "kind": "fn",
-          "startLine": 118,
-          "endLine": 142,
+          "startLine": 119,
+          "endLine": 143,
           "tokens": 270
         },
         {
           "name": "HerbsIndexContext",
           "kind": "class",
-          "startLine": 143,
-          "endLine": 159,
+          "startLine": 144,
+          "endLine": 160,
           "tokens": 131
         },
         {
           "name": "HerbsIndexStats",
           "kind": "class",
-          "startLine": 160,
-          "endLine": 181,
+          "startLine": 161,
+          "endLine": 182,
           "tokens": 141
         },
         {
           "name": "EmbeddingModel",
           "kind": "class",
-          "startLine": 182,
-          "endLine": 187,
+          "startLine": 183,
+          "endLine": 188,
           "tokens": 46
         },
         {
           "name": "_herbs_bitmap_bytes",
           "kind": "fn",
-          "startLine": 188,
-          "endLine": 194,
+          "startLine": 189,
+          "endLine": 195,
           "tokens": 111
         },
         {
           "name": "_prepare_herbs_index",
           "kind": "fn",
-          "startLine": 195,
-          "endLine": 261,
+          "startLine": 196,
+          "endLine": 262,
           "tokens": 694
         },
         {
           "name": "_load_herbs_backend",
           "kind": "fn",
-          "startLine": 262,
-          "endLine": 273,
+          "startLine": 263,
+          "endLine": 274,
           "tokens": 113
         },
         {
           "name": "_make_herbs_matcher",
           "kind": "fn",
-          "startLine": 274,
-          "endLine": 283,
+          "startLine": 275,
+          "endLine": 284,
           "tokens": 74
         },
         {
           "name": "_match_herbs",
           "kind": "fn",
-          "startLine": 284,
-          "endLine": 294,
+          "startLine": 285,
+          "endLine": 295,
           "tokens": 106
         },
         {
           "name": "_initialize_herbs_worker",
           "kind": "fn",
-          "startLine": 295,
-          "endLine": 301,
+          "startLine": 296,
+          "endLine": 302,
           "tokens": 60
         },
         {
           "name": "_scan_herbs_batch",
           "kind": "fn",
-          "startLine": 302,
-          "endLine": 316,
+          "startLine": 303,
+          "endLine": 317,
           "tokens": 167
         },
         {
           "name": "_prepared_herbs_workers",
           "kind": "fn",
-          "startLine": 317,
-          "endLine": 371,
+          "startLine": 318,
+          "endLine": 372,
           "tokens": 617
         },
         {
           "name": "_herbs_startup_job",
           "kind": "fn",
-          "startLine": 372,
-          "endLine": 379,
+          "startLine": 373,
+          "endLine": 380,
           "tokens": 75
         },
         {
           "name": "_herbs_condition_mask",
           "kind": "fn",
-          "startLine": 380,
-          "endLine": 388,
+          "startLine": 381,
+          "endLine": 389,
           "tokens": 87
         },
         {
           "name": "_new_herbs_pairs",
           "kind": "fn",
-          "startLine": 389,
-          "endLine": 399,
+          "startLine": 390,
+          "endLine": 400,
           "tokens": 113
         },
         {
           "name": "_herbs_metadata",
           "kind": "fn",
-          "startLine": 400,
-          "endLine": 409,
+          "startLine": 401,
+          "endLine": 410,
           "tokens": 115
         },
         {
           "name": "HerbsProgress",
           "kind": "class",
-          "startLine": 410,
-          "endLine": 443,
+          "startLine": 411,
+          "endLine": 444,
           "tokens": 409
         },
         {
           "name": "_rebuild_herbs_benefits",
           "kind": "fn",
-          "startLine": 444,
-          "endLine": 644,
+          "startLine": 445,
+          "endLine": 645,
           "tokens": 2612
         },
         {
           "name": "_indexed_herb_ids",
           "kind": "fn",
-          "startLine": 645,
-          "endLine": 659,
+          "startLine": 646,
+          "endLine": 660,
           "tokens": 173
         },
         {
           "name": "rebuild_herbs_only",
           "kind": "fn",
-          "startLine": 660,
-          "endLine": 720,
+          "startLine": 661,
+          "endLine": 721,
           "tokens": 903
         },
         {
           "name": "GPUUsageMonitor",
           "kind": "class",
-          "startLine": 721,
-          "endLine": 799,
+          "startLine": 722,
+          "endLine": 800,
           "tokens": 771
         },
         {
           "name": "SourceFile",
           "kind": "class",
-          "startLine": 800,
-          "endLine": 816,
+          "startLine": 801,
+          "endLine": 817,
           "tokens": 132
         },
         {
           "name": "Chunk",
           "kind": "class",
-          "startLine": 817,
-          "endLine": 837,
+          "startLine": 818,
+          "endLine": 838,
           "tokens": 198
         },
         {
           "name": "utc_now",
           "kind": "fn",
-          "startLine": 838,
-          "endLine": 842,
+          "startLine": 839,
+          "endLine": 843,
           "tokens": 45
         },
         {
           "name": "sha256_bytes",
           "kind": "fn",
-          "startLine": 843,
-          "endLine": 849,
+          "startLine": 844,
+          "endLine": 850,
           "tokens": 75
         },
         {
           "name": "sha256_file",
           "kind": "fn",
-          "startLine": 850,
-          "endLine": 858,
+          "startLine": 851,
+          "endLine": 859,
           "tokens": 94
         },
         {
           "name": "read_markdown",
           "kind": "fn",
-          "startLine": 859,
-          "endLine": 869,
+          "startLine": 860,
+          "endLine": 870,
           "tokens": 123
         },
         {
           "name": "normalize_text",
           "kind": "fn",
-          "startLine": 870,
-          "endLine": 1726,
-          "tokens": 10368
+          "startLine": 871,
+          "endLine": 1739,
+          "tokens": 10511
         }
       ]
     },
@@ -12411,11 +12411,11 @@
     },
     "src/scripts/vllm_supervisor.py": {
       "description": "The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers.",
-      "tokens": 1968,
-      "hash": "3d448af10a463444",
-      "size": 6887,
-      "mtimeMs": 1794118463081.699,
-      "updatedAt": "2026-11-08T06:14:23.350Z",
+      "tokens": 1972,
+      "hash": "75a7b61c1573e8a1",
+      "size": 6900,
+      "mtimeMs": 1795440229170.4905,
+      "updatedAt": "2026-11-23T13:23:50.159Z",
       "source": "hook",
       "symbols": [
         {
@@ -13365,6 +13365,160 @@
           "startLine": 28,
           "endLine": 58,
           "tokens": 424
+        }
+      ]
+    },
+    "aiPlans/2026-11-23-vllm-embeddings-indexare.md": {
+      "description": "Embeddings la indexare prin vLLM",
+      "tokens": 5636,
+      "hash": "08d493c423367607",
+      "size": 23205,
+      "mtimeMs": 1795440667897.4773,
+      "updatedAt": "2026-11-23T13:31:08.825Z",
+      "source": "hook"
+    },
+    "aiWork/vllm-embed/prep.py": {
+      "description": "Phase 0 prep: windows of the 10 test documents, exactly as build_hybrid_index produces them",
+      "tokens": 892,
+      "hash": "f572c9fe1a59f57a",
+      "size": 3122,
+      "mtimeMs": 1795435459881.3523,
+      "updatedAt": "2026-11-23T12:04:20.141Z",
+      "source": "hook"
+    },
+    "aiWork/vllm-embed/rezultate-benchmark.md": {
+      "description": "Faza 0, pasul A: rezultatele benchmark-ului vLLM (2026-11-23)",
+      "tokens": 919,
+      "hash": "53b5e2caf200e16c",
+      "size": 3763,
+      "mtimeMs": 1795439718621.9597,
+      "updatedAt": "2026-11-23T13:15:18.891Z",
+      "source": "hook"
+    },
+    "src/backend/ai/embedding_model.py": {
+      "description": "Shared local embedding model loading and per-model text profiles, used both",
+      "tokens": 2361,
+      "hash": "09aab74a5ff75f44",
+      "size": 8263,
+      "mtimeMs": 1795440140549.9192,
+      "updatedAt": "2026-11-23T13:22:21.026Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "vllm_embed_url",
+          "kind": "fn",
+          "startLine": 39,
+          "endLine": 43,
+          "tokens": 33
+        },
+        {
+          "name": "EmbeddingProfile",
+          "kind": "class",
+          "startLine": 44,
+          "endLine": 77,
+          "tokens": 346
+        },
+        {
+          "name": "get_profile",
+          "kind": "fn",
+          "startLine": 78,
+          "endLine": 87,
+          "tokens": 102
+        },
+        {
+          "name": "_normalize_fastembed_metadata",
+          "kind": "fn",
+          "startLine": 88,
+          "endLine": 102,
+          "tokens": 194
+        },
+        {
+          "name": "VllmEmbedding",
+          "kind": "class",
+          "startLine": 103,
+          "endLine": 165,
+          "tokens": 948
+        },
+        {
+          "name": "create_embedding_model",
+          "kind": "fn",
+          "startLine": 166,
+          "endLine": 181,
+          "tokens": 181
+        },
+        {
+          "name": "cached_query_model",
+          "kind": "fn",
+          "startLine": 182,
+          "endLine": 187,
+          "tokens": 80
+        }
+      ]
+    },
+    "src/backend/ai/vllm_embed_server.py": {
+      "description": "Life cycle of the `vllm-embed` Compose service for an index build.",
+      "tokens": 1626,
+      "hash": "53dbeca7d8c91b91",
+      "size": 5688,
+      "mtimeMs": 1795441265226.6978,
+      "updatedAt": "2026-11-23T13:41:05.500Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_supervisor_url",
+          "kind": "fn",
+          "startLine": 30,
+          "endLine": 35,
+          "tokens": 73
+        },
+        {
+          "name": "_supervisor",
+          "kind": "fn",
+          "startLine": 36,
+          "endLine": 59,
+          "tokens": 289
+        },
+        {
+          "name": "_status",
+          "kind": "fn",
+          "startLine": 60,
+          "endLine": 63,
+          "tokens": 37
+        },
+        {
+          "name": "_embed_state",
+          "kind": "fn",
+          "startLine": 64,
+          "endLine": 68,
+          "tokens": 60
+        },
+        {
+          "name": "gpu_holders",
+          "kind": "fn",
+          "startLine": 69,
+          "endLine": 86,
+          "tokens": 223
+        },
+        {
+          "name": "_models_ready",
+          "kind": "fn",
+          "startLine": 87,
+          "endLine": 95,
+          "tokens": 96
+        },
+        {
+          "name": "_wait_until_ready",
+          "kind": "fn",
+          "startLine": 96,
+          "endLine": 115,
+          "tokens": 235
+        },
+        {
+          "name": "running_embedding_server",
+          "kind": "fn",
+          "startLine": 116,
+          "endLine": 143,
+          "tokens": 284
         }
       ]
     }

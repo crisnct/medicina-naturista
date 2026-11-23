@@ -246,7 +246,7 @@ def safety_output_estimate(batch_size: int) -> int:
     return batch_size * SAFETY_MIN_MESSAGES * SAFETY_TOKENS_PER_MESSAGE + SAFETY_OUTPUT_RESERVE
 
 
-EMBEDDING_DEVICES = ("cpu", "cuda")
+EMBEDDING_DEVICES = ("cpu", "vllm")
 
 
 # Read EMBEDDING_DEVICE and reject anything that is not a known device.
@@ -277,9 +277,17 @@ class Settings:
     # Threads of the ONNX embedding model. Few threads beat all cores on hybrid
     # (P/E-core) CPUs, so the default is 8, capped at the machine's core count.
     embedding_threads: int = min(8, os.cpu_count() or 8)
-    # Device of the index build's embedding model: "cpu" (FastEmbed) or "cuda"
-    # (PyTorch fp16, needs the GPU environment). Queries always run on the CPU.
+    # Device of the index build's embedding model: "cpu" (FastEmbed) or "vllm" (the local
+    # vllm-embed server on the GPU). Queries always run on the CPU.
     embedding_device: str = "cpu"
+    # With the "vllm" device: host port of the vllm-embed server (the same VLLM_EMBED_HOST_PORT
+    # that Compose publishes) and the windows sent in one request. EMBEDDING_THREADS is then the
+    # number of simultaneous requests.
+    vllm_embed_port: int = 8002
+    vllm_embed_batch_size: int = 16
+    # Host port of the vllm-supervisor (VLLM_SUPERVISOR_HOST_PORT): the build starts and stops vllm-embed
+    # through it, because only the supervisor has Docker access.
+    vllm_supervisor_host_port: int = 8081
     frontend_dist_dir: Path = ROOT / "src" / "frontend" / "dist"
     database_url: str = field(
         default="postgresql://medicina:medicina@127.0.0.1:5432/medicina", repr=False
@@ -434,6 +442,11 @@ class Settings:
             model_cache_dir=Path(env.get("MODEL_CACHE_DIR", str(ROOT / "model_cache"))),
             embedding_threads=_int("EMBEDDING_THREADS", min(8, os.cpu_count() or 8), env=env),
             embedding_device=_embedding_device(env=env),
+            vllm_embed_port=_int("VLLM_EMBED_HOST_PORT", 8002, maximum=65535, env=env),
+            vllm_embed_batch_size=_int("VLLM_EMBED_BATCH_SIZE", 16, env=env),
+            vllm_supervisor_host_port=_int(
+                "VLLM_SUPERVISOR_HOST_PORT", 8081, maximum=65535, env=env
+            ),
             frontend_dist_dir=Path(
                 env.get("FRONTEND_DIST_DIR", str(ROOT / "src" / "frontend" / "dist"))
             ),
@@ -664,7 +677,12 @@ class Settings:
             if not isinstance(getattr(self, name), bool):
                 raise ValueError(f"{name} must be boolean")
         if self.embedding_device not in EMBEDDING_DEVICES:
-            raise ValueError("embedding_device must be cpu or cuda")
+            raise ValueError("embedding_device must be cpu or vllm")
+        for name in ("vllm_embed_port", "vllm_supervisor_host_port"):
+            if not 1 <= getattr(self, name) <= 65535:
+                raise ValueError(f"{name} must be a valid TCP port")
+        if type(self.vllm_embed_batch_size) is not int or self.vllm_embed_batch_size <= 0:
+            raise ValueError("vllm_embed_batch_size must be a positive integer")
         if self.log_level not in {"DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"}:
             raise ValueError("log_level must be a supported logging level")
         if self.deployment_profile not in {"local", "public"}:

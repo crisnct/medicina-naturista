@@ -3465,3 +3465,52 @@ description: chronological action log per session, consolidated weekly
 | 10:23 | Created aiWork/extract_old_rows.py | — | ~455 |
 | 23:09 | Session end: 14 writes across 10 files (export_safety_current.py, export_safety_current.sql, safety_counts.sql, compare_safety.py, inspect_file_format.py) | 7 reads | ~19344 tok |
 | 07:14 | Created aiWork/remove_old_rows.py | — | ~705 |
+
+## Session: 2026-11-23 10:37
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 11:10 | Created aiPlans/2026-11-23-vllm-embeddings-indexare.md | — | ~3378 |
+| 11:10 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | inline fix | ~54 |
+| 11:44 | Created aiPlans/2026-11-23-vllm-embeddings-indexare.md | — | ~4678 |
+<!-- session:YzFkMWRmZjAtYTI2MC00MGE4LTgwZjItNDQ5MWM0NTY0NWQx -->
+| 2026-11-23T09:44:44.848Z | Wrote plan for vLLM embeddings at indexing (rev 2): gate 10x total build time on 10 RO docs (~6.2 MB) with server warm, real DB, TEXT_REPR_VERSION bump at end of phase 0; C1-C5,C7,C8 confirmed, C9-C11 pending | aiPlans/2026-11-23-vllm-embeddings-indexare.md | plan only, no code, nothing run |
+| 11:52 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | 2→3 lines | ~64 |
+| 11:52 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | 9→9 lines | ~138 |
+| 11:52 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | 2→2 lines | ~31 |
+| 11:52 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | inline fix | ~46 |
+| 11:52 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | inline fix | ~38 |
+| 11:52 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | 3→2 lines | ~8 |
+| 11:54 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | modified complete() | ~435 |
+| 12:00 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | modified Durate() | ~392 |
+| 14:04 | Created aiWork/vllm-embed/prep.py | — | ~920 |
+| 14:04 | Edited aiWork/vllm-embed/prep.py | 3→7 lines | ~42 |
+| 14:04 | Edited aiWork/vllm-embed/prep.py | removed 3 lines | ~5 |
+| 15:15 | Created aiWork/vllm-embed/rezultate-benchmark.md | — | ~980 |
+| 15:20 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | modified Status() | ~104 |
+| 15:20 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | inline fix | ~111 |
+| 15:20 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | 4→5 lines | ~290 |
+| 15:20 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | expanded (+17 lines) | ~363 |
+| 15:20 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | modified 0() | ~50 |
+| 15:20 | Edited src/backend/config.py | inline fix | ~10 |
+| 15:21 | Edited src/backend/config.py | 3→8 lines | ~141 |
+| 15:21 | Edited src/backend/config.py | 2→4 lines | ~72 |
+| 15:21 | Edited src/backend/config.py | 1→5 lines | ~104 |
+| 15:21 | Edited src/backend/ai/embedding_model.py | added 2 import(s) | ~188 |
+| 15:21 | Edited src/backend/ai/embedding_model.py | modified vllm_embed_url() | ~90 |
+| 15:22 | Edited src/backend/ai/embedding_model.py | modified __init__() | ~1030 |
+| 15:22 | Created src/backend/ai/vllm_embed_server.py | — | ~1331 |
+| 15:22 | Edited src/scripts/build_hybrid_index.py | modified _embedding_runtime() | ~273 |
+| 15:23 | Edited src/scripts/build_hybrid_index.py | modified _embedding_runtime() | ~194 |
+| 15:23 | Edited src/scripts/build_hybrid_index.py | 1→2 lines | ~53 |
+| 15:23 | Edited src/scripts/build_hybrid_index.py | 3→3 lines | ~61 |
+| 15:23 | Edited docker-compose.yaml | modified Ada() | ~637 |
+| 15:23 | Edited docker-compose.yaml | 1→3 lines | ~62 |
+| 15:23 | Edited src/scripts/vllm_supervisor.py | inline fix | ~15 |
+| 15:24 | Edited README.md | 15→13 lines | ~401 |
+| 15:24 | Edited README.md | expanded (+6 lines) | ~441 |
+| 15:24 | Edited README.md | inline fix | ~23 |
+| 15:24 | Edited README.md | inline fix | ~15 |
+| 15:31 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | 1→4 lines | ~108 |
+| 15:41 | Created src/backend/ai/vllm_embed_server.py | — | ~1626 |
+| 16:17 | Edited src/scripts/build_hybrid_index.py | 1→2 lines | ~48 |

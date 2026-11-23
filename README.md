@@ -202,23 +202,22 @@ $env:PYTHONPATH = "src"
 
 The script needs `PYTHONPATH=src` and reads `DATABASE_URL` from `.env`; `--model` and `--source` are optional. It runs on CPU with the Python you launch it from (GPU is below).
 
-`TEXT_REPR_VERSION` (`"11"`, in `src/backend/ai/index_constants.py`) is a constant shared by the script and the backend, not an environment variable. Changing it makes the next run reprocess all documents, and until then the backend rejects the old index. Restart the backend after code changes; nothing reindexes automatically.
+`TEXT_REPR_VERSION` (`"13"`, in `src/backend/ai/index_constants.py`) is a constant shared by the script and the backend, not an environment variable. Changing it makes the next run reprocess all documents, and until then the backend rejects the old index. Restart the backend after code changes; nothing reindexes automatically.
 
-The embedding model is `Qwen/Qwen3-Embedding-0.6B` (1024 dimensions); no other model is supported. **If the database holds an index made with another model or dimension, the next build re-embeds everything**, recreating `chunks.embedding` in the same transaction; any error keeps the previous generation. GPU indexing needs a separate `.venv-gpu` with the application's dependencies, CUDA `torch` and `sentence-transformers`:
+The embedding model is `Qwen/Qwen3-Embedding-0.6B` (1024 dimensions); no other model is supported. **If the database holds an index made with another model or dimension, the next build re-embeds everything**, recreating `chunks.embedding` in the same transaction; any error keeps the previous generation. GPU indexing uses a vLLM server in Docker (no `torch` and no separate environment). Create the container once, put `EMBEDDING_DEVICE=vllm` (and `EMBEDDING_THREADS=16`, the simultaneous requests) in `.env`, and run the normal build; it asks the `vllm-supervisor` (the only container with Docker access, reachable on `127.0.0.1:VLLM_SUPERVISOR_HOST_PORT`) to start `vllm-embed` when there is something to embed and to stop it afterwards, also after an error. After pulling a change of `docker-compose.yaml`, recreate the supervisor once so it publishes that port:
 
 ```powershell
+docker compose --profile vllm-embed create
+docker compose up -d --no-deps vllm-supervisor
 $env:PYTHONPATH = "src"
-$env:EMBEDDING_DEVICE = 'cuda'
-.\.venv-gpu\Scripts\python.exe src\scripts\build_hybrid_index.py
+.\.venv\Scripts\python.exe src\scripts\build_hybrid_index.py
 ```
 
-`pyahocorasick` (imported as `ahocorasick`) must be installed in every environment used for indexing; the builder checks it before starting and prints the install command. For an existing GPU environment:
+The server needs most of the GPU: if another `medicina-vllm-*` container is running or Ollama has a model loaded, the build stops with `VLLM_GPU_BUSY` naming it and stops nothing. There is no CPU fallback (a full build would take hours). Its weights are read offline from `model_cache/` (Hugging Face layout, `models--Qwen--Qwen3-Embedding-0.6B`). The server flags are fixed in `docker-compose.yaml` (fp8 weights and fp8 KV cache, `--max-model-len 2048`, `--gpu-memory-utilization 0.9`); only `EMBEDDING_THREADS`, `VLLM_EMBED_BATCH_SIZE` and the ports come from `.env`. Measured 103 windows/s against 35.5 for the former PyTorch fp16 path, with a cosine against CPU fp32 vectors of at least 0.9818 (mean 0.992); recreate the container after editing the flags (`docker compose --profile vllm-embed create --force-recreate vllm-embed`).
 
-```powershell
-.\.venv-gpu\Scripts\python.exe -m pip install --no-deps --only-binary=:all: pyahocorasick==2.3.1
-```
+`pyahocorasick` (imported as `ahocorasick`) must be installed in the environment used for indexing; the builder checks it before starting and prints the install command.
 
-The model is downloaded to `model_cache/` on the first synchronization; afterwards search works offline (CPU search needs the FastEmbed/ONNX model, even when indexing used the GPU). Later synchronizations process only new or modified documents and drop deleted ones; changing the conditions catalog, the model or the text preparation requires a full rebuild. Progress and the estimated remaining time show in the terminal.
+The CPU model is downloaded to `model_cache/` on the first synchronization; afterwards search works offline (CPU search needs the FastEmbed/ONNX model, even when indexing used the GPU). Later synchronizations process only new or modified documents and drop deleted ones; changing the conditions catalog, the model or the text preparation requires a full rebuild. Progress and the estimated remaining time show in the terminal.
 
 **Reindexing creates the database if it is missing and applies the SQL migrations.** This needs permission to create the database, schema and extensions (optionally a separate account in `DATABASE_BOOTSTRAP_URL`). The web application never migrates at startup. Conditions, plants and synonyms are read from PostgreSQL; add to them through new migrations in `src/backend/migrations/`, never by editing applied ones.
 
@@ -840,7 +839,7 @@ After changing `.env`, recreate only the application with `docker compose up -d 
 docker compose --profile vllm-report stop vllm-qwen35 vllm-qwen25
 ```
 
-`vllm-supervisor` is the only container with the Docker socket, which is root-equivalent on the host. It can start and stop only the two vLLM report servers, refuses to start one while the other (or `vllm-translate`) is running, and only the application can reach it. Set `MODEL_SUPERVISOR_URL` empty to manage the servers by hand.
+`vllm-supervisor` is the only container with the Docker socket, which is root-equivalent on the host. It can start and stop only the two vLLM report servers and `vllm-embed`, refuses to start one while another (or `vllm-translate`) is running, and only the application can reach it, plus the index build on the host through its loopback port `VLLM_SUPERVISOR_HOST_PORT`, which starts and stops `vllm-embed` that way. Set `MODEL_SUPERVISOR_URL` empty to manage the servers by hand.
 
 ### Publishing through Tailscale Funnel
 
@@ -906,8 +905,11 @@ The `.env` file is ignored by Git. The main values recognized by the application
 | `DATABASE_URL` | `postgresql:// medicina:medicina @127.0.0.1:5432/medicina` | The Postgres connection of the hybrid index (`pgvector` + `tsvector`). |
 | `DATABASE_BOOTSTRAP_URL` | empty | Optional maintenance connection for creating a missing database, on the same server as `DATABASE_URL`; used only by reindexing. By default the target's credentials on the `postgres` database are used. |
 | `MODEL_CACHE_DIR` | `model_cache` | The directory of the local ONNX model cache. |
-| `EMBEDDING_THREADS` | `8` (at most the number of cores) | The execution threads of the embedding model (ONNX Runtime), at indexing and at search. On hybrid P/E-core processors, fewer threads are usually faster than all the cores. |
-| `EMBEDDING_DEVICE` | `cpu` | The embedding model's device when **building** the index: `cpu` (FastEmbed/ONNX) or `cuda` (PyTorch fp16, only from the GPU environment `.venv-gpu`; without CUDA the build stops, it does not fall back to CPU). Questions in the application always run on CPU. |
+| `EMBEDDING_THREADS` | `8` (at most the number of cores) | With `EMBEDDING_DEVICE=cpu`: the execution threads of the embedding model (ONNX Runtime), at indexing and at search; on hybrid P/E-core processors, fewer threads are usually faster than all the cores. With `EMBEDDING_DEVICE=vllm`: the simultaneous requests to the vLLM server (`32`; 16 to 128 measured the same speed), also used by Compose as the server's `--max-num-seqs`. The application container always uses 8 for questions. |
+| `EMBEDDING_DEVICE` | `cpu` | The embedding model's device when **building** the index: `cpu` (FastEmbed/ONNX) or `vllm` (the local `vllm-embed` server on the GPU, started and stopped by the build; without it the build stops, it does not fall back to CPU). Questions in the application always run on CPU. A leftover `cuda` is rejected. |
+| `VLLM_EMBED_BATCH_SIZE` | `16` | The windows sent in one request to `vllm-embed` (1 to 64 measured the same speed). |
+| `VLLM_EMBED_HOST_PORT` | `8002` | The loopback port of `vllm-embed` on the host; read by Compose and by the build. |
+| `VLLM_SUPERVISOR_HOST_PORT` | `8081` | The loopback port of `vllm-supervisor` on the host, through which the index build starts and stops `vllm-embed`; read by Compose and by the build. |
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | The directory of the sessions' temporary files. |
 | `MAX_CHAT_CHARS` | `4000` | The maximum length of the user's message. |
 | `MAX_REQUESTS_PER_MINUTE` | `60` | The limit of `POST`/`PUT`/`PATCH`/`DELETE` requests to `/api/`, per minute and IP; the owner login has a separate limit. |
@@ -972,7 +974,7 @@ If Google rejects the refresh with `invalid_grant`, first check whether the vali
 
 Commands are run from the project root.
 
-Install the development tools in the CPU environment (not in `.venv-gpu`):
+Install the development tools in the CPU environment:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements-dev.lock

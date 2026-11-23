@@ -19,9 +19,9 @@ standards. Two of them need a sharper reading in embedding code:
   search warm-up in `web/main.py`), and index builds run in their own processes.
 
 Also note that **torch is deliberately absent from the runtime image and its lock.** The
-CUDA path exists only in the operator's `.venv-gpu`, and `CudaEmbedding` imports torch
-lazily so the web app and its container never need it. Do not add torch to the runtime
-dependencies to make a test or a type-check easier.
+GPU path is a vLLM server in its own container (`vllm-embed`), reached over HTTP by
+`VllmEmbedding`, so neither the web app nor any venv needs torch. Do not add torch to the
+runtime dependencies to make a test or a type-check easier.
 
 ## The model
 
@@ -43,11 +43,20 @@ rerun the evaluation.
 - **FastEmbed / ONNX, fp32, CPU** — queries always, and index builds without a GPU.
   `settings.embedding_threads` defaults to `min(8, cpu_count)`: few threads beat all cores
   on hybrid P/E-core CPUs.
-- **`CudaEmbedding`, PyTorch fp16, CUDA** — index builds only, in the separate `.venv-gpu`.
-  Imported lazily so the web app and the Docker image never need torch. It refuses to fall
-  back to CPU when CUDA is missing (a silent fallback means an hours-long build).
+- **`VllmEmbedding`, HTTP client of the `vllm-embed` Compose service** — index builds only
+  (`EMBEDDING_DEVICE=vllm`). `EMBEDDING_THREADS` is then the number of simultaneous requests
+  (32, also the server's `--max-num-seqs`) and `VLLM_EMBED_BATCH_SIZE` the windows per request (16). `ai/vllm_embed_server.py`
+  asks the `vllm-supervisor` (loopback port `VLLM_SUPERVISOR_HOST_PORT`; only it has Docker access)
+  to start the service when there is something to embed, waits for the model and stops it in a
+  `finally`; a busy GPU (a running `medicina-vllm-*` container or an Ollama model) is the
+  error `VLLM_GPU_BUSY`, and there is no CPU fallback (a silent fallback means an hours-long
+  build). The server flags are fixed in `docker-compose.yaml` (`fp8_per_tensor` weights, fp8 KV cache, `--max-model-len 2048`, `--gpu-memory-utilization 0.9`).
 
-The two agree to a cosine of ~0.9998, which is why a GPU-built index is correctly queried
+Measured on 7037 windows (RTX 3500 Ada): the former PyTorch fp16 path 35.5 windows/s; vLLM fp16
+75, bf16 82, fp8 97, fp8 with fp8 KV cache 103 (the setting in use). Cosine against CPU fp32:
+fp16 0.999997, bf16 0.99986, fp8 0.9887, fp8 + fp8 KV cache 0.9818 minimum (0.992 mean), which the
+project accepted. Requests (16-128) and window count per request (1-64)
+do not change the speed; the GPU is the limit. That is why a GPU-built index is correctly queried
 with CPU vectors. **Queries always embed on CPU regardless of `EMBEDDING_DEVICE`.**
 
 `cached_query_model` is `lru_cache`d per process, sets `HF_HUB_OFFLINE=1` and
@@ -69,7 +78,7 @@ changed the meaning of every stored vector. That requires a full reindex — see
 
 ## TEXT_REPR_VERSION
 
-A single `Final[str]` in `ai/index_constants.py`, currently `"10"`. Not an environment
+A single `Final[str]` in `ai/index_constants.py`, currently `"13"`. Not an environment
 variable. Bumping it makes the next build reprocess every document, and makes a running
 backend reject the existing index (`INDEX_RESYNC_REQUIRED`) until the sync completes.
 Bump it whenever the text representation changes; never bump it casually, and never
@@ -112,8 +121,9 @@ None of this is clinical validation. Do not describe it as such.
 Embedding bugs are quiet by nature, so this layer is deliberately intolerant:
 
 - `get_profile()` raises on an unknown model rather than guessing a dimension.
-- `CudaEmbedding` refuses to fall back to CPU when CUDA is missing — a silent fallback
-  turns a 20-minute build into an all-night one.
+- `VllmEmbedding` and `running_embedding_server()` refuse to fall back to CPU when the server
+  cannot start or the GPU is busy — a silent fallback turns a 20-minute build into an
+  all-night one. A wrong response (count or width of vectors) stops the build; nothing is retried.
 - `create_embedding_model()` validates the profile *before* loading anything.
 - `ensure_schema()` raises `INDEX_DIMENSION_CHANGE_REQUIRES_SYNC` rather than altering a
   vector column behind the synchronizer's back.
@@ -143,12 +153,11 @@ rather than passing or failing.
 ## Index builds
 
 ```bash
-PYTHONPATH=src .venv/Scripts/python.exe src/scripts/build_hybrid_index.py            # CPU
-PYTHONPATH=src EMBEDDING_DEVICE=cuda .venv-gpu/Scripts/python.exe src/scripts/build_hybrid_index.py
+PYTHONPATH=src .venv/Scripts/python.exe src/scripts/build_hybrid_index.py   # EMBEDDING_DEVICE in .env: cpu or vllm
 ```
 
 Incremental by SHA-256; deleted documents are removed. Publication is atomic under
-`INDEX_LOCK` — a failure keeps the previous generation **and** its dimension. The GPU
-environment is a separate venv with its own dependencies (`pyahocorasick` imports as
-`ahocorasick` and must be installed there too; the builder checks before starting
-workers). The model downloads into `model_cache/` on first use, then everything is offline.
+`INDEX_LOCK` — a failure keeps the previous generation **and** its dimension. `pyahocorasick`
+imports as `ahocorasick` (the builder checks before starting workers). The CPU model downloads
+into `model_cache/` on first use, then everything is offline; `vllm-embed` reads its Hugging
+Face weights from the same folder, offline.

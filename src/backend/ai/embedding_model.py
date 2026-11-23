@@ -3,14 +3,17 @@ when syncing the index (scripts/build_hybrid_index.py) and when embedding a
 query (ai/search.py).
 
 Two backends share one interface (`embed(texts, batch_size, parallel)`):
-FastEmbed/ONNX fp32 on CPU (queries, and builds without a GPU) and a PyTorch
-fp16 adaptor on CUDA (index builds only, imported lazily so the web app and its
-Docker image never need torch)."""
+FastEmbed/ONNX fp32 on CPU (queries, and builds without a GPU) and an HTTP client
+for the local vLLM embedding server (index builds only; the server runs in the
+`vllm-embed` Compose service, so neither the web app nor its Docker image needs
+torch)."""
 
 from __future__ import annotations
 
 import json
 import os
+from collections import deque
+from concurrent.futures import Future, ThreadPoolExecutor
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
@@ -28,9 +31,13 @@ QWEN_QUERY_TEMPLATE = (
     "from herbal and naturopathic texts that answer it\nQuery:{text}"
 )
 
-# Texts per call of the GPU adaptor: bounds memory and lets the build report
-# progress between slices (sentence-transformers sorts by length inside a call).
-_GPU_SLICE = 512
+# Seconds one embeddings request may take; a request holds at most a few dozen windows.
+VLLM_REQUEST_TIMEOUT_SECONDS = 600
+
+
+# Address of the vllm-embed server on this machine (Compose publishes it on the loopback only).
+def vllm_embed_url() -> str:
+    return f"http://127.0.0.1:{settings.vllm_embed_port}/v1"
 
 
 @dataclass(frozen=True)
@@ -93,61 +100,74 @@ def _normalize_fastembed_metadata(cache_dir: Path) -> None:
             continue
 
 
-class CudaEmbedding:
-    """GPU (PyTorch fp16, sentence-transformers) stand-in for the part of
-    FastEmbed's TextEmbedding that the index build uses. Vectors agree with the
-    CPU fp32 ones to a cosine of about 0.9998, so an index built on the GPU is
-    queried correctly with CPU query vectors."""
+class VllmEmbedding:
+    """Client of the local vLLM embedding server, a stand-in for the part of FastEmbed's
+    TextEmbedding that the index build uses. The server's precision is set in `.env`
+    (VLLM_EMBED_*); its vectors agree with the CPU fp32 ones to a cosine above 0.98 even
+    with fp8, so an index built on the GPU is queried correctly with CPU query vectors.
+    The server must already be running (see backend.ai.vllm_embed_server)."""
 
-    def __init__(self, model_name: str, cache_dir: Path) -> None:
-        # Both must be set before huggingface_hub is imported (through torch /
-        # sentence-transformers) to take effect.
-        os.environ.setdefault("HF_HUB_CACHE", str(cache_dir))
-        os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS_WARNING", "1")
+    def __init__(self, model_name: str) -> None:
+        import httpx
+
+        self._httpx = httpx
+        self._model_name = model_name
+        self._dimension = get_profile(model_name).dimension
+        self._url = f"{vllm_embed_url()}/embeddings"
+        self._threads = settings.embedding_threads
+
+    # One request: the vectors of `texts`, in order. Any HTTP or shape error stops the build;
+    # nothing is retried quietly, because a wrong vector would be written to the index.
+    def _request(self, client, texts: list[str]) -> list[np.ndarray]:
         try:
-            import torch
-            from sentence_transformers import SentenceTransformer
-        except ImportError as exc:
-            raise RuntimeError(
-                "EMBEDDING_DEVICE=cuda needs torch and sentence-transformers; "
-                "run the build from the GPU environment (.venv-gpu)"
-            ) from exc
-        if not torch.cuda.is_available():
-            raise RuntimeError(
-                "EMBEDDING_DEVICE=cuda but CUDA is not available; refusing to fall back to the CPU "
-                "(a full build would take hours). Fix the GPU setup or use EMBEDDING_DEVICE=cpu."
-            )
-        self._model = SentenceTransformer(
-            model_name,
-            device="cuda",
-            cache_folder=str(cache_dir),
-            model_kwargs={"torch_dtype": torch.float16},
-            tokenizer_kwargs={"padding_side": "left"},
-        )
+            response = client.post(self._url, json={"model": self._model_name, "input": texts})
+            response.raise_for_status()
+            rows = sorted(response.json()["data"], key=lambda row: row["index"])
+        except (self._httpx.HTTPError, ValueError, KeyError, TypeError) as exc:
+            raise RuntimeError(f"VLLM_EMBED_REQUEST_FAILED: {type(exc).__name__}") from None
+        vectors = [np.asarray(row["embedding"], dtype=np.float32) for row in rows]
+        if len(vectors) != len(texts) or any(v.shape != (self._dimension,) for v in vectors):
+            raise RuntimeError("VLLM_EMBED_BAD_RESPONSE")
+        return vectors
 
-    # Embed `documents` in order, yielding one unit-length vector at a time.
-    # `parallel` exists only for FastEmbed compatibility and is ignored.
+    # Embed `documents` in order, yielding one unit-length vector at a time. Up to
+    # `settings.embedding_threads` requests of `batch_size` windows are in flight; the server
+    # regroups them into its own steps. `parallel` exists only for FastEmbed compatibility.
     def embed(
-        self, documents: Iterable[str], batch_size: int = 8, parallel=None
+        self, documents: Iterable[str], batch_size: int = 16, parallel=None
     ) -> Iterator[np.ndarray]:
         texts = list(documents)
-        for start in range(0, len(texts), _GPU_SLICE):
-            vectors = self._model.encode(
-                texts[start : start + _GPU_SLICE],
-                batch_size=batch_size,
-                normalize_embeddings=True,
-                convert_to_numpy=True,
-            )
-            yield from np.asarray(vectors, dtype=np.float32)
+        batches = (texts[start : start + batch_size] for start in range(0, len(texts), batch_size))
+        pending: deque[Future[list[np.ndarray]]] = deque()
+        limit = 2 * self._threads  # bounded look-ahead keeps the memory and the progress honest
+        timeout = self._httpx.Timeout(VLLM_REQUEST_TIMEOUT_SECONDS)
+        pool = ThreadPoolExecutor(self._threads)
+        try:
+            with self._httpx.Client(
+                timeout=timeout,
+                limits=self._httpx.Limits(max_connections=self._threads),
+            ) as client:
+                for batch in batches:
+                    pending.append(pool.submit(self._request, client, batch))
+                    if len(pending) >= limit:
+                        yield from self._take(pending)
+                while pending:
+                    yield from self._take(pending)
+        finally:
+            pool.shutdown(wait=True, cancel_futures=True)
+
+    @staticmethod
+    def _take(pending: deque[Future[list[np.ndarray]]]) -> Iterator[np.ndarray]:
+        yield from pending.popleft().result()
 
 
-# Load the configured model: FastEmbed on the CPU, or the PyTorch fp16 adaptor
-# when the device is "cuda" (default: settings.embedding_device).
+# Load the configured model: FastEmbed on the CPU, or the client of the vLLM server
+# when the device is "vllm" (default: settings.embedding_device).
 def create_embedding_model(model_name: str, cache_dir: Path, device: str | None = None):
     get_profile(model_name)  # unknown models fail here, before anything is loaded
     device = device or settings.embedding_device
-    if device == "cuda":
-        return CudaEmbedding(model_name, cache_dir)
+    if device == "vllm":
+        return VllmEmbedding(model_name)
 
     from fastembed import TextEmbedding
 
