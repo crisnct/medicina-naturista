@@ -11281,6 +11281,24 @@
       "last_seen": "2026-11-24T14:59:51.291Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/FragmentsPanel.tsx",
+      "root_cause": "Had `> ${value.toFixed(2)}`",
+      "fix": "Changed to `≥ ${Math.round(value * 100)}%`",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-628",
+      "timestamp": "2026-11-24T16:21:57.878Z",
+      "last_seen": "2026-11-24T16:21:57.878Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -11956,7 +11974,8 @@
     "a03103b0-7ec7-4dbd-a81b-3aeee4bedfe3": true,
     "f8c5d85a-f5f7-4065-9cb8-96bc9e4bfea5": true,
     "ca853efb-7d3b-45f8-b77f-153c1b4198c6": true,
-    "cdc44807-4b24-4e62-82f8-56d406d3053e": true
+    "cdc44807-4b24-4e62-82f8-56d406d3053e": true,
+    "c91550ee-0c7e-4433-88ba-ade5c79bdae1": true
   },
-  "next_id": 628
+  "next_id": 629
 }

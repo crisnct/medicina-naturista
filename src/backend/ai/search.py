@@ -30,9 +30,10 @@ from backend.core.score_formula import compile_search_formula, search_formula_sq
 #                 fragment's primary conditions (title) / secondary ones (text)
 #   B lexical   : L = the rank (1 = best) of the fragment's BM25 for the user's comma-separated
 #                 expressions among the fragments the BM25 index finds; infinity when it is
-#                 not found (see lexical_query())
+#                 not found (see lexical_query()); BM25 scores within +/- SEARCH_LEXICAL_TIE_TOLERANCE share a rank
 #   C semantic  : V = the rank (1 = best) of the fragment's cosine similarity to the message
-#                 among the fragments of the search; infinity at or below the median cosine
+#                 (cosines within +/- 0.01 share a rank, see _SEMANTIC_VALUE)
+#                 among the fragments of the search; infinity below SEARCH_MIN_SEMANTIC_SIMILARITY
 # Ties share a rank. The ranks are what reciprocal rank fusion needs: the formula turns them
 # into values, e.g. (K+1)/(K+L), which is 0 for an infinite rank (K is SEARCH_RRF_K). At
 # least one signal must be on. A signal that is off is not computed at all (its rank is
@@ -256,26 +257,24 @@ def lexical_query(resolved: ResolvedQuery) -> tuple[str, dict[str, object]] | No
 #             condition arrays and the exact cosine similarity to the query
 #   lex       the fragments the BM25 index finds for the lexical query (see
 #             lexical_query()) with their BM25 score and its rank (lex_rank)
-#   cosine_stats  median cosine of THIS search: V is 0 at or below it, so only the
-#             upper half of the fragments can score on similarity alone
-#             (all similarities equal, e.g. a one-fragment selection: V = 0)
 #   ranked    P1, P2, L = the BM25 rank, V = the cosine rank (ranked over the pool,
-#             so both are relative to THIS search: relevance_percent tells how good
+#             infinity below SEARCH_MIN_SEMANTIC_SIMILARITY, so only the fragments
+#             that reach it can score on similarity alone; both are relative to THIS search: relevance_percent tells how good
 #             a fragment is within this search, not across searches); infinity when
 #             the fragment has none
 #   scored    score = the score formula over P1, P2, L, V, K (see score_sql())
 #   kept      running sum of the evidence characters in score order, over the
 #             fragments with score > 0 (a condition, a lexical match or a
-#             semantic similarity above the median); only the prefix that fits
-#             the budget survives, so the fragments cut from the tail are whole
+#             semantic similarity of at least SEARCH_MIN_SEMANTIC_SIMILARITY); only the
+#             prefix that fits the budget survives, so the fragments cut from the tail are whole
 #             ones, never truncated
 # The signals that are off are written as constants (no condition arrays, no
-# vector, no BM25 query, no statistics), so they cost nothing.
+# vector, no BM25 query), so they cost nothing.
 # The text of the kept fragments is read through a LATERAL primary-key lookup, so
 # only those few rows are touched: a plain join makes Postgres hash the whole
 # table (text included), which was 3-5 times slower.
 # There is no candidate limit per signal: nothing is dropped before scoring.
-# {condition_columns}, {cosine_column}, {lexical}, {cosine_stats}, {lexical_value} and
+# {condition_columns}, {cosine_column}, {lexical}, {lexical_value} and
 # {semantic_value} depend on the signals, {score} on the formula; {category_where} is an
 # optional category filter.
 _RANK_SQL = """
@@ -288,7 +287,6 @@ pool AS (
     {category_where}
 ),
 {lexical}
-{cosine_stats}
 ranked AS (
     SELECT p.chunk_id, p.p1, p.p2, p.cosine, l.bm25,
            {lexical_value} AS lexical,
@@ -296,7 +294,6 @@ ranked AS (
            p.char_count + CASE WHEN btrim(p.heading) <> ''
                                THEN char_length(btrim(p.heading)) + %(heading_overhead)s ELSE 0 END AS evidence_chars
     FROM pool p
-    {cosine_join}
     LEFT JOIN lex l USING (chunk_id)
 ),
 scored AS (
@@ -324,33 +321,45 @@ _NO_CONDITION_COLUMNS = "0 AS p1, 0 AS p2"
 
 _COSINE_COLUMN = "-(embedding <#> %(vector)s) AS cosine"
 _NO_COSINE_COLUMN = "NULL::double precision AS cosine"
-_COSINE_STATS = """cosine_stats AS (
-    SELECT percentile_cont(0.5) WITHIN GROUP (ORDER BY cosine) AS median FROM pool
-),"""
-_COSINE_JOIN = "CROSS JOIN cosine_stats cs"
-# The rank of the fragment's cosine in the pool (ties share it); the median gate keeps the
-# candidates of the semantic signal to the upper half of the pool, otherwise every fragment
-# would get a finite rank, a positive score and enter the budgeted prefix. The window ranks
-# the pool rows (the LEFT JOIN of `ranked` adds none). Infinity: no rank, so the formula's
+# The dense rank of the fragment's cosine band in the pool; a cosine below the minimum
+# (SEARCH_MIN_SEMANTIC_SIMILARITY) gets no rank, otherwise every fragment would get a finite
+# rank, a positive score and enter the budgeted prefix. The window ranks the pool rows (the
+# LEFT JOIN of `ranked` adds none); the fragments under the minimum rank below those above it,
+# so they do not move the ranks of the others. Infinity: no rank, so the formula's
 # (K+1)/(K+V) is 0.
 _INFINITE_RANK = "'Infinity'::double precision"
+# Cosines within +/- 0.01 share a rank: the cosine is cut into bands 0.02 wide (floor(cosine /
+# 0.02)) and the bands are ranked densely (DENSE_RANK: 1, 1, 2, 3, ... with no gap after a
+# tie), so a fragment's rank is 1 + the number of better bands. Two fragments in one band are
+# less than 0.02 apart; two closer than 0.01 can still fall on either side of a band edge.
+SEMANTIC_TIE_TOLERANCE = 0.01
+_SEMANTIC_BAND = f"floor(p.cosine / {2 * SEMANTIC_TIE_TOLERANCE}::double precision)"
 _SEMANTIC_VALUE = (
-    "CASE WHEN p.cosine > cs.median "
-    "THEN (RANK() OVER (ORDER BY p.cosine DESC))::double precision "
+    "CASE WHEN p.cosine >= %(min_cosine)s "
+    f"THEN (DENSE_RANK() OVER (ORDER BY {_SEMANTIC_BAND} DESC))::double precision "
     f"ELSE {_INFINITE_RANK} END"
 )
 _NO_SEMANTIC_VALUE = _INFINITE_RANK
 
 # The BM25 index's own scan: it finds the fragments the lexical query matches and scores
-# them in one pass; their rank by BM25 (ties share it) is what L is made of. The scores are
+# them in one pass; their rank by BM25 is what L is made of. The scores are
 # read in an inner query so the ParadeDB scan computes them, and ranked outside it.
-_LEXICAL_CTE = """lex AS (
-    SELECT chunk_id, bm25, RANK() OVER (ORDER BY bm25 DESC) AS lex_rank
-    FROM (
-        SELECT c.chunk_id, pdb.score(c.chunk_id) AS bm25
-        FROM chunks c
-        WHERE c.chunk_id @@@ {query} {category_and}
-    ) matches
+# BM25 has no fixed scale, so the tolerance (SEARCH_LEXICAL_TIE_TOLERANCE, t) is relative:
+# scores within +/- t share a rank. The log of the score is cut into bands of ln((1+t)/(1-t))
+# and the bands are ranked densely (1, 1, 2, 3, ...). As for the cosine, two scores closer than
+# the tolerance can fall on either side of a band edge. A score at or below 0 (not expected)
+# goes to the lowest band.
+# The scan is its own MATERIALIZED step: with the band arithmetic in the same query level Postgres
+# no longer lets the ParadeDB scan evaluate pdb.score ("must be evaluated by a ParadeDB scan").
+_LEXICAL_CTE = """lex_matches AS MATERIALIZED (
+    SELECT c.chunk_id, pdb.score(c.chunk_id) AS bm25
+    FROM chunks c
+    WHERE c.chunk_id @@@ {query} {category_and}
+),
+lex AS (
+    SELECT chunk_id, bm25,
+           DENSE_RANK() OVER (ORDER BY floor(ln(greatest(bm25, 1e-9)) / %(lexical_band)s) DESC) AS lex_rank
+    FROM lex_matches
 ),"""
 _LEXICAL_VALUE = f"coalesce(l.lex_rank::double precision, {_INFINITE_RANK})"
 # Lexical signal off, or no usable word in the message: nothing matches lexically.
@@ -380,7 +389,7 @@ _NO_LEXICAL_VALUE = _INFINITE_RANK
 # category_ids optionally restricts the search to chunks whose category_id is
 # one of the given ids (see backend.ai.categories). None means all sources; an
 # empty set means zero chunks. The filter is applied before the search
-# ranks and statistics (median cosine), so L and V stay relative to the fragments the user
+# ranks, so L and V stay relative to the fragments the user
 # actually searches in.
 #
 # max_chars is the evidence budget (the AI provider's context limit): the
@@ -437,8 +446,6 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
         lexical=_LEXICAL_CTE.format(query=lexical[0], category_and=category_and)
         if lexical
         else _NO_LEXICAL_CTE,
-        cosine_stats=_COSINE_STATS if signals.semantic else "",
-        cosine_join=_COSINE_JOIN if signals.semantic else "",
         lexical_value=_LEXICAL_VALUE if lexical else _NO_LEXICAL_VALUE,
         semantic_value=_SEMANTIC_VALUE if signals.semantic else _NO_SEMANTIC_VALUE,
         score=score_sql(),
@@ -449,6 +456,8 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
         "conditions": condition_names,
         **(lexical[1] if lexical else {}),
         "categories": list(category_ids) if category_ids else None,
+        "min_cosine": settings.search_min_semantic_similarity,
+        "lexical_band": _lexical_band_width(settings.search_lexical_tie_tolerance),
         "heading_overhead": len(evidence_heading_prefix()) + len(EVIDENCE_HEADING_SEPARATOR),
         "max_chars": max_chars if max_chars is not None else UNLIMITED_CHARS,
     }
@@ -503,6 +512,11 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
         }
         for row in rows
     ]
+
+
+# The width of a BM25 band in log space for the relative tolerance (see _LEXICAL_CTE).
+def _lexical_band_width(tolerance: float) -> float:
+    return math.log((1 + tolerance) / (1 - tolerance))
 
 
 # The rank as an int, None when the fragment has none (infinity).

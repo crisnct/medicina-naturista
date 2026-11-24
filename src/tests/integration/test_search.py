@@ -9,6 +9,7 @@ import math
 import tempfile
 import unittest
 from contextlib import nullcontext, redirect_stdout
+from dataclasses import replace
 from pathlib import Path
 from types import SimpleNamespace
 from unittest import mock
@@ -159,6 +160,15 @@ class RankTestCase(unittest.TestCase):
                 conditions,
                 mock.patch.object(conditions, "load_dictionary", return_value=_dictionary()),
             ),
+            # The fixtures use cosines of 0, 0.9 and 1: 0.5 gives the first no semantic rank.
+            (
+                search,
+                mock.patch.object(
+                    search,
+                    "settings",
+                    replace(search.settings, search_min_semantic_similarity=0.5),
+                ),
+            ),
         ):
             value.start()
             self.addCleanup(value.stop)
@@ -294,11 +304,9 @@ class PriorityRankTests(RankTestCase):
             any(item["condition_in_title"] or item["condition_in_text"] for item in results)
         )
         self.assertEqual(results[0]["source_relative_path"], "catB/prefix.md")
-        self.assertEqual(
-            _paths(results)[1], "catB/neutru.md"
-        )  # semantic only, below the median otherwise
+        self.assertEqual(_paths(results)[1], "catB/neutru.md")  # semantic only
 
-    def test_fragments_below_the_median_similarity_without_any_other_signal_are_left_out(self):
+    def test_fragments_below_the_minimum_similarity_without_any_other_signal_are_left_out(self):
         paths = _paths(search.rank("zorbicul"))
 
         self.assertNotIn("catB/altul.md", paths)
@@ -375,7 +383,9 @@ class PriorityRankTests(RankTestCase):
         with self.assertRaises(IndexUnavailable):
             search.rank("zorbita", signals=_signals("C"))
 
-    def test_only_the_semantic_signal_keeps_the_fragments_above_the_median_in_cosine_order(self):
+    def test_only_the_semantic_signal_keeps_the_fragments_reaching_the_minimum_in_cosine_order(
+        self,
+    ):
         results = search.rank("zorbita", signals=_signals("C"))
 
         self.assertEqual(_paths(results), ["catB/prefix.md", "catB/neutru.md"])
@@ -579,7 +589,7 @@ class ExpressionTests(RankTestCase):
         self.assertIsNotNone(ameteala["lexical_rank"])
 
     def test_equal_similarities_give_no_semantic_rank(self):
-        # Every document has cosine 0, so none is "above the median": no rank, V adds 0.
+        # Every document has cosine 0, below the minimum: no rank, V adds 0.
         doar = self.by_path(search.rank("durere de cap"))["e/doar-durere.md"]
 
         self.assertIsNone(doar["semantic_rank"])
@@ -764,10 +774,16 @@ class CategoryFilterTests(RankTestCase):
         self.assertTrue(all(path.startswith("catA/") for path in _paths(results)))
 
     def test_semantic_rank_is_relative_to_the_selected_subset(self):
-        everything = self.by_path(search.rank("propozitie absenta din orice document"))
-        filtered = self.by_path(
-            search.rank("propozitie absenta din orice document", category_ids=frozenset({"catA"}))
-        )
+        # No minimum, so the 0.3 cosine of catA/two.md still gets a rank.
+        with mock.patch.object(
+            search, "settings", replace(search.settings, search_min_semantic_similarity=0.0)
+        ):
+            everything = self.by_path(search.rank("propozitie absenta din orice document"))
+            filtered = self.by_path(
+                search.rank(
+                    "propozitie absenta din orice document", category_ids=frozenset({"catA"})
+                )
+            )
 
         # catA/two.md is far from the best fragment of the whole index, but the best of catA.
         self.assertNotEqual(everything["catA/two.md"]["semantic_rank"], 1)

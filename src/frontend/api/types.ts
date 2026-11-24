@@ -56,6 +56,9 @@ export interface FragmentsMessage extends MessageIdentity {
   // The signals this search was scored with; absent on messages from before the
   // choice existed, which were scored with every signal.
   signals?: SearchSignals;
+  // The cosine similarity below which the search kept no fragment (SEARCH_MIN_SEMANTIC_SIMILARITY);
+  // absent on messages from before it existed.
+  minSemanticSimilarity?: number;
   indexGeneration?: string | null;
   removedCategoryIds?: string[];
   fragmentsCount: number;

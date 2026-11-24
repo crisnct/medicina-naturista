@@ -17,6 +17,7 @@ from urllib.parse import quote
 from backend.ai.fragment_highlights import display_text
 from backend.ai.report_validation import ValidatedReport, partial_notice
 from backend.ai.search import ALL_SIGNALS, SearchSignals
+from backend.config import settings
 from backend.core.contracts import ProfilePayload
 from backend.core.models import SessionData, SessionSnapshot
 from backend.core.texts import tr
@@ -174,6 +175,8 @@ def fragments_message(
             "lexical": signals.lexical,
             "semantic": signals.semantic,
         },
+        # The search kept no fragment below this cosine similarity, so the panel offers no filter value under it.
+        "minSemanticSimilarity": settings.search_min_semantic_similarity,
         "indexGeneration": getattr(evidence, "index_generation", None),
         "removedCategoryIds": getattr(evidence, "removed_category_ids", []),
         "fragmentsCount": len(evidence),

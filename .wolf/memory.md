@@ -3602,3 +3602,25 @@ description: chronological action log per session, consolidated weekly
 <!-- session:ODg0YzMwNzItZTIzNi00YzA2LTk2MWUtMjUzYWY2ZWQ1NThm -->
 | 2026-11-24T15:21:43.043Z | vllm-supervisor unloads host Ollama GPU models (size_vram>0) before every vLLM start, 409 OLLAMA_GPU_BUSY after 30 s; index build no longer refuses on Ollama. Chat: before semantic search the UI checks /api/embedding-model and loads the Ollama query model with a temporary indicator. Plan in aiPlans/2026-11-24-ollama-gpu-si-model-embeddings-chat.md | src/scripts/vllm_supervisor.py,docker-compose.yaml,src/backend/ai/model_runtime.py,src/backend/ai/vllm_embed_server.py,src/backend/ai/embedding_model.py,src/backend/ai/search.py,src/backend/web/main.py,src/frontend/hooks/useConversation.ts,src/frontend/App.tsx | ruff clean, vitest 58 passed, npm build ok, pytest unit running; not verified live |
 | 17:46 | Session end: 12 writes across 4 files (vllm_supervisor.py, docker-compose.yaml, model_runtime.py, 2026-11-24-ollama-gpu-si-model-embeddings-chat.md) | 4 reads | ~5196 tok |
+
+## Session: 2026-11-24 18:13
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 18:17 | Edited src/backend/config.py | 2→4 lines | ~66 |
+| 18:17 | Edited src/backend/config.py | 3→6 lines | ~79 |
+| 18:17 | Edited src/backend/config.py | modified _unit_float() | ~113 |
+| 18:17 | Edited src/backend/ai/search.py | 3→3 lines | ~25 |
+| 18:17 | Edited src/backend/ai/search.py | 1→2 lines | ~38 |
+| 18:17 | Edited src/backend/ai/search.py | 2→4 lines | ~87 |
+| 18:17 | Edited docker-compose.yaml | 2→3 lines | ~34 |
+| 18:17 | Edited src/frontend/components/FragmentsPanel.tsx | CSS: 90 | ~96 |
+| 18:17 | Edited README.md | 1→2 lines | ~103 |
+| 18:18 | Edited src/backend/ai/search.py | expanded (+6 lines) | ~186 |
+| 18:18 | Edited src/backend/ai/search.py | 1→2 lines | ~49 |
+| 18:18 | Edited src/tests/integration/test_search.py | expanded (+9 lines) | ~141 |
+| 18:18 | Edited src/tests/integration/test_search.py | added 1 import(s) | ~24 |
+| 18:21 | Edited src/frontend/components/FragmentsPanel.tsx | "> ${value.toFixed(2)}" → "≥ ${Math.round(value * 10" | ~17 |
+| 18:22 | Edited src/frontend/components/FragmentsPanel.tsx | inline fix | ~30 |
+| 18:22 | Edited README.md | inline fix | ~34 |
+| 18:24 | Edited src/frontend/components/FragmentsPanel.tsx | inline fix | ~12 |

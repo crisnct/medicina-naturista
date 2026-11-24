@@ -21,9 +21,12 @@ const CONDITION_OPTIONS: { value: Exclude<ConditionFilter, "all">; label: string
 // Label of the score line for a fragment's condition match; nothing when it has none.
 const CONDITION_LABELS = { get title() { return tr("interface.fragments_condition_in_title"); }, get text() { return tr("interface.fragments_condition_in_text"); } } as const;
 
-// Cosine-similarity thresholds, 0.30 to 0.80 in steps of 0.05: the band Qwen3 cosines of the
+// Cosine-similarity thresholds, 0.30 to 0.80 in steps of 0.05, then 0.90: the band Qwen3 cosines of the
 // returned fragments sit in (p10 0.34, p99 0.58; 0.75 for the top 20 of the eval queries).
-const SEMANTIC_OPTIONS = Array.from({ length: 11 }, (_, i) => 0.3 + i * 0.05).map((value) => Number(value.toFixed(2)));
+const SEMANTIC_OPTIONS = [
+  ...Array.from({ length: 11 }, (_, i) => 0.3 + i * 0.05).map((value) => Number(value.toFixed(2))),
+  0.9,
+];
 
 // The document's relative path can be several folders deep; the filter shows
 // just the filename (the full path stays the option's value and its title).
@@ -44,8 +47,8 @@ function applyFilters(
 ): FragmentItem[] {
   return fragments.filter((fragment) => {
     if (!reachesMinScore(fragment.relevancePercent, minScore)) return false;
-    // Strictly greater than the threshold; fragments without a cosine similarity never pass.
-    if (minSemantic > 0 && !((fragment.semanticSimilarity ?? -Infinity) > minSemantic)) return false;
+    // At least the threshold; fragments without a cosine similarity never pass.
+    if (minSemantic > 0 && !((fragment.semanticSimilarity ?? -Infinity) >= minSemantic)) return false;
     if (condition !== "all" && (fragment.conditionMatch ?? "none") !== condition) return false;
     if (lexical !== "all" && fragment.foundByLexical !== (lexical === "yes")) return false;
     if (document !== "all" && fragment.document !== document) return false;
@@ -114,9 +117,9 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
                 <label className="fragments-panel-filter">
                   {tr("interface.fragments_semantic_score_label")}<select value={minSemantic} onChange={(event) => setMinSemantic(Number(event.target.value))}>
                     <option value={0}>{tr("common.all")}</option>
-                    {SEMANTIC_OPTIONS.map((value) => (
+                    {SEMANTIC_OPTIONS.filter((value) => value >= (message.minSemanticSimilarity ?? 0) - 1e-9).map((value) => (
                       <option key={value} value={value}>
-                        {`> ${value.toFixed(2)}`}
+                        {`≥ ${Math.round(value * 100)}%`}
                       </option>
                     ))}
                   </select>

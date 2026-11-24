@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import logging
 from contextlib import contextmanager
 from contextvars import ContextVar
 
@@ -19,11 +20,25 @@ from backend.ai.embedding_model import get_profile
 from backend.core.errors import ApplicationError
 from backend.core.texts import tr
 
+logger = logging.getLogger("naturist.index")
+
 INDEX_LOCK = 7261040202
 _reader: ContextVar[tuple[psycopg.Connection, IndexMetadata] | None] = ContextVar(
     "index_reader", default=None
 )
 _dictionary = ContextVar("index_dictionary", default=None)
+
+
+# The caller sees only "index unavailable" for any database error; the real one goes to the
+# log (type, SQLSTATE and the server's primary message, never the statement or its parameters).
+def _log_database_error(where: str, exc: psycopg.Error) -> None:
+    logger.warning(
+        "index_database_error where=%s type=%s sqlstate=%s message=%s",
+        where,
+        type(exc).__name__,
+        exc.sqlstate,
+        exc.diag.message_primary or str(exc).splitlines()[0],
+    )
 
 
 def active_dictionary():
@@ -64,7 +79,8 @@ def dictionary_snapshot(connection=None, *, refresh=False):
                     raise IndexUnavailable()
                 snapshot = catalog_snapshot(connection)
                 return snapshot.fingerprint, snapshot.dictionary
-    except psycopg.Error:
+    except psycopg.Error as exc:
+        _log_database_error("dictionary_snapshot", exc)
         raise IndexUnavailable("INDEX_UNAVAILABLE") from None
 
 
@@ -130,7 +146,8 @@ def index_reader():
                 finally:
                     _dictionary.reset(dictionary_token)
                     _reader.reset(token)
-    except psycopg.Error:
+    except psycopg.Error as exc:
+        _log_database_error("index_reader", exc)
         raise IndexUnavailable("INDEX_UNAVAILABLE") from None
 
 

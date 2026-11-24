@@ -193,6 +193,19 @@ def _int(
 
 
 # Parse a human-friendly boolean environment variable with strict validation.
+# A number from 0 to 1 (a cosine similarity threshold).
+# With `exclusive` the bounds 0 and 1 themselves are refused.
+def _unit_float(
+    name: str, default: float, env: Mapping[str, str] | None = None, exclusive: bool = False
+) -> float:
+    value = float((env or {}).get(name, str(default)))
+    if exclusive and not 0.0 < value < 1.0:
+        raise ValueError(f"{name} must be between 0 and 1, both excluded")
+    if not 0.0 <= value <= 1.0:
+        raise ValueError(f"{name} must be between 0 and 1")
+    return value
+
+
 def _bool(name: str, default: bool, env: Mapping[str, str] | None = None) -> bool:
     value = (env or {}).get(name)
     if value is None:
@@ -347,6 +360,10 @@ class Settings:
     search_score_formula: str = DEFAULT_SEARCH_FORMULA
     # RRF k for L and V: (k + 1) / (k + rank); see ai/search.py.
     search_rrf_k: int = DEFAULT_SEARCH_RRF_K
+    # A fragment whose cosine similarity to the question is below this gets no semantic rank.
+    search_min_semantic_similarity: float = 0.5
+    # BM25 scores within +/- this fraction of each other share a lexical rank.
+    search_lexical_tie_tolerance: float = 0.05
     message_classification_timeout_seconds: int = 10
     message_classification_max_output_tokens: int = 300
     ai_stream: bool = False
@@ -526,6 +543,12 @@ class Settings:
             search_score_formula=env.get("SEARCH_SCORE_FORMULA", DEFAULT_SEARCH_FORMULA).strip(),
             search_rrf_k=_int(
                 "SEARCH_RRF_K", DEFAULT_SEARCH_RRF_K, minimum=1, maximum=1000, env=env
+            ),
+            search_min_semantic_similarity=_unit_float(
+                "SEARCH_MIN_SEMANTIC_SIMILARITY", 0.5, env=env
+            ),
+            search_lexical_tie_tolerance=_unit_float(
+                "SEARCH_LEXICAL_TIE_TOLERANCE", 0.05, env=env, exclusive=True
             ),
             message_classification_timeout_seconds=_int(
                 "MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS", 10, env=env

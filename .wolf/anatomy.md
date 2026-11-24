@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-24T15:03:26.577Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-24T16:24:40.002Z
 > Files: 529 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -12,9 +12,9 @@
 - `.dockerignore` (~107 tok)
 - `AGENTS.md` — AGENTS.md (~3120 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
-- `docker-compose.yaml` — Docker Compose: 2 services (~5312 tok)
+- `docker-compose.yaml` — Docker Compose: 2 services (~5443 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~34160 tok)
+- `README.md` — Project documentation (~34819 tok)
 
 ## .claude/
 
@@ -420,7 +420,7 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~12705 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~12878 tok)
 
 ## src/backend/ai/
 
@@ -458,7 +458,7 @@
 - `providers.py` — Per-provider transport settings for report generation. (~2270 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3085 tok)
-- `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~7625 tok)
+- `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~8120 tok)
 - `vllm_embed_server.py` — Life cycle of the `vllm-embed` Compose service for an index build. (~1690 tok)
 
 ## src/backend/ai/prompts/
@@ -587,7 +587,7 @@
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~1017 tok)
 - `FirstVisitNotice.tsx` — ACKNOWLEDGED_KEY — renders modal (~1004 tok)
 - `FragmentsPanel.test.tsx` (~310 tok)
-- `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3368 tok)
+- `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3455 tok)
 - `GeneratePanel.test.tsx` — message (~878 tok)
 - `GeneratePanel.tsx` — MODEL_LABELS (~6060 tok)
 - `GenerationBatchEstimate.tsx` — Typing in a limit field must not ask the server for a count on every keystroke. (~900 tok)
@@ -662,7 +662,7 @@
 - `test_herbs_index.py` — Atomic derived associations on an isolated PostgreSQL fixture. (~8606 tok)
 - `test_index_integrity.py` — Failure injection and actual PostgreSQL advisory-lock semantics. (~3935 tok)
 - `test_report_metrics_database.py` — Real metrics transactions against disposable PostgreSQL only. (~1939 tok)
-- `test_search.py` — Tests for the combined fragment score (backend.ai.search): the (~10931 tok)
+- `test_search.py` — Tests for the combined fragment score (backend.ai.search): the (~11297 tok)
 
 ## src/tests/support/
 
