@@ -27,6 +27,8 @@ export interface FragmentItem {
   // The ranks the score formula uses: V (by cosine similarity) and L (by BM25); null without one.
   semanticRank?: number | null;
   lexicalRank?: number | null;
+  // The BM25 of the fragment as a percentage of the best BM25 of the search; null when it has none.
+  lexicalPercent?: number | null;
   // Where the condition the patient named was found: in the fragment's title, in its text, or nowhere.
   conditionMatch: "title" | "text" | null;
   matchLabel: string;
@@ -59,6 +61,8 @@ export interface FragmentsMessage extends MessageIdentity {
   // The cosine similarity below which the search kept no fragment (SEARCH_MIN_SEMANTIC_SIMILARITY);
   // absent on messages from before it existed.
   minSemanticSimilarity?: number;
+  // The relative BM25 tolerance of the search (SEARCH_LEXICAL_TIE_TOLERANCE); absent on older messages.
+  lexicalTieTolerance?: number;
   indexGeneration?: string | null;
   removedCategoryIds?: string[];
   fragmentsCount: number;

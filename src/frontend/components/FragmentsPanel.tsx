@@ -7,7 +7,6 @@ import { ALL_SIGNALS } from "../lib/searchSignals";
 import { DoctorAvatar } from "./DoctorAvatar";
 import { HighlightedSource } from "./HerbEvidencePanel";
 
-type LexicalFilter = "all" | "yes" | "no";
 type ConditionFilter = "all" | "title" | "text" | "none";
 
 // Where the condition the patient named was found in the fragment (decided per
@@ -23,6 +22,14 @@ const CONDITION_LABELS = { get title() { return tr("interface.fragments_conditio
 
 // Cosine-similarity thresholds, 0.30 to 0.80 in steps of 0.05, then 0.90: the band Qwen3 cosines of the
 // returned fragments sit in (p10 0.34, p99 0.58; 0.75 for the top 20 of the eval queries).
+// Lexical-match thresholds (percent of the best BM25 of the search): the search's own tie
+// tolerance first, then steps of 10; a value is offered only from the tolerance upwards.
+const LEXICAL_STEPS = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+function lexicalOptions(tolerance: number): number[] {
+  const first = Math.round(tolerance * 100 * 100) / 100;
+  return [first, ...LEXICAL_STEPS.filter((value) => value > first)];
+}
+
 const SEMANTIC_OPTIONS = [
   ...Array.from({ length: 11 }, (_, i) => 0.3 + i * 0.05).map((value) => Number(value.toFixed(2))),
   0.9,
@@ -34,14 +41,14 @@ function fileName(path: string): string {
   return path.split("/").pop() || path;
 }
 
-// Keep only fragments matching every active filter (score, condition, lexical
+// Keep only fragments matching every active filter (score, similarity, condition, lexical
 // match, source document); each filter left at its "no restriction" value
 // passes everything.
 function applyFilters(
   fragments: FragmentItem[],
   minScore: number,
   condition: ConditionFilter,
-  lexical: LexicalFilter,
+  minLexical: number,
   document: "all" | string,
   minSemantic: number,
 ): FragmentItem[] {
@@ -50,7 +57,8 @@ function applyFilters(
     // At least the threshold; fragments without a cosine similarity never pass.
     if (minSemantic > 0 && !((fragment.semanticSimilarity ?? -Infinity) >= minSemantic)) return false;
     if (condition !== "all" && (fragment.conditionMatch ?? "none") !== condition) return false;
-    if (lexical !== "all" && fragment.foundByLexical !== (lexical === "yes")) return false;
+    // At least the threshold (percent); fragments the lexical search did not find never pass.
+    if (minLexical > 0 && !((fragment.lexicalPercent ?? -Infinity) >= minLexical)) return false;
     if (document !== "all" && fragment.document !== document) return false;
     return true;
   });
@@ -65,7 +73,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
   const [minScore, setMinScore] = useMinScore(message.searchId);
   const [minSemantic, setMinSemantic] = useState(0);
   const [condition, setCondition] = useState<ConditionFilter>("all");
-  const [lexical, setLexical] = useState<LexicalFilter>("all");
+  const [minLexical, setMinLexical] = useState(0);
   const [documentFilter, setDocumentFilter] = useState<"all" | string>("all");
 
   // Every source document across ALL fragments (not just the currently
@@ -80,15 +88,15 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
   );
 
   const filtered = useMemo(
-    () => applyFilters(message.fragments, minScore, condition, lexical, documentFilter, minSemantic),
-    [message.fragments, minScore, condition, lexical, documentFilter, minSemantic],
+    () => applyFilters(message.fragments, minScore, condition, minLexical, documentFilter, minSemantic),
+    [message.fragments, minScore, condition, minLexical, documentFilter, minSemantic],
   );
   // Only the documents behind the fragments still visible after filtering.
   const documents = [...new Set(filtered.map((fragment) => fragment.document))];
   // Characters of the fragment texts currently shown (after filtering).
   const foundChars = message.fragments.reduce((sum, fragment) => sum + fragment.text.length, 0).toLocaleString(locale());
   const totalChars = filtered.reduce((sum, fragment) => sum + fragment.text.length, 0).toLocaleString(locale());
-  const filtersActive = minScore > 0 || minSemantic > 0 || condition !== "all" || lexical !== "all" || documentFilter !== "all";
+  const filtersActive = minScore > 0 || minSemantic > 0 || condition !== "all" || minLexical > 0 || documentFilter !== "all";
 
   return (
     <section className="search-results-panel">
@@ -113,18 +121,6 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
                   ))}
                 </select>
               </label>
-              {signals.semantic && (
-                <label className="fragments-panel-filter">
-                  {tr("interface.fragments_semantic_score_label")}<select value={minSemantic} onChange={(event) => setMinSemantic(Number(event.target.value))}>
-                    <option value={0}>{tr("common.all")}</option>
-                    {SEMANTIC_OPTIONS.filter((value) => value >= (message.minSemanticSimilarity ?? 0) - 1e-9).map((value) => (
-                      <option key={value} value={value}>
-                        {`≥ ${Math.round(value * 100)}%`}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-              )}
               {signals.conditions && (
                 <label className="fragments-panel-filter">
                   {tr("interface.fragments_condition")}<select value={condition} onChange={(event) => setCondition(event.target.value as ConditionFilter)}>
@@ -137,12 +133,27 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
                   </select>
                 </label>
               )}
+              {signals.semantic && (
+                <label className="fragments-panel-filter">
+                  {tr("interface.fragments_semantic_score_label")}<select value={minSemantic} onChange={(event) => setMinSemantic(Number(event.target.value))}>
+                    <option value={0}>{tr("common.all")}</option>
+                    {SEMANTIC_OPTIONS.filter((value) => value >= (message.minSemanticSimilarity ?? 0) - 1e-9).map((value) => (
+                      <option key={value} value={value}>
+                        {`≥ ${Math.round(value * 100)}%`}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              )}
               {signals.lexical && (
                 <label className="fragments-panel-filter">
-                  {tr("interface.fragments_lexical_match")}<select value={lexical} onChange={(event) => setLexical(event.target.value as LexicalFilter)}>
-                    <option value="all">{tr("common.all")}</option>
-                    <option value="yes">{tr("interface.yes")}</option>
-                    <option value="no">{tr("interface.no")}</option>
+                  {tr("interface.fragments_lexical_match")}<select value={minLexical} onChange={(event) => setMinLexical(Number(event.target.value))}>
+                    <option value={0}>{tr("common.all")}</option>
+                    {lexicalOptions(message.lexicalTieTolerance ?? 0.05).map((value) => (
+                      <option key={value} value={value}>
+                        {`≥ ${value}%`}
+                      </option>
+                    ))}
                   </select>
                 </label>
               )}
@@ -180,10 +191,10 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
               if (fragment.relevancePercent !== null) scoreParts.push(tr("interface.fragments_relevance_score", { score: Math.round(fragment.relevancePercent) }));
               if (signals.conditions && fragment.conditionMatch !== null)
                 scoreParts.push(CONDITION_LABELS[fragment.conditionMatch]);
-              if (signals.lexical && fragment.lexicalRank != null)
-                scoreParts.push(tr("interface.fragments_lexical_rank", { rank: fragment.lexicalRank }));
               if (signals.semantic && fragment.semanticRank != null)
                 scoreParts.push(tr("interface.fragments_semantic_rank", { rank: fragment.semanticRank }));
+              if (signals.lexical && fragment.lexicalRank != null)
+                scoreParts.push(tr("interface.fragments_lexical_rank", { rank: fragment.lexicalRank }));
               return (
                 <div className="fragments-panel-fragment" key={index}>
                   <p className="fragments-panel-fragment-text"><HighlightedSource text={fragment.text} highlights={fragment.highlights ?? []} /></p>

@@ -158,6 +158,11 @@ class Retriever:
         evidence.resolved = resolved
         evidence.signals = effective
         content_bytes = 0
+        # The BM25 of a fragment as a percentage of the best BM25 of this search (the panel
+        # filters by it); BM25 has no fixed scale, so only the ratio to the best means anything.
+        best_bm25 = max(
+            (c["lexical_bm25"] for c in candidates if c.get("lexical_bm25")), default=None
+        )
         for best in candidates:
             evidence_id = f"C{best['chunk_id']}"
             ceiling = fragment_ceiling(
@@ -181,6 +186,11 @@ class Retriever:
                 "lexical_rank": best.get("lexical_rank"),
                 "semantic_rank": best.get("semantic_rank"),
                 "semantic_similarity": best.get("semantic_similarity"),
+                "lexical_percent": (
+                    best["lexical_bm25"] / best_bm25 * 100.0
+                    if best_bm25 and best.get("lexical_bm25") is not None
+                    else None
+                ),
                 # P1 / P2: the searched condition is in the fragment's title / text
                 # (None when the conditions signal is off).
                 "condition_in_title": best["condition_in_title"],

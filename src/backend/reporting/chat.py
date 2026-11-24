@@ -157,6 +157,7 @@ def fragments_message(
                 "semanticSimilarity": item.get("semantic_similarity"),
                 "semanticRank": item.get("semantic_rank"),
                 "lexicalRank": item.get("lexical_rank"),
+                "lexicalPercent": item.get("lexical_percent"),
                 "conditionMatch": condition_match(item),
                 "matchLabel": match_type_label(item),
                 "foundByLexical": bool(item.get("found_by_lexical")),
@@ -177,6 +178,8 @@ def fragments_message(
         },
         # The search kept no fragment below this cosine similarity, so the panel offers no filter value under it.
         "minSemanticSimilarity": settings.search_min_semantic_similarity,
+        # BM25 scores this close (relative) share a lexical rank: the smallest value the panel offers.
+        "lexicalTieTolerance": settings.search_lexical_tie_tolerance,
         "indexGeneration": getattr(evidence, "index_generation", None),
         "removedCategoryIds": getattr(evidence, "removed_category_ids", []),
         "fragmentsCount": len(evidence),
