@@ -36,7 +36,7 @@ standard.
 
 | Concern | This project | Why it is not the generic default |
 |---|---|---|
-| Python / runtime image | 3.11, `python:3.11-slim-bookworm` | Hashed lock files, ONNX/fastembed wheels, and the DejaVu/Liberation fonts ReportLab needs for Romanian diacritics — distroless has no shell and no fonts |
+| Python / runtime image | 3.11, `python:3.11-slim-bookworm` | Hashed lock files, and the DejaVu/Liberation fonts ReportLab needs for Romanian diacritics — distroless has no shell and no fonts |
 | Configuration | frozen `Settings` dataclass + `from_env` | One validated snapshot per process; tests inject a mapping and never read `.env` |
 | Dependencies | pip-tools, four committed hashed locks | `--require-hashes` installs, fingerprinted in `requirements-locks.json`, checked in CI |
 | Database access | psycopg 3 + hand-written SQL + numbered SQL migrations | Atomic index publication must be one transaction under an advisory lock; see [database-engineering.md](database-engineering.md) |

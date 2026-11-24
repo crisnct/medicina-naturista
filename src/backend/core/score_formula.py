@@ -12,7 +12,7 @@ from itertools import product
 
 DEFAULT_FORMULA = "2*L1+L2+100*L3"
 # L and V are ranks (reciprocal rank fusion, see ai/search.py); K is SEARCH_RRF_K.
-DEFAULT_SEARCH_FORMULA = "4*P1+2*P2+(K+1)/(K+L)+(K+1)/(K+V)"
+DEFAULT_SEARCH_FORMULA = "4*P1+2*P2+(K+1)/(K+L)+2*(K+1)/(K+V)"
 DEFAULT_SEARCH_RRF_K = 10
 VARIABLES = ("L1", "L2", "L3")
 MAX_LENGTH = 200

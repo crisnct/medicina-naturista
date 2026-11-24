@@ -69,13 +69,12 @@ class SearchSignals:
 ALL_SIGNALS = SearchSignals()
 
 # The score of a fragment is the operator's formula (SEARCH_SCORE_FORMULA in .env, default
-# 4*P1 + 2*P2 + (K+1)/(K+L) + (K+1)/(K+V); grammar and checks in core/score_formula.py) over
+# 4*P1 + 2*P2 + (K+1)/(K+L) + 2*(K+1)/(K+V); grammar and checks in core/score_formula.py) over
 # P1 and P2 in {0, 1}, the ranks L and V, and K = SEARCH_RRF_K. A signal that is off has
-# infinite ranks (and P1 = P2 = 0), so the same formula serves every combination. The default
-# keeps the priorities in order: (K+1)/(K+rank) is 1 for rank 1, so P1 is worth as much as all
-# the lower ones at their best (4 = 2 + 1 + 1) and P2 as much as L plus V (2 = 1 + 1), so only
-# in the extreme tie (a perfect match on everything below) can a lower tier match a higher
-# one; L and V weigh the same.
+# infinite ranks (and P1 = P2 = 0), so the same formula serves every combination. (K+1)/(K+rank)
+# is 1 for rank 1: a condition in the title (4) outweighs one in the text (2) plus a top lexical
+# rank (1), and V counts double (up to 2) because with the 4B model the semantic signal alone
+# ranks better than the lexical one combined with it.
 _SCORE_COLUMNS = {"P1": "p1", "P2": "p2", "L": "lexical", "V": "semantic"}
 
 
@@ -463,7 +462,7 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
                 raise RuntimeError(
                     f"Index dimension {dimension} does not match model {model_name} ({profile.dimension})."
                 )
-            model = cached_query_model(model_name, settings.model_cache_dir)
+            model = cached_query_model(model_name)
             # Unit-length vector: the inner product with the (also unit-length,
             # see build_hybrid_index.py's embed_chunks()) fragment vectors is
             # the cosine similarity. The scan is exact, so V is exact too.

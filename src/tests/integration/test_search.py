@@ -56,7 +56,7 @@ def _dictionary() -> ConditionDictionary:
     return ConditionDictionary(conditions_from_rows(DICTIONARY_TEXT))
 
 
-# A fake FastEmbed model whose query_embed always returns the same fixed
+# A fake question embedder whose query_embed always returns the same fixed
 # vector, so rank()'s semantic signal is fully deterministic in tests.
 class FakeQueryModel:
     def __init__(self, vector: np.ndarray) -> None:

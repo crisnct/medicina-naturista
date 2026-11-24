@@ -3,7 +3,7 @@
 This guide is shared by Claude and ChatGPT/Codex. Read repository-root `AGENTS.md` and
 `.claude/README.md`; adapt tool names and shell syntax to the active host.
 
-One model, one dimension, two backends. Everything that depends on the model is
+One model, one dimension, two clients. Everything that depends on the model is
 concentrated in `backend/ai/embedding_model.py`; keep it that way.
 
 ## Two general rules that bite harder here
@@ -25,43 +25,45 @@ runtime dependencies to make a test or a type-check easier.
 
 ## The model
 
-`Qwen/Qwen3-Embedding-0.6B`, 1024 dimensions, unit-normalised vectors. It is the only
+`Qwen/Qwen3-Embedding-4B`, 2560 dimensions, unit-normalised vectors. It is the only
 model the code understands: `get_profile()` raises on an unknown name rather than
 guessing. An `EmbeddingProfile` carries everything model-dependent — `dimension`,
-`query_template`, `passage_template`, `max_chars` (1400), `overlap_chars` (240).
+`query_template`, `passage_template`, `max_chars` (1400), `overlap_chars` (240) and
+`query_model` (the Ollama tag that embeds questions, `qwen3-embedding:4b-q8_0`).
 
 **Asymmetric encoding.** Queries are wrapped in the Qwen instruct template
 (`QWEN_QUERY_TEMPLATE`, deliberately English while the question stays Romanian or English);
-passages get no prefix. FastEmbed does not add the instruction, so the code does.
+passages get no prefix. Neither vLLM nor Ollama adds the instruction, so the code does.
 Changing the template needs no reindex but **does** invalidate retrieval measurements —
 rerun the evaluation.
 
-## Two backends, one interface
+## Two clients of one model
 
-`embed(texts, batch_size, parallel)`:
+- **`VllmEmbedding`, HTTP client of the `vllm-embed` Compose service** — index builds only,
+  `embed(texts, batch_size, parallel)` (`parallel` is ignored). `EMBEDDING_THREADS` (24) is the
+  number of simultaneous requests and also the server's `--max-num-seqs`; a request holds
+  `BATCH_SIZE` (16) windows. `ai/vllm_embed_server.py` asks the `vllm-supervisor` (loopback port
+  `VLLM_SUPERVISOR_HOST_PORT`; only it has Docker access) to start the service when there is
+  something to embed, waits for the model and stops it in a `finally`; a busy GPU (a running
+  `medicina-vllm-*` container or an Ollama model that holds the GPU) is the error `VLLM_GPU_BUSY`,
+  and there is no fallback. The server flags are fixed in `docker-compose.yaml`
+  (`fp8_per_tensor` weights, bf16 for the rest, fp8 KV cache, `--max-model-len 2048`,
+  `--gpu-memory-utilization 0.8`).
+- **`OllamaQueryEmbedding`, client of the host Ollama** — every question of the app,
+  `query_embed(texts)`, through `/api/embed` with `num_gpu: 0` and `num_ctx: 1024` (the model runs
+  on the CPU, ~4.3 GB of RAM, so it never competes for the GPU) and `keep_alive` 24 h. It reaches
+  Ollama at `OLLAMA_API_BASE`. If Ollama does not answer, the semantic signal fails with
+  `SEMANTIC_MODEL_UNAVAILABLE` (503); it never degrades to the other signals quietly.
+  `is_query_model()` keeps this model out of `gpu_holders()` and out of the unloading that
+  precedes a local report. `cached_query_model` is `lru_cache`d per process and holds only the
+  HTTP client.
 
-- **FastEmbed / ONNX, fp32, CPU** — queries always, and index builds without a GPU.
-  `settings.embedding_threads` defaults to `min(8, cpu_count)`: few threads beat all cores
-  on hybrid P/E-core CPUs.
-- **`VllmEmbedding`, HTTP client of the `vllm-embed` Compose service** — index builds only
-  (`EMBEDDING_DEVICE=vllm`). `EMBEDDING_THREADS` is then the number of simultaneous requests
-  (32, also the server's `--max-num-seqs`) and `VLLM_EMBED_BATCH_SIZE` the windows per request (16). `ai/vllm_embed_server.py`
-  asks the `vllm-supervisor` (loopback port `VLLM_SUPERVISOR_HOST_PORT`; only it has Docker access)
-  to start the service when there is something to embed, waits for the model and stops it in a
-  `finally`; a busy GPU (a running `medicina-vllm-*` container or an Ollama model) is the
-  error `VLLM_GPU_BUSY`, and there is no CPU fallback (a silent fallback means an hours-long
-  build). The server flags are fixed in `docker-compose.yaml` (`fp8_per_tensor` weights, fp8 KV cache, `--max-model-len 2048`, `--gpu-memory-utilization 0.9`).
-
-Measured on 7037 windows (RTX 3500 Ada): the former PyTorch fp16 path 35.5 windows/s; vLLM fp16
-75, bf16 82, fp8 97, fp8 with fp8 KV cache 103 (the setting in use). Cosine against CPU fp32:
-fp16 0.999997, bf16 0.99986, fp8 0.9887, fp8 + fp8 KV cache 0.9818 minimum (0.992 mean), which the
-project accepted. Requests (16-128) and window count per request (1-64)
-do not change the speed; the GPU is the limit. That is why a GPU-built index is correctly queried
-with CPU vectors. **Queries always embed on CPU regardless of `EMBEDDING_DEVICE`.**
-
-`cached_query_model` is `lru_cache`d per process, sets `HF_HUB_OFFLINE=1` and
-`ORT_DISABLE_TELEMETRY=1`, and normalises FastEmbed's cached metadata paths so a cache
-written on Windows works inside a Linux container.
+Measured on the RTX 3500 Ada at 55 W: 21 windows/s at 24 requests (~42 min for the whole
+corpus), the same at `--gpu-memory-utilization` 0.45, 0.6 and 0.8 (compute-bound). At 0.9 the VRAM
+filled up, Windows moved part of it to RAM and the build ran 3–8x slower. Questions: p50 0.7 s on
+the CPU through Ollama (Q8_0 GGUF), whose vectors agree with the vLLM fp8 ones of the index to a
+cosine above 0.96 (mean 0.992) with the same nDCG. Another Ollama version or tag of the model
+needs that check again. nDCG@10 (C only) 0.652 against 0.542 for the former 0.6B model.
 
 ## Chunking and windowing
 
@@ -94,7 +96,7 @@ Keep this in mind before proposing an ANN index — there is no ivfflat/hnsw ind
 how fast they are found. Treat it as a retrieval-quality change requiring measurement, not
 a performance tweak.
 
-The full score is `4·P1 + 2·P2 + L + V` with all signals on; weights per signal
+The full score is `4·P1 + 2·P2 + (K+1)/(K+L) + 2·(K+1)/(K+V)` with all signals on; weights per signal
 combination are fixed in `ai/search.py` and chosen so a condition in the title outranks
 everything below it.
 
@@ -121,9 +123,10 @@ None of this is clinical validation. Do not describe it as such.
 Embedding bugs are quiet by nature, so this layer is deliberately intolerant:
 
 - `get_profile()` raises on an unknown model rather than guessing a dimension.
-- `VllmEmbedding` and `running_embedding_server()` refuse to fall back to CPU when the server
-  cannot start or the GPU is busy — a silent fallback turns a 20-minute build into an
-  all-night one. A wrong response (count or width of vectors) stops the build; nothing is retried.
+- `VllmEmbedding` and `running_embedding_server()` refuse to continue when the server cannot
+  start or the GPU is busy. A wrong response (count or width of vectors) stops the build; nothing
+  is retried. `OllamaQueryEmbedding` raises `SEMANTIC_MODEL_UNAVAILABLE` for a failed request or
+  a wrong vector count or width.
 - `create_embedding_model()` validates the profile *before* loading anything.
 - `ensure_schema()` raises `INDEX_DIMENSION_CHANGE_REQUIRES_SYNC` rather than altering a
   vector column behind the synchronizer's back.
@@ -132,15 +135,13 @@ Embedding bugs are quiet by nature, so this layer is deliberately intolerant:
 
 Preserve this when extending the module: validate up front, raise a specific exception
 with an actionable message, and never degrade silently into a configuration that produces
-plausible-looking but wrong vectors. Catch specific exception types — the one broad
-`except (OSError, ValueError, TypeError)` in the metadata normaliser is scoped on purpose,
-because a cache-metadata quirk must not block startup.
+plausible-looking but wrong vectors. Catch specific exception types.
 
 ## Keeping it testable
 
 Tests are written by the **app-tester** role (`.claude/agents/app-tester.md`). What
-this role owes it: the model-dependent parts stay behind `EmbeddingProfile` and the
-`embed(texts, batch_size, parallel)` interface, so a test can substitute deterministic
+this role owes it: the model-dependent parts stay behind `EmbeddingProfile`, the
+`embed(texts, batch_size, parallel)` interface of the build and `query_embed(texts)` of the questions, so a test can substitute deterministic
 vectors of the right width without loading anything. Window arithmetic, templating and
 averaging stay pure functions, separable from the model that consumes their output.
 Never make the real model, a GPU or network access a precondition for exercising that
@@ -153,11 +154,11 @@ rather than passing or failing.
 ## Index builds
 
 ```bash
-PYTHONPATH=src .venv/Scripts/python.exe src/scripts/build_hybrid_index.py   # EMBEDDING_DEVICE in .env: cpu or vllm
+PYTHONPATH=src .venv/Scripts/python.exe src/scripts/build_hybrid_index.py   # starts and stops vllm-embed itself
 ```
 
 Incremental by SHA-256; deleted documents are removed. Publication is atomic under
 `INDEX_LOCK` — a failure keeps the previous generation **and** its dimension. `pyahocorasick`
-imports as `ahocorasick` (the builder checks before starting workers). The CPU model downloads
-into `model_cache/` on first use, then everything is offline; `vllm-embed` reads its Hugging
-Face weights from the same folder, offline.
+imports as `ahocorasick` (the builder checks before starting workers). `vllm-embed` reads its
+Hugging Face weights (`models--Qwen--Qwen3-Embedding-4B`) from `model_cache/`, offline; the
+Ollama model is pulled once with `ollama pull qwen3-embedding:4b-q8_0`.

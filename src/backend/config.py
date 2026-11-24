@@ -246,17 +246,6 @@ def safety_output_estimate(batch_size: int) -> int:
     return batch_size * SAFETY_MIN_MESSAGES * SAFETY_TOKENS_PER_MESSAGE + SAFETY_OUTPUT_RESERVE
 
 
-EMBEDDING_DEVICES = ("cpu", "vllm")
-
-
-# Read EMBEDDING_DEVICE and reject anything that is not a known device.
-def _embedding_device(env: Mapping[str, str] | None = None) -> str:
-    device = (env or {}).get("EMBEDDING_DEVICE", "cpu").strip().casefold()
-    if device not in EMBEDDING_DEVICES:
-        raise ValueError(f"EMBEDDING_DEVICE must be one of {', '.join(EMBEDDING_DEVICES)}")
-    return device
-
-
 AI_PROVIDERS = ("xai", "huggingface", "ollama", "deepseek", "vllm")
 
 
@@ -274,17 +263,11 @@ class Settings:
     documents_en_dir: Path = CORPUS_DATA_DIR / "documents" / "en"
     herb_images_dir: Path = CORPUS_DATA_DIR / "images"
     model_cache_dir: Path = ROOT / "model_cache"
-    # Threads of the ONNX embedding model. Few threads beat all cores on hybrid
-    # (P/E-core) CPUs, so the default is 8, capped at the machine's core count.
-    embedding_threads: int = min(8, os.cpu_count() or 8)
-    # Device of the index build's embedding model: "cpu" (FastEmbed) or "vllm" (the local
-    # vllm-embed server on the GPU). Queries always run on the CPU.
-    embedding_device: str = "cpu"
-    # With the "vllm" device: host port of the vllm-embed server (the same VLLM_EMBED_HOST_PORT
-    # that Compose publishes) and the windows sent in one request. EMBEDDING_THREADS is then the
-    # number of simultaneous requests.
+    # Simultaneous requests of the index build to the vllm-embed server (also its --max-num-seqs
+    # in docker-compose.yaml; measured: 24 give the top speed on the 4B model).
+    embedding_threads: int = 24
+    # Host port of the vllm-embed server (the same VLLM_EMBED_HOST_PORT that Compose publishes).
     vllm_embed_port: int = 8002
-    vllm_embed_batch_size: int = 16
     # Host port of the vllm-supervisor (VLLM_SUPERVISOR_HOST_PORT): the build starts and stops vllm-embed
     # through it, because only the supervisor has Docker access.
     vllm_supervisor_host_port: int = 8081
@@ -440,10 +423,8 @@ class Settings:
             ),
             herb_images_dir=Path(env.get("HERB_IMAGES_DIR", str(CORPUS_DATA_DIR / "images"))),
             model_cache_dir=Path(env.get("MODEL_CACHE_DIR", str(ROOT / "model_cache"))),
-            embedding_threads=_int("EMBEDDING_THREADS", min(8, os.cpu_count() or 8), env=env),
-            embedding_device=_embedding_device(env=env),
+            embedding_threads=_int("EMBEDDING_THREADS", 24, env=env),
             vllm_embed_port=_int("VLLM_EMBED_HOST_PORT", 8002, maximum=65535, env=env),
-            vllm_embed_batch_size=_int("VLLM_EMBED_BATCH_SIZE", 16, env=env),
             vllm_supervisor_host_port=_int(
                 "VLLM_SUPERVISOR_HOST_PORT", 8081, maximum=65535, env=env
             ),
@@ -676,13 +657,9 @@ class Settings:
         for name in ("ai_stream", "log_fragment_text", "log_ai_response_text", "cookie_secure"):
             if not isinstance(getattr(self, name), bool):
                 raise ValueError(f"{name} must be boolean")
-        if self.embedding_device not in EMBEDDING_DEVICES:
-            raise ValueError("embedding_device must be cpu or vllm")
         for name in ("vllm_embed_port", "vllm_supervisor_host_port"):
             if not 1 <= getattr(self, name) <= 65535:
                 raise ValueError(f"{name} must be a valid TCP port")
-        if type(self.vllm_embed_batch_size) is not int or self.vllm_embed_batch_size <= 0:
-            raise ValueError("vllm_embed_batch_size must be a positive integer")
         if self.log_level not in {"DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"}:
             raise ValueError("log_level must be a supported logging level")
         if self.deployment_profile not in {"local", "public"}:

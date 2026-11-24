@@ -3,9 +3,10 @@
 The build starts the server only when there is something to embed, waits until it serves the
 model, and stops it afterwards (also after an error or Ctrl+C), so the GPU is free for Ollama
 and the report servers again. Only the `vllm-supervisor` container has Docker access, so the
-build asks it over its loopback port (VLLM_SUPERVISOR_HOST_PORT) instead of calling Docker.
-A busy GPU is an error that names what holds it; nothing is stopped for the operator. The
-server's flags come from `.env` through docker-compose.yaml."""
+build asks it over its loopback port (VLLM_SUPERVISOR_HOST_PORT) instead of calling Docker. The
+supervisor unloads the host Ollama models that hold GPU memory before the start; a running vLLM
+server is an error that names it, and nothing of it is stopped for the operator. The server's
+flags come from `.env` through docker-compose.yaml."""
 
 from __future__ import annotations
 
@@ -48,11 +49,15 @@ def _supervisor(method: str, path: str) -> dict[str, Any]:
         body = {}
     if response.status_code != 200:
         code = body.get("error", f"HTTP {response.status_code}") if isinstance(body, dict) else ""
-        hint = (
-            " Create the container once with `docker compose --profile vllm-embed create`."
-            if code == "CONTAINER_MISSING"
-            else ""
-        )
+        hints = {
+            "CONTAINER_MISSING": (
+                " Create the container once with `docker compose --profile vllm-embed create`."
+            ),
+            "OLLAMA_GPU_BUSY": (
+                " Ollama models still hold the GPU 30 s after the unload request; check `ollama ps`."
+            ),
+        }
+        hint = hints.get(code, "")
         raise RuntimeError(f"VLLM_EMBED_SUPERVISOR_ERROR: {code}.{hint}")
     return body
 
@@ -65,23 +70,16 @@ def _embed_state(status: dict[str, dict[str, dict[str, Any]]]) -> dict[str, Any]
     return status["observed"][SERVICE]
 
 
-# What holds the GPU: running vLLM servers of this project and models loaded in Ollama.
+# The vLLM servers of this project that hold the GPU. Ollama is left out: the supervisor unloads
+# its GPU models before it starts the server.
 def gpu_holders(status: dict[str, dict[str, dict[str, Any]]] | None = None) -> list[str]:
     status = status or _status()
-    holders = sorted(
+    return sorted(
         name
         for group in status.values()
         for name, item in group.items()
         if name != SERVICE and item["state"] in _RUNNING_STATES
     )
-    base = settings.ollama_api_base.removesuffix("/v1")
-    try:
-        response = httpx.get(f"{base}/api/ps", timeout=_PROBE_TIMEOUT)
-        response.raise_for_status()
-        models = [str(item.get("name", "?")) for item in response.json().get("models", [])]
-    except (httpx.HTTPError, ValueError, AttributeError):
-        models = []  # no Ollama on this machine (or it is down), so it holds nothing
-    return holders + [f"Ollama model {name}" for name in models]
 
 
 def _models_ready() -> bool:
@@ -132,7 +130,7 @@ def running_embedding_server() -> Iterator[None]:
         raise RuntimeError(
             "VLLM_GPU_BUSY: the GPU is held by "
             + ", ".join(holders)
-            + ". Stop them (docker stop / ollama stop) and run the build again."
+            + ". Stop them (docker stop) and run the build again."
         )
     _supervisor("POST", f"/start/{SERVICE}")
     try:

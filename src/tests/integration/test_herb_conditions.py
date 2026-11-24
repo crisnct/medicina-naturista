@@ -66,7 +66,7 @@ def catalog(postgres):
                 connection.execute("SELECT count(*) FROM herbs_benefits").fetchone()[0]
             ),
         }
-        profile = get_profile("Qwen/Qwen3-Embedding-0.6B")
+        profile = get_profile("Qwen/Qwen3-Embedding-4B")
         from backend.ai.condition_repository import FINGERPRINT_VERSION
 
         metadata.update(
@@ -360,7 +360,7 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
     with db.get_pool().connection() as connection:
         connection.execute("TRUNCATE documents RESTART IDENTITY CASCADE")
         connection.execute("DELETE FROM sync_metadata")
-        profile = get_profile("Qwen/Qwen3-Embedding-0.6B")
+        profile = get_profile("Qwen/Qwen3-Embedding-4B")
         metadata = {
             "model_name": profile.name,
             "model_dimension": str(profile.dimension),

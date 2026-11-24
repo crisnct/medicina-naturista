@@ -154,8 +154,8 @@ class LexicalQueryTests(unittest.TestCase):
 
 class ScoreFormulaTests(unittest.TestCase):
     # The ceiling of every combination of signals under the default formula
-    # 4*P1 + 2*P2 + (K+1)/(K+L) + (K+1)/(K+V): a signal that is off has infinite ranks.
-    EXPECTED = {"ABC": 8, "AB": 7, "AC": 7, "BC": 2, "A": 6, "B": 1, "C": 1}
+    # 4*P1 + 2*P2 + (K+1)/(K+L) + 2*(K+1)/(K+V): a signal that is off has infinite ranks.
+    EXPECTED = {"ABC": 9, "AB": 7, "AC": 8, "BC": 3, "A": 6, "B": 1, "C": 2}
 
     def test_every_combination_has_its_ceiling(self):
         self.assertEqual(set(self.EXPECTED), set(COMBINATIONS))

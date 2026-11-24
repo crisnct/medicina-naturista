@@ -437,6 +437,7 @@ vllm_gpu_busy = "A translation is using the graphics card. Wait for it to finish
 vllm_start_failed = "The AI model could not start. The graphics card may be in use by another program. Try again, or choose another model."
 vllm_stop_failed = "The previous AI model could not be stopped, so the new one was not started. Try again."
 vllm_warmup_timeout = "The AI model did not become ready in time. Try again, or choose another model."
+semantic_model_unavailable = "The model that compares the meaning of the question does not answer. Start Ollama and try again, or clear semantic search."
 generation_cancelled = "Generation was cancelled."
 generation_start_failed = "Generation could not be started."
 page_id_invalid = "Invalid page identifier."

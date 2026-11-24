@@ -1,31 +1,29 @@
-"""Shared local embedding model loading and per-model text profiles, used both
-when syncing the index (scripts/build_hybrid_index.py) and when embedding a
+"""Embedding model profiles and the two clients of the one local model, Qwen3-Embedding-4B,
+used both when syncing the index (scripts/build_hybrid_index.py) and when embedding a
 query (ai/search.py).
 
-Two backends share one interface (`embed(texts, batch_size, parallel)`):
-FastEmbed/ONNX fp32 on CPU (queries, and builds without a GPU) and an HTTP client
-for the local vLLM embedding server (index builds only; the server runs in the
-`vllm-embed` Compose service, so neither the web app nor its Docker image needs
-torch)."""
+Index builds embed the windows through the local vLLM server (the `vllm-embed` Compose
+service, on the GPU, so neither the web app nor its Docker image needs torch). Questions
+are embedded through the host Ollama on the CPU, so the GPU stays free for reports."""
 
 from __future__ import annotations
 
-import json
-import os
 from collections import deque
 from concurrent.futures import Future, ThreadPoolExecutor
 from dataclasses import dataclass
 from functools import lru_cache
-from pathlib import Path
 from typing import Iterable, Iterator
 
 import numpy as np
 
 from backend.config import settings
+from backend.core.errors import ApplicationError
+from backend.core.texts import tr
 
 # Instruction Qwen3-Embedding was trained to expect in front of a query (kept in
-# English on purpose; the question itself stays Romanian). FastEmbed does not add
-# it. Changing it needs no reindex, but the retrieval evaluation must be rerun.
+# English on purpose; the question itself stays Romanian). Neither vLLM nor Ollama adds
+# it, so the code does. Changing it needs no reindex, but the retrieval evaluation must
+# be rerun.
 QWEN_QUERY_TEMPLATE = (
     "Instruct: Given a question about natural medicine in Romanian, retrieve passages "
     "from herbal and naturopathic texts that answer it\nQuery:{text}"
@@ -33,6 +31,17 @@ QWEN_QUERY_TEMPLATE = (
 
 # Seconds one embeddings request may take; a request holds at most a few dozen windows.
 VLLM_REQUEST_TIMEOUT_SECONDS = 600
+
+# Ollama loads the model on the first question (about 3 s); one question takes under 2 s after.
+OLLAMA_QUERY_TIMEOUT_SECONDS = 60
+# Seconds the list of loaded models may take; it answers at once when Ollama is up.
+OLLAMA_PS_TIMEOUT_SECONDS = 3
+# The model stays in the host's RAM between questions instead of the 60 s of OLLAMA_KEEP_ALIVE_SECONDS.
+OLLAMA_QUERY_KEEP_ALIVE = "24h"
+# num_gpu 0 keeps the model on the CPU, so it never competes with reports or the index build for the
+# GPU. A question is far shorter than 1024 tokens; the context only sizes the memory it takes
+# (about 4.3 GB, against 8 GB with Ollama's default context).
+OLLAMA_QUERY_OPTIONS = {"num_gpu": 0, "num_ctx": 1024}
 
 
 # Address of the vllm-embed server on this machine (Compose publishes it on the loopback only).
@@ -51,6 +60,8 @@ class EmbeddingProfile:
     passage_template: str  # "{text}" is the fragment's context line plus window
     max_chars: int  # a longer fragment is embedded as overlapping windows
     overlap_chars: int
+    # The Ollama tag that answers questions (a Q8_0 build of the same model).
+    query_model: str = ""
 
     # The text fed to the model for a user question.
     def query_text(self, query: str) -> str:
@@ -65,13 +76,19 @@ PROFILES: dict[str, EmbeddingProfile] = {
     profile.name: profile
     for profile in (
         EmbeddingProfile(
-            "Qwen/Qwen3-Embedding-0.6B", 1024, QWEN_QUERY_TEMPLATE, "{text}", 1400, 240
+            "Qwen/Qwen3-Embedding-4B",
+            2560,
+            QWEN_QUERY_TEMPLATE,
+            "{text}",
+            1400,
+            240,
+            "qwen3-embedding:4b-q8_0",
         ),
     )
 }
 
 # The model the index is built with and queried with, unless --model says otherwise.
-DEFAULT_MODEL = "Qwen/Qwen3-Embedding-0.6B"
+DEFAULT_MODEL = "Qwen/Qwen3-Embedding-4B"
 
 
 # Profile of a known model; an unknown name is an error, never a silent guess.
@@ -84,28 +101,21 @@ def get_profile(model_name: str) -> EmbeddingProfile:
         ) from None
 
 
-# Normalize cached FastEmbed metadata paths so Windows caches work in Linux containers.
-def _normalize_fastembed_metadata(cache_dir: Path) -> None:
-    """Make FastEmbed metadata created on Windows portable to Linux containers."""
-    for metadata_file in cache_dir.glob("models--*/files_metadata.json"):
-        try:
-            metadata = json.loads(metadata_file.read_text(encoding="utf-8"))
-            normalized = {str(path).replace("\\", "/"): value for path, value in metadata.items()}
-            if normalized != metadata:
-                metadata_file.write_text(
-                    json.dumps(normalized, ensure_ascii=False),
-                    encoding="utf-8",
-                )
-        except (OSError, ValueError, TypeError):
-            continue
+# True for the Ollama tag that answers questions. It lives in the host's RAM (num_gpu 0), so it
+# neither blocks the GPU for the index build nor needs unloading before a local report.
+def is_query_model(ollama_name: str) -> bool:
+    return any(profile.query_model == ollama_name for profile in PROFILES.values())
+
+
+# The Ollama server of this machine (the one that serves reports, never a cloud address).
+def ollama_base_url() -> str:
+    return settings.ollama_api_base.removesuffix("/v1")
 
 
 class VllmEmbedding:
-    """Client of the local vLLM embedding server, a stand-in for the part of FastEmbed's
-    TextEmbedding that the index build uses. The server's precision is set in `.env`
-    (VLLM_EMBED_*); its vectors agree with the CPU fp32 ones to a cosine above 0.98 even
-    with fp8, so an index built on the GPU is queried correctly with CPU query vectors.
-    The server must already be running (see backend.ai.vllm_embed_server)."""
+    """Client of the local vLLM embedding server, used by the index build only. The server's
+    precision is set in docker-compose.yaml; the server must already be running (see
+    backend.ai.vllm_embed_server)."""
 
     def __init__(self, model_name: str) -> None:
         import httpx
@@ -132,7 +142,7 @@ class VllmEmbedding:
 
     # Embed `documents` in order, yielding one unit-length vector at a time. Up to
     # `settings.embedding_threads` requests of `batch_size` windows are in flight; the server
-    # regroups them into its own steps. `parallel` exists only for FastEmbed compatibility.
+    # regroups them into its own steps. `parallel` is ignored, kept for the build's protocol.
     def embed(
         self, documents: Iterable[str], batch_size: int = 16, parallel=None
     ) -> Iterator[np.ndarray]:
@@ -161,26 +171,92 @@ class VllmEmbedding:
         yield from pending.popleft().result()
 
 
-# Load the configured model: FastEmbed on the CPU, or the client of the vLLM server
-# when the device is "vllm" (default: settings.embedding_device).
-def create_embedding_model(model_name: str, cache_dir: Path, device: str | None = None):
-    get_profile(model_name)  # unknown models fail here, before anything is loaded
-    device = device or settings.embedding_device
-    if device == "vllm":
-        return VllmEmbedding(model_name)
+class OllamaQueryEmbedding:
+    """Client of the host Ollama that embeds questions on the CPU. Its Q8_0 vectors agree with
+    the vLLM fp8 ones of the index to a cosine above 0.96 (mean 0.992) with the same ranking
+    quality. An unreachable Ollama stops the semantic search with SEMANTIC_MODEL_UNAVAILABLE;
+    it never falls back to another signal quietly."""
 
-    from fastembed import TextEmbedding
+    def __init__(self, profile: EmbeddingProfile) -> None:
+        import httpx
 
-    return TextEmbedding(
-        model_name=model_name, cache_dir=str(cache_dir), threads=settings.embedding_threads
+        self._httpx = httpx
+        self._profile = profile
+        self._base = ollama_base_url()
+        self._url = f"{self._base}/api/embed"
+        self._client = httpx.Client(timeout=httpx.Timeout(OLLAMA_QUERY_TIMEOUT_SECONDS))
+
+    # True when Ollama holds the question model in memory, so a question needs no load first.
+    def is_loaded(self) -> bool:
+        try:
+            response = self._client.get(f"{self._base}/api/ps", timeout=OLLAMA_PS_TIMEOUT_SECONDS)
+            response.raise_for_status()
+            return any(
+                self._profile.query_model in (item.get("name"), item.get("model"))
+                for item in response.json().get("models") or []
+            )
+        except (self._httpx.HTTPError, ValueError, AttributeError):
+            raise _semantic_model_unavailable() from None
+
+    # An embed without input loads the model with the options and keep-alive of query_embed
+    # (measured: about 3.5 s). A model that is not pulled gets its own error, because starting
+    # Ollama again would not help.
+    def load(self) -> None:
+        try:
+            response = self._client.post(
+                self._url,
+                json={
+                    "model": self._profile.query_model,
+                    "input": [],
+                    "keep_alive": OLLAMA_QUERY_KEEP_ALIVE,
+                    "options": OLLAMA_QUERY_OPTIONS,
+                },
+            )
+            if response.status_code == 404:
+                raise ApplicationError(
+                    "SEMANTIC_MODEL_NOT_PULLED", tr("errors.semantic_model_not_pulled"), 503
+                )
+            response.raise_for_status()
+        except self._httpx.HTTPError:
+            raise _semantic_model_unavailable() from None
+
+    # The vectors of `texts`, in order (not normalized: the caller does that).
+    def query_embed(self, texts: list[str]) -> Iterator[np.ndarray]:
+        try:
+            response = self._client.post(
+                self._url,
+                json={
+                    "model": self._profile.query_model,
+                    "input": texts,
+                    "keep_alive": OLLAMA_QUERY_KEEP_ALIVE,
+                    "options": OLLAMA_QUERY_OPTIONS,
+                },
+            )
+            response.raise_for_status()
+            vectors = [np.asarray(row, dtype=np.float32) for row in response.json()["embeddings"]]
+        except (self._httpx.HTTPError, ValueError, KeyError, TypeError):
+            raise _semantic_model_unavailable() from None
+        if len(vectors) != len(texts) or any(
+            v.shape != (self._profile.dimension,) for v in vectors
+        ):
+            raise _semantic_model_unavailable()
+        yield from vectors
+
+
+def _semantic_model_unavailable() -> ApplicationError:
+    return ApplicationError(
+        "SEMANTIC_MODEL_UNAVAILABLE", tr("errors.semantic_model_unavailable"), 503
     )
 
 
+# The client of the vLLM server that embeds the index windows.
+def create_embedding_model(model_name: str) -> VllmEmbedding:
+    get_profile(model_name)  # unknown models fail here, before anything is loaded
+    return VllmEmbedding(model_name)
+
+
 @lru_cache(maxsize=4)
-# Load the offline CPU model used for query-time embedding, memoized per process.
-# Queries are always embedded on the CPU, whatever EMBEDDING_DEVICE says.
-def cached_query_model(model_name: str, cache_dir: Path):
-    os.environ.setdefault("HF_HUB_OFFLINE", "1")
-    os.environ.setdefault("ORT_DISABLE_TELEMETRY", "1")
-    _normalize_fastembed_metadata(cache_dir)
-    return create_embedding_model(model_name, cache_dir, device="cpu")
+# The question embedder of the model the index was built with, memoized per process (it only
+# holds an HTTP client; the model itself is loaded and kept by Ollama).
+def cached_query_model(model_name: str) -> OllamaQueryEmbedding:
+    return OllamaQueryEmbedding(get_profile(model_name))

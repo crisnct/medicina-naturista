@@ -11065,6 +11065,222 @@
       "last_seen": "2026-11-23T14:17:30.971Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of compare.py",
+      "file": "aiWork/emb4b/compare.py",
+      "root_cause": "10 lines replaced/restructured",
+      "fix": "Rewrote 10→12 lines (10 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-616",
+      "timestamp": "2026-11-23T15:46:23.285Z",
+      "last_seen": "2026-11-23T15:46:23.285Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of config.py",
+      "file": "src/backend/config.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 8→4 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-617",
+      "timestamp": "2026-11-24T12:53:24.916Z",
+      "last_seen": "2026-11-24T12:53:24.916Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of config.py",
+      "file": "src/backend/config.py",
+      "root_cause": "10 lines replaced/restructured",
+      "fix": "Rewrote 11→5 lines (10 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-618",
+      "timestamp": "2026-11-24T12:53:34.494Z",
+      "last_seen": "2026-11-24T12:53:34.494Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of build_hybrid_index.py",
+      "file": "src/scripts/build_hybrid_index.py",
+      "root_cause": "7 lines replaced/restructured",
+      "fix": "Rewrote 18→12 lines (7 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-619",
+      "timestamp": "2026-11-24T12:54:08.801Z",
+      "last_seen": "2026-11-24T12:54:08.801Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of build_hybrid_index.py",
+      "file": "src/scripts/build_hybrid_index.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 8→5 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-620",
+      "timestamp": "2026-11-24T12:54:18.647Z",
+      "last_seen": "2026-11-24T12:54:18.647Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of build_hybrid_index.py",
+      "file": "src/scripts/build_hybrid_index.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 3→3 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-621",
+      "timestamp": "2026-11-24T12:54:28.618Z",
+      "last_seen": "2026-11-24T12:54:28.618Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: vllm_embed_url should be is_query_model",
+      "file": "src/backend/ai/vllm_embed_server.py",
+      "root_cause": "Used \"vllm_embed_url\" instead of \"is_query_model\"",
+      "fix": "Changed vllm_embed_url → is_query_model",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-622",
+      "timestamp": "2026-11-24T12:54:58.185Z",
+      "last_seen": "2026-11-24T12:54:58.185Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/ai/model_runtime.py",
+      "root_cause": "Was returning: [item[\"name\"] for item in response.json().get(\"mod",
+      "fix": "Now returns: [",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-623",
+      "timestamp": "2026-11-24T12:55:11.146Z",
+      "last_seen": "2026-11-24T12:55:11.146Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/core/score_formula.py",
+      "root_cause": "Had \"4*P1+2*P2+(K+1)/(K+L)+(K+1)/(K+V)\"",
+      "fix": "Changed to \"4*P1+2*P2+(K+1)/(K+L)+2*(K+1)/(K+V)\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-624",
+      "timestamp": "2026-11-24T12:56:10.958Z",
+      "last_seen": "2026-11-24T12:56:10.958Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of vllm_supervisor.py",
+      "file": "src/scripts/vllm_supervisor.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 16→22 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-625",
+      "timestamp": "2026-11-24T14:58:33.774Z",
+      "last_seen": "2026-11-24T14:58:33.774Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _ollama_base()",
+      "file": "src/scripts/vllm_supervisor.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-626",
+      "timestamp": "2026-11-24T14:59:08.477Z",
+      "last_seen": "2026-11-24T14:59:08.477Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _error_code()",
+      "file": "src/backend/ai/model_runtime.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-627",
+      "timestamp": "2026-11-24T14:59:51.291Z",
+      "last_seen": "2026-11-24T14:59:51.291Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -11728,7 +11944,19 @@
     "841b736f-4775-479a-b37a-f50829b7118a": true,
     "9f6b864b-4b89-4956-9fab-67cb29e83b23": true,
     "757fdd76-e745-443d-b586-dee099b1b75a": true,
-    "e6daf45a-f1e5-4038-b6a4-9a15f80d140c": true
+    "e6daf45a-f1e5-4038-b6a4-9a15f80d140c": true,
+    "ba1338a3-265a-4dd1-9f1e-9ca459c48704": true,
+    "5bab9e3c-af86-43e7-86c1-f1865140c2f5": true,
+    "6dcd32df-ba10-4436-8b89-f17f56136f98": true,
+    "1edbd160-7e3c-4dba-8a12-64de1e134a69": true,
+    "0f38ac4b-3bf1-4e70-a414-cf804fe17e66": true,
+    "45b17cfb-2407-43d9-952f-7ad82f831f55": true,
+    "29ddab07-a739-493c-837c-ea3fff67cb09": true,
+    "5068714a-67b5-4bca-99c2-c2e378ba2cd9": true,
+    "a03103b0-7ec7-4dbd-a81b-3aeee4bedfe3": true,
+    "f8c5d85a-f5f7-4065-9cb8-96bc9e4bfea5": true,
+    "ca853efb-7d3b-45f8-b77f-153c1b4198c6": true,
+    "cdc44807-4b24-4e62-82f8-56d406d3053e": true
   },
-  "next_id": 616
+  "next_id": 628
 }

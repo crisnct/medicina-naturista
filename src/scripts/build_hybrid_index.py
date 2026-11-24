@@ -7,7 +7,7 @@ or editing one document never touches the rest of the corpus."""
 
 # Run like this:
 #   $env:PYTHONPATH = 'src'; .\.venv\Scripts\python.exe src\scripts\build_hybrid_index.py
-# With EMBEDDING_DEVICE=vllm in .env the build starts and stops the vllm-embed server itself.
+# The build starts and stops the vllm-embed server itself.
 from __future__ import annotations
 
 import argparse
@@ -70,9 +70,9 @@ from scripts.migrate_database import migrate
 
 # Minimum elapsed time between embedding progress messages.
 PROGRESS_INTERVAL_SECONDS = 10.0
-# Windows embedded per model call on the CPU. With EMBEDDING_DEVICE=vllm the size of a request
-# is VLLM_EMBED_BATCH_SIZE instead (16; measured: 1 to 64 give the same speed, the GPU is the limit).
-BATCH_SIZE = 8
+# Windows in one request to the vllm-embed server (measured: 1 to 64 give the same speed, the GPU
+# is the limit).
+BATCH_SIZE = 16
 # Selected after corpus benchmarks of total publication time with 1/2/4/8 workers.
 HERBS_INDEX_WORKERS = 2
 # Lowest measured total time among the bounded fetch/COPY combinations.
@@ -941,13 +941,10 @@ def format_duration(seconds: float) -> str:
     return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
 
 
-# With the "vllm" device the server runs only while the windows are embedded and is stopped
-# right after, even on an error; the other devices need nothing around the model.
+# The vllm-embed server runs only while the windows are embedded and is stopped right after,
+# even on an error.
 @contextmanager
 def _embedding_runtime() -> Iterator[None]:
-    if settings.embedding_device != "vllm":
-        yield
-        return
     from backend.ai.vllm_embed_server import running_embedding_server
 
     print("Starting the vllm-embed server (the first start also compiles the model)", flush=True)
@@ -1343,23 +1340,17 @@ def _build(
         to_embed = [chunk for chunk, key in zip(all_new_chunks, keys) if key not in reusable]
         embeddings = np.empty((len(all_new_chunks), profile.dimension), dtype=np.float32)
         if to_embed:
-            device = settings.embedding_device
-            # The vLLM server takes bigger requests than the CPU model takes batches.
-            embed_batch = settings.vllm_embed_batch_size if device == "vllm" else batch_size
-            print(
-                f"Loading local embedding model {model_name} (device {device})",
-                flush=True,
-            )
+            print(f"Loading local embedding model {model_name} (vLLM, GPU)", flush=True)
             with _embedding_runtime():
-                model = create_embedding_model(model_name, settings.model_cache_dir)
+                model = create_embedding_model(model_name)
                 print(
                     f"Embedding {len(to_embed)} chunks from {len(pending)} changed files "
-                    f"({embed_batch} windows per {'request' if device == 'vllm' else 'batch'}); "
+                    f"({batch_size} windows per request); "
                     f"{len(all_new_chunks) - len(to_embed)} stored "
                     "embeddings are reused",
                     flush=True,
                 )
-                embedded = embed_chunks(model, to_embed, embed_batch, profile, gpu_usage=gpu_usage)
+                embedded = embed_chunks(model, to_embed, batch_size, profile, gpu_usage=gpu_usage)
             fresh = iter(embedded)
         else:
             print(f"Reusing all {len(all_new_chunks)} stored embeddings", flush=True)

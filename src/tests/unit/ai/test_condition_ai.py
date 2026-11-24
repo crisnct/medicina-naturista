@@ -455,8 +455,8 @@ class EffectiveSignalsTests(unittest.TestCase):
         resolved = ConditionDictionary([]).resolve("durere de cap")
         effective = effective_signals(ALL_SIGNALS, resolved)
 
-        self.assertEqual(max_score(effective), 2)
-        self.assertEqual(max_score(ALL_SIGNALS), 8)
+        self.assertEqual(max_score(effective), 3)
+        self.assertEqual(max_score(ALL_SIGNALS), 9)
 
 
 class ReportTitleTests(unittest.TestCase):

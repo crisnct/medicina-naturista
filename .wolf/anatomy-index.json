@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-23T14:17:30.862Z",
-    "fileCount": 516,
+    "lastScanned": "2026-11-24T15:03:26.577Z",
+    "fileCount": 529,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "1a0aa7e2eae71c91b933a8ebd291f00e8a9a95c0f0ef3af8c518d36d1687a4f6",
-    "storeUpdatedAt": "2026-11-23T14:17:30.903Z",
-    "rootHash": "b411261be0f2dd46"
+    "renderedHash": "03c49ba8813c3b4724c19e75ffed92f6e4ed69d7507b9822a6ed2718599e9a63",
+    "storeUpdatedAt": "2026-11-24T15:03:26.625Z",
+    "rootHash": "dc3270454c13deb3"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -21,11 +21,11 @@
     },
     ".claude/skills/medicina-engineering/embeddings-engineering.md": {
       "description": "Senior Python developer — embeddings specialist",
-      "tokens": 2110,
-      "hash": "29176b3f30dfd5b2",
-      "size": 8468,
-      "mtimeMs": 1793354878513.3567,
-      "updatedAt": "2026-10-30T10:07:58.873Z",
+      "tokens": 2329,
+      "hash": "16f23cd5096aad7b",
+      "size": 9343,
+      "mtimeMs": 1795448641392.6465,
+      "updatedAt": "2026-11-23T15:44:02.375Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/devops-docker-ci.md": {
@@ -360,11 +360,11 @@
     },
     "docker-compose.yaml": {
       "description": "Docker Compose: 2 services",
-      "tokens": 5044,
-      "hash": "f718503a7d90821c",
-      "size": 17654,
-      "mtimeMs": 1795440224160.646,
-      "updatedAt": "2026-11-23T13:23:45.204Z",
+      "tokens": 5312,
+      "hash": "e46e2db1f04b9ca2",
+      "size": 18592,
+      "mtimeMs": 1795532369877.2195,
+      "updatedAt": "2026-11-24T14:59:30.133Z",
       "source": "hook"
     },
     "src/backend/web/main.py": {
@@ -943,11 +943,11 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 10894,
-      "hash": "6f3f07bb17d00c15",
-      "size": 42172,
-      "mtimeMs": 1794779104615.1775,
-      "updatedAt": "2026-11-15T21:45:04.904Z",
+      "tokens": 10934,
+      "hash": "cea5e1cca9fd76c1",
+      "size": 42335,
+      "mtimeMs": 1795524943497.5127,
+      "updatedAt": "2026-11-24T12:55:44.340Z",
       "source": "hook"
     },
     "src/frontend/components/Composer.tsx": {
@@ -2168,11 +2168,11 @@
     },
     "src/backend/config.py": {
       "description": "Environment-backed settings. No patient data belongs in configuration or logs.",
-      "tokens": 12679,
-      "hash": "88d62d7402474791",
-      "size": 44376,
-      "mtimeMs": 1795440073802.955,
-      "updatedAt": "2026-11-23T13:21:14.145Z",
+      "tokens": 12705,
+      "hash": "6e8d76bb16260aae",
+      "size": 44465,
+      "mtimeMs": 1795524823238.2197,
+      "updatedAt": "2026-11-24T12:53:44.095Z",
       "source": "hook",
       "symbols": [
         {
@@ -2257,34 +2257,27 @@
           "kind": "fn",
           "startLine": 245,
           "endLine": 252,
-          "tokens": 74
-        },
-        {
-          "name": "_embedding_device",
-          "kind": "fn",
-          "startLine": 253,
-          "endLine": 263,
-          "tokens": 130
+          "tokens": 88
         },
         {
           "name": "_ai_provider",
           "kind": "fn",
-          "startLine": 264,
-          "endLine": 271,
+          "startLine": 253,
+          "endLine": 260,
           "tokens": 72
         },
         {
           "name": "Settings",
           "kind": "class",
-          "startLine": 272,
-          "endLine": 914,
-          "tokens": 9640
+          "startLine": 261,
+          "endLine": 898,
+          "tokens": 9521
         },
         {
           "name": "configure_settings",
           "kind": "fn",
-          "startLine": 915,
-          "endLine": 927,
+          "startLine": 899,
+          "endLine": 911,
           "tokens": 137
         }
       ]
@@ -2399,222 +2392,222 @@
     },
     "src/scripts/build_hybrid_index.py": {
       "description": "Incrementally sync a traceable, local-only hybrid index for a Markdown",
-      "tokens": 20760,
-      "hash": "a8cfc774df15db93",
-      "size": 72669,
-      "mtimeMs": 1795443449902.6604,
-      "updatedAt": "2026-11-23T14:17:30.859Z",
+      "tokens": 21606,
+      "hash": "1b5ae872e8ab2137",
+      "size": 75628,
+      "mtimeMs": 1795524877520.4358,
+      "updatedAt": "2026-11-24T12:54:38.434Z",
       "source": "hook",
       "symbols": [
         {
+          "name": "_announce",
+          "kind": "fn",
+          "startLine": 126,
+          "endLine": 129,
+          "tokens": 23
+        },
+        {
           "name": "_build_stage",
           "kind": "fn",
-          "startLine": 108,
-          "endLine": 113,
-          "tokens": 52
+          "startLine": 130,
+          "endLine": 137,
+          "tokens": 73
         },
         {
           "name": "_apply_index_sql",
           "kind": "fn",
-          "startLine": 114,
-          "endLine": 118,
+          "startLine": 138,
+          "endLine": 142,
           "tokens": 45
         },
         {
           "name": "_safe_index_error",
           "kind": "fn",
-          "startLine": 119,
-          "endLine": 143,
+          "startLine": 143,
+          "endLine": 167,
           "tokens": 270
         },
         {
           "name": "HerbsIndexContext",
           "kind": "class",
-          "startLine": 144,
-          "endLine": 160,
+          "startLine": 168,
+          "endLine": 184,
           "tokens": 131
         },
         {
           "name": "HerbsIndexStats",
           "kind": "class",
-          "startLine": 161,
-          "endLine": 182,
+          "startLine": 185,
+          "endLine": 206,
           "tokens": 141
         },
         {
           "name": "EmbeddingModel",
           "kind": "class",
-          "startLine": 183,
-          "endLine": 188,
+          "startLine": 207,
+          "endLine": 212,
           "tokens": 46
         },
         {
           "name": "_herbs_bitmap_bytes",
           "kind": "fn",
-          "startLine": 189,
-          "endLine": 195,
+          "startLine": 213,
+          "endLine": 219,
           "tokens": 111
         },
         {
           "name": "_prepare_herbs_index",
           "kind": "fn",
-          "startLine": 196,
-          "endLine": 262,
+          "startLine": 220,
+          "endLine": 286,
           "tokens": 694
         },
         {
           "name": "_load_herbs_backend",
           "kind": "fn",
-          "startLine": 263,
-          "endLine": 274,
+          "startLine": 287,
+          "endLine": 298,
           "tokens": 113
         },
         {
           "name": "_make_herbs_matcher",
           "kind": "fn",
-          "startLine": 275,
-          "endLine": 284,
+          "startLine": 299,
+          "endLine": 308,
           "tokens": 74
         },
         {
           "name": "_match_herbs",
           "kind": "fn",
-          "startLine": 285,
-          "endLine": 295,
+          "startLine": 309,
+          "endLine": 319,
           "tokens": 106
         },
         {
           "name": "_initialize_herbs_worker",
           "kind": "fn",
-          "startLine": 296,
-          "endLine": 302,
+          "startLine": 320,
+          "endLine": 326,
           "tokens": 60
         },
         {
           "name": "_scan_herbs_batch",
           "kind": "fn",
-          "startLine": 303,
-          "endLine": 317,
+          "startLine": 327,
+          "endLine": 341,
           "tokens": 167
         },
         {
           "name": "_prepared_herbs_workers",
           "kind": "fn",
-          "startLine": 318,
-          "endLine": 372,
+          "startLine": 342,
+          "endLine": 396,
           "tokens": 617
         },
         {
           "name": "_herbs_startup_job",
           "kind": "fn",
-          "startLine": 373,
-          "endLine": 380,
+          "startLine": 397,
+          "endLine": 404,
           "tokens": 75
         },
         {
           "name": "_herbs_condition_mask",
           "kind": "fn",
-          "startLine": 381,
-          "endLine": 389,
+          "startLine": 405,
+          "endLine": 413,
           "tokens": 87
         },
         {
           "name": "_new_herbs_pairs",
           "kind": "fn",
-          "startLine": 390,
-          "endLine": 400,
+          "startLine": 414,
+          "endLine": 424,
           "tokens": 113
         },
         {
           "name": "_herbs_metadata",
           "kind": "fn",
-          "startLine": 401,
-          "endLine": 410,
+          "startLine": 425,
+          "endLine": 434,
           "tokens": 115
         },
         {
           "name": "HerbsProgress",
           "kind": "class",
-          "startLine": 411,
-          "endLine": 444,
+          "startLine": 435,
+          "endLine": 468,
           "tokens": 409
         },
         {
           "name": "_rebuild_herbs_benefits",
           "kind": "fn",
-          "startLine": 445,
-          "endLine": 645,
+          "startLine": 469,
+          "endLine": 669,
           "tokens": 2612
         },
         {
           "name": "_indexed_herb_ids",
           "kind": "fn",
-          "startLine": 646,
-          "endLine": 660,
+          "startLine": 670,
+          "endLine": 684,
           "tokens": 173
         },
         {
           "name": "rebuild_herbs_only",
           "kind": "fn",
-          "startLine": 661,
-          "endLine": 721,
+          "startLine": 685,
+          "endLine": 745,
           "tokens": 903
         },
         {
           "name": "GPUUsageMonitor",
           "kind": "class",
-          "startLine": 722,
-          "endLine": 800,
+          "startLine": 746,
+          "endLine": 824,
           "tokens": 771
         },
         {
           "name": "SourceFile",
           "kind": "class",
-          "startLine": 801,
-          "endLine": 817,
+          "startLine": 825,
+          "endLine": 841,
           "tokens": 132
         },
         {
           "name": "Chunk",
           "kind": "class",
-          "startLine": 818,
-          "endLine": 838,
+          "startLine": 842,
+          "endLine": 862,
           "tokens": 198
         },
         {
           "name": "utc_now",
           "kind": "fn",
-          "startLine": 839,
-          "endLine": 843,
+          "startLine": 863,
+          "endLine": 867,
           "tokens": 45
         },
         {
           "name": "sha256_bytes",
           "kind": "fn",
-          "startLine": 844,
-          "endLine": 850,
+          "startLine": 868,
+          "endLine": 874,
           "tokens": 75
         },
         {
           "name": "sha256_file",
           "kind": "fn",
-          "startLine": 851,
-          "endLine": 859,
+          "startLine": 875,
+          "endLine": 883,
           "tokens": 94
         },
         {
           "name": "read_markdown",
           "kind": "fn",
-          "startLine": 860,
-          "endLine": 870,
-          "tokens": 123
-        },
-        {
-          "name": "normalize_text",
-          "kind": "fn",
-          "startLine": 871,
-          "endLine": 1739,
-          "tokens": 10511
+          "startLine": 884,
+          "endLine": 1795,
+          "tokens": 11106
         }
       ]
     },
@@ -7536,11 +7529,11 @@
     },
     "src/backend/resources/texts.en.toml": {
       "description": "English application copy. Keys and named parameters match texts.ro.toml exactly.",
-      "tokens": 10183,
-      "hash": "49b5358b5e26a964",
-      "size": 38322,
-      "mtimeMs": 1794779107328.166,
-      "updatedAt": "2026-11-15T21:45:07.595Z",
+      "tokens": 10224,
+      "hash": "37d9572be194750d",
+      "size": 38476,
+      "mtimeMs": 1795524946993.4504,
+      "updatedAt": "2026-11-24T12:55:47.869Z",
       "source": "hook"
     },
     "src/backend/migrations/032_bilingual_chunks.sql": {
@@ -9160,12 +9153,12 @@
       "source": "hook"
     },
     "src/backend/core/score_formula.py": {
-      "description": "Operator-supplied arithmetic over named variables (L1/L2/L3 for the product tops, P1/P2/L/V for",
-      "tokens": 1577,
-      "hash": "7c038a8555fde69d",
-      "size": 5517,
-      "mtimeMs": 1794658345872.568,
-      "updatedAt": "2026-11-14T12:12:26.184Z",
+      "description": "Operator-supplied arithmetic over named variables (L1/L2/L3 for the product tops, P1/P2/L/V/K for",
+      "tokens": 1695,
+      "hash": "602bce3325956277",
+      "size": 5931,
+      "mtimeMs": 1795524969976.9675,
+      "updatedAt": "2026-11-24T12:56:10.823Z",
       "source": "hook",
       "symbols": [
         {
@@ -9186,22 +9179,22 @@
           "name": "compile_formula",
           "kind": "fn",
           "startLine": 66,
-          "endLine": 88,
-          "tokens": 259
+          "endLine": 92,
+          "tokens": 338
         },
         {
           "name": "compile_search_formula",
           "kind": "fn",
-          "startLine": 89,
-          "endLine": 109,
-          "tokens": 284
+          "startLine": 93,
+          "endLine": 114,
+          "tokens": 326
         },
         {
           "name": "search_formula_sql",
           "kind": "fn",
-          "startLine": 110,
-          "endLine": 129,
-          "tokens": 267
+          "startLine": 115,
+          "endLine": 136,
+          "tokens": 296
         }
       ]
     },
@@ -12411,107 +12404,142 @@
     },
     "src/scripts/vllm_supervisor.py": {
       "description": "The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers.",
-      "tokens": 1972,
-      "hash": "75a7b61c1573e8a1",
-      "size": 6900,
-      "mtimeMs": 1795440229170.4905,
-      "updatedAt": "2026-11-23T13:23:50.159Z",
+      "tokens": 2837,
+      "hash": "bc936b9899421f8d",
+      "size": 9928,
+      "mtimeMs": 1795532348199.5745,
+      "updatedAt": "2026-11-24T14:59:08.439Z",
       "source": "hook",
       "symbols": [
         {
           "name": "SupervisorError",
           "kind": "class",
-          "startLine": 31,
-          "endLine": 37,
+          "startLine": 47,
+          "endLine": 53,
           "tokens": 51
         },
         {
           "name": "_DockerConnection",
           "kind": "class",
-          "startLine": 38,
-          "endLine": 44,
+          "startLine": 54,
+          "endLine": 60,
           "tokens": 66
         },
         {
           "name": "_docker",
           "kind": "fn",
-          "startLine": 45,
-          "endLine": 57,
+          "startLine": 61,
+          "endLine": 73,
           "tokens": 139
         },
         {
           "name": "_container_name",
           "kind": "fn",
-          "startLine": 58,
-          "endLine": 61,
+          "startLine": 74,
+          "endLine": 77,
           "tokens": 22
         },
         {
           "name": "service_status",
           "kind": "fn",
-          "startLine": 62,
-          "endLine": 82,
+          "startLine": 78,
+          "endLine": 98,
           "tokens": 272
         },
         {
           "name": "status_all",
           "kind": "fn",
-          "startLine": 83,
-          "endLine": 89,
-          "tokens": 67
+          "startLine": 99,
+          "endLine": 106,
+          "tokens": 94
+        },
+        {
+          "name": "_ollama_base",
+          "kind": "fn",
+          "startLine": 107,
+          "endLine": 113,
+          "tokens": 68
+        },
+        {
+          "name": "_ollama",
+          "kind": "fn",
+          "startLine": 114,
+          "endLine": 124,
+          "tokens": 157
+        },
+        {
+          "name": "_ollama_gpu_models",
+          "kind": "fn",
+          "startLine": 125,
+          "endLine": 131,
+          "tokens": 108
+        },
+        {
+          "name": "unload_ollama",
+          "kind": "fn",
+          "startLine": 132,
+          "endLine": 152,
+          "tokens": 236
         },
         {
           "name": "start_service",
           "kind": "fn",
-          "startLine": 90,
-          "endLine": 110,
-          "tokens": 322
+          "startLine": 153,
+          "endLine": 176,
+          "tokens": 357
         },
         {
           "name": "stop_service",
           "kind": "fn",
-          "startLine": 111,
-          "endLine": 127,
-          "tokens": 217
+          "startLine": 177,
+          "endLine": 193,
+          "tokens": 218
         },
         {
           "name": "_Handler",
           "kind": "class",
-          "startLine": 128,
-          "endLine": 163,
+          "startLine": 194,
+          "endLine": 229,
           "tokens": 401
         },
         {
           "name": "main",
           "kind": "fn",
-          "startLine": 164,
-          "endLine": 173,
-          "tokens": 103
+          "startLine": 230,
+          "endLine": 241,
+          "tokens": 107
         }
       ]
     },
     "src/backend/ai/model_runtime.py": {
       "description": "Brings the GPU to the state a report model needs before the job sends its first request.",
-      "tokens": 2866,
-      "hash": "6e8e6ed35c06837e",
-      "size": 10029,
-      "mtimeMs": 1794123269816.7505,
-      "updatedAt": "2026-11-08T07:34:30.071Z",
+      "tokens": 3126,
+      "hash": "1184f4d444ca1119",
+      "size": 10941,
+      "mtimeMs": 1795532391014.1167,
+      "updatedAt": "2026-11-24T14:59:51.257Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_SupervisorUnavailable",
           "kind": "class",
-          "startLine": 32,
-          "endLine": 35,
+          "startLine": 33,
+          "endLine": 36,
           "tokens": 15
+        },
+        {
+          "name": "_error_code",
+          "kind": "fn",
+          "startLine": 37,
+          "endLine": 44,
+          "tokens": 59
         },
         {
           "name": "VllmRuntime",
           "kind": "class",
-          "startLine": 36,
-          "endLine": 237,
-          "tokens": 2574
+          "startLine": 45,
+          "endLine": 256,
+          "tokens": 2760
         }
       ]
     },
@@ -12752,151 +12780,151 @@
     },
     "src/backend/ai/search.py": {
       "description": "Offline search over the Postgres-backed medical index. Every fragment gets",
-      "tokens": 7650,
-      "hash": "49ae2325032d7a56",
-      "size": 26781,
-      "mtimeMs": 1794780885132.6646,
-      "updatedAt": "2026-11-15T22:14:45.365Z",
+      "tokens": 7625,
+      "hash": "197d7c80b91ca2b8",
+      "size": 26693,
+      "mtimeMs": 1795524991243.206,
+      "updatedAt": "2026-11-24T12:56:32.204Z",
       "source": "hook",
       "symbols": [
         {
           "name": "SearchSignals",
           "kind": "class",
           "startLine": 41,
-          "endLine": 82,
-          "tokens": 552
+          "endLine": 81,
+          "tokens": 535
         },
         {
           "name": "score_sql",
           "kind": "fn",
-          "startLine": 83,
-          "endLine": 93,
+          "startLine": 82,
+          "endLine": 92,
           "tokens": 184
         },
         {
           "name": "effective_signals",
           "kind": "fn",
-          "startLine": 94,
-          "endLine": 106,
+          "startLine": 93,
+          "endLine": 105,
           "tokens": 196
         },
         {
           "name": "fragment_ceiling",
           "kind": "fn",
-          "startLine": 107,
-          "endLine": 117,
+          "startLine": 106,
+          "endLine": 116,
           "tokens": 117
         },
         {
           "name": "max_score",
           "kind": "fn",
-          "startLine": 118,
-          "endLine": 128,
+          "startLine": 117,
+          "endLine": 127,
           "tokens": 123
         },
         {
           "name": "evidence_heading_prefix",
           "kind": "fn",
-          "startLine": 129,
-          "endLine": 133,
+          "startLine": 128,
+          "endLine": 132,
           "tokens": 58
         },
         {
           "name": "_words",
           "kind": "fn",
-          "startLine": 134,
-          "endLine": 139,
+          "startLine": 133,
+          "endLine": 138,
           "tokens": 70
         },
         {
           "name": "_fold",
           "kind": "fn",
-          "startLine": 140,
-          "endLine": 146,
+          "startLine": 139,
+          "endLine": 145,
           "tokens": 100
         },
         {
           "name": "_query_words",
           "kind": "fn",
-          "startLine": 147,
-          "endLine": 171,
+          "startLine": 146,
+          "endLine": 170,
           "tokens": 368
         },
         {
           "name": "_Parameters",
           "kind": "class",
-          "startLine": 172,
-          "endLine": 182,
+          "startLine": 171,
+          "endLine": 181,
           "tokens": 96
         },
         {
           "name": "_terms_clause",
           "kind": "fn",
-          "startLine": 183,
-          "endLine": 193,
+          "startLine": 182,
+          "endLine": 192,
           "tokens": 147
         },
         {
           "name": "_phrase_clause",
           "kind": "fn",
-          "startLine": 194,
-          "endLine": 201,
+          "startLine": 193,
+          "endLine": 200,
           "tokens": 114
         },
         {
           "name": "_field_clauses",
           "kind": "fn",
-          "startLine": 202,
-          "endLine": 219,
+          "startLine": 201,
+          "endLine": 218,
           "tokens": 262
         },
         {
           "name": "lexical_terms",
           "kind": "fn",
-          "startLine": 220,
-          "endLine": 232,
+          "startLine": 219,
+          "endLine": 231,
           "tokens": 144
         },
         {
           "name": "lexical_query",
           "kind": "fn",
-          "startLine": 233,
-          "endLine": 396,
+          "startLine": 232,
+          "endLine": 395,
           "tokens": 2314
         },
         {
           "name": "rank",
           "kind": "fn",
-          "startLine": 397,
-          "endLine": 411,
+          "startLine": 396,
+          "endLine": 410,
           "tokens": 153
         },
         {
           "name": "_rank",
           "kind": "fn",
-          "startLine": 412,
-          "endLine": 509,
-          "tokens": 1393
+          "startLine": 411,
+          "endLine": 508,
+          "tokens": 1386
         },
         {
           "name": "_finite_rank",
           "kind": "fn",
-          "startLine": 510,
-          "endLine": 516,
+          "startLine": 509,
+          "endLine": 515,
           "tokens": 90
         },
         {
           "name": "warm_up",
           "kind": "fn",
-          "startLine": 517,
-          "endLine": 521,
+          "startLine": 516,
+          "endLine": 520,
           "tokens": 45
         },
         {
           "name": "main",
           "kind": "fn",
-          "startLine": 522,
-          "endLine": 571,
+          "startLine": 521,
+          "endLine": 570,
           "tokens": 581
         }
       ]
@@ -13021,11 +13049,11 @@
     },
     "src/tests/unit/ai/test_search.py": {
       "description": "Tests for the combined fragment score (backend.ai.search): the",
-      "tokens": 2241,
-      "hash": "d6b21f9cd83cfe91",
-      "size": 7844,
-      "mtimeMs": 1794663492154.1296,
-      "updatedAt": "2026-11-14T13:38:12.452Z",
+      "tokens": 2242,
+      "hash": "fcb3c73ad9affe8a",
+      "size": 7846,
+      "mtimeMs": 1795525448620.1755,
+      "updatedAt": "2026-11-24T13:04:09.445Z",
       "source": "hook",
       "symbols": [
         {
@@ -13082,7 +13110,7 @@
           "kind": "class",
           "startLine": 155,
           "endLine": 181,
-          "tokens": 377
+          "tokens": 378
         }
       ]
     },
@@ -13396,131 +13424,481 @@
       "source": "hook"
     },
     "src/backend/ai/embedding_model.py": {
-      "description": "Shared local embedding model loading and per-model text profiles, used both",
-      "tokens": 2361,
-      "hash": "09aab74a5ff75f44",
-      "size": 8263,
-      "mtimeMs": 1795440140549.9192,
-      "updatedAt": "2026-11-23T13:22:21.026Z",
+      "description": "Embedding model profiles and the two clients of the one local model, Qwen3-Embedding-4B,",
+      "tokens": 2764,
+      "hash": "f4cb2b11087d5c47",
+      "size": 9674,
+      "mtimeMs": 1795524889614.3223,
+      "updatedAt": "2026-11-24T12:54:50.463Z",
       "source": "hook",
       "symbols": [
         {
           "name": "vllm_embed_url",
           "kind": "fn",
-          "startLine": 39,
-          "endLine": 43,
+          "startLine": 46,
+          "endLine": 50,
           "tokens": 33
         },
         {
           "name": "EmbeddingProfile",
           "kind": "class",
-          "startLine": 44,
-          "endLine": 77,
-          "tokens": 346
+          "startLine": 51,
+          "endLine": 92,
+          "tokens": 404
         },
         {
           "name": "get_profile",
           "kind": "fn",
-          "startLine": 78,
-          "endLine": 87,
-          "tokens": 102
+          "startLine": 93,
+          "endLine": 103,
+          "tokens": 129
         },
         {
-          "name": "_normalize_fastembed_metadata",
+          "name": "is_query_model",
           "kind": "fn",
-          "startLine": 88,
-          "endLine": 102,
-          "tokens": 194
+          "startLine": 104,
+          "endLine": 108,
+          "tokens": 64
+        },
+        {
+          "name": "ollama_base_url",
+          "kind": "fn",
+          "startLine": 109,
+          "endLine": 112,
+          "tokens": 25
         },
         {
           "name": "VllmEmbedding",
           "kind": "class",
-          "startLine": 103,
-          "endLine": 165,
-          "tokens": 948
+          "startLine": 113,
+          "endLine": 171,
+          "tokens": 845
+        },
+        {
+          "name": "OllamaQueryEmbedding",
+          "kind": "class",
+          "startLine": 172,
+          "endLine": 208,
+          "tokens": 460
+        },
+        {
+          "name": "_semantic_model_unavailable",
+          "kind": "fn",
+          "startLine": 209,
+          "endLine": 215,
+          "tokens": 68
         },
         {
           "name": "create_embedding_model",
           "kind": "fn",
-          "startLine": 166,
-          "endLine": 181,
-          "tokens": 181
+          "startLine": 216,
+          "endLine": 223,
+          "tokens": 106
         },
         {
           "name": "cached_query_model",
           "kind": "fn",
-          "startLine": 182,
-          "endLine": 187,
-          "tokens": 80
+          "startLine": 224,
+          "endLine": 226,
+          "tokens": 35
         }
       ]
     },
     "src/backend/ai/vllm_embed_server.py": {
       "description": "Life cycle of the `vllm-embed` Compose service for an index build.",
-      "tokens": 1626,
-      "hash": "53dbeca7d8c91b91",
-      "size": 5688,
-      "mtimeMs": 1795441265226.6978,
-      "updatedAt": "2026-11-23T13:41:05.500Z",
+      "tokens": 1690,
+      "hash": "bcc26c9769e32332",
+      "size": 5915,
+      "mtimeMs": 1795524906235.4116,
+      "updatedAt": "2026-11-24T12:55:07.125Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_supervisor_url",
           "kind": "fn",
-          "startLine": 30,
-          "endLine": 35,
+          "startLine": 31,
+          "endLine": 36,
           "tokens": 73
         },
         {
           "name": "_supervisor",
           "kind": "fn",
-          "startLine": 36,
-          "endLine": 59,
+          "startLine": 37,
+          "endLine": 60,
           "tokens": 289
         },
         {
           "name": "_status",
           "kind": "fn",
-          "startLine": 60,
-          "endLine": 63,
+          "startLine": 61,
+          "endLine": 64,
           "tokens": 37
         },
         {
           "name": "_embed_state",
           "kind": "fn",
-          "startLine": 64,
-          "endLine": 68,
+          "startLine": 65,
+          "endLine": 69,
           "tokens": 60
         },
         {
           "name": "gpu_holders",
           "kind": "fn",
-          "startLine": 69,
-          "endLine": 86,
-          "tokens": 223
+          "startLine": 70,
+          "endLine": 91,
+          "tokens": 260
         },
         {
           "name": "_models_ready",
           "kind": "fn",
-          "startLine": 87,
-          "endLine": 95,
+          "startLine": 92,
+          "endLine": 100,
           "tokens": 96
         },
         {
           "name": "_wait_until_ready",
           "kind": "fn",
-          "startLine": 96,
-          "endLine": 115,
+          "startLine": 101,
+          "endLine": 120,
           "tokens": 235
         },
         {
           "name": "running_embedding_server",
           "kind": "fn",
-          "startLine": 116,
-          "endLine": 143,
+          "startLine": 121,
+          "endLine": 148,
           "tokens": 284
         }
       ]
+    },
+    "aiWork/emb4b/dump.py": {
+      "description": "Dump the RO chunks, their production 0.6B vectors and their embedding windows (read-only).",
+      "tokens": 599,
+      "hash": "2856ce2dfd53c1fe",
+      "size": 2096,
+      "mtimeMs": 1795447618180.8076,
+      "updatedAt": "2026-11-23T15:26:58.465Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 23,
+          "endLine": 54,
+          "tokens": 422
+        }
+      ]
+    },
+    "aiWork/emb4b/embed4b.py": {
+      "description": "Embed the dumped windows and the 120 eval queries with Qwen3-Embedding-4B on the vllm-embed-4b",
+      "tokens": 701,
+      "hash": "d394c12ea1bcaabf",
+      "size": 2452,
+      "mtimeMs": 1795447639681.605,
+      "updatedAt": "2026-11-23T15:27:19.943Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "request",
+          "kind": "fn",
+          "startLine": 28,
+          "endLine": 36,
+          "tokens": 116
+        },
+        {
+          "name": "embed",
+          "kind": "fn",
+          "startLine": 37,
+          "endLine": 55,
+          "tokens": 225
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 56,
+          "endLine": 66,
+          "tokens": 124
+        }
+      ]
+    },
+    "aiWork/emb4b/compare.py": {
+      "description": "Compare retrieval with the production 0.6B vectors and with Qwen3-Embedding-4B on the 120",
+      "tokens": 1971,
+      "hash": "cf611f9cac9ed7cc",
+      "size": 6897,
+      "mtimeMs": 1795448782163.287,
+      "updatedAt": "2026-11-23T15:46:23.134Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "unit",
+          "kind": "fn",
+          "startLine": 40,
+          "endLine": 44,
+          "tokens": 58
+        },
+        {
+          "name": "chunk_vectors",
+          "kind": "fn",
+          "startLine": 45,
+          "endLine": 51,
+          "tokens": 100
+        },
+        {
+          "name": "semantic_ranks",
+          "kind": "fn",
+          "startLine": 52,
+          "endLine": 58,
+          "tokens": 71
+        },
+        {
+          "name": "ranked_ids",
+          "kind": "fn",
+          "startLine": 59,
+          "endLine": 74,
+          "tokens": 181
+        },
+        {
+          "name": "metrics",
+          "kind": "fn",
+          "startLine": 75,
+          "endLine": 89,
+          "tokens": 156
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 90,
+          "endLine": 161,
+          "tokens": 1039
+        }
+      ]
+    },
+    "aiWork/emb4b/bench_tokens.py": {
+      "description": "Throughput of the vllm-embed-4b server on a fixed slice of the RO windows.",
+      "tokens": 590,
+      "hash": "08d56e746428a6ed",
+      "size": 2065,
+      "mtimeMs": 1795449246643.8938,
+      "updatedAt": "2026-11-23T15:54:06.965Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "run",
+          "kind": "fn",
+          "startLine": 24,
+          "endLine": 39,
+          "tokens": 179
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 40,
+          "endLine": 63,
+          "tokens": 227
+        }
+      ]
+    },
+    "aiWork/emb4b/run_rest.sh": {
+      "description": "Sequential: (1) 4B with bf16 weights + fp8 KV cache over all windows -> *_bf16.npy,",
+      "tokens": 544,
+      "hash": "534ed82b9338bb0a",
+      "size": 2037,
+      "mtimeMs": 1795450630196.4814,
+      "updatedAt": "2026-11-23T16:17:11.865Z",
+      "source": "hook"
+    },
+    "aiWork/emb4b/bootstrap.py": {
+      "description": "Paired bootstrap of per-query nDCG@10 between models in data/compare.json.",
+      "tokens": 392,
+      "hash": "ffed15c86d3efa65",
+      "size": 1369,
+      "mtimeMs": 1795459271325.1294,
+      "updatedAt": "2026-11-23T18:41:13.205Z",
+      "source": "hook"
+    },
+    "aiPlans/2026-11-24-qwen3-embedding-4b.md": {
+      "description": "Trecerea la Qwen3-Embedding-4B",
+      "tokens": 3925,
+      "hash": "08b243dd28bcd8e1",
+      "size": 16192,
+      "mtimeMs": 1795525662254.7615,
+      "updatedAt": "2026-11-24T13:07:43.076Z",
+      "source": "hook"
+    },
+    "aiWork/emb4b/latency.py": {
+      "description": "Latency of one query embedding on the vllm-embed-4b server: the 120 eval queries, one request",
+      "tokens": 588,
+      "hash": "6de8f00a6c9854b0",
+      "size": 2057,
+      "mtimeMs": 1795514051920.544,
+      "updatedAt": "2026-11-24T09:54:13.123Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 25,
+          "endLine": 56,
+          "tokens": 402
+        }
+      ]
+    },
+    "aiWork/emb4b/phase0.sh": {
+      "description": "Phase 0 of aiPlans/2026-11-24-qwen3-embedding-4b.md: for each --gpu-memory-utilization, the",
+      "tokens": 509,
+      "hash": "c91e09a4b042695d",
+      "size": 1906,
+      "mtimeMs": 1795514055889.4622,
+      "updatedAt": "2026-11-24T09:54:16.611Z",
+      "source": "hook"
+    },
+    "aiWork/emb4b/scan_sql.py": {
+      "description": "Time the exact cosine scan of ai/search.py at 1024 and 2560 dimensions, on TEMP tables with the",
+      "tokens": 831,
+      "hash": "e6037f84d8299903",
+      "size": 2908,
+      "mtimeMs": 1795514084371.1506,
+      "updatedAt": "2026-11-24T09:54:45.410Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "unit",
+          "kind": "fn",
+          "startLine": 30,
+          "endLine": 33,
+          "tokens": 32
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 34,
+          "endLine": 72,
+          "tokens": 542
+        }
+      ]
+    },
+    "aiWork/emb4b/ollama_queries.py": {
+      "description": "Query embeddings through Ollama (qwen3-embedding:4b-q8_0) for the 120 eval queries: one request",
+      "tokens": 756,
+      "hash": "96efd4f9296e7b0f",
+      "size": 2644,
+      "mtimeMs": 1795522075222.1052,
+      "updatedAt": "2026-11-24T12:07:55.503Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 26,
+          "endLine": 65,
+          "tokens": 539
+        }
+      ]
+    },
+    "src/scripts/evaluate_retrieval.py": {
+      "description": "Measure retrieval quality and latency of ai/search.rank() against the",
+      "tokens": 3856,
+      "hash": "89bd4415c306d050",
+      "size": 13494,
+      "mtimeMs": 1795531859161.3645,
+      "updatedAt": "2026-11-24T14:50:59.408Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "plain",
+          "kind": "fn",
+          "startLine": 43,
+          "endLine": 47,
+          "tokens": 49
+        },
+        {
+          "name": "load_cases",
+          "kind": "fn",
+          "startLine": 48,
+          "endLine": 52,
+          "tokens": 54
+        },
+        {
+          "name": "load_chunk_index",
+          "kind": "fn",
+          "startLine": 53,
+          "endLine": 62,
+          "tokens": 134
+        },
+        {
+          "name": "relevant_ids",
+          "kind": "fn",
+          "startLine": 63,
+          "endLine": 72,
+          "tokens": 111
+        },
+        {
+          "name": "ndcg_at",
+          "kind": "fn",
+          "startLine": 73,
+          "endLine": 79,
+          "tokens": 105
+        },
+        {
+          "name": "evaluate_case",
+          "kind": "fn",
+          "startLine": 80,
+          "endLine": 112,
+          "tokens": 410
+        },
+        {
+          "name": "priority_order_violations",
+          "kind": "fn",
+          "startLine": 113,
+          "endLine": 123,
+          "tokens": 77
+        },
+        {
+          "name": "summarize",
+          "kind": "fn",
+          "startLine": 124,
+          "endLine": 148,
+          "tokens": 283
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 149,
+          "endLine": 173,
+          "tokens": 272
+        },
+        {
+          "name": "_evaluate_legacy",
+          "kind": "fn",
+          "startLine": 174,
+          "endLine": 207,
+          "tokens": 412
+        },
+        {
+          "name": "content_main",
+          "kind": "fn",
+          "startLine": 208,
+          "endLine": 231,
+          "tokens": 314
+        },
+        {
+          "name": "_evaluate_content",
+          "kind": "fn",
+          "startLine": 232,
+          "endLine": 314,
+          "tokens": 1022
+        }
+      ]
+    },
+    "aiPlans/2026-11-24-ollama-gpu-si-model-embeddings-chat.md": {
+      "description": "Descărcarea modelelor Ollama înainte de vLLM și încărcarea modelului de embeddings la întrebări",
+      "tokens": 2114,
+      "hash": "0cfa81ef3faaa79d",
+      "size": 8843,
+      "mtimeMs": 1795532605610.6956,
+      "updatedAt": "2026-11-24T15:03:26.575Z",
+      "source": "hook"
     }
   },
   "preamble": [

@@ -483,6 +483,7 @@ vllm_gpu_busy = "O traducere folosește placa grafică. Așteptați să se termi
 vllm_start_failed = "Modelul AI nu a putut porni. Este posibil ca placa grafică să fie folosită de alt program. Încercați din nou sau alegeți alt model."
 vllm_stop_failed = "Modelul AI anterior nu a putut fi oprit, așa că modelul nou nu a fost pornit. Încercați din nou."
 vllm_warmup_timeout = "Modelul AI nu a fost gata la timp. Încercați din nou sau alegeți alt model."
+semantic_model_unavailable = "Modelul care compară sensul întrebării nu răspunde. Porniți Ollama și încercați din nou sau debifați căutarea semantică."
 generation_cancelled = "Generarea a fost anulată."
 generation_start_failed = "Generarea nu a putut fi pornită."
 page_id_invalid = "Identificator de pagină invalid."

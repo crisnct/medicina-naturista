@@ -3514,3 +3514,88 @@ description: chronological action log per session, consolidated weekly
 | 15:31 | Edited aiPlans/2026-11-23-vllm-embeddings-indexare.md | 1→4 lines | ~108 |
 | 15:41 | Created src/backend/ai/vllm_embed_server.py | — | ~1626 |
 | 16:17 | Edited src/scripts/build_hybrid_index.py | 1→2 lines | ~48 |
+
+## Session: 2026-11-23 17:16
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 17:26 | Created aiWork/emb4b/dump.py | — | ~599 |
+| 17:27 | Created aiWork/emb4b/embed4b.py | — | ~701 |
+| 17:28 | Created aiWork/emb4b/compare.py | — | ~1893 |
+| 17:43 | Edited docker-compose.yaml | 2→2 lines | ~16 |
+| 17:43 | Edited docker-compose.yaml | 1→3 lines | ~86 |
+| 17:44 | Edited .claude/skills/medicina-engineering/embeddings-engineering.md | inline fix | ~31 |
+| 17:46 | Edited aiWork/emb4b/compare.py | modified exists() | ~203 |
+| 17:54 | Created aiWork/emb4b/bench_tokens.py | — | ~590 |
+| 17:59 | Edited docker-compose.yaml | 3→5 lines | ~70 |
+| 18:17 | Created aiWork/emb4b/run_rest.sh | — | ~544 |
+| 20:41 | Created aiWork/emb4b/bootstrap.py | — | ~392 |
+| 23:31 | Edited docker-compose.yaml | 1→2 lines | ~59 |
+| 23:31 | Edited docker-compose.yaml | 2→2 lines | ~22 |
+| 00:33 | Session end: 13 writes across 8 files (dump.py, embed4b.py, compare.py, docker-compose.yaml, embeddings-engineering.md) | 6 reads | ~5581 tok |
+| 00:33 | Session end: 42 writes across 10 files (2026-11-23-vllm-embeddings-indexare.md, prep.py, rezultate-benchmark.md, config.py, embedding_model.py) | 10 reads | ~28832 tok |
+| 11:45 | Created aiPlans/2026-11-24-qwen3-embedding-4b.md | — | ~2223 |
+| 11:47 | Edited aiPlans/2026-11-24-qwen3-embedding-4b.md | modified Status() | ~67 |
+| 11:47 | Edited aiPlans/2026-11-24-qwen3-embedding-4b.md | 1→3 lines | ~77 |
+| 11:47 | Edited aiPlans/2026-11-24-qwen3-embedding-4b.md | expanded (+22 lines) | ~418 |
+| 11:51 | Created aiPlans/2026-11-24-qwen3-embedding-4b.md | — | ~2801 |
+| 11:54 | Created aiWork/emb4b/latency.py | — | ~588 |
+| 11:54 | Created aiWork/emb4b/phase0.sh | — | ~509 |
+| 11:54 | Created aiWork/emb4b/scan_sql.py | — | ~831 |
+| 14:07 | Created aiWork/emb4b/ollama_queries.py | — | ~756 |
+
+## Session: 2026-11-24 14:50
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 14:52 | Created src/backend/ai/embedding_model.py | — | ~2668 |
+| 14:53 | Edited src/backend/ai/search.py | inline fix | ~15 |
+| 14:53 | Edited src/backend/config.py | 4→2 lines | ~45 |
+| 14:53 | Edited src/backend/config.py | modified in() | ~56 |
+| 14:53 | Edited src/backend/config.py | reduced (-6 lines) | ~97 |
+| 14:53 | Edited src/backend/config.py | — | ~0 |
+| 14:54 | Edited src/scripts/build_hybrid_index.py | modified _embedding_runtime() | ~184 |
+| 14:54 | Edited src/scripts/build_hybrid_index.py | modified _embedding_runtime() | ~70 |
+| 14:54 | Edited src/scripts/build_hybrid_index.py | instead() → server() | ~38 |
+| 14:54 | Edited src/scripts/build_hybrid_index.py | inline fix | ~17 |
+| 14:54 | Edited src/backend/ai/embedding_model.py | modified is_query_model() | ~116 |
+| 14:54 | Edited src/backend/ai/vllm_embed_server.py | modified except() | ~105 |
+| 14:54 | Edited src/backend/ai/vllm_embed_server.py | inline fix | ~24 |
+| 14:55 | Edited src/backend/ai/vllm_embed_server.py | 1→2 lines | ~32 |
+| 14:55 | Edited src/backend/ai/model_runtime.py | 1→6 lines | ~74 |
+| 14:55 | Edited src/backend/ai/model_runtime.py | added 1 import(s) | ~28 |
+| 14:55 | Edited src/backend/resources/texts.ro.toml | 1→2 lines | ~67 |
+| 14:55 | Edited src/backend/resources/texts.en.toml | 1→2 lines | ~69 |
+| 14:56 | Edited src/backend/core/score_formula.py | "4*P1+2*P2+(K+1)/(K+L)+(K+" → "4*P1+2*P2+(K+1)/(K+L)+2*(" | ~18 |
+| 14:56 | Edited docker-compose.yaml | inline fix | ~18 |
+| 14:56 | Edited src/backend/ai/search.py | 7→6 lines | ~150 |
+| 14:58 | Edited docker-compose.yaml | — | ~0 |
+| 14:58 | Edited docker-compose.yaml | 2→3 lines | ~73 |
+| 14:58 | Edited docker-compose.yaml | modified W() | ~348 |
+| 14:58 | Edited docker-compose.yaml | 2→2 lines | ~26 |
+| 14:58 | Edited docker-compose.yaml | 32 → 24 | ~14 |
+| 15:04 | Edited src/tests/unit/ai/test_search.py | 2→2 lines | ~48 |
+| 15:07 | Edited aiPlans/2026-11-24-qwen3-embedding-4b.md | modified Status() | ~73 |
+<!-- session:NjcxODE1MzItNWVkZC00ZGQ2LThiMzgtMDQzNzM1ODFiN2Jl -->
+| 2026-11-24T13:11:38.777Z | Qwen3-Embedding-4B phase 1: 4B profile (2560), OllamaQueryEmbedding CPU for questions, FastEmbed/EMBEDDING_DEVICE/VLLM_EMBED_BATCH_SIZE removed, formula 2*V, compose/.env/docs/tests adapted, Windows locks regenerated | src/backend/ai/embedding_model.py,src/backend/config.py,src/scripts/build_hybrid_index.py,docker-compose.yaml,pyproject.toml,README.md | ruff, mypy and 453 unit tests pass; integration not run (Docker denied); Linux locks stale |
+| 16:25 | Session end: 28 writes across 12 files (embedding_model.py, search.py, config.py, build_hybrid_index.py, vllm_embed_server.py) | 8 reads | ~9937 tok |
+| 16:50 | Edited src/scripts/evaluate_retrieval.py | 2→5 lines | ~121 |
+| 16:50 | Edited src/scripts/evaluate_retrieval.py | inline fix | ~23 |
+| 16:50 | Edited src/scripts/evaluate_retrieval.py | score() → terms() | ~72 |
+
+## Session: 2026-11-24 16:54
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 16:58 | Edited src/scripts/vllm_supervisor.py | expanded (+6 lines) | ~211 |
+| 16:58 | Edited src/scripts/vllm_supervisor.py | 3→8 lines | ~116 |
+| 16:59 | Edited src/scripts/vllm_supervisor.py | 2→4 lines | ~70 |
+| 16:59 | Edited src/scripts/vllm_supervisor.py | added error handling | ~611 |
+| 16:59 | Edited docker-compose.yaml | 2→3 lines | ~63 |
+| 16:59 | Edited docker-compose.yaml | 3→4 lines | ~79 |
+| 16:59 | Edited docker-compose.yaml | 4→8 lines | ~82 |
+| 16:59 | Edited docker-compose.yaml | 1→2 lines | ~36 |
+| 16:59 | Edited src/backend/ai/model_runtime.py | 6→7 lines | ~150 |
+| 16:59 | Edited src/backend/ai/model_runtime.py | 4→8 lines | ~162 |
+| 16:59 | Edited src/backend/ai/model_runtime.py | added error handling | ~74 |
+| 17:03 | Created aiPlans/2026-11-24-ollama-gpu-si-model-embeddings-chat.md | — | ~2255 |

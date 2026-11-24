@@ -446,6 +446,7 @@ TEXT_PARAMETERS: dict[str, tuple[str, ...]] = {
     "errors.vllm_start_failed": (),
     "errors.vllm_stop_failed": (),
     "errors.vllm_warmup_timeout": (),
+    "errors.semantic_model_unavailable": (),
     "errors.generation_cancelled": (),
     "errors.generation_start_failed": (),
     "errors.page_id_invalid": (),

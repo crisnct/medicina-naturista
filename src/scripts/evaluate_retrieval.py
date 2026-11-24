@@ -7,8 +7,11 @@ Reciprocal Rank of the first relevant chunk, nDCG@10 (binary gains) and
 Recall@50 against ALL relevant chunks in the index. Latency is wall time of
 one rank() call (the query embedding is warmed up first). It also counts
 priority_order_violations: fragments with the named condition in their title
-that rank below one without it (reported only when the conditions signal is on;
-0 or almost 0 by construction of the score). --signals picks the signals the
+that rank below one without it (reported only when the conditions signal is on).
+With SEARCH_SCORE_FORMULA at 4*P1+...+(K+1)/(K+V) it is 0 by construction; with V
+counting double (the default) a fragment without the condition can pass one with it
+when its lexical and semantic ranks are both near the top, so the count is a measured
+trade-off (181 over the 120 queries on 2026-11-24, against 0), not an invariant. --signals picks the signals the
 score is made of (A conditions, B lexical, C semantic; default ABC), to compare
 combinations. Read-only: never writes to the database. Run it before and after
 a scoring change and compare the summaries (--output saves the full JSON for
@@ -104,9 +107,9 @@ def evaluate_case(
     }
 
 
-# Fragments with the named condition in their title (P1) must come before every
-# other fragment: counts the P1 fragments that appear after a non-P1 one. Must
-# be 0 by construction of the score (see the weights in ai/search.py).
+# Fragments with the named condition in their title (P1) ideally come before every
+# other fragment: counts the P1 fragments that appear after a non-P1 one. Zero only
+# while 4*P1 cannot be beaten by the lower terms (see the weights in ai/search.py).
 def priority_order_violations(results: list[dict]) -> int:
     violations = 0
     seen_other = False

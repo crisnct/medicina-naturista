@@ -174,13 +174,15 @@ aliases for the Windows lock.
 - Prompts are Markdown files loaded at runtime via `core/language.py::read_prompt`: Romanian in
   `ai/prompts/`, English in `ai/prompts/en/` with the same file names, JSON keys and citation
   rules. Edit both variants together.
-- Embeddings are `Qwen/Qwen3-Embedding-0.6B`, 1024 dimensions; queries always embed on CPU via
-  FastEmbed/ONNX even when the index was built on GPU. No other model is understood by the code.
+- Embeddings are `Qwen/Qwen3-Embedding-4B`, 2560 dimensions: the index is built through the local
+  `vllm-embed` server on the GPU (fp8), questions are embedded by the host Ollama
+  (`qwen3-embedding:4b-q8_0`) on the CPU, and an Ollama failure stops the semantic signal with
+  `SEMANTIC_MODEL_UNAVAILABLE`. No other model is understood by the code.
 
 ## Scoring
 
 One SQL query produces one score per fragment from the signals the user enabled:
-`4·P1 + 2·P2 + (K+1)/(K+L) + (K+1)/(K+V)` (condition in title › condition in text › lexical › semantic), the default
+`4·P1 + 2·P2 + (K+1)/(K+L) + 2·(K+1)/(K+V)` (condition in title › condition in text › semantic ≥ lexical), the default
 of `SEARCH_SCORE_FORMULA` (grammar in `core/score_formula.py`, used by `ai/search.py`); L and V are
 ranks (RRF) and `K` = `SEARCH_RRF_K`. Changing weights or `K` changes retrieval quality —
 measure before and after with `scripts/evaluate_retrieval.py --content` against a labelled

@@ -13,6 +13,7 @@ from typing import Any
 
 import httpx
 
+from backend.ai.embedding_model import is_query_model
 from backend.ai.providers import LOCAL_HOSTS
 from backend.config import Settings
 from backend.core.contracts import ModelStage
@@ -31,6 +32,14 @@ _RUNNING_STATES = frozenset({"running", "restarting"})
 
 class _SupervisorUnavailable(Exception):
     pass
+
+
+def _error_code(response: httpx.Response) -> str | None:
+    try:
+        body = response.json()
+    except ValueError:
+        return None
+    return body.get("error") if isinstance(body, dict) else None
 
 
 class VllmRuntime:
@@ -65,10 +74,11 @@ class VllmRuntime:
         spec = REPORT_MODELS[model]
         # A cloud report leaves the GPU alone, so returning to a running vLLM model stays instant.
         # A local report with a model other than the previous local report's frees the GPU first:
-        # every Ollama model is unloaded, and the vLLM containers are stopped below (all but the
-        # chosen vLLM model's own). Repeating the same model releases nothing.
+        # the vLLM containers are stopped below (all but the chosen vLLM model's own), and the
+        # Ollama models are unloaded here for an Ollama report and by the supervisor before it
+        # starts a vLLM container. Repeating the same model releases nothing.
         local = spec.provider in ("ollama", "vllm")
-        if local and model != self._last_local_model:
+        if spec.provider == "ollama" and model != self._last_local_model:
             self._unload_ollama()
         if spec.provider == "ollama":
             self._prepare_ollama(on_stage)
@@ -160,6 +170,10 @@ class VllmRuntime:
             response = self._http.post(
                 f"{self._supervisor}/start/{service}", timeout=_SUPERVISOR_TIMEOUT
             )
+            # The supervisor could not unload the Ollama models that hold the GPU.
+            if response.status_code == 409 and _error_code(response) == "OLLAMA_GPU_BUSY":
+                logger.error("vllm_start_refused service=%s reason=ollama_gpu_busy", service)
+                raise ApplicationError("VLLM_GPU_BUSY", tr("errors.vllm_gpu_busy"), 409)
             response.raise_for_status()
         except httpx.HTTPError as exc:
             logger.error("vllm_start_failed service=%s type=%s", service, type(exc).__name__)
@@ -193,7 +207,12 @@ class VllmRuntime:
     def _ollama_loaded(self) -> list[str]:
         response = self._http.get(f"{self._ollama_base}/api/ps", timeout=_PROBE_TIMEOUT)
         response.raise_for_status()
-        return [item["name"] for item in response.json().get("models") or []]
+        # The model that embeds questions stays loaded: it runs on the CPU and holds no GPU memory.
+        return [
+            item["name"]
+            for item in response.json().get("models") or []
+            if not is_query_model(item["name"])
+        ]
 
     def _wait_ready(self, service: str, served_model: str, checkpoint: Callable[[], None]) -> None:
         started = self._clock()

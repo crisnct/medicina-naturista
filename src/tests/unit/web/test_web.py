@@ -19,7 +19,6 @@ from pypdf import PdfReader
 from backend.ai.categories import CategoryNode, CategoryTree
 from backend.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
 from backend.ai.condition_ai import AIConditionResult, resolved_for
-from backend.ai.embedding_model import _normalize_fastembed_metadata
 from backend.ai.message_classification import MessageClassification
 from backend.ai.report_validation import ReportValidationError
 from backend.ai.search import ALL_SIGNALS, SearchSignals, max_score
@@ -270,24 +269,6 @@ class WebTests(unittest.TestCase):
             main.create_app(self.deps.settings, self.deps), base_url="https://testserver"
         )
         self.addCleanup(self.client.close)
-
-    # Verify that cached model metadata paths are normalized across operating systems.
-    def test_fastembed_metadata_paths_are_portable_between_windows_and_linux(self):
-        with tempfile.TemporaryDirectory() as temp:
-            model_dir = Path(temp) / "models--test--model"
-            model_dir.mkdir()
-            metadata_file = model_dir / "files_metadata.json"
-            metadata_file.write_text(
-                '{"snapshots\\\\revision\\\\onnx\\\\model.onnx": {"size": 42}}',
-                encoding="utf-8",
-            )
-
-            _normalize_fastembed_metadata(Path(temp))
-
-            self.assertEqual(
-                metadata_file.read_text(encoding="utf-8"),
-                '{"snapshots/revision/onnx/model.onnx": {"size": 42}}',
-            )
 
     # Verify that profile questioning stops after the health problem is supplied.
     def test_profile_asks_only_health_problem(self):
@@ -1476,7 +1457,7 @@ class WebTests(unittest.TestCase):
         ranked = [
             {
                 **self._ranked(1, "a.md", 1, 5, 0.5),
-                "score": 2.0,
+                "score": 3.0,
                 "condition_in_title": None,
                 "condition_in_text": None,
                 "lexical_rank": 1,
@@ -1497,7 +1478,7 @@ class WebTests(unittest.TestCase):
                 "test-generation",
             )
             profile.ai_conditions = ({"index": 1, "name": "Cefalee", "terms": ["Cefalee"]},)
-            ranked[0].update(score=6.0, condition_in_title=True, condition_in_text=False)
+            ranked[0].update(score=7.0, condition_in_title=True, condition_in_text=False)
             with_ai_condition = retriever._collect(
                 session,
                 None,
@@ -1507,10 +1488,10 @@ class WebTests(unittest.TestCase):
 
         self.assertAlmostEqual(
             without_condition["C1"]["relevance_percent"], 100.0
-        )  # A left out: ceiling 2
+        )  # A left out: ceiling 3
         self.assertAlmostEqual(
             with_ai_condition["C1"]["relevance_percent"], 100.0
-        )  # A on, condition in the title (P2 = 0), L = V = 1: score 6 of its own ceiling 6
+        )  # A on, condition in the title (P2 = 0), L = V = 1: score 7 of its own ceiling 7
 
     # --- Fragment message building (pure function, no HTTP round trip needed) --
 
@@ -2021,13 +2002,13 @@ class WebTests(unittest.TestCase):
         retriever.documents_dir = Path(self.temp.name)
         retriever._known_category_ids = frozenset()
         for code, ceiling in (
-            ("ABC", 6),
+            ("ABC", 7),
             ("AB", 5),
-            ("AC", 5),
-            ("BC", 2),
+            ("AC", 6),
+            ("BC", 3),
             ("A", 4),
             ("B", 1),
-            ("C", 1),
+            ("C", 2),
         ):
             signals = SearchSignals.from_code(code)
             session = type(

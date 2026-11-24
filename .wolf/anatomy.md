@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-23T14:17:30.862Z
-> Files: 516 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-24T15:03:26.577Z
+> Files: 529 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -12,7 +12,7 @@
 - `.dockerignore` (~107 tok)
 - `AGENTS.md` — AGENTS.md (~3120 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
-- `docker-compose.yaml` — Docker Compose: 2 services (~5044 tok)
+- `docker-compose.yaml` — Docker Compose: 2 services (~5312 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
 - `README.md` — Project documentation (~34160 tok)
 
@@ -36,7 +36,7 @@
 - `database-engineering.md` — Senior Python developer — database expert (~2050 tok)
 - `devops-docker-ci.md` — DevOps engineer — Docker, Compose, GitHub Actions (~1438 tok)
 - `draw-io.md` — draw.io diagrams (~920 tok)
-- `embeddings-engineering.md` — Senior Python developer — embeddings specialist (~2110 tok)
+- `embeddings-engineering.md` — Senior Python developer — embeddings specialist (~2329 tok)
 - `python-code-review.md` — Senior Python lead — code review (~1190 tok)
 - `python-development.md` — Senior Python developer — general development (~3387 tok)
 - `SKILL.md` — Engineering roles for medicina-naturista (~971 tok)
@@ -80,6 +80,8 @@
 - `2026-11-13-cautare-lexicala-bm25.md` — Plan: căutare lexicală BM25 (modelul Lucene / Elasticsearch, în PostgreSQL) (~3140 tok)
 - `2026-11-14-rrf-semnale-lexical-semantic.md` — Plan: RRF (Reciprocal Rank Fusion) for the L and V signals (~2962 tok)
 - `2026-11-23-vllm-embeddings-indexare.md` — Embeddings la indexare prin vLLM (~5636 tok)
+- `2026-11-24-ollama-gpu-si-model-embeddings-chat.md` — Descărcarea modelelor Ollama înainte de vLLM și încărcarea modelului de embeddings la întrebări (~2114 tok)
+- `2026-11-24-qwen3-embedding-4b.md` — Trecerea la Qwen3-Embedding-4B (~3925 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
@@ -217,6 +219,19 @@
 - `vllm_phase0_payload.py` — Phase 0 helper: dump real association batches (system prompt, user payload, JSON schema) to (~1835 tok)
 - `vllm_thinking_budget_check.py` — Phase 0: does vLLM's Chat Completions honor thinking_token_budget with a JSON schema? (~857 tok)
 - `why_dedup_rejected.py` — Throwaway: send the products still without a cached grouping to gemma, one by one, and show (~604 tok)
+
+## aiWork/emb4b/
+
+- `bench_tokens.py` — Throughput of the vllm-embed-4b server on a fixed slice of the RO windows. (~590 tok)
+- `bootstrap.py` — Paired bootstrap of per-query nDCG@10 between models in data/compare.json. (~392 tok)
+- `compare.py` — Compare retrieval with the production 0.6B vectors and with Qwen3-Embedding-4B on the 120 (~1971 tok)
+- `dump.py` — Dump the RO chunks, their production 0.6B vectors and their embedding windows (read-only). (~599 tok)
+- `embed4b.py` — Embed the dumped windows and the 120 eval queries with Qwen3-Embedding-4B on the vllm-embed-4b (~701 tok)
+- `latency.py` — Latency of one query embedding on the vllm-embed-4b server: the 120 eval queries, one request (~588 tok)
+- `ollama_queries.py` — Query embeddings through Ollama (qwen3-embedding:4b-q8_0) for the 120 eval queries: one request (~756 tok)
+- `phase0.sh` — Phase 0 of aiPlans/2026-11-24-qwen3-embedding-4b.md: for each --gpu-memory-utilization, the (~509 tok)
+- `run_rest.sh` — Sequential: (1) 4B with bf16 weights + fp8 KV cache over all windows -> *_bf16.npy, (~544 tok)
+- `scan_sql.py` — Time the exact cosine scan of ai/search.py at 1024 and 2560 dimensions, on TEMP tables with the (~831 tok)
 
 ## aiWork/translate/out/
 
@@ -405,7 +420,7 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~12679 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~12705 tok)
 
 ## src/backend/ai/
 
@@ -414,7 +429,7 @@
 - `condition_repository.py` — Ordered PostgreSQL condition snapshots shared by retrieval and indexing. (~1579 tok)
 - `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~4072 tok)
 - `effort.py` — Map the user-selected report effort to each provider's own reasoning parameter. (~264 tok)
-- `embedding_model.py` — Shared local embedding model loading and per-model text profiles, used both (~2361 tok)
+- `embedding_model.py` — Embedding model profiles and the two clients of the one local model, Qwen3-Embedding-4B, (~2764 tok)
 - `english_inflections.py` — Catalog-scoped British English noun forms from the bundled Hunspell dictionary. (~970 tok)
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~6314 tok)
 - `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~15744 tok)
@@ -439,12 +454,12 @@
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
-- `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~2866 tok)
+- `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~3126 tok)
 - `providers.py` — Per-provider transport settings for report generation. (~2270 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3085 tok)
-- `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~7650 tok)
-- `vllm_embed_server.py` — Life cycle of the `vllm-embed` Compose service for an index build. (~1626 tok)
+- `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~7625 tok)
+- `vllm_embed_server.py` — Life cycle of the `vllm-embed` Compose service for an index build. (~1690 tok)
 
 ## src/backend/ai/prompts/
 
@@ -487,7 +502,7 @@
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2911 tok)
 - `report_metrics.py` — Validated measurements for one published report, independent of storage. (~1282 tok)
 - `report_models.py` — Supported report choices and their immutable provider routing. (~2754 tok)
-- `score_formula.py` — Operator-supplied arithmetic over named variables (L1/L2/L3 for the product tops, P1/P2/L/V for (~1577 tok)
+- `score_formula.py` — Operator-supplied arithmetic over named variables (L1/L2/L3 for the product tops, P1/P2/L/V/K for (~1695 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16550 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6762 tok)
 - `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
@@ -540,8 +555,8 @@
 
 ## src/backend/resources/
 
-- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~10183 tok)
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~10894 tok)
+- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~10224 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~10934 tok)
 
 ## src/backend/web/
 
@@ -615,9 +630,10 @@
 
 - `backup_database.bat` (~552 tok)
 - `backup_database.ps1` — Declares Invoke (~403 tok)
-- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~20760 tok)
+- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~21606 tok)
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20376 tok)
+- `evaluate_retrieval.py` — Measure retrieval quality and latency of ai/search.rank() against the (~3856 tok)
 - `extract_pdf_markdown.py` — Options: observe, body_size (~14210 tok)
 - `fix_markdown_headings.py` — fix_headings, main (~1489 tok)
 - `herb_index_requests.py` — Stream one indexing request per batch and emit aggregate telemetry without source content. (~4885 tok)
@@ -635,7 +651,7 @@
 - `set_gpu_clock.bat` (~827 tok)
 - `setup_gpu_clock.bat` (~593 tok)
 - `translate_markdown.py` — from: translate_markdown, flush (~21734 tok)
-- `vllm_supervisor.py` — The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers. (~1972 tok)
+- `vllm_supervisor.py` — The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers. (~2837 tok)
 
 ## src/tests/integration/
 
@@ -663,7 +679,7 @@
 - `test_herb_ranking.py` — test_display_preserves_names_and_restores_known_accents, test_bundled_dictionary_restores_inflected_ (~890 tok)
 - `test_message_classification.py` — Strict intent contract and local Ollama wiring; no external traffic. (~5471 tok)
 - `test_report_validation.py` — report, test_invalid_recommendation_is_removed_whole, test_missing_invalid_and_extra_sections, test_ (~1323 tok)
-- `test_search.py` — Tests for the combined fragment score (backend.ai.search): the (~2241 tok)
+- `test_search.py` — Tests for the combined fragment score (backend.ai.search): the (~2242 tok)
 
 ## src/tests/unit/core/
 

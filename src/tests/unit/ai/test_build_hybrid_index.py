@@ -1408,7 +1408,7 @@ class EmbeddingProfileTests(unittest.TestCase):
         self.assertTrue(query.startswith("Instruct: "))
         self.assertTrue(query.endswith("\nQuery:ceai pentru tuse"))
         self.assertEqual(QWEN.passage_text("Titlu\ntext"), "Titlu\ntext")
-        self.assertEqual(QWEN.dimension, 1024)
+        self.assertEqual(QWEN.dimension, 2560)
 
     def test_braces_in_a_question_are_not_template_syntax(self):
         self.assertEqual(QWEN.query_text("{text} {0}").split("Query:")[1], "{text} {0}")
