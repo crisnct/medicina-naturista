@@ -3599,3 +3599,6 @@ description: chronological action log per session, consolidated weekly
 | 16:59 | Edited src/backend/ai/model_runtime.py | 4→8 lines | ~162 |
 | 16:59 | Edited src/backend/ai/model_runtime.py | added error handling | ~74 |
 | 17:03 | Created aiPlans/2026-11-24-ollama-gpu-si-model-embeddings-chat.md | — | ~2255 |
+<!-- session:ODg0YzMwNzItZTIzNi00YzA2LTk2MWUtMjUzYWY2ZWQ1NThm -->
+| 2026-11-24T15:21:43.043Z | vllm-supervisor unloads host Ollama GPU models (size_vram>0) before every vLLM start, 409 OLLAMA_GPU_BUSY after 30 s; index build no longer refuses on Ollama. Chat: before semantic search the UI checks /api/embedding-model and loads the Ollama query model with a temporary indicator. Plan in aiPlans/2026-11-24-ollama-gpu-si-model-embeddings-chat.md | src/scripts/vllm_supervisor.py,docker-compose.yaml,src/backend/ai/model_runtime.py,src/backend/ai/vllm_embed_server.py,src/backend/ai/embedding_model.py,src/backend/ai/search.py,src/backend/web/main.py,src/frontend/hooks/useConversation.ts,src/frontend/App.tsx | ruff clean, vitest 58 passed, npm build ok, pytest unit running; not verified live |
+| 17:46 | Session end: 12 writes across 4 files (vllm_supervisor.py, docker-compose.yaml, model_runtime.py, 2026-11-24-ollama-gpu-si-model-embeddings-chat.md) | 4 reads | ~5196 tok |

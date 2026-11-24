@@ -18,6 +18,7 @@ token_rate = " - {tokens_per_second} tokeni/sec"
 
 [interface]
 app_searching = "Caut informații în bibliotecă…"
+app_loading_embedding_model = "Încarc modelul care compară sensul întrebării…"
 app_data_usage_sources_label = "Surse"
 app_data_usage_sources_text = "Căutarea folosește cărțile și documentele din biblioteca naturistă."
 app_data_usage_providers_label = "Furnizori AI"
@@ -484,6 +485,7 @@ vllm_start_failed = "Modelul AI nu a putut porni. Este posibil ca placa grafică
 vllm_stop_failed = "Modelul AI anterior nu a putut fi oprit, așa că modelul nou nu a fost pornit. Încercați din nou."
 vllm_warmup_timeout = "Modelul AI nu a fost gata la timp. Încercați din nou sau alegeți alt model."
 semantic_model_unavailable = "Modelul care compară sensul întrebării nu răspunde. Porniți Ollama și încercați din nou sau debifați căutarea semantică."
+semantic_model_not_pulled = "Modelul care compară sensul întrebării nu este instalat în Ollama. Instalați-l cu ollama pull și încercați din nou sau debifați căutarea semantică."
 generation_cancelled = "Generarea a fost anulată."
 generation_start_failed = "Generarea nu a putut fi pornită."
 page_id_invalid = "Identificator de pagină invalid."

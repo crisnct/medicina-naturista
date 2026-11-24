@@ -27,6 +27,7 @@ export function useConversation() {
   // the chat can show a "thinking" indicator only for the slow part.
   const [isSearching, setIsSearching] = useState(false);
   const [isClassifying, setIsClassifying] = useState(false);
+  const [isLoadingEmbeddingModel, setIsLoadingEmbeddingModel] = useState(false);
 
   const sessionQuery = useQuery({ queryKey: SESSION_KEY, queryFn: api.getSession, retry: false });
   const history = sessionQuery.data?.history ?? [];
@@ -100,6 +101,14 @@ export function useConversation() {
               const condition = await api.identifyCondition(routed.contextRevision);
               appendMessages(condition.messages, condition);
               startSearch = condition.startSearch && !condition.cancelled;
+            }
+            if (startSearch && signals.semantic && !(await api.getEmbeddingModel()).loaded) {
+              setIsLoadingEmbeddingModel(true);
+              try {
+                await api.loadEmbeddingModel();
+              } finally {
+                setIsLoadingEmbeddingModel(false);
+              }
             }
             if (startSearch) {
               const second = await api.search(routed.contextRevision);
@@ -193,6 +202,7 @@ export function useConversation() {
     isSending: sendMessage.isPending,
     isSearching,
     isClassifying,
+    isLoadingEmbeddingModel,
     isGenerating: generation.isGenerating,
     generateReport: (searchId: string, minScore: number, model: ReportModel | undefined = defaultReportModel, effort: ReportEffort = "low", limits?: GenerationLimits) => {
       if (model && allowedReportModels.includes(model)) generation.generate(searchId, minScore, model, effort, limits);

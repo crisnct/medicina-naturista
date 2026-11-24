@@ -177,7 +177,15 @@ aliases for the Windows lock.
 - Embeddings are `Qwen/Qwen3-Embedding-4B`, 2560 dimensions: the index is built through the local
   `vllm-embed` server on the GPU (fp8), questions are embedded by the host Ollama
   (`qwen3-embedding:4b-q8_0`) on the CPU, and an Ollama failure stops the semantic signal with
-  `SEMANTIC_MODEL_UNAVAILABLE`. No other model is understood by the code.
+  `SEMANTIC_MODEL_UNAVAILABLE` (`SEMANTIC_MODEL_NOT_PULLED` when the model is not installed). The
+  startup warm-up search loads that model. Before
+  a semantic search the chat loads that model through `POST /api/embedding-model/load` when
+  `GET /api/embedding-model` says it is not loaded, with a temporary indicator. No other model is
+  understood by the code.
+- GPU: `vllm-supervisor` unloads the host Ollama models that hold GPU memory (`size_vram > 0`) before
+  every vLLM start and refuses the start with `OLLAMA_GPU_BUSY` if they are still loaded after 30 s.
+  The app unloads Ollama models itself only before an Ollama report. Every Ollama request sends
+  `keep_alive` -1 by default (`OLLAMA_KEEP_ALIVE_SECONDS`), so these unloads are what frees the GPU.
 
 ## Scoring
 

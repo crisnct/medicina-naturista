@@ -19,11 +19,14 @@ function mount() {
 }
 
 afterEach(() => vi.restoreAllMocks());
-beforeEach(() => vi.spyOn(api, "getReportModels").mockResolvedValue({
-  models: ["ollama-gemma4:12b"],
-  defaultModel: "ollama-gemma4:12b",
-  allowedModels: ["ollama-gemma4:12b"],
-}));
+beforeEach(() => {
+  vi.spyOn(api, "getReportModels").mockResolvedValue({
+    models: ["ollama-gemma4:12b"],
+    defaultModel: "ollama-gemma4:12b",
+    allowedModels: ["ollama-gemma4:12b"],
+  });
+  vi.spyOn(api, "getEmbeddingModel").mockResolvedValue({ loaded: true });
+});
 
 describe("conversation resource reconciliation", () => {
   it("shows server queue position, keeps the panel busy and can cancel without resubmission", async () => {

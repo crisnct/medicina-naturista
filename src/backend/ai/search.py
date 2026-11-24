@@ -17,7 +17,7 @@ import numpy as np
 from psycopg.rows import namedtuple_row
 
 from backend.ai.conditions import ResolvedQuery, load_dictionary, resolve_query
-from backend.ai.embedding_model import cached_query_model, get_profile
+from backend.ai.embedding_model import OllamaQueryEmbedding, cached_query_model, get_profile
 from backend.ai.index_state import index_reader
 from backend.ai.query_terms import GENERIC_QUERY_WORDS, plain
 from backend.config import settings
@@ -513,6 +513,14 @@ def _finite_rank(rank: float) -> int | None:
 # Run one throwaway search so the first real one is fast: it loads the
 # embedding model and the condition dictionary and pulls the index into
 # Postgres's buffers. All signals are on, so the model is loaded too.
+# The question embedder of the published index. The index is released before the caller loads
+# the model, so a load never holds a database connection.
+def published_query_model() -> OllamaQueryEmbedding:
+    with index_reader() as (_connection, metadata):
+        model_name = metadata.model_name
+    return cached_query_model(model_name)
+
+
 def warm_up() -> None:
     rank("gripa", max_chars=1, signals=ALL_SIGNALS)
 

@@ -36,8 +36,9 @@ VLLM_REQUEST_TIMEOUT_SECONDS = 600
 OLLAMA_QUERY_TIMEOUT_SECONDS = 60
 # Seconds the list of loaded models may take; it answers at once when Ollama is up.
 OLLAMA_PS_TIMEOUT_SECONDS = 3
-# The model stays in the host's RAM between questions instead of the 60 s of OLLAMA_KEEP_ALIVE_SECONDS.
-OLLAMA_QUERY_KEEP_ALIVE = "24h"
+# A negative keep-alive is Ollama's "forever": the model stays in the host's RAM until Ollama
+# restarts, instead of the 60 s of OLLAMA_KEEP_ALIVE_SECONDS. It holds no GPU memory (num_gpu 0).
+OLLAMA_QUERY_KEEP_ALIVE = -1
 # num_gpu 0 keeps the model on the CPU, so it never competes with reports or the index build for the
 # GPU. A question is far shorter than 1024 tokens; the context only sizes the memory it takes
 # (about 4.3 GB, against 8 GB with Ollama's default context).

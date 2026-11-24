@@ -340,6 +340,10 @@ export interface ResourceInvalidations {
   cancelled?: boolean;
 }
 
+export interface EmbeddingModelStatus {
+  loaded: boolean;
+}
+
 export interface MessagesResponse extends ResourceInvalidations {
   indexGeneration?: string;
   removedCategoryIds?: string[];

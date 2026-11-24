@@ -33,6 +33,11 @@ def rrf(rank: int | None) -> float:
     return 0.0 if rank is None else (k + 1) / (k + rank)
 
 
+# The semantic term of the default formula: 2*(K+1)/(K+V), the semantic signal counts double.
+def semantic_term(rank: int | None) -> float:
+    return 2 * rrf(rank)
+
+
 # The rank the formula sees: infinity when the fragment has none.
 def _formula_rank(rank: int | None) -> float:
     return math.inf if rank is None else rank
@@ -375,10 +380,10 @@ class PriorityRankTests(RankTestCase):
 
         self.assertEqual(_paths(results), ["catB/prefix.md", "catB/neutru.md"])
         for item in results:
-            self.assertAlmostEqual(item["score"], rrf(item["semantic_rank"]))
+            self.assertAlmostEqual(item["score"], semantic_term(item["semantic_rank"]))
         self.assertEqual([item["semantic_rank"] for item in results], [1, 2])
-        self.assertAlmostEqual(results[0]["score"], 1.0)
-        self.assertAlmostEqual(results[1]["score"], rrf(2))
+        self.assertAlmostEqual(results[0]["score"], 2.0)
+        self.assertAlmostEqual(results[1]["score"], semantic_term(2))
 
     def test_only_the_lexical_signal_ranks_the_found_fragments_by_bm25(self):
         results = search.rank("zorbita", signals=_signals("B"))
@@ -402,21 +407,21 @@ class PriorityRankTests(RankTestCase):
     def test_conditions_and_semantic_without_the_lexical_signal_ignore_the_words(self):
         results = self.by_path(search.rank("zorbita", signals=_signals("AC")))
 
-        # 4*P1 + 2*P2 + V (L is 0): "prefix" is only a lexical match, so it keeps just its cosine.
+        # 4*P1 + 2*P2 + 2*V (L is 0): "prefix" is only a lexical match, so it keeps just its cosine.
         self.assertAlmostEqual(results["catA/titlu.md"]["score"], 4)
         self.assertAlmostEqual(results["catA/text.md"]["score"], 2)
-        self.assertAlmostEqual(results["catB/prefix.md"]["score"], 1)
-        self.assertAlmostEqual(results["catB/neutru.md"]["score"], rrf(2))
+        self.assertAlmostEqual(results["catB/prefix.md"]["score"], 2)
+        self.assertAlmostEqual(results["catB/neutru.md"]["score"], semantic_term(2))
 
     def test_lexical_and_semantic_without_the_conditions_signal_know_no_conditions(self):
         results = self.by_path(search.rank("zorbita", signals=_signals("BC")))
 
-        # L + V: the title and text fragments are only lexical matches (cosine 0).
+        # L + 2*V: the title and text fragments are only lexical matches (cosine 0).
         titlu = results["catA/titlu.md"]
         self.assertAlmostEqual(titlu["score"], rrf(titlu["lexical_rank"]))
         self.assertIsNotNone(titlu["lexical_rank"])
-        self.assertAlmostEqual(results["catB/prefix.md"]["score"], 1)  # only the best cosine
-        self.assertAlmostEqual(results["catB/neutru.md"]["score"], rrf(2))
+        self.assertAlmostEqual(results["catB/prefix.md"]["score"], 2)  # only the best cosine
+        self.assertAlmostEqual(results["catB/neutru.md"]["score"], semantic_term(2))
 
     def test_a_message_that_gives_the_chosen_signals_nothing_to_look_for_finds_nothing(self):
         # Conditions only, and no condition in the message.
@@ -609,7 +614,9 @@ class LexicalAgainstSemanticTests(RankTestCase):
         self.assertEqual(results["l/scurt.md"]["lexical_rank"], 1)
         self.assertEqual(results["l/lung.md"]["lexical_rank"], 2)
 
-    def test_a_lexical_match_beats_a_strong_semantic_only_one_and_both_signals_beat_either(self):
+    def test_a_strong_semantic_only_match_beats_a_lexical_only_one_and_both_signals_beat_either(
+        self,
+    ):
         results = self.by_path(search.rank("fraza cautata"))
 
         scurt, lung, semantic = (
@@ -620,8 +627,10 @@ class LexicalAgainstSemanticTests(RankTestCase):
         self.assertIsNone(scurt["semantic_rank"])
         self.assertEqual(lung["semantic_rank"], 1)
         self.assertEqual(semantic["semantic_rank"], 2)
-        self.assertGreater(scurt["score"], semantic["score"])
-        self.assertGreater(lung["score"], scurt["score"])
+        # The semantic signal counts double: the second cosine (2*(K+1)/(K+2)) outweighs the best
+        # lexical rank alone (1).
+        self.assertGreater(semantic["score"], scurt["score"])
+        self.assertGreater(lung["score"], semantic["score"])
         # A fragment with neither signal has no score at all.
         self.assertNotIn("l/zero.md", results)
 

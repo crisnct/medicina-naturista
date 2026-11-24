@@ -14,6 +14,7 @@ export const TEXT_PARAMETERS = {
     "tokens_per_second"
   ],
   "interface.app_searching": [],
+  "interface.app_loading_embedding_model": [],
   "interface.app_data_usage_sources_label": [],
   "interface.app_data_usage_sources_text": [],
   "interface.app_data_usage_providers_label": [],

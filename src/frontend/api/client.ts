@@ -3,6 +3,7 @@ import type {
   CategoriesResponse,
   ClassificationResponse,
   ConditionResponse,
+  EmbeddingModelStatus,
   HerbEvidencePage,
   HerbEvidenceKind,
   HerbSafetyPage,
@@ -149,6 +150,10 @@ export const api = {
   }),
   // Slower retrieval step for the health problem/categories the previous
   // message/classification calls stored on the session, when routing permits it.
+  // Before a semantic search: whether Ollama holds the question model, and loading it when it does
+  // not, so the chat can say why the first question after an Ollama restart waits.
+  getEmbeddingModel: () => request<EmbeddingModelStatus>("/api/embedding-model"),
+  loadEmbeddingModel: () => request<EmbeddingModelStatus>("/api/embedding-model/load", { method: "POST" }),
   search: (revision?: number) => request<MessagesResponse>("/api/search", {
     method: "POST", headers: revision === undefined ? {} : { "X-Context-Revision": String(revision) },
   }),

@@ -36,7 +36,7 @@ from backend.ai.model_runtime import VllmRuntime
 from backend.ai.providers import default_max_output_tokens
 from backend.ai.report_validation import ValidationWarning
 from backend.ai.retrieval import Retriever
-from backend.ai.search import SearchSignals
+from backend.ai.search import SearchSignals, published_query_model
 from backend.ai.search import warm_up as warm_up_search
 from backend.config import Settings, configure_settings
 from backend.core.contracts import (
@@ -664,6 +664,22 @@ def post_classify(request: Request):
     if revision is None:
         raise ApplicationError("REVISION_REQUIRED", tr("errors.message_revision_required"), 422)
     return _conversation(_deps(request)).classify(_current(request), revision)
+
+
+# The chat asks before a semantic search, so the user sees why the first question after an Ollama
+# restart waits. Without the real index (tests, a fake retriever) there is no model to load.
+@router.get("/api/embedding-model")
+def get_embedding_model(request: Request):
+    if not isinstance(_deps(request).retriever, Retriever):
+        return {"loaded": True}
+    return {"loaded": published_query_model().is_loaded()}
+
+
+@router.post("/api/embedding-model/load")
+def post_embedding_model_load(request: Request):
+    if isinstance(_deps(request).retriever, Retriever):
+        published_query_model().load()
+    return {"loaded": True}
 
 
 @router.post("/api/search")
@@ -1471,7 +1487,14 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
         request.state.session_cookie = sid
         try:
             if request.method == "POST" and (
-                path in {"/api/messages", "/api/classify", "/api/condition", "/api/search"}
+                path
+                in {
+                    "/api/messages",
+                    "/api/classify",
+                    "/api/condition",
+                    "/api/search",
+                    "/api/embedding-model/load",
+                }
                 or (path.startswith("/api/searches/") and path.endswith("/generate"))
             ):
                 _require_initialized(request)

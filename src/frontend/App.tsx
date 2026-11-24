@@ -92,7 +92,7 @@ export function App() {
           <ChatHistory
             history={conversation.history}
             pending={conversation.isSending}
-            pendingLabel={conversation.isClassifying ? tr("interface.app_classifying") : conversation.isSearching ? tr("interface.app_searching") : tr("interface.app_sending_message")}
+            pendingLabel={conversation.isClassifying ? tr("interface.app_classifying") : conversation.isLoadingEmbeddingModel ? tr("interface.app_loading_embedding_model") : conversation.isSearching ? tr("interface.app_searching") : tr("interface.app_sending_message")}
             onGenerate={conversation.generateReport}
             reportModels={conversation.reportModels}
             defaultReportModel={conversation.defaultReportModel}
