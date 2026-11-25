@@ -6,6 +6,7 @@ import logging
 import threading
 from collections import deque
 from concurrent.futures import ThreadPoolExecutor
+from dataclasses import dataclass
 from typing import cast
 
 import httpx
@@ -25,6 +26,16 @@ from backend.core.texts import tr
 logger = logging.getLogger("naturist.reports")
 
 
+# The model of the last published report, kept in memory only: a restart forgets it.
+@dataclass(frozen=True)
+class LastReportModel:
+    model: str
+    effort: str | None = None
+
+    def as_dict(self) -> dict[str, str | None]:
+        return {"model": self.model, "effort": self.effort}
+
+
 class ReportGenerationService:
     def __init__(
         self, store: SessionStore, model_runtime: ReportModelRuntime | None = None
@@ -39,6 +50,12 @@ class ReportGenerationService:
         self._pending: deque[tuple[ConversationService, SessionOperation, int]] = deque()
         self._draining = False
         self._closed = False
+        self._last_report: LastReportModel | None = None
+
+    @property
+    def last_report(self) -> LastReportModel | None:
+        with self._lock:
+            return self._last_report
 
     def start(
         self,
@@ -160,6 +177,7 @@ class ReportGenerationService:
             )
             if not result.cancelled:
                 logger.info("report_job_finished job_id=%s", operation.operation_id)
+                self._remember_published(operation)
         except OperationCancelled:
             pass
         except Exception as exc:
@@ -210,6 +228,18 @@ class ReportGenerationService:
         finally:
             self.store.finish_operation(operation)
             logger.info("report_job_worker_finished job_id=%s", operation.operation_id)
+
+    # A finished generate may also be a "no fragment above the minimum score" reply; only a
+    # published report counts.
+    def _remember_published(self, operation: SessionOperation) -> None:
+        try:
+            status = self.store.generation(operation.session, operation.operation_id)
+        except ApplicationError:
+            return
+        if status.get("state") != "succeeded" or not status.get("modelChoice"):
+            return
+        with self._lock:
+            self._last_report = LastReportModel(status["modelChoice"], status.get("effort"))
 
     # Runs when the job leaves the queue, never at admission: a queued job with another model must
     # not disturb the report that is generating.

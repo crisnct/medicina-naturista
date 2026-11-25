@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import re
-from collections.abc import Mapping
+from collections.abc import Mapping, Sequence
 from html import escape
 from io import BytesIO
 from pathlib import Path
@@ -25,6 +25,7 @@ from reportlab.platypus import (
 
 from backend.ai.conditions import find_conditions, resolve_query
 from backend.ai.report_validation import ValidatedReport, partial_notice
+from backend.core.contracts import ReportHerbSafety
 from backend.core.language import current_language
 from backend.core.texts import tr
 from backend.reporting.recommendations import (
@@ -32,7 +33,10 @@ from backend.reporting.recommendations import (
     HERB_SECTIONS,
     attach_herb_benefit_counts,
     product_fragment_ids,
+    safety_message_text,
     split_recommendation,
+    warning_entries,
+    warning_sort_key,
 )
 
 SECTION_KEYS = ("uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atentionari")
@@ -52,7 +56,8 @@ def section_presentation() -> dict[str, dict[str, str]]:
             "label": tr("report.other_recommendations"),
             "color": "#8059A5",
         },
-        "atentionari": {"number": "5", "label": tr("report.warnings"), "color": "#B8423E"},
+        # Warnings come after the bibliography (5), so they are the sixth section.
+        "atentionari": {"number": "6", "label": tr("report.warnings"), "color": "#B8423E"},
     }
 
 
@@ -457,13 +462,14 @@ def item_relevance_percent(
 # Sort every report section by the best relevance_percent among the fragments it cites
 # (for herb sections, only fragments naming the product) as displayed, i.e. rounded; ties
 # go to the item useful for more conditions (herb sections carry BENEFIT_COUNT), then to
-# the summed relevance of those distinct fragments, then to original position.
+# the summed relevance of those distinct fragments, then to original position. The warnings
+# section shows no relevance and is alphabetical instead.
 def sort_sections_by_relevance(
     sections: dict[str, list[dict[str, Any]]],
     evidence: dict[str, dict[str, Any]],
     product_fragments: Mapping[str, frozenset[str]] | None = None,
 ) -> dict[str, list[dict[str, Any]]]:
-    """Order every section by the highest relevance_percent of the fragments each item cites."""
+    """Order sections by the best cited relevance_percent; warnings alphabetically."""
 
     def sort_key(
         pair: tuple[int, dict[str, Any]], fragments: Mapping[str, frozenset[str]] | None
@@ -480,6 +486,9 @@ def sort_sections_by_relevance(
 
     ordered: dict[str, list[dict[str, Any]]] = {}
     for section, items in sections.items():
+        if section == "atentionari":
+            ordered[section] = sorted(items, key=warning_sort_key)
+            continue
         fragments = product_fragments if section in HERB_SECTIONS else None
         indexed_items = sorted(enumerate(items), key=lambda pair: sort_key(pair, fragments))
         ordered[section] = [item for _, item in indexed_items]
@@ -1024,11 +1033,14 @@ def format_recommendation(
     text: str,
     benefit_count: int | None = None,
     relevance_percent: float | None = None,
+    *,
+    stacked: bool = False,
 ) -> str:
     """Render a bold bullet and label, then relevance and use chips above the description.
 
     Without a delimited label the first sentence serves as the label. Without any chip the
-    label keeps its trailing colon and the description follows inline.
+    label keeps its trailing colon and the description follows inline, unless `stacked`
+    keeps the label on its own line as if chips were shown.
     """
     label, description = split_recommendation(text)
     chips = []
@@ -1037,19 +1049,19 @@ def format_recommendation(
         chips.append(_chip(tr("report.relevance_chip", percent=percent), "#0F5C5E", "#DDF1EC"))
     if benefit_count:
         chips.append(_chip(tr("report.use_chip", count=benefit_count), "#4B5B5A", "#ECEFEE"))
-    if not chips:
+    if not chips and not stacked:
         if not label:
             return "● " + escape(description)
         return f"<b>● {escape(label)}:</b> {escape(description)}"
-    badges = " ".join(chips)
+    badges = "".join(f" {chip}" for chip in chips)
     if not label:
         # No name was delimited: the first sentence is the title, the rest the description.
         parts = re.split(r"(?<=[.!?])\s+", description, maxsplit=1)
         label = parts[0].rstrip(".:;")
         description = parts[1] if len(parts) > 1 else ""
     if not description:
-        return f"<b>● {escape(label)}</b> {badges}"
-    return f"<b>● {escape(label)}</b> {badges}<br/>{escape(description)}"
+        return f"<b>● {escape(label)}</b>{badges}"
+    return f"<b>● {escape(label)}</b>{badges}<br/>{escape(description)}"
 
 
 def _chip(text: str, color: str, background: str) -> str:
@@ -1128,6 +1140,7 @@ def create_pdf(
     ai_model: str | None = None,
     herb_scores: Mapping[str, int] | None = None,
     product_fragments: Mapping[str, frozenset[str]] | None = None,
+    herb_safety: Sequence[ReportHerbSafety] = (),
 ) -> bytes:
     regular, bold = _register_fonts()
     styles = getSampleStyleSheet()
@@ -1314,6 +1327,9 @@ def create_pdf(
             Paragraph(f'<a name="{anchor}"/>{text}{source_chip(citations)}', item_styles[key])
         )
 
+    # Rendered in heading order so source back-links follow it; placed later, with the
+    # warnings after the bibliography.
+    rendered: dict[str, list[Flowable]] = {}
     for key in headings:
         presentation = section_presentation()[key]
         section_content: list[Flowable] = [
@@ -1321,13 +1337,32 @@ def create_pdf(
             Spacer(1, 2.5 * mm),
         ]
         items = sections.get(key) or []
-        if not items:
+        if not items and not (key == "atentionari" and herb_safety):
             section_content.append(
                 Paragraph(
                     escape(tr("report.section_empty")),
                     styles["NaturalEmpty"],
                 )
             )
+        elif key == "atentionari":
+            # No relevance or use chips here; database products carry no local sources.
+            for index, entry in enumerate(warning_entries(items, herb_safety), start=1):
+                anchor = f"recommendation-{key}-{index}"
+                if isinstance(entry, ReportHerbSafety):
+                    lines = (
+                        escape(safety_message_text(kind, message))
+                        for kind, message in entry.messages
+                    )
+                    text = f"<b>● {escape(entry.title)}</b><br/>" + "<br/>".join(lines)
+                    add_recommendation(section_content, key, text, [], anchor)
+                else:
+                    add_recommendation(
+                        section_content,
+                        key,
+                        format_recommendation(str(entry["text"]), stacked=True),
+                        citations_for(entry),
+                        anchor,
+                    )
         elif key == "nutritie":
             nutrition_index = 0
             for nutrition_key, nutrition_label, nutrition_items in nutrition_display_groups(items):
@@ -1378,21 +1413,24 @@ def create_pdf(
                     citations_for(item),
                     f"recommendation-{key}-{index}",
                 )
-        story.append(
+        rendered[key] = [
             RoundedSection(
                 section_content,
                 "#FFFFFF",
                 presentation["color"],
                 bookmark=f"section-{key}",
                 outline=f"{presentation['number']}. {presentation['label']}",
-            )
-        )
-        story.append(Spacer(1, 4 * mm))
+            ),
+            Spacer(1, 4 * mm),
+        ]
+    for key in headings:
+        if key != "atentionari":
+            story.extend(rendered[key])
 
     bibliography_content: list[Flowable] = [
         Paragraph(
             '<a name="section-bibliografie"/><font size="15" color="#FFFFFF">'
-            f"<b>6. {escape(tr('report.bibliography_heading'))}</b></font>",
+            f"<b>5. {escape(tr('report.bibliography_heading'))}</b></font>",
             styles["NaturalBibliographyHeading"],
         ),
         Spacer(1, 2.5 * mm),
@@ -1420,10 +1458,11 @@ def create_pdf(
             "#FFFFFF",
             "#52636D",
             bookmark="section-bibliografie",
-            outline="6. Bibliografie",
+            outline=f"5. {tr('report.bibliography_heading')}",
         )
     )
     story.append(Spacer(1, 4 * mm))
+    story.extend(rendered["atentionari"])
     story.append(
         Paragraph(
             "<br/>".join(

@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+import logging
 from collections import defaultdict
-from typing import Literal
+from collections.abc import Sequence
+from typing import Literal, cast
 
 import psycopg
 from psycopg import Connection
@@ -17,13 +19,25 @@ from backend.ai.herb_product_safety_repository import (
     active_product_safety_run as active_safety_run,
 )
 from backend.ai.herb_product_safety_repository import unavailable
+from backend.ai.herb_repository import catalog_snapshot
+from backend.ai.herbs import Herb
+from backend.ai.index_state import IndexUnavailable
 from backend.config import Settings
 from backend.config import settings as default_settings
-from backend.core.contracts import HerbHighlight, HerbSafetyEvidencePage, HerbSafetyPage
+from backend.core.contracts import (
+    HerbHighlight,
+    HerbSafetyEvidencePage,
+    HerbSafetyKind,
+    HerbSafetyPage,
+    ReportHerbSafety,
+)
 from backend.core.errors import ApplicationError
+from backend.core.language import current_language
 from backend.core.texts import tr
 
 PAGE_SIZE = 20
+
+logger = logging.getLogger("naturist.herbs")
 
 
 def require_run(connection: Connection, run_id: str, settings: Settings) -> None:
@@ -85,6 +99,57 @@ def lookup_herb_safety(
         raise ApplicationError(
             "HERB_SAFETY_UNAVAILABLE", tr("errors.herb_safety_unavailable"), 503
         ) from None
+
+
+def _capitalized(name: str) -> str:
+    return name[:1].upper() + name[1:]
+
+
+# The catalog stores lowercase names. The report capitalizes the product name and the Latin
+# genus (the species epithet stays lowercase) and names the product once when both are equal.
+def report_herb_title(herb: Herb) -> str:
+    name = (herb.en or herb.latin or herb.ro) if current_language() == "en" else herb.ro
+    title = _capitalized(name)
+    if herb.latin and herb.latin.casefold() != name.casefold():
+        title += f" ({_capitalized(herb.latin)})"
+    return title
+
+
+# Every catalog product named by a report label, once, with its messages from the active
+# generation of the current language. The report must not fail for these extra items, so an
+# unavailable database or generation yields none.
+def load_report_herb_safety(
+    labels: Sequence[str], *, settings: Settings = default_settings
+) -> tuple[ReportHerbSafety, ...]:
+    if not labels:
+        return ()
+    try:
+        with SafetyRepository().transaction() as connection:
+            run_id, _ = active_safety_run(connection, settings)
+            if run_id is None:
+                return ()
+            catalog = catalog_snapshot(connection).catalog
+            herbs = {
+                herb.id: herb for label in dict.fromkeys(labels) for herb in catalog.mentions(label)
+            }
+            if not herbs:
+                return ()
+            rows = connection.execute(
+                "SELECT herb_id,message_type,problem FROM herb_safety_messages "
+                "WHERE run_id=%s AND herb_id=ANY(%s) ORDER BY herb_id,CASE message_type "
+                "WHEN 'warning' THEN 0 WHEN 'contraindication' THEN 1 ELSE 2 END,problem,message_id",
+                (run_id, list(herbs)),
+            ).fetchall()
+    except (psycopg.Error, PoolTimeout, IndexUnavailable) as error:
+        logger.error("report_herb_safety_unavailable error_type=%s", type(error).__name__)
+        return ()
+    messages: dict[int, list[tuple[HerbSafetyKind, str]]] = {}
+    for herb_id, kind, problem in rows:
+        messages.setdefault(herb_id, []).append((cast(HerbSafetyKind, kind), problem))
+    return tuple(
+        ReportHerbSafety(report_herb_title(herbs[herb_id]), tuple(items))
+        for herb_id, items in messages.items()
+    )
 
 
 # A warning highlight may contain a product highlight; emit non-overlapping code-point spans.

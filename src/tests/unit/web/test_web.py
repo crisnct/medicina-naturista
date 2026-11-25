@@ -571,7 +571,18 @@ class WebTests(unittest.TestCase):
             "● Vitamina B6 90% potrivire cu mușețel în descriere.",
             "● Îngrijire generală 35% potrivire",
         ):
-            self.assertEqual(pdf_text.count(chips), 4, chips)
+            self.assertEqual(pdf_text.count(chips), 3, chips)
+        # The warnings section shows no chips and is alphabetical by title.
+        # Warnings are the sixth section, after the bibliography and before the summary lines.
+        self.assertLess(pdf_text.index("5. Bibliografie"), pdf_text.index("6. Atenționări"))
+        warnings = pdf_text[
+            pdf_text.index("6. Atenționări") : pdf_text.index("Număr total de fragmente folosite")
+        ]
+        self.assertNotIn("potrivire", warnings)
+        self.assertNotIn("afecțiuni", warnings)
+        titles = ("Infuzie de romaniță", "Îngrijire generală", "Tinctura de soc", "Vitamina B6")
+        positions = [warnings.index(f"● {title}") for title in titles]
+        self.assertEqual(positions, sorted(positions))
         self.assertNotIn("util(ă) în 0 afecțiuni", pdf_text)
         self.assertLess(pdf_text.index("Vitamina B6 90%"), pdf_text.index("Îngrijire generală"))
         self.assertLess(pdf_text.index("Îngrijire generală"), pdf_text.index("Tinctura de soc 30%"))

@@ -179,6 +179,8 @@ class HTTPPlanTests(unittest.TestCase):
         self.assertEqual(status.status_code, 200)
         self.assertEqual(status.json()["queuePosition"], 1)
         self.assertEqual(ai.calls, 1)
+        # Nothing is published yet, so the panel has no last report model.
+        self.assertIsNone(self.client.get("/api/report-models").json()["lastReportModel"])
         ai.release.set()
         self.assertTrue(self.deps.store.wait_workers(3))
         for response, tab in [(first, first_tab), (second, self.tab)]:
@@ -186,6 +188,8 @@ class HTTPPlanTests(unittest.TestCase):
             self.assertEqual(status.json()["state"], "succeeded", status.text)
             self.assertIsNone(status.json()["queuePosition"])
         self.assertEqual(ai.calls, 2)
+        last = self.client.get("/api/report-models").json()["lastReportModel"]
+        self.assertEqual(last["model"], self.deps.settings.report_generation_model)
 
     def test_session_creation_limit_reports_remaining_wait_and_recovers(self):
         now = [0.0]

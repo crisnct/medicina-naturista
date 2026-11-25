@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-25T06:18:31.657Z
-> Files: 529 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-25T09:30:25.099Z
+> Files: 532 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -82,9 +82,11 @@
 - `2026-11-23-vllm-embeddings-indexare.md` — Embeddings la indexare prin vLLM (~5636 tok)
 - `2026-11-24-ollama-gpu-si-model-embeddings-chat.md` — Descărcarea modelelor Ollama înainte de vLLM și încărcarea modelului de embeddings la întrebări (~2114 tok)
 - `2026-11-24-qwen3-embedding-4b.md` — Trecerea la Qwen3-Embedding-4B (~3925 tok)
+- `2026-11-25-ultimul-model-raport-in-panou.md` — Plan: ultimul model AI folosit la un raport, afisat in panoul de generare (~1595 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
+- `plan-siguranta-herbs-in-raport.md` — Plan: atentionari, contraindicatii si interactiuni din baza de date in raportul final (~2928 tok)
 
 ## aiPlans/tmp/
 
@@ -491,8 +493,8 @@
 
 ## src/backend/core/
 
-- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~2780 tok)
-- `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~16186 tok)
+- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~3018 tok)
+- `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~16968 tok)
 - `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1309 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
 - `language.py` — Validated languages and isolated execution scopes; no process-wide mutable locale. (~353 tok)
@@ -548,10 +550,10 @@
 
 ## src/backend/reporting/
 
-- `chat.py` — Reusable conversation rendering and structured chat-message builders. (~3455 tok)
+- `chat.py` — Reusable conversation rendering and structured chat-message builders. (~4051 tok)
 - `pdf.py` — Readable Romanian PDF report with source references next to each claim. (~15036 tok)
 - `recommendations.py` — Pure label extraction and PDF-only ordering of recommendation copies. (~820 tok)
-- `service.py` — Prepare database-derived PDF scores before entering the pure renderer. (~762 tok)
+- `service.py` — Prepare database-derived PDF scores before entering the pure renderer. (~813 tok)
 
 ## src/backend/resources/
 
@@ -560,8 +562,8 @@
 
 ## src/backend/web/
 
-- `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~577 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~17918 tok)
+- `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~601 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~17966 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
@@ -685,9 +687,13 @@
 
 - `test_settings.py` — Runtime configuration isolation, positivity and budget relationships. (~2055 tok)
 
+## src/tests/unit/reporting/
+
+- `test_assets.py` — ReportingAssetTests: test_pdf_ornament_is_packaged_with_reporting, test_recommendation_fonts_in_ever (~549 tok)
+
 ## src/tests/unit/web/
 
 - `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~9278 tok)
 - `test_report_metrics.py` — HTTP model binding, strict score validation and receipt idempotency. (~1677 tok)
 - `test_sessions_owner.py` — HTTP races, owner revocation and streaming limits, using synthetic dependencies. (~10126 tok)
-- `test_web.py` — Smoke tests for the local web application; no live xAI requests. (~29438 tok)
+- `test_web.py` — Smoke tests for the local web application; no live xAI requests. (~29426 tok)

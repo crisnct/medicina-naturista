@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import os
 import re
+from collections.abc import Sequence
 from typing import Any
 from urllib.parse import quote
 
@@ -18,7 +19,7 @@ from backend.ai.fragment_highlights import display_text
 from backend.ai.report_validation import ValidatedReport, partial_notice
 from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.config import settings
-from backend.core.contracts import ProfilePayload
+from backend.core.contracts import ProfilePayload, ReportHerbSafety
 from backend.core.models import SessionData, SessionSnapshot
 from backend.core.texts import tr
 from backend.reporting.pdf import (
@@ -28,6 +29,7 @@ from backend.reporting.pdf import (
     report_title,
     sort_sections_by_relevance,
 )
+from backend.reporting.recommendations import safety_message_text, warning_entries
 
 
 # Build a plain text chat message.
@@ -212,6 +214,7 @@ def recommendation_text(
     elapsed_seconds: int | None = None,
     ai_model: str | None = None,
     include_ready_message: bool = True,
+    herb_safety: Sequence[ReportHerbSafety] = (),
 ) -> str:
     partial = isinstance(sections, ValidatedReport) and sections.partial
     if isinstance(sections, ValidatedReport):
@@ -245,11 +248,32 @@ def recommendation_text(
     if partial:
         lines.append(partial_notice())
     found = False
+    # Warnings follow the bibliography, as in the PDF.
+    warning_lines: list[str] = []
     for key, label in labels:
         items = sections.get(key) or []
-        if not items:
+        if not items and not (key == "atentionari" and herb_safety):
             continue
         found = True
+        if key == "atentionari":
+            warning_lines.append(f"\n{label}:")
+            for entry in warning_entries(items, herb_safety):
+                if isinstance(entry, ReportHerbSafety):
+                    warning_lines.append(f"• **{entry.title}**")
+                    warning_lines.extend(
+                        f"    {safety_message_text(kind, message)}"
+                        for kind, message in entry.messages
+                    )
+                    continue
+                citations = [
+                    evidence[token]["source"]
+                    for token in entry.get("evidence_ids", [])
+                    if token in evidence
+                ]
+                numbers = list(dict.fromkeys(reference_numbers[source] for source in citations))
+                markers = " ".join(f"[{number}]" for number in numbers)
+                warning_lines.append(f"• {entry['text']} {markers}".rstrip())
+            continue
         lines.append(f"\n{label}:")
         if key == "nutritie":
             for nutrition_key, nutrition_label, nutrition_items in nutrition_display_groups(items):
@@ -292,4 +316,5 @@ def recommendation_text(
             f"{number} - {bibliography_label(source)}"
             for number, source in enumerate(references, start=1)
         )
+    lines.extend(warning_lines)
     return "\n".join(lines)

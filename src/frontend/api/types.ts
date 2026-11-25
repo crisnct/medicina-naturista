@@ -105,6 +105,8 @@ export interface ReportModelsResponse {
   thinkingTokens?: Partial<Record<ReportModel, number>>;
   // The bounds the limits must respect.
   tokenBounds?: TokenBounds;
+  // Kept in server memory only, so a restart clears it; sent to the admin only.
+  lastReportModel?: LastReportModel | null;
 }
 
 export interface TokenBounds {
@@ -137,6 +139,13 @@ export interface ReportModelDetails {
   contextTokens: Partial<Record<ReportModel, number>>;
   parallelContextTokens: Partial<Record<ReportModel, number>>;
   defaultEfforts: Partial<Record<ReportModel, ReportEffort>>;
+  // The model of the last report published since the server started; admin only.
+  lastReportModel?: LastReportModel | null;
+}
+
+export interface LastReportModel {
+  model: string;
+  effort?: ReportEffort | null;
 }
 
 export interface ReportDurationEstimate {

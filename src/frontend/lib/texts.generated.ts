@@ -196,6 +196,10 @@ export const TEXT_PARAMETERS = {
   "interface.generate_batches_prefix": [],
   "interface.generate_batches_hint": [],
   "interface.generate_characters_prefix": [],
+  "interface.generate_last_report_prefix": [],
+  "interface.generate_last_report_effort": [
+    "effort"
+  ],
   "interface.generate_count_pending": [],
   "interface.generate_options_title": [],
   "interface.generate_wait_notice": [],

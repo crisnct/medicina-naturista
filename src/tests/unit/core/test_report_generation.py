@@ -12,7 +12,7 @@ from types import SimpleNamespace
 from backend.config import Settings
 from backend.core.errors import ApplicationError
 from backend.core.models import CommitChange, HealthProfile, PendingSearch, StoredReport
-from backend.core.report_generation import ReportGenerationService
+from backend.core.report_generation import LastReportModel, ReportGenerationService
 from backend.core.sessions import SessionStore
 
 
@@ -97,9 +97,11 @@ class ReportQueueTests(unittest.TestCase):
         self.assertEqual((second["stage"], second["queuePosition"]), ("queued", 1))
         self.assertEqual(third["queuePosition"], 2)
         self.assertEqual(self.order, ["0"])
+        self.assertIsNone(self.service.last_report)
         self.finish()
         self.assertEqual(self.order, ["0", "1", "2"])
         self.assertEqual(self.maximum_active, 1)
+        self.assertEqual(self.service.last_report, LastReportModel("synthetic-model"))
         for session, job in zip(sessions, [first, second, third]):
             status = self.service.generation(session, job["jobId"])
             self.assertEqual(status["state"], "succeeded")

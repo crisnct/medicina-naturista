@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import type { FragmentItem, GenerateMessage } from "../api/types";
+import type { FragmentItem, GenerateMessage, LastReportModel } from "../api/types";
 import { GeneratePanel } from "./GeneratePanel";
 import { api } from "../api/client";
 
@@ -25,9 +25,10 @@ function fragment(relevancePercent: number | null): FragmentItem {
   };
 }
 
-function renderPanel(fragments?: FragmentItem[], onGenerate = vi.fn()) {
+function renderPanel(fragments?: FragmentItem[], onGenerate = vi.fn(), lastReportModel?: LastReportModel) {
   render(<GeneratePanel message={message} fragments={fragments} onGenerate={onGenerate}
-    reportModels={["ollama-gemma4:12b"]} allowedReportModels={["ollama-gemma4:12b"]} />);
+    reportModels={["ollama-gemma4:12b"]} allowedReportModels={["ollama-gemma4:12b"]}
+    reportModelDetails={{ contextTokens: {}, parallelContextTokens: {}, defaultEfforts: {}, lastReportModel }} />);
   return onGenerate;
 }
 
@@ -37,8 +38,10 @@ const chooseMinScore = (value: number) =>
 
 describe("the minimum score next to Generează rețeta", () => {
   it("sends every fragment by default", () => {
-    const onGenerate = renderPanel([fragment(10)]);
+    const onGenerate = renderPanel([fragment(10)], vi.fn(), { model: "ollama-qwen3.5:9b", effort: "medium" });
 
+    expect(screen.getByText(/Ultimul raport generat cu:/).textContent)
+      .toBe("Ultimul raport generat cu: ollama-qwen3.5:9b (efort AI: Mediu)");
     fireEvent.click(button());
 
     expect(onGenerate).toHaveBeenCalledWith("search-1", 0, "ollama-gemma4:12b", "low");

@@ -3,10 +3,16 @@
 from __future__ import annotations
 
 import re
-from collections.abc import Mapping
+import unicodedata
+from collections.abc import Mapping, Sequence
 from typing import Any
 
+from backend.core.contracts import HerbSafetyKind, ReportHerbSafety
+from backend.core.texts import tr
+
 HERB_SECTIONS = frozenset({"uz_intern", "uz_extern", "alte_recomandari", "atentionari"})
+# Only the products recommended for use get their database safety messages in the report.
+SAFETY_SOURCE_SECTIONS = ("uz_intern", "uz_extern")
 BENEFIT_COUNT = "_herb_benefit_count"
 
 
@@ -78,3 +84,39 @@ def attach_herb_benefit_counts(
         else items
         for key, items in sections.items()
     }
+
+
+def safety_labels(sections: Mapping[str, list[dict[str, Any]]]) -> list[str]:
+    return list(
+        dict.fromkeys(
+            label
+            for key in SAFETY_SOURCE_SECTIONS
+            for item in sections.get(key, [])
+            if (label := split_recommendation(item["text"])[0])
+        )
+    )
+
+
+def _alphabetic_key(title: str) -> str:
+    decomposed = unicodedata.normalize("NFKD", title)
+    return "".join(char for char in decomposed if not unicodedata.combining(char)).casefold()
+
+
+# The warnings section is alphabetical by title: the delimited label or, without one, the
+# first sentence, which is also what the PDF shows as the item title.
+def warning_sort_key(item: dict[str, Any] | ReportHerbSafety) -> str:
+    if isinstance(item, ReportHerbSafety):
+        return _alphabetic_key(item.title)
+    label, description = split_recommendation(item["text"])
+    return _alphabetic_key(label or re.split(r"(?<=[.!?])\s+", description, maxsplit=1)[0])
+
+
+def warning_entries(
+    items: Sequence[dict[str, Any]], herb_safety: Sequence[ReportHerbSafety]
+) -> list[dict[str, Any] | ReportHerbSafety]:
+    """Model warnings and database products as one alphabetical list; ties keep model first."""
+    return sorted([*items, *herb_safety], key=warning_sort_key)
+
+
+def safety_message_text(kind: HerbSafetyKind, message: str) -> str:
+    return f"{tr(f'report.herb_safety_{kind}_prefix')}: {message}"

@@ -94,7 +94,11 @@ export function useReportGeneration(
       if (jobs.filter((item) => item.searchId === job.searchId).at(-1)?.jobId !== job.jobId) return;
       if (job.partial) setBanner(tr("common.partial_report_notice"));
       if (job.state !== "succeeded") setFeedback((old) => ({ ...old, [job.searchId]: { message: job.message ?? tr("interface.generation_failed") } }));
-      else setFeedback((old) => { if (!old[job.searchId]) return old; const next = { ...old }; delete next[job.searchId]; return next; });
+      else {
+        setFeedback((old) => { if (!old[job.searchId]) return old; const next = { ...old }; delete next[job.searchId]; return next; });
+        // The panel shows the model of the last published report.
+        void client.invalidateQueries({ queryKey: ["report-models"] });
+      }
       // Read canonical history, never append a terminal result more than once.
       void api.getSession().then((fresh) => client.setQueryData(SESSION_KEY, fresh)).catch((error: unknown) => {
         setBanner(errorMessage(error, tr("interface.generation_sync_failed")));

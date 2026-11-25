@@ -3655,3 +3655,55 @@ description: chronological action log per session, consolidated weekly
 | 08:18 | Edited src/frontend/App.tsx | CSS: documents, conditions, herbs | ~138 |
 <!-- session:MGM1NmI1OGMtMzM1Zi00ZDc3LWJiNTctZjU4MzYzZTZmNzU0 -->
 | 2026-11-25T06:21:03.305Z | Hero greens deepened to forest tones; Sources note shows document/condition/product counts from /api/categories (conditionCount, herbCount via COUNT(*)); new text key app_data_usage_sources_counts_text; data usage title renamed; category summary title uses nature-primary. Local Vite reads texts from the deployed backend, so a new text key blanks the page until the container is rebuilt. | src/frontend/styles.css,src/backend/web/main.py,src/backend/resources/texts.ro.toml,src/backend/resources/texts.en.toml,src/backend/core/text_contract.py,src/frontend/lib/texts.generated.ts,src/frontend/App.tsx,src/frontend/hooks/useCategories.ts,src/frontend/api/types.ts | ruff, tsc, selected backend tests and 58 frontend tests pass; counts not seen in browser; container rebuild pending (user) |
+
+## Session: 2026-11-25 08:36
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 08:48 | Created aiPlans/plan-siguranta-herbs-in-raport.md | — | ~2911 |
+| 08:52 | Edited aiPlans/plan-siguranta-herbs-in-raport.md | chat() → toare() | ~201 |
+| 08:52 | Edited aiPlans/plan-siguranta-herbs-in-raport.md | 1→5 lines | ~138 |
+| 08:52 | Edited aiPlans/plan-siguranta-herbs-in-raport.md | 15→12 lines | ~106 |
+| 08:52 | Edited aiPlans/plan-siguranta-herbs-in-raport.md | 10→12 lines | ~231 |
+| 08:52 | Edited aiPlans/plan-siguranta-herbs-in-raport.md | 3→5 lines | ~97 |
+| 08:52 | Edited aiPlans/plan-siguranta-herbs-in-raport.md | 2→3 lines | ~65 |
+| 09:09 | Edited src/backend/core/contracts.py | expanded (+14 lines) | ~167 |
+| 09:12 | Edited src/backend/reporting/chat.py | 2→3 lines | ~29 |
+| 09:12 | Edited src/backend/reporting/chat.py | modified not() | ~313 |
+| 09:12 | Edited src/backend/reporting/chat.py | added 1 import(s) | ~29 |
+| 09:12 | Edited src/backend/reporting/chat.py | 2→2 lines | ~20 |
+| 09:12 | Edited src/backend/reporting/chat.py | added 1 import(s) | ~34 |
+| 09:13 | Edited src/backend/core/conversation.py | 3→4 lines | ~28 |
+| 09:13 | Edited src/backend/core/conversation.py | added 1 import(s) | ~34 |
+| 09:13 | Edited src/backend/core/conversation.py | 2→4 lines | ~81 |
+| 09:13 | Edited src/backend/core/conversation.py | expanded (+6 lines) | ~153 |
+| 09:13 | Edited src/backend/core/conversation.py | 5→6 lines | ~67 |
+| 09:13 | Edited src/backend/web/main.py | 2→4 lines | ~70 |
+| 09:13 | Edited src/backend/web/main.py | 1→5 lines | ~36 |
+| 09:13 | Edited src/backend/web/dependencies.py | 1→2 lines | ~32 |
+| 09:13 | Edited src/backend/web/dependencies.py | 2→3 lines | ~21 |
+| 09:19 | Edited src/tests/unit/reporting/test_assets.py | modified B6() | ~125 |
+| 09:25 | Edited src/backend/reporting/service.py | 4→5 lines | ~37 |
+| 09:25 | Edited src/backend/reporting/service.py | 2→3 lines | ~33 |
+| 09:25 | Edited src/backend/reporting/service.py | added 1 import(s) | ~18 |
+| 09:25 | Edited src/backend/reporting/service.py | added 1 import(s) | ~32 |
+| 09:25 | Edited src/tests/unit/web/test_web.py | modified index() | ~194 |
+<!-- session:NWZmOTYyM2ItNzZmYS00MjFiLWI4YjYtZmEyY2JkMjNkZDIy -->
+| 2026-11-25T07:33:59.272Z | Report section 5 now lists DB herb safety messages (one bullet per product from uz_intern/uz_extern labels, type prefix), no chips, alphabetical, same snapshot in chat and PDF | src/backend/ai/herb_safety.py,src/backend/reporting/*.py,src/backend/core/conversation.py,src/backend/core/contracts.py,src/backend/web/main.py,src/backend/web/dependencies.py | ruff, mypy, 684 unit tests pass; not run against real DB |
+| 11:05 | Edited src/backend/reporting/chat.py | modified not() | ~170 |
+| 11:05 | Edited src/backend/reporting/chat.py | 4→5 lines | ~68 |
+| 11:05 | Edited src/backend/reporting/chat.py | 3→4 lines | ~39 |
+| 11:05 | Edited src/tests/unit/web/test_web.py | modified index() | ~93 |
+
+## Session: 2026-11-25 11:18
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 11:21 | Created aiPlans/2026-11-25-ultimul-model-raport-in-panou.md | — | ~1636 |
+| 11:21 | Edited aiPlans/2026-11-25-ultimul-model-raport-in-panou.md | 3→3 lines | ~70 |
+| 11:21 | Edited aiPlans/2026-11-25-ultimul-model-raport-in-panou.md | 5→6 lines | ~70 |
+| 11:21 | Edited aiPlans/2026-11-25-ultimul-model-raport-in-panou.md | 5→7 lines | ~125 |
+| 11:21 | Edited aiPlans/2026-11-25-ultimul-model-raport-in-panou.md | panou() → selector() | ~71 |
+<!-- session:MTYwNTI4OTEtYTUwNS00NjI3LTkxYzctMTk0ZjAyZDQzM2Iy -->
+| 2026-11-25T09:27:13.524Z | Last published report model kept in ReportGenerationService memory, sent as lastReportModel in /api/report-models (admin), shown in GeneratePanel under characters | src/backend/core/report_generation.py,src/backend/web/main.py,src/frontend/components/GeneratePanel.tsx,src/frontend/api/types.ts,src/frontend/hooks/useConversation.ts,src/frontend/hooks/useReportGeneration.ts | frontend typecheck and vitest pass; python checks running |
+| 11:30 | Edited aiPlans/2026-11-25-ultimul-model-raport-in-panou.md | 1→2 lines | ~51 |

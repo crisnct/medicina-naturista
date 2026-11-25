@@ -11443,6 +11443,42 @@
       "last_seen": "2026-11-25T06:17:20.543Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: str should be herb_safety",
+      "file": "src/backend/reporting/chat.py",
+      "root_cause": "Used \"str\" instead of \"herb_safety\"",
+      "fix": "Changed str → herb_safety",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-637",
+      "timestamp": "2026-11-25T07:12:04.659Z",
+      "last_seen": "2026-11-25T07:12:04.659Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: LookupHerb should be LoadReportHerbSafety",
+      "file": "src/backend/web/dependencies.py",
+      "root_cause": "Used \"LookupHerb\" instead of \"LoadReportHerbSafety\"",
+      "fix": "Changed LookupHerb → LoadReportHerbSafety",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-638",
+      "timestamp": "2026-11-25T07:13:55.049Z",
+      "last_seen": "2026-11-25T07:13:55.049Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12128,7 +12164,9 @@
     "7e95413a-c95c-4bf0-ae1f-2157743a4e15": true,
     "33103a31-0ef7-4377-9ccf-229a131ae5e5": true,
     "7260a65e-30b0-4d0e-aad2-0db74b263c62": true,
-    "0fbf60c5-03f3-4bc0-8e2e-5a6ee3df9d87": true
+    "0fbf60c5-03f3-4bc0-8e2e-5a6ee3df9d87": true,
+    "29c52347-70cf-419d-9606-e1718074e772": true,
+    "d51acbf2-3818-4ae8-9e69-78bf98ac851d": true
   },
-  "next_id": 637
+  "next_id": 639
 }

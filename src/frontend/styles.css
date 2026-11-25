@@ -1417,6 +1417,10 @@ button:disabled { cursor: not-allowed; }
 .generate-report-status .eligible-count { line-height: 1.35; }
 .generate-report-status .generate-recipe-warning { margin: 2px 0; line-height: 1.35; }
 .generate-report-row .generate-inline { flex-shrink: 0; align-self: center; }
+/* The button and, under it, the model of the last report, both on the button's left edge. */
+.generate-report-action { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; flex-shrink: 0; }
+.generate-report-action .generate-inline { align-self: flex-start; }
+.generate-last-report { margin: 0; line-height: 1.35; }
 .eligible-count { margin: 0; font-weight: 400; }
 .report-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .report-actions > * { flex: 1 1 220px; text-align: center; }

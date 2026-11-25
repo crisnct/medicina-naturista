@@ -28,7 +28,11 @@ from backend.ai.herb_evidence import lookup_herb_evidence
 from backend.ai.herb_images import lookup_herb_image
 from backend.ai.herb_ranking import list_top_herbs, list_top_herbs_for_condition
 from backend.ai.herb_ranking import warm_up as warm_up_herbs
-from backend.ai.herb_safety import lookup_herb_safety, lookup_herb_safety_evidence
+from backend.ai.herb_safety import (
+    load_report_herb_safety,
+    lookup_herb_safety,
+    lookup_herb_safety_evidence,
+)
 from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
 from backend.ai.message_classification import MessageClassifier
@@ -646,6 +650,8 @@ def _conversation(
         recommend_report_thinking=deps.recommend_report_thinking,
         top_herbs_for_condition=deps.top_herbs_for_condition
         or partial(list_top_herbs_for_condition, settings=deps.settings),
+        report_herb_safety=deps.report_herb_safety
+        or partial(load_report_herb_safety, settings=deps.settings),
         report_batch_max_tokens=batch_max_tokens,
         report_batch_workers=batch_workers,
         report_max_output_tokens=max_output_tokens,
@@ -864,6 +870,9 @@ def report_models(request: Request):
             "lowOutput": LOW_REPORT_OUTPUT_TOKENS,
             "thinkingContextDivisor": REPORT_THINKING_CONTEXT_DIVISOR,
         }
+        service = getattr(request.app.state, "report_generation", None)
+        last_report = service.last_report if service is not None else None
+        response["lastReportModel"] = last_report.as_dict() if last_report else None
     return response
 
 

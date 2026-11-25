@@ -166,8 +166,22 @@ class EmailProtocol(Protocol):
     def __call__(self, problem: str, pdf_bytes: bytes, filename: str, to_address: str) -> str: ...
 
 
+HerbSafetyKind = Literal["warning", "contraindication", "interaction"]
+
+
+# One catalog product's published safety messages, read once per report so that the chat
+# text and the PDF show the same snapshot.
+@dataclass(frozen=True)
+class ReportHerbSafety:
+    title: str
+    messages: tuple[tuple[HerbSafetyKind, str], ...]
+
+
 IdentifyCondition = Callable[["ResolvedQuery"], "AIConditionResult"]
-RenderPDF = Callable[[ProfilePayload, "ValidatedReport", Evidence, float], bytes]
+RenderPDF = Callable[
+    [ProfilePayload, "ValidatedReport", Evidence, float, tuple[ReportHerbSafety, ...]], bytes
+]
+LoadReportHerbSafety = Callable[[list[str]], tuple[ReportHerbSafety, ...]]
 ClassifyMessage = Callable[[str, dict[str, object]], "MessageClassification"]
 RecordReportMetrics = Callable[["ReportMetrics"], int]
 RecordReportBatchUsage = Callable[

@@ -43,6 +43,11 @@ const TOKEN_LABELS = {
 type TokenField = keyof typeof TOKEN_LABELS;
 const TOKEN_FIELDS = Object.keys(TOKEN_LABELS) as TokenField[];
 
+// A model this build does not know shows its raw catalog key.
+function lastReportLabel(model: string): string {
+  return model in MODEL_LABELS ? tr(MODEL_LABELS[model as ReportModel]) : model;
+}
+
 export function GeneratePanel({
   message,
   fragments,
@@ -98,6 +103,7 @@ export function GeneratePanel({
   const effort = typedEffort?.model === selectedModel
     ? typedEffort.value : reportModelDetails?.defaultEfforts[selectedModel] ?? "low";
   const contextTokens = reportModelDetails?.contextTokens[selectedModel];
+  const lastReport = reportModelDetails?.lastReportModel;
   const effortSupported = effortReportModels.includes(selectedModel);
   // Only the admin sees the limits, so only then is a recommendation needed.
   const recommendation = useOutputRecommendation(
@@ -296,28 +302,36 @@ export function GeneratePanel({
               valid={!showLimits || tokensValid}
             />
           </div>
-          <button
-            type="button"
-            className={`generate-inline${message.busy ? " is-preparing" : ""}`}
-            disabled={disabled}
-            aria-disabled={disabled}
-            onClick={() => {
-              const limits = showLimits ? limitsCheck?.limits : undefined;
-              if (!limits || workers === null) return onGenerate(message.searchId, minScore, selectedModel, effort);
-              onGenerate(message.searchId, minScore, selectedModel, effort, { ...limits, batchWorkers: workers });
-            }}
-          >
-            {message.busy ? tr("interface.generate_preparing") : (
-              <>
-                <svg className="generate-report-icon" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
-                  <path d="M12 2H5a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7Z" fill="currentColor" fillOpacity="0.15" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
-                  <path d="M12 2v5h5M7 11h6M7 15h4M7 19h4" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="m19 10 1 3 3 1-3 1-1 3-1-3-3-1 3-1Z" fill="currentColor" stroke="currentColor" strokeWidth="1" strokeLinejoin="round" />
-                </svg>
-                <span>{tr("interface.generate_submit")}</span>
-              </>
+          <div className="generate-report-action">
+            <button
+              type="button"
+              className={`generate-inline${message.busy ? " is-preparing" : ""}`}
+              disabled={disabled}
+              aria-disabled={disabled}
+              onClick={() => {
+                const limits = showLimits ? limitsCheck?.limits : undefined;
+                if (!limits || workers === null) return onGenerate(message.searchId, minScore, selectedModel, effort);
+                onGenerate(message.searchId, minScore, selectedModel, effort, { ...limits, batchWorkers: workers });
+              }}
+            >
+              {message.busy ? tr("interface.generate_preparing") : (
+                <>
+                  <svg className="generate-report-icon" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
+                    <path d="M12 2H5a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7Z" fill="currentColor" fillOpacity="0.15" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
+                    <path d="M12 2v5h5M7 11h6M7 15h4M7 19h4" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="m19 10 1 3 3 1-3 1-1 3-1-3-3-1 3-1Z" fill="currentColor" stroke="currentColor" strokeWidth="1" strokeLinejoin="round" />
+                  </svg>
+                  <span>{tr("interface.generate_submit")}</span>
+                </>
+              )}
+            </button>
+            {lastReport && (
+              <p className="eligible-count generate-last-report">
+                {tr("interface.generate_last_report_prefix")}<strong>{lastReportLabel(lastReport.model)}</strong>
+                {lastReport.effort && tr("interface.generate_last_report_effort", { effort: tr(EFFORT_LABELS[lastReport.effort]) })}
+              </p>
             )}
-          </button>
+          </div>
         </div>
       </div>
       {(message.busy || feedback?.completed || hasPreview || hasBatchPlan) && (

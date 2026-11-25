@@ -13,6 +13,7 @@ from backend.core.contracts import (
     IdentifyCondition,
     ListTopHerbs,
     ListTopHerbsForCondition,
+    LoadReportHerbSafety,
     LookupHerb,
     LookupHerbEvidence,
     LookupHerbImage,
@@ -59,3 +60,4 @@ class Dependencies:
     herb_safety: LookupHerbSafety | None = None
     herb_safety_evidence: LookupHerbSafetyEvidence | None = None
     model_runtime: ReportModelRuntime | None = None
+    report_herb_safety: LoadReportHerbSafety | None = None

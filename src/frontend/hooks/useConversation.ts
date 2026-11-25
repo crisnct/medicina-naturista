@@ -175,6 +175,7 @@ export function useConversation() {
     contextTokens: reportModelsQuery.data?.contextTokens ?? {},
     parallelContextTokens: reportModelsQuery.data?.parallelContextTokens ?? {},
     defaultEfforts: reportModelsQuery.data?.defaultEfforts ?? {},
+    lastReportModel: reportModelsQuery.data?.lastReportModel,
   };
 
   return {

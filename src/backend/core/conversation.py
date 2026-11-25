@@ -28,6 +28,7 @@ from backend.core.contracts import (
     IdentifyCondition,
     ListTopHerbs,
     ListTopHerbsForCondition,
+    LoadReportHerbSafety,
     LookupHerb,
     RecommendReportOutput,
     RecordReportBatchUsage,
@@ -70,6 +71,7 @@ from backend.reporting.chat import (
     report_filename,
 )
 from backend.reporting.chat import text as text_message
+from backend.reporting.recommendations import safety_labels
 
 logger = logging.getLogger("naturist.conversation")
 
@@ -292,6 +294,8 @@ class ConversationService:
     record_report_batch_usage: RecordReportBatchUsage | None = None
     recommend_report_thinking: RecommendReportOutput | None = None
     top_herbs_for_condition: ListTopHerbsForCondition | None = None
+    # Database safety messages of the recommended products; None leaves them out.
+    report_herb_safety: LoadReportHerbSafety | None = None
     # Admin overrides for this report; None keeps the configured values.
     report_batch_max_tokens: int | None = None
     report_batch_workers: int | None = None
@@ -1242,7 +1246,13 @@ class ConversationService:
                 sections = validate_report(sections, evidence)
             self.store.generation_stage(operation, "rendering_pdf")
             with operation_budget(self.budget(operation)):
-                report = self.pdf(profile, sections, evidence, min_score)
+                # One read shared by the PDF and the chat text, so both show the same messages.
+                herb_safety = (
+                    self.report_herb_safety(safety_labels(sections.section_payload()))
+                    if self.report_herb_safety is not None
+                    else ()
+                )
+                report = self.pdf(profile, sections, evidence, min_score, herb_safety)
             self.store.generation_stage(operation, "publishing")
             self.store.checkpoint(operation)
             report_id = secrets.token_urlsafe(18)
@@ -1256,6 +1266,7 @@ class ConversationService:
                         evidence,
                         elapsed_seconds=elapsed_seconds,
                         ai_model=self.report_model,
+                        herb_safety=herb_safety,
                     ),
                 ),
                 download_message(

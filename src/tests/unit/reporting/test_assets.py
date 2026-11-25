@@ -33,7 +33,13 @@ class ReportingAssetTests(unittest.TestCase):
         for page in PdfReader(BytesIO(report)).pages:
             page.extract_text(visitor_text=collect)
 
-        labels = [font for text, font in fragments if text == "● Vitamina B6 (piridoxina):"]
+        # Without chips the label is inline with a colon, except in the warnings section,
+        # which keeps it on its own line.
+        labels = [
+            font
+            for text, font in fragments
+            if text in {"● Vitamina B6 (piridoxina):", "● Vitamina B6 (piridoxina)"}
+        ]
         descriptions = [font for text, font in fragments if text == "Descriere documentată."]
         self.assertEqual(len(labels), 4)
         self.assertEqual(len(descriptions), 4)

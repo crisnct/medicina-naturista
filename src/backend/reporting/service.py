@@ -2,11 +2,13 @@
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from typing import Any
 
 from backend.ai.herb_repository import load_herb_benefit_scores
 from backend.ai.herbs import load_herbs
 from backend.ai.report_validation import ValidatedReport
+from backend.core.contracts import ReportHerbSafety
 from backend.core.language import current_language, language_scope, validate_language
 from backend.reporting.pdf import create_pdf
 from backend.reporting.recommendations import (
@@ -55,6 +57,7 @@ def create_ranked_pdf(
     sections: ValidatedReport | dict[str, list[dict[str, Any]]],
     evidence: dict[str, dict[str, Any]],
     min_score: float = 0,
+    herb_safety: Sequence[ReportHerbSafety] = (),
     *,
     ai_model: str | None = None,
 ) -> bytes:
@@ -69,4 +72,5 @@ def create_ranked_pdf(
             ai_model=ai_model,
             herb_scores=scores,
             product_fragments=product_fragments(payload, evidence),
+            herb_safety=herb_safety,
         )
