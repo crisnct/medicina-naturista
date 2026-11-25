@@ -82,6 +82,7 @@ def _catalog_choice(settings: Settings) -> ReportModel | None:
         "deepseek": settings.deepseek_model,
         "huggingface": settings.hf_model,
         "vllm": settings.vllm_model,
+        "colibri": settings.colibri_model,
     }.get(settings.ai_provider, settings.ollama_model)
     return next(
         (
@@ -96,11 +97,12 @@ def _catalog_choice(settings: Settings) -> ReportModel | None:
 # Generic constructor settings; report choices are resolved by the shared model catalog.
 def provider_config(settings: Settings) -> ProviderConfig:
     choice = _catalog_choice(settings)
+    catalog_timeout = REPORT_MODELS[choice].read_timeout_seconds if choice is not None else None
     common: _GenerationLimits = {
         "max_output_tokens": default_max_output_tokens(settings, choice)
         if choice is not None
         else DEFAULT_REPORT_OUTPUT_TOKENS,
-        "read_timeout_seconds": settings.ai_read_timeout_seconds,
+        "read_timeout_seconds": catalog_timeout or settings.ai_read_timeout_seconds,
         "stream": settings.ai_stream,
         "parallel_context_divisor": parallel_context_divisor(choice) if choice is not None else 1,
     }
@@ -174,6 +176,24 @@ def provider_config(settings: Settings) -> ProviderConfig:
             max_context_chars=0,
             effort_control=vllm_spec.effort_control if vllm_spec else "responses_effort",
             temperature=vllm_spec.temperature if vllm_spec else None,
+            **common,
+        )
+    # Colibri on the Windows host: Chat Completions only (ColibriReportClient in client.py), no
+    # JSON-schema field, and no key on this machine.
+    if settings.ai_provider == "colibri":
+        return ProviderConfig(
+            name="colibri",
+            label="Colibri",
+            base_url=settings.colibri_api_base,
+            model=settings.colibri_model,
+            reasoning_effort=None,
+            api_key=lambda: "",
+            api_key_env="COLIBRI_API_KEY",
+            api_key_required=False,
+            json_format=None,
+            send_store=False,
+            max_context_chars=0,
+            effort_control="responses_effort",
             **common,
         )
     context_tokens = None

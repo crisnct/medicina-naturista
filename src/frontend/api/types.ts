@@ -78,8 +78,8 @@ export interface GenerateMessage extends MessageIdentity {
 }
 
 export type ReportModel = "ollama-gemma4:12b" | "ollama-gemma3:1b" | "ollama-qwen3.5:9b" | "ollama-qwen3.5:4b"
-  | "ollama-ministral-3:8b" | "ollama-deepseek-r1:8b" | "vllm-qwen3.5:4b" | "vllm-qwen2.5:7b" | "deepseek-flash"
-  | "huggingface-deepseek-v4-flash" | "grok-4.3";
+  | "ollama-ministral-3:8b" | "ollama-deepseek-r1:8b" | "vllm-qwen3.5:4b" | "vllm-qwen2.5:7b"
+  | "colibri-qwen3.8-flash-next:125b" | "deepseek-flash" | "huggingface-deepseek-v4-flash" | "grok-4.3";
 
 export type ReportEffort = "low" | "medium" | "high";
 
@@ -310,6 +310,22 @@ export interface ReportBatchPreview {
   averageTokensPerSecond?: number | null;
 }
 
+// The memory test before a Colibri server starts: "blocking" cannot start, "warning" starts slower.
+export interface ResourceCheck {
+  level: "ok" | "warning" | "blocking";
+  ramAvailableGb?: number | null;
+  ramMinimumGb?: number | null;
+  ramRecommendedGb: number;
+  vramFreeGb?: number | null;
+  vramRecommendedGb: number;
+  planValid: boolean;
+  planWarnings: string[];
+  expertsPerLayer?: number | null;
+  expertResidencyPct?: number | null;
+}
+
+export type ResourceDecision = "continue" | "retry";
+
 export interface ReportGeneration {
   language?: "ro" | "en";
   jobId: string;
@@ -341,6 +357,7 @@ export interface ReportGeneration {
   streamTokensPerSecond?: number | null;
   thinkingTokensPerSecond?: number | null;
   aiActivity?: AIActivity | null;
+  resourceCheck?: ResourceCheck | null;
 }
 
 export interface CategoriesResponse {

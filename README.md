@@ -837,13 +837,38 @@ After changing `.env`, recreate only the application with `docker compose up -d 
 
 ### vLLM report models
 
-`docker compose up` starts no vLLM server. The `create` step above only creates the report containers (`vllm-qwen35`, `vllm-qwen25`); repeat it after changing those services. A report with a vLLM model starts that model's container, waits until `/v1/models` lists the model (the browser shows a warm-up dialog meanwhile) and then sends the requests. The server stays up until a report needs the GPU for another model: an Ollama report, or the other vLLM model, stops it first. When an Ollama report uses a different model from the previous local report, its first step is to unload the other Ollama models from the GPU, so a model left over from an earlier report does not hold VRAM; repeating the same model releases nothing. Before a vLLM container starts, the supervisor unloads the Ollama models itself (see below). The previous model is remembered in memory only, so the first local report after an app restart releases once. Reports with DeepSeek, xAI or Hugging Face leave the GPU untouched. To free the GPU by hand (reindexing, translation, large Ollama models):
+`docker compose up` starts no vLLM server. The `create` step above only creates the report containers (`vllm-qwen35`, `vllm-qwen25`); repeat it after changing those services. A report with a vLLM model starts that model's container, waits until `/v1/models` lists the model (the browser shows a warm-up dialog meanwhile) and then sends the requests. The server stays up until a report needs the GPU for another model: an Ollama report, or the other vLLM model, stops it first. When an Ollama report uses a different model from the previous local report, its first step is to unload the other Ollama models from the GPU, so a model left over from an earlier report does not hold VRAM; repeating the same model releases nothing. Before a vLLM container starts, the supervisor unloads the Ollama models itself (see below). The previous model is remembered in memory only, so the first local report after an app restart releases once. Reports with DeepSeek, xAI or Hugging Face leave the vLLM and Ollama models untouched (they do stop Colibri, see below). To free the GPU by hand (reindexing, translation, large Ollama models):
 
 ```powershell
 docker compose --profile vllm-report stop vllm-qwen35 vllm-qwen25
 ```
 
 `vllm-supervisor` is the only container with the Docker socket, which is root-equivalent on the host. It can start and stop only the two vLLM report servers and `vllm-embed`, refuses to start one while another (or `vllm-translate`) is running, and before every start unloads the host Ollama models that hold GPU memory (`size_vram > 0` in `/api/ps`; the CPU question model stays). If they are still loaded after 30 s, it refuses the start with `OLLAMA_GPU_BUSY` (shown to a report as `VLLM_GPU_BUSY`); an Ollama that does not answer is skipped. It reads the address from `OLLAMA_API_BASE` and acts only on a local one. Only the application can reach it, plus the index build on the host through its loopback port `VLLM_SUPERVISOR_HOST_PORT`, which starts and stops `vllm-embed` that way. Set `MODEL_SUPERVISOR_URL` empty to manage the servers by hand.
+
+### Colibri report model
+
+`colibri-qwen3.8-flash-next:125b` is Qwen3.8-Flash-Next (125B MoE, unsloth UD-Q2_0, 70.5 GB) served by [Colibri](https://github.com/JustVugg/colibri) natively on the Windows host, not in Docker: its routed experts stream from the NVMe disk, so only part of the model sits in RAM and VRAM. Measured on this machine (32 GB RAM, RTX 3500 Ada 12 GB): ~10-12 tok/s to read a prompt and ~4 tok/s to write, very good Romanian ([aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md](aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md)). A batch has at most 16,000 input tokens, 10,000 output tokens and 3,000 thinking tokens (it fits the 32k context), the batches run one after another, and one request may take up to 3,600 s.
+
+Setup, once:
+
+1. Colibri v2.2.0 (the Windows archive plus the CUDA archive, unpacked into one folder) in `C:\Colibri\colibri-v2.2.0`, and the model imported with `coli.cmd import` (link mode) into `C:\Colibri\Models\Qwen3.8-Flash-Next-GGUF\UD-Q2_0\Qwen3.8-Flash-Next-UD-Q2_0.colibri`.
+2. The host agent, started at every logon by a Task Scheduler task (`medicina-colibri-agent`, no administrator rights):
+
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File src\scripts\colibri_agent_startup.ps1
+   ```
+
+   `-Remove` deletes the task. The agent (`src/scripts/colibri_host_agent.py`, system Python, standard library only) listens on `127.0.0.1:8011` and loads no model: it measures the free RAM and VRAM, runs `coli plan` and starts or stops `coli serve` (port 8010) when the app asks. Its log is `C:\Colibri\agent.log`, the server's `C:\Colibri\serve.log`. The project's `.venv` Python cannot write under `C:\Colibri`; the system Python can. The agent always starts the server with `OMP_NUM_THREADS=23` (24 physical cores less one; `--threads N` through `-AgentArguments` overrides it, `--threads 0` keeps Colibri's default, 12 threads here), because Qwen3.8 reads the prompt on the CPU. It also passes `--cap 110` (110 expert slots per layer in RAM, ~9 GB; `--cap N` overrides it, `--cap 0` lets Colibri's planner choose): the planner chose 42 with ~14 GB available, and a 1k-token prompt then gave no token in 12 minutes, while 100 read it in 105 s. It also sets `Q38_PREFIX_DISK=1` with `Q38_PREFIX_DIR=C:\Colibri\prefix-cache` (`--prefix-dir`), so the prompts Colibri has read, the report's ~3,000-token system prompt above all, are kept on disk (up to 4 GB) and reused after a restart.
+3. `colibri-qwen3.8-flash-next:125b` in `REPORT_GENERATION_MODELS` and its limits in `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`. Compose passes `COLIBRI_API_BASE` (default `http://host.docker.internal:8010/v1`) and `COLIBRI_AGENT_URL` (default `http://host.docker.internal:8011`; empty disables the Colibri model).
+
+A report with Colibri, when the server is not already answering:
+
+1. **Stopping:** every vLLM report container stops, and the agent closes Ollama entirely (its server, its model runners and the tray app hold RAM; the question embedder alone takes ~4.5 GB). This happens before every Colibri report, even with Colibri already loaded, because a search since the last report may have loaded the embedder again. While the report runs, semantic search answers `SEMANTIC_MODEL_UNAVAILABLE` and message classification uses its fallback. When the job ends (published, failed or cancelled), the app asks the agent to start Ollama again, through its tray app, if it was running before. Without the agent the app only unloads the Ollama models.
+2. **Checking:** the agent measures the available RAM and the free VRAM and runs `coli plan` at the 32k context.
+3. **Decision:** if the planner refuses (the RAM cannot hold one expert slot per layer, roughly below 11-12 GB available), the dialog shows the figures with **Retry** (measure again after closing applications) and **Give up**. If the plan is valid but the RAM is below 15 GB or the VRAM below 10 GB, it warns that the report will run slower, with **Continue** and **Give up**. Above both, it continues without asking. Without an answer within 10 minutes the job fails with `COLIBRI_RESOURCES_TIMEOUT`.
+4. **Warming:** the agent starts `coli serve`, and the report starts once `/v1/models` lists `qwen3.8-flash-next-colibri`.
+
+Colibri then stays loaded until a report with **any other model**, a cloud one included: that report first asks the agent to stop it. A search that runs while Colibri is loaded reloads the question embedder next to it, which can slow both. If the agent does not answer, a Colibri report ends with `COLIBRI_AGENT_UNAVAILABLE`, and reports with other models run normally.
 
 ### Publishing through Tailscale Funnel
 
@@ -1105,11 +1130,12 @@ The chat confirmation (“The report is ready and was generated in …”) names
 | `ollama-gemma3:1b`, `ollama-gemma4:12b`, `ollama-ministral-3:8b`, `ollama-qwen3.5:9b`, `ollama-qwen3.5:4b`, `ollama-deepseek-r1:8b` | Local Ollama | the tag after `ollama-` |
 | `vllm-qwen3.5:4b` | Local vLLM | `qwen3.5-4b` (`Qwen/Qwen3.5-4B`) |
 | `vllm-qwen2.5:7b` | Local vLLM | `qwen2.5-7b` (`Qwen/Qwen2.5-7B-Instruct-AWQ`, 4-bit) |
+| `colibri-qwen3.8-flash-next:125b` | Local Colibri (Windows host) | `qwen3.8-flash-next-colibri` (Qwen3.8-Flash-Next UD-Q2_0) |
 | `deepseek-flash` | DeepSeek | `deepseek-flash` |
 | `huggingface-deepseek-v4-flash` | Hugging Face / DeepInfra | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` |
 | `grok-4.3` | xAI | `grok-4.3` |
 
-The two vLLM options are not in the default list; add them to `REPORT_GENERATION_MODELS` (and their limits to `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`). Clients are built only for configured models.
+The two vLLM options and the Colibri one are not in the default list; add them to `REPORT_GENERATION_MODELS` (and their limits to `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL`). Clients are built only for configured models.
 
 ### Local models
 

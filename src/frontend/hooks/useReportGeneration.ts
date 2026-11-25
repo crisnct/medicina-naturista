@@ -3,15 +3,17 @@ import { useEffect, useRef, type Dispatch, type SetStateAction } from "react";
 import { useMutation, useQueries, useQueryClient } from "@tanstack/react-query";
 import { api, ApiError, errorMessage, isSessionUnavailable } from "../api/client";
 import type { GenerationLimits, ReportEffort, ReportGeneration, ReportModel, SessionResponse } from "../api/types";
-import type { GenerationFeedback } from "../lib/generationFeedback";
-import { AI_ACTIVITY_LABELS } from "../lib/generationFeedback";
+import type { GenerationFeedback, ModelStage } from "../lib/generationFeedback";
+import { AI_ACTIVITY_LABELS, MODEL_STAGES } from "../lib/generationFeedback";
 
 const SESSION_KEY = ["session"] as const;
 export const activeGeneration = (job: ReportGeneration) => job.state === "accepted" || job.state === "running";
 const observingGeneration = (job: ReportGeneration) => activeGeneration(job) || job.workerActive === true;
 const stages: Record<string, string> = {
   get queued() { return tr("interface.generation_queued_stage"); },
-  get stopping_model() { return tr("interface.generation_stopping_model_stage"); }, get warming_model() { return tr("interface.generation_warming_model_stage"); },
+  get stopping_model() { return tr("interface.generation_stopping_model_stage"); },
+  get checking_resources() { return tr("interface.generation_checking_resources_stage"); }, get awaiting_resources() { return tr("interface.generation_awaiting_resources_stage"); },
+  get warming_model() { return tr("interface.generation_warming_model_stage"); },
   get preparing() { return tr("interface.generation_prepare_stage"); }, get generating() { return tr("interface.generation_write_stage"); }, get validating() { return tr("interface.generation_validate_stage"); },
   get rendering_pdf() { return tr("interface.generation_pdf_stage"); }, get publishing() { return tr("interface.generation_publish_stage"); },
 };
@@ -66,6 +68,12 @@ export function useReportGeneration(
     mutationFn: api.cancelGeneration,
     onSuccess: (job) => { client.setQueryData(["report-generation", job.jobId], job); update(job); },
     onError: (error) => setBanner(errorMessage(error, tr("interface.generation_cancel_failed"))),
+  });
+
+  const decide = useMutation({
+    mutationFn: api.decideResources,
+    onSuccess: (job) => { client.setQueryData(["report-generation", job.jobId], job); update(job); },
+    onError: (error) => setBanner(errorMessage(error, tr("interface.colibri_resources_decision_failed"))),
   });
 
   const observed = queries.map((query, index) => currentGeneration(jobs[index], query.data));
@@ -167,7 +175,11 @@ export function useReportGeneration(
       generationId: job.jobId,
       generationStartedAt: job.startedAt,
       waitingInQueue: job.state === "accepted" || job.stage === "queued",
-      modelStage: activeGeneration(job) && (job.stage === "stopping_model" || job.stage === "warming_model") ? job.stage : undefined,
+      modelStage: activeGeneration(job) && MODEL_STAGES.includes(job.stage) ? job.stage as ModelStage : undefined,
+      resourceCheck: activeGeneration(job) && job.stage === "awaiting_resources" ? job.resourceCheck : undefined,
+      decideResources: activeGeneration(job) && job.stage === "awaiting_resources"
+        ? (decision) => decide.mutate({ jobId: job.jobId, decision }) : undefined,
+      decisionPending: decide.isPending,
       modelName: job.model,
       streamPreview: job.streamPreview,
       reportPreview: job.reportPreview,

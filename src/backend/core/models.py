@@ -310,6 +310,8 @@ class ReportGeneration:
     validation_warnings: list[dict[str, Any]] = field(default_factory=list)
     error_code: str | None = None
     message: str | None = None
+    # The memory test the user must answer before a Colibri server starts; None otherwise.
+    resource_check: dict[str, Any] | None = None
 
     stream_parts: list[str] = field(default_factory=list, repr=False)
     stream_bytes: int = 0
@@ -378,6 +380,7 @@ class ReportGeneration:
             "validationWarnings": self.validation_warnings,
             "errorCode": self.error_code,
             "message": self.message,
+            "resourceCheck": self.resource_check,
             "pollAfterMs": 3000,
             "reportPreview": self.report_preview,
             "previewVersion": self.preview_version,

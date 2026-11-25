@@ -3707,3 +3707,53 @@ description: chronological action log per session, consolidated weekly
 <!-- session:MTYwNTI4OTEtYTUwNS00NjI3LTkxYzctMTk0ZjAyZDQzM2Iy -->
 | 2026-11-25T09:27:13.524Z | Last published report model kept in ReportGenerationService memory, sent as lastReportModel in /api/report-models (admin), shown in GeneratePanel under characters | src/backend/core/report_generation.py,src/backend/web/main.py,src/frontend/components/GeneratePanel.tsx,src/frontend/api/types.ts,src/frontend/hooks/useConversation.ts,src/frontend/hooks/useReportGeneration.ts | frontend typecheck and vitest pass; python checks running |
 | 11:30 | Edited aiPlans/2026-11-25-ultimul-model-raport-in-panou.md | 1→2 lines | ~51 |
+
+## Session: 2026-11-25 11:42
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 12:10 | Created aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | — | ~2038 |
+| 12:10 | Created aiWork/colibri_bench.py | — | ~1648 |
+| 12:57 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | 1→3 lines | ~68 |
+| 12:57 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | modified decis() | ~960 |
+<!-- session:YWI3NjFlMWItMzg3My00MDY4LTkzMjItNTc1MTM5MTViNDk5 -->
+| 2026-11-25T10:58:05.559Z | Colibri research + install: Qwen3.8-Flash-Next UD-Q2_0 chosen, Colibri v2.2.0 CUDA in C:\Colibri, integration plan written, speed measured (~4 tok/s decode, ~10 tok/s prompt, Romanian very good) | aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md,aiWork/colibri_bench.py | benchmark ran 5 times; no app code changed; vLLM restarted, Ollama left for user |
+| 13:08 | Created aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | — | ~4540 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | 1→2 lines | ~37 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | inline fix | ~22 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | modified Colibri() | ~138 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | expanded (+6 lines) | ~158 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | modified automata() | ~125 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | cloud() → azi() | ~87 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | 1→2 lines | ~46 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | 4→4 lines | ~82 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | modified model() | ~38 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | 2→2 lines | ~35 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | expanded (+6 lines) | ~146 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | 2→2 lines | ~45 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | 13→9 lines | ~165 |
+| 13:25 | Edited aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md | modified Q3() | ~57 |
+| 13:29 | Created src/scripts/colibri_host_agent.py | — | ~4334 |
+| 13:30 | Edited src/scripts/colibri_host_agent.py | modified _arguments() | ~78 |
+| 13:30 | Edited src/scripts/colibri_host_agent.py | modified main() | ~147 |
+| 13:30 | Created src/scripts/colibri_agent_startup.ps1 | — | ~622 |
+| 13:34 | Edited src/backend/core/contracts.py | modified __call__() | ~373 |
+| 13:34 | Edited src/backend/core/models.py | 4→6 lines | ~79 |
+| 13:34 | Edited src/backend/core/models.py | 3→4 lines | ~46 |
+| 13:34 | Edited src/backend/core/sessions.py | modified generation_resource_check() | ~297 |
+| 13:40 | Created src/frontend/components/ModelWarmupDialog.tsx | — | ~1798 |
+| 13:40 | Edited src/frontend/styles.css | expanded (+6 lines) | ~170 |
+| 13:40 | Edited docker-compose.yaml | 2→6 lines | ~132 |
+| 13:42 | Edited AGENTS.md | expanded (+6 lines) | ~205 |
+<!-- session:YWI3NjFlMWItMzg3My00MDY4LTkzMjItNTc1MTM5MTViNDk5 -->
+| 2026-11-25T11:47:38.849Z | Implemented Colibri report model colibri-qwen3.8-flash-next:125b: host agent + logon task, provider/client, runtime unload + RAM/VRAM check + user decision (awaiting_resources), decision route, dialog, texts, .env/compose/README/AGENTS | src/scripts/colibri_host_agent.py,src/scripts/colibri_agent_startup.ps1,src/backend/ai/model_runtime.py,src/backend/core/report_generation.py,src/backend/ai/client.py,src/backend/ai/providers.py,src/backend/config.py,src/backend/core/report_models.py,src/frontend/components/ModelWarmupDialog.tsx | ruff/mypy/453 unit/58 frontend tests pass; agent reachable from container; full UI report not run (container not rebuilt) |
+| 14:01 | Edited src/scripts/colibri_host_agent.py | 4→8 lines | ~118 |
+| 14:58 | Edited src/scripts/colibri_host_agent.py | modified _server_environment() | ~182 |
+| 15:02 | Edited src/scripts/colibri_host_agent.py | 1→4 lines | ~75 |
+| 15:30 | Session end: 32 writes across 9 files (plan-siguranta-herbs-in-raport.md, contracts.py, chat.py, conversation.py, main.py) | 7 reads | ~10103 tok |
+| 15:30 | Session end: 6 writes across 1 files (2026-11-25-ultimul-model-raport-in-panou.md) | 1 reads | ~2166 tok |
+
+## Session: 2026-11-25 15:35
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|

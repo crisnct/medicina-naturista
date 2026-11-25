@@ -15,12 +15,14 @@ ReportModel = Literal[
     "ollama-deepseek-r1:8b",
     "vllm-qwen3.5:4b",
     "vllm-qwen2.5:7b",
+    "colibri-qwen3.8-flash-next:125b",
     "deepseek-flash",
     "huggingface-deepseek-v4-flash",
     "grok-4.3",
 ]
-# The default list stays Ollama and cloud only; the local vLLM models are opted into through
-# REPORT_GENERATION_MODELS, because each needs its own GPU server (see docker-compose.yaml).
+# The default list stays Ollama and cloud only; the local vLLM and Colibri models are opted into
+# through REPORT_GENERATION_MODELS, because each needs its own GPU server (see docker-compose.yaml
+# and src/scripts/colibri_host_agent.py).
 DEFAULT_REPORT_MODELS: tuple[ReportModel, ...] = (
     "ollama-gemma3:1b",
     "ollama-gemma4:12b",
@@ -52,6 +54,11 @@ DEFAULT_REPORT_THINKING_TOKENS: Final = 8_000
 REPORT_THINKING_CONTEXT_DIVISOR: Final = 4
 # Upper bound of the parallel batches the admin can type per report; 0 means no parallelism.
 MAX_REPORT_BATCH_WORKERS: Final = 300
+
+# Memory below which a Colibri report asks the user first: with 15.7 GB of RAM available and
+# ~11 GB of VRAM free, Qwen3.8-Flash-Next UD-Q2_0 wrote at 3.7-4.35 tok/s (2026-11-25).
+COLIBRI_RECOMMENDED_RAM_GB: Final = 15.0
+COLIBRI_RECOMMENDED_VRAM_GB: Final = 10.0
 
 # The user-selected depth of AI reasoning; each provider maps it to its own parameter.
 ReportEffort = Literal["low", "medium", "high"]
@@ -87,6 +94,10 @@ class ReportModelSpec:
     repeat_last_n: int | None = None
     # The Compose service that serves a vLLM model; started and stopped on demand.
     vllm_service: str | None = None
+    # Parallel batches when the admin sets none; None keeps REPORT_BATCH_WORKERS (or the vLLM one).
+    batch_workers: int | None = None
+    # The read timeout of one request; None keeps REPORT_GENERATION_READ_TIMEOUT_SECONDS.
+    read_timeout_seconds: int | None = None
 
 
 REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
@@ -139,6 +150,22 @@ REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
             thinking_tokens=0,
             vllm_service="vllm-qwen25",
         ),
+        # Served by Colibri on the Windows host (not in Docker), started and stopped through the
+        # host agent. Its experts stream from disk, so it reads a prompt at ~10 tok/s and writes at
+        # ~4 tok/s (aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md): one process, the
+        # batches one after another, and a 16k + 10k + 3k batch that fits its 32k context. A 16k
+        # prompt needs ~25 minutes before the first token, hence the hour-long read timeout.
+        "colibri-qwen3.8-flash-next:125b": ReportModelSpec(
+            "colibri",
+            "qwen3.8-flash-next-colibri",
+            batch_max_tokens=16_000,
+            context_window=32_768,
+            max_output_tokens=10_000,
+            thinking_tokens=3_000,
+            effort_control="responses_effort",
+            batch_workers=1,
+            read_timeout_seconds=3_600,
+        ),
         "deepseek-flash": ReportModelSpec(
             "deepseek",
             "deepseek-flash",
@@ -172,11 +199,13 @@ def catalog_output_tokens(model: ReportModel) -> int:
 
 
 # The parallel batches of a report when the admin sets no number: the vLLM default for every vLLM
-# model, whatever its catalog entry says, else the configured REPORT_BATCH_WORKERS.
+# model, whatever its catalog entry says, then the catalog's own number, else the configured
+# REPORT_BATCH_WORKERS.
 def default_batch_workers(model: ReportModel, configured: int) -> int:
-    return (
-        DEFAULT_VLLM_REPORT_BATCH_WORKERS if REPORT_MODELS[model].provider == "vllm" else configured
-    )
+    spec = REPORT_MODELS[model]
+    if spec.provider == "vllm":
+        return DEFAULT_VLLM_REPORT_BATCH_WORKERS
+    return spec.batch_workers if spec.batch_workers is not None else configured
 
 
 # A vLLM server limits each request to --max-model-len whatever the parallelism (the batches share

@@ -153,7 +153,12 @@ def _vllm_error_reason(error: Any) -> str:
         return "http_error"
     message = detail.get("message")
     lowered = message.lower() if isinstance(message, str) else ""
-    if detail.get("param") == "input_tokens" or "maximum context length" in lowered:
+    # Colibri names it with the OpenAI code instead.
+    if (
+        detail.get("param") == "input_tokens"
+        or detail.get("code") == "context_length_exceeded"
+        or "maximum context length" in lowered
+    ):
         return "context_limit"
     if detail.get("param") in ("max_tokens", "max_completion_tokens"):
         return "output_exceeds_context"
@@ -555,7 +560,7 @@ class ResponsesClient:
                 reason = _ollama_error_reason(
                     error.get("error") if isinstance(error, dict) else None
                 )
-            elif self.provider.name == "vllm" and response.status_code == 400:
+            elif self.provider.name in ("vllm", "colibri") and response.status_code == 400:
                 try:
                     reason = _vllm_error_reason(response.json())
                 except ValueError:
@@ -571,7 +576,7 @@ class ResponsesClient:
                 request_id,
                 body[:12000],
             )
-            if self.provider.name == "vllm" and reason == "context_limit":
+            if self.provider.name in ("vllm", "colibri") and reason == "context_limit":
                 raise AIUnavailable(tr("errors.ai_context_limit"), reason="context_limit") from exc
             raise AIUnavailable(
                 f"Serviciul AI ({self.provider.label}) a respins cererea "
@@ -1446,14 +1451,8 @@ class VllmReportClient(ResponsesClient):
             return max(self.thinking_tokens // 2, 1)
         return self.thinking_tokens
 
-    def _send(self, headers: dict[str, str], payload: dict[str, Any]) -> Any:
-        native: dict[str, Any] = {
-            "model": payload["model"],
-            "messages": payload["input"],
-            "max_tokens": payload["max_output_tokens"],
-            "stream": True,
-            "stream_options": {"include_usage": True},
-        }
+    # The response format and the thinking switch of a Chat Completions request.
+    def _chat_options(self, payload: dict[str, Any], native: dict[str, Any]) -> None:
         text_format = payload.get("text", {}).get("format", {})
         if text_format.get("type") == "json_schema":
             native["response_format"] = {
@@ -1473,6 +1472,16 @@ class VllmReportClient(ResponsesClient):
             budget = self._thinking_budget()
             if effort != "none" and budget > 0:
                 native["thinking_token_budget"] = budget
+
+    def _send(self, headers: dict[str, str], payload: dict[str, Any]) -> Any:
+        native: dict[str, Any] = {
+            "model": payload["model"],
+            "messages": payload["input"],
+            "max_tokens": payload["max_output_tokens"],
+            "stream": True,
+            "stream_options": {"include_usage": True},
+        }
+        self._chat_options(payload, native)
         if "temperature" in payload:
             native["temperature"] = payload["temperature"]
         logger.info(
@@ -1562,6 +1571,22 @@ class VllmReportClient(ResponsesClient):
             return _StreamedResponse(result, response.status_code, response.headers, raw_bytes)
 
 
+class ColibriReportClient(VllmReportClient):
+    """Colibri's OpenAI-compatible gateway: the same Chat Completions stream as vLLM.
+
+    Colibri has neither a JSON-schema response format nor a server-side thinking budget, so the
+    schema stays in the prompt (checked afterwards, as for the cloud providers) and the effort is
+    sent as `reasoning_effort`, which Colibri maps to the model's reasoning switch ("none" is its
+    minimum). The thinking room is still reserved in max_tokens by the batch planner.
+    """
+
+    def _chat_options(self, payload: dict[str, Any], native: dict[str, Any]) -> None:
+        effort = payload.get("reasoning", {}).get("effort")
+        if effort is not None:
+            native["reasoning_effort"] = effort
+            native["enable_thinking"] = effort != "none"
+
+
 class XAIClient(ResponsesClient):
     # Explicit xAI constructor, independent of the selected default report model.
     def __init__(self, settings: Settings) -> None:
@@ -1576,6 +1601,8 @@ def create_ai_client(settings: Settings) -> ResponsesClient:
         return OllamaReportClient(provider_config(settings), settings)
     if settings.ai_provider == "vllm":
         return VllmReportClient(provider_config(settings), settings)
+    if settings.ai_provider == "colibri":
+        return ColibriReportClient(provider_config(settings), settings)
     return ResponsesClient(provider_config(settings), settings)
 
 
@@ -1596,6 +1623,7 @@ def create_report_clients(settings: Settings) -> dict[ReportModel, AIProtocol]:
                 hf_model=spec.model if spec.provider == "huggingface" else settings.hf_model,
                 xai_model=spec.model if spec.provider == "xai" else settings.xai_model,
                 vllm_model=spec.model if spec.provider == "vllm" else settings.vllm_model,
+                colibri_model=spec.model if spec.provider == "colibri" else settings.colibri_model,
             )
             clients[choice] = (
                 OllamaReportClient(provider_config(selected), selected)

@@ -231,6 +231,23 @@ class ReportBatchPreviewResponse(BaseModel):
     averageTokensPerSecond: float | None = Field(default=None, ge=0)
 
 
+class ResourceCheckResponse(BaseModel):
+    level: Literal["ok", "warning", "blocking"]
+    ramAvailableGb: float | None = None
+    ramMinimumGb: float | None = None
+    ramRecommendedGb: float
+    vramFreeGb: float | None = None
+    vramRecommendedGb: float
+    planValid: bool
+    planWarnings: list[str] = Field(default_factory=list)
+    expertsPerLayer: int | None = None
+    expertResidencyPct: int | None = None
+
+
+class ResourceDecisionPayload(BaseModel):
+    decision: Literal["continue", "retry"]
+
+
 class GenerateResponse(BaseModel):
     language: Literal["ro", "en"] = "ro"
     jobId: str
@@ -267,6 +284,7 @@ class GenerateResponse(BaseModel):
     aiActivity: AIActivityResponse | None = None
     errorCode: str | None = None
     message: str | None = None
+    resourceCheck: ResourceCheckResponse | None = None
 
 
 def _deps(request: Request) -> Dependencies:
@@ -855,6 +873,7 @@ def report_models(request: Request):
                 model: default_batch_workers(model, 0)
                 for model in configured
                 if REPORT_MODELS[model].provider == "vllm"
+                or REPORT_MODELS[model].batch_workers is not None
             },
         }
         response["maxOutputTokens"] = {
@@ -1079,6 +1098,15 @@ def generation_status(job_id: str, request: Request):
 @router.post("/api/report-generations/{job_id}/cancel", response_model=GenerateResponse)
 def cancel_generation(job_id: str, request: Request):
     return _generation_status(request, job_id, cancel=True)
+
+
+# The answer to the memory test a Colibri job waits on; "Renunta" is the cancel route above.
+@router.post("/api/report-generations/{job_id}/resource-decision", response_model=GenerateResponse)
+def resource_decision(job_id: str, payload: ResourceDecisionPayload, request: Request):
+    _generation_status(request, job_id)
+    return request.app.state.report_generation.resource_decision(
+        _current(request), job_id, payload.decision
+    )
 
 
 @router.post("/api/session/end")
@@ -1351,8 +1379,11 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     recommend_report_output=metrics_repository.recommend_output_tokens,
                     record_report_batch_usage=metrics_repository.record_batch_usage,
                     recommend_report_thinking=metrics_repository.recommend_thinking_tokens,
-                    # Empty for native runs, where the operator starts any vLLM server by hand.
-                    model_runtime=VllmRuntime(cfg) if cfg.model_supervisor_url else None,
+                    # Empty for native runs, where the operator starts any vLLM server by hand;
+                    # the Colibri agent alone is enough for the Colibri model.
+                    model_runtime=VllmRuntime(cfg)
+                    if cfg.model_supervisor_url or cfg.colibri_agent_url
+                    else None,
                 )
                 application.state.dependencies = runtime
                 application.root_path = cfg.public_root_path

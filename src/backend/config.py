@@ -259,7 +259,7 @@ def safety_output_estimate(batch_size: int) -> int:
     return batch_size * SAFETY_MIN_MESSAGES * SAFETY_TOKENS_PER_MESSAGE + SAFETY_OUTPUT_RESERVE
 
 
-AI_PROVIDERS = ("xai", "huggingface", "ollama", "deepseek", "vllm")
+AI_PROVIDERS = ("xai", "huggingface", "ollama", "deepseek", "vllm", "colibri")
 
 
 # Validate the provider used by generic Python client constructors, not an env selector.
@@ -325,6 +325,11 @@ class Settings:
     model_supervisor_url: str = ""
     # A first start also downloads the weights, so this is well above the usual warm-up.
     vllm_warmup_timeout_seconds: int = 900
+    colibri_model: str = REPORT_MODELS["colibri-qwen3.8-flash-next:125b"].model
+    # The Colibri server on the Windows host and the agent that measures memory, starts and stops
+    # it (src/scripts/colibri_host_agent.py); an empty agent URL means no Colibri report can run.
+    colibri_api_base: str = "http://localhost:8010/v1"
+    colibri_agent_url: str = ""
     # Identification of a condition the dictionary does not know (ai/condition_ai.py):
     # Identification uses only the host Ollama model, with no provider fallback.
     medical_condition_ai_local_model: str = "gemma3:1b"
@@ -484,6 +489,8 @@ class Settings:
             vllm_warmup_timeout_seconds=_int(
                 "VLLM_WARMUP_TIMEOUT_SECONDS", 900, minimum=1, env=env
             ),
+            colibri_api_base=env.get("COLIBRI_API_BASE", "http://localhost:8010/v1").rstrip("/"),
+            colibri_agent_url=env.get("COLIBRI_AGENT_URL", "").rstrip("/"),
             medical_condition_ai_local_model=env.get(
                 "MEDICAL_CONDITION_AI_LOCAL_MODEL", "gemma3:1b"
             ),
@@ -693,11 +700,13 @@ class Settings:
             "ollama_api_base",
             "deepseek_api_base",
             "vllm_api_base",
+            "colibri_api_base",
             "condition_ai_local_base",
             "herb_association_ai_base",
             "model_supervisor_url",
+            "colibri_agent_url",
         ):
-            if name == "model_supervisor_url" and not self.model_supervisor_url:
+            if name in ("model_supervisor_url", "colibri_agent_url") and not getattr(self, name):
                 continue
             try:
                 parsed = urlsplit(getattr(self, name))

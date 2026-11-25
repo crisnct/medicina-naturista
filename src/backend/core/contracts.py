@@ -126,7 +126,31 @@ class AIProtocol(Protocol):
 
 
 # What a report job shows while the GPU changes hands, before it starts its own timer.
-ModelStage = Literal["stopping_model", "warming_model"]
+ModelStage = Literal["stopping_model", "checking_resources", "awaiting_resources", "warming_model"]
+
+
+# The memory test before a Colibri server starts. `blocking`: the planner refuses (the server would
+# not start); `warning`: it starts below the measured comfortable memory, so it runs slower.
+class ResourceCheck(TypedDict):
+    level: Literal["ok", "warning", "blocking"]
+    ramAvailableGb: float | None
+    ramMinimumGb: float | None
+    ramRecommendedGb: float
+    vramFreeGb: float | None
+    vramRecommendedGb: float
+    planValid: bool
+    planWarnings: list[str]
+    expertsPerLayer: int | None
+    expertResidencyPct: int | None
+
+
+# The user's answer to a ResourceCheck; cancelling is the job's own cancel.
+ResourceDecision = Literal["continue", "retry"]
+
+
+# Shows the check to the user and blocks until the answer; raises when the job is cancelled.
+class ConfirmResources(Protocol):
+    def __call__(self, check: ResourceCheck) -> ResourceDecision: ...
 
 
 class ReportModelRuntime(Protocol):
@@ -135,7 +159,11 @@ class ReportModelRuntime(Protocol):
         model: ReportModel,
         on_stage: Callable[[ModelStage], None],
         checkpoint: Callable[[], None],
+        confirm: ConfirmResources | None = None,
     ) -> None: ...
+
+    # After the job ends, however it ends: gives back what prepare took for this model only.
+    def finish(self, model: ReportModel) -> None: ...
 
     def close(self) -> None: ...
 

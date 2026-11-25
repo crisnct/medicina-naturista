@@ -11479,6 +11479,24 @@
       "last_seen": "2026-11-25T07:13:55.049Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of colibri_host_agent.py",
+      "file": "src/scripts/colibri_host_agent.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 14→21 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-639",
+      "timestamp": "2026-11-25T11:30:16.674Z",
+      "last_seen": "2026-11-25T11:30:16.674Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12166,7 +12184,8 @@
     "7260a65e-30b0-4d0e-aad2-0db74b263c62": true,
     "0fbf60c5-03f3-4bc0-8e2e-5a6ee3df9d87": true,
     "29c52347-70cf-419d-9606-e1718074e772": true,
-    "d51acbf2-3818-4ae8-9e69-78bf98ac851d": true
+    "d51acbf2-3818-4ae8-9e69-78bf98ac851d": true,
+    "14e611a3-fb9a-4b9a-887e-c0f9068b8c7d": true
   },
-  "next_id": 639
+  "next_id": 640
 }

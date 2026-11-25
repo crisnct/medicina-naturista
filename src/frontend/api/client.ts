@@ -21,6 +21,7 @@ import type {
   SendMessageResponse,
   SessionResponse,
   StartupStatus,
+  ResourceDecision,
 } from "./types";
 import { claimTab, releaseTab } from "../lib/tabLease";
 
@@ -170,6 +171,11 @@ export const api = {
   cancelGeneration: (jobId: string) => request<ReportGeneration>(`/api/report-generations/${encodeURIComponent(jobId)}/cancel`, {
     method: "POST", signal: AbortSignal.timeout(15000),
   }),
+  // The answer to the memory test a Colibri job waits on; giving up is cancelGeneration.
+  decideResources: ({ jobId, decision }: { jobId: string; decision: ResourceDecision }) =>
+    request<ReportGeneration>(`/api/report-generations/${encodeURIComponent(jobId)}/resource-decision`, {
+      method: "POST", body: JSON.stringify({ decision }), signal: AbortSignal.timeout(15000),
+    }),
   endSession: () => request<MessagesResponse>("/api/session/end", { method: "POST" }),
   // keepalive fetch (not navigator.sendBeacon, which can't carry the X-Tab-Id
   // header) so the request has a chance to complete after the page unloads.

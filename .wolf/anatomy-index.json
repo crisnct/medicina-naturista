@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-25T09:30:25.099Z",
-    "fileCount": 532,
+    "lastScanned": "2026-11-25T13:02:04.799Z",
+    "fileCount": 536,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "cfe53749df66f9f70b20b6ef9301da143365bb03162a03d9757951d5c094269e",
-    "storeUpdatedAt": "2026-11-25T09:30:25.111Z",
-    "rootHash": "28f6423e9747aa1d"
+    "renderedHash": "b08a5bca0ef07bd3583de9e994b5fe3aa17d105cd6fd9e6fa8d1a53c2fef96b3",
+    "storeUpdatedAt": "2026-11-25T13:02:04.811Z",
+    "rootHash": "ec516decf66719c2"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -169,12 +169,12 @@
       ]
     },
     "src/frontend/styles.css": {
-      "description": "Styles: 95 rules, 15 vars",
-      "tokens": 12314,
-      "hash": "52624af8ef2301fd",
-      "size": 43098,
-      "mtimeMs": 1795555849093.2166,
-      "updatedAt": "2026-11-24T21:30:50.138Z",
+      "description": "Styles: 90 rules, 15 vars",
+      "tokens": 13052,
+      "hash": "0e426835a3b5582b",
+      "size": 45683,
+      "mtimeMs": 1795606818443.7407,
+      "updatedAt": "2026-11-25T11:40:18.684Z",
       "source": "hook"
     },
     "src/backend/core/texts.py": {
@@ -360,11 +360,11 @@
     },
     "docker-compose.yaml": {
       "description": "Docker Compose: 2 services",
-      "tokens": 5443,
-      "hash": "bfd0f5bdd447e485",
-      "size": 19051,
-      "mtimeMs": 1795537035255.6384,
-      "updatedAt": "2026-11-24T16:17:16.128Z",
+      "tokens": 5568,
+      "hash": "11f881d283fe4274",
+      "size": 19488,
+      "mtimeMs": 1795606854035.1992,
+      "updatedAt": "2026-11-25T11:40:54.854Z",
       "source": "hook"
     },
     "src/backend/web/main.py": {
@@ -3743,11 +3743,11 @@
     },
     "src/backend/core/contracts.py": {
       "description": "Shared data and port contracts; independent of HTTP and the UI.",
-      "tokens": 3018,
-      "hash": "25d139165767d514",
-      "size": 10562,
-      "mtimeMs": 1795590561671.6426,
-      "updatedAt": "2026-11-25T07:09:22.523Z",
+      "tokens": 3299,
+      "hash": "2c0b08af98730363",
+      "size": 11545,
+      "mtimeMs": 1795606442245.199,
+      "updatedAt": "2026-11-25T11:34:03.116Z",
       "source": "hook",
       "symbols": [
         {
@@ -3810,155 +3810,155 @@
           "name": "AIProtocol",
           "kind": "class",
           "startLine": 103,
-          "endLine": 131,
-          "tokens": 271
+          "endLine": 133,
+          "tokens": 339
+        },
+        {
+          "name": "ResourceCheck",
+          "kind": "class",
+          "startLine": 134,
+          "endLine": 151,
+          "tokens": 162
+        },
+        {
+          "name": "ConfirmResources",
+          "kind": "class",
+          "startLine": 152,
+          "endLine": 155,
+          "tokens": 30
         },
         {
           "name": "ReportModelRuntime",
           "kind": "class",
-          "startLine": 132,
-          "endLine": 142,
-          "tokens": 68
+          "startLine": 156,
+          "endLine": 167,
+          "tokens": 82
         },
         {
           "name": "EstimateReportDuration",
           "kind": "class",
-          "startLine": 143,
-          "endLine": 148,
+          "startLine": 168,
+          "endLine": 173,
           "tokens": 52
         },
         {
           "name": "RecommendReportOutput",
           "kind": "class",
-          "startLine": 149,
-          "endLine": 154,
+          "startLine": 174,
+          "endLine": 179,
           "tokens": 48
         },
         {
           "name": "RetrievalProtocol",
           "kind": "class",
-          "startLine": 155,
-          "endLine": 164,
+          "startLine": 180,
+          "endLine": 189,
           "tokens": 84
         },
         {
           "name": "EmailProtocol",
           "kind": "class",
-          "startLine": 165,
-          "endLine": 174,
+          "startLine": 190,
+          "endLine": 199,
           "tokens": 103
         },
         {
           "name": "ReportHerbSafety",
           "kind": "class",
-          "startLine": 175,
-          "endLine": 192,
+          "startLine": 200,
+          "endLine": 217,
           "tokens": 195
         },
         {
           "name": "HerbCondition",
           "kind": "class",
-          "startLine": 193,
-          "endLine": 201,
+          "startLine": 218,
+          "endLine": 226,
           "tokens": 55
         },
         {
           "name": "HerbContraindication",
           "kind": "class",
-          "startLine": 202,
-          "endLine": 205,
+          "startLine": 227,
+          "endLine": 230,
           "tokens": 21
         },
         {
           "name": "HerbLookupResult",
           "kind": "class",
-          "startLine": 206,
-          "endLine": 234,
+          "startLine": 231,
+          "endLine": 259,
           "tokens": 318
         },
         {
           "name": "HerbEvidenceReference",
           "kind": "class",
-          "startLine": 235,
-          "endLine": 244,
+          "startLine": 260,
+          "endLine": 269,
           "tokens": 92
         },
         {
           "name": "HerbHighlight",
           "kind": "class",
-          "startLine": 245,
-          "endLine": 250,
+          "startLine": 270,
+          "endLine": 275,
           "tokens": 32
         },
         {
           "name": "HerbEvidenceFragment",
           "kind": "class",
-          "startLine": 251,
-          "endLine": 262,
+          "startLine": 276,
+          "endLine": 287,
           "tokens": 75
         },
         {
           "name": "HerbEvidencePage",
           "kind": "class",
-          "startLine": 263,
-          "endLine": 273,
+          "startLine": 288,
+          "endLine": 298,
           "tokens": 79
         },
         {
           "name": "LookupHerbEvidence",
           "kind": "class",
-          "startLine": 274,
-          "endLine": 286,
+          "startLine": 299,
+          "endLine": 311,
           "tokens": 91
         },
         {
           "name": "HerbSafetyReference",
           "kind": "class",
-          "startLine": 287,
-          "endLine": 292,
+          "startLine": 312,
+          "endLine": 317,
           "tokens": 32
         },
         {
           "name": "HerbWarning",
           "kind": "class",
-          "startLine": 293,
-          "endLine": 300,
+          "startLine": 318,
+          "endLine": 325,
           "tokens": 34
         },
         {
           "name": "HerbSafetyPage",
           "kind": "class",
-          "startLine": 301,
-          "endLine": 309,
+          "startLine": 326,
+          "endLine": 334,
           "tokens": 55
         },
         {
           "name": "HerbSafetyEvidencePage",
           "kind": "class",
-          "startLine": 310,
-          "endLine": 319,
+          "startLine": 335,
+          "endLine": 344,
           "tokens": 62
         },
         {
           "name": "LookupHerbSafety",
           "kind": "class",
-          "startLine": 320,
-          "endLine": 323,
-          "tokens": 37
-        },
-        {
-          "name": "LookupHerbSafetyEvidence",
-          "kind": "class",
-          "startLine": 324,
-          "endLine": 329,
-          "tokens": 50
-        },
-        {
-          "name": "RankedHerb",
-          "kind": "class",
-          "startLine": 330,
-          "endLine": 352,
-          "tokens": 188
+          "startLine": 345,
+          "endLine": 377,
+          "tokens": 275
         }
       ]
     },
@@ -3996,11 +3996,11 @@
     },
     "src/backend/core/sessions.py": {
       "description": "Atomic tab lifetimes, operation commits and bounded ephemeral retention.",
-      "tokens": 16550,
-      "hash": "55d832cf4e548325",
-      "size": 57922,
-      "mtimeMs": 1794031280577.739,
-      "updatedAt": "2026-11-07T06:01:20.927Z",
+      "tokens": 16810,
+      "hash": "84c9150657e07897",
+      "size": 58835,
+      "mtimeMs": 1795606453462.7456,
+      "updatedAt": "2026-11-25T11:34:14.378Z",
       "source": "hook",
       "symbols": [
         {
@@ -4035,8 +4035,8 @@
           "name": "SessionStore",
           "kind": "class",
           "startLine": 158,
-          "endLine": 1294,
-          "tokens": 14826
+          "endLine": 1313,
+          "tokens": 15081
         }
       ]
     },
@@ -5014,11 +5014,11 @@
     },
     "src/backend/core/models.py": {
       "description": "Minimal medical context collected before report generation.",
-      "tokens": 6346,
-      "hash": "b8035b1d359c8682",
-      "size": 22216,
-      "mtimeMs": 1793973182005.589,
-      "updatedAt": "2026-11-06T13:53:02.473Z",
+      "tokens": 6401,
+      "hash": "a935c514c520e9d3",
+      "size": 22409,
+      "mtimeMs": 1795606449681.1653,
+      "updatedAt": "2026-11-25T11:34:10.586Z",
       "source": "hook",
       "symbols": [
         {
@@ -5088,49 +5088,49 @@
           "name": "ReportGeneration",
           "kind": "class",
           "startLine": 283,
-          "endLine": 400,
-          "tokens": 1282
+          "endLine": 403,
+          "tokens": 1336
         },
         {
           "name": "SessionData",
           "kind": "class",
-          "startLine": 401,
-          "endLine": 473,
+          "startLine": 404,
+          "endLine": 476,
           "tokens": 1054
         },
         {
           "name": "ConversationGroup",
           "kind": "class",
-          "startLine": 474,
-          "endLine": 479,
+          "startLine": 477,
+          "endLine": 482,
           "tokens": 47
         },
         {
           "name": "SessionSnapshot",
           "kind": "class",
-          "startLine": 480,
-          "endLine": 498,
+          "startLine": 483,
+          "endLine": 501,
           "tokens": 178
         },
         {
           "name": "SessionOperation",
           "kind": "class",
-          "startLine": 499,
-          "endLine": 511,
+          "startLine": 502,
+          "endLine": 514,
           "tokens": 89
         },
         {
           "name": "CommitChange",
           "kind": "class",
-          "startLine": 512,
-          "endLine": 529,
+          "startLine": 515,
+          "endLine": 532,
           "tokens": 197
         },
         {
           "name": "OperationResult",
           "kind": "class",
-          "startLine": 530,
-          "endLine": 549,
+          "startLine": 533,
+          "endLine": 552,
           "tokens": 236
         }
       ]
@@ -8152,11 +8152,11 @@
     },
     "AGENTS.md": {
       "description": "AGENTS.md",
-      "tokens": 3120,
-      "hash": "f075249c0959048e",
-      "size": 12517,
-      "mtimeMs": 1794726908665.5833,
-      "updatedAt": "2026-11-15T07:15:08.933Z",
+      "tokens": 3528,
+      "hash": "457a0df369e5bf21",
+      "size": 14150,
+      "mtimeMs": 1795606954212.3433,
+      "updatedAt": "2026-11-25T11:42:35.077Z",
       "source": "hook"
     },
     ".claude/README.md": {
@@ -12593,20 +12593,34 @@
       ]
     },
     "src/frontend/components/ModelWarmupDialog.tsx": {
-      "description": "Driven by the polled job, so it reappears after a refresh and closes by itself at the next stage.",
-      "tokens": 770,
-      "hash": "ee982f82afb7f47f",
-      "size": 2695,
-      "mtimeMs": 1794116724887.109,
-      "updatedAt": "2026-11-08T05:45:25.164Z",
+      "description": "gigabytes — renders modal",
+      "tokens": 1798,
+      "hash": "d755875c6eba9f39",
+      "size": 6290,
+      "mtimeMs": 1795606817390.1172,
+      "updatedAt": "2026-11-25T11:40:17.648Z",
       "source": "hook",
       "symbols": [
         {
-          "name": "ModelWarmupDialog",
+          "name": "gigabytes",
           "kind": "fn",
           "startLine": 7,
-          "endLine": 63,
-          "tokens": 687
+          "endLine": 12,
+          "tokens": 87
+        },
+        {
+          "name": "ResourceCheckView",
+          "kind": "fn",
+          "startLine": 13,
+          "endLine": 61,
+          "tokens": 722
+        },
+        {
+          "name": "ModelWarmupDialog",
+          "kind": "fn",
+          "startLine": 62,
+          "endLine": 137,
+          "tokens": 912
         }
       ]
     },
@@ -13990,6 +14004,151 @@
       "size": 6419,
       "mtimeMs": 1795599024847.0745,
       "updatedAt": "2026-11-25T09:30:25.099Z",
+      "source": "hook"
+    },
+    "aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md": {
+      "description": "Plan: Colibri cu Qwen3.8-Flash-Next UD-Q2_0 ca model de raport",
+      "tokens": 4643,
+      "hash": "6d9112e2d5ba9393",
+      "size": 18810,
+      "mtimeMs": 1795605942994.8545,
+      "updatedAt": "2026-11-25T11:25:43.249Z",
+      "source": "hook"
+    },
+    "aiWork/colibri_bench.py": {
+      "description": "Speed benchmark for an OpenAI-compatible server (Colibri coli serve).",
+      "tokens": 1648,
+      "hash": "fc01bade4f3ef3e0",
+      "size": 5765,
+      "mtimeMs": 1795601458584.7488,
+      "updatedAt": "2026-11-25T10:10:58.848Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "source_text",
+          "kind": "fn",
+          "startLine": 33,
+          "endLine": 38,
+          "tokens": 54
+        },
+        {
+          "name": "models",
+          "kind": "fn",
+          "startLine": 39,
+          "endLine": 44,
+          "tokens": 68
+        },
+        {
+          "name": "headers",
+          "kind": "fn",
+          "startLine": 45,
+          "endLine": 51,
+          "tokens": 47
+        },
+        {
+          "name": "run_once",
+          "kind": "fn",
+          "startLine": 52,
+          "endLine": 112,
+          "tokens": 665
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 113,
+          "endLine": 155,
+          "tokens": 513
+        }
+      ]
+    },
+    "src/scripts/colibri_host_agent.py": {
+      "description": "Windows host agent for Colibri: memory status, `coli plan` checks, start and stop of the server.",
+      "tokens": 5401,
+      "hash": "4814e89b44573231",
+      "size": 18905,
+      "mtimeMs": 1795611724537.6926,
+      "updatedAt": "2026-11-25T13:02:04.798Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "AgentConfig",
+          "kind": "class",
+          "startLine": 63,
+          "endLine": 86,
+          "tokens": 190
+        },
+        {
+          "name": "_MemoryStatus",
+          "kind": "class",
+          "startLine": 87,
+          "endLine": 101,
+          "tokens": 167
+        },
+        {
+          "name": "ram_available_gb",
+          "kind": "fn",
+          "startLine": 102,
+          "endLine": 110,
+          "tokens": 111
+        },
+        {
+          "name": "vram_gb",
+          "kind": "fn",
+          "startLine": 111,
+          "endLine": 131,
+          "tokens": 220
+        },
+        {
+          "name": "parse_plan",
+          "kind": "fn",
+          "startLine": 132,
+          "endLine": 161,
+          "tokens": 311
+        },
+        {
+          "name": "Agent",
+          "kind": "class",
+          "startLine": 162,
+          "endLine": 330,
+          "tokens": 2122
+        },
+        {
+          "name": "AgentError",
+          "kind": "class",
+          "startLine": 331,
+          "endLine": 337,
+          "tokens": 49
+        },
+        {
+          "name": "_handler",
+          "kind": "fn",
+          "startLine": 338,
+          "endLine": 386,
+          "tokens": 547
+        },
+        {
+          "name": "_arguments",
+          "kind": "fn",
+          "startLine": 387,
+          "endLine": 437,
+          "tokens": 653
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 438,
+          "endLine": 461,
+          "tokens": 196
+        }
+      ]
+    },
+    "src/scripts/colibri_agent_startup.ps1": {
+      "description": "Registers (or with -Remove deletes) the logon task that runs the Colibri host agent.",
+      "tokens": 622,
+      "hash": "ccecc78ae153334e",
+      "size": 2330,
+      "mtimeMs": 1795606238879.3875,
+      "updatedAt": "2026-11-25T11:30:39.771Z",
       "source": "hook"
     }
   },

@@ -364,6 +364,8 @@ export const TEXT_PARAMETERS = {
   "interface.generation_prepare_stage": [],
   "interface.generation_stopping_model_stage": [],
   "interface.generation_warming_model_stage": [],
+  "interface.generation_checking_resources_stage": [],
+  "interface.generation_awaiting_resources_stage": [],
   "interface.model_warmup_stopping_title": [],
   "interface.model_warmup_warming_title": [],
   "interface.model_warmup_stopping_body": [],
@@ -374,6 +376,39 @@ export const TEXT_PARAMETERS = {
   "interface.model_warmup_elapsed": [
     "seconds"
   ],
+  "interface.model_warmup_checking_title": [],
+  "interface.model_warmup_checking_body": [
+    "model"
+  ],
+  "interface.colibri_resources_blocking_title": [],
+  "interface.colibri_resources_blocking_body": [],
+  "interface.colibri_resources_warning_title": [],
+  "interface.colibri_resources_warning_body": [],
+  "interface.colibri_resources_ram": [
+    "available",
+    "recommended"
+  ],
+  "interface.colibri_resources_ram_minimum": [
+    "available",
+    "minimum",
+    "recommended"
+  ],
+  "interface.colibri_resources_vram": [
+    "available",
+    "recommended"
+  ],
+  "interface.colibri_resources_unknown": [],
+  "interface.colibri_resources_details": [],
+  "interface.colibri_resources_experts": [
+    "count"
+  ],
+  "interface.colibri_resources_residency": [
+    "percent"
+  ],
+  "interface.colibri_resources_continue": [],
+  "interface.colibri_resources_retry": [],
+  "interface.colibri_resources_cancel": [],
+  "interface.colibri_resources_decision_failed": [],
   "interface.generation_preparing": [],
   "interface.generation_sync_failed": [],
   "interface.generation_queued_stage": [],
@@ -445,6 +480,7 @@ export const TEXT_PARAMETERS = {
   "interface.model_deepseek_r1": [],
   "interface.model_vllm_qwen35_4b": [],
   "interface.model_vllm_qwen25_7b": [],
+  "interface.model_colibri_qwen38_flash_next": [],
   "interface.model_deepseek_flash": [],
   "interface.model_huggingface_deepseek_flash": [],
   "interface.model_grok43": []

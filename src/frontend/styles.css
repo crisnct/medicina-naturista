@@ -1638,4 +1638,10 @@ p.source-important {
     animation: model-warmup-spin 1s linear infinite;
 }
 @keyframes model-warmup-spin { to { transform: rotate(360deg); } }
+.resource-check-figures { margin: 4px 0 8px; padding: 0; list-style: none; font-variant-numeric: tabular-nums; }
+.resource-check-figures li { margin: 2px 0; }
+.resource-check-details { margin: 0 0 8px; text-align: left; color: var(--nature-muted); font-size: .9rem; }
+.resource-check-details summary { cursor: pointer; text-align: center; }
+.resource-check-details ul { margin: 6px 0 0; padding-left: 20px; overflow-wrap: anywhere; }
+.resource-check-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
 @media (prefers-reduced-motion: reduce) { .model-warmup-spinner { animation: none; } }

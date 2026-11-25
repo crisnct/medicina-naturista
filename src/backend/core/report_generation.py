@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import threading
+import time
 from collections import deque
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
@@ -13,7 +14,12 @@ import httpx
 
 from backend.ai.client import AIUnavailable
 from backend.ai.report_validation import ReportValidationError
-from backend.core.contracts import ReportModel, ReportModelRuntime
+from backend.core.contracts import (
+    ReportModel,
+    ReportModelRuntime,
+    ResourceCheck,
+    ResourceDecision,
+)
 from backend.core.conversation import ConversationService, evidence_above
 from backend.core.errors import ApplicationError, OperationCancelled
 from backend.core.language import language_scope
@@ -24,6 +30,9 @@ from backend.core.sessions import SessionStore
 from backend.core.texts import tr
 
 logger = logging.getLogger("naturist.reports")
+
+# How long a job waits for the user's answer to a memory warning before it fails.
+RESOURCE_DECISION_SECONDS = 600.0
 
 
 # The model of the last published report, kept in memory only: a restart forgets it.
@@ -51,6 +60,11 @@ class ReportGenerationService:
         self._draining = False
         self._closed = False
         self._last_report: LastReportModel | None = None
+        # The user's answers to memory warnings, by job; separate from _lock so that the worker
+        # waiting for one never holds the lock the HTTP handlers need.
+        self._decisions: dict[str, ResourceDecision] = {}
+        self._decided = threading.Condition()
+        self._clock = time.monotonic
 
     @property
     def last_report(self) -> LastReportModel | None:
@@ -150,6 +164,47 @@ class ReportGenerationService:
             )
             return result
 
+    # The user's answer to the memory test a job shows; only a job that is waiting for one takes it.
+    def resource_decision(
+        self, session: SessionData, job_id: str, decision: ResourceDecision
+    ) -> dict:
+        status = self.store.generation(session, job_id)
+        if status.get("state") != "accepted" or status.get("stage") != "awaiting_resources":
+            raise ApplicationError(
+                "RESOURCE_DECISION_NOT_EXPECTED", tr("errors.resource_decision_not_expected"), 409
+            )
+        with self._decided:
+            self._decisions[job_id] = decision
+            self._decided.notify_all()
+        logger.info("report_job_resource_decision job_id=%s decision=%s", job_id, decision)
+        return self.generation(session, job_id)
+
+    def _confirm_resources(
+        self, operation: SessionOperation, check: ResourceCheck
+    ) -> ResourceDecision:
+        job_id = operation.operation_id
+        with self._decided:
+            self._decisions.pop(job_id, None)
+        self.store.generation_resource_check(operation, check)
+        deadline = self._clock() + RESOURCE_DECISION_SECONDS
+        try:
+            while True:
+                # A cancel from the panel ends the wait here (OperationCancelled).
+                self.store.checkpoint(operation)
+                with self._decided:
+                    decision = self._decisions.pop(job_id, None)
+                    if decision is None:
+                        self._decided.wait(timeout=1.0)
+                        decision = self._decisions.pop(job_id, None)
+                if decision is not None:
+                    return decision
+                if self._clock() >= deadline:
+                    raise ApplicationError(
+                        "COLIBRI_RESOURCES_TIMEOUT", tr("errors.colibri_resources_timeout"), 408
+                    )
+        finally:
+            self.store.generation_resource_check(operation, None)
+
     def _drain(self) -> None:
         while True:
             with self._lock:
@@ -228,6 +283,7 @@ class ReportGenerationService:
         finally:
             self.store.finish_operation(operation)
             logger.info("report_job_worker_finished job_id=%s", operation.operation_id)
+            self._finish_model(conversation)
 
     # A finished generate may also be a "no fragment above the minimum score" reply; only a
     # published report counts.
@@ -253,7 +309,16 @@ class ReportGenerationService:
             cast(ReportModel, choice),
             lambda stage: self.store.generation_model_stage(operation, stage),
             lambda: self.store.checkpoint(operation),
+            lambda check: self._confirm_resources(operation, check),
         )
+
+    # After the job's slot is free, so the user sees the result while, for Colibri, Ollama starts
+    # again. A failure here is the runtime's to log; it must not reach the finished job.
+    def _finish_model(self, conversation: ConversationService) -> None:
+        choice = getattr(conversation, "report_model_choice", "")
+        if self.model_runtime is None or not choice:
+            return
+        self.model_runtime.finish(cast(ReportModel, choice))
 
     def close(self, *, wait: bool = True) -> None:
         with self._lock:

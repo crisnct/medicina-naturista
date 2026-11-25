@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-25T09:30:25.099Z
-> Files: 532 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-25T13:02:04.799Z
+> Files: 536 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -10,9 +10,9 @@
 ## ./
 
 - `.dockerignore` (~107 tok)
-- `AGENTS.md` — AGENTS.md (~3120 tok)
+- `AGENTS.md` — AGENTS.md (~3528 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
-- `docker-compose.yaml` — Docker Compose: 2 services (~5443 tok)
+- `docker-compose.yaml` — Docker Compose: 2 services (~5568 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
 - `README.md` — Project documentation (~34819 tok)
 
@@ -190,6 +190,7 @@
 - `bench_parallel_ollama.py` — Benchmark: sequential vs 2 parallel threads of association batches to Ollama qwen3.5:9b. (~2687 tok)
 - `check_run_stage.py` — Throwaway: _run_stage with fakes -- local runs once, deepseek retries a transient failure. (~579 tok)
 - `check_write_retry.py` — Throwaway: ProductSafetyRepository.transaction retries a busy index lock on writes only. (~382 tok)
+- `colibri_bench.py` — Speed benchmark for an OpenAI-compatible server (Colibri coli serve). (~1648 tok)
 - `compare_safety.py` — Scratch: find the herb_name rule of the JSON file and diff it against the live database. (~410 tok)
 - `e2e_extension.py` — Q: answer, complete_json, complete_batch, embed + 1 more (~2251 tok)
 - `e2e_resume.py` — Q: msgs, complete_json, complete_batch, run (~1203 tok)
@@ -412,6 +413,10 @@
 
 - `analiza.md` — Analiza extragerilor, paginile PDF 3 și 9 din „Antivirale din plante" (~1435 tok)
 
+## aiplans/
+
+- `2026-11-25-integrare-colibri-qwen38-flash-next.md` — Plan: Colibri cu Qwen3.8-Flash-Next UD-Q2_0 ca model de raport (~4643 tok)
+
 ## architecture/
 
 - `README.md` — Project documentation (~410 tok)
@@ -493,19 +498,19 @@
 
 ## src/backend/core/
 
-- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~3018 tok)
+- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~3299 tok)
 - `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~16968 tok)
 - `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1309 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
 - `language.py` — Validated languages and isolated execution scopes; no process-wide mutable locale. (~353 tok)
-- `models.py` — Minimal medical context collected before report generation. (~6346 tok)
+- `models.py` — Minimal medical context collected before report generation. (~6401 tok)
 - `operation_context.py` — Propagate a worker's deadline to synchronous I/O without changing public ports. (~2035 tok)
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2911 tok)
 - `report_metrics.py` — Validated measurements for one published report, independent of storage. (~1282 tok)
 - `report_models.py` — Supported report choices and their immutable provider routing. (~2754 tok)
 - `score_formula.py` — Operator-supplied arithmetic over named variables (L1/L2/L3 for the product tops, P1/P2/L/V/K for (~1695 tok)
-- `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16550 tok)
+- `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16810 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6762 tok)
 - `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
 
@@ -573,7 +578,7 @@
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~206 tok)
-- `styles.css` — Styles: 95 rules, 15 vars (~12314 tok)
+- `styles.css` — Styles: 90 rules, 15 vars (~13052 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 - `zz_tmp_app.test.tsx` — node (~996 tok)
 
@@ -605,7 +610,7 @@
 - `HeroEmblem.tsx` — Emblems for the hero kicker. Hero.tsx renders one of them; to switch back, change the import (~943 tok)
 - `LanguageSelect.tsx` — Names are shown in the other language than the interface's, so a visitor stuck in the wrong (~1503 tok)
 - `MessageBubble.tsx` — MessageBubble (~824 tok)
-- `ModelWarmupDialog.tsx` — Driven by the polled job, so it reappears after a refresh and closes by itself at the next stage. (~770 tok)
+- `ModelWarmupDialog.tsx` — gigabytes — renders modal (~1798 tok)
 - `SearchSignals.test.tsx` — tree (~1596 tok)
 - `TypingIndicator.tsx` — A slow status ring and elapsed time while retrieval or report generation is pending. (~466 tok)
 
@@ -635,6 +640,8 @@
 - `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~21606 tok)
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20376 tok)
+- `colibri_agent_startup.ps1` — Registers (or with -Remove deletes) the logon task that runs the Colibri host agent. (~622 tok)
+- `colibri_host_agent.py` — Windows host agent for Colibri: memory status, `coli plan` checks, start and stop of the server. (~5401 tok)
 - `evaluate_retrieval.py` — Measure retrieval quality and latency of ai/search.rank() against the (~3856 tok)
 - `extract_pdf_markdown.py` — Options: observe, body_size (~14210 tok)
 - `fix_markdown_headings.py` — fix_headings, main (~1489 tok)

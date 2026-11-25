@@ -24,6 +24,7 @@ const MODEL_LABELS = {
   "ollama-deepseek-r1:8b": "interface.model_deepseek_r1",
   "vllm-qwen3.5:4b": "interface.model_vllm_qwen35_4b",
   "vllm-qwen2.5:7b": "interface.model_vllm_qwen25_7b",
+  "colibri-qwen3.8-flash-next:125b": "interface.model_colibri_qwen38_flash_next",
   "deepseek-flash": "interface.model_deepseek_flash",
   "huggingface-deepseek-v4-flash": "interface.model_huggingface_deepseek_flash",
   "grok-4.3": "interface.model_grok43",
@@ -173,6 +174,9 @@ export function GeneratePanel({
           stage={feedback.modelStage}
           model={feedback.modelName ?? ""}
           onCancel={feedback.cancel}
+          resourceCheck={feedback.resourceCheck}
+          onDecide={feedback.decideResources}
+          decisionPending={feedback.decisionPending}
         />
       )}
       <div className="generate-recipe-copy">

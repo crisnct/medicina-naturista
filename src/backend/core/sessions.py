@@ -15,7 +15,7 @@ import stat
 import struct
 import threading
 import time
-from collections.abc import Callable
+from collections.abc import Callable, Mapping
 from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 from typing import Any
@@ -649,6 +649,25 @@ class SessionStore:
             if job:
                 job.stage = stage
                 logger.info("report_job_stage_changed job_id=%s stage=%s", job.job_id, stage)
+
+    # Publishes (or with None clears) the memory test the user must answer; the job stays
+    # `accepted`, like the other model stages. Clearing never checkpoints, so a cancelled job's
+    # cleanup cannot raise.
+    def generation_resource_check(
+        self, operation: SessionOperation, check: Mapping[str, Any] | None
+    ) -> None:
+        with self._lock, operation.session.lock:
+            if check is not None:
+                self.checkpoint(operation)
+            job = operation.session.generations.get(operation.operation_id)
+            if not job:
+                return
+            job.resource_check = dict(check) if check is not None else None
+            if check is not None:
+                job.stage = "awaiting_resources"
+                logger.info(
+                    "report_job_awaiting_resources job_id=%s level=%s", job.job_id, check["level"]
+                )
 
     def generation_activity(
         self, operation: SessionOperation, event: ReportActivity, *, batch_index: int | None = None

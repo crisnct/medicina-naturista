@@ -186,6 +186,12 @@ aliases for the Windows lock.
   every vLLM start and refuses the start with `OLLAMA_GPU_BUSY` if they are still loaded after 30 s.
   The app unloads Ollama models itself only before an Ollama report. Every Ollama request sends
   `keep_alive` -1 by default (`OLLAMA_KEEP_ALIVE_SECONDS`), so these unloads are what frees the GPU.
+- Colibri (`colibri-qwen3.8-flash-next:125b`) runs on the Windows host, outside Docker, through the host
+  agent `src/scripts/colibri_host_agent.py` (logon task from `colibri_agent_startup.ps1`). Before a
+  Colibri report the app stops the vLLM containers, has the agent close Ollama entirely (restarted
+  through the agent when the job ends, if it ran before) and asks the agent for a RAM/VRAM check; below the thresholds in
+  `core/report_models.py` the job waits for the user's decision (`awaiting_resources`). Any report
+  with another model stops Colibri first. README section "Colibri report model" has the details.
 
 ## Scoring
 
