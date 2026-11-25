@@ -8074,8 +8074,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-449",
       "timestamp": "2026-11-02T14:35:17.874Z",
-      "last_seen": "2026-11-02T14:35:17.874Z",
-      "occurrences": 1,
+      "last_seen": "2026-11-25T06:18:31.752Z",
+      "occurrences": 2,
       "related_bugs": []
     },
     {
@@ -11299,6 +11299,150 @@
       "last_seen": "2026-11-24T16:21:57.878Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/App.tsx",
+      "root_cause": "Had \"source-information-title\"",
+      "fix": "Changed to \"interface.app_data_usage_title\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-629",
+      "timestamp": "2026-11-24T21:11:24.052Z",
+      "last_seen": "2026-11-24T21:11:24.052Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: aside should be details",
+      "file": "src/frontend/App.tsx",
+      "root_cause": "Used \"aside\" instead of \"details\"",
+      "fix": "Changed aside → details",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-630",
+      "timestamp": "2026-11-24T21:11:27.007Z",
+      "last_seen": "2026-11-24T21:11:27.007Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: margin, font-size",
+      "file": "src/frontend/styles.css",
+      "root_cause": "margin: 0 0 8px → 0; font-size: 12px → 17px",
+      "fix": "Changed margin: 0 0 8px → 0; font-size: 12px → 17px",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-631",
+      "timestamp": "2026-11-24T21:11:36.396Z",
+      "last_seen": "2026-11-24T21:11:36.396Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of FragmentsPanel.tsx",
+      "file": "src/frontend/components/FragmentsPanel.tsx",
+      "root_cause": "14 lines replaced/restructured",
+      "fix": "Rewrote 22→31 lines (14 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-632",
+      "timestamp": "2026-11-24T21:14:26.228Z",
+      "last_seen": "2026-11-24T21:14:26.228Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Null/undefined access in FragmentsPanel.tsx",
+      "file": "src/frontend/components/FragmentsPanel.tsx",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-633",
+      "timestamp": "2026-11-24T21:14:36.308Z",
+      "last_seen": "2026-11-24T21:14:36.308Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: skip",
+      "file": "src/frontend/components/FragmentsPanel.tsx",
+      "root_cause": "skip: keyof Filters) => applyFilters(message.fragments, filters, skip) → keyof Filters, read: (fragment: FragmentItem) => number) =>",
+      "fix": "Changed skip: keyof Filters) => applyFilters(message.fragments, filters, skip) → keyof Filters, read: (fragment: FragmentItem) => number) =>",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-634",
+      "timestamp": "2026-11-24T21:15:03.851Z",
+      "last_seen": "2026-11-24T21:15:03.851Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 17px should be 14px",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"17px\" instead of \"14px\"",
+      "fix": "Changed 17px → 14px",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-635",
+      "timestamp": "2026-11-24T21:30:50.278Z",
+      "last_seen": "2026-11-24T21:30:50.278Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/web/main.py",
+      "root_cause": "Was returning: _categories_payload(retriever.category_tree, metad",
+      "fix": "Now returns: {",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-636",
+      "timestamp": "2026-11-25T06:17:20.543Z",
+      "last_seen": "2026-11-25T06:17:20.543Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -11975,7 +12119,16 @@
     "f8c5d85a-f5f7-4065-9cb8-96bc9e4bfea5": true,
     "ca853efb-7d3b-45f8-b77f-153c1b4198c6": true,
     "cdc44807-4b24-4e62-82f8-56d406d3053e": true,
-    "c91550ee-0c7e-4433-88ba-ade5c79bdae1": true
+    "c91550ee-0c7e-4433-88ba-ade5c79bdae1": true,
+    "a15ac3a3-a622-4667-8106-641dd3ca97d6": true,
+    "8566e7d3-eb04-44e2-b0b9-0ad2cdc9d0f2": true,
+    "b4f734a0-e2c4-472b-90e5-9b5474e85dfa": true,
+    "543c255f-1ade-4eb5-b8a8-7282f6fecbd5": true,
+    "d77505e5-c3d4-4482-8172-82d4fb057ead": true,
+    "7e95413a-c95c-4bf0-ae1f-2157743a4e15": true,
+    "33103a31-0ef7-4377-9ccf-229a131ae5e5": true,
+    "7260a65e-30b0-4d0e-aad2-0db74b263c62": true,
+    "0fbf60c5-03f3-4bc0-8e2e-5a6ee3df9d87": true
   },
-  "next_id": 629
+  "next_id": 637
 }

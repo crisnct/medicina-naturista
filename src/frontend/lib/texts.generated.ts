@@ -17,6 +17,11 @@ export const TEXT_PARAMETERS = {
   "interface.app_loading_embedding_model": [],
   "interface.app_data_usage_sources_label": [],
   "interface.app_data_usage_sources_text": [],
+  "interface.app_data_usage_sources_counts_text": [
+    "conditions",
+    "documents",
+    "herbs"
+  ],
   "interface.app_data_usage_providers_label": [],
   "interface.app_data_usage_providers_text": [],
   "interface.app_data_usage_storage_label": [],

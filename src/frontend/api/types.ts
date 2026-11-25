@@ -338,6 +338,9 @@ export interface CategoriesResponse {
   indexGeneration: string | null;
   tree: CategoryNode | null;
   defaultSelection: string[];
+  // Sizes of the condition and product catalogs; absent when the index is not available.
+  conditionCount?: number;
+  herbCount?: number;
 }
 
 export interface ResourceInvalidations {

@@ -3624,3 +3624,34 @@ description: chronological action log per session, consolidated weekly
 | 18:22 | Edited src/frontend/components/FragmentsPanel.tsx | inline fix | ~30 |
 | 18:22 | Edited README.md | inline fix | ~34 |
 | 18:24 | Edited src/frontend/components/FragmentsPanel.tsx | inline fix | ~12 |
+| 22:14 | Session end: 17 writes across 6 files (config.py, search.py, docker-compose.yaml, FragmentsPanel.tsx, README.md) | 2 reads | ~1143 tok |
+
+## Session: 2026-11-24 23:10
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 23:11 | Edited src/frontend/App.tsx | 3→3 lines | ~50 |
+| 23:11 | Edited src/frontend/App.tsx | 3→3 lines | ~16 |
+| 23:11 | Edited src/frontend/styles.css | CSS: cursor, margin-bottom, display | ~66 |
+| 23:14 | Edited src/frontend/components/FragmentsPanel.tsx | modified applyFilters() | ~499 |
+| 23:14 | Edited src/frontend/components/FragmentsPanel.tsx | added nullish coalescing | ~629 |
+| 23:14 | Edited src/frontend/components/FragmentsPanel.tsx | inline fix | ~18 |
+| 23:14 | Edited src/frontend/components/FragmentsPanel.tsx | inline fix | ~20 |
+| 23:14 | Edited src/frontend/components/FragmentsPanel.tsx | inline fix | ~16 |
+| 23:14 | Edited src/frontend/components/FragmentsPanel.tsx | inline fix | ~16 |
+| 23:14 | Edited src/frontend/components/FragmentsPanel.tsx | inline fix | ~16 |
+| 23:15 | Edited src/frontend/components/FragmentsPanel.tsx | 8→8 lines | ~202 |
+| 23:30 | Edited src/frontend/styles.css | CSS: font-weight | ~13 |
+
+## Session: 2026-11-24 23:56
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 00:03 | Session end: 12 writes across 3 files (App.tsx, styles.css, FragmentsPanel.tsx) | 1 reads | ~1914 tok |
+| 08:17 | Edited src/backend/web/main.py | modified _catalog_counts() | ~195 |
+| 08:18 | Edited src/frontend/api/types.ts | 3→6 lines | ~57 |
+| 08:18 | Edited src/frontend/hooks/useCategories.ts | 1→3 lines | ~42 |
+| 08:18 | Edited src/frontend/App.tsx | inline fix | ~25 |
+| 08:18 | Edited src/frontend/App.tsx | CSS: documents, conditions, herbs | ~138 |
+<!-- session:MGM1NmI1OGMtMzM1Zi00ZDc3LWJiNTctZjU4MzYzZTZmNzU0 -->
+| 2026-11-25T06:21:03.305Z | Hero greens deepened to forest tones; Sources note shows document/condition/product counts from /api/categories (conditionCount, herbCount via COUNT(*)); new text key app_data_usage_sources_counts_text; data usage title renamed; category summary title uses nature-primary. Local Vite reads texts from the deployed backend, so a new text key blanks the page until the container is rebuilt. | src/frontend/styles.css,src/backend/web/main.py,src/backend/resources/texts.ro.toml,src/backend/resources/texts.en.toml,src/backend/core/text_contract.py,src/frontend/lib/texts.generated.ts,src/frontend/App.tsx,src/frontend/hooks/useCategories.ts,src/frontend/api/types.ts | ruff, tsc, selected backend tests and 58 frontend tests pass; counts not seen in browser; container rebuild pending (user) |

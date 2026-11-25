@@ -64,6 +64,12 @@ export function App() {
     conversation.sendMessage(message, Array.from(categories.selected), searchSignals.signals, onAccepted);
   };
 
+  const { documentCount, conditionCount, herbCount } = categories;
+  // The counts come from the backend; until all three are known the note keeps its plain wording.
+  const sourcesText = documentCount !== null && conditionCount !== null && herbCount !== null
+    ? tr("interface.app_data_usage_sources_counts_text", { documents: documentCount, conditions: conditionCount, herbs: herbCount })
+    : tr("interface.app_data_usage_sources_text");
+
   return (
     <div id="app-shell">
       <FirstVisitNotice language={language} languageDisabled={languageDisabled}
@@ -123,12 +129,12 @@ export function App() {
           </>
         )}
         <footer className="source-notice">
-          <aside className="source-information" aria-labelledby="source-information-title">
-            <h3 id="source-information-title">{tr("interface.app_data_usage_title")}</h3>
+          <details className="source-information">
+            <summary><h3>{tr("interface.app_data_usage_title")}</h3></summary>
             <ul className="source-points">
               <li>
                 <span className="source-point-icon" aria-hidden="true">📚</span>
-                <div><strong>{tr("interface.app_data_usage_sources_label")}</strong>{tr("interface.app_data_usage_sources_text")}</div>
+                <div><strong>{tr("interface.app_data_usage_sources_label")}</strong>{sourcesText}</div>
               </li>
               <li>
                 <span className="source-point-icon" aria-hidden="true">🤖</span>
@@ -146,7 +152,7 @@ export function App() {
             <p className="source-important">
               <strong>⚕️ {tr("interface.app_data_usage_medical_label")}</strong>{tr("interface.app_data_usage_medical_text")}
             </p>
-          </aside>
+          </details>
         </footer>
       </div>
     </div>

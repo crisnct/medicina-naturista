@@ -447,9 +447,20 @@ def _warm_categories(retriever: Retriever) -> None:
 def get_categories(request: Request):
     retriever = _deps(request).retriever
     if isinstance(retriever, Retriever):
-        with index_reader() as (_connection, metadata):
-            return _categories_payload(retriever.category_tree, metadata.index_generation)
+        with index_reader() as (connection, metadata):
+            return {
+                **_categories_payload(retriever.category_tree, metadata.index_generation),
+                **_catalog_counts(connection),
+            }
     return _categories_payload(retriever.category_tree, None)
+
+
+# The catalog sizes shown in the "Sources" note; both catalogs serve every language.
+def _catalog_counts(connection) -> dict[str, int]:
+    conditions, herbs = connection.execute(
+        "SELECT (SELECT count(*) FROM medical_conditions), (SELECT count(*) FROM herbs)"
+    ).fetchone()
+    return {"conditionCount": conditions, "herbCount": herbs}
 
 
 def _categories_payload(tree, generation):

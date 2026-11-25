@@ -41,27 +41,36 @@ function fileName(path: string): string {
   return path.split("/").pop() || path;
 }
 
+interface Filters {
+  minScore: number;
+  condition: ConditionFilter;
+  minLexical: number;
+  document: "all" | string;
+  minSemantic: number;
+}
+
 // Keep only fragments matching every active filter (score, similarity, condition, lexical
 // match, source document); each filter left at its "no restriction" value
-// passes everything.
-function applyFilters(
-  fragments: FragmentItem[],
-  minScore: number,
-  condition: ConditionFilter,
-  minLexical: number,
-  document: "all" | string,
-  minSemantic: number,
-): FragmentItem[] {
+// passes everything. `skip` leaves one filter out, to see which of its values
+// still have fragments behind them.
+function applyFilters(fragments: FragmentItem[], filters: Filters, skip?: keyof Filters): FragmentItem[] {
+  const { minScore, condition, minLexical, document, minSemantic } = filters;
   return fragments.filter((fragment) => {
-    if (!reachesMinScore(fragment.relevancePercent, minScore)) return false;
+    if (skip !== "minScore" && !reachesMinScore(fragment.relevancePercent, minScore)) return false;
     // At least the threshold; fragments without a cosine similarity never pass.
-    if (minSemantic > 0 && !((fragment.semanticSimilarity ?? -Infinity) >= minSemantic)) return false;
-    if (condition !== "all" && (fragment.conditionMatch ?? "none") !== condition) return false;
+    if (skip !== "minSemantic" && minSemantic > 0 && !((fragment.semanticSimilarity ?? -Infinity) >= minSemantic)) return false;
+    if (skip !== "condition" && condition !== "all" && (fragment.conditionMatch ?? "none") !== condition) return false;
     // At least the threshold (percent); fragments the lexical search did not find never pass.
-    if (minLexical > 0 && !((fragment.lexicalPercent ?? -Infinity) >= minLexical)) return false;
-    if (document !== "all" && fragment.document !== document) return false;
+    if (skip !== "minLexical" && minLexical > 0 && !((fragment.lexicalPercent ?? -Infinity) >= minLexical)) return false;
+    if (skip !== "document" && document !== "all" && fragment.document !== document) return false;
     return true;
   });
+}
+
+// A threshold stays in the list only while some fragment reaches it; the value
+// already chosen is always kept, so the select never shows something else.
+function reachable(values: number[], selected: number, best: number): number[] {
+  return values.filter((value) => value === selected || value <= best + 1e-9);
 }
 
 export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
@@ -79,18 +88,38 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
   // Every source document across ALL fragments (not just the currently
   // filtered ones), so picking a document is always available as an option.
   // Sorted by the displayed file name (A→Z), not by the full path.
-  const documentOptions = useMemo(
-    () =>
-      [...new Set(message.fragments.map((fragment) => fragment.document))].sort((a, b) =>
+  const filters = useMemo<Filters>(
+    () => ({ minScore, condition, minLexical, document: documentFilter, minSemantic }),
+    [minScore, condition, minLexical, documentFilter, minSemantic],
+  );
+  const filtered = useMemo(() => applyFilters(message.fragments, filters), [message.fragments, filters]);
+
+  // Each filter offers only the values that still leave at least one fragment
+  // under the OTHER active filters; its own current choice is always kept.
+  const options = useMemo(() => {
+    const others = (skip: keyof Filters) => applyFilters(message.fragments, filters, skip);
+    const best = (skip: keyof Filters, read: (fragment: FragmentItem) => number) =>
+      Math.max(-Infinity, ...others(skip).map(read));
+    const bestScore = best("minScore", (fragment) => fragment.relevancePercent ?? 0);
+    const bestSemantic = best("minSemantic", (fragment) => fragment.semanticSimilarity ?? -Infinity);
+    const bestLexical = best("minLexical", (fragment) => fragment.lexicalPercent ?? -Infinity);
+    const conditions = new Set(others("condition").map((fragment) => fragment.conditionMatch ?? "none"));
+    const documents = new Set(others("document").map((fragment) => fragment.document));
+    return {
+      scores: MIN_SCORE_OPTIONS.filter(({ value }) => value === 0 || value === minScore || value <= bestScore),
+      semantic: reachable(
+        SEMANTIC_OPTIONS.filter((value) => value >= (message.minSemanticSimilarity ?? 0) - 1e-9),
+        minSemantic,
+        bestSemantic,
+      ),
+      lexical: reachable(lexicalOptions(message.lexicalTieTolerance ?? 0.05), minLexical, bestLexical),
+      conditions: CONDITION_OPTIONS.filter(({ value }) => value === condition || conditions.has(value)),
+      // Sorted by the displayed file name (A→Z), not by the full path.
+      documents: [...new Set([...documents, ...(documentFilter === "all" ? [] : [documentFilter])])].sort((a, b) =>
         fileName(a).localeCompare(fileName(b), "ro", { sensitivity: "base", numeric: true }),
       ),
-    [message.fragments],
-  );
-
-  const filtered = useMemo(
-    () => applyFilters(message.fragments, minScore, condition, minLexical, documentFilter, minSemantic),
-    [message.fragments, minScore, condition, minLexical, documentFilter, minSemantic],
-  );
+    };
+  }, [message.fragments, message.minSemanticSimilarity, message.lexicalTieTolerance, filters, minScore, minSemantic, minLexical, condition, documentFilter]);
   // Only the documents behind the fragments still visible after filtering.
   const documents = [...new Set(filtered.map((fragment) => fragment.document))];
   // Characters of the fragment texts currently shown (after filtering).
@@ -114,7 +143,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
             <div className="fragments-panel-filters">
               <label className="fragments-panel-filter">
                 {tr("common.minimum_score")}<select value={minScore} onChange={(event) => setMinScore(Number(event.target.value))}>
-                  {MIN_SCORE_OPTIONS.map(({ value, label }) => (
+                  {options.scores.map(({ value, label }) => (
                     <option key={value} value={value}>
                       {label}
                     </option>
@@ -125,7 +154,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
                 <label className="fragments-panel-filter">
                   {tr("interface.fragments_condition")}<select value={condition} onChange={(event) => setCondition(event.target.value as ConditionFilter)}>
                     <option value="all">{tr("common.all")}</option>
-                    {CONDITION_OPTIONS.map(({ value, label }) => (
+                    {options.conditions.map(({ value, label }) => (
                       <option key={value} value={value}>
                         {label}
                       </option>
@@ -137,7 +166,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
                 <label className="fragments-panel-filter">
                   {tr("interface.fragments_semantic_score_label")}<select value={minSemantic} onChange={(event) => setMinSemantic(Number(event.target.value))}>
                     <option value={0}>{tr("common.all")}</option>
-                    {SEMANTIC_OPTIONS.filter((value) => value >= (message.minSemanticSimilarity ?? 0) - 1e-9).map((value) => (
+                    {options.semantic.map((value) => (
                       <option key={value} value={value}>
                         {`≥ ${Math.round(value * 100)}%`}
                       </option>
@@ -149,7 +178,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
                 <label className="fragments-panel-filter">
                   {tr("interface.fragments_lexical_match")}<select value={minLexical} onChange={(event) => setMinLexical(Number(event.target.value))}>
                     <option value={0}>{tr("common.all")}</option>
-                    {lexicalOptions(message.lexicalTieTolerance ?? 0.05).map((value) => (
+                    {options.lexical.map((value) => (
                       <option key={value} value={value}>
                         {`≥ ${value}%`}
                       </option>
@@ -160,7 +189,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
               <label className="fragments-panel-filter fragments-panel-filter-document">
                 {tr("interface.fragments_document")}<select value={documentFilter} onChange={(event) => setDocumentFilter(event.target.value)}>
                   <option value="all">{tr("common.all")}</option>
-                  {documentOptions.map((document) => (
+                  {options.documents.map((document) => (
                     <option key={document} value={document} title={document}>
                       {fileName(document)}
                     </option>

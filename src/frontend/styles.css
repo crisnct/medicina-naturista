@@ -44,12 +44,12 @@ body {
 
 #hero-panel {
     overflow: hidden;
-    border: 2px solid #a9c2a3;
+    border: 1px solid #5f8f5a;
     border-radius: 22px;
-    background: #eef5e9;
-    box-shadow: 0 8px 32px #243b2e08;
+    background: rgb(195 248 3 / 0.12);
+    box-shadow: 0 8px 32px rgb(39 46 31 / 0.43);
     font-family: "Segoe UI",Arial,sans-serif;
-    color: #233e33;
+    color: #173a28;
 }
 
 .hero-header {
@@ -65,7 +65,7 @@ body {
     display: flex;
     align-items: center;
     gap: 9px;
-    color: #446554;
+    color: #2f5a40;
     font-size: 11px;
     font-weight: 650;
     letter-spacing: 1.6px;
@@ -91,7 +91,7 @@ body {
     line-height: 1.13;
     letter-spacing: -1.3px;
     margin: 0 0 46px;
-    color: #233e33;
+    color: #173a28;
 }
 
 .hero-title-block h1 span {
@@ -100,7 +100,7 @@ body {
 
 .hero-title-block p {
     font-family: "Segoe UI",Arial,sans-serif;
-    color: #58675f;
+    color: #3f5247;
     font-size: 13px;
     font-style: italic;
     line-height: 1.65;
@@ -128,7 +128,7 @@ body {
     position: absolute;
     inset: 11px 4px 0;
     border-radius: 83px 83px 40px 40px;
-    background: #dde9d8;
+    background: #b5d3a8;
 }
 
 .hero-doctor {
@@ -171,14 +171,14 @@ body {
 
 .hero-person strong {
     display: block;
-    color: #314f3f;
+    color: #234a33;
     font-size: 15px;
     font-weight: 650;
 }
 
 .hero-person figcaption span {
     display: block;
-    color: #66756b;
+    color: #4a5d50;
     font-size: 13px;
     font-style: italic;
     font-weight: 400;
@@ -186,7 +186,7 @@ body {
 }
 
 .hero-title-block { min-width: 0; }
-.hero-medical-note { color: #606d62; font-size: inherit; }
+.hero-medical-note { color: #4c5a50; font-size: inherit; }
 
 #conversation-card {
     position: relative;
@@ -919,7 +919,7 @@ body {
 .category-filter-summary {
     padding: 10px 16px;
     cursor: pointer;
-    color: var(--nature-text);
+    color: var(--nature-primary);
     font-size: 14px;
     font-weight: 700;
 }
@@ -1367,7 +1367,8 @@ button:disabled { cursor: not-allowed; }
 .example-button:hover:not(:disabled), .secondary-button:hover:not(:disabled) { background: var(--nature-soft); }
 .example-button:disabled { color: var(--nature-muted); opacity: 0.65; }
 #message-row > label { font-size: 16px; font-weight: 700; line-height: 1.4; }
-.selection-status { display: block; margin: 4px 0 0 22px; color: var(--nature-muted); font-size: 14px; font-weight: 400; }
+.selection-status { display: inline; margin-left: 8px; color: var(--nature-muted); font-size: 14px; font-weight: 400; }
+.selection-status::before { content: "– "; }
 .search-results-panel {
     display: grid;
     grid-template-columns: 32px minmax(0, 1fr);
@@ -1429,10 +1430,14 @@ button:disabled { cursor: not-allowed; }
     border-radius: 12px;
     background: var(--nature-soft);
 }
+.source-information > summary { cursor: pointer; }
+.source-information[open] > summary { margin-bottom: 8px; }
 .source-information h3 {
-    margin: 0 0 8px;
+    display: inline;
+    margin: 0;
     color: var(--nature-primary);
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 700;
 }
 .source-information p { margin: 0; }
 .source-points { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }

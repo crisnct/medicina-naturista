@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-24T16:24:40.002Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-25T06:18:31.657Z
 > Files: 529 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -561,17 +561,17 @@
 ## src/backend/web/
 
 - `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~577 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~17104 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~17918 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
 
 - `App.test.tsx` — capacityMessage (~1534 tok)
-- `App.tsx` — App (~2166 tok)
+- `App.tsx` — App (~2385 tok)
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~206 tok)
-- `styles.css` — Styles: 90 rules, 15 vars (~12694 tok)
+- `styles.css` — Styles: 95 rules, 15 vars (~12314 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 - `zz_tmp_app.test.tsx` — node (~996 tok)
 
@@ -579,7 +579,7 @@
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
 - `client.ts` — API routes: GET (1 endpoints) (~3102 tok)
-- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3441 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3740 tok)
 
 ## src/frontend/components/
 
@@ -587,7 +587,7 @@
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~1017 tok)
 - `FirstVisitNotice.tsx` — ACKNOWLEDGED_KEY — renders modal (~1004 tok)
 - `FragmentsPanel.test.tsx` (~310 tok)
-- `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3455 tok)
+- `FragmentsPanel.tsx` — CONDITION_OPTIONS (~4271 tok)
 - `GeneratePanel.test.tsx` — message (~878 tok)
 - `GeneratePanel.tsx` — MODEL_LABELS (~6060 tok)
 - `GenerationBatchEstimate.tsx` — Typing in a limit field must not ask the server for a count on every keystroke. (~900 tok)
@@ -610,7 +610,7 @@
 ## src/frontend/hooks/
 
 - `useCategories.test.tsx` — client (~350 tok)
-- `useCategories.ts` — Exports useCategories (~578 tok)
+- `useCategories.ts` — Exports useCategories (~604 tok)
 - `useConversation.ts` — Exports useConversation (~2537 tok)
 - `useMinScore.ts` — The "Scor minim" chosen for a search, shared by its fragments filter and by the (~222 tok)
 - `useOutputRecommendation.ts` — Exports OutputRecommendation, useOutputRecommendation (~444 tok)

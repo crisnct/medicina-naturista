@@ -40,6 +40,8 @@ export function useCategories(enabled = true) {
     isLoading: query.isPending,
     tree: data?.tree ?? null,
     documentCount: data?.tree?.totalDocuments ?? null,
+    conditionCount: data?.conditionCount ?? null,
+    herbCount: data?.herbCount ?? null,
     selected: selections[language],
     setSelected: (value: SetStateAction<Set<string>>) => {
       const current = latest.current[language];
