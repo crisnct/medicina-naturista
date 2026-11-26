@@ -3757,3 +3757,63 @@ description: chronological action log per session, consolidated weekly
 
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
+| 15:56 | Edited src/scripts/colibri_host_agent.py | expanded (+11 lines) | ~217 |
+| 15:56 | Edited src/scripts/colibri_host_agent.py | 2→4 lines | ~79 |
+| 15:56 | Edited src/scripts/colibri_host_agent.py | expanded (+8 lines) | ~146 |
+| 15:56 | Edited src/scripts/colibri_host_agent.py | 1→2 lines | ~50 |
+| 15:56 | Edited src/scripts/colibri_host_agent.py | 2→4 lines | ~73 |
+| 15:56 | Edited src/scripts/colibri_host_agent.py | 4→5 lines | ~34 |
+| 15:56 | Edited src/scripts/colibri_host_agent.py | 7→8 lines | ~81 |
+| 15:58 | Edited src/scripts/colibri_host_agent.py | 5→7 lines | ~119 |
+| 15:58 | Edited src/scripts/colibri_host_agent.py | modified prefill_extra_gb() | ~125 |
+| 15:58 | Edited src/scripts/colibri_host_agent.py | inline fix | ~24 |
+| 15:58 | Edited src/scripts/colibri_host_agent.py | 1→3 lines | ~39 |
+| 16:19 | Session end: 34 writes across 11 files (2026-11-25-integrare-colibri-qwen38-flash-next.md, colibri_bench.py, colibri_host_agent.py, colibri_agent_startup.ps1, contracts.py) | 12 reads | ~28749 tok |
+| 18:42 | Edited README.md | inline fix | ~107 |
+| 18:42 | Edited README.md | inline fix | ~188 |
+| 18:43 | Created aiplans/2026-11-25-performanta-colibri.md | — | ~1997 |
+<!-- session:YzY1NTg5ZDYtNmI0MS00MDAwLTk2MjUtNjIyM2Y0Nzg3ODA2 -->
+| 2026-11-25T16:45:04.319Z | Colibri prefill analysis: Q38_PREFILL_BATCH_ROWS=32 default made the CPU recompute routed experts per 32 rows; agent --prefill-rows (default 2048, workspace 0.5 MiB/row, RAM minimum +0.46 GB); measured 8.5 -> 28.7 tok/s prompt on 3k tokens; analysis doc and README updated | src/scripts/colibri_host_agent.py,README.md,aiplans/2026-11-25-performanta-colibri.md | ruff clean; benchmarks measured on host; agent restart and UI report not verified |
+| 18:46 | Edited aiplans/2026-11-25-performanta-colibri.md | modified GGUF() | ~96 |
+| 18:48 | Edited aiplans/2026-11-25-performanta-colibri.md | modified 1() | ~223 |
+| 18:48 | Edited aiplans/2026-11-25-performanta-colibri.md | 1→5 lines | ~105 |
+| 18:48 | Edited src/backend/core/report_models.py | 4→5 lines | ~128 |
+| 21:06 | Edited src/backend/core/report_models.py | 3→5 lines | ~116 |
+| 21:07 | Edited aiplans/2026-11-25-performanta-colibri.md | 1→2 lines | ~31 |
+| 21:07 | Edited aiplans/2026-11-25-performanta-colibri.md | 1→3 lines | ~70 |
+| 21:07 | Edited aiplans/2026-11-25-performanta-colibri.md | 4→4 lines | ~87 |
+| 21:29 | Session end: 22 writes across 4 files (colibri_host_agent.py, README.md, 2026-11-25-performanta-colibri.md, report_models.py) | 10 reads | ~14473 tok |
+| 22:06 | Edited src/scripts/colibri_host_agent.py | added 1 import(s) | ~15 |
+| 22:06 | Edited src/scripts/colibri_host_agent.py | expanded (+6 lines) | ~135 |
+| 22:06 | Edited src/scripts/colibri_host_agent.py | modified stop() | ~63 |
+| 22:06 | Edited src/scripts/colibri_host_agent.py | added error handling | ~256 |
+| 22:25 | Edited src/scripts/colibri_host_agent.py | added error handling | ~368 |
+| 22:25 | Edited src/scripts/colibri_host_agent.py | modified check() | ~56 |
+| 22:25 | Edited src/scripts/colibri_host_agent.py | 2→7 lines | ~84 |
+| 23:00 | Edited src/scripts/colibri_host_agent.py | expanded (+9 lines) | ~242 |
+| 23:00 | Edited src/scripts/colibri_host_agent.py | 1→2 lines | ~16 |
+| 23:00 | Edited src/scripts/colibri_host_agent.py | 2→6 lines | ~87 |
+| 23:11 | Edited src/scripts/colibri_host_agent.py | much() → 501() | ~106 |
+| 23:12 | Edited src/scripts/colibri_host_agent.py | 5→5 lines | ~139 |
+| 23:12 | Edited README.md | inline fix | ~101 |
+| 23:12 | Edited README.md | 2→4 lines | ~310 |
+| 23:12 | Edited README.md | "coli plan" → "s WSL VM and compacts its" | ~100 |
+| 23:13 | Edited src/backend/core/report_models.py | 3→3 lines | ~77 |
+| 23:13 | Edited aiplans/2026-11-25-performanta-colibri.md | expanded (+68 lines) | ~1172 |
+
+## Session: 2026-11-26 07:18
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 08:02 | Edited src/scripts/colibri_host_agent.py | expanded (+7 lines) | ~124 |
+| 08:02 | Edited src/scripts/colibri_host_agent.py | modified adaptive_cap() | ~114 |
+| 08:02 | Edited src/scripts/colibri_host_agent.py | 3→4 lines | ~80 |
+| 08:02 | Edited src/scripts/colibri_host_agent.py | inline fix | ~28 |
+| 08:02 | Edited src/scripts/colibri_host_agent.py | modified head() | ~143 |
+| 08:23 | Edited src/scripts/colibri_host_agent.py | 1→3 lines | ~56 |
+| 08:26 | Edited src/scripts/colibri_host_agent.py | added error handling | ~148 |
+| 08:27 | Edited src/scripts/colibri_host_agent.py | running() → poll() | ~113 |
+| 08:27 | Edited src/scripts/colibri_host_agent.py | 1→2 lines | ~16 |
+| 08:27 | Edited src/scripts/colibri_host_agent.py | added 1 import(s) | ~12 |
+| 08:27 | Edited README.md | "coli.cmd import" → "coli import" | ~135 |
+| 08:27 | Edited README.md | modified short() | ~275 |

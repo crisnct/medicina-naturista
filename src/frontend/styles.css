@@ -1420,7 +1420,8 @@ button:disabled { cursor: not-allowed; }
 /* The button and, under it, the model of the last report, both on the button's left edge. */
 .generate-report-action { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; flex-shrink: 0; }
 .generate-report-action .generate-inline { align-self: flex-start; }
-.generate-last-report { margin: 0; line-height: 1.35; }
+/* Never wider than the button above it: it takes no width of its own and wraps inside the button's. */
+.generate-last-report { width: 0; min-width: 100%; margin: 0; line-height: 1.35; overflow-wrap: anywhere; }
 .eligible-count { margin: 0; font-weight: 400; }
 .report-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .report-actions > * { flex: 1 1 220px; text-align: center; }

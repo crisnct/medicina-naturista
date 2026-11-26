@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-25T13:02:04.799Z
-> Files: 536 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-26T06:27:33.084Z
+> Files: 537 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -14,7 +14,7 @@
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
 - `docker-compose.yaml` — Docker Compose: 2 services (~5568 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~34819 tok)
+- `README.md` — Project documentation (~36741 tok)
 
 ## .claude/
 
@@ -416,6 +416,7 @@
 ## aiplans/
 
 - `2026-11-25-integrare-colibri-qwen38-flash-next.md` — Plan: Colibri cu Qwen3.8-Flash-Next UD-Q2_0 ca model de raport (~4643 tok)
+- `2026-11-25-performanta-colibri.md` — Analiza: viteza raportului cu Colibri (Qwen3.8-Flash-Next UD-Q2_0) (~3381 tok)
 
 ## architecture/
 
@@ -508,7 +509,7 @@
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2911 tok)
 - `report_metrics.py` — Validated measurements for one published report, independent of storage. (~1282 tok)
-- `report_models.py` — Supported report choices and their immutable provider routing. (~2754 tok)
+- `report_models.py` — Supported report choices and their immutable provider routing. (~3360 tok)
 - `score_formula.py` — Operator-supplied arithmetic over named variables (L1/L2/L3 for the product tops, P1/P2/L/V/K for (~1695 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16810 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6762 tok)
@@ -641,7 +642,7 @@
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20376 tok)
 - `colibri_agent_startup.ps1` — Registers (or with -Remove deletes) the logon task that runs the Colibri host agent. (~622 tok)
-- `colibri_host_agent.py` — Windows host agent for Colibri: memory status, `coli plan` checks, start and stop of the server. (~5401 tok)
+- `colibri_host_agent.py` — Windows host agent for Colibri: memory status, `coli plan` checks, start and stop of the server. (~8850 tok)
 - `evaluate_retrieval.py` — Measure retrieval quality and latency of ai/search.rank() against the (~3856 tok)
 - `extract_pdf_markdown.py` — Options: observe, body_size (~14210 tok)
 - `fix_markdown_headings.py` — fix_headings, main (~1489 tok)

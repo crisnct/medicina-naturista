@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-25T13:02:04.799Z",
-    "fileCount": 536,
+    "lastScanned": "2026-11-26T06:27:33.084Z",
+    "fileCount": 537,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "b08a5bca0ef07bd3583de9e994b5fe3aa17d105cd6fd9e6fa8d1a53c2fef96b3",
-    "storeUpdatedAt": "2026-11-25T13:02:04.811Z",
-    "rootHash": "ec516decf66719c2"
+    "renderedHash": "e531591c0272cc271d8e5a5fd6002f40fa35cea1882a87da1c85054f0470864f",
+    "storeUpdatedAt": "2026-11-26T06:27:33.095Z",
+    "rootHash": "4fb4c42199c1cb52"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -875,11 +875,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 34819,
-      "hash": "f9eed3ca38cc453c",
-      "size": 140192,
-      "mtimeMs": 1795537321072.4897,
-      "updatedAt": "2026-11-24T16:22:01.340Z",
+      "tokens": 36741,
+      "hash": "e5584b21e436070f",
+      "size": 147885,
+      "mtimeMs": 1795674452836.1404,
+      "updatedAt": "2026-11-26T06:27:33.083Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -7117,74 +7117,74 @@
     },
     "src/backend/core/report_models.py": {
       "description": "Supported report choices and their immutable provider routing.",
-      "tokens": 2754,
-      "hash": "1668586e3cc7987a",
-      "size": 9636,
-      "mtimeMs": 1794118475780.007,
-      "updatedAt": "2026-11-08T06:14:36.067Z",
+      "tokens": 3360,
+      "hash": "b1618930b5554c77",
+      "size": 11757,
+      "mtimeMs": 1795641189691.3784,
+      "updatedAt": "2026-11-25T21:13:09.929Z",
       "source": "hook",
       "symbols": [
         {
           "name": "ReportModelSpec",
           "kind": "class",
-          "startLine": 67,
-          "endLine": 168,
-          "tokens": 1214
+          "startLine": 76,
+          "endLine": 198,
+          "tokens": 1563
         },
         {
           "name": "catalog_output_tokens",
           "kind": "fn",
-          "startLine": 169,
-          "endLine": 175,
-          "tokens": 106
+          "startLine": 199,
+          "endLine": 206,
+          "tokens": 115
         },
         {
           "name": "default_batch_workers",
           "kind": "fn",
-          "startLine": 176,
-          "endLine": 183,
-          "tokens": 110
+          "startLine": 207,
+          "endLine": 215,
+          "tokens": 131
         },
         {
           "name": "parallel_context_divisor",
           "kind": "fn",
-          "startLine": 184,
-          "endLine": 189,
+          "startLine": 216,
+          "endLine": 221,
           "tokens": 66
         },
         {
           "name": "parallel_context_tokens",
           "kind": "fn",
-          "startLine": 190,
-          "endLine": 195,
+          "startLine": 222,
+          "endLine": 227,
           "tokens": 79
         },
         {
           "name": "request_context_tokens",
           "kind": "fn",
-          "startLine": 196,
-          "endLine": 199,
+          "startLine": 228,
+          "endLine": 231,
           "tokens": 47
         },
         {
           "name": "parse_report_effort",
           "kind": "fn",
-          "startLine": 200,
-          "endLine": 206,
+          "startLine": 232,
+          "endLine": 238,
           "tokens": 80
         },
         {
           "name": "parse_report_model",
           "kind": "fn",
-          "startLine": 207,
-          "endLine": 213,
+          "startLine": 239,
+          "endLine": 245,
           "tokens": 78
         },
         {
           "name": "parse_report_models",
           "kind": "fn",
-          "startLine": 214,
-          "endLine": 226,
+          "startLine": 246,
+          "endLine": 258,
           "tokens": 189
         }
       ]
@@ -14063,82 +14063,103 @@
     },
     "src/scripts/colibri_host_agent.py": {
       "description": "Windows host agent for Colibri: memory status, `coli plan` checks, start and stop of the server.",
-      "tokens": 5401,
-      "hash": "4814e89b44573231",
-      "size": 18905,
-      "mtimeMs": 1795611724537.6926,
-      "updatedAt": "2026-11-25T13:02:04.798Z",
+      "tokens": 8850,
+      "hash": "2e8c514bff0a6ed8",
+      "size": 30977,
+      "mtimeMs": 1795674423935.532,
+      "updatedAt": "2026-11-26T06:27:04.223Z",
       "source": "hook",
       "symbols": [
         {
           "name": "AgentConfig",
           "kind": "class",
-          "startLine": 63,
-          "endLine": 86,
-          "tokens": 190
+          "startLine": 108,
+          "endLine": 135,
+          "tokens": 269
         },
         {
           "name": "_MemoryStatus",
           "kind": "class",
-          "startLine": 87,
-          "endLine": 101,
+          "startLine": 136,
+          "endLine": 150,
           "tokens": 167
         },
         {
           "name": "ram_available_gb",
           "kind": "fn",
-          "startLine": 102,
-          "endLine": 110,
+          "startLine": 151,
+          "endLine": 159,
           "tokens": 111
         },
         {
           "name": "vram_gb",
           "kind": "fn",
-          "startLine": 111,
-          "endLine": 131,
-          "tokens": 220
+          "startLine": 160,
+          "endLine": 184,
+          "tokens": 299
+        },
+        {
+          "name": "release_wsl_cache",
+          "kind": "fn",
+          "startLine": 185,
+          "endLine": 213,
+          "tokens": 299
+        },
+        {
+          "name": "adaptive_cap",
+          "kind": "fn",
+          "startLine": 214,
+          "endLine": 221,
+          "tokens": 80
+        },
+        {
+          "name": "prefill_extra_gb",
+          "kind": "fn",
+          "startLine": 222,
+          "endLine": 227,
+          "tokens": 83
         },
         {
           "name": "parse_plan",
           "kind": "fn",
-          "startLine": 132,
-          "endLine": 161,
-          "tokens": 311
+          "startLine": 228,
+          "endLine": 257,
+          "tokens": 321
         },
         {
           "name": "Agent",
           "kind": "class",
-          "startLine": 162,
-          "endLine": 330,
-          "tokens": 2122
+          "startLine": 258,
+          "endLine": 545,
+          "tokens": 3805
         },
         {
           "name": "AgentError",
           "kind": "class",
-          "startLine": 331,
-          "endLine": 337,
+          "startLine": 546,
+          "endLine": 552,
           "tokens": 49
         },
         {
           "name": "_handler",
           "kind": "fn",
-          "startLine": 338,
-          "endLine": 386,
-          "tokens": 547
+          "startLine": 553,
+          "endLine": 607,
+          "tokens": 594
         },
         {
           "name": "_arguments",
           "kind": "fn",
-          "startLine": 387,
-          "endLine": 437,
-          "tokens": 653
+          "startLine": 608,
+          "endLine": 672,
+          "tokens": 876
         },
         {
           "name": "main",
           "kind": "fn",
-          "startLine": 438,
-          "endLine": 461,
-          "tokens": 196
+          "startLine": 673,
+          "endLine": 697,
+          "tokens": 213
         }
       ]
     },
@@ -14149,6 +14170,15 @@
       "size": 2330,
       "mtimeMs": 1795606238879.3875,
       "updatedAt": "2026-11-25T11:30:39.771Z",
+      "source": "hook"
+    },
+    "aiplans/2026-11-25-performanta-colibri.md": {
+      "description": "Analiza: viteza raportului cu Colibri (Qwen3.8-Flash-Next UD-Q2_0)",
+      "tokens": 3381,
+      "hash": "680194bc0755ea4b",
+      "size": 13537,
+      "mtimeMs": 1795641190687.1052,
+      "updatedAt": "2026-11-25T21:13:10.919Z",
       "source": "hook"
     }
   },

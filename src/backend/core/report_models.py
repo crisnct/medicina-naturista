@@ -56,8 +56,10 @@ REPORT_THINKING_CONTEXT_DIVISOR: Final = 4
 MAX_REPORT_BATCH_WORKERS: Final = 300
 
 # Memory below which a Colibri report asks the user first: with 15.7 GB of RAM available and
-# ~11 GB of VRAM free, Qwen3.8-Flash-Next UD-Q2_0 wrote at 3.7-4.35 tok/s (2026-11-25).
-COLIBRI_RECOMMENDED_RAM_GB: Final = 15.0
+# ~11 GB of VRAM free, Qwen3.8-Flash-Next UD-Q2_0 wrote at 3.7-4.35 tok/s (2026-11-25). The
+# agent's server (--cap 110, 2048-row prefill) needs ~14.5-15 GB and one started at 13.9 GB made
+# Windows page heavily, hence 16 GB (aiplans/2026-11-25-performanta-colibri.md).
+COLIBRI_RECOMMENDED_RAM_GB: Final = 16.0
 COLIBRI_RECOMMENDED_VRAM_GB: Final = 10.0
 
 # The user-selected depth of AI reasoning; each provider maps it to its own parameter.
@@ -151,10 +153,11 @@ REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
             vllm_service="vllm-qwen25",
         ),
         # Served by Colibri on the Windows host (not in Docker), started and stopped through the
-        # host agent. Its experts stream from disk, so it reads a prompt at ~10 tok/s and writes at
-        # ~4 tok/s (aiplans/2026-11-25-integrare-colibri-qwen38-flash-next.md): one process, the
-        # batches one after another, and a 16k + 10k + 3k batch that fits its 32k context. A 16k
-        # prompt needs ~25 minutes before the first token, hence the hour-long read timeout.
+        # host agent. Its experts stream from disk, so with ~20 GB of RAM available it reads a
+        # prompt at ~23 tok/s and writes at ~5 tok/s, at ~14 GB much slower
+        # (aiplans/2026-11-25-performanta-colibri.md): one process, the batches one after another,
+        # and a 16k + 10k + 3k batch that fits its 32k context. The answer with its thinking can
+        # take most of an hour at that writing speed, hence the hour-long read timeout.
         "colibri-qwen3.8-flash-next:125b": ReportModelSpec(
             "colibri",
             "qwen3.8-flash-next-colibri",

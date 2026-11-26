@@ -11497,6 +11497,150 @@
       "last_seen": "2026-11-25T11:30:16.674Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of colibri_host_agent.py",
+      "file": "src/scripts/colibri_host_agent.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 5→7 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-640",
+      "timestamp": "2026-11-25T13:58:53.015Z",
+      "last_seen": "2026-11-25T13:58:53.015Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of report_models.py",
+      "file": "src/backend/core/report_models.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→5 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-641",
+      "timestamp": "2026-11-25T19:06:59.667Z",
+      "last_seen": "2026-11-25T19:06:59.667Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: threading should be tempfile",
+      "file": "src/scripts/colibri_host_agent.py",
+      "root_cause": "Used \"threading\" instead of \"tempfile\"",
+      "fix": "Changed threading → tempfile",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-642",
+      "timestamp": "2026-11-25T20:06:46.984Z",
+      "last_seen": "2026-11-25T20:06:46.984Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _request_graceful_stop()",
+      "file": "src/scripts/colibri_host_agent.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-643",
+      "timestamp": "2026-11-25T20:06:52.129Z",
+      "last_seen": "2026-11-25T20:06:52.129Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in release_wsl_cache()",
+      "file": "src/scripts/colibri_host_agent.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-644",
+      "timestamp": "2026-11-25T20:25:11.161Z",
+      "last_seen": "2026-11-25T20:25:11.161Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of colibri_host_agent.py",
+      "file": "src/scripts/colibri_host_agent.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→4 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-645",
+      "timestamp": "2026-11-26T06:02:12.120Z",
+      "last_seen": "2026-11-26T06:02:12.120Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in healthy()",
+      "file": "src/scripts/colibri_host_agent.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-646",
+      "timestamp": "2026-11-26T06:26:56.922Z",
+      "last_seen": "2026-11-26T06:26:56.922Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: subprocess should be socket",
+      "file": "src/scripts/colibri_host_agent.py",
+      "root_cause": "Used \"subprocess\" instead of \"socket\"",
+      "fix": "Changed subprocess → socket",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-647",
+      "timestamp": "2026-11-26T06:27:04.259Z",
+      "last_seen": "2026-11-26T06:27:04.259Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12185,7 +12329,15 @@
     "0fbf60c5-03f3-4bc0-8e2e-5a6ee3df9d87": true,
     "29c52347-70cf-419d-9606-e1718074e772": true,
     "d51acbf2-3818-4ae8-9e69-78bf98ac851d": true,
-    "14e611a3-fb9a-4b9a-887e-c0f9068b8c7d": true
+    "14e611a3-fb9a-4b9a-887e-c0f9068b8c7d": true,
+    "ac971396-2fe8-4f3d-a3ce-a727e1d66045": true,
+    "2551f32b-c86a-49c0-bed1-d846948311f7": true,
+    "568a0a33-2f87-45c9-8131-107a6d531c9d": true,
+    "ab138841-3e79-4b8f-b5a8-c4f6e1143ad5": true,
+    "15eb7e58-87d9-4be4-87bd-abb4e8120046": true,
+    "3f26002d-9b40-486d-ad7e-e69dbc5f5d18": true,
+    "fca0726a-fff0-47bc-98aa-5ed62ffe547f": true,
+    "3a8d94a8-14bc-4070-b613-375cd612e4f6": true
   },
-  "next_id": 640
+  "next_id": 648
 }

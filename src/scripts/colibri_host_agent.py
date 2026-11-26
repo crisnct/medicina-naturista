@@ -15,7 +15,9 @@ import json
 import logging
 import os
 import re
+import socket
 import subprocess
+import tempfile
 import threading
 import time
 import urllib.error
@@ -32,7 +34,21 @@ ALLOWED_HOSTS = frozenset({"127.0.0.1", "localhost", "host.docker.internal"})
 PLAN_TIMEOUT_SECONDS = 180
 COMMAND_TIMEOUT_SECONDS = 20
 HEALTH_TIMEOUT_SECONDS = 2.0
+PORT_PROBE_SECONDS = 0.3
 STOP_WAIT_SECONDS = 15.0
+# The engine writes its expert history (.coli_usage), from which the next start puts the most used
+# experts on the GPU, only when the server ends on its own; Windows has no SIGTERM, so a forced
+# kill lost it and the GPU took its experts in file order. With the history of one report a decode
+# step took 517 ms instead of 616 (2026-11-25). `coli stop` asks the server through a file in the
+# temp folder (it inherits the agent's), and the server lets the engine drain for up to 30 s.
+GRACEFUL_STOP_SECONDS = 60.0
+# Docker Desktop's VM and what frees its page cache (run as root inside it, see release_wsl_cache).
+WSL_DISTRO = "docker-desktop"
+WSL_RELEASE_SCRIPT = (
+    "sync; echo 3 > /proc/sys/vm/drop_caches; echo 1 > /proc/sys/vm/compact_memory; free -m"
+)
+# Every child gets stdin=DEVNULL: under the logon task's pythonw the agent has no console, and
+# `wsl` and `coli plan` then hung until their timeouts (2026-11-26).
 CREATE_NO_WINDOW = 0x08000000
 CREATE_NEW_PROCESS_GROUP = 0x00000200
 OLLAMA_VERSION_URL = "http://127.0.0.1:11434/api/version"
@@ -45,6 +61,33 @@ DEFAULT_THREADS = 23
 # 1k-token prompt then gave no token in 12 minutes; 100 read it in 105 s (2026-11-25). One prompt
 # chunk needs more experts per layer than a small cache holds, so the reads go one by one.
 DEFAULT_CAP = 110
+# With less RAM the cap shrinks to what is left after the server's fixed part (resident weights,
+# KV and state, prefill workspace, prefix store: ~8 GiB) and a 1 GiB margin, at ~0.068 GiB a slot
+# per layer: at ~15 GB available cap 110 made Windows page and read a prompt at 19 tok/s, cap 88
+# at 28 tok/s, with the same decode (2026-11-26).
+CAP_FIXED_GB = 9.0
+CAP_SLOT_GB = 0.068
+MIN_ADAPTIVE_CAP = 40
+# Prompt rows whose routed experts the CPU computes in one pass (Q38_PREFILL_BATCH_ROWS). With
+# Colibri's 32 the CPU expanded every expert's 2-bit weights again for each 32 rows: a
+# 3,100-token prompt read at 10.8 tok/s, at 2048 rows (one CUDA chain chunk) at 25.2 tok/s
+# (2026-11-25). Bounded by the engine's 8192.
+DEFAULT_PREFILL_ROWS = 2048
+MAX_PREFILL_ROWS = 8192
+# One row of Qwen3.8-Flash-Next's MoE prefill scratch (family_registry.py, moe_row_bytes: 512
+# experts, top-10, hidden 2560, expert width 640). Colibri's workspace cap (64 MiB) holds ~240 of
+# them, so the agent raises it to half a MiB a row; `coli plan` prices only the 64 MiB, so the
+# rest is added to the RAM minimum.
+# COLI_PREFIX_STORE_MB: the prompts Colibri keeps in RAM to reuse their beginning.
+PREFIX_STORE_MIB = 512
+# CUDA_EXPERT_GB, the VRAM Colibri may fill with its trunk and experts, is the free VRAM nvidia-smi
+# reports less this much. With 10.5 of 11.0 GiB the GPU held 1,724 experts instead of 783, nothing
+# spilled into shared memory, and a decode step took 360 ms instead of 501 (5.3 tok/s instead of
+# 4.0; aiplans/2026-11-25-performanta-colibri.md).
+VRAM_HEADROOM_GB = 0.5
+PREFILL_ROW_KIB = 270
+PREFILL_WORKSPACE_MIB_PER_ROW = 0.5
+COLIBRI_PREFILL_WORKSPACE_MIB = 64
 
 _GB_RE = r"([0-9]+(?:\.[0-9]+)?)\s*GB"
 _RAM_RE = re.compile(
@@ -78,6 +121,8 @@ class AgentConfig:
     prefix_dir: Path = Path(r"C:\Colibri\prefix-cache")
     # The Ollama install whose processes a Colibri report stops (its tray app restarts it).
     ollama_dir: Path = Path(os.environ.get("LOCALAPPDATA", "")) / "Programs" / "Ollama"
+    # Q38_PREFILL_BATCH_ROWS of the engine; 0 leaves Colibri's own 32.
+    prefill_rows: int = 0
 
     @property
     def coli(self) -> Path:
@@ -123,6 +168,7 @@ def vram_gb() -> tuple[float | None, float | None]:
             capture_output=True,
             text=True,
             timeout=COMMAND_TIMEOUT_SECONDS,
+            stdin=subprocess.DEVNULL,
             creationflags=CREATE_NO_WINDOW,
             check=True,
         ).stdout
@@ -132,8 +178,54 @@ def vram_gb() -> tuple[float | None, float | None]:
     return round(free / 1024, 1), round(total / 1024, 1)
 
 
-# The plan's figures, from the text `coli plan` prints; unknown lines are ignored.
-def parse_plan(output: str) -> dict[str, Any]:
+# Docker Desktop's WSL VM keeps the files it read as cache, and Windows gets that RAM back only
+# once Linux frees it. Dropping the cache and compacting the free pages (WSL returns them in whole
+# blocks) before the memory is measured leaves it to Colibri. A failure only logs: the report goes
+# on with the RAM there is.
+def release_wsl_cache() -> None:
+    before = ram_available_gb()
+    try:
+        completed = subprocess.run(
+            ["wsl", "-d", WSL_DISTRO, "-u", "root", "-e", "sh", "-c", WSL_RELEASE_SCRIPT],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=COMMAND_TIMEOUT_SECONDS,
+            stdin=subprocess.DEVNULL,
+            creationflags=CREATE_NO_WINDOW,
+        )
+    except (OSError, subprocess.SubprocessError) as exc:
+        logger.warning("wsl_cache_release_failed type=%s", type(exc).__name__)
+        return
+    memory = next(
+        (line.split() for line in completed.stdout.splitlines() if line.startswith("Mem:")), []
+    )
+    logger.info(
+        "wsl_cache_released code=%s ram_available_gb_before=%s linux_free_mb=%s",
+        completed.returncode,
+        before,
+        memory[3] if len(memory) > 3 else None,
+    )
+
+
+# The cache the available RAM leaves room for, never above the configured one; 0 keeps 0
+# (Colibri's planner chooses).
+def adaptive_cap(cap: int, available_gb: float) -> int:
+    if cap <= 0:
+        return cap
+    room = int((available_gb - CAP_FIXED_GB) / CAP_SLOT_GB)
+    return max(MIN_ADAPTIVE_CAP, min(cap, room))
+
+
+# The scratch of a prefill pass beyond the 64 MiB `coli plan` counts, in GB.
+def prefill_extra_gb(rows: int) -> float:
+    return max(0.0, rows * PREFILL_ROW_KIB / 1024 - COLIBRI_PREFILL_WORKSPACE_MIB) / 1024
+
+
+# The plan's figures, from the text `coli plan` prints; unknown lines are ignored. `extra_gb` is
+# memory the server needs beyond what the planner prices.
+def parse_plan(output: str, extra_gb: float = 0.0) -> dict[str, Any]:
     ram = _RAM_RE.search(output)
     vram = _VRAM_RE.search(output)
     hit = _HIT_RE.search(output)
@@ -153,7 +245,7 @@ def parse_plan(output: str) -> dict[str, Any]:
     return {
         "planValid": valid,
         "ramBudgetGb": float(ram.group(1)) if ram else None,
-        "ramMinimumGb": round(dense + runtime + RAM_MINIMUM_MARGIN_GB, 1)
+        "ramMinimumGb": round(dense + runtime + RAM_MINIMUM_MARGIN_GB + extra_gb, 1)
         if dense is not None and runtime is not None
         else None,
         "expertsPerLayer": cap,
@@ -170,7 +262,17 @@ class Agent:
         # One change at a time: a start must not race the stop of the same server.
         self.change_lock = threading.Lock()
 
+    # Windows answers a connection to a closed loopback port only after retrying it, so the HTTP
+    # probe alone waited its whole 2 s timeout whenever the server was stopped, and /status took
+    # 4-6 s. A listening port accepts in milliseconds.
     def healthy(self) -> bool:
+        try:
+            with socket.create_connection(
+                ("127.0.0.1", self.config.serve_port), timeout=PORT_PROBE_SECONDS
+            ):
+                pass
+        except OSError:
+            return False
         try:
             with urllib.request.urlopen(
                 self.config.health_url, timeout=HEALTH_TIMEOUT_SECONDS
@@ -184,16 +286,18 @@ class Agent:
 
     def status(self) -> dict[str, Any]:
         vram_free, vram_total = vram_gb()
+        healthy = self.healthy()
         return {
             "ramAvailableGb": ram_available_gb(),
             "vramFreeGb": vram_free,
             "vramTotalGb": vram_total,
-            "running": self.running(),
-            "healthy": self.healthy(),
+            "running": healthy or (self._process is not None and self._process.poll() is None),
+            "healthy": healthy,
         }
 
     # The memory must be measured with the server stopped: a running one already holds its share.
     def check(self) -> dict[str, Any]:
+        release_wsl_cache()
         status = self.status()
         if status["healthy"]:
             return {**status, "planValid": True, "planWarnings": []}
@@ -213,15 +317,19 @@ class Agent:
                 errors="replace",
                 timeout=PLAN_TIMEOUT_SECONDS,
                 cwd=self.config.colibri_dir,
+                stdin=subprocess.DEVNULL,
                 creationflags=CREATE_NO_WINDOW,
             )
         except (OSError, subprocess.SubprocessError) as exc:
             logger.error("plan_failed type=%s", type(exc).__name__)
             raise AgentError(502, "PLAN_FAILED") from None
-        plan = parse_plan(f"{completed.stdout}\n{completed.stderr}")
-        # `coli plan` sizes its own cache; the server runs with the configured one.
+        plan = parse_plan(
+            f"{completed.stdout}\n{completed.stderr}", prefill_extra_gb(self.config.prefill_rows)
+        )
+        # `coli plan` sizes its own cache; the server runs with the configured one, made smaller
+        # when the RAM is short.
         if self.config.cap > 0 and plan["planValid"]:
-            plan["expertsPerLayer"] = self.config.cap
+            plan["expertsPerLayer"] = adaptive_cap(self.config.cap, status["ramAvailableGb"])
         logger.info(
             "plan_checked valid=%s ram_available_gb=%s ram_budget_gb=%s experts_per_layer=%s",
             plan["planValid"],
@@ -262,7 +370,7 @@ class Agent:
                         # DNS-rebinding guard answers 403 to any name it was not given.
                         "--allowed-host",
                         "host.docker.internal",
-                        *(["--cap", str(self.config.cap)] if self.config.cap > 0 else []),
+                        *(["--cap", str(plan["expertsPerLayer"])] if self.config.cap > 0 else []),
                     ],
                     stdout=log,
                     stderr=subprocess.STDOUT,
@@ -291,16 +399,36 @@ class Agent:
         # a report with another model causes, so the next Colibri report skips that part again.
         environment["Q38_PREFIX_DISK"] = "1"
         environment["Q38_PREFIX_DIR"] = str(self.config.prefix_dir)
+        # In RAM that store grows to a quarter of the free memory (2.5-3.4 GB here), outside the
+        # memory Colibri plans for its experts; the reports reuse only the system prompt (a 250 MiB
+        # checkpoint), so the rest goes to the experts.
+        environment["COLI_PREFIX_STORE_MB"] = str(PREFIX_STORE_MIB)
+        # The GPU computes the experts it holds; Colibri's own allowance is the free VRAM Windows
+        # reports less 1 GiB, which here left 1.1 GB, 783 experts, beside the 8 GB trunk.
+        vram_free, _ = vram_gb()
+        if vram_free is not None and vram_free > VRAM_HEADROOM_GB:
+            environment["CUDA_EXPERT_GB"] = f"{vram_free - VRAM_HEADROOM_GB:.1f}"
+        if self.config.prefill_rows > 0:
+            environment["Q38_PREFILL_BATCH_ROWS"] = str(self.config.prefill_rows)
+            environment["Q38_PREFILL_WORKSPACE_MIB"] = str(
+                max(
+                    COLIBRI_PREFILL_WORKSPACE_MIB,
+                    round(self.config.prefill_rows * PREFILL_WORKSPACE_MIB_PER_ROW),
+                )
+            )
         return environment
 
     def stop(self) -> dict[str, Any]:
         with self.change_lock:
+            if self.healthy():
+                self._request_graceful_stop()
             if self._process is not None and self._process.poll() is None:
                 # coli.cmd starts Python, which starts the engine: the whole tree must go.
                 subprocess.run(
                     ["taskkill", "/T", "/F", "/PID", str(self._process.pid)],
                     capture_output=True,
                     timeout=COMMAND_TIMEOUT_SECONDS,
+                    stdin=subprocess.DEVNULL,
                     creationflags=CREATE_NO_WINDOW,
                 )
             self._process = None
@@ -315,6 +443,22 @@ class Agent:
                 time.sleep(0.5)
             logger.info("server_stopped")
             return {"state": "stopped"}
+
+    # The request `coli stop` makes; the forced stop above remains for a server that ignores it.
+    def _request_graceful_stop(self) -> None:
+        request = Path(tempfile.gettempdir()) / f"coli-serve-{self.config.serve_port}.stop"
+        try:
+            request.write_text(f"{os.getpid()}\n", encoding="ascii")
+        except OSError:
+            return
+        started = time.monotonic()
+        while time.monotonic() - started < GRACEFUL_STOP_SECONDS and (
+            self._process.poll() is None if self._process is not None else self.healthy()
+        ):
+            time.sleep(0.5)
+        # Not taken (a server that does not watch for it) must not stop the next one at its start.
+        request.unlink(missing_ok=True)
+        logger.info("graceful_stop seconds=%.1f", time.monotonic() - started)
 
     def ollama_running(self) -> bool:
         try:
@@ -378,6 +522,7 @@ class Agent:
             ["powershell", "-NoProfile", "-NonInteractive", "-Command", script],
             capture_output=True,
             timeout=COMMAND_TIMEOUT_SECONDS,
+            stdin=subprocess.DEVNULL,
             creationflags=CREATE_NO_WINDOW,
         )
 
@@ -393,6 +538,7 @@ class Agent:
             ["powershell", "-NoProfile", "-NonInteractive", "-Command", script],
             capture_output=True,
             timeout=COMMAND_TIMEOUT_SECONDS,
+            stdin=subprocess.DEVNULL,
             creationflags=CREATE_NO_WINDOW,
         )
 
@@ -467,9 +613,13 @@ def _arguments() -> tuple[AgentConfig, Path]:
     parser.add_argument(
         "--model",
         type=Path,
+        # Imported with the MTP head (`coli import ... --mtp MTP\mtp-...-shared-Q8_0.gguf --out`):
+        # the head drafts three tokens a step, and at the same RAM the decode went from 4.9 to
+        # 6.8 tok/s with the prompt read as fast (2026-11-26). Without the head: the plain
+        # Qwen3.8-Flash-Next-UD-Q2_0.colibri next to it.
         default=Path(
             r"C:\Colibri\Models\Qwen3.8-Flash-Next-GGUF\UD-Q2_0"
-            r"\Qwen3.8-Flash-Next-UD-Q2_0.colibri"
+            r"\Qwen3.8-Flash-Next-UD-Q2_0-mtp.colibri"
         ),
     )
     parser.add_argument("--port", type=int, default=8011)
@@ -483,6 +633,7 @@ def _arguments() -> tuple[AgentConfig, Path]:
     parser.add_argument("--threads", type=int, default=DEFAULT_THREADS)
     parser.add_argument("--cap", type=int, default=DEFAULT_CAP)
     parser.add_argument("--prefix-dir", type=Path, default=Path(r"C:\Colibri\prefix-cache"))
+    parser.add_argument("--prefill-rows", type=int, default=DEFAULT_PREFILL_ROWS)
     parser.add_argument(
         "--ollama-dir",
         type=Path,
@@ -493,6 +644,8 @@ def _arguments() -> tuple[AgentConfig, Path]:
         parser.error("--cap must be 0 (Colibri's planner) or a positive number")
     if args.threads < 0:
         parser.error("--threads must be 0 (Colibri's default) or a positive number")
+    if not 0 <= args.prefill_rows <= MAX_PREFILL_ROWS:
+        parser.error(f"--prefill-rows must be 0 (Colibri's 32) up to {MAX_PREFILL_ROWS}")
     for name in ("port", "serve_port"):
         if not 1 <= getattr(args, name) <= 65535:
             parser.error(f"--{name.replace('_', '-')} must be a valid TCP port")
@@ -512,6 +665,7 @@ def _arguments() -> tuple[AgentConfig, Path]:
         args.cap,
         args.prefix_dir,
         args.ollama_dir,
+        args.prefill_rows,
     )
     return config, args.agent_log
 
@@ -527,12 +681,13 @@ def main() -> None:
     )
     server = ThreadingHTTPServer((LISTEN_HOST, config.port), _handler(Agent(config)))
     logger.info(
-        "agent_listening port=%s serve_port=%s model_id=%s threads=%s cap=%s",
+        "agent_listening port=%s serve_port=%s model_id=%s threads=%s cap=%s prefill_rows=%s",
         config.port,
         config.serve_port,
         config.model_id,
         config.threads or "default",
         config.cap or "auto",
+        config.prefill_rows or "default",
     )
     server.serve_forever()
 
