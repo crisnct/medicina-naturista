@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-26T08:49:46.091Z",
+    "lastScanned": "2026-11-26T09:36:38.493Z",
     "fileCount": 537,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "f4d8ed4bfd92d40cbe1b5141766d0421725c32be58852f021d6a0b2ece99b357",
-    "storeUpdatedAt": "2026-11-26T08:49:46.103Z",
-    "rootHash": "b861d251c61d8dc8"
+    "renderedHash": "5bedda61d38ca421add5ab35c38c43991a5c57aac19e954c0dec04c08f3795c4",
+    "storeUpdatedAt": "2026-11-26T09:36:38.550Z",
+    "rootHash": "807c71b2521110b0"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -3430,11 +3430,11 @@
     },
     "architecture/README.md": {
       "description": "Project documentation",
-      "tokens": 410,
-      "hash": "d2e781fbaeda0183",
-      "size": 1651,
-      "mtimeMs": 1792700110737.8662,
-      "updatedAt": "2026-10-22T20:15:11.479Z",
+      "tokens": 520,
+      "hash": "3076a3b88d678b35",
+      "size": 2096,
+      "mtimeMs": 1795685797622.8252,
+      "updatedAt": "2026-11-26T09:36:38.488Z",
       "source": "hook"
     },
     "aiPlans/tmp/product-condition-diagram/InspectXmind.java": {

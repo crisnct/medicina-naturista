@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-26T08:49:46.091Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-26T09:36:38.493Z
 > Files: 537 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -420,7 +420,7 @@
 
 ## architecture/
 
-- `README.md` — Project documentation (~410 tok)
+- `README.md` — Project documentation (~520 tok)
 
 ## medicina-naturista-documente/data/documents/en/Partial Safe/Cristians Reports/
 
