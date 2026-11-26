@@ -23,6 +23,13 @@ JsonFormat = Literal["text_format", "response_format"] | None
 
 LOCAL_HOSTS = frozenset({"localhost", "127.0.0.1", "::1", "host.docker.internal"})
 
+# Ollama num_ctx of message classification and condition identification. Both calls must use the
+# same value, or Ollama reloads the model between them. Measured on qwen3.5:4b (2026-11-26): the
+# largest prompt, a 50,000-character message (MAX_CHAT_CHARS), is 18,712 tokens; at 32768 the
+# model holds 4.5 GB, all in VRAM, against 17 GB (8 GB of it in RAM, three times slower) at the
+# server's 262144.
+LOCAL_CLASSIFIER_CONTEXT_TOKENS = 32768
+
 
 class _GenerationLimits(TypedDict):
     max_output_tokens: int

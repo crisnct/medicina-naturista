@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-26T08:23:16.013Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-26T08:49:46.091Z
 > Files: 537 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -433,7 +433,7 @@
 ## src/backend/ai/
 
 - `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~20363 tok)
-- `condition_ai.py` — Identification of the condition a message names when the dictionary does not (~3319 tok)
+- `condition_ai.py` — Identification of the condition a message names when the dictionary does not (~3382 tok)
 - `condition_repository.py` — Ordered PostgreSQL condition snapshots shared by retrieval and indexing. (~1579 tok)
 - `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~4072 tok)
 - `effort.py` — Map the user-selected report effort to each provider's own reasoning parameter. (~264 tok)
@@ -461,9 +461,9 @@
 - `herb_safety.py` — Read published model-knowledge messages; consultation never invokes a model. (~1386 tok)
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
-- `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
+- `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9708 tok)
 - `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~6074 tok)
-- `providers.py` — Per-provider transport settings for report generation. (~2270 tok)
+- `providers.py` — Per-provider transport settings for report generation. (~2646 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3085 tok)
 - `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~8120 tok)

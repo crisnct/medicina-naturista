@@ -16,7 +16,7 @@ from backend.ai.client import OllamaReportClient
 from backend.ai.conditions import _normalize
 from backend.ai.herb_repository import HerbCatalogUnavailable
 from backend.ai.herbs import HerbCatalog
-from backend.ai.providers import ProviderConfig
+from backend.ai.providers import LOCAL_CLASSIFIER_CONTEXT_TOKENS, ProviderConfig
 from backend.ai.query_terms import plain
 from backend.config import Settings
 from backend.core.herb_categories import (
@@ -475,6 +475,7 @@ class MessageClassifier:
                 send_store=False,
                 max_context_chars=0,
                 max_output_tokens=settings.message_classification_max_output_tokens,
+                context_tokens=LOCAL_CLASSIFIER_CONTEXT_TOKENS,
                 read_timeout_seconds=settings.message_classification_timeout_seconds,
                 stream=False,
                 temperature=0.0,

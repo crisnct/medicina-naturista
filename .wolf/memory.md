@@ -3831,3 +3831,15 @@ description: chronological action log per session, consolidated weekly
 
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
+
+## Session: 2026-11-26 10:35
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 10:49 | Edited src/backend/ai/providers.py | modified 4b() | ~151 |
+| 10:49 | Edited src/backend/ai/condition_ai.py | inline fix | ~23 |
+| 10:49 | Edited src/backend/ai/condition_ai.py | 2→3 lines | ~55 |
+| 10:49 | Edited src/backend/ai/message_classification.py | inline fix | ~23 |
+| 10:49 | Edited src/backend/ai/message_classification.py | 2→3 lines | ~67 |
+<!-- session:NGE5NTYxMWMtMDU3OC00Y2M4LTgzNjYtNTFlNmFiOTBjZjIw -->
+| 2026-11-26T08:54:16.376Z | Set Ollama num_ctx 32768 for message classification and condition identification (shared constant LOCAL_CLASSIFIER_CONTEXT_TOKENS in providers.py): qwen3.5:4b went from 17 GB (8 GB RAM, 18 tok/s) at the server 262144 to 4.49 GB all in VRAM (60 tok/s); largest prompt 18,712 tokens at MAX_CHAT_CHARS 50000 | src/backend/ai/providers.py,src/backend/ai/condition_ai.py,src/backend/ai/message_classification.py | ruff ok, 684 unit tests pass, live check: ctx 32768 all VRAM, no reload between the two calls; container not rebuilt |

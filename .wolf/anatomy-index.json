@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-26T08:23:16.013Z",
+    "lastScanned": "2026-11-26T08:49:46.091Z",
     "fileCount": 537,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "ba86756f38f2c3712137477201e73739a08f178283b566da55727eb679cac7f5",
-    "storeUpdatedAt": "2026-11-26T08:23:16.024Z",
-    "rootHash": "df37b83cade4f683"
+    "renderedHash": "f4d8ed4bfd92d40cbe1b5141766d0421725c32be58852f021d6a0b2ece99b357",
+    "storeUpdatedAt": "2026-11-26T08:49:46.103Z",
+    "rootHash": "b861d251c61d8dc8"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -1016,82 +1016,82 @@
     },
     "src/backend/ai/message_classification.py": {
       "description": "Small, validated intent decisions through the existing local Ollama model.",
-      "tokens": 9335,
-      "hash": "0bba76311c1b4722",
-      "size": 32691,
-      "mtimeMs": 1793191358908.1443,
-      "updatedAt": "2026-10-28T12:42:40.231Z",
+      "tokens": 9708,
+      "hash": "79b1ccc6cdf32fa2",
+      "size": 33995,
+      "mtimeMs": 1795682985844.6304,
+      "updatedAt": "2026-11-26T08:49:46.091Z",
       "source": "hook",
       "symbols": [
         {
           "name": "MessageClassification",
           "kind": "class",
-          "startLine": 35,
-          "endLine": 78,
+          "startLine": 36,
+          "endLine": 79,
           "tokens": 667
         },
         {
           "name": "explicit_remedy_request",
           "kind": "fn",
-          "startLine": 79,
-          "endLine": 109,
-          "tokens": 406
+          "startLine": 80,
+          "endLine": 118,
+          "tokens": 560
         },
         {
           "name": "_top_categories",
           "kind": "fn",
-          "startLine": 110,
-          "endLine": 126,
+          "startLine": 119,
+          "endLine": 135,
           "tokens": 160
         },
         {
           "name": "_top_decision",
           "kind": "fn",
-          "startLine": 127,
-          "endLine": 153,
+          "startLine": 136,
+          "endLine": 162,
           "tokens": 216
         },
         {
           "name": "_condition_herb_top",
           "kind": "fn",
-          "startLine": 154,
-          "endLine": 230,
-          "tokens": 1007
+          "startLine": 163,
+          "endLine": 241,
+          "tokens": 1014
         },
         {
           "name": "explicit_herb_top",
           "kind": "fn",
-          "startLine": 231,
-          "endLine": 332,
-          "tokens": 1373
+          "startLine": 242,
+          "endLine": 347,
+          "tokens": 1393
         },
         {
           "name": "complete_general_question",
           "kind": "fn",
-          "startLine": 333,
-          "endLine": 356,
+          "startLine": 348,
+          "endLine": 371,
           "tokens": 301
         },
         {
           "name": "explicit_herb_request",
           "kind": "fn",
-          "startLine": 357,
-          "endLine": 387,
-          "tokens": 368
+          "startLine": 372,
+          "endLine": 409,
+          "tokens": 458
         },
         {
           "name": "_semantic_condition_top",
           "kind": "fn",
-          "startLine": 388,
-          "endLine": 428,
-          "tokens": 457
+          "startLine": 410,
+          "endLine": 451,
+          "tokens": 478
         },
         {
           "name": "MessageClassifier",
           "kind": "class",
-          "startLine": 429,
-          "endLine": 703,
-          "tokens": 3885
+          "startLine": 452,
+          "endLine": 728,
+          "tokens": 3930
         }
       ]
     },
@@ -6241,54 +6241,54 @@
     },
     "src/backend/ai/providers.py": {
       "description": "Per-provider transport settings for report generation.",
-      "tokens": 2270,
-      "hash": "5134cf666495ad2e",
-      "size": 7942,
-      "mtimeMs": 1794031343495.9778,
-      "updatedAt": "2026-11-07T06:02:23.813Z",
+      "tokens": 2646,
+      "hash": "4153f64c9c418576",
+      "size": 9259,
+      "mtimeMs": 1795682973754.948,
+      "updatedAt": "2026-11-26T08:49:34.704Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_GenerationLimits",
           "kind": "class",
-          "startLine": 27,
-          "endLine": 34,
+          "startLine": 34,
+          "endLine": 41,
           "tokens": 49
         },
         {
           "name": "ProviderConfig",
           "kind": "class",
-          "startLine": 35,
-          "endLine": 64,
+          "startLine": 42,
+          "endLine": 71,
           "tokens": 306
         },
         {
           "name": "_is_local",
           "kind": "fn",
-          "startLine": 65,
-          "endLine": 70,
+          "startLine": 72,
+          "endLine": 77,
           "tokens": 72
         },
         {
           "name": "default_max_output_tokens",
           "kind": "fn",
-          "startLine": 71,
-          "endLine": 78,
+          "startLine": 78,
+          "endLine": 85,
           "tokens": 106
         },
         {
           "name": "_catalog_choice",
           "kind": "fn",
-          "startLine": 79,
-          "endLine": 96,
-          "tokens": 170
+          "startLine": 86,
+          "endLine": 104,
+          "tokens": 183
         },
         {
           "name": "provider_config",
           "kind": "fn",
-          "startLine": 97,
-          "endLine": 210,
-          "tokens": 1276
+          "startLine": 105,
+          "endLine": 237,
+          "tokens": 1505
         }
       ]
     },
@@ -6525,123 +6525,123 @@
     },
     "src/backend/ai/condition_ai.py": {
       "description": "Identification of the condition a message names when the dictionary does not",
-      "tokens": 3319,
-      "hash": "e4ba6e2c73da2e5b",
-      "size": 11616,
-      "mtimeMs": 1793191581957.4883,
-      "updatedAt": "2026-10-28T12:46:22.977Z",
+      "tokens": 3382,
+      "hash": "f8fc2ed54da9e41c",
+      "size": 11838,
+      "mtimeMs": 1795682982510.7705,
+      "updatedAt": "2026-11-26T08:49:42.744Z",
       "source": "hook",
       "symbols": [
         {
           "name": "AIConditionResult",
           "kind": "class",
-          "startLine": 45,
-          "endLine": 61,
+          "startLine": 46,
+          "endLine": 62,
           "tokens": 173
         },
         {
           "name": "_BackendFailure",
           "kind": "class",
-          "startLine": 62,
-          "endLine": 68,
+          "startLine": 63,
+          "endLine": 69,
           "tokens": 60
         },
         {
           "name": "_provider",
           "kind": "fn",
-          "startLine": 69,
-          "endLine": 94,
-          "tokens": 238
+          "startLine": 70,
+          "endLine": 96,
+          "tokens": 254
         },
         {
           "name": "_client",
           "kind": "fn",
-          "startLine": 95,
-          "endLine": 103,
+          "startLine": 97,
+          "endLine": 105,
           "tokens": 78
         },
         {
           "name": "_system_prompt",
           "kind": "fn",
-          "startLine": 104,
-          "endLine": 107,
-          "tokens": 26
+          "startLine": 106,
+          "endLine": 109,
+          "tokens": 29
         },
         {
           "name": "_user_message",
           "kind": "fn",
-          "startLine": 108,
-          "endLine": 114,
+          "startLine": 110,
+          "endLine": 116,
           "tokens": 110
         },
         {
           "name": "_validate",
           "kind": "fn",
-          "startLine": 115,
-          "endLine": 158,
+          "startLine": 117,
+          "endLine": 160,
           "tokens": 540
         },
         {
           "name": "_ask",
           "kind": "fn",
-          "startLine": 159,
-          "endLine": 162,
+          "startLine": 161,
+          "endLine": 164,
           "tokens": 32
         },
         {
           "name": "_ask_client",
           "kind": "fn",
-          "startLine": 163,
-          "endLine": 183,
-          "tokens": 229
+          "startLine": 165,
+          "endLine": 187,
+          "tokens": 242
         },
         {
           "name": "clear_cache",
           "kind": "fn",
-          "startLine": 184,
-          "endLine": 187,
+          "startLine": 188,
+          "endLine": 191,
           "tokens": 31
         },
         {
           "name": "close_clients",
           "kind": "fn",
-          "startLine": 188,
-          "endLine": 195,
+          "startLine": 192,
+          "endLine": 199,
           "tokens": 66
         },
         {
           "name": "_dictionary_condition",
           "kind": "fn",
-          "startLine": 196,
-          "endLine": 201,
+          "startLine": 200,
+          "endLine": 205,
           "tokens": 81
         },
         {
           "name": "identify_conditions",
           "kind": "fn",
-          "startLine": 202,
-          "endLine": 241,
+          "startLine": 206,
+          "endLine": 245,
           "tokens": 515
         },
         {
           "name": "with_ai_conditions",
           "kind": "fn",
-          "startLine": 242,
-          "endLine": 274,
+          "startLine": 246,
+          "endLine": 278,
           "tokens": 389
         },
         {
           "name": "resolved_for",
           "kind": "fn",
-          "startLine": 275,
-          "endLine": 285,
+          "startLine": 279,
+          "endLine": 289,
           "tokens": 120
         },
         {
           "name": "catalog_condition_names",
           "kind": "fn",
-          "startLine": 286,
-          "endLine": 290,
+          "startLine": 290,
+          "endLine": 294,
           "tokens": 98
         }
       ]

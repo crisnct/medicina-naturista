@@ -23,7 +23,7 @@ import httpx
 from backend.ai import conditions
 from backend.ai.client import AIUnavailable, OllamaReportClient, ResponsesClient
 from backend.ai.conditions import Condition, QuerySegment, ResolvedQuery, _normalize, resolve_query
-from backend.ai.providers import ProviderConfig
+from backend.ai.providers import LOCAL_CLASSIFIER_CONTEXT_TOKENS, ProviderConfig
 from backend.config import settings
 from backend.core.contracts import IdentifiedCondition
 from backend.core.language import Language, current_language, read_prompt
@@ -83,6 +83,7 @@ def _provider() -> ProviderConfig:
         send_store=False,
         max_context_chars=0,
         max_output_tokens=settings.condition_ai_max_output_tokens,
+        context_tokens=LOCAL_CLASSIFIER_CONTEXT_TOKENS,
         read_timeout_seconds=settings.condition_ai_timeout_seconds,
         stream=False,
         temperature=0.0,

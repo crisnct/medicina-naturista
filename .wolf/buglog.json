@@ -11677,6 +11677,42 @@
       "last_seen": "2026-11-26T08:21:53.535Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: ProviderConfig should be LOCAL_CLASSIFIER_CONTEXT_TOKENS",
+      "file": "src/backend/ai/condition_ai.py",
+      "root_cause": "Used \"ProviderConfig\" instead of \"LOCAL_CLASSIFIER_CONTEXT_TOKENS\"",
+      "fix": "Changed ProviderConfig → LOCAL_CLASSIFIER_CONTEXT_TOKENS",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-650",
+      "timestamp": "2026-11-26T08:49:39.830Z",
+      "last_seen": "2026-11-26T08:49:39.830Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: ProviderConfig should be LOCAL_CLASSIFIER_CONTEXT_TOKENS",
+      "file": "src/backend/ai/message_classification.py",
+      "root_cause": "Used \"ProviderConfig\" instead of \"LOCAL_CLASSIFIER_CONTEXT_TOKENS\"",
+      "fix": "Changed ProviderConfig → LOCAL_CLASSIFIER_CONTEXT_TOKENS",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-651",
+      "timestamp": "2026-11-26T08:49:43.761Z",
+      "last_seen": "2026-11-26T08:49:43.761Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12375,7 +12411,9 @@
     "fca0726a-fff0-47bc-98aa-5ed62ffe547f": true,
     "3a8d94a8-14bc-4070-b613-375cd612e4f6": true,
     "8031e081-93bf-4881-a5e9-e3c9a07eb342": true,
-    "503c6fd3-be7f-4e9b-a5d9-e67c77b792c2": true
+    "503c6fd3-be7f-4e9b-a5d9-e67c77b792c2": true,
+    "d6e1c442-cd3b-4849-8170-7599057892b6": true,
+    "b156b86c-fa09-4523-8b3e-446e3d1ec0e0": true
   },
-  "next_id": 650
+  "next_id": 652
 }
