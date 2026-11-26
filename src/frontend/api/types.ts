@@ -388,6 +388,8 @@ export type LocalModelRole = "query_embedding" | "classifier" | "report" | "inde
 // One local model in memory. The percentages add up to 100, or are both null when the split is
 // unknown; approximate marks an estimate (Colibri), loading a server that does not answer yet.
 export interface LocalModel {
+  // What an unload names: the Ollama model, the vLLM Compose service, or "colibri".
+  id: string;
   name: string;
   runtime: LocalModelRuntime;
   roles: LocalModelRole[];
@@ -401,6 +403,8 @@ export interface LocalModelsState {
   available: boolean;
   partial: boolean;
   models: LocalModel[];
+  // The viewer is the admin: each model gets an unload button.
+  canUnload?: boolean;
 }
 
 export interface MessagesResponse extends ResourceInvalidations {

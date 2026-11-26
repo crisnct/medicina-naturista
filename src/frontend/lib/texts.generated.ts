@@ -509,5 +509,9 @@ export const TEXT_PARAMETERS = {
   "interface.local_models_role_report": [],
   "interface.local_models_role_index_embedding": [],
   "interface.local_models_role_translation": [],
-  "interface.local_models_role_unknown": []
+  "interface.local_models_role_unknown": [],
+  "interface.local_models_unload": [
+    "name"
+  ],
+  "interface.local_models_unload_failed": []
 } as const;

@@ -28,13 +28,16 @@ logger = logging.getLogger("naturist.llm_orchestrator")
 
 # A container is named medicina-<service>; the Compose label must agree before anything changes.
 MANAGED_SERVICES = ("vllm-qwen35", "vllm-qwen25")
-# Visible so the app can refuse to warm up beside it, never changed by the app: it may be
-# mid-translation (vllm-translate) or mid-build (vllm-embed).
+# Visible so the app can refuse to warm up beside it; the app stops one only when the admin unloads
+# it from the window, since it may be mid-translation (vllm-translate) or mid-build (vllm-embed).
 OBSERVED_SERVICES = ("vllm-translate", "vllm-embed")
 # The index build starts and stops this one itself, from the host; the app's
 # report models never do, so it is listed above as observed and a report refuses to start beside it.
 BUILD_SERVICE = "vllm-embed"
 STARTABLE_SERVICES = (*MANAGED_SERVICES, BUILD_SERVICE)
+# The admin may unload any local model from the app's window, so every server can be stopped;
+# vllm-translate is still never started here.
+STOPPABLE_SERVICES = (*STARTABLE_SERVICES, "vllm-translate")
 DOCKER_SOCKET = "/var/run/docker.sock"
 LISTEN_PORT = 8080
 STOP_GRACE_SECONDS = 30
@@ -233,7 +236,7 @@ def start_service(service: str) -> dict[str, Any]:
 
 # Answers only after the container has exited, which frees its GPU memory (measured).
 def stop_service(service: str) -> dict[str, Any]:
-    if service not in STARTABLE_SERVICES:
+    if service not in STOPPABLE_SERVICES:
         raise OrchestratorError(404, "UNKNOWN_SERVICE")
     if service_status(service)["state"] == "missing":
         raise OrchestratorError(409, "CONTAINER_MISSING")

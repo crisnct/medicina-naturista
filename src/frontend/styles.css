@@ -1774,6 +1774,21 @@ p.source-important {
     border-radius: 2px;
 }
 .local-model-bar-ram { background: var(--nature-accent); }
+.local-model-unload {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    border: 1px solid var(--nature-border);
+    border-radius: 50%;
+    font-size: 11px;
+    line-height: 1;
+    color: var(--nature-danger);
+    background: var(--nature-surface);
+    cursor: pointer;
+}
+.local-model-unload:hover:not(:disabled) { color: #fff; background: var(--nature-danger); }
+.local-model-unload:disabled { cursor: wait; opacity: .6; }
+.local-model-unload:focus-visible { outline: 2px solid var(--nature-focus); outline-offset: 1px; }
 .local-model-bar-vram { background: var(--nature-primary); }
 .local-model-loading {
     padding: 0 5px;

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { LocalModel, LocalModelRuntime } from "../api/types";
-import { useLocalModels } from "../hooks/useLocalModels";
+import { useLocalModels, useUnloadLocalModel } from "../hooks/useLocalModels";
 import { tr } from "../lib/texts";
 
 const RUNTIMES: LocalModelRuntime[] = ["ollama", "vllm", "colibri"];
@@ -60,6 +60,7 @@ function Placement({ model }: { model: LocalModel }) {
 export function LocalModelsDock() {
   const [open, setOpen] = useState(initiallyOpen);
   const query = useLocalModels();
+  const unload = useUnloadLocalModel();
   const state = query.data;
   const models = state?.available ? state.models : [];
 
@@ -111,6 +112,15 @@ export function LocalModelsDock() {
                     <span className="local-model-name">{model.name}</span>
                     {model.loading && <span className="local-model-loading">{tr("interface.local_models_loading")}</span>}
                     <Placement model={model} />
+                    {state?.canUnload && (
+                      <button type="button" className="local-model-unload"
+                        aria-label={tr("interface.local_models_unload", { name: model.name })}
+                        title={tr("interface.local_models_unload", { name: model.name })}
+                        disabled={unload.isPending}
+                        onClick={() => unload.mutate(model)}>
+                        <span aria-hidden="true">{unload.isPending && unload.variables?.id === model.id ? "…" : "×"}</span>
+                      </button>
+                    )}
                   </div>
                   {model.roles.map((role) => (
                     <p key={role} className="local-model-role">{tr(ROLE_LABELS[role])}</p>
@@ -122,6 +132,7 @@ export function LocalModelsDock() {
         ))
       )}
       {state?.available && state.partial && <p className="local-models-note">{tr("interface.local_models_partial")}</p>}
+      {unload.isError && <p className="local-models-note" role="alert">{tr("interface.local_models_unload_failed")}</p>}
     </aside>
   );
 }

@@ -406,6 +406,9 @@ local_models_role_report = "Scrie raportul din fragmentele alese."
 local_models_role_index_embedding = "Calculează vectorii la construirea indexului."
 local_models_role_translation = "Traduce documentele bibliotecii."
 local_models_role_unknown = "Model Ollama încărcat în afara aplicației."
+# Parameters: name
+local_models_unload = "Descarcă {name} din memorie"
+local_models_unload_failed = "Modelul nu a putut fi descărcat."
 
 [conversation]
 search_not_allowed = "Acest mesaj nu pornește o căutare de fragmente."
@@ -502,6 +505,7 @@ email_sent = "✅ Am trimis documentul la {recipient}."
 herb_regional_names = " (denumiri regionale: {aliases})"
 
 [errors]
+local_model_unload_forbidden = "Doar administratorul poate descărca modelele AI locale din memorie."
 positive_ranking_not_ready = "Clasamentul recomandărilor pozitive nu este pregătit. Operatorul trebuie să pregătească și să publice o rulare completă."
 positive_ranking_stale = "Clasamentul recomandărilor pozitive trebuie actualizat după schimbarea indexului sau a configurației."
 caution_ranking_not_ready = "Avertismentele nu sunt pregătite pentru această rulare. Operatorul trebuie să pregătească și să publice proiecția locală."

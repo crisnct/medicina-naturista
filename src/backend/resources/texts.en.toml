@@ -377,6 +377,9 @@ local_models_role_report = "Writes the report from the selected fragments."
 local_models_role_index_embedding = "Computes the vectors while the index is built."
 local_models_role_translation = "Translates the library's documents."
 local_models_role_unknown = "Ollama model loaded outside the app."
+# Parameters: name
+local_models_unload = "Unload {name} from memory"
+local_models_unload_failed = "The model could not be unloaded."
 
 [conversation]
 search_not_allowed = "This message does not start an excerpt search."
@@ -456,6 +459,7 @@ email_sent = "✅ The document was sent to {recipient}."
 herb_regional_names = " (alternative names: {aliases})"
 
 [errors]
+local_model_unload_forbidden = "Only the administrator can unload the local AI models from memory."
 positive_ranking_not_ready = "The positive recommendation ranking is not ready. The operator must prepare and publish a complete run."
 positive_ranking_stale = "The positive recommendation ranking must be updated after an index or configuration change."
 caution_ranking_not_ready = "Cautions are not prepared for this run. The operator must prepare and publish the local projection."

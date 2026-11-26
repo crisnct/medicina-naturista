@@ -203,6 +203,21 @@ class VllmRuntime:
                 return False
         return any(item.get("state") in _RUNNING_STATES for item in status["observed"].values())
 
+    # The admin's unload from the window of loaded models, whatever uses the model: an Ollama model
+    # leaves once its running requests end (keep_alive 0; Ollama stays up), a vLLM server stops
+    # (a report or index build using it fails), Colibri stops gracefully. `ident` is the window's
+    # id: the Ollama model, the Compose service, or "colibri".
+    def unload_local_model(self, runtime: str, ident: str) -> None:
+        if runtime == "ollama":
+            self._agent("POST", "/ollama/release", {"model": ident})
+        elif runtime == "vllm":
+            self._stop(ident)
+        elif runtime == "colibri":
+            self._agent("POST", "/stop")
+        else:
+            raise ValueError(f"Unknown runtime {runtime!r}")
+        logger.info("local_model_unloaded runtime=%s model=%s", runtime, ident)
+
     # The release of one Ollama model (the classifier after a message), through the host agent.
     # Never while a Colibri report runs, which keeps Ollama stopped; a failure only logs, since
     # the model then leaves at the end of its keep-alive.

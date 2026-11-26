@@ -171,6 +171,13 @@ class MessageRequest(BaseModel):
     messageId: str | None = Field(default=None, pattern=r"^[A-Za-z0-9_-]{8,64}$")
 
 
+# One model of the window of loaded local models: its runtime and the id the window shows. The id
+# pattern is the agent's own model-name rule; a vLLM id must also be a known service.
+class LocalModelUnloadRequest(BaseModel):
+    runtime: Literal["ollama", "vllm", "colibri"]
+    id: str = Field(pattern=r"^[\w.:/-]{1,200}$")
+
+
 # The "Scor minim" chosen next to "Generează raportul": only fragments whose
 # relevance_percent is at least this value are sent to the AI (0 = all).
 class GenerateRequest(BaseModel):
@@ -773,10 +780,33 @@ def _load_busy(request: Request, *, on_cpu: bool) -> bool:
 # have no source to read; the reader caches one answer for every visitor for a few seconds.
 @router.get("/api/local-models")
 def get_local_models(request: Request):
-    reader = _deps(request).local_models
+    deps = _deps(request)
+    reader = deps.local_models
     if reader is None:
-        return {"available": False, "partial": False, "models": []}
-    return reader()
+        return {"available": False, "partial": False, "models": [], "canUnload": False}
+    owner = getattr(request.state, "owner_authorized", False)
+    return {**reader(), "canUnload": owner and isinstance(deps.model_runtime, VllmRuntime)}
+
+
+# The admin unloads one model from the window, whatever uses it (a running report or index build
+# then fails); everyone else gets 403. Answers the window's fresh state.
+@router.post("/api/local-models/unload")
+def post_local_model_unload(payload: LocalModelUnloadRequest, request: Request):
+    deps = _deps(request)
+    if not getattr(request.state, "owner_authorized", False):
+        raise ApplicationError("MODEL_FORBIDDEN", tr("errors.local_model_unload_forbidden"), 403)
+    runtime = deps.model_runtime
+    if not isinstance(runtime, VllmRuntime) or deps.local_models is None:
+        raise ApplicationError(
+            "LLM_ORCHESTRATOR_UNAVAILABLE", tr("errors.llm_orchestrator_unavailable"), 503
+        )
+    known = {spec.vllm_service for spec in REPORT_MODELS.values() if spec.vllm_service}
+    if payload.runtime == "vllm" and payload.id not in known | {"vllm-embed", "vllm-translate"}:
+        raise ApplicationError("INVALID_REQUEST", tr("errors.request_invalid"), 422)
+    runtime.unload_local_model(payload.runtime, payload.id)
+    if isinstance(deps.local_models, LocalModels):
+        deps.local_models.invalidate()
+    return get_local_models(request)
 
 
 @router.post("/api/search")

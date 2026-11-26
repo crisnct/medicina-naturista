@@ -71,6 +71,11 @@ class LocalModels:
     def close(self) -> None:
         self._http.close()
 
+    # After an unload: the next read sees the change at once.
+    def invalidate(self) -> None:
+        with self._lock:
+            self._cached = None
+
     def __call__(self) -> LocalModelsState:
         with self._lock:
             if self._cached is None or self._clock() - self._cached_at >= CACHE_SECONDS:
@@ -136,6 +141,7 @@ class LocalModels:
             )
             models.append(
                 {
+                    "id": item["name"],
                     "name": item["name"],
                     "runtime": "ollama",
                     "roles": self._ollama_roles(item["name"]),
@@ -174,6 +180,7 @@ class LocalModels:
                 continue
             models.append(
                 {
+                    "id": service,
                     "name": name,
                     "runtime": "vllm",
                     "roles": [role],
@@ -211,6 +218,7 @@ class LocalModels:
         )
         return [
             {
+                "id": "colibri",
                 "name": name,
                 "runtime": "colibri",
                 "roles": ["report"],

@@ -215,7 +215,9 @@ aliases for the Windows lock.
   with another model stops Colibri first. README section "Colibri report model" has the details.
 - Loaded local models: `GET /api/local-models` (`ai/local_models.py`) shows every visitor the models in
   memory and their RAM/VRAM split, read only through the orchestrator (`/status` and the agent's
-  `GET /models`) and cached 3 s for everyone; Colibri's split is an estimate. README section
+  `GET /models`) and cached 3 s for everyone; Colibri's split is an estimate. The admin alone
+  (`canUnload`; 403 `MODEL_FORBIDDEN` for others) unloads one with `POST /api/local-models/unload`,
+  whatever uses it; it is the only path that stops `vllm-translate`. README section
   "Local models window".
 
 ## Scoring

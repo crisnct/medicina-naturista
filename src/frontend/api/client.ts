@@ -5,6 +5,7 @@ import type {
   ConditionResponse,
   EmbeddingModelStatus,
   HerbEvidencePage,
+  LocalModelRuntime,
   LocalModelsState,
   HerbEvidenceKind,
   HerbSafetyPage,
@@ -162,6 +163,10 @@ export const api = {
   // not, so the chat can say why the first question after an Ollama restart waits.
   getEmbeddingModel: () => request<EmbeddingModelStatus>("/api/embedding-model"),
   loadEmbeddingModel: () => request<EmbeddingModelStatus>("/api/embedding-model/load", { method: "POST" }),
+  // The admin's unload of one model from the window; answers the window's fresh state.
+  unloadLocalModel: (runtime: LocalModelRuntime, id: string) => request<LocalModelsState>("/api/local-models/unload", {
+    method: "POST", body: JSON.stringify({ runtime, id }),
+  }),
   // The local AI models in memory and their RAM/VRAM split, for the floating window.
   getLocalModels: (signal?: AbortSignal) => request<LocalModelsState>("/api/local-models", {
     signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(15000)]) : AbortSignal.timeout(15000),
