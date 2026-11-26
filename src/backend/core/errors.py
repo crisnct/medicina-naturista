@@ -14,3 +14,13 @@ class ApplicationError(Exception):
 
 class OperationCancelled(Exception):
     """A closed, superseded or timed-out operation must discard its result."""
+
+
+class LocalModelBusy(Exception):
+    """The memory a local model needs is held by a model in use (a running report, vllm-embed,
+    vllm-translate); the chat waits and asks again."""
+
+
+class ModelLoadRequired(Exception):
+    """A local model must be loaded before this step, and the caller asked to load it itself
+    (the chat says why the message waits); nothing was changed."""

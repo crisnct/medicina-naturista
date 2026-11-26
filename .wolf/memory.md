@@ -3888,3 +3888,38 @@ description: chronological action log per session, consolidated weekly
 | 13:52 | Edited src/backend/ai/ollama_loading.py | inline fix | ~20 |
 | 13:53 | Edited src/backend/core/contracts.py | removed 5 lines | ~10 |
 | 13:53 | Edited src/backend/web/main.py | modified post_embedding_model_load() | ~108 |
+
+## Session: 2026-11-26 14:13
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 14:18 | Created aiplans/2026-11-26-fereastra-modele-locale.md | — | ~1514 |
+| 14:50 | Edited aiplans/2026-11-26-fereastra-modele-locale.md | 2→2 lines | ~39 |
+| 14:50 | Edited aiplans/2026-11-26-fereastra-modele-locale.md | 1→5 lines | ~91 |
+| 14:50 | Edited aiplans/2026-11-26-fereastra-modele-locale.md | inline fix | ~65 |
+| 14:50 | Edited aiplans/2026-11-26-fereastra-modele-locale.md | 4→9 lines | ~185 |
+| 14:51 | Edited aiplans/2026-11-26-fereastra-modele-locale.md | 1→3 lines | ~58 |
+| 14:51 | Edited aiplans/2026-11-26-fereastra-modele-locale.md | 2→4 lines | ~82 |
+| 14:51 | Edited aiplans/2026-11-26-fereastra-modele-locale.md | 8→6 lines | ~66 |
+| 15:04 | Edited src/scripts/llm_host_agent.py | 5→7 lines | ~136 |
+| 15:04 | Edited src/scripts/llm_host_agent.py | 3→5 lines | ~97 |
+| 15:04 | Edited src/scripts/llm_host_agent.py | added error handling | ~313 |
+| 15:04 | Edited src/scripts/llm_host_agent.py | 1→3 lines | ~45 |
+| 15:04 | Edited src/scripts/llm_host_agent.py | 3→5 lines | ~71 |
+| 15:05 | Edited src/scripts/llm_host_agent.py | 4→4 lines | ~111 |
+| 15:05 | Edited src/scripts/llm_host_agent.py | added error handling | ~423 |
+| 15:05 | Edited src/scripts/llm_host_agent.py | modified except() | ~66 |
+| 15:06 | Edited src/scripts/llm_orchestrator.py | 6→7 lines | ~92 |
+| 15:07 | Edited src/backend/core/contracts.py | modified __call__() | ~324 |
+| 15:07 | Created src/backend/ai/local_models.py | — | ~2358 |
+| 15:08 | Edited src/backend/ai/local_models.py | 3→5 lines | ~54 |
+| 15:10 | Created src/frontend/hooks/useLocalModels.ts | — | ~146 |
+| 15:10 | Created src/frontend/components/LocalModelsDock.tsx | — | ~1518 |
+| 15:21 | Edited aiplans/2026-11-26-fereastra-modele-locale.md | expanded (+6 lines) | ~163 |
+<!-- session:YzgwZmJlNjgtNjIxZS00ZTYzLTg2ZWItYjI3NWMwYmRlOThm -->
+| 2026-11-26T13:21:56.476Z | Floating window of loaded local AI models (RAM/VRAM split, role sentences): agent GET /models, orchestrator relay, GET /api/local-models with 5 s shared cache, LocalModelsDock, RO/EN texts, README/AGENTS/XMind | src/scripts/llm_host_agent.py,src/scripts/llm_orchestrator.py,src/backend/ai/local_models.py,src/backend/web/main.py,src/frontend/components/LocalModelsDock.tsx | ruff, mypy, 453 unit, 117 pytest, 58 frontend tests, build pass; not verified in browser (running container has old code) |
+| 15:31 | Edited src/scripts/llm_host_agent.py | added error handling | ~290 |
+| 15:32 | Edited src/backend/ai/ollama_loading.py | modified use_loader() | ~151 |
+| 15:32 | Edited src/backend/ai/ollama_loading.py | modified is_loaded() | ~305 |
+| 15:32 | Created src/backend/ai/classifier_model.py | — | ~890 |
+| 16:10 | Edited src/scripts/llm_host_agent.py | 2→3 lines | ~83 |

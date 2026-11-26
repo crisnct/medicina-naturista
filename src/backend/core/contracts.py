@@ -147,6 +147,36 @@ class ResourceCheck(TypedDict):
 # The user's answer to a ResourceCheck; cancelling is the job's own cancel.
 ResourceDecision = Literal["continue", "retry"]
 
+LocalModelRuntime = Literal["ollama", "vllm", "colibri"]
+# What the app uses a loaded model for; `unknown` is a model the app does not use.
+LocalModelRole = Literal[
+    "query_embedding", "classifier", "report", "index_embedding", "translation", "unknown"
+]
+
+
+# One local model in memory. The percentages add up to 100, or are both None when the split is
+# not known; `approximate` marks an estimate (Colibri), `loading` a server not answering yet.
+class LocalModel(TypedDict):
+    name: str
+    runtime: LocalModelRuntime
+    roles: list[LocalModelRole]
+    ramPct: int | None
+    vramPct: int | None
+    approximate: bool
+    loading: bool
+
+
+# `available`: anything could be read; `partial`: one of the two sources (Docker through the
+# orchestrator, the host agent through it) did not answer, so models may be missing.
+class LocalModelsState(TypedDict):
+    available: bool
+    partial: bool
+    models: list[LocalModel]
+
+
+class ReadLocalModels(Protocol):
+    def __call__(self) -> LocalModelsState: ...
+
 
 # Shows the check to the user and blocks until the answer; raises when the job is cancelled.
 class ConfirmResources(Protocol):

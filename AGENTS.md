@@ -179,8 +179,9 @@ aliases for the Windows lock.
   (`qwen3-embedding:4b-q8_0`) on the CPU, and an Ollama failure stops the semantic signal with
   `SEMANTIC_MODEL_UNAVAILABLE` (`SEMANTIC_MODEL_NOT_PULLED` when the model is not installed). The
   startup warm-up search runs without the semantic signal, so readiness never depends on Ollama,
-  and loads no model. In the web app the model leaves Ollama right after it embedded the question
-  (`keep_alive` 0; the load before it keeps it 120 s at most); the scripts keep it loaded. Before
+  and loads no model. It stays loaded after a question (`keep_alive` -1), in the web app as in the
+  scripts; in the web app it leaves only when another model needs the RAM (one model per memory)
+  or a Colibri report stops Ollama. Before
   a semantic search the chat loads that model through `POST /api/embedding-model/load` when
   `GET /api/embedding-model` says it is not loaded, with a temporary indicator. No other model is
   understood by the code.
@@ -189,6 +190,13 @@ aliases for the Windows lock.
   `POST /ollama/load`): Colibri's server is stopped first (never the agent itself), a stopped
   Ollama is started, and the model is loaded with its requests' options. Not during a Colibri
   report; not in native runs or the scripts, where Ollama loads on the first request.
+- One model per memory (web app only): `num_gpu` 0 means RAM, anything else VRAM. Before a load
+  the agent unloads the Ollama models in that memory (and those in RAM when the new model spills
+  there), and before a VRAM load `VllmRuntime` stops the idle vLLM report server. A model in use
+  is never pushed out: the running report's Ollama model is `protect`ed, and a chat load into
+  memory held by a running local report, `vllm-embed` or `vllm-translate` answers `busy`; the chat
+  shows a waiting notice and asks again every 3 s (`GET /api/{embedding,classifier}-model`).
+  Colibri keeps its own rules (stopped before any Ollama load; no load during its report).
 - GPU: before every vLLM start `llm-orchestrator` asks the LLM host agent to unload the host Ollama
   models that hold GPU memory (`size_vram > 0`) and refuses the start with `OLLAMA_GPU_BUSY` if they
   are still loaded after 30 s. The orchestrator never calls Ollama itself.
@@ -196,12 +204,19 @@ aliases for the Windows lock.
   calls Ollama's admin API, nor the agent directly: every agent call goes through the orchestrator's
   `/host-agent/<path>` relay (`LLM_HOST_AGENT_URL` is set on the orchestrator only). Every Ollama request sends
   `keep_alive` -1 by default (`OLLAMA_KEEP_ALIVE_SECONDS`), so these unloads are what frees the GPU.
+  Exception: in the web app the classifier (`MEDICAL_CONDITION_AI_LOCAL_MODEL`) is loaded before a
+  message's first call and released after its last (`ai/classifier_model.py`, the agent's
+  `POST /ollama/release`); `/api/classify` answers `loadClassifierModel` so the chat can say why.
 - Colibri (`colibri-qwen3.8-flash-next:125b`) runs on the Windows host, outside Docker, through the host
   agent `src/scripts/llm_host_agent.py` (logon task from `llm_host_agent_startup.ps1`). Before a
   Colibri report the app stops the vLLM containers, has the agent close Ollama entirely (restarted
   through the agent when the job ends, if it ran before) and asks the agent for a RAM/VRAM check; below the thresholds in
   `core/report_models.py` the job waits for the user's decision (`awaiting_resources`). Any report
   with another model stops Colibri first. README section "Colibri report model" has the details.
+- Loaded local models: `GET /api/local-models` (`ai/local_models.py`) shows every visitor the models in
+  memory and their RAM/VRAM split, read only through the orchestrator (`/status` and the agent's
+  `GET /models`) and cached 3 s for everyone; Colibri's split is an estimate. README section
+  "Local models window".
 
 ## Scoring
 

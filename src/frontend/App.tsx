@@ -7,6 +7,7 @@ import { CategoryFilterPanel } from "./components/CategoryFilterPanel";
 import { LanguageSelect } from "./components/LanguageSelect";
 import { OwnerNotice } from "./components/OwnerNotice";
 import { FirstVisitNotice } from "./components/FirstVisitNotice";
+import { LocalModelsDock } from "./components/LocalModelsDock";
 import { useConversation } from "./hooks/useConversation";
 import { useCategories } from "./hooks/useCategories";
 import { useSearchSignals } from "./hooks/useSearchSignals";
@@ -98,7 +99,7 @@ export function App() {
           <ChatHistory
             history={conversation.history}
             pending={conversation.isSending}
-            pendingLabel={conversation.isClassifying ? tr("interface.app_classifying") : conversation.isLoadingEmbeddingModel ? tr("interface.app_loading_embedding_model") : conversation.isSearching ? tr("interface.app_searching") : tr("interface.app_sending_message")}
+            pendingLabel={conversation.isWaitingForModel ? tr("interface.app_waiting_for_model") : conversation.isLoadingClassifierModel ? tr("interface.app_loading_classifier_model") : conversation.isClassifying ? tr("interface.app_classifying") : conversation.isLoadingEmbeddingModel ? tr("interface.app_loading_embedding_model") : conversation.isSearching ? tr("interface.app_searching") : tr("interface.app_sending_message")}
             onGenerate={conversation.generateReport}
             reportModels={conversation.reportModels}
             defaultReportModel={conversation.defaultReportModel}
@@ -155,6 +156,7 @@ export function App() {
           </details>
         </footer>
       </div>
+      <LocalModelsDock />
     </div>
   );
 }

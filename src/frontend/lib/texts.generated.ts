@@ -15,6 +15,8 @@ export const TEXT_PARAMETERS = {
   ],
   "interface.app_searching": [],
   "interface.app_loading_embedding_model": [],
+  "interface.app_loading_classifier_model": [],
+  "interface.app_waiting_for_model": [],
   "interface.app_data_usage_sources_label": [],
   "interface.app_data_usage_sources_text": [],
   "interface.app_data_usage_sources_counts_text": [
@@ -483,5 +485,29 @@ export const TEXT_PARAMETERS = {
   "interface.model_colibri_qwen38_flash_next": [],
   "interface.model_deepseek_flash": [],
   "interface.model_huggingface_deepseek_flash": [],
-  "interface.model_grok43": []
+  "interface.model_grok43": [],
+  "interface.local_models_title": [],
+  "interface.local_models_toggle_open": [],
+  "interface.local_models_toggle_close": [],
+  "interface.local_models_empty": [],
+  "interface.local_models_unavailable": [],
+  "interface.local_models_partial": [],
+  "interface.local_models_loading": [],
+  "interface.local_models_approximate": [],
+  "interface.local_models_ram": [],
+  "interface.local_models_vram": [],
+  "interface.local_models_split_unknown": [],
+  "interface.local_models_split": [
+    "ram",
+    "vram"
+  ],
+  "interface.local_models_runtime_ollama": [],
+  "interface.local_models_runtime_vllm": [],
+  "interface.local_models_runtime_colibri": [],
+  "interface.local_models_role_query_embedding": [],
+  "interface.local_models_role_classifier": [],
+  "interface.local_models_role_report": [],
+  "interface.local_models_role_index_embedding": [],
+  "interface.local_models_role_translation": [],
+  "interface.local_models_role_unknown": []
 } as const;

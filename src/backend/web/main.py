@@ -20,6 +20,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse, Response
 from pydantic import BaseModel, Field, model_validator
 
+from backend.ai import classifier_model
 from backend.ai.client import create_report_clients
 from backend.ai.condition_ai import identify_conditions
 from backend.ai.db import get_pool
@@ -35,9 +36,10 @@ from backend.ai.herb_safety import (
 )
 from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
+from backend.ai.local_models import LocalModels
 from backend.ai.message_classification import MessageClassifier
 from backend.ai.model_runtime import VllmRuntime
-from backend.ai.ollama_loading import use_loader
+from backend.ai.ollama_loading import loads_through_agent, use_loader
 from backend.ai.providers import default_max_output_tokens
 from backend.ai.report_validation import ValidationWarning
 from backend.ai.retrieval import Retriever
@@ -56,7 +58,7 @@ from backend.core.conversation import (
     evidence_above,
     welcome,
 )
-from backend.core.errors import ApplicationError, OperationCancelled
+from backend.core.errors import ApplicationError, LocalModelBusy, OperationCancelled
 from backend.core.herb_categories import category_labels
 from backend.core.language import LANGUAGES, current_language, language_scope, validate_language
 from backend.core.models import (
@@ -689,41 +691,92 @@ def post_message(payload: MessageRequest, request: Request):
     )
 
 
+# The identification's own request releases the classifier (keep_alive 0); when it never reaches
+# the model, the release is asked here, so the classification's keep-alive does not hold it.
 @router.post("/api/condition")
 def post_condition(request: Request):
-    return _conversation(_deps(request)).condition(_current(request), _revision(request))
+    with classifier_model.request_scope(ask_before_load=False) as scope:
+        result = _conversation(_deps(request)).condition(_current(request), _revision(request))
+    if not scope.used:
+        classifier_model.release()
+    return result
 
 
+# A classification that needs the local classifier while Ollama does not hold it answers
+# loadClassifierModel instead, so the chat can say why the message waits; after the chat's own load
+# (X-Classifier-Model-Loaded) it goes on whatever the load did. The model leaves Ollama after the
+# message's last call: here, when no condition identification follows.
 @router.post("/api/classify")
 def post_classify(request: Request):
     revision = _revision(request)
     if revision is None:
         raise ApplicationError("REVISION_REQUIRED", tr("errors.message_revision_required"), 422)
-    return _conversation(_deps(request)).classify(_current(request), revision)
+    ask = request.headers.get("x-classifier-model-loaded") != "1"
+    with classifier_model.request_scope(ask_before_load=ask) as scope:
+        result = _conversation(_deps(request)).classify(_current(request), revision)
+    if scope.used and not result.get("identifyCondition"):
+        classifier_model.release()
+    return result
+
+
+# Before a condition identification, and when a classification asked for it: whether Ollama holds
+# the classifier model. Without the host agent (native runs) Ollama loads it on the request itself.
+# `busy`: its load would push a model in use out of VRAM (a running report's, vllm-embed,
+# vllm-translate), so the chat waits.
+@router.get("/api/classifier-model")
+def get_classifier_model(request: Request):
+    loaded = classifier_model.loaded() if loads_through_agent() else True
+    return {"loaded": loaded, "busy": not loaded and _load_busy(request, on_cpu=False)}
+
+
+@router.post("/api/classifier-model/load")
+def post_classifier_model_load(request: Request):
+    result = classifier_model.load()
+    return {"loaded": result == "loaded", "busy": result == "busy"}
 
 
 # The chat asks before a semantic search, so the user sees why the first question after an Ollama
 # restart waits. Without the real index (tests, a fake retriever) there is no model to load. An
 # Ollama that does not answer holds no model; the load below starts it when it can.
+# `busy`: its load would push a model in use out of RAM (a running report's), so the chat waits.
 @router.get("/api/embedding-model")
 def get_embedding_model(request: Request):
     if not isinstance(_deps(request).retriever, Retriever):
-        return {"loaded": True}
+        return {"loaded": True, "busy": False}
     try:
-        return {"loaded": published_query_model().is_loaded()}
+        loaded = published_query_model().is_loaded()
     except ApplicationError as exc:
         if exc.code != "SEMANTIC_MODEL_UNAVAILABLE" or _deps(request).model_runtime is None:
             raise
-        return {"loaded": False}
+        loaded = False
+    return {"loaded": loaded, "busy": not loaded and _load_busy(request, on_cpu=True)}
 
 
 # The load goes through the host agent when the app has an orchestrator (backend.ai.ollama_loading):
-# Colibri's model leaves first and a stopped Ollama is started.
+# Colibri's model leaves first, a stopped Ollama is started, and the models in RAM leave.
 @router.post("/api/embedding-model/load")
 def post_embedding_model_load(request: Request):
     if isinstance(_deps(request).retriever, Retriever):
-        published_query_model().load()
-    return {"loaded": True}
+        try:
+            published_query_model().load()
+        except LocalModelBusy:
+            return {"loaded": False, "busy": True}
+    return {"loaded": True, "busy": False}
+
+
+def _load_busy(request: Request, *, on_cpu: bool) -> bool:
+    runtime = _deps(request).model_runtime
+    return isinstance(runtime, VllmRuntime) and runtime.load_busy(on_cpu)
+
+
+# The chat's window of loaded local models, for every visitor. Native runs (no orchestrator)
+# have no source to read; the reader caches one answer for every visitor for a few seconds.
+@router.get("/api/local-models")
+def get_local_models(request: Request):
+    reader = _deps(request).local_models
+    if reader is None:
+        return {"available": False, "partial": False, "models": []}
+    return reader()
 
 
 @router.post("/api/search")
@@ -1391,11 +1444,15 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     # Empty for native runs, where the operator starts any vLLM server by hand;
                     # the Colibri model also needs the orchestrator, which relays to the host agent.
                     model_runtime=VllmRuntime(cfg) if cfg.llm_orchestrator_url else None,
+                    local_models=LocalModels(cfg) if cfg.llm_orchestrator_url else None,
                 )
                 application.state.dependencies = runtime
                 # Every local Ollama model the app uses is then loaded by the host agent.
                 if isinstance(runtime.model_runtime, VllmRuntime):
-                    use_loader(runtime.model_runtime.load_ollama_model)
+                    use_loader(
+                        runtime.model_runtime.load_ollama_model,
+                        runtime.model_runtime.release_ollama_model,
+                    )
                 application.root_path = cfg.public_root_path
                 application.mount(
                     "/",
@@ -1494,6 +1551,8 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                 if runtime and runtime.model_runtime:
                     use_loader(None)
                     runtime.model_runtime.close()
+                if runtime and isinstance(runtime.local_models, LocalModels):
+                    runtime.local_models.close()
                 if classifier:
                     classifier.close()
                 if auth:
@@ -1556,6 +1615,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     "/api/condition",
                     "/api/search",
                     "/api/embedding-model/load",
+                    "/api/classifier-model/load",
                 }
                 or (path.startswith("/api/searches/") and path.endswith("/generate"))
             ):

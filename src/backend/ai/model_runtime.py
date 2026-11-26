@@ -15,6 +15,7 @@ from typing import Any, cast
 
 import httpx
 
+from backend.ai.ollama_loading import LoadResult, placement
 from backend.ai.providers import LOCAL_HOSTS
 from backend.config import Settings
 from backend.core.contracts import ConfirmResources, ModelStage, ResourceCheck
@@ -109,6 +110,10 @@ class VllmRuntime:
         # From a Colibri report's prepare() to its finish(): Ollama is stopped on purpose, and no
         # load may start it again (read by the web threads, written by the report worker).
         self._colibri_report_running = False
+        # From a local Ollama or vLLM report's prepare() to its finish(): its model is in use, so no
+        # load pushes it out and the chat's loads into its memory wait (read by the web threads).
+        self._active_report: ReportModel | None = None
+        self._ollama_base = settings.ollama_api_base
 
     def close(self) -> None:
         self._http.close()
@@ -116,23 +121,100 @@ class VllmRuntime:
     # Every local Ollama model the app uses is loaded by the host agent, through the orchestrator
     # (registered in backend.ai.ollama_loading): Colibri's model leaves first, and a stopped Ollama
     # is started. Never while a Colibri report runs, whose finish() starts Ollama again: then the
-    # caller's own request loads the model, as before. Says whether the agent loaded it.
+    # caller's own request loads the model, as before.
+    #
+    # One model per memory. A model with num_gpu 0 goes to RAM, any other to VRAM first; the agent
+    # pushes out the Ollama models in that memory (and, when the new one spills into RAM, those in
+    # RAM), and before a VRAM load the idle vLLM report server stops here. A model in use is never
+    # pushed out: the running report's Ollama model is protected, and a load for the chat into
+    # memory a running report, vllm-embed or vllm-translate holds answers `busy` instead.
     def load_ollama_model(
-        self, model: str, api: str, keep_alive: int | str | None, options: dict[str, Any]
-    ) -> bool:
+        self,
+        model: str,
+        api: str,
+        keep_alive: int | str | None,
+        options: dict[str, Any],
+        from_chat: bool = False,
+    ) -> LoadResult:
         if not self._ollama_local or self._colibri_report_running:
-            return False
+            return "skipped"
+        on_cpu = options.get("num_gpu") == 0
+        try:
+            status: dict[str, dict[str, dict[str, Any]]] | None = self._status()
+        except _OrchestratorUnavailable:
+            status = None
+        if from_chat and self.load_busy(on_cpu, status):
+            logger.info("ollama_load_waits model=%s on_cpu=%s", model, on_cpu)
+            return "busy"
+        active = self._active_report
+        if not on_cpu and status is not None:
+            in_use = REPORT_MODELS[active].vllm_service if active is not None else None
+            for service, item in status["managed"].items():
+                if item.get("state") in _RUNNING_STATES and service != in_use:
+                    try:
+                        self._stop(service)
+                    except ApplicationError:
+                        logger.warning("vllm_stop_before_ollama_failed service=%s", service)
+        protect = (
+            [REPORT_MODELS[active].model]
+            if active is not None and REPORT_MODELS[active].provider == "ollama"
+            else []
+        )
         try:
             self._agent(
                 "POST",
                 "/ollama/load",
-                {"model": model, "api": api, "keepAlive": keep_alive, "options": options},
+                {
+                    "model": model,
+                    "api": api,
+                    "keepAlive": keep_alive,
+                    "options": options,
+                    "protect": protect,
+                },
             )
         except ApplicationError as exc:
             logger.warning("ollama_load_failed model=%s code=%s", model, exc.code)
-            return False
+            return "skipped"
         logger.info("ollama_loaded_through_agent model=%s", model)
-        return True
+        return "loaded"
+
+    # Whether a chat load into RAM (on_cpu) or VRAM would push out a model in use: the running local
+    # report's (an Ollama model where /api/ps shows it, VRAM while it is not loaded yet; a vLLM one
+    # in VRAM), or a running vllm-embed or vllm-translate (VRAM; the app cannot tell whether they
+    # work, so they count as in use). A Colibri report is not counted: no load runs during it.
+    def load_busy(
+        self, on_cpu: bool, status: dict[str, dict[str, dict[str, Any]]] | None = None
+    ) -> bool:
+        active = self._active_report
+        if active is not None:
+            spec = REPORT_MODELS[active]
+            if spec.provider == "vllm" and not on_cpu:
+                return True
+            if spec.provider == "ollama":
+                in_ram, in_vram = placement(self._ollama_base, spec.model) or (False, True)
+                if in_ram if on_cpu else in_vram:
+                    return True
+        if on_cpu:
+            return False
+        if status is None:
+            try:
+                status = self._status()
+            except _OrchestratorUnavailable:
+                return False
+        return any(item.get("state") in _RUNNING_STATES for item in status["observed"].values())
+
+    # The release of one Ollama model (the classifier after a message), through the host agent.
+    # Never while a Colibri report runs, which keeps Ollama stopped; a failure only logs, since
+    # the model then leaves at the end of its keep-alive.
+    def release_ollama_model(self, model: str) -> None:
+        if not self._ollama_local or self._colibri_report_running:
+            return
+        try:
+            self._agent("POST", "/ollama/release", {"model": model})
+        except ApplicationError as exc:
+            logger.warning("ollama_release_failed model=%s code=%s", model, exc.code)
+            return
+        logger.info("ollama_released_through_agent model=%s", model)
 
     def prepare(
         self,
@@ -142,6 +224,8 @@ class VllmRuntime:
         confirm: ConfirmResources | None = None,
     ) -> None:
         spec = REPORT_MODELS[model]
+        if spec.provider in ("ollama", "vllm"):
+            self._active_report = model
         # Colibri stays loaded until a report with any other model, cloud ones included.
         if spec.provider == "colibri":
             self._colibri_report_running = True
@@ -403,6 +487,8 @@ class VllmRuntime:
         logger.info("ollama_stopped_for_colibri was_running=%s", reply.get("wasRunning"))
 
     def finish(self, model: ReportModel) -> None:
+        if self._active_report == model:
+            self._active_report = None
         if REPORT_MODELS[model].provider != "colibri":
             return
         self._colibri_report_running = False

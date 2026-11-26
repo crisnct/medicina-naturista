@@ -1335,8 +1335,11 @@ class OllamaReportClient(ResponsesClient):
             native["think"] = ollama_think(effort)
         elif self.provider.thinking is not None:
             native["think"] = self.provider.thinking
-        if self.provider.keep_alive_seconds is not None:
-            native["keep_alive"] = self.provider.keep_alive_seconds
+        keep_alive = self.provider.keep_alive_policy() if self.provider.keep_alive_policy else None
+        if keep_alive is None:
+            keep_alive = self.provider.keep_alive_seconds
+        if keep_alive is not None:
+            native["keep_alive"] = keep_alive
         if "temperature" in payload:
             native["options"]["temperature"] = payload["temperature"]
         if self.provider.repeat_penalty is not None:

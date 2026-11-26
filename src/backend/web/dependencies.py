@@ -19,6 +19,7 @@ from backend.core.contracts import (
     LookupHerbImage,
     LookupHerbSafety,
     LookupHerbSafetyEvidence,
+    ReadLocalModels,
     RecommendReportOutput,
     RecordReportBatchUsage,
     RecordReportMetrics,
@@ -61,3 +62,4 @@ class Dependencies:
     herb_safety_evidence: LookupHerbSafetyEvidence | None = None
     model_runtime: ReportModelRuntime | None = None
     report_herb_safety: LoadReportHerbSafety | None = None
+    local_models: ReadLocalModels | None = None

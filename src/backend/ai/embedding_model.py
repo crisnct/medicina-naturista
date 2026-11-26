@@ -16,9 +16,9 @@ from typing import Iterable, Iterator
 
 import numpy as np
 
-from backend.ai.ollama_loading import load_through_agent, loads_through_agent
+from backend.ai.ollama_loading import load_through_agent
 from backend.config import settings
-from backend.core.errors import ApplicationError
+from backend.core.errors import ApplicationError, LocalModelBusy
 from backend.core.texts import tr
 
 # Instruction Qwen3-Embedding was trained to expect in front of a query (kept in
@@ -37,14 +37,12 @@ VLLM_REQUEST_TIMEOUT_SECONDS = 600
 OLLAMA_QUERY_TIMEOUT_SECONDS = 60
 # Seconds the list of loaded models may take; it answers at once when Ollama is up.
 OLLAMA_PS_TIMEOUT_SECONDS = 3
-# A negative keep-alive is Ollama's "forever": the model stays in the host's RAM until Ollama
-# restarts, instead of the 60 s of OLLAMA_KEEP_ALIVE_SECONDS. It holds no GPU memory (num_gpu 0).
-# The scripts keep it so, because they ask many questions in a row (the retrieval evaluation 120).
+# A negative keep-alive is Ollama's "forever": the model stays in the host's RAM (~4.3 GB; no GPU
+# memory, num_gpu 0) after a question, in the web app as in the scripts (the retrieval evaluation
+# asks 120 in a row). In the web app it leaves only when another model needs the RAM: the host
+# agent's load of that model pushes it out (one model per memory), and a Colibri report stops
+# Ollama.
 OLLAMA_QUERY_KEEP_ALIVE = -1
-# In the web app the host agent loads the model before a question (backend.ai.ollama_loading) and
-# it leaves Ollama's RAM (~4.3 GB) right after the question is embedded. The load before it keeps
-# it this long at most, in case the search never comes.
-OLLAMA_QUERY_LOAD_KEEP_ALIVE_SECONDS = 120
 # num_gpu 0 keeps the model on the CPU, so it never competes with reports or the index build for the
 # GPU. A question is far shorter than 1024 tokens; the context only sizes the memory it takes
 # (about 4.3 GB, against 8 GB with Ollama's default context).
@@ -208,14 +206,19 @@ class OllamaQueryEmbedding:
     # An embed without input loads the model with the options and keep-alive of query_embed
     # (measured: about 3.5 s). In the web app the host agent does it (Colibri's model leaves first,
     # a stopped Ollama is started); otherwise, or when the agent cannot, this request does. A model
-    # that is not pulled gets its own error, because starting Ollama again would not help.
+    # that is not pulled gets its own error, because starting Ollama again would not help. While a
+    # running report holds the RAM it needs, LocalModelBusy: the chat waits and asks again.
     def load(self) -> None:
-        if load_through_agent(
+        result = load_through_agent(
             self._profile.query_model,
             "embed",
-            _keep_alive(after_question=False),
+            OLLAMA_QUERY_KEEP_ALIVE,
             OLLAMA_QUERY_OPTIONS,
-        ):
+            from_chat=True,
+        )
+        if result == "busy":
+            raise LocalModelBusy("query_embedding")
+        if result == "loaded":
             return
         try:
             response = self._client.post(
@@ -223,7 +226,7 @@ class OllamaQueryEmbedding:
                 json={
                     "model": self._profile.query_model,
                     "input": [],
-                    "keep_alive": _keep_alive(after_question=False),
+                    "keep_alive": OLLAMA_QUERY_KEEP_ALIVE,
                     "options": OLLAMA_QUERY_OPTIONS,
                 },
             )
@@ -243,7 +246,7 @@ class OllamaQueryEmbedding:
                 json={
                     "model": self._profile.query_model,
                     "input": texts,
-                    "keep_alive": _keep_alive(after_question=True),
+                    "keep_alive": OLLAMA_QUERY_KEEP_ALIVE,
                     "options": OLLAMA_QUERY_OPTIONS,
                 },
             )
@@ -268,14 +271,6 @@ def _semantic_model_unavailable() -> ApplicationError:
 def create_embedding_model(model_name: str) -> VllmEmbedding:
     get_profile(model_name)  # unknown models fail here, before anything is loaded
     return VllmEmbedding(model_name)
-
-
-# Forever in the scripts; in the web app the model leaves right after the question, and a load
-# before it keeps it a short while only.
-def _keep_alive(*, after_question: bool) -> int:
-    if not loads_through_agent():
-        return OLLAMA_QUERY_KEEP_ALIVE
-    return 0 if after_question else OLLAMA_QUERY_LOAD_KEEP_ALIVE_SECONDS
 
 
 @lru_cache(maxsize=4)

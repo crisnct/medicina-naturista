@@ -20,7 +20,7 @@ from typing import Any
 
 import httpx
 
-from backend.ai import conditions
+from backend.ai import classifier_model, conditions
 from backend.ai.client import AIUnavailable, OllamaReportClient, ResponsesClient
 from backend.ai.conditions import Condition, QuerySegment, ResolvedQuery, _normalize, resolve_query
 from backend.ai.providers import LOCAL_CLASSIFIER_CONTEXT_TOKENS, ProviderConfig
@@ -73,6 +73,7 @@ def _provider() -> ProviderConfig:
         label="Ollama (local)",
         base_url=settings.condition_ai_local_base,
         keep_alive_seconds=settings.ollama_keep_alive_seconds,
+        keep_alive_policy=lambda: classifier_model.keep_alive("condition"),
         thinking=False,
         model=settings.medical_condition_ai_local_model,
         reasoning_effort="none",
@@ -164,6 +165,7 @@ def _ask(texts: tuple[str, ...]) -> tuple[IdentifiedCondition, ...]:
 
 def _ask_client(client: ResponsesClient, texts: tuple[str, ...]) -> tuple[IdentifiedCondition, ...]:
     try:
+        classifier_model.before_call()
         raw = client.complete_json(
             _system_prompt(current_language()),
             _user_message(texts),

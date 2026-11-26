@@ -37,7 +37,7 @@ from backend.core.contracts import (
     ReportEffort,
     RetrievalProtocol,
 )
-from backend.core.errors import ApplicationError, OperationCancelled
+from backend.core.errors import ApplicationError, ModelLoadRequired, OperationCancelled
 from backend.core.herb_agreement import herb_agreement
 from backend.core.herb_categories import category_labels, global_top_label
 from backend.core.models import (
@@ -595,6 +595,15 @@ class ConversationService:
                         )
             except OperationCancelled:
                 raise
+            except ModelLoadRequired:
+                # Nothing is committed: the chat loads the classifier and asks again.
+                return {
+                    **OperationResult().as_dict(),
+                    "loadClassifierModel": True,
+                    "startSearch": False,
+                    "identifyCondition": False,
+                    "contextRevision": snapshot.context_revision,
+                }
             except (AIUnavailable, ValueError) as exc:
                 logger.warning(
                     "classification_fallback type=%s reason=%s",

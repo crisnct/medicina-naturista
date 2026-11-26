@@ -48,11 +48,13 @@ COLIBRI_STOP_TIMEOUT_SECONDS = 120.0
 # The agent waits up to 30 s for the Ollama models to leave the GPU, after requests of up to 10 s.
 OLLAMA_UNLOAD_TIMEOUT_SECONDS = 60.0
 # The host agent's endpoints the app may call, as /host-agent<path> here: Colibri's status, memory
-# check, start and stop, and the stop, start and unload of the host Ollama.
+# check, start and stop, the stop, start, unload and load of the host Ollama, the release of one
+# Ollama model, and the loaded models.
 HOST_AGENT_PREFIX = "/host-agent"
 HOST_AGENT_RELAY = frozenset(
     {
         ("GET", "/status"),
+        ("GET", "/models"),
         ("POST", "/check"),
         ("POST", "/start"),
         ("POST", "/stop"),
@@ -61,6 +63,7 @@ HOST_AGENT_RELAY = frozenset(
         ("POST", "/ollama/unload"),
         ("POST", "/ollama/unload?all=1"),
         ("POST", "/ollama/load"),
+        ("POST", "/ollama/release"),
     }
 )
 # The agent's /check runs `coli plan` (up to 180 s); /ollama/load first stops Colibri (up to 75 s),

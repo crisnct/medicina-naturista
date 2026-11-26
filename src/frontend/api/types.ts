@@ -378,6 +378,29 @@ export interface ResourceInvalidations {
 
 export interface EmbeddingModelStatus {
   loaded: boolean;
+  // Its load would push out a model in use (a running report's, vllm-embed, vllm-translate).
+  busy?: boolean;
+}
+
+export type LocalModelRuntime = "ollama" | "vllm" | "colibri";
+export type LocalModelRole = "query_embedding" | "classifier" | "report" | "index_embedding" | "translation" | "unknown";
+
+// One local model in memory. The percentages add up to 100, or are both null when the split is
+// unknown; approximate marks an estimate (Colibri), loading a server that does not answer yet.
+export interface LocalModel {
+  name: string;
+  runtime: LocalModelRuntime;
+  roles: LocalModelRole[];
+  ramPct: number | null;
+  vramPct: number | null;
+  approximate: boolean;
+  loading: boolean;
+}
+
+export interface LocalModelsState {
+  available: boolean;
+  partial: boolean;
+  models: LocalModel[];
 }
 
 export interface MessagesResponse extends ResourceInvalidations {
@@ -401,6 +424,9 @@ export interface SendMessageResponse extends ResourceInvalidations {
 
 export interface ClassificationResponse extends SendMessageResponse {
   intent?: "remedii" | "planta" | "diverse" | "email_raport" | "top_plante";
+  // The classification needs the local classifier, which Ollama does not hold: nothing was
+  // classified; load it and ask again.
+  loadClassifierModel?: boolean;
 }
 
 export interface ConditionResponse extends ResourceInvalidations {

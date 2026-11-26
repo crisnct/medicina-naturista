@@ -11947,6 +11947,114 @@
       "last_seen": "2026-11-26T11:53:35.089Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in process_memory_gb()",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-665",
+      "timestamp": "2026-11-26T13:04:38.145Z",
+      "last_seen": "2026-11-26T13:04:38.145Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of llm_host_agent.py",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→5 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-666",
+      "timestamp": "2026-11-26T13:04:51.728Z",
+      "last_seen": "2026-11-26T13:04:51.728Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in models()",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-667",
+      "timestamp": "2026-11-26T13:05:15.035Z",
+      "last_seen": "2026-11-26T13:05:15.035Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in release_ollama()",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-668",
+      "timestamp": "2026-11-26T13:31:46.972Z",
+      "last_seen": "2026-11-26T13:31:46.972Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of ollama_loading.py",
+      "file": "src/backend/ai/ollama_loading.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 10→14 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-669",
+      "timestamp": "2026-11-26T13:32:29.453Z",
+      "last_seen": "2026-11-26T13:32:29.453Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of ollama_loading.py",
+      "file": "src/backend/ai/ollama_loading.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 17→29 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-670",
+      "timestamp": "2026-11-26T13:32:31.911Z",
+      "last_seen": "2026-11-26T13:32:31.911Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12661,7 +12769,13 @@
     "2163ad8d-7fdf-4b55-ae01-459a61d1ff14": true,
     "ad59f19c-f916-4dd4-833f-d26d6809f6de": true,
     "bb8f563c-1a33-419c-af83-129aabe21684": true,
-    "fbcc5383-837f-4eb1-b2c4-05ed6c3f9c0c": true
+    "fbcc5383-837f-4eb1-b2c4-05ed6c3f9c0c": true,
+    "85ad79a7-a19c-4063-9ab8-ea9abb399613": true,
+    "edca77d1-3327-439e-9063-c1861f335cd4": true,
+    "db8b98fc-e2b8-4780-8403-2e6c0da553be": true,
+    "5c98e924-0728-4b44-9312-836015c2eb76": true,
+    "4236c720-29e6-4c0b-a270-3b7362d9c640": true,
+    "cbc8484c-fd1a-4e04-9afd-e2497b23cebd": true
   },
-  "next_id": 665
+  "next_id": 671
 }

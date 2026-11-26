@@ -5,6 +5,7 @@ import type {
   ConditionResponse,
   EmbeddingModelStatus,
   HerbEvidencePage,
+  LocalModelsState,
   HerbEvidenceKind,
   HerbSafetyPage,
   HerbSafetyEvidencePage,
@@ -140,9 +141,15 @@ export const api = {
       body: JSON.stringify({ message, categories, signals, messageId: crypto.randomUUID() }),
     }),
   // Classify the accepted message before any content search or external delivery.
-  classifyMessage: (revision: number) => request<ClassificationResponse>("/api/classify", {
-    method: "POST", headers: { "X-Context-Revision": String(revision) },
+  // After loadClassifierModel the chat asks again with modelLoaded, so the server goes on whatever
+  // the load did.
+  classifyMessage: (revision: number, modelLoaded = false) => request<ClassificationResponse>("/api/classify", {
+    method: "POST",
+    headers: { "X-Context-Revision": String(revision), ...(modelLoaded ? { "X-Classifier-Model-Loaded": "1" } : {}) },
   }),
+  // Whether Ollama holds the local classifier, and its load (it leaves after the message's last call).
+  getClassifierModel: () => request<EmbeddingModelStatus>("/api/classifier-model"),
+  loadClassifierModel: () => request<EmbeddingModelStatus>("/api/classifier-model/load", { method: "POST" }),
   // Asks the AI for the condition the dictionary does not know; only called
   // when classifyMessage() said identifyCondition. Its startSearch says whether
   // the retrieval should follow.
@@ -155,6 +162,10 @@ export const api = {
   // not, so the chat can say why the first question after an Ollama restart waits.
   getEmbeddingModel: () => request<EmbeddingModelStatus>("/api/embedding-model"),
   loadEmbeddingModel: () => request<EmbeddingModelStatus>("/api/embedding-model/load", { method: "POST" }),
+  // The local AI models in memory and their RAM/VRAM split, for the floating window.
+  getLocalModels: (signal?: AbortSignal) => request<LocalModelsState>("/api/local-models", {
+    signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(15000)]) : AbortSignal.timeout(15000),
+  }),
   search: (revision?: number) => request<MessagesResponse>("/api/search", {
     method: "POST", headers: revision === undefined ? {} : { "X-Context-Revision": String(revision) },
   }),

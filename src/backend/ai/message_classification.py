@@ -12,6 +12,7 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, model_validator
 
+from backend.ai import classifier_model
 from backend.ai.client import OllamaReportClient
 from backend.ai.conditions import _normalize
 from backend.ai.herb_repository import HerbCatalogUnavailable
@@ -19,6 +20,7 @@ from backend.ai.herbs import HerbCatalog
 from backend.ai.providers import LOCAL_CLASSIFIER_CONTEXT_TOKENS, ProviderConfig
 from backend.ai.query_terms import plain
 from backend.config import Settings
+from backend.core.errors import ModelLoadRequired
 from backend.core.herb_categories import (
     CATEGORY_ALIASES,
     GLOBAL_TOP_ALIASES,
@@ -464,6 +466,7 @@ class MessageClassifier:
                 label="Ollama (local)",
                 base_url=settings.condition_ai_local_base,
                 keep_alive_seconds=settings.ollama_keep_alive_seconds,
+                keep_alive_policy=lambda: classifier_model.keep_alive("classify"),
                 thinking=False,
                 model=settings.medical_condition_ai_local_model,
                 # Keep the bounded output budget for the final routing JSON.
@@ -588,6 +591,7 @@ class MessageClassifier:
                 )
                 return named_request
             context = {**context, "recognized_herbs": candidates[:10]}
+            classifier_model.before_call()
             raw = self.client.complete_json(
                 self.english_prompt if current_language() == "en" else self.prompt,
                 json.dumps({"message": message, "context": context}, ensure_ascii=False),
@@ -711,6 +715,9 @@ class MessageClassifier:
                 round((time.monotonic() - started) * 1000),
             )
             return result
+        except ModelLoadRequired:
+            # Not a failure: the chat loads the model and asks again.
+            raise
         except Exception as exc:
             logger.warning(
                 "classification_failed provider=ollama model=%s stage=classification "

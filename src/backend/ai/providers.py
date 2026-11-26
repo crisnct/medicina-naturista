@@ -60,6 +60,9 @@ class ProviderConfig:
     context_tokens: int | None = None
     thinking: bool | None = None
     keep_alive_seconds: int | None = None
+    # Asked before each request; a value it returns replaces keep_alive_seconds (the classifier's
+    # load-use-release cycle in the web app, backend.ai.classifier_model).
+    keep_alive_policy: Callable[[], int | None] | None = None
     repeat_penalty: float | None = None
     repeat_last_n: int | None = None
     # How a report request carries the user-selected effort; classifiers keep "none".

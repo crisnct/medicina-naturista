@@ -2,11 +2,14 @@ import { tr } from "../lib/texts";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useState } from "react";
 import { api, ApiError, errorMessage, isSessionUnavailable } from "../api/client";
-import type { ChatMessage, GenerationLimitDefaults, GenerationLimits, ReportEffort, ReportModel, ReportModelDetails, SearchSignals, ResourceInvalidations, SessionResponse } from "../api/types";
+import type { ChatMessage, EmbeddingModelStatus, GenerationLimitDefaults, GenerationLimits, ReportEffort, ReportModel, ReportModelDetails, SearchSignals, ResourceInvalidations, SessionResponse } from "../api/types";
 
 import { reconcileRetention } from "../lib/retention";
 import type { GenerationFeedback } from "../lib/generationFeedback";
 import { useReportGeneration } from "./useReportGeneration";
+
+// How often the chat asks again while a model in use holds the memory a load needs.
+const MODEL_WAIT_MS = 3000;
 
 const SESSION_KEY = ["session"] as const;
 const REPORT_MODELS_KEY = ["report-models"] as const;
@@ -28,6 +31,36 @@ export function useConversation() {
   const [isSearching, setIsSearching] = useState(false);
   const [isClassifying, setIsClassifying] = useState(false);
   const [isLoadingEmbeddingModel, setIsLoadingEmbeddingModel] = useState(false);
+  const [isLoadingClassifierModel, setIsLoadingClassifierModel] = useState(false);
+  const [isWaitingForModel, setIsWaitingForModel] = useState(false);
+
+  // Brings a local model into Ollama for the chat. While a model in use (a running report's,
+  // vllm-embed, vllm-translate) holds the memory it needs, the chat says so and asks again, with
+  // the status request, which no rate limit counts, until that memory is free.
+  const prepareModel = async (
+    status: () => Promise<EmbeddingModelStatus>,
+    load: () => Promise<EmbeddingModelStatus>,
+    setLoading: (loading: boolean) => void,
+  ) => {
+    try {
+      for (;;) {
+        const current = await status();
+        if (current.loaded) return;
+        if (!current.busy) {
+          setIsWaitingForModel(false);
+          setLoading(true);
+          const result = await load();
+          setLoading(false);
+          if (!result.busy) return;
+        }
+        setIsWaitingForModel(true);
+        await new Promise((resolve) => window.setTimeout(resolve, MODEL_WAIT_MS));
+      }
+    } finally {
+      setLoading(false);
+      setIsWaitingForModel(false);
+    }
+  };
 
   const sessionQuery = useQuery({ queryKey: SESSION_KEY, queryFn: api.getSession, retry: false });
   const history = sessionQuery.data?.history ?? [];
@@ -86,7 +119,13 @@ export function useConversation() {
           if (first.contextRevision === undefined) throw new Error("Missing message revision");
           setIsClassifying(true);
           try {
-            routed = await api.classifyMessage(first.contextRevision);
+            const revision = first.contextRevision;
+            let classified = await api.classifyMessage(revision);
+            if (classified.loadClassifierModel) {
+              await prepareModel(api.getClassifierModel, api.loadClassifierModel, setIsLoadingClassifierModel);
+              classified = await api.classifyMessage(revision, true);
+            }
+            routed = classified;
             appendMessages(routed.messages, routed);
           } finally {
             setIsClassifying(false);
@@ -98,17 +137,13 @@ export function useConversation() {
           try {
             let startSearch = true;
             if (routed.identifyCondition) {
+              await prepareModel(api.getClassifierModel, api.loadClassifierModel, setIsLoadingClassifierModel);
               const condition = await api.identifyCondition(routed.contextRevision);
               appendMessages(condition.messages, condition);
               startSearch = condition.startSearch && !condition.cancelled;
             }
-            if (startSearch && signals.semantic && !(await api.getEmbeddingModel()).loaded) {
-              setIsLoadingEmbeddingModel(true);
-              try {
-                await api.loadEmbeddingModel();
-              } finally {
-                setIsLoadingEmbeddingModel(false);
-              }
+            if (startSearch && signals.semantic) {
+              await prepareModel(api.getEmbeddingModel, api.loadEmbeddingModel, setIsLoadingEmbeddingModel);
             }
             if (startSearch) {
               const second = await api.search(routed.contextRevision);
@@ -204,6 +239,8 @@ export function useConversation() {
     isSearching,
     isClassifying,
     isLoadingEmbeddingModel,
+    isLoadingClassifierModel,
+    isWaitingForModel,
     isGenerating: generation.isGenerating,
     generateReport: (searchId: string, minScore: number, model: ReportModel | undefined = defaultReportModel, effort: ReportEffort = "low", limits?: GenerationLimits) => {
       if (model && allowedReportModels.includes(model)) generation.generate(searchId, minScore, model, effort, limits);

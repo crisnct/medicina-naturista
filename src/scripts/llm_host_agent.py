@@ -3,7 +3,8 @@
 For Colibri: memory status, `coli plan` checks, start and stop of the server. For Ollama: stop and
 start of its process tree, the load of a model (Colibri's model leaves first; the agent itself
 always stays), and the unload of the models that hold GPU memory, which the llm-orchestrator asks
-for before every vLLM start.
+for before every vLLM start, and the release of one model (the app's classifier). For both:
+the loaded models and their RAM/VRAM split (GET /models).
 
 Standard library only, run by the system Python at logon (llm_host_agent_startup.ps1), because
 the app runs in Docker and can neither read the host's memory nor start a Windows process. It
@@ -99,6 +100,8 @@ PREFIX_STORE_MIB = 512
 # spilled into shared memory, and a decode step took 360 ms instead of 501 (5.3 tok/s instead of
 # 4.0; aiplans/2026-11-25-performanta-colibri.md).
 VRAM_HEADROOM_GB = 0.5
+# The Colibri engine process (coli.cmd starts Python, which starts it); it holds the model's RAM.
+COLIBRI_ENGINE_IMAGE = "qwen38.exe"
 PREFILL_ROW_KIB = 270
 PREFILL_WORKSPACE_MIB_PER_ROW = 0.5
 COLIBRI_PREFILL_WORKSPACE_MIB = 64
@@ -192,6 +195,32 @@ def vram_gb() -> tuple[float | None, float | None]:
     return round(free / 1024, 1), round(total / 1024, 1)
 
 
+# The working set of every process with this image name, in GB; None when none runs or tasklist
+# fails. Its memory column is "12,345 K" or "12.345 K" depending on the locale.
+def process_memory_gb(image: str) -> float | None:
+    try:
+        output = subprocess.run(
+            ["tasklist", "/FI", f"IMAGENAME eq {image}", "/FO", "CSV", "/NH"],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=COMMAND_TIMEOUT_SECONDS,
+            stdin=subprocess.DEVNULL,
+            creationflags=CREATE_NO_WINDOW,
+            check=True,
+        ).stdout
+    except (OSError, subprocess.SubprocessError):
+        return None
+    kib = 0
+    for line in output.splitlines():
+        fields = [field.strip('"') for field in line.split('","')]
+        if len(fields) >= 5 and fields[0].lower() == image.lower():
+            digits = re.sub(r"\D", "", fields[4])
+            kib += int(digits) if digits else 0
+    return round(kib / 1024**2, 1) if kib else None
+
+
 # Docker Desktop's WSL VM keeps the files it read as cache, and Windows gets that RAM back only
 # once Linux frees it. Dropping the cache and compacting the free pages (WSL returns them in whole
 # blocks) before the memory is measured leaves it to Colibri. A failure only logs: the report goes
@@ -273,6 +302,8 @@ class Agent:
     def __init__(self, config: AgentConfig) -> None:
         self.config = config
         self._process: subprocess.Popen[bytes] | None = None
+        # The VRAM this agent gave the running Colibri (CUDA_EXPERT_GB); None when it started none.
+        self._colibri_vram_gb: float | None = None
         # One change at a time: a start must not race the stop of the same server.
         self.change_lock = threading.Lock()
 
@@ -420,8 +451,10 @@ class Agent:
         # The GPU computes the experts it holds; Colibri's own allowance is the free VRAM Windows
         # reports less 1 GiB, which here left 1.1 GB, 783 experts, beside the 8 GB trunk.
         vram_free, _ = vram_gb()
+        self._colibri_vram_gb = None
         if vram_free is not None and vram_free > VRAM_HEADROOM_GB:
-            environment["CUDA_EXPERT_GB"] = f"{vram_free - VRAM_HEADROOM_GB:.1f}"
+            self._colibri_vram_gb = round(vram_free - VRAM_HEADROOM_GB, 1)
+            environment["CUDA_EXPERT_GB"] = f"{self._colibri_vram_gb:.1f}"
         if self.config.prefill_rows > 0:
             environment["Q38_PREFILL_BATCH_ROWS"] = str(self.config.prefill_rows)
             environment["Q38_PREFILL_WORKSPACE_MIB"] = str(
@@ -455,8 +488,38 @@ class Agent:
                 if time.monotonic() >= deadline:
                     raise AgentError(502, "STOP_FAILED")
                 time.sleep(0.5)
+            self._colibri_vram_gb = None
             logger.info("server_stopped")
             return {"state": "stopped"}
+
+    # What the local models hold right now, for the app's window of loaded models; reads only,
+    # so it takes no lock. Ollama's own split is exact. Colibri's is an estimate: Windows gives no
+    # GPU memory per process, so its VRAM is the allowance this agent gave it and its RAM the
+    # engine's working set. A Colibri this agent did not start has no known allowance.
+    def models(self) -> dict[str, Any]:
+        ollama: list[dict[str, Any]] = []
+        try:
+            for item in _ollama_json("/api/ps").get("models") or []:
+                ollama.append(
+                    {
+                        "name": str(item["name"]),
+                        "size": int(item.get("size") or 0),
+                        "sizeVram": int(item.get("size_vram") or 0),
+                    }
+                )
+        except (OSError, ValueError, KeyError, TypeError):
+            # A stopped Ollama holds no model; a reply it cannot parse is reported as none too.
+            ollama = []
+        healthy = self.healthy()
+        starting = self._process is not None and self._process.poll() is None
+        colibri: dict[str, Any] | None = None
+        if healthy or starting:
+            colibri = {
+                "loading": not healthy,
+                "ramGb": process_memory_gb(COLIBRI_ENGINE_IMAGE),
+                "vramGb": self._colibri_vram_gb,
+            }
+        return {"ollama": ollama, "colibri": colibri}
 
     # The request `coli stop` makes; the forced stop above remains for a server that ignores it.
     def _request_graceful_stop(self) -> None:
@@ -511,6 +574,22 @@ class Agent:
             )
             return {"state": "free", "unloaded": models}
 
+    # One model leaves Ollama, whatever memory it holds: the app's classifier, after the last call
+    # of a message. Ollama unloads it once its requests end; nothing waits for that. An Ollama
+    # that does not answer holds nothing to release.
+    def release_ollama(self, model: str) -> dict[str, Any]:
+        with self.change_lock:
+            try:
+                _ollama_json("/api/generate", {"model": model, "keep_alive": 0})
+            except urllib.error.HTTPError as exc:
+                logger.warning("ollama_release_failed model=%s status=%s", model, exc.code)
+                return {"state": "skipped"}
+            except (OSError, ValueError) as exc:
+                logger.warning("ollama_release_skipped model=%s type=%s", model, type(exc).__name__)
+                return {"state": "skipped"}
+            logger.info("ollama_released model=%s", model)
+            return {"state": "released"}
+
     # Ollama keeps its server and every model runner in this process tree; a Colibri report needs
     # their RAM. The reply says whether it ran, so the app restarts it only in that case.
     def stop_ollama(self) -> dict[str, Any]:
@@ -560,7 +639,8 @@ class Agent:
     # The app's only way to load a model in Ollama. Colibri's model leaves first (the agent itself
     # stays): the Ollama model needs the RAM and VRAM it holds. A stopped Ollama is started, then
     # the model is loaded with the options its requests use, so Ollama does not load it again for
-    # them. A model already loaded is left as it is, and so is Colibri.
+    # them. One model per memory: the Ollama models in the memory it needs leave first, except
+    # `protect` (see _evict_ollama). A model already loaded is left as it is, and so is Colibri.
     def load_ollama(self, request: OllamaLoad) -> dict[str, Any]:
         try:
             if self.ollama_running() and request.model in _ollama_models(every_model=True):
@@ -575,8 +655,16 @@ class Agent:
             payload["keep_alive"] = request.keep_alive
         if request.api == "embed":
             payload["input"] = []
+        keep = {
+            *_names(request.model),
+            *(name for item in request.protect for name in _names(item)),
+        }
+        # Where Ollama will put it: num_gpu 0 keeps a model on the CPU, anything else goes to the
+        # GPU first. The models in that memory leave before it loads.
+        on_cpu = request.options.get("num_gpu") == 0
         started = time.monotonic()
         with self.change_lock:
+            _evict_ollama(keep, ram=on_cpu, vram=not on_cpu, wait=True)
             try:
                 _ollama_json(f"/api/{request.api}", payload, OLLAMA_LOAD_TIMEOUT_SECONDS)
             except urllib.error.HTTPError as exc:
@@ -589,6 +677,9 @@ class Agent:
                     "ollama_load_failed model=%s type=%s", request.model, type(exc).__name__
                 )
                 raise AgentError(502, "OLLAMA_LOAD_FAILED") from None
+            # A GPU model that did not fit spills into RAM: the models there leave too.
+            if not on_cpu and _ollama_placements().get(request.model, (False, False))[0]:
+                _evict_ollama(keep, ram=True, vram=False, wait=False)
         logger.info(
             "ollama_model_loaded model=%s api=%s seconds=%.1f",
             request.model,
@@ -657,13 +748,15 @@ class OllamaLoad:
     api: str
     keep_alive: int | str | None
     options: dict[str, Any]
+    # Models that must stay loaded: the one a running report uses.
+    protect: tuple[str, ...] = ()
 
 
 _MODEL_NAME_RE = re.compile(r"^[\w.:/-]{1,200}$")
 
 
-# The body of POST /ollama/load: {"model", "api", "keepAlive"?, "options"?}; anything else is
-# refused, so the agent only ever sends Ollama a load it understands.
+# The body of POST /ollama/load: {"model", "api", "keepAlive"?, "options"?, "protect"?}; anything
+# else is refused, so the agent only ever sends Ollama a load it understands.
 def parse_load(body: bytes) -> OllamaLoad:
     try:
         data = json.loads(body or b"{}")
@@ -673,6 +766,7 @@ def parse_load(body: bytes) -> OllamaLoad:
         raise AgentError(400, "BAD_REQUEST")
     model, api = data.get("model"), data.get("api")
     keep_alive, options = data.get("keepAlive"), data.get("options") or {}
+    protect = data.get("protect") or []
     valid = (
         isinstance(model, str)
         and _MODEL_NAME_RE.match(model) is not None
@@ -688,10 +782,68 @@ def parse_load(body: bytes) -> OllamaLoad:
             isinstance(key, str) and isinstance(value, (int, float, bool))
             for key, value in options.items()
         )
+        and isinstance(protect, list)
+        and len(protect) <= 8
+        and all(isinstance(item, str) and _MODEL_NAME_RE.match(item) for item in protect)
     )
     if not valid:
         raise AgentError(400, "BAD_REQUEST")
-    return OllamaLoad(str(model), str(api), keep_alive, dict(options))
+    return OllamaLoad(str(model), str(api), keep_alive, dict(options), tuple(protect))
+
+
+# The body of POST /ollama/release: {"model"}; anything else is refused.
+def parse_release(body: bytes) -> str:
+    try:
+        data = json.loads(body or b"{}")
+    except ValueError:
+        raise AgentError(400, "BAD_REQUEST") from None
+    model = data.get("model") if isinstance(data, dict) else None
+    if not isinstance(model, str) or _MODEL_NAME_RE.match(model) is None:
+        raise AgentError(400, "BAD_REQUEST")
+    return model
+
+
+# A model name as /api/ps may list it: Ollama names a model without a tag `<name>:latest`.
+def _names(model: str) -> tuple[str, ...]:
+    return (model,) if ":" in model.rsplit("/", 1)[-1] else (model, f"{model}:latest")
+
+
+# Where each loaded model sits: (holds RAM, holds VRAM).
+def _ollama_placements() -> dict[str, tuple[bool, bool]]:
+    placements: dict[str, tuple[bool, bool]] = {}
+    for item in _ollama_json("/api/ps").get("models") or []:
+        size, vram = int(item.get("size") or 0), int(item.get("size_vram") or 0)
+        placements[str(item["name"])] = (size > vram, vram > 0)
+    return placements
+
+
+# One model per memory: before a load, the loaded models in the RAM or VRAM it needs leave, except
+# `keep`. With `wait` the load waits up to OLLAMA_UNLOAD_SECONDS for that memory; a model still
+# there after it, or an Ollama that does not answer, only logs: the load goes on.
+def _evict_ollama(keep: set[str], *, ram: bool, vram: bool, wait: bool) -> list[str]:
+    try:
+        victims = [
+            name
+            for name, (in_ram, in_vram) in _ollama_placements().items()
+            if name not in keep and ((ram and in_ram) or (vram and in_vram))
+        ]
+        for name in victims:
+            _ollama_json("/api/generate", {"model": name, "keep_alive": 0})
+        deadline = time.monotonic() + OLLAMA_UNLOAD_SECONDS
+        remaining = victims
+        while wait and remaining:
+            if time.monotonic() >= deadline:
+                logger.warning("ollama_evict_timeout models=%s", ",".join(remaining))
+                break
+            time.sleep(OLLAMA_POLL_SECONDS)
+            loaded = _ollama_placements()
+            remaining = [name for name in victims if name in loaded]
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        logger.warning("ollama_evict_skipped type=%s", type(exc).__name__)
+        return []
+    if victims:
+        logger.info("ollama_evicted models=%s ram=%s vram=%s", ",".join(victims), ram, vram)
+    return victims
 
 
 # The loaded models that hold GPU memory, or all of them with every_model.
@@ -722,9 +874,11 @@ def _handler(agent: Agent) -> type[BaseHTTPRequestHandler]:
         def do_GET(self) -> None:
             if not self._allowed():
                 return
-            if self.path != "/status":
+            actions = {"/status": agent.status, "/models": agent.models}
+            action = actions.get(self.path)
+            if action is None:
                 return self._reply(404, {"error": "NOT_FOUND"})
-            self._dispatch(agent.status)
+            self._dispatch(action)
 
         def do_POST(self) -> None:
             if not self._allowed():
@@ -738,11 +892,13 @@ def _handler(agent: Agent) -> type[BaseHTTPRequestHandler]:
                 "/ollama/unload": agent.unload_ollama,
                 "/ollama/unload?all=1": lambda: agent.unload_ollama(every_model=True),
             }
-            if self.path == "/ollama/load":
+            if self.path in {"/ollama/load", "/ollama/release"}:
                 length = int(self.headers.get("Content-Length") or 0)
                 if not 0 < length <= MAX_BODY_BYTES:
                     return self._reply(400, {"error": "BAD_REQUEST"})
                 body = self.rfile.read(length)
+                if self.path == "/ollama/release":
+                    return self._dispatch(lambda: agent.release_ollama(parse_release(body)))
                 return self._dispatch(lambda: agent.load_ollama(parse_load(body)))
             action = actions.get(self.path)
             if action is None:
