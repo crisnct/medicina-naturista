@@ -38,7 +38,7 @@ LANGUAGES = {"ron": "Romanian", "eng": "English"}
 # One page is a short bounded task, so thinking is off; num_predict leaves room for a dense page.
 REQUEST_OPTIONS = {"temperature": 0, "num_ctx": 8192, "num_predict": 4096}
 # Ollama's "forever": the model stays loaded between pages and is released explicitly when the run
-# ends (or by vllm-supervisor before a vLLM start).
+# ends (or by the llm-orchestrator, through the LLM host agent, before a vLLM start).
 KEEP_ALIVE = -1
 TIMEOUT = httpx.Timeout(600.0, connect=5.0)
 PROMPT = (

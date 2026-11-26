@@ -21,6 +21,7 @@ from typing import Any
 import httpx
 
 from backend.ai.effort import ollama_think, responses_effort
+from backend.ai.ollama_loading import ensure_loaded
 from backend.ai.providers import ProviderConfig, provider_config
 from backend.ai.report_validation import (
     SALVAGEABLE_WARNINGS,
@@ -1342,6 +1343,16 @@ class OllamaReportClient(ResponsesClient):
             native["options"]["repeat_penalty"] = self.provider.repeat_penalty
         if self.provider.repeat_last_n is not None:
             native["options"]["repeat_last_n"] = self.provider.repeat_last_n
+        # A model Ollama does not hold is loaded by the host agent first, so Colibri's model leaves.
+        ensure_loaded(
+            self.provider.base_url,
+            native["model"],
+            api="generate",
+            keep_alive=native.get("keep_alive"),
+            options={"num_ctx": native["options"]["num_ctx"]}
+            if "num_ctx" in native["options"]
+            else {},
+        )
         url = f"{self.provider.base_url.removesuffix('/v1')}/api/chat"
         timeout = httpx.Timeout(
             remaining_timeout(float(self.provider.read_timeout_seconds)),

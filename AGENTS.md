@@ -178,16 +178,26 @@ aliases for the Windows lock.
   `vllm-embed` server on the GPU (fp8), questions are embedded by the host Ollama
   (`qwen3-embedding:4b-q8_0`) on the CPU, and an Ollama failure stops the semantic signal with
   `SEMANTIC_MODEL_UNAVAILABLE` (`SEMANTIC_MODEL_NOT_PULLED` when the model is not installed). The
-  startup warm-up search loads that model. Before
+  startup warm-up search runs without the semantic signal, so readiness never depends on Ollama,
+  and loads no model. In the web app the model leaves Ollama right after it embedded the question
+  (`keep_alive` 0; the load before it keeps it 120 s at most); the scripts keep it loaded. Before
   a semantic search the chat loads that model through `POST /api/embedding-model/load` when
   `GET /api/embedding-model` says it is not loaded, with a temporary indicator. No other model is
   understood by the code.
-- GPU: `vllm-supervisor` unloads the host Ollama models that hold GPU memory (`size_vram > 0`) before
-  every vLLM start and refuses the start with `OLLAMA_GPU_BUSY` if they are still loaded after 30 s.
-  The app unloads Ollama models itself only before an Ollama report. Every Ollama request sends
+- Ollama loads: every local Ollama model the app uses is loaded by the LLM host agent through the
+  orchestrator (`backend/ai/ollama_loading.py`, `VllmRuntime.load_ollama_model`, agent
+  `POST /ollama/load`): Colibri's server is stopped first (never the agent itself), a stopped
+  Ollama is started, and the model is loaded with its requests' options. Not during a Colibri
+  report; not in native runs or the scripts, where Ollama loads on the first request.
+- GPU: before every vLLM start `llm-orchestrator` asks the LLM host agent to unload the host Ollama
+  models that hold GPU memory (`size_vram > 0`) and refuses the start with `OLLAMA_GPU_BUSY` if they
+  are still loaded after 30 s. The orchestrator never calls Ollama itself.
+  Before an Ollama report with another model the app asks the same agent endpoint. The app never
+  calls Ollama's admin API, nor the agent directly: every agent call goes through the orchestrator's
+  `/host-agent/<path>` relay (`LLM_HOST_AGENT_URL` is set on the orchestrator only). Every Ollama request sends
   `keep_alive` -1 by default (`OLLAMA_KEEP_ALIVE_SECONDS`), so these unloads are what frees the GPU.
 - Colibri (`colibri-qwen3.8-flash-next:125b`) runs on the Windows host, outside Docker, through the host
-  agent `src/scripts/colibri_host_agent.py` (logon task from `colibri_agent_startup.ps1`). Before a
+  agent `src/scripts/llm_host_agent.py` (logon task from `llm_host_agent_startup.ps1`). Before a
   Colibri report the app stops the vLLM containers, has the agent close Ollama entirely (restarted
   through the agent when the job ends, if it ran before) and asks the agent for a RAM/VRAM check; below the thresholds in
   `core/report_models.py` the job waits for the user's decision (`awaiting_resources`). Any report

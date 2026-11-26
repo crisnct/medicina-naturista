@@ -37,6 +37,7 @@ from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
 from backend.ai.message_classification import MessageClassifier
 from backend.ai.model_runtime import VllmRuntime
+from backend.ai.ollama_loading import use_loader
 from backend.ai.providers import default_max_output_tokens
 from backend.ai.report_validation import ValidationWarning
 from backend.ai.retrieval import Retriever
@@ -702,14 +703,22 @@ def post_classify(request: Request):
 
 
 # The chat asks before a semantic search, so the user sees why the first question after an Ollama
-# restart waits. Without the real index (tests, a fake retriever) there is no model to load.
+# restart waits. Without the real index (tests, a fake retriever) there is no model to load. An
+# Ollama that does not answer holds no model; the load below starts it when it can.
 @router.get("/api/embedding-model")
 def get_embedding_model(request: Request):
     if not isinstance(_deps(request).retriever, Retriever):
         return {"loaded": True}
-    return {"loaded": published_query_model().is_loaded()}
+    try:
+        return {"loaded": published_query_model().is_loaded()}
+    except ApplicationError as exc:
+        if exc.code != "SEMANTIC_MODEL_UNAVAILABLE" or _deps(request).model_runtime is None:
+            raise
+        return {"loaded": False}
 
 
+# The load goes through the host agent when the app has an orchestrator (backend.ai.ollama_loading):
+# Colibri's model leaves first and a stopped Ollama is started.
 @router.post("/api/embedding-model/load")
 def post_embedding_model_load(request: Request):
     if isinstance(_deps(request).retriever, Retriever):
@@ -1380,12 +1389,13 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     record_report_batch_usage=metrics_repository.record_batch_usage,
                     recommend_report_thinking=metrics_repository.recommend_thinking_tokens,
                     # Empty for native runs, where the operator starts any vLLM server by hand;
-                    # the Colibri agent alone is enough for the Colibri model.
-                    model_runtime=VllmRuntime(cfg)
-                    if cfg.model_supervisor_url or cfg.colibri_agent_url
-                    else None,
+                    # the Colibri model also needs the orchestrator, which relays to the host agent.
+                    model_runtime=VllmRuntime(cfg) if cfg.llm_orchestrator_url else None,
                 )
                 application.state.dependencies = runtime
+                # Every local Ollama model the app uses is then loaded by the host agent.
+                if isinstance(runtime.model_runtime, VllmRuntime):
+                    use_loader(runtime.model_runtime.load_ollama_model)
                 application.root_path = cfg.public_root_path
                 application.mount(
                     "/",
@@ -1482,6 +1492,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                 for client in report_clients.values():
                     client.close()
                 if runtime and runtime.model_runtime:
+                    use_loader(None)
                     runtime.model_runtime.close()
                 if classifier:
                     classifier.close()

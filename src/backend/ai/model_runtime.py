@@ -1,6 +1,7 @@
 """Brings the GPU to the state a report model needs before the job sends its first request.
 
-The state is always read from Docker and from the Colibri host agent, so it survives app restarts
+The state is always read from Docker and from the LLM host agent, both through the
+llm-orchestrator, so it survives app restarts
 and manual commands. Called only from the single report worker, outside every lock, so nothing else
 uses a model while it changes.
 """
@@ -14,7 +15,6 @@ from typing import Any, cast
 
 import httpx
 
-from backend.ai.embedding_model import is_query_model
 from backend.ai.providers import LOCAL_HOSTS
 from backend.config import Settings
 from backend.core.contracts import ConfirmResources, ModelStage, ResourceCheck
@@ -30,18 +30,20 @@ from backend.core.texts import tr
 logger = logging.getLogger("naturist.reports")
 
 _POLL_SECONDS = 2.0
-# A start may first stop a loaded Colibri through its agent (up to 120 s) and unload Ollama (30 s).
-_SUPERVISOR_TIMEOUT = httpx.Timeout(240.0, connect=5.0)
+# A start may first stop a loaded Colibri through the host agent (up to 120 s) and unload Ollama
+# through it (up to 60 s).
+_ORCHESTRATOR_TIMEOUT = httpx.Timeout(240.0, connect=5.0)
 _PROBE_TIMEOUT = httpx.Timeout(3.0, connect=2.0)
-_OLLAMA_UNLOAD_SECONDS = 30.0
 _RUNNING_STATES = frozenset({"running", "restarting"})
-# `coli plan` reads the model's layout from disk; the stop waits for the engine to exit.
-_AGENT_TIMEOUT = httpx.Timeout(240.0, connect=5.0)
+# The host agent's calls go through the orchestrator, which gives each up to 330 s (`coli plan`
+# reads the model's layout from disk; a stop waits for the engine to exit; a load may stop Colibri,
+# start Ollama and read a model from disk) and may first wait for another change to finish.
+_AGENT_TIMEOUT = httpx.Timeout(420.0, connect=5.0)
 # Loading takes seconds when the files are in the page cache, longer from a cold disk.
 _COLIBRI_WARMUP_SECONDS = 600.0
 
 
-class _SupervisorUnavailable(Exception):
+class _OrchestratorUnavailable(Exception):
     pass
 
 
@@ -91,12 +93,11 @@ class VllmRuntime:
         clock: Callable[[], float] = time.monotonic,
         sleep: Callable[[float], None] = time.sleep,
     ) -> None:
-        self._supervisor = settings.model_supervisor_url
+        self._orchestrator = settings.llm_orchestrator_url
         self._vllm_base = settings.vllm_api_base
-        self._colibri_agent = settings.colibri_agent_url
         self._colibri_base = settings.colibri_api_base
-        self._ollama_base = settings.ollama_api_base.removesuffix("/v1")
-        self._ollama_local = (httpx.URL(self._ollama_base).host or "") in LOCAL_HOSTS
+        # Only an Ollama of this machine shares the GPU; the host agent manages that one.
+        self._ollama_local = (httpx.URL(settings.ollama_api_base).host or "") in LOCAL_HOSTS
         self._warmup_seconds = settings.vllm_warmup_timeout_seconds
         self._http = http or httpx.Client()
         self._clock = clock
@@ -105,9 +106,33 @@ class VllmRuntime:
         self._last_local_model: ReportModel | None = None
         # Ollama ran before a Colibri report stopped it, so finish() starts it again.
         self._restart_ollama = False
+        # From a Colibri report's prepare() to its finish(): Ollama is stopped on purpose, and no
+        # load may start it again (read by the web threads, written by the report worker).
+        self._colibri_report_running = False
 
     def close(self) -> None:
         self._http.close()
+
+    # Every local Ollama model the app uses is loaded by the host agent, through the orchestrator
+    # (registered in backend.ai.ollama_loading): Colibri's model leaves first, and a stopped Ollama
+    # is started. Never while a Colibri report runs, whose finish() starts Ollama again: then the
+    # caller's own request loads the model, as before. Says whether the agent loaded it.
+    def load_ollama_model(
+        self, model: str, api: str, keep_alive: int | str | None, options: dict[str, Any]
+    ) -> bool:
+        if not self._ollama_local or self._colibri_report_running:
+            return False
+        try:
+            self._agent(
+                "POST",
+                "/ollama/load",
+                {"model": model, "api": api, "keepAlive": keep_alive, "options": options},
+            )
+        except ApplicationError as exc:
+            logger.warning("ollama_load_failed model=%s code=%s", model, exc.code)
+            return False
+        logger.info("ollama_loaded_through_agent model=%s", model)
+        return True
 
     def prepare(
         self,
@@ -119,15 +144,16 @@ class VllmRuntime:
         spec = REPORT_MODELS[model]
         # Colibri stays loaded until a report with any other model, cloud ones included.
         if spec.provider == "colibri":
+            self._colibri_report_running = True
             self._prepare_colibri(spec.model, on_stage, checkpoint, confirm)
             self._last_local_model = model
             return
         self._stop_colibri(on_stage)
         # A cloud report leaves the GPU alone, so returning to a running vLLM model stays instant.
         # A local report with a model other than the previous local report's frees the GPU first:
-        # the vLLM containers are stopped below (all but the chosen vLLM model's own), and the
-        # Ollama models are unloaded here for an Ollama report and by the supervisor before it
-        # starts a vLLM container. Repeating the same model releases nothing.
+        # the vLLM containers are stopped below (all but the chosen vLLM model's own), and the host
+        # agent unloads the Ollama models, asked here for an Ollama report and by the orchestrator
+        # before it starts a vLLM container. Repeating the same model releases nothing.
         local = spec.provider in ("ollama", "vllm")
         if spec.provider == "ollama" and model != self._last_local_model:
             self._unload_ollama()
@@ -140,13 +166,13 @@ class VllmRuntime:
         if local:
             self._last_local_model = model
 
-    # Without the supervisor nothing can be stopped, but Ollama itself still answers: the report
+    # Without the orchestrator nothing can be stopped, but Ollama itself still answers: the report
     # may run slower beside a vLLM server, which beats refusing every local report.
     def _prepare_ollama(self, on_stage: Callable[[ModelStage], None]) -> None:
         try:
             status = self._status()
-        except _SupervisorUnavailable:
-            logger.warning("model_supervisor_unavailable target=ollama")
+        except _OrchestratorUnavailable:
+            logger.warning("llm_orchestrator_unavailable target=ollama")
             return
         self._stop_running(status, None, on_stage)
 
@@ -159,9 +185,9 @@ class VllmRuntime:
     ) -> None:
         try:
             status = self._status()
-        except _SupervisorUnavailable:
+        except _OrchestratorUnavailable:
             raise ApplicationError(
-                "MODEL_SUPERVISOR_UNAVAILABLE", tr("errors.model_supervisor_unavailable"), 503
+                "LLM_ORCHESTRATOR_UNAVAILABLE", tr("errors.llm_orchestrator_unavailable"), 503
             )
         if any(item["state"] in _RUNNING_STATES for item in status["observed"].values()):
             raise ApplicationError("VLLM_GPU_BUSY", tr("errors.vllm_gpu_busy"), 409)
@@ -182,12 +208,12 @@ class VllmRuntime:
 
     def _status(self) -> dict[str, dict[str, dict[str, Any]]]:
         try:
-            response = self._http.get(f"{self._supervisor}/status", timeout=_SUPERVISOR_TIMEOUT)
+            response = self._http.get(f"{self._orchestrator}/status", timeout=_ORCHESTRATOR_TIMEOUT)
             response.raise_for_status()
             return response.json()
         except (httpx.HTTPError, ValueError) as exc:
-            logger.warning("model_supervisor_status_failed type=%s", type(exc).__name__)
-            raise _SupervisorUnavailable from None
+            logger.warning("llm_orchestrator_status_failed type=%s", type(exc).__name__)
+            raise _OrchestratorUnavailable from None
 
     def _stop_running(
         self,
@@ -204,7 +230,7 @@ class VllmRuntime:
         started = self._clock()
         try:
             response = self._http.post(
-                f"{self._supervisor}/stop/{service}", timeout=_SUPERVISOR_TIMEOUT
+                f"{self._orchestrator}/stop/{service}", timeout=_ORCHESTRATOR_TIMEOUT
             )
             response.raise_for_status()
         except httpx.HTTPError as exc:
@@ -219,9 +245,9 @@ class VllmRuntime:
     def _start(self, service: str) -> None:
         try:
             response = self._http.post(
-                f"{self._supervisor}/start/{service}", timeout=_SUPERVISOR_TIMEOUT
+                f"{self._orchestrator}/start/{service}", timeout=_ORCHESTRATOR_TIMEOUT
             )
-            # The supervisor could not unload the Ollama models that hold the GPU.
+            # The host agent could not unload the Ollama models that hold the GPU.
             if response.status_code == 409 and _error_code(response) == "OLLAMA_GPU_BUSY":
                 logger.error("vllm_start_refused service=%s reason=ollama_gpu_busy", service)
                 raise ApplicationError("VLLM_GPU_BUSY", tr("errors.vllm_gpu_busy"), 409)
@@ -233,38 +259,21 @@ class VllmRuntime:
             ) from None
         logger.info("vllm_starting service=%s", service)
 
-    # A model held on the GPU keeps vLLM from allocating its share (it exits on startup), and
-    # OLLAMA_KEEP_ALIVE_SECONDS can hold one for a long time. If this fails the report's own
-    # request is what the user sees, so a problem here is only logged.
-    def _unload_ollama(self, *, include_query_model: bool = False) -> None:
+    # The host agent unloads the Ollama models that hold GPU memory: OLLAMA_KEEP_ALIVE_SECONDS can
+    # keep one there for a long time. The model that embeds questions runs on the CPU and stays,
+    # unless every_model asks for it too: Colibri needs its RAM. The app asks through the
+    # orchestrator and never calls Ollama's admin API itself. Without an agent nothing is unloaded,
+    # and if this fails the report's own request is what the user sees, so a problem here is only
+    # logged.
+    def _unload_ollama(self, *, every_model: bool = False) -> None:
         if not self._ollama_local:
             return
         try:
-            for model in self._ollama_loaded(include_query_model=include_query_model):
-                self._http.post(
-                    f"{self._ollama_base}/api/generate",
-                    json={"model": model, "keep_alive": 0},
-                    timeout=_SUPERVISOR_TIMEOUT,
-                ).raise_for_status()
-            deadline = self._clock() + _OLLAMA_UNLOAD_SECONDS
-            while self._ollama_loaded(include_query_model=include_query_model):
-                if self._clock() >= deadline:
-                    logger.warning("ollama_unload_incomplete")
-                    return
-                self._sleep(_POLL_SECONDS)
-        except (httpx.HTTPError, ValueError, KeyError, TypeError) as exc:
-            logger.warning("ollama_unload_failed type=%s", type(exc).__name__)
-
-    def _ollama_loaded(self, *, include_query_model: bool = False) -> list[str]:
-        response = self._http.get(f"{self._ollama_base}/api/ps", timeout=_PROBE_TIMEOUT)
-        response.raise_for_status()
-        # The model that embeds questions stays loaded: it runs on the CPU and holds no GPU memory.
-        # Colibri needs its RAM too, so only a Colibri report unloads it.
-        return [
-            item["name"]
-            for item in response.json().get("models") or []
-            if include_query_model or not is_query_model(item["name"])
-        ]
+            reply = self._agent("POST", "/ollama/unload?all=1" if every_model else "/ollama/unload")
+        except ApplicationError as exc:
+            logger.warning("ollama_unload_failed code=%s", exc.code)
+            return
+        logger.info("ollama_unloaded every_model=%s state=%s", every_model, reply.get("state"))
 
     def _wait_ready(self, service: str, served_model: str, checkpoint: Callable[[], None]) -> None:
         started = self._clock()
@@ -279,9 +288,9 @@ class VllmRuntime:
                 return
             try:
                 item = self._status()["managed"].get(service, {})
-            except _SupervisorUnavailable:
+            except _OrchestratorUnavailable:
                 raise ApplicationError(
-                    "MODEL_SUPERVISOR_UNAVAILABLE", tr("errors.model_supervisor_unavailable"), 503
+                    "LLM_ORCHESTRATOR_UNAVAILABLE", tr("errors.llm_orchestrator_unavailable"), 503
                 )
             if item.get("state") not in _RUNNING_STATES:
                 logger.error(
@@ -316,10 +325,6 @@ class VllmRuntime:
         checkpoint: Callable[[], None],
         confirm: ConfirmResources | None,
     ) -> None:
-        if not self._colibri_agent:
-            raise ApplicationError(
-                "COLIBRI_AGENT_UNAVAILABLE", tr("errors.colibri_agent_unavailable"), 503
-            )
         on_stage("stopping_model")
         # Even beside a loaded Colibri: a search since the last report may have loaded the question
         # embedder again, and its RAM is what the experts need.
@@ -328,8 +333,8 @@ class VllmRuntime:
             return
         try:
             status = self._status()
-        except _SupervisorUnavailable:
-            logger.warning("model_supervisor_unavailable target=colibri")
+        except _OrchestratorUnavailable:
+            logger.warning("llm_orchestrator_unavailable target=colibri")
         else:
             if any(item["state"] in _RUNNING_STATES for item in status["observed"].values()):
                 raise ApplicationError("VLLM_GPU_BUSY", tr("errors.vllm_gpu_busy"), 409)
@@ -389,15 +394,19 @@ class VllmRuntime:
         try:
             reply = self._agent("POST", "/ollama/stop")
         except ApplicationError as exc:
-            # Without the agent's help, unloading the models still frees most of that memory.
+            # When the process cannot be stopped, unloading every model still frees most of that
+            # memory.
             logger.warning("ollama_stop_failed code=%s fallback=unload", exc.code)
-            self._unload_ollama(include_query_model=True)
+            self._unload_ollama(every_model=True)
             return
         self._restart_ollama = self._restart_ollama or bool(reply.get("wasRunning"))
         logger.info("ollama_stopped_for_colibri was_running=%s", reply.get("wasRunning"))
 
     def finish(self, model: ReportModel) -> None:
-        if REPORT_MODELS[model].provider != "colibri" or not self._restart_ollama:
+        if REPORT_MODELS[model].provider != "colibri":
+            return
+        self._colibri_report_running = False
+        if not self._restart_ollama:
             return
         try:
             self._agent("POST", "/ollama/start")
@@ -410,8 +419,6 @@ class VllmRuntime:
     # Any other report frees Colibri's memory first. Without an agent there is nothing to stop,
     # and an agent that does not answer must not block a report with another model.
     def _stop_colibri(self, on_stage: Callable[[ModelStage], None]) -> None:
-        if not self._colibri_agent:
-            return
         try:
             if not self._agent("GET", "/status").get("running"):
                 return
@@ -429,31 +436,44 @@ class VllmRuntime:
         except (httpx.HTTPError, ValueError, AttributeError):
             return False
 
-    def _agent(self, method: str, path: str) -> dict[str, Any]:
+    # The app never calls the host agent itself: the orchestrator relays these calls, so an
+    # orchestrator that does not answer is LLM_ORCHESTRATOR_UNAVAILABLE, and an agent that is not
+    # configured or does not answer is LLM_HOST_AGENT_UNAVAILABLE.
+    def _agent(
+        self, method: str, path: str, payload: dict[str, Any] | None = None
+    ) -> dict[str, Any]:
         try:
             response = self._http.request(
-                method, f"{self._colibri_agent}{path}", timeout=_AGENT_TIMEOUT
+                method,
+                f"{self._orchestrator}/host-agent{path}",
+                json=payload,
+                timeout=_AGENT_TIMEOUT,
             )
         except httpx.HTTPError as exc:
-            logger.error("colibri_agent_failed path=%s type=%s", path, type(exc).__name__)
+            logger.error("host_agent_relay_failed path=%s type=%s", path, type(exc).__name__)
             raise ApplicationError(
-                "COLIBRI_AGENT_UNAVAILABLE", tr("errors.colibri_agent_unavailable"), 503
+                "LLM_ORCHESTRATOR_UNAVAILABLE", tr("errors.llm_orchestrator_unavailable"), 503
             ) from None
         code = _error_code(response)
+        if code == "HOST_AGENT_UNAVAILABLE":
+            logger.warning("host_agent_unavailable path=%s", path)
+            raise ApplicationError(
+                "LLM_HOST_AGENT_UNAVAILABLE", tr("errors.llm_host_agent_unavailable"), 503
+            )
         if response.status_code == 409 and code == "INSUFFICIENT_RESOURCES":
             raise ApplicationError(
                 "COLIBRI_RESOURCES_INSUFFICIENT", tr("errors.colibri_resources_insufficient"), 409
             )
         if response.status_code >= 400:
             logger.error(
-                "colibri_agent_refused path=%s status=%s code=%s", path, response.status_code, code
+                "host_agent_refused path=%s status=%s code=%s", path, response.status_code, code
             )
             if path == "/start":
                 raise ApplicationError(
                     "COLIBRI_START_FAILED", tr("errors.colibri_start_failed"), 503
                 )
             raise ApplicationError(
-                "COLIBRI_AGENT_UNAVAILABLE", tr("errors.colibri_agent_unavailable"), 503
+                "LLM_HOST_AGENT_UNAVAILABLE", tr("errors.llm_host_agent_unavailable"), 503
             )
         try:
             body = response.json()
@@ -461,6 +481,6 @@ class VllmRuntime:
             body = None
         if not isinstance(body, dict):
             raise ApplicationError(
-                "COLIBRI_AGENT_UNAVAILABLE", tr("errors.colibri_agent_unavailable"), 503
+                "LLM_HOST_AGENT_UNAVAILABLE", tr("errors.llm_host_agent_unavailable"), 503
             )
         return cast(dict[str, Any], body)

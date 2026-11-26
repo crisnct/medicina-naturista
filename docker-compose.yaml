@@ -52,12 +52,12 @@
       DEEPSEEK_API_BASE: ${DEEPSEEK_API_BASE:-https://api.deepseek.com}
       OLLAMA_API_BASE: ${OLLAMA_API_BASE:-http://host.docker.internal:11434/v1}
       VLLM_API_BASE: ${VLLM_API_BASE:-http://vllm-report:8000/v1}
-      MODEL_SUPERVISOR_URL: ${MODEL_SUPERVISOR_URL-http://vllm-supervisor:8080}
+      LLM_ORCHESTRATOR_URL: ${LLM_ORCHESTRATOR_URL-http://llm-orchestrator:8080}
       VLLM_WARMUP_TIMEOUT_SECONDS: ${VLLM_WARMUP_TIMEOUT_SECONDS:-900}
-      # Colibri runs on the Windows host, not in Docker; its agent (src/scripts/colibri_host_agent.py,
-      # started at logon by colibri_agent_startup.ps1) measures memory and starts or stops it.
+      # Colibri runs on the Windows host, not in Docker; the LLM host agent (src/scripts/llm_host_agent.py,
+      # started at logon by llm_host_agent_startup.ps1) measures memory and starts or stops it and Ollama.
+      # The app reaches the agent only through llm-orchestrator, which holds LLM_HOST_AGENT_URL.
       COLIBRI_API_BASE: ${COLIBRI_API_BASE:-http://host.docker.internal:8010/v1}
-      COLIBRI_AGENT_URL: ${COLIBRI_AGENT_URL-http://host.docker.internal:8011}
       OLLAMA_KEEP_ALIVE_SECONDS: ${OLLAMA_KEEP_ALIVE_SECONDS:--1}
       OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
       OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL: ${OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL:-}
@@ -160,7 +160,7 @@
     ports:
       # Host port outside the Windows-reserved 7772-7871 range; the container stays on 7860.
       - "127.0.0.1:${APP_HOST_PORT:-8760}:7860"
-    networks: [internal, supervisor]
+    networks: [internal, orchestrator]
   # Local TranslateGemma server for src/scripts/translate_markdown.py. Not started
   # by `docker compose up`; it needs the whole GPU, so stop host Ollama models first (ollama ps)
   # and start it with: docker compose --profile vllm-translate up -d vllm-translate
@@ -204,8 +204,8 @@
     networks: [internal]
   # Qwen3-Embedding-4B for the index build (src/scripts/build_hybrid_index.py). Not started by
   # `docker compose up`: the build starts it when there is something to embed and stops it
-  # afterwards, because it needs most of the GPU (the supervisor unloads the host Ollama models that
-  # hold GPU memory before the start). Questions in the app never use it; the host Ollama embeds
+  # afterwards, because it needs most of the GPU (the orchestrator has the LLM host agent unload the
+  # host Ollama models that hold GPU memory before the start). Questions in the app never use it; the host Ollama embeds
   # them on the CPU.
   # Create it once: docker compose --profile vllm-embed create
   # The weights are read offline from ./model_cache (Hugging Face layout, models--Qwen--Qwen3-Embedding-4B).
@@ -253,15 +253,16 @@
       - --gpu-memory-utilization=0.8
     networks: [internal]
   # The only container with the Docker socket, which is root-equivalent on the host. It can start and
-  # stop only the vLLM report servers and vllm-embed (src/scripts/vllm_supervisor.py). Only the app and, on
+  # stop only the vLLM report servers and vllm-embed (src/scripts/llm_orchestrator.py). Only the app and, on
   # the loopback port below, the index build on the host can reach it, so the app itself stays without
-  # any Docker access. Set MODEL_SUPERVISOR_URL empty to manage the
-  # servers by hand. Before every start it stops a loaded Colibri server through its host agent
-  # (COLIBRI_AGENT_URL; empty skips it) and unloads the host Ollama models that hold GPU memory (a
-  # local OLLAMA_API_BASE only), and refuses the start if either still holds the GPU.
-  vllm-supervisor:
+  # any Docker access. Set LLM_ORCHESTRATOR_URL empty to manage the
+  # servers by hand. Before every start it asks the LLM host agent (LLM_HOST_AGENT_URL; empty skips it)
+  # to stop a loaded Colibri server and to unload the host Ollama models that hold GPU memory, and
+  # refuses the start if either still holds the GPU. It never calls Ollama itself. It is also the app's
+  # only way to the host agent: /host-agent/<path> relays a fixed list of the agent's endpoints.
+  llm-orchestrator:
     image: python:3.11-slim-bookworm
-    container_name: medicina-vllm-supervisor
+    container_name: medicina-llm-orchestrator
     restart: unless-stopped
     init: true
     read_only: true
@@ -269,10 +270,9 @@
     security_opt: [no-new-privileges:true]
     pids_limit: 32
     mem_limit: 64m
-    command: ["python", "/supervisor/vllm_supervisor.py"]
+    command: ["python", "/orchestrator/llm_orchestrator.py"]
     environment:
-      OLLAMA_API_BASE: ${OLLAMA_API_BASE:-http://host.docker.internal:11434/v1}
-      COLIBRI_AGENT_URL: ${COLIBRI_AGENT_URL-http://host.docker.internal:8011}
+      LLM_HOST_AGENT_URL: ${LLM_HOST_AGENT_URL-http://host.docker.internal:8011}
     extra_hosts:
       - "host.docker.internal:host-gateway"
     volumes:
@@ -280,20 +280,20 @@
         source: /var/run/docker.sock
         target: /var/run/docker.sock
       - type: bind
-        source: ./src/scripts/vllm_supervisor.py
-        target: /supervisor/vllm_supervisor.py
+        source: ./src/scripts/llm_orchestrator.py
+        target: /orchestrator/llm_orchestrator.py
         read_only: true
     # The index build runs on the host and starts/stops vllm-embed through this port. Published on the
     # loopback only, and on a network of its own, so the database and the vLLM servers cannot reach it.
     ports:
-      - "127.0.0.1:${VLLM_SUPERVISOR_HOST_PORT:-8081}:8080"
-    networks: [supervisor, supervisor_host]
+      - "127.0.0.1:${LLM_ORCHESTRATOR_HOST_PORT:-8081}:8080"
+    networks: [orchestrator, orchestrator_host]
   # The vLLM report servers. Neither starts with `docker compose up`: a report starts its model, and
   # the model stays up until a report needs the GPU for another model. The containers must exist first,
   # once and after every change to these services:
   # docker compose --profile vllm-report create
   # Only one runs at a time, so both use one address: http://vllm-report:8000/v1 (VLLM_API_BASE) and
-  # the host port 8001 for the scripts and native runs. The supervisor enforces that rule, because a
+  # the host port 8001 for the scripts and native runs. The orchestrator enforces that rule, because a
   # start that fails on the shared port breaks that container until it is recreated.
   # --max-model-len is the limit of ONE request (its input plus its output), not a budget shared by
   # the parallel batches; they share only the KV cache. Keep the model's `context` value in
@@ -377,12 +377,12 @@
         aliases: [vllm-report]
 networks:
   internal:
-  # Only the app and the supervisor; no route out and no other container can reach the supervisor.
-  supervisor:
+  # Only the app and the orchestrator; no route out and no other container can reach the orchestrator.
+  orchestrator:
     internal: true
-  # Carries only the supervisor's host port (an internal network cannot publish one) and its
-  # requests to the host Ollama.
-  supervisor_host:
+  # Carries only the orchestrator's host port (an internal network cannot publish one) and its
+  # requests to the LLM host agent.
+  orchestrator_host:
 volumes:
   pg_data:
   vllm_hf_cache:

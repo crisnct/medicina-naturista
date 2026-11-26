@@ -22,7 +22,7 @@ ReportModel = Literal[
 ]
 # The default list stays Ollama and cloud only; the local vLLM and Colibri models are opted into
 # through REPORT_GENERATION_MODELS, because each needs its own GPU server (see docker-compose.yaml
-# and src/scripts/colibri_host_agent.py).
+# and src/scripts/llm_host_agent.py).
 DEFAULT_REPORT_MODELS: tuple[ReportModel, ...] = (
     "ollama-gemma3:1b",
     "ollama-gemma4:12b",

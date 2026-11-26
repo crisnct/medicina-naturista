@@ -2584,8 +2584,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-144",
       "timestamp": "2026-10-24T05:32:00.336Z",
-      "last_seen": "2026-11-02T14:34:42.057Z",
-      "occurrences": 2,
+      "last_seen": "2026-11-26T11:23:01.638Z",
+      "occurrences": 3,
       "related_bugs": []
     },
     {
@@ -11713,6 +11713,240 @@
       "last_seen": "2026-11-26T08:49:43.761Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of llm_host_agent.py",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 8→12 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-652",
+      "timestamp": "2026-11-26T09:54:19.439Z",
+      "last_seen": "2026-11-26T09:54:19.439Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "Had \"naturist.colibri_agent\"",
+      "fix": "Changed to \"naturist.llm_host_agent\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-653",
+      "timestamp": "2026-11-26T09:54:31.666Z",
+      "last_seen": "2026-11-26T09:54:31.666Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of llm_host_agent_startup.ps1",
+      "file": "src/scripts/llm_host_agent_startup.ps1",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 5→8 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "ps1"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-654",
+      "timestamp": "2026-11-26T09:55:24.769Z",
+      "last_seen": "2026-11-26T09:55:24.769Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong operator: >= should be ==",
+      "file": "src/scripts/llm_orchestrator.py",
+      "root_cause": "Used \">=\" instead of \"==\"",
+      "fix": "Changed operator >= → ==",
+      "tags": [
+        "auto-detected",
+        "operator-fix",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-655",
+      "timestamp": "2026-11-26T09:56:00.998Z",
+      "last_seen": "2026-11-26T09:56:00.998Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "Was returning: [str(item[\"name\"]) for item in models if int(item.",
+      "fix": "Now returns: [",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-656",
+      "timestamp": "2026-11-26T10:58:59.142Z",
+      "last_seen": "2026-11-26T10:58:59.142Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of model_runtime.py",
+      "file": "src/backend/ai/model_runtime.py",
+      "root_cause": "27 lines replaced/restructured",
+      "fix": "Rewrote 32→16 lines (27 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-657",
+      "timestamp": "2026-11-26T10:59:29.231Z",
+      "last_seen": "2026-11-26T10:59:29.231Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of llm_orchestrator.py",
+      "file": "src/scripts/llm_orchestrator.py",
+      "root_cause": "21 lines replaced/restructured",
+      "fix": "Rewrote 50→71 lines (21 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-658",
+      "timestamp": "2026-11-26T11:01:49.658Z",
+      "last_seen": "2026-11-26T11:01:49.658Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of search.py",
+      "file": "src/backend/ai/search.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 13→20 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-659",
+      "timestamp": "2026-11-26T11:22:52.612Z",
+      "last_seen": "2026-11-26T11:22:52.612Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in close()",
+      "file": "src/backend/ai/model_runtime.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-660",
+      "timestamp": "2026-11-26T11:30:28.217Z",
+      "last_seen": "2026-11-26T11:30:28.217Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in get_embedding_model()",
+      "file": "src/backend/web/main.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-661",
+      "timestamp": "2026-11-26T11:30:48.848Z",
+      "last_seen": "2026-11-26T11:30:48.848Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in load_ollama()",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-662",
+      "timestamp": "2026-11-26T11:51:21.752Z",
+      "last_seen": "2026-11-26T11:51:21.752Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _ollama_json()",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-663",
+      "timestamp": "2026-11-26T11:51:31.499Z",
+      "last_seen": "2026-11-26T11:51:31.499Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of main.py",
+      "file": "src/backend/web/main.py",
+      "root_cause": "14 lines replaced/restructured",
+      "fix": "Rewrote 18→7 lines (14 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-664",
+      "timestamp": "2026-11-26T11:53:35.089Z",
+      "last_seen": "2026-11-26T11:53:35.089Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12413,7 +12647,21 @@
     "8031e081-93bf-4881-a5e9-e3c9a07eb342": true,
     "503c6fd3-be7f-4e9b-a5d9-e67c77b792c2": true,
     "d6e1c442-cd3b-4849-8170-7599057892b6": true,
-    "b156b86c-fa09-4523-8b3e-446e3d1ec0e0": true
+    "b156b86c-fa09-4523-8b3e-446e3d1ec0e0": true,
+    "2c5ff274-b20b-4e7c-b8bf-8bb193d5325b": true,
+    "21fc17d3-9d51-4a45-8201-35e02f277737": true,
+    "04a0fdde-b782-4125-bdd0-95397469ce76": true,
+    "3f3587af-f22b-4944-abce-9f86f3759c53": true,
+    "b75fdb5f-fd8b-4301-adfc-464f9d844493": true,
+    "e61f9601-a50f-4cc3-a4e5-3398e6a4f6fd": true,
+    "12cd8766-047e-4d20-81ab-2e2e5d789315": true,
+    "38413313-ba15-4216-b353-7480c0f5e880": true,
+    "9c0e395d-1b87-4360-87ed-548209383927": true,
+    "d081ed7d-df62-4462-9424-ae2afe2601c3": true,
+    "2163ad8d-7fdf-4b55-ae01-459a61d1ff14": true,
+    "ad59f19c-f916-4dd4-833f-d26d6809f6de": true,
+    "bb8f563c-1a33-419c-af83-129aabe21684": true,
+    "fbcc5383-837f-4eb1-b2c4-05ed6c3f9c0c": true
   },
-  "next_id": 652
+  "next_id": 665
 }

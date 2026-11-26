@@ -42,8 +42,8 @@ rerun the evaluation.
 - **`VllmEmbedding`, HTTP client of the `vllm-embed` Compose service** — index builds only,
   `embed(texts, batch_size, parallel)` (`parallel` is ignored). `EMBEDDING_THREADS` (24) is the
   number of simultaneous requests and also the server's `--max-num-seqs`; a request holds
-  `BATCH_SIZE` (16) windows. `ai/vllm_embed_server.py` asks the `vllm-supervisor` (loopback port
-  `VLLM_SUPERVISOR_HOST_PORT`; only it has Docker access) to start the service when there is
+  `BATCH_SIZE` (16) windows. `ai/vllm_embed_server.py` asks the `llm-orchestrator` (loopback port
+  `LLM_ORCHESTRATOR_HOST_PORT`; only it has Docker access) to start the service when there is
   something to embed, waits for the model and stops it in a `finally`; a busy GPU (a running
   `medicina-vllm-*` container or an Ollama model that holds the GPU) is the error `VLLM_GPU_BUSY`,
   and there is no fallback. The server flags are fixed in `docker-compose.yaml`

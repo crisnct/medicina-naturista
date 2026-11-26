@@ -281,9 +281,9 @@ class Settings:
     embedding_threads: int = 24
     # Host port of the vllm-embed server (the same VLLM_EMBED_HOST_PORT that Compose publishes).
     vllm_embed_port: int = 8002
-    # Host port of the vllm-supervisor (VLLM_SUPERVISOR_HOST_PORT): the build starts and stops vllm-embed
-    # through it, because only the supervisor has Docker access.
-    vllm_supervisor_host_port: int = 8081
+    # Host port of the llm-orchestrator (LLM_ORCHESTRATOR_HOST_PORT): the build starts and stops vllm-embed
+    # through it, because only the orchestrator has Docker access.
+    llm_orchestrator_host_port: int = 8081
     frontend_dist_dir: Path = ROOT / "src" / "frontend" / "dist"
     database_url: str = field(
         default="postgresql://medicina:medicina@127.0.0.1:5432/medicina", repr=False
@@ -321,15 +321,15 @@ class Settings:
     deepseek_api_base: str = "https://api.deepseek.com"
     vllm_model: str = REPORT_MODELS["vllm-qwen3.5:4b"].model
     vllm_api_base: str = "http://localhost:8001/v1"
-    # The sidecar that starts and stops the vLLM servers; empty means the operator does it by hand.
-    model_supervisor_url: str = ""
+    # The llm-orchestrator, which starts and stops the vLLM servers and relays the app's calls to the
+    # LLM host agent (Colibri and the host Ollama, src/scripts/llm_host_agent.py); empty means the
+    # operator starts the vLLM servers by hand and no Colibri report can run.
+    llm_orchestrator_url: str = ""
     # A first start also downloads the weights, so this is well above the usual warm-up.
     vllm_warmup_timeout_seconds: int = 900
     colibri_model: str = REPORT_MODELS["colibri-qwen3.8-flash-next:125b"].model
-    # The Colibri server on the Windows host and the agent that measures memory, starts and stops
-    # it (src/scripts/colibri_host_agent.py); an empty agent URL means no Colibri report can run.
+    # The Colibri server on the Windows host; the app only reads its model list and sends requests.
     colibri_api_base: str = "http://localhost:8010/v1"
-    colibri_agent_url: str = ""
     # Identification of a condition the dictionary does not know (ai/condition_ai.py):
     # Identification uses only the host Ollama model, with no provider fallback.
     medical_condition_ai_local_model: str = "gemma3:1b"
@@ -447,8 +447,8 @@ class Settings:
             model_cache_dir=Path(env.get("MODEL_CACHE_DIR", str(ROOT / "model_cache"))),
             embedding_threads=_int("EMBEDDING_THREADS", 24, env=env),
             vllm_embed_port=_int("VLLM_EMBED_HOST_PORT", 8002, maximum=65535, env=env),
-            vllm_supervisor_host_port=_int(
-                "VLLM_SUPERVISOR_HOST_PORT", 8081, maximum=65535, env=env
+            llm_orchestrator_host_port=_int(
+                "LLM_ORCHESTRATOR_HOST_PORT", 8081, maximum=65535, env=env
             ),
             frontend_dist_dir=Path(
                 env.get("FRONTEND_DIST_DIR", str(ROOT / "src" / "frontend" / "dist"))
@@ -485,12 +485,11 @@ class Settings:
             if report_spec.provider == "vllm"
             else REPORT_MODELS["vllm-qwen3.5:4b"].model,
             vllm_api_base=env.get("VLLM_API_BASE", "http://localhost:8001/v1").rstrip("/"),
-            model_supervisor_url=env.get("MODEL_SUPERVISOR_URL", "").rstrip("/"),
+            llm_orchestrator_url=env.get("LLM_ORCHESTRATOR_URL", "").rstrip("/"),
             vllm_warmup_timeout_seconds=_int(
                 "VLLM_WARMUP_TIMEOUT_SECONDS", 900, minimum=1, env=env
             ),
             colibri_api_base=env.get("COLIBRI_API_BASE", "http://localhost:8010/v1").rstrip("/"),
-            colibri_agent_url=env.get("COLIBRI_AGENT_URL", "").rstrip("/"),
             medical_condition_ai_local_model=env.get(
                 "MEDICAL_CONDITION_AI_LOCAL_MODEL", "gemma3:1b"
             ),
@@ -687,7 +686,7 @@ class Settings:
         for name in ("ai_stream", "log_fragment_text", "log_ai_response_text", "cookie_secure"):
             if not isinstance(getattr(self, name), bool):
                 raise ValueError(f"{name} must be boolean")
-        for name in ("vllm_embed_port", "vllm_supervisor_host_port"):
+        for name in ("vllm_embed_port", "llm_orchestrator_host_port"):
             if not 1 <= getattr(self, name) <= 65535:
                 raise ValueError(f"{name} must be a valid TCP port")
         if self.log_level not in {"DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"}:
@@ -703,10 +702,9 @@ class Settings:
             "colibri_api_base",
             "condition_ai_local_base",
             "herb_association_ai_base",
-            "model_supervisor_url",
-            "colibri_agent_url",
+            "llm_orchestrator_url",
         ):
-            if name in ("model_supervisor_url", "colibri_agent_url") and not getattr(self, name):
+            if name == "llm_orchestrator_url" and not getattr(self, name):
                 continue
             try:
                 parsed = urlsplit(getattr(self, name))

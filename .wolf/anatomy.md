@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-26T09:36:38.493Z
-> Files: 537 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-26T11:53:34.945Z
+> Files: 541 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -462,11 +462,12 @@
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9708 tok)
-- `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~6074 tok)
+- `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~6216 tok)
+- `ollama_loading.py` — Loads of the app's local Ollama models go through the LLM host agent, so Colibri's model leaves (~651 tok)
 - `providers.py` — Per-provider transport settings for report generation. (~2646 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3085 tok)
-- `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~8120 tok)
+- `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~8372 tok)
 - `vllm_embed_server.py` — Life cycle of the `vllm-embed` Compose service for an index build. (~1684 tok)
 
 ## src/backend/ai/prompts/
@@ -499,7 +500,7 @@
 
 ## src/backend/core/
 
-- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~3299 tok)
+- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~3342 tok)
 - `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~16968 tok)
 - `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1309 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
@@ -569,7 +570,7 @@
 ## src/backend/web/
 
 - `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~601 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~17966 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~18298 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
@@ -650,6 +651,9 @@
 - `herb_product_safety_extension.py` — Bilingual product safety in batches: ministral and deepseek, one merge, a run per language. (~8449 tok)
 - `herb_product_safety_index.py` — One local-model request per uncached catalog product; no corpus or association inference. (~3632 tok)
 - `herb_safety_index.py` — Shared progress helpers and the public safety command, which uses product knowledge. (~647 tok)
+- `llm_host_agent_startup.ps1` — Registers (or with -Remove deletes) the logon task that runs the LLM host agent. (~678 tok)
+- `llm_host_agent.py` — Windows host agent for the local LLMs: Colibri and the host Ollama. (~11022 tok)
+- `llm_orchestrator.py` — The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers. (~3679 tok)
 - `manage_texts.py` — Export public copy and regenerate key/parameter metadata, never a second editable catalog. (~783 tok)
 - `pdf_chapters.py` — Recover a book's chapters from the running heads printed at the top of its pages. (~3287 tok)
 - `pdf_headings.py` — Give the headings of vision-transcribed pages the same levels across the whole book. (~2592 tok)

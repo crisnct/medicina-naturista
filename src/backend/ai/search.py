@@ -524,9 +524,6 @@ def _finite_rank(rank: float) -> int | None:
     return int(rank) if math.isfinite(rank) else None
 
 
-# Run one throwaway search so the first real one is fast: it loads the
-# embedding model and the condition dictionary and pulls the index into
-# Postgres's buffers. All signals are on, so the model is loaded too.
 # The question embedder of the published index. The index is released before the caller loads
 # the model, so a load never holds a database connection.
 def published_query_model() -> OllamaQueryEmbedding:
@@ -535,8 +532,11 @@ def published_query_model() -> OllamaQueryEmbedding:
     return cached_query_model(model_name)
 
 
+# Run one throwaway search so the first real one is fast: it loads the condition dictionary and
+# pulls the index into Postgres's buffers. The semantic signal is off, so it needs only what the
+# app owns; the question embedder is loaded before each semantic search, not at startup.
 def warm_up() -> None:
-    rank("gripa", max_chars=1, signals=ALL_SIGNALS)
+    rank("gripa", max_chars=1, signals=SearchSignals(semantic=False))
 
 
 # Parse search arguments, execute the search, and print human or JSON results.

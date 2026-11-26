@@ -1,12 +1,13 @@
-# Registers (or with -Remove deletes) the logon task that runs the Colibri host agent.
+# Registers (or with -Remove deletes) the logon task that runs the LLM host agent.
 #
-# The agent (colibri_host_agent.py) measures RAM/VRAM, runs `coli plan` and starts or stops the
-# Colibri server when the app asks; it loads no model itself. The task runs it with the system
+# The agent (llm_host_agent.py) measures RAM/VRAM, runs `coli plan` and starts or stops the
+# Colibri server, and stops, starts or unloads the host Ollama, when the app or the orchestrator
+# asks; it loads no model itself. The task runs it with the system
 # Python's pythonw.exe (no console window) for the current user, without administrator rights.
 # The project's .venv Python cannot write under C:\Colibri, the system Python can.
 #
-#   powershell -ExecutionPolicy Bypass -File src\scripts\colibri_agent_startup.ps1
-#   powershell -ExecutionPolicy Bypass -File src\scripts\colibri_agent_startup.ps1 -Remove
+#   powershell -ExecutionPolicy Bypass -File src\scripts\llm_host_agent_startup.ps1
+#   powershell -ExecutionPolicy Bypass -File src\scripts\llm_host_agent_startup.ps1 -Remove
 
 [CmdletBinding()]
 param(
@@ -16,13 +17,16 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$TaskName = "medicina-colibri-agent"
-$Agent = Join-Path $PSScriptRoot "colibri_host_agent.py"
+$TaskName = "medicina-llm-host-agent"
+$Agent = Join-Path $PSScriptRoot "llm_host_agent.py"
 
-$existing = Get-ScheduledTask -TaskName $TaskName -ErrorAction SilentlyContinue
-if ($existing) {
-    Stop-ScheduledTask -TaskName $TaskName -ErrorAction SilentlyContinue
-    Unregister-ScheduledTask -TaskName $TaskName -Confirm:$false
+# medicina-colibri-agent is this task's former name; its agent would keep port 8011.
+foreach ($name in @($TaskName, "medicina-colibri-agent")) {
+    $existing = Get-ScheduledTask -TaskName $name -ErrorAction SilentlyContinue
+    if ($existing) {
+        Stop-ScheduledTask -TaskName $name -ErrorAction SilentlyContinue
+        Unregister-ScheduledTask -TaskName $name -Confirm:$false
+    }
 }
 if ($Remove) {
     Write-Output "Removed the logon task $TaskName."
@@ -44,6 +48,6 @@ $principal = New-ScheduledTaskPrincipal -UserId $env:USERNAME -LogonType Interac
 
 Register-ScheduledTask -TaskName $TaskName -Action $action -Trigger $trigger `
     -Settings $settings -Principal $principal `
-    -Description "Colibri host agent for medicina-naturista (port 8011)" | Out-Null
+    -Description "LLM host agent for medicina-naturista (port 8011)" | Out-Null
 Start-ScheduledTask -TaskName $TaskName
 Write-Output "Registered and started the logon task $TaskName."

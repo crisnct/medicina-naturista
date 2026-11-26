@@ -3845,3 +3845,46 @@ description: chronological action log per session, consolidated weekly
 | 2026-11-26T08:54:16.376Z | Set Ollama num_ctx 32768 for message classification and condition identification (shared constant LOCAL_CLASSIFIER_CONTEXT_TOKENS in providers.py): qwen3.5:4b went from 17 GB (8 GB RAM, 18 tok/s) at the server 262144 to 4.49 GB all in VRAM (60 tok/s); largest prompt 18,712 tokens at MAX_CHAT_CHARS 50000 | src/backend/ai/providers.py,src/backend/ai/condition_ai.py,src/backend/ai/message_classification.py | ruff ok, 684 unit tests pass, live check: ctx 32768 all VRAM, no reload between the two calls; container not rebuilt |
 | 11:14 | Edited architecture/README.md | 2→3 lines | ~142 |
 | 11:36 | Edited architecture/README.md | "llm-orchestrator" → "vllm-supervisor" | ~118 |
+
+## Session: 2026-11-26 11:48
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 11:54 | Edited src/scripts/llm_host_agent.py | 8→12 lines | ~221 |
+| 11:54 | Edited src/scripts/llm_host_agent.py | "naturist.colibri_agent" → "naturist.llm_host_agent" | ~16 |
+| 11:54 | Edited src/scripts/llm_host_agent.py | 2→7 lines | ~90 |
+| 11:54 | Edited src/scripts/llm_host_agent.py | modified ollama_running() | ~503 |
+| 11:54 | Edited src/scripts/llm_host_agent.py | modified __init__() | ~244 |
+| 11:54 | Edited src/scripts/llm_host_agent.py | 2→3 lines | ~35 |
+| 11:55 | Edited src/scripts/llm_host_agent_startup.ps1 | modified if() | ~105 |
+| 11:55 | Edited src/scripts/llm_orchestrator.py | host() → agent() | ~253 |
+| 11:55 | Edited src/scripts/llm_orchestrator.py | modified OrchestratorError() | ~135 |
+| 11:56 | Edited src/scripts/llm_orchestrator.py | modified _host_agent() | ~407 |
+<!-- session:NjBiMDUwMjQtNWFlMS00ZTM3LWIxNWUtMTI4OTRhNzUzMzQx -->
+| 2026-11-26T10:56:52.915Z | Renamed colibri_host_agent to llm_host_agent and vllm-supervisor to llm-orchestrator (files, Compose service, env vars, error codes, docs); orchestrator now unloads Ollama VRAM models through the agent's new POST /ollama/unload instead of calling Ollama; local-ai-models.xmind and its code evidence updated | src/scripts/llm_host_agent.py,src/scripts/llm_orchestrator.py,src/scripts/llm_host_agent_startup.ps1,docker-compose.yaml,src/backend/config.py,src/backend/ai/model_runtime.py,src/backend/ai/vllm_embed_server.py,README.md,AGENTS.md,architecture/local-ai-models.xmind | ruff, mypy and 453 unit tests pass; agent and orchestrator not run live |
+| 12:58 | Edited src/scripts/llm_host_agent.py | _ollama_gpu_models() → _ollama_models() | ~486 |
+| 12:58 | Edited src/scripts/llm_host_agent.py | _ollama_gpu_models() → _ollama_models() | ~91 |
+| 12:59 | Edited src/scripts/llm_host_agent.py | modified _allowed() | ~144 |
+| 12:59 | Edited src/backend/ai/model_runtime.py | modified _unload_ollama() | ~276 |
+| 13:01 | Edited src/scripts/llm_orchestrator.py | added 1 condition(s) | ~879 |
+| 13:01 | Edited src/scripts/llm_orchestrator.py | expanded (+18 lines) | ~238 |
+| 13:01 | Edited src/scripts/llm_orchestrator.py | modified _reply() | ~413 |
+| 13:01 | Edited src/scripts/llm_orchestrator.py | 2→5 lines | ~72 |
+| 13:22 | Edited src/backend/ai/search.py | modified published_query_model() | ~289 |
+| 13:23 | Edited src/backend/web/main.py | added error handling | ~357 |
+| 13:30 | Edited src/backend/ai/model_runtime.py | added error handling | ~397 |
+| 13:30 | Edited src/backend/ai/model_runtime.py | 2→3 lines | ~47 |
+| 13:30 | Edited src/backend/ai/model_runtime.py | modified finish() | ~64 |
+| 13:30 | Edited src/backend/core/contracts.py | modified finish() | ~98 |
+| 13:30 | Edited src/backend/web/main.py | added error handling | ~398 |
+| 13:36 | Session end: 2 writes across 1 files (README.md) | 5 reads | ~18212 tok |
+| 13:36 | Session end: 5 writes across 3 files (providers.py, condition_ai.py, message_classification.py) | 3 reads | ~3581 tok |
+| 13:36 | Session end: 25 writes across 7 files (llm_host_agent.py, llm_host_agent_startup.ps1, llm_orchestrator.py, model_runtime.py, search.py) | 7 reads | ~15603 tok |
+| 13:51 | Edited src/scripts/llm_host_agent.py | added error handling | ~591 |
+| 13:51 | Edited src/scripts/llm_host_agent.py | added error handling | ~588 |
+| 13:51 | Edited src/scripts/llm_host_agent.py | expanded (+6 lines) | ~146 |
+| 13:51 | Edited src/scripts/llm_host_agent.py | 3→7 lines | ~93 |
+| 13:52 | Created src/backend/ai/ollama_loading.py | — | ~652 |
+| 13:52 | Edited src/backend/ai/ollama_loading.py | inline fix | ~20 |
+| 13:53 | Edited src/backend/core/contracts.py | removed 5 lines | ~10 |
+| 13:53 | Edited src/backend/web/main.py | modified post_embedding_model_load() | ~108 |

@@ -1,10 +1,15 @@
-"""Windows host agent for Colibri: memory status, `coli plan` checks, start and stop of the server.
+"""Windows host agent for the local LLMs: Colibri and the host Ollama.
 
-Standard library only, run by the system Python at logon (colibri_agent_startup.ps1), because
+For Colibri: memory status, `coli plan` checks, start and stop of the server. For Ollama: stop and
+start of its process tree, the load of a model (Colibri's model leaves first; the agent itself
+always stays), and the unload of the models that hold GPU memory, which the llm-orchestrator asks
+for before every vLLM start.
+
+Standard library only, run by the system Python at logon (llm_host_agent_startup.ps1), because
 the app runs in Docker and can neither read the host's memory nor start a Windows process. It
 loads no model itself. It listens on loopback only and accepts no Host header but its own names,
 so a web page cannot reach it through DNS rebinding; Docker Desktop forwards
-host.docker.internal to the host's loopback, which is how the app calls it.
+host.docker.internal to the host's loopback, which is how the app and the orchestrator call it.
 """
 
 from __future__ import annotations
@@ -27,7 +32,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from typing import Any
 
-logger = logging.getLogger("naturist.colibri_agent")
+logger = logging.getLogger("naturist.llm_host_agent")
 
 LISTEN_HOST = "127.0.0.1"
 ALLOWED_HOSTS = frozenset({"127.0.0.1", "localhost", "host.docker.internal"})
@@ -51,8 +56,17 @@ WSL_RELEASE_SCRIPT = (
 # `wsl` and `coli plan` then hung until their timeouts (2026-11-26).
 CREATE_NO_WINDOW = 0x08000000
 CREATE_NEW_PROCESS_GROUP = 0x00000200
-OLLAMA_VERSION_URL = "http://127.0.0.1:11434/api/version"
+OLLAMA_BASE_URL = "http://127.0.0.1:11434"
 OLLAMA_START_SECONDS = 60.0
+# A model left on the GPU makes a vLLM server exit on startup; the orchestrator refuses the start
+# when the models are still loaded after this long.
+OLLAMA_UNLOAD_SECONDS = 30.0
+OLLAMA_POLL_SECONDS = 2.0
+OLLAMA_REQUEST_TIMEOUT_SECONDS = 10.0
+# A model read from a cold disk; the question embedder takes ~3.5 s from the page cache.
+OLLAMA_LOAD_TIMEOUT_SECONDS = 180.0
+# The largest request body the agent reads (a load request is a few hundred bytes).
+MAX_BODY_BYTES = 16384
 # One expert slot per layer is tiny next to the dense part and the runtime; the server also keeps
 # a margin outside its budget. Together they are about this much on top of dense + runtime.
 RAM_MINIMUM_MARGIN_GB = 1.0
@@ -463,11 +477,39 @@ class Agent:
     def ollama_running(self) -> bool:
         try:
             with urllib.request.urlopen(
-                OLLAMA_VERSION_URL, timeout=HEALTH_TIMEOUT_SECONDS
+                f"{OLLAMA_BASE_URL}/api/version", timeout=HEALTH_TIMEOUT_SECONDS
             ) as reply:
                 return reply.status == 200
         except (urllib.error.URLError, OSError, ValueError):
             return False
+
+    # A vLLM server exits on startup when it cannot allocate its share of the GPU, and an Ollama
+    # report with another model needs it too, so the orchestrator and the app ask for this first.
+    # The model that embeds questions runs on the CPU (size_vram 0) and stays loaded, unless
+    # every_model asks for it too: the app's fallback before Colibri, when Ollama could not be
+    # stopped. An Ollama that does not answer holds nothing that could be released through it, so
+    # it is skipped; models still loaded after the wait are refused.
+    def unload_ollama(self, every_model: bool = False) -> dict[str, Any]:
+        with self.change_lock:
+            try:
+                models = _ollama_models(every_model)
+                for model in models:
+                    _ollama_json("/api/generate", {"model": model, "keep_alive": 0})
+                deadline = time.monotonic() + OLLAMA_UNLOAD_SECONDS
+                remaining = models
+                while remaining:
+                    if time.monotonic() >= deadline:
+                        logger.error("ollama_unload_timeout models=%s", ",".join(remaining))
+                        raise AgentError(409, "OLLAMA_GPU_BUSY")
+                    time.sleep(OLLAMA_POLL_SECONDS)
+                    remaining = _ollama_models(every_model)
+            except (OSError, ValueError, KeyError, TypeError) as exc:
+                logger.warning("ollama_unload_skipped type=%s", type(exc).__name__)
+                return {"state": "skipped"}
+            logger.info(
+                "ollama_unloaded every_model=%s models=%s", every_model, ",".join(models) or "none"
+            )
+            return {"state": "free", "unloaded": models}
 
     # Ollama keeps its server and every model runner in this process tree; a Colibri report needs
     # their RAM. The reply says whether it ran, so the app restarts it only in that case.
@@ -515,6 +557,46 @@ class Agent:
             logger.info("ollama_started")
             return {"state": "running"}
 
+    # The app's only way to load a model in Ollama. Colibri's model leaves first (the agent itself
+    # stays): the Ollama model needs the RAM and VRAM it holds. A stopped Ollama is started, then
+    # the model is loaded with the options its requests use, so Ollama does not load it again for
+    # them. A model already loaded is left as it is, and so is Colibri.
+    def load_ollama(self, request: OllamaLoad) -> dict[str, Any]:
+        try:
+            if self.ollama_running() and request.model in _ollama_models(every_model=True):
+                return {"state": "loaded"}
+        except (OSError, ValueError, KeyError, TypeError):
+            pass
+        if self.running():
+            self.stop()
+        self.start_ollama()
+        payload: dict[str, Any] = {"model": request.model, "options": request.options}
+        if request.keep_alive is not None:
+            payload["keep_alive"] = request.keep_alive
+        if request.api == "embed":
+            payload["input"] = []
+        started = time.monotonic()
+        with self.change_lock:
+            try:
+                _ollama_json(f"/api/{request.api}", payload, OLLAMA_LOAD_TIMEOUT_SECONDS)
+            except urllib.error.HTTPError as exc:
+                logger.error("ollama_load_failed model=%s status=%s", request.model, exc.code)
+                if exc.code == 404:
+                    raise AgentError(404, "OLLAMA_MODEL_NOT_FOUND") from None
+                raise AgentError(502, "OLLAMA_LOAD_FAILED") from None
+            except (OSError, ValueError) as exc:
+                logger.error(
+                    "ollama_load_failed model=%s type=%s", request.model, type(exc).__name__
+                )
+                raise AgentError(502, "OLLAMA_LOAD_FAILED") from None
+        logger.info(
+            "ollama_model_loaded model=%s api=%s seconds=%.1f",
+            request.model,
+            request.api,
+            time.monotonic() - started,
+        )
+        return {"state": "loaded"}
+
     def _kill_under(self, folder: Path) -> None:
         quoted = str(folder).replace("'", "''")
         script = (
@@ -554,6 +636,72 @@ class AgentError(Exception):
         self.code = code
 
 
+def _ollama_json(
+    path: str,
+    payload: dict[str, Any] | None = None,
+    timeout: float = OLLAMA_REQUEST_TIMEOUT_SECONDS,
+) -> dict[str, Any]:
+    data = None if payload is None else json.dumps(payload).encode()
+    request = urllib.request.Request(
+        f"{OLLAMA_BASE_URL}{path}", data=data, method="GET" if data is None else "POST"
+    )
+    request.add_header("Content-Type", "application/json")
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        return json.loads(response.read() or b"{}")
+
+
+@dataclass(frozen=True)
+class OllamaLoad:
+    model: str
+    # "embed" for an embedding model, "generate" for a chat model; both load without input.
+    api: str
+    keep_alive: int | str | None
+    options: dict[str, Any]
+
+
+_MODEL_NAME_RE = re.compile(r"^[\w.:/-]{1,200}$")
+
+
+# The body of POST /ollama/load: {"model", "api", "keepAlive"?, "options"?}; anything else is
+# refused, so the agent only ever sends Ollama a load it understands.
+def parse_load(body: bytes) -> OllamaLoad:
+    try:
+        data = json.loads(body or b"{}")
+    except ValueError:
+        raise AgentError(400, "BAD_REQUEST") from None
+    if not isinstance(data, dict):
+        raise AgentError(400, "BAD_REQUEST")
+    model, api = data.get("model"), data.get("api")
+    keep_alive, options = data.get("keepAlive"), data.get("options") or {}
+    valid = (
+        isinstance(model, str)
+        and _MODEL_NAME_RE.match(model) is not None
+        and api in {"embed", "generate"}
+        and (
+            keep_alive is None
+            or (isinstance(keep_alive, int) and not isinstance(keep_alive, bool))
+            or (isinstance(keep_alive, str) and len(keep_alive) <= 20)
+        )
+        and isinstance(options, dict)
+        and len(options) <= 16
+        and all(
+            isinstance(key, str) and isinstance(value, (int, float, bool))
+            for key, value in options.items()
+        )
+    )
+    if not valid:
+        raise AgentError(400, "BAD_REQUEST")
+    return OllamaLoad(str(model), str(api), keep_alive, dict(options))
+
+
+# The loaded models that hold GPU memory, or all of them with every_model.
+def _ollama_models(every_model: bool) -> list[str]:
+    models = _ollama_json("/api/ps").get("models") or []
+    return [
+        str(item["name"]) for item in models if every_model or int(item.get("size_vram") or 0) > 0
+    ]
+
+
 def _handler(agent: Agent) -> type[BaseHTTPRequestHandler]:
     class Handler(BaseHTTPRequestHandler):
         def _reply(self, status: int, payload: dict[str, Any]) -> None:
@@ -587,7 +735,15 @@ def _handler(agent: Agent) -> type[BaseHTTPRequestHandler]:
                 "/stop": agent.stop,
                 "/ollama/stop": agent.stop_ollama,
                 "/ollama/start": agent.start_ollama,
+                "/ollama/unload": agent.unload_ollama,
+                "/ollama/unload?all=1": lambda: agent.unload_ollama(every_model=True),
             }
+            if self.path == "/ollama/load":
+                length = int(self.headers.get("Content-Length") or 0)
+                if not 0 < length <= MAX_BODY_BYTES:
+                    return self._reply(400, {"error": "BAD_REQUEST"})
+                body = self.rfile.read(length)
+                return self._dispatch(lambda: agent.load_ollama(parse_load(body)))
             action = actions.get(self.path)
             if action is None:
                 return self._reply(404, {"error": "NOT_FOUND"})
