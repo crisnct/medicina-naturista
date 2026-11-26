@@ -23,8 +23,9 @@ from backend.config import settings
 SERVICE = "vllm-embed"
 _RUNNING_STATES = frozenset({"running", "restarting"})
 _POLL_SECONDS = 3
-# A stop waits for the container's grace period (30 s) before the supervisor answers.
-_SUPERVISOR_TIMEOUT = httpx.Timeout(120.0, connect=5.0)
+# A stop waits for the container's grace period (30 s) before the supervisor answers; a start
+# first stops a loaded Colibri (up to 120 s) and unloads Ollama (up to 30 s).
+_SUPERVISOR_TIMEOUT = httpx.Timeout(240.0, connect=5.0)
 _PROBE_TIMEOUT = httpx.Timeout(3.0, connect=2.0)
 
 
@@ -55,6 +56,9 @@ def _supervisor(method: str, path: str) -> dict[str, Any]:
             ),
             "OLLAMA_GPU_BUSY": (
                 " Ollama models still hold the GPU 30 s after the unload request; check `ollama ps`."
+            ),
+            "COLIBRI_BUSY": (
+                " The Colibri server on the host did not stop; see C:\\Colibri\\agent.log."
             ),
         }
         hint = hints.get(code, "")

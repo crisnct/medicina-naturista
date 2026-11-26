@@ -256,8 +256,9 @@
   # stop only the vLLM report servers and vllm-embed (src/scripts/vllm_supervisor.py). Only the app and, on
   # the loopback port below, the index build on the host can reach it, so the app itself stays without
   # any Docker access. Set MODEL_SUPERVISOR_URL empty to manage the
-  # servers by hand. Before every start it unloads the host Ollama models that hold GPU memory (a
-  # local OLLAMA_API_BASE only) and refuses the start if they are still loaded after 30 s.
+  # servers by hand. Before every start it stops a loaded Colibri server through its host agent
+  # (COLIBRI_AGENT_URL; empty skips it) and unloads the host Ollama models that hold GPU memory (a
+  # local OLLAMA_API_BASE only), and refuses the start if either still holds the GPU.
   vllm-supervisor:
     image: python:3.11-slim-bookworm
     container_name: medicina-vllm-supervisor
@@ -271,6 +272,7 @@
     command: ["python", "/supervisor/vllm_supervisor.py"]
     environment:
       OLLAMA_API_BASE: ${OLLAMA_API_BASE:-http://host.docker.internal:11434/v1}
+      COLIBRI_AGENT_URL: ${COLIBRI_AGENT_URL-http://host.docker.internal:8011}
     extra_hosts:
       - "host.docker.internal:host-gateway"
     volumes:

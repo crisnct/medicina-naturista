@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-26T06:27:33.084Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-26T08:23:16.013Z
 > Files: 537 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -14,7 +14,7 @@
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
 - `docker-compose.yaml` — Docker Compose: 2 services (~5568 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~36741 tok)
+- `README.md` — Project documentation (~36864 tok)
 
 ## .claude/
 
@@ -462,12 +462,12 @@
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
-- `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~3126 tok)
+- `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~6074 tok)
 - `providers.py` — Per-provider transport settings for report generation. (~2270 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~3085 tok)
 - `search.py` — Offline search over the Postgres-backed medical index. Every fragment gets (~8120 tok)
-- `vllm_embed_server.py` — Life cycle of the `vllm-embed` Compose service for an index build. (~1690 tok)
+- `vllm_embed_server.py` — Life cycle of the `vllm-embed` Compose service for an index build. (~1684 tok)
 
 ## src/backend/ai/prompts/
 
@@ -642,7 +642,7 @@
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20376 tok)
 - `colibri_agent_startup.ps1` — Registers (or with -Remove deletes) the logon task that runs the Colibri host agent. (~622 tok)
-- `colibri_host_agent.py` — Windows host agent for Colibri: memory status, `coli plan` checks, start and stop of the server. (~8850 tok)
+- `colibri_host_agent.py` — Windows host agent for Colibri: memory status, `coli plan` checks, start and stop of the server. (~8916 tok)
 - `evaluate_retrieval.py` — Measure retrieval quality and latency of ai/search.rank() against the (~3856 tok)
 - `extract_pdf_markdown.py` — Options: observe, body_size (~14210 tok)
 - `fix_markdown_headings.py` — fix_headings, main (~1489 tok)
@@ -661,7 +661,7 @@
 - `set_gpu_clock.bat` (~827 tok)
 - `setup_gpu_clock.bat` (~593 tok)
 - `translate_markdown.py` — from: translate_markdown, flush (~21734 tok)
-- `vllm_supervisor.py` — The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers. (~2837 tok)
+- `vllm_supervisor.py` — The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers. (~3277 tok)
 
 ## src/tests/integration/
 

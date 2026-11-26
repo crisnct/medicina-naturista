@@ -30,7 +30,8 @@ from backend.core.texts import tr
 logger = logging.getLogger("naturist.reports")
 
 _POLL_SECONDS = 2.0
-_SUPERVISOR_TIMEOUT = httpx.Timeout(90.0, connect=5.0)
+# A start may first stop a loaded Colibri through its agent (up to 120 s) and unload Ollama (30 s).
+_SUPERVISOR_TIMEOUT = httpx.Timeout(240.0, connect=5.0)
 _PROBE_TIMEOUT = httpx.Timeout(3.0, connect=2.0)
 _OLLAMA_UNLOAD_SECONDS = 30.0
 _RUNNING_STATES = frozenset({"running", "restarting"})

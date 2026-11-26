@@ -2,8 +2,8 @@
 
 Standard library only, because it runs unbuilt in the `vllm-supervisor` Compose service. The app
 reaches it on a network no other container joins, so it needs no credential of its own. Every
-start first unloads the host Ollama models that hold GPU memory, because vLLM exits on startup
-when it cannot allocate its share.
+start first stops the Colibri server on the host (through its agent) and unloads the host Ollama
+models that hold GPU memory, because vLLM exits on startup when it cannot allocate its share.
 """
 
 from __future__ import annotations
@@ -41,6 +41,11 @@ OLLAMA_LOCAL_HOSTS = frozenset({"host.docker.internal", "localhost", "127.0.0.1"
 OLLAMA_UNLOAD_SECONDS = 30.0
 OLLAMA_POLL_SECONDS = 2.0
 OLLAMA_REQUEST_TIMEOUT_SECONDS = 10.0
+# Colibri (src/scripts/colibri_host_agent.py) holds ~9 GB of VRAM and most of the RAM while it is
+# loaded. Its agent stops it gracefully (up to 60 s, so the expert history is written) and then by
+# force (15 s), so the stop gets that long and a margin.
+COLIBRI_STATUS_TIMEOUT_SECONDS = 15.0
+COLIBRI_STOP_TIMEOUT_SECONDS = 120.0
 
 
 class SupervisorError(Exception):
@@ -147,6 +152,36 @@ def unload_ollama() -> None:
     logger.info("ollama_gpu_free")
 
 
+def _colibri_agent() -> str | None:
+    return os.environ.get("COLIBRI_AGENT_URL", "").strip().rstrip("/") or None
+
+
+# Without an agent there is no Colibri to stop, and one that does not answer has not started any;
+# a loaded Colibri that refuses to stop keeps the GPU, so the start is refused instead.
+def stop_colibri() -> None:
+    base = _colibri_agent()
+    if base is None:
+        return
+    try:
+        with urllib.request.urlopen(
+            f"{base}/status", timeout=COLIBRI_STATUS_TIMEOUT_SECONDS
+        ) as response:
+            running = bool(json.loads(response.read() or b"{}").get("running"))
+    except (OSError, ValueError) as exc:
+        logger.warning("colibri_agent_unreachable type=%s", type(exc).__name__)
+        return
+    if not running:
+        return
+    request = urllib.request.Request(f"{base}/stop", data=b"", method="POST")
+    try:
+        with urllib.request.urlopen(request, timeout=COLIBRI_STOP_TIMEOUT_SECONDS):
+            pass
+    except (OSError, ValueError) as exc:
+        logger.error("colibri_stop_failed type=%s", type(exc).__name__)
+        raise SupervisorError(409, "COLIBRI_BUSY") from None
+    logger.info("colibri_stopped")
+
+
 def start_service(service: str) -> dict[str, Any]:
     if service not in STARTABLE_SERVICES:
         raise SupervisorError(404, "UNKNOWN_SERVICE")
@@ -161,6 +196,7 @@ def start_service(service: str) -> dict[str, Any]:
     if any(item["state"] in {"running", "restarting"} for item in others.values()):
         raise SupervisorError(409, "ANOTHER_SERVER_RUNNING")
     if everything[service]["state"] not in {"running", "restarting"}:
+        stop_colibri()
         unload_ollama()
     status, _ = _docker("POST", f"/containers/{quote(_container_name(service))}/start")
     if status not in {204, 304}:

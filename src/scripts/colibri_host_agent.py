@@ -485,7 +485,11 @@ class Agent:
 
     # Started through Explorer, as a click would: the tray app then reads the user's OLLAMA_*
     # variables and does not belong to this agent, so restarting the agent leaves it running.
+    # A loaded Colibri is stopped first: Ollama's models need the RAM and VRAM it holds, and beside
+    # them Windows paged Colibri out entirely while it sat idle (2026-11-26).
     def start_ollama(self) -> dict[str, Any]:
+        if self.running():
+            self.stop()
         with self.change_lock:
             if self.ollama_running():
                 return {"state": "running"}

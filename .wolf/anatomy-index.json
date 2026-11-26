@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-26T06:27:33.084Z",
+    "lastScanned": "2026-11-26T08:23:16.013Z",
     "fileCount": 537,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "e531591c0272cc271d8e5a5fd6002f40fa35cea1882a87da1c85054f0470864f",
-    "storeUpdatedAt": "2026-11-26T06:27:33.095Z",
-    "rootHash": "4fb4c42199c1cb52"
+    "renderedHash": "ba86756f38f2c3712137477201e73739a08f178283b566da55727eb679cac7f5",
+    "storeUpdatedAt": "2026-11-26T08:23:16.024Z",
+    "rootHash": "df37b83cade4f683"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -875,11 +875,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 36741,
-      "hash": "e5584b21e436070f",
-      "size": 147885,
-      "mtimeMs": 1795674452836.1404,
-      "updatedAt": "2026-11-26T06:27:33.083Z",
+      "tokens": 36864,
+      "hash": "7265fc647925072e",
+      "size": 148376,
+      "mtimeMs": 1795681395778.0498,
+      "updatedAt": "2026-11-26T08:23:16.012Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -12453,142 +12453,163 @@
     },
     "src/scripts/vllm_supervisor.py": {
       "description": "The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers.",
-      "tokens": 2837,
-      "hash": "bc936b9899421f8d",
-      "size": 9928,
-      "mtimeMs": 1795532348199.5745,
-      "updatedAt": "2026-11-24T14:59:08.439Z",
+      "tokens": 3277,
+      "hash": "04373833bf087def",
+      "size": 11467,
+      "mtimeMs": 1795681313280.0813,
+      "updatedAt": "2026-11-26T08:21:53.504Z",
       "source": "hook",
       "symbols": [
         {
           "name": "SupervisorError",
           "kind": "class",
-          "startLine": 47,
-          "endLine": 53,
+          "startLine": 51,
+          "endLine": 57,
           "tokens": 51
         },
         {
           "name": "_DockerConnection",
           "kind": "class",
-          "startLine": 54,
-          "endLine": 60,
+          "startLine": 58,
+          "endLine": 64,
           "tokens": 66
         },
         {
           "name": "_docker",
           "kind": "fn",
-          "startLine": 61,
-          "endLine": 73,
+          "startLine": 65,
+          "endLine": 77,
           "tokens": 139
         },
         {
           "name": "_container_name",
           "kind": "fn",
-          "startLine": 74,
-          "endLine": 77,
+          "startLine": 78,
+          "endLine": 81,
           "tokens": 22
         },
         {
           "name": "service_status",
           "kind": "fn",
-          "startLine": 78,
-          "endLine": 98,
+          "startLine": 82,
+          "endLine": 102,
           "tokens": 272
         },
         {
           "name": "status_all",
           "kind": "fn",
-          "startLine": 99,
-          "endLine": 106,
+          "startLine": 103,
+          "endLine": 110,
           "tokens": 94
         },
         {
           "name": "_ollama_base",
           "kind": "fn",
-          "startLine": 107,
-          "endLine": 113,
+          "startLine": 111,
+          "endLine": 117,
           "tokens": 68
         },
         {
           "name": "_ollama",
           "kind": "fn",
-          "startLine": 114,
-          "endLine": 124,
-          "tokens": 157
+          "startLine": 118,
+          "endLine": 126,
+          "tokens": 153
         },
         {
           "name": "_ollama_gpu_models",
           "kind": "fn",
-          "startLine": 125,
-          "endLine": 131,
+          "startLine": 127,
+          "endLine": 133,
           "tokens": 108
         },
         {
           "name": "unload_ollama",
           "kind": "fn",
-          "startLine": 132,
-          "endLine": 152,
-          "tokens": 236
+          "startLine": 134,
+          "endLine": 154,
+          "tokens": 229
+        },
+        {
+          "name": "_colibri_agent",
+          "kind": "fn",
+          "startLine": 155,
+          "endLine": 160,
+          "tokens": 87
+        },
+        {
+          "name": "stop_colibri",
+          "kind": "fn",
+          "startLine": 161,
+          "endLine": 184,
+          "tokens": 252
         },
         {
           "name": "start_service",
           "kind": "fn",
-          "startLine": 153,
-          "endLine": 176,
-          "tokens": 357
+          "startLine": 185,
+          "endLine": 209,
+          "tokens": 364
         },
         {
           "name": "stop_service",
           "kind": "fn",
-          "startLine": 177,
-          "endLine": 193,
+          "startLine": 210,
+          "endLine": 226,
           "tokens": 218
         },
         {
           "name": "_Handler",
           "kind": "class",
-          "startLine": 194,
-          "endLine": 229,
+          "startLine": 227,
+          "endLine": 262,
           "tokens": 401
         },
         {
           "name": "main",
           "kind": "fn",
-          "startLine": 230,
-          "endLine": 241,
+          "startLine": 263,
+          "endLine": 274,
           "tokens": 107
         }
       ]
     },
     "src/backend/ai/model_runtime.py": {
       "description": "Brings the GPU to the state a report model needs before the job sends its first request.",
-      "tokens": 3126,
-      "hash": "1184f4d444ca1119",
-      "size": 10941,
-      "mtimeMs": 1795532391014.1167,
-      "updatedAt": "2026-11-24T14:59:51.257Z",
+      "tokens": 6074,
+      "hash": "552fa5309cabc293",
+      "size": 21259,
+      "mtimeMs": 1795681340661.274,
+      "updatedAt": "2026-11-26T08:22:20.913Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_SupervisorUnavailable",
           "kind": "class",
-          "startLine": 33,
-          "endLine": 36,
-          "tokens": 15
+          "startLine": 44,
+          "endLine": 49,
+          "tokens": 52
+        },
+        {
+          "name": "resource_check",
+          "kind": "fn",
+          "startLine": 50,
+          "endLine": 76,
+          "tokens": 314
         },
         {
           "name": "_error_code",
           "kind": "fn",
-          "startLine": 37,
-          "endLine": 44,
+          "startLine": 77,
+          "endLine": 84,
           "tokens": 59
         },
         {
           "name": "VllmRuntime",
           "kind": "class",
-          "startLine": 45,
-          "endLine": 256,
-          "tokens": 2760
+          "startLine": 85,
+          "endLine": 467,
+          "tokens": 5078
         }
       ]
     },
@@ -13576,68 +13597,68 @@
     },
     "src/backend/ai/vllm_embed_server.py": {
       "description": "Life cycle of the `vllm-embed` Compose service for an index build.",
-      "tokens": 1690,
-      "hash": "bcc26c9769e32332",
-      "size": 5915,
-      "mtimeMs": 1795524906235.4116,
-      "updatedAt": "2026-11-24T12:55:07.125Z",
+      "tokens": 1684,
+      "hash": "f4c7af1d225dead9",
+      "size": 5892,
+      "mtimeMs": 1795681328057.1821,
+      "updatedAt": "2026-11-26T08:22:08.328Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_supervisor_url",
           "kind": "fn",
-          "startLine": 31,
-          "endLine": 36,
+          "startLine": 32,
+          "endLine": 37,
           "tokens": 73
         },
         {
           "name": "_supervisor",
           "kind": "fn",
-          "startLine": 37,
-          "endLine": 60,
-          "tokens": 289
+          "startLine": 38,
+          "endLine": 68,
+          "tokens": 379
         },
         {
           "name": "_status",
           "kind": "fn",
-          "startLine": 61,
-          "endLine": 64,
+          "startLine": 69,
+          "endLine": 72,
           "tokens": 37
         },
         {
           "name": "_embed_state",
           "kind": "fn",
-          "startLine": 65,
-          "endLine": 69,
-          "tokens": 60
+          "startLine": 73,
+          "endLine": 78,
+          "tokens": 76
         },
         {
           "name": "gpu_holders",
           "kind": "fn",
-          "startLine": 70,
-          "endLine": 91,
-          "tokens": 260
+          "startLine": 79,
+          "endLine": 88,
+          "tokens": 87
         },
         {
           "name": "_models_ready",
           "kind": "fn",
-          "startLine": 92,
-          "endLine": 100,
+          "startLine": 89,
+          "endLine": 97,
           "tokens": 96
         },
         {
           "name": "_wait_until_ready",
           "kind": "fn",
-          "startLine": 101,
-          "endLine": 120,
+          "startLine": 98,
+          "endLine": 117,
           "tokens": 235
         },
         {
           "name": "running_embedding_server",
           "kind": "fn",
-          "startLine": 121,
-          "endLine": 148,
-          "tokens": 284
+          "startLine": 118,
+          "endLine": 145,
+          "tokens": 280
         }
       ]
     },
@@ -14063,11 +14084,11 @@
     },
     "src/scripts/colibri_host_agent.py": {
       "description": "Windows host agent for Colibri: memory status, `coli plan` checks, start and stop of the server.",
-      "tokens": 8850,
-      "hash": "2e8c514bff0a6ed8",
-      "size": 30977,
-      "mtimeMs": 1795674423935.532,
-      "updatedAt": "2026-11-26T06:27:04.223Z",
+      "tokens": 8916,
+      "hash": "d92cb3a107a9bf75",
+      "size": 31210,
+      "mtimeMs": 1795681341696.3284,
+      "updatedAt": "2026-11-26T08:22:21.929Z",
       "source": "hook",
       "symbols": [
         {
@@ -14130,35 +14151,35 @@
           "name": "Agent",
           "kind": "class",
           "startLine": 258,
-          "endLine": 545,
-          "tokens": 3805
+          "endLine": 549,
+          "tokens": 3871
         },
         {
           "name": "AgentError",
           "kind": "class",
-          "startLine": 546,
-          "endLine": 552,
+          "startLine": 550,
+          "endLine": 556,
           "tokens": 49
         },
         {
           "name": "_handler",
           "kind": "fn",
-          "startLine": 553,
-          "endLine": 607,
+          "startLine": 557,
+          "endLine": 611,
           "tokens": 594
         },
         {
           "name": "_arguments",
           "kind": "fn",
-          "startLine": 608,
-          "endLine": 672,
+          "startLine": 612,
+          "endLine": 676,
           "tokens": 876
         },
         {
           "name": "main",
           "kind": "fn",
-          "startLine": 673,
-          "endLine": 697,
+          "startLine": 677,
+          "endLine": 701,
           "tokens": 213
         }
       ]

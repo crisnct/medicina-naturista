@@ -11641,6 +11641,42 @@
       "last_seen": "2026-11-26T06:27:04.259Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _colibri_agent()",
+      "file": "src/scripts/vllm_supervisor.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-648",
+      "timestamp": "2026-11-26T08:21:51.282Z",
+      "last_seen": "2026-11-26T08:21:51.282Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: unload_ollama should be stop_colibri",
+      "file": "src/scripts/vllm_supervisor.py",
+      "root_cause": "Used \"unload_ollama\" instead of \"stop_colibri\"",
+      "fix": "Changed unload_ollama → stop_colibri",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-649",
+      "timestamp": "2026-11-26T08:21:53.535Z",
+      "last_seen": "2026-11-26T08:21:53.535Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12337,7 +12373,9 @@
     "15eb7e58-87d9-4be4-87bd-abb4e8120046": true,
     "3f26002d-9b40-486d-ad7e-e69dbc5f5d18": true,
     "fca0726a-fff0-47bc-98aa-5ed62ffe547f": true,
-    "3a8d94a8-14bc-4070-b613-375cd612e4f6": true
+    "3a8d94a8-14bc-4070-b613-375cd612e4f6": true,
+    "8031e081-93bf-4881-a5e9-e3c9a07eb342": true,
+    "503c6fd3-be7f-4e9b-a5d9-e67c77b792c2": true
   },
-  "next_id": 648
+  "next_id": 650
 }
