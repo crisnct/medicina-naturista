@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import json
 import logging
 import threading
 from pathlib import Path
@@ -23,11 +22,8 @@ from backend.ai.search import (
     rank,
 )
 from backend.core.contracts import (
-    BYTES_PER_TOKEN,
     Evidence,
     EvidenceItem,
-    EvidenceTokenBudget,
-    estimate_tokens,
 )
 from backend.core.language import current_language, language_scope
 from backend.core.models import SessionData, SessionSnapshot
@@ -92,11 +88,11 @@ class Retriever:
         return f"{evidence_heading_prefix()}{heading}{EVIDENCE_HEADING_SEPARATOR}{text}"
 
     # Run hybrid retrieval and assemble a deduplicated, prioritized evidence inventory.
-    # Typed token budgets preserve their unit; plain integers retain character semantics.
+    # max_chars bounds the fragment text (the same characters the report batches count).
     def collect(
         self,
         session: SessionData | SessionSnapshot,
-        max_chars: int | EvidenceTokenBudget | None = None,
+        max_chars: int | None = None,
     ) -> Evidence:
         with (
             language_scope(getattr(session, "language", current_language())),
@@ -108,11 +104,6 @@ class Retriever:
             return evidence
 
     def _collect(self, session, max_chars, tree, generation):
-        token_budget = max_chars if isinstance(max_chars, EvidenceTokenBudget) else None
-        # A token costs BYTES_PER_TOKEN bytes and a byte at least one character, so this SQL
-        # prefix contains every possible fitting token prefix; the byte estimate runs below.
-        if token_budget is not None:
-            max_chars = token_budget.max_tokens * BYTES_PER_TOKEN
         profile = session.profile
         query = consultation_query(profile)
         if not query:
@@ -136,7 +127,7 @@ class Retriever:
         # relevance_percent is that score as a percentage of the ceiling OF THAT
         # FRAGMENT (fragment_ceiling(): the formula with its own P1 / P2 and ranks 1),
         # computed here once and never again. rank() cuts a whole-fragment
-        # prefix by characters; a token budget additionally bounds serialized content.
+        # prefix by characters.
         # The message resolved as the chat saw it: the dictionary's conditions plus
         # the ones the AI identified. Without any condition the conditions signal
         # cannot contribute, so the percentages are relative to the rest.
@@ -157,7 +148,6 @@ class Retriever:
         # What the highlights of the fragments are computed from (see fragment_highlights.py).
         evidence.resolved = resolved
         evidence.signals = effective
-        content_bytes = 0
         # The BM25 of a fragment as a percentage of the best BM25 of this search (the panel
         # filters by it); BM25 has no fixed scale, so only the ratio to the best means anything.
         best_bm25 = max(
@@ -202,13 +192,6 @@ class Retriever:
                 # A future selective signal adds its own "found_by_<signal>" flag here.
                 "found_by_lexical": best["found_by_lexical"],
             }
-            if token_budget is not None:
-                # Count the same ID, source and text fields sent to the report client.
-                entry = {"id": evidence_id, "source": item["source"], "text": item["text"]}
-                size = len(json.dumps([entry], ensure_ascii=False).encode("utf-8"))
-                if estimate_tokens(content_bytes + size) > token_budget.max_tokens:
-                    break
-                content_bytes += size
             evidence[evidence_id] = item
 
         logger.info(
@@ -219,13 +202,6 @@ class Retriever:
             sum(len(item["text"]) for item in evidence.values()),
             len({item["source"].split(":", 1)[0] for item in evidence.values()}),
         )
-        if token_budget is not None:
-            logger.info(
-                "retrieval_content_budget input_tokens_upper_bound=%s max_content_tokens=%s "
-                "counting=utf8_bytes_div3",
-                estimate_tokens(content_bytes),
-                token_budget.max_tokens,
-            )
         return evidence
 
 

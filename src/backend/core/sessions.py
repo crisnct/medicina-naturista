@@ -69,7 +69,7 @@ STATE_FIELDS = (
 def _generation_options(job: ReportGeneration) -> tuple[Any, ...]:
     return (
         job.effort,
-        job.batch_max_tokens,
+        job.batch_max_chars,
         job.batch_workers,
         job.max_output_tokens,
         job.thinking_tokens,
@@ -493,13 +493,13 @@ class SessionStore:
         provider: str,
         model: str,
         effort: str | None = None,
-        batch_max_tokens: int | None = None,
+        batch_max_chars: int | None = None,
         batch_workers: int | None = None,
         max_output_tokens: int | None = None,
         thinking_tokens: int | None = None,
     ) -> tuple[dict[str, Any], SessionOperation | None]:
         """Reserve exactly once, including retries whose first HTTP reply was lost."""
-        options = (effort, batch_max_tokens, batch_workers, max_output_tokens, thinking_tokens)
+        options = (effort, batch_max_chars, batch_workers, max_output_tokens, thinking_tokens)
         with self._lock, session.lock:
             existing_id = session.generation_receipts.get(request_id)
             existing = session.generations.get(existing_id or "")
@@ -574,7 +574,7 @@ class SessionStore:
                 time.time() + max(0, operation.deadline - self.clock()),
                 language=operation.snapshot.language,
                 effort=effort,
-                batch_max_tokens=batch_max_tokens,
+                batch_max_chars=batch_max_chars,
                 batch_workers=batch_workers,
                 max_output_tokens=max_output_tokens,
                 thinking_tokens=thinking_tokens,

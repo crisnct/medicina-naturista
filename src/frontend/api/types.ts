@@ -97,7 +97,7 @@ export interface ReportModelsResponse {
   parallelContextTokens?: Partial<Record<ReportModel, number>>;
   defaultEfforts?: Partial<Record<ReportModel, ReportEffort>>;
   // Generation limits and their configured defaults; sent to the admin only.
-  batchMaxTokens?: Partial<Record<ReportModel, number>>;
+  batchMaxChars?: Partial<Record<ReportModel, number>>;
   // `defaults`: the count a model starts with when it has its own (the others start at 0).
   batchWorkers?: { max: number; defaults?: Partial<Record<ReportModel, number>> };
   maxOutputTokens?: Partial<Record<ReportModel, number>>;
@@ -110,6 +110,10 @@ export interface ReportModelsResponse {
 }
 
 export interface TokenBounds {
+  // The fragment characters one batch may carry.
+  minInputChars: number;
+  maxChars: number;
+  // The tokens the context must keep for the input after the output and thinking.
   minInput: number;
   max: number;
   // Below this many output tokens the AI answer is likely to be cut off.
@@ -120,7 +124,7 @@ export interface TokenBounds {
 
 // The admin's per-report generation limits.
 export interface GenerationLimits {
-  batchMaxTokens: number;
+  batchMaxChars: number;
   batchWorkers: number;
   maxOutputTokens: number;
   // Sent only while the chosen effort lets the model think.
@@ -128,7 +132,7 @@ export interface GenerationLimits {
 }
 
 export interface GenerationLimitDefaults {
-  batchMaxTokens: Partial<Record<ReportModel, number>>;
+  batchMaxChars: Partial<Record<ReportModel, number>>;
   batchWorkers: { max: number; defaults?: Partial<Record<ReportModel, number>> };
   maxOutputTokens: Partial<Record<ReportModel, number>>;
   thinkingTokens: Partial<Record<ReportModel, number>>;
@@ -169,7 +173,8 @@ export interface ReportBatchEstimate {
   batches: number;
   // Batches whose single fragment is over the model's context (minus the output) by itself.
   oversizedBatches: number;
-  inputTokens: number;
+  // The fragment characters one batch may carry.
+  inputChars: number;
 }
 
 export interface DownloadMessage extends MessageIdentity {
@@ -334,7 +339,7 @@ export interface ReportGeneration {
   stage: string;
   provider: string;
   model: string;
-  batchMaxTokens?: number | null;
+  batchMaxChars?: number | null;
   batchWorkers?: number | null;
   maxOutputTokens?: number | null;
   thinkingTokens?: number | null;

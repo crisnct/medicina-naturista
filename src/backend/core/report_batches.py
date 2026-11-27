@@ -11,12 +11,9 @@ from backend.core.contracts import Evidence
 REPORT_GENERATION_WORKERS: Final = 1
 
 
-# Keep oversized fragments intact in isolated requests; providers enforce the real context.
-def partition_evidence(
-    evidence: Evidence, max_tokens: int, measure_tokens: Callable[[Evidence], int]
-) -> list[Evidence]:
-    if type(max_tokens) is not int or max_tokens <= 0:
-        raise ValueError("Batch token limit must be a positive integer")
+# Best score first, a batch takes fragments while `fits` accepts it. A fragment that does not
+# fit alone is still sent whole, in a batch of its own; providers enforce the real context.
+def partition_evidence(evidence: Evidence, fits: Callable[[Evidence], bool]) -> list[Evidence]:
     batches: list[Evidence] = []
     current: Evidence = {}
     for token in sorted(
@@ -24,16 +21,21 @@ def partition_evidence(
     ):
         item = evidence[token]
         candidate = {**current, token: item}
-        if current and measure_tokens(candidate) > max_tokens:
+        if current and not fits(candidate):
             batches.append(current)
             candidate = {token: item}
         current = candidate
-        if len(current) == 1 and measure_tokens(current) > max_tokens:
+        if len(current) == 1 and not fits(current):
             batches.append(current)
             current = {}
     if current:
         batches.append(current)
     return batches
+
+
+# The fragment text one batch carries, as the panel counts it ("charactersCount").
+def evidence_chars(evidence: Evidence) -> int:
+    return sum(len(item.get("text", "")) for item in evidence.values())
 
 
 # Text equality is deliberate: differing doses and warnings must never be merged away.

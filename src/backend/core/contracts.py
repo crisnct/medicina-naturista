@@ -85,19 +85,13 @@ def estimate_tokens(size_bytes: int) -> int:
 
 
 @dataclass(frozen=True)
-class EvidenceTokenBudget:
-    """An estimated token budget (see estimate_tokens), distinct from legacy character budgets."""
-
-    max_tokens: int
-
-
-@dataclass(frozen=True)
 class ReportBatchPlan:
-    """How a report would be split: batches, lone fragments over the limit, and that limit."""
+    """How a report would be split: batches, lone fragments over the limit, and the fragment
+    characters one batch may carry."""
 
     batches: int
     oversized: int
-    input_tokens: int
+    input_chars: int
 
 
 class AIProtocol(Protocol):
@@ -106,7 +100,7 @@ class AIProtocol(Protocol):
         profile: ProfilePayload,
         evidence: Evidence,
         effort: ReportEffort | None = None,
-        batch_max_tokens: int | None = None,
+        batch_max_chars: int | None = None,
         batch_workers: int | None = None,
         max_output_tokens: int | None = None,
         thinking_tokens: int | None = None,
@@ -116,7 +110,7 @@ class AIProtocol(Protocol):
         profile: ProfilePayload,
         evidence: Evidence,
         effort: ReportEffort | None = None,
-        batch_max_tokens: int | None = None,
+        batch_max_chars: int | None = None,
         max_output_tokens: int | None = None,
         batch_workers: int | None = None,
         thinking_tokens: int | None = None,
@@ -217,9 +211,7 @@ class RetrievalProtocol(Protocol):
     def document_count(self) -> int: ...
     @property
     def category_tree(self) -> CategoryTree | None: ...
-    def collect(
-        self, session: SessionSnapshot, max_chars: int | EvidenceTokenBudget | None = None
-    ) -> Evidence: ...
+    def collect(self, session: SessionSnapshot, max_chars: int | None = None) -> Evidence: ...
 
 
 class EmailProtocol(Protocol):

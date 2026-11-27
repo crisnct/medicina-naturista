@@ -43,7 +43,7 @@ class FakeAI:
         profile,
         evidence,
         effort=None,
-        batch_max_tokens=None,
+        batch_max_chars=None,
         batch_workers=None,
         max_output_tokens=None,
         thinking_tokens=None,

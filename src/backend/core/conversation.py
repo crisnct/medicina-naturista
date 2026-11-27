@@ -24,7 +24,6 @@ from backend.core.contracts import (
     ClassifyMessage,
     EmailProtocol,
     Evidence,
-    EvidenceTokenBudget,
     IdentifyCondition,
     ListTopHerbs,
     ListTopHerbsForCondition,
@@ -297,7 +296,7 @@ class ConversationService:
     # Database safety messages of the recommended products; None leaves them out.
     report_herb_safety: LoadReportHerbSafety | None = None
     # Admin overrides for this report; None keeps the configured values.
-    report_batch_max_tokens: int | None = None
+    report_batch_max_chars: int | None = None
     report_batch_workers: int | None = None
     report_max_output_tokens: int | None = None
     report_thinking_tokens: int | None = None
@@ -335,13 +334,11 @@ class ConversationService:
                 getattr(exc, "sqlstate", None),
             )
 
-    # The search runs before a model is chosen, so it collects what the largest configured
-    # batch limit can hold; each model's own batch limit then splits it.
-    def content_budget(self) -> EvidenceTokenBudget:
-        limits = self.settings.report_generation_batch_max_tokens
-        return EvidenceTokenBudget(
-            max(limits[model] for model in self.settings.report_generation_models)
-        )
+    # The search runs before a model is chosen, so it collects the fragment characters the
+    # largest configured batch limit can hold; each model's own batch limit then splits them.
+    def content_budget(self) -> int:
+        limits = self.settings.report_generation_batch_max_chars
+        return max(limits[model] for model in self.settings.report_generation_models)
 
     def budget(self, operation: SessionOperation) -> OperationBudget:
         def batch_progress(completed: int, total: int, report: ValidatedReport | None) -> None:
@@ -1243,7 +1240,7 @@ class ConversationService:
                         profile,
                         evidence,
                         self.report_ai_effort,
-                        self.report_batch_max_tokens,
+                        self.report_batch_max_chars,
                         self.report_batch_workers,
                         self.report_max_output_tokens,
                         self.report_thinking_tokens,

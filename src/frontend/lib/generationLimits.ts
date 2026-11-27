@@ -2,6 +2,7 @@ import { locale, tr } from "./texts";
 import type { TokenBounds } from "../api/types";
 
 // "26200", or digits grouped by a space, dot or comma ("26 200", "26.200"); anything else is not a count.
+// The batch input is a count of fragment characters, the other limits counts of tokens.
 const GROUPED = /^\d{1,3}([ ., ]\d{3})+$/;
 const PLAIN = /^[1-9][0-9]*$/;
 
@@ -15,7 +16,7 @@ export function parseTokens(text: string): number | null {
 
 export interface LimitsCheck {
   // The parsed values, present only when all pass.
-  limits?: { batchMaxTokens: number; maxOutputTokens: number; thinkingTokens?: number };
+  limits?: { batchMaxChars: number; maxOutputTokens: number; thinkingTokens?: number };
   // Blocking: the server would refuse these values.
   inputError?: string;
   outputError?: string;
@@ -26,7 +27,8 @@ export interface LimitsCheck {
 }
 
 // The same rules the server applies (backend/web/main.py `_check_report_limits`), so the panel
-// says what is wrong before the request is made. `thinkingText` is undefined while the chosen
+// says what is wrong before the request is made. `inputText` is in fragment characters; the
+// context, output and thinking are in tokens. `thinkingText` is undefined while the chosen
 // effort leaves the model without thinking; the thinking then takes no room.
 export function checkLimits(
   inputText: string,
@@ -45,8 +47,8 @@ export function checkLimits(
     result.thinkingError = tr("interface.generate_thinking_too_large", { limit: Math.floor(context / bounds.thinkingContextDivisor).toLocaleString(locale()) });
   }
   if (input === null) result.inputError = tr("interface.generate_tokens_invalid");
-  else if (input > bounds.max) result.inputError = tr("interface.generate_tokens_too_large", { maximum: bounds.max.toLocaleString(locale()) });
-  else if (input < bounds.minInput) result.inputError = tr("interface.generate_input_too_small", { minimum: bounds.minInput.toLocaleString(locale()) });
+  else if (input > bounds.maxChars) result.inputError = tr("interface.generate_tokens_too_large", { maximum: bounds.maxChars.toLocaleString(locale()) });
+  else if (input < bounds.minInputChars) result.inputError = tr("interface.generate_input_too_small", { minimum: bounds.minInputChars.toLocaleString(locale()) });
   if (output === null) result.outputError = tr("interface.generate_tokens_invalid");
   else if (output > bounds.max) result.outputError = tr("interface.generate_tokens_too_large", { maximum: bounds.max.toLocaleString(locale()) });
   else if (context !== undefined && output >= context) result.outputError = tr("interface.generate_output_exceeds_context", { context: context.toLocaleString(locale()) });
@@ -54,15 +56,13 @@ export function checkLimits(
     const room = context - output - (thinking ?? 0);
     if (room < bounds.minInput) {
       result.outputError = tr("interface.generate_input_no_room", { tokens: Math.max(room, 0).toLocaleString(locale()), minimum: bounds.minInput.toLocaleString(locale()) });
-    } else if (room < input) {
-      result.notes.push({ text: tr("interface.generate_input_effective", { tokens: room.toLocaleString(locale()), context: context.toLocaleString(locale()) }), warning: true });
     }
   }
   if (output !== null && !result.outputError && output < bounds.lowOutput) {
     result.notes.push({ text: tr("interface.generate_output_low", { threshold: bounds.lowOutput.toLocaleString(locale()) }), warning: true });
   }
   if (!result.inputError && !result.outputError && !result.thinkingError && input !== null && output !== null && thinking !== null) {
-    result.limits = { batchMaxTokens: input, maxOutputTokens: output, ...(thinking === undefined ? {} : { thinkingTokens: thinking }) };
+    result.limits = { batchMaxChars: input, maxOutputTokens: output, ...(thinking === undefined ? {} : { thinkingTokens: thinking }) };
   }
   result.valid = result.limits !== undefined;
   return result;

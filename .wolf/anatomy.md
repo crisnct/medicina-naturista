@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-26T14:10:47.594Z
-> Files: 546 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-27T15:25:13.641Z
+> Files: 558 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -15,6 +15,7 @@
 - `docker-compose.yaml` — Docker Compose: 2 services (~5568 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
 - `README.md` — Project documentation (~36864 tok)
+- `requirements-ocr.txt` — PaddleOCR for scanned PDF pages, installed in its own virtual environment (~194 tok)
 
 ## .claude/
 
@@ -83,6 +84,7 @@
 - `2026-11-24-ollama-gpu-si-model-embeddings-chat.md` — Descărcarea modelelor Ollama înainte de vLLM și încărcarea modelului de embeddings la întrebări (~2114 tok)
 - `2026-11-24-qwen3-embedding-4b.md` — Trecerea la Qwen3-Embedding-4B (~3925 tok)
 - `2026-11-25-ultimul-model-raport-in-panou.md` — Plan: ultimul model AI folosit la un raport, afisat in panoul de generare (~1595 tok)
+- `2026-11-27-verificare-reocr-viziune-extract-pdf.md` — Plan: PaddleOCR pentru paginile scanate în `extract_pdf_markdown.py` (~3460 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
@@ -188,12 +190,19 @@
 - `apply_tail.py` — prepare, run_language, resumable_run (~951 tok)
 - `bench_gpu_slice.py` — Measure windows/s of the CUDA embedder for several _GPU_SLICE values (run with .venv-gpu). (~573 tok)
 - `bench_parallel_ollama.py` — Benchmark: sequential vs 2 parallel threads of association batches to Ollama qwen3.5:9b. (~2687 tok)
+- `check_chars_batches.py` (~310 tok)
 - `check_run_stage.py` — Throwaway: _run_stage with fakes -- local runs once, deepseek retries a transient failure. (~579 tok)
 - `check_write_retry.py` — Throwaway: ProductSafetyRepository.transaction retries a busy index lock on writes only. (~382 tok)
 - `colibri_bench.py` — Speed benchmark for an OpenAI-compatible server (Colibri coli serve). (~1648 tok)
 - `compare_safety.py` — Scratch: find the herb_name rule of the JSON file and diff it against the live database. (~410 tok)
 - `e2e_extension.py` — Q: answer, complete_json, complete_batch, embed + 1 more (~2251 tok)
 - `e2e_resume.py` — Q: msgs, complete_json, complete_batch, run (~1203 tok)
+- `edit_client.py` (~2174 tok)
+- `edit_frontend.py` — apply (~1069 tok)
+- `edit_main.py` (~1655 tok)
+- `edit_readme.py` (~1876 tok)
+- `edit_retrieval.py` — EvidenceTokenBudget: apply, collect, collect, content_budget + 1 more (~1805 tok)
+- `edit_texts.py` — apply (~705 tok)
 - `export_safety_current.py` — Scratch: dump the active herb_safety_messages rows (both languages) with herb identity. (~504 tok)
 - `export_safety_current.sql` (~143 tok)
 - `extract_old_rows.py` — Scratch: write the file rows that the database no longer holds into a separate JSON file. (~455 tok)
@@ -235,6 +244,10 @@
 - `phase0.sh` — Phase 0 of aiPlans/2026-11-24-qwen3-embedding-4b.md: for each --gpu-memory-utilization, the (~509 tok)
 - `run_rest.sh` — Sequential: (1) 4B with bf16 weights + fp8 KV cache over all windows -> *_bf16.npy, (~544 tok)
 - `scan_sql.py` — Time the exact cosine scan of ai/search.py at 1024 and 2560 dimensions, on TEMP tables with the (~831 tok)
+
+## aiWork/ocr-bench/
+
+- `results.md` — Faza 0: benchmark OCR, rezultate (2026-11-27) (~2807 tok)
 
 ## aiWork/translate/out/
 
@@ -513,7 +526,7 @@
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2911 tok)
 - `report_metrics.py` — Validated measurements for one published report, independent of storage. (~1282 tok)
-- `report_models.py` — Supported report choices and their immutable provider routing. (~3360 tok)
+- `report_models.py` — Supported report choices and their immutable provider routing. (~3488 tok)
 - `score_formula.py` — Operator-supplied arithmetic over named variables (L1/L2/L3 for the product tops, P1/P2/L/V/K for (~1695 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16810 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6762 tok)
@@ -650,7 +663,7 @@
 - `colibri_agent_startup.ps1` — Registers (or with -Remove deletes) the logon task that runs the Colibri host agent. (~622 tok)
 - `colibri_host_agent.py` — Windows host agent for Colibri: memory status, `coli plan` checks, start and stop of the server. (~8916 tok)
 - `evaluate_retrieval.py` — Measure retrieval quality and latency of ai/search.rank() against the (~3856 tok)
-- `extract_pdf_markdown.py` — Options: observe, body_size (~14210 tok)
+- `extract_pdf_markdown.py` — Options: observe, body_size (~13990 tok)
 - `fix_markdown_headings.py` — fix_headings, main (~1489 tok)
 - `herb_index_requests.py` — Stream one indexing request per batch and emit aggregate telemetry without source content. (~4885 tok)
 - `herb_product_safety_extension.py` — Bilingual product safety in batches: ministral and deepseek, one merge, a run per language. (~8449 tok)
@@ -663,6 +676,8 @@
 - `pdf_chapters.py` — Recover a book's chapters from the running heads printed at the top of its pages. (~3287 tok)
 - `pdf_headings.py` — Give the headings of vision-transcribed pages the same levels across the whole book. (~2592 tok)
 - `pdf_layer_check.py` — Decide whether a scanned page's embedded text layer can stand for the page's text. (~1285 tok)
+- `pdf_paddle_worker.py` — PaddleOCR worker process for extract_pdf_markdown.py; run it with the `.venv-ocr` interpreter. (~1676 tok)
+- `pdf_paddle.py` — Recognize scanned page images with PaddleOCR (PP-OCRv6 medium, on the GPU). (~2044 tok)
 - `pdf_vision.py` — Transcribe a scanned page image to Markdown with a local vision model served by Ollama. (~2197 tok)
 - `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~4614 tok)
 - `restore_database.bat` (~748 tok)

@@ -12055,6 +12055,24 @@
       "last_seen": "2026-11-26T13:32:31.911Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of extract_pdf_markdown.py",
+      "file": "src/scripts/extract_pdf_markdown.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 7→13 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-671",
+      "timestamp": "2026-11-27T14:35:37.608Z",
+      "last_seen": "2026-11-27T14:35:37.608Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12775,7 +12793,8 @@
     "db8b98fc-e2b8-4780-8403-2e6c0da553be": true,
     "5c98e924-0728-4b44-9312-836015c2eb76": true,
     "4236c720-29e6-4c0b-a270-3b7362d9c640": true,
-    "cbc8484c-fd1a-4e04-9afd-e2497b23cebd": true
+    "cbc8484c-fd1a-4e04-9afd-e2497b23cebd": true,
+    "c6989872-bedf-4d2e-8da7-1c79a38fcab1": true
   },
-  "next_id": 671
+  "next_id": 672
 }

@@ -24,7 +24,6 @@ from backend.ai.report_validation import ReportValidationError
 from backend.ai.search import ALL_SIGNALS, SearchSignals, max_score
 from backend.config import Settings
 from backend.core import conversation
-from backend.core.contracts import EvidenceTokenBudget
 from backend.core.errors import ApplicationError
 from backend.reporting import pdf as reports_module
 from backend.web import handlers, main
@@ -83,13 +82,13 @@ class FakeAI:
         profile,
         evidence,
         effort=None,
-        batch_max_tokens=None,
+        batch_max_chars=None,
         batch_workers=None,
         max_output_tokens=None,
         thinking_tokens=None,
     ):
         type(self).generate_calls += 1
-        type(self).report_limits = (batch_max_tokens, batch_workers, max_output_tokens)
+        type(self).report_limits = (batch_max_chars, batch_workers, max_output_tokens)
         type(self).report_profile = profile
         type(self).report_effort = effort
         first = next(iter(evidence))
@@ -1635,12 +1634,10 @@ class WebTests(unittest.TestCase):
             messages = _send(self.client, sid_a, tab_a, "Gripă și răceală", [])
             self.assertTrue(any("Caut rapid în cele" in m.get("content", "") for m in messages))
             self.assertEqual(FakeAI.generate_calls, 0, "retrieval must not call the AI")
-            limits = self.deps.settings.report_generation_batch_max_tokens
+            limits = self.deps.settings.report_generation_batch_max_chars
             self.assertEqual(
                 FakeRetriever.max_chars,
-                EvidenceTokenBudget(
-                    max(limits[model] for model in self.deps.settings.report_generation_models)
-                ),
+                max(limits[model] for model in self.deps.settings.report_generation_models),
                 "retrieval must use the largest configured batch limit",
             )
 

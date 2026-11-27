@@ -296,7 +296,7 @@ class ReportGeneration:
     # None when the model has no effort control.
     effort: str | None = None
     # Admin overrides; None when the report uses the configured values.
-    batch_max_tokens: int | None = None
+    batch_max_chars: int | None = None
     batch_workers: int | None = None
     max_output_tokens: int | None = None
     thinking_tokens: int | None = None
@@ -367,7 +367,7 @@ class ReportGeneration:
             "model": self.model,
             "modelChoice": self.model_choice,
             "effort": self.effort,
-            "batchMaxTokens": self.batch_max_tokens,
+            "batchMaxChars": self.batch_max_chars,
             "batchWorkers": self.batch_workers,
             "maxOutputTokens": self.max_output_tokens,
             "thinkingTokens": self.thinking_tokens,

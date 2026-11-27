@@ -1,9 +1,11 @@
 r"""Extract PDF text with PyMuPDF to Markdown with adaptive layout and headings.
 
-Each page is straightened before extraction. A scanned page keeps its embedded text layer
-only when independent checks against the page image pass (pdf_layer_check); otherwise a
-local vision model transcribes it (pdf_vision), and Tesseract is the last resort.
-Tesseract runs in memory through PyMuPDF, without its executable.
+A born-digital page keeps its text layer. A scanned page is turned upright (0/90/180/270
+degrees) and straightened, then recognized by PaddleOCR on the GPU (pdf_paddle, run in its own
+`.venv-ocr`); its old embedded OCR layer is never used. A page that PaddleOCR reads with low
+confidence keeps its text and is named in the report as uncertain. With --ocr vision a local
+vision model transcribes every page instead (pdf_vision); there is no fallback engine, so any
+failure stops the run and leaves an earlier output untouched.
 The source PDF is unchanged; corrected pages are prepared individually in memory.
 The source wording is preserved, but the output never contains diacritics. Heading
 reconstruction is heuristic, especially for OCR layers that do not encode bold fonts or
@@ -17,10 +19,10 @@ Implicit, pentru carte.pdf creează folderul și salvează fișierul în:
 Calea este independentă de directorul de lansare. Îndreaptă separat fiecare pagină.
 Opțiuni: -o "C:/Documente/carte.md" pentru altă destinație;
          --report "C:/Documente/carte.json" pentru raportul pe pagini;
-         --ocr vision|auto|always|never (implicit vision: modelul cu viziune pe toate paginile;
-           auto: text din PDF verificat, altfel modelul; always: doar Tesseract; never: doar textul din PDF);
+         --ocr auto|always|never|vision (implicit auto: textul din PDF la paginile digitale,
+           PaddleOCR la cele scanate; always: PaddleOCR pe toate paginile; never: doar textul
+           din PDF; vision: modelul cu viziune pe toate paginile);
          --vision-model qwen3.5:9b pentru alt model Ollama cu viziune;
-         --tessdata "C:/Program Files/Tesseract-OCR/tessdata" pentru datele OCR;
          --deskew off pentru dezactivarea îndreptării;
          --debug pentru logarea intrării în funcții și a parametrilor (parole mascate).
 """
@@ -32,7 +34,6 @@ import io
 import json
 import logging
 import math
-import os
 import re
 import sys
 import tempfile
@@ -64,7 +65,7 @@ if __package__:
         ranks,
         section_size,
     )
-    from .pdf_layer_check import layer_problems
+    from .pdf_paddle import Confidence, PaddleSession, Row, clean_rows, measure
     from .pdf_vision import DEFAULT_MODEL, VisionSession
     from .script_files import _commit_outputs, _remove_temp, _temporary_path
     from .script_logging import log_call
@@ -79,7 +80,7 @@ else:
         ranks,
         section_size,
     )
-    from pdf_layer_check import layer_problems
+    from pdf_paddle import Confidence, PaddleSession, Row, clean_rows, measure
     from pdf_vision import DEFAULT_MODEL, VisionSession
     from script_files import _commit_outputs, _remove_temp, _temporary_path
     from script_logging import log_call
@@ -91,19 +92,27 @@ DEFAULT_OUTPUT_ROOT = (
     PROJECT_ROOT / "medicina-naturista-documente" / "data" / "documents" / "ro" / "Surse sigure"
 )
 MAX_OCR_PIXELS = 64_000_000
+# The orientation classifier resizes its input to 224 pixels, so a small render is enough.
+ORIENTATION_DPI = 100
+# OCR sees no fonts, so bold is measured in the page image: a word whose strokes, relative to its
+# text size, are 1.3 times the page median is bold. On the benchmark pages bold headings and
+# labels measured 1.33-1.7 and regular words mostly 0.8-1.2; dark means a gray level below 128.
+INK_LEVEL = 128
+BOLD_STROKE = 1.3
 
 
 @dataclass(frozen=True, slots=True)
 class Options:
     columns: str = "auto"
     ocr: str = "auto"
+    # Only the language named in the vision model's prompt; PaddleOCR reads Latin script.
     lang: str = "ron+eng"
-    dpi: int = 250
+    # PaddleOCR was measured at 300 DPI.
+    dpi: int = 300
     deskew: bool = True
     max_skew: float = 30.0
     start_page: int = 1
     end_page: int | None = None
-    tessdata: str | None = None
     vision_model: str = DEFAULT_MODEL
     # Pages sent to the vision model at the same time; Ollama must allow as many parallel slots.
     workers: int = 1
@@ -146,6 +155,9 @@ class Glyph:
     baseline: float
     size: float
     bold: bool = False
+    # The OCR text row this word came from. The OCR engine already separates the columns, so two
+    # rows are never merged into one line here, however narrow the gutter between them.
+    row: int | None = None
 
 
 @dataclass(frozen=True, slots=True)
@@ -158,6 +170,8 @@ class Line:
     size: float
     bold: float
     column: int = 0
+    # Rebuilt from OCR rows: its size is estimated, not read from a font.
+    ocr: bool = False
 
 
 LINE_VALUES = attrgetter(*(item.name for item in fields(Line)))
@@ -209,6 +223,11 @@ CHAPTER = re.compile(
 NUMBERED = re.compile(r"^(\d+(?:\.\d+)*)(?:[.)]?\s+)\S")
 BULLET = re.compile(r"^[•●▪■□*+\-]\s+(.+)$")
 TOC = re.compile(r"(?:\.{3,}|(?:\.\s){3,}|…{2,})\s*\d+\s*$")
+OCR_TOC = re.compile(r"\.\s*\.+\s*\d+\s*$")
+OCR_WORD = re.compile(r"[^\W\d_]{3,}")
+OCR_AUTHOR = re.compile(r"\b[A-Z][a-z]{0,6}\.$")
+OCR_NUMBERED = re.compile(r"^(?:\d{1,2}[.)]|\d+\.\d+)")
+OCR_SIZE_NOISE = 0.12
 
 
 @lru_cache(maxsize=8192)
@@ -376,6 +395,7 @@ def _line_from_glyphs(chars: list[Glyph]) -> Line:
         base,
         size,
         sum(len(c.text) for c in ordered if c.bold) / max(1, sum(len(c.text) for c in ordered)),
+        ocr=ordered[0].row is not None,
     )
 
 
@@ -401,7 +421,9 @@ def _group_glyphs(glyphs: list[Glyph]) -> list[Line]:
         # Separate columns, table cells, and horizontally distant captions.
         pieces: list[list[Glyph]] = [[]]
         for char in ordered:
-            if pieces[-1] and char.x0 - pieces[-1][-1].x1 > typical * 2.5:
+            if pieces[-1] and (
+                char.x0 - pieces[-1][-1].x1 > typical * 2.5 or char.row != pieces[-1][-1].row
+            ):
                 pieces.append([])
             pieces[-1].append(char)
         lines.extend(_line_from_glyphs(piece) for piece in pieces)
@@ -409,7 +431,7 @@ def _group_glyphs(glyphs: list[Glyph]) -> list[Line]:
 
 
 @log_call
-def _column_cuts(lines: list[Line], mode: str) -> list[float]:
+def _column_cuts(lines: list[Line], mode: str, ocr: bool = False) -> list[float]:
     if not lines or mode == "1":
         return []
     low, high = min(line_item.x0 for line_item in lines), max(line_item.x1 for line_item in lines)
@@ -428,18 +450,23 @@ def _column_cuts(lines: list[Line], mode: str) -> list[float]:
     ).T
     cuts = np.linspace(low + width * 0.2, high - width * 0.2, 100)
     left, right = x1 <= cuts[:, None] - 4, x0 >= cuts[:, None] + 4
-    crossings = ((x0 < cuts[:, None]) & (x1 > cuts[:, None])).sum(axis=1)
+    crossing = (x0 < cuts[:, None]) & (x1 > cuts[:, None])
     counts = np.minimum(left.sum(axis=1), right.sum(axis=1))
     min_overlap = 4 * float(np.median(size))
     candidates = []
-    for index in np.flatnonzero((counts >= 4) & (crossings <= len(body) * 0.12)):
+    for index in np.flatnonzero(counts >= 4):
         lmask, rmask = left[index], right[index]
-        overlap = min(bottom[lmask].max(), bottom[rmask].max()) - max(
-            top[lmask].min(), top[rmask].min()
-        )
+        start = max(top[lmask].min(), top[rmask].min())
+        stop = min(bottom[lmask].max(), bottom[rmask].max())
+        # On an OCR page only lines beside both columns cross the gutter: full-width text above
+        # or below them (prose under a caption block) is read by _reading_order as a band
+        # boundary. A text layer keeps the stricter page-wide count, because there it would also
+        # split two-column tables that read better row by row.
+        beside = (bottom > start) & (top < stop) if ocr else True
+        crossings = int((crossing[index] & beside).sum())
         gutter = x0[rmask].min() - x1[lmask].max()
-        if overlap >= min_overlap and gutter >= 8:
-            candidates.append((counts[index] - crossings[index] * 3, gutter, float(cuts[index])))
+        if crossings <= len(body) * 0.12 and stop - start >= min_overlap and gutter >= 8:
+            candidates.append((counts[index] - crossings * 3, gutter, float(cuts[index])))
     if not candidates:
         return []
     best = max(candidates)[2]
@@ -450,7 +477,9 @@ def _column_cuts(lines: list[Line], mode: str) -> list[float]:
         [line_item for line_item in lines if line_item.x0 > best],
     ):
         extra = (
-            _column_cuts(subset, "auto") if len(subset) < len(lines) and len(subset) >= 12 else []
+            _column_cuts(subset, "auto", ocr)
+            if len(subset) < len(lines) and len(subset) >= 12
+            else []
         )
         if extra:
             cuts.append(extra[0])
@@ -504,6 +533,7 @@ def _coalesce_rows(lines: list[Line]) -> list[Line]:
                     size,
                     max(left.bold, right.bold),
                     left.column,
+                    left.ocr,
                 )
             )
         else:
@@ -512,76 +542,93 @@ def _coalesce_rows(lines: list[Line]) -> list[Line]:
 
 
 @log_call
-def _find_tessdata(directory: str | None, language: str) -> str:
-    """Resolve language files without invoking PyMuPDF's executable discovery."""
-    configured = directory or os.environ.get("TESSDATA_PREFIX")
-    candidates = (
-        [Path(configured).expanduser()]
-        if configured
-        else [
-            Path("C:/Program Files/Tesseract-OCR/tessdata"),
-            Path("/usr/share/tesseract-ocr/5/tessdata"),
-            Path("/usr/share/tesseract-ocr/4.00/tessdata"),
-            Path("/usr/share/tessdata"),
-            Path("/usr/local/share/tessdata"),
-            Path("/opt/homebrew/share/tessdata"),
-        ]
-    )
-    languages = language.split("+")
-    for candidate in candidates:
-        if all(name and (candidate / f"{name}.traineddata").is_file() for name in languages):
-            return str(candidate.resolve())
-    raise RuntimeError(
-        f"Lipsesc datele OCR pentru {language!r}. Indicați directorul cu fișierele "
-        ".traineddata prin --tessdata sau TESSDATA_PREFIX, ori folosiți --ocr never."
+def _render(page: pymupdf.Page, dpi: int) -> pymupdf.Pixmap:
+    width, height = page.rect.width, page.rect.height
+    if not all(math.isfinite(value) and value > 0 for value in (width, height)):
+        raise ValueError("Dimensiuni invalide pentru pagina OCR.")
+    if math.ceil(width * dpi / 72) * math.ceil(height * dpi / 72) > MAX_OCR_PIXELS:
+        raise ValueError("Randarea OCR depășește limita de 64 megapixeli; reduceți --dpi.")
+    return page.get_pixmap(dpi=dpi)
+
+
+@log_call
+def _render_png(page: pymupdf.Page, dpi: int) -> bytes:
+    return _render(page, dpi).tobytes("png")
+
+
+# Mean horizontal run of dark pixels in a word box: the width of its vertical strokes, in pixels.
+def _stroke(gray: np.ndarray, x0: float, y0: float, x1: float, y1: float) -> float | None:
+    crop = gray[max(0, int(y0)) : math.ceil(y1), max(0, int(x0)) : math.ceil(x1)]
+    dark = crop < INK_LEVEL
+    if not dark.size:
+        return None
+    runs = int(np.count_nonzero(dark[:, 1:] & ~dark[:, :-1]) + np.count_nonzero(dark[:, 0]))
+    return float(dark.sum()) / runs if runs >= 5 else None
+
+
+# Width of an OCR row in lowercase-letter units. Fitted on the benchmark rows: capitals are 1.35
+# and digits 1.2 times as wide, punctuation 0.8, and the detector's box adds about one letter at
+# its ends. Without these, single words and capitals looked 20-30% larger than prose.
+def _text_units(text: str) -> float:
+    return 1.0 + sum(
+        1.35 if c.isupper() else 1.2 if c.isdigit() else 1.0 if c.isalpha() or c == " " else 0.8
+        for c in text
     )
 
 
 @log_call
-def _ocr_glyphs(page: pymupdf.Page, options: Options) -> tuple[list[Glyph], float]:
-    """Render and recognize the prepared page in memory through PyMuPDF."""
-    width, height = page.rect.width, page.rect.height
-    if not all(math.isfinite(value) and value > 0 for value in (width, height)):
-        raise ValueError("Dimensiuni invalide pentru pagina OCR.")
-    if math.ceil(width * options.dpi / 72) * math.ceil(height * options.dpi / 72) > MAX_OCR_PIXELS:
-        raise ValueError("Randarea OCR depășește limita de 64 megapixeli; reduceți --dpi.")
-    textpage = page.get_textpage_ocr(
-        flags=pymupdf.TEXTFLAGS_RAWDICT & ~pymupdf.TEXT_PRESERVE_IMAGES,
-        language=options.lang,
-        dpi=options.dpi,
-        full=True,
-        tessdata=_find_tessdata(options.tessdata, options.lang),
-    )
-    # OCR font metrics are synthetic. Preserve native word/line grouping instead
-    # of fitting baselines independently from those artificial character fonts.
-    rows = []
-    baselines: dict[tuple[int, int], list[float]] = {}
-    line_widths: dict[tuple[int, int], list[float]] = {}
-    for x0, y0, x1, y1, text, block, line, _ in textpage.extractWORDS():
-        box = pymupdf.Rect(x0, y0, x1, y1) * page.rotation_matrix
-        key = (block, line)
-        rows.append((key, text, box))
-        baselines.setdefault(key, []).append(box.y1)
-        widths = line_widths.setdefault(key, [0.0, 0.0])
-        widths[0] += box.width
-        widths[1] += max(1, len(text))
-    # GlyphLessFont heights can vary wildly between identical scanned rows.
-    # Infer relative text sizes from mean character width instead, normalized
-    # to the profile's default body size. Preserve larger scanned headings.
-    sizes = {key: width / count for key, (width, count) in line_widths.items()}
-    typical = median(sizes.values()) if sizes else 1.0
-    line_baselines = {key: median(values) for key, values in baselines.items()}
-    glyphs = [
+def _row_glyphs(rows: list[Row], scale: float, gray: np.ndarray | None = None) -> list[Glyph]:
+    """Word glyphs, in page points, from OCR text rows whose boxes are in pixels of `gray`."""
+    # A row box has no font metrics, so the relative text size is inferred from the mean
+    # character width, normalized to the default body size of 10. Larger headings stay larger.
+    widths = [(row.box[2] - row.box[0]) / _text_units(row.text) for row in rows]
+    typical = median(widths) if widths else 1.0
+    words = []
+    for index, (row, width) in enumerate(zip(rows, widths)):
+        x0, y0, x1, y1 = row.box
+        size = max(1.0, 10.0 * width / max(0.001, typical))
+        parts = row.text.split()
+        # Each word gets a share of the row proportional to its characters plus one space.
+        total = sum(len(part) + 1 for part in parts)
+        x = x0
+        for part in parts:
+            advance = (x1 - x0) * (len(part) + 1) / total
+            stroke = _stroke(gray, x, y0, x + advance, y1) if gray is not None else None
+            # Larger print has thicker strokes without being bold.
+            words.append((index, part, x, x + advance, y1, size, stroke and stroke / size))
+            x += advance
+    # Bold is judged against the page's own print: ink, scan and resolution change the strokes.
+    usual = [w[6] for w in words if w[6] and sum(c.isalpha() for c in w[1]) >= 4]
+    normal = median(usual) if len(usual) >= 10 else None
+    return [
         Glyph(
-            text + " ",
-            box.x0,
-            box.x1,
-            line_baselines[key],
-            max(1.0, 10.0 * sizes[key] / max(0.001, typical)),
+            part + " ",
+            start * scale,
+            end * scale,
+            bottom * scale,
+            size,
+            bool(
+                normal
+                and relative
+                and relative >= normal * BOLD_STROKE
+                and sum(c.isalpha() for c in part) >= 3
+            ),
+            row=index,
         )
-        for key, text, box in rows
+        for index, part, start, end, bottom, size, relative in words
     ]
-    return glyphs, 0.0
+
+
+@log_call
+def _ocr_glyphs(
+    page: pymupdf.Page, options: Options, paddle: PaddleSession
+) -> tuple[list[Glyph], Confidence]:
+    """Recognize the prepared page with PaddleOCR; coordinates are displayed page points."""
+    pixmap = _render(page, options.dpi)
+    rows = paddle.recognize(pixmap.tobytes("png"))
+    samples = np.frombuffer(pixmap.samples, dtype=np.uint8)
+    gray = samples.reshape(pixmap.height, pixmap.width, pixmap.n)[:, :, :3].min(axis=2)
+    return _row_glyphs(clean_rows(rows), 72 / options.dpi, gray), measure(rows)
 
 
 @log_call
@@ -613,8 +660,9 @@ class PageText:
     method: str
     # A vision transcription has no geometry to rebuild, so it bypasses the layout rendering.
     markdown: str | None = None
-    # Why the embedded text layer of a scanned page was not used.
-    reasons: tuple[str, ...] = ()
+    # Counter-clockwise turn that made an OCR page upright.
+    orientation: int = 0
+    confidence: Confidence | None = None
 
 
 @dataclass(frozen=True, slots=True)
@@ -622,58 +670,76 @@ class VisionJob:
     # The rendered page waits for a worker thread; PyMuPDF itself never leaves the main thread.
     image: bytes
     angle: float
-    reasons: tuple[str, ...]
 
 
-# The page is straightened in a private copy, so the source PDF is never modified.
+# The page is straightened and turned upright in a private copy, so the source PDF is never
+# modified. Only a page going to PaddleOCR is classified for orientation, and only after it is
+# straightened: on the rotation test a page skewed by 20-25 degrees was classified as turned by
+# 180, and its text came out upside down; straightened first, every angle within the deskew range
+# of a multiple of 90 degrees was read correctly. A turned page is straightened again, because
+# its true skew was invisible while its lines ran vertically.
 @contextmanager
-def _straightened(page: pymupdf.Page, options: Options) -> Iterator[tuple[pymupdf.Page, float]]:
-    angle = 0.0
+def _straightened(
+    page: pymupdf.Page, options: Options, paddle: PaddleSession | None = None
+) -> Iterator[tuple[pymupdf.Page, float, int]]:
+    angle, orientation = 0.0, 0
     with ExitStack() as resources:
+        source = page
+
+        # One page object per copy: deskew_page reloads the page, which PyMuPDF refuses while a
+        # second object for the same page is alive.
+        def private_copy() -> pymupdf.Page:
+            if page is not source:
+                return page
+            corrected = resources.enter_context(pymupdf.open())
+            corrected.insert_pdf(source.parent, from_page=source.number, to_page=source.number)
+            return corrected[0]
+
+        def deskew() -> None:
+            nonlocal page, angle
+            found = estimate_page_skew(page, options.max_skew)
+            if found:
+                page = deskew_page(private_copy(), found)
+                angle += found
+
         if options.deskew:
-            angle = estimate_page_skew(page, options.max_skew)
-            if angle:
-                corrected = resources.enter_context(pymupdf.open())
-                corrected.insert_pdf(page.parent, from_page=page.number, to_page=page.number)
-                page = deskew_page(corrected[0], angle)
-        yield page, angle
-
-
-@log_call
-def _ocr_page(page: pymupdf.Page, options: Options, reasons: tuple[str, ...] = ()) -> PageText:
-    with _straightened(page, options) as (straight, angle):
-        glyphs, _ = _ocr_glyphs(straight, replace(options, deskew=False))
-    return PageText(glyphs, angle, "ocr", None, reasons)
+            deskew()
+        if paddle is not None:
+            orientation = paddle.orientation(_render_png(page, ORIENTATION_DPI))
+            if orientation:
+                page = private_copy()
+                # PyMuPDF turns pages clockwise; the classifier names a counter-clockwise turn.
+                page.set_rotation((page.rotation + 360 - orientation) % 360)
+                if options.deskew:
+                    deskew()
+        yield page, angle, orientation
 
 
 @log_call
 def _prepare_page(
-    page: pymupdf.Page, options: Options, vision: VisionSession
+    page: pymupdf.Page, options: Options, vision: VisionSession, paddle: PaddleSession
 ) -> PageText | VisionJob:
-    """Prepare this page independently, then take its checked text layer, hand it to the vision
-    model, or run Tesseract OCR, in that order of preference."""
-    if options.ocr == "always":
-        return _ocr_page(page, options)
-    with _straightened(page, options) as (straight, angle):
-        prepared_options = replace(options, deskew=False)
-        glyphs: list[Glyph] = []
-        if options.ocr in {"auto", "never"}:
-            glyphs, _ = _text_glyphs(straight, prepared_options)
-        reasons: list[str] = []
-        if options.ocr == "auto":
-            # The layer of a scanned page is old OCR output, so it is trusted only after
-            # checks against the page image; a born-digital page needs no check.
-            if not glyphs:
-                reasons = ["no text layer"]
-            elif _is_scanned_page(straight):
-                reasons = layer_problems(straight, options.lang.split("+")[0])
-        if options.ocr == "vision" or reasons:
-            if vision.available():
-                return VisionJob(vision.render(straight), angle, tuple(reasons))
-            reasons.append("vision unavailable")
-        if not reasons and options.ocr != "vision":
+    """Prepare this page independently: its text layer when born digital, PaddleOCR when
+    scanned, or a rendered image for the vision model in vision mode."""
+    if options.ocr == "vision":
+        vision.check()
+        with _straightened(page, options) as (straight, angle, _):
+            return VisionJob(vision.render(straight), angle)
+    scanned = options.ocr != "never" and _is_scanned_page(page)
+    if options.ocr == "never" or options.ocr == "auto" and not scanned:
+        with _straightened(page, options) as (straight, angle, _):
+            glyphs, _ = _text_glyphs(straight, replace(options, deskew=False))
+        # A page drawn as pictures without any text layer still needs OCR in auto mode.
+        if glyphs or options.ocr == "never" or not page.get_images():
             return PageText(glyphs, angle, "text")
-    return _ocr_page(page, options, tuple(reasons))
+    # Only a scanned page can be a photograph or a scan turned sideways.
+    with _straightened(page, options, paddle if scanned else None) as (
+        straight,
+        angle,
+        orientation,
+    ):
+        glyphs, confidence = _ocr_glyphs(straight, options, paddle)
+    return PageText(glyphs, angle, "ocr", None, orientation, confidence)
 
 
 @log_call
@@ -688,6 +754,23 @@ def _heading_level(
         or TOC.search(text)
     ):
         return None
+    if line.ocr:
+        letters = sum(c.isalpha() for c in text)
+        # Drawing labels, chemical formulas ("CH2OH") and table rows of figures have no word of
+        # three letters or are mostly digits; a contents line whose dots OCR read as ". .".
+        if (
+            not OCR_WORD.search(text)
+            or sum(c.isdigit() for c in text) > letters * 0.5
+            or OCR_TOC.search(text)
+        ):
+            return None
+        # An estimated size varies by about 12% between rows of one font; only the excess above
+        # that counts as larger print.
+        line = replace(line, size=max(min(line.size, body), line.size - body * OCR_SIZE_NOISE))
+        # A plant heading can end with its abbreviated author ("Eucalyptus globulus, Labill."),
+        # which is not the end of a sentence.
+        if len(text.split()) <= 6 and OCR_AUTHOR.search(text):
+            text = text[:-1]
     if _canonical(text) in profile.outlines:
         return profile.outlines[_canonical(text)]
     if (
@@ -703,6 +786,10 @@ def _heading_level(
     ):
         return 3 if profile.parts else 2
     numbered = NUMBERED.match(text)
+    # On a scan a table cell or a running head ("200 UI zilnic", "440 Glucosum") also starts with
+    # a figure; there a section number needs its own dot or parenthesis, or a nested form.
+    if numbered and line.ocr and not OCR_NUMBERED.match(text):
+        numbered = None
     styled = line.size >= body * 1.08 or line.bold >= 0.6
     if numbered and len(text) < 120 and (styled or gap > body * 0.5):
         return min(6, 2 + numbered.group(1).count("."))
@@ -718,6 +805,8 @@ def _heading_level(
         not text.endswith((".", ":", ";", "!", "?", "-"))
         and math.isfinite(gap)
         and gap > body * 1.25
+        # A scanned book spaces paragraphs too; a full-width first line is not a title.
+        and not (line.ocr and len(text) > 30 and line.x1 - line.x0 > prose_width * 0.8)
         and text[:1].isupper()
         and len(text.split()) <= 16
         and len(text) < 150
@@ -750,12 +839,17 @@ def _join_text(previous: str, text: str) -> str:
 def _render_page(lines: list[Line], profile: Profile) -> tuple[str, int]:
     if not lines:
         return "*[Pagină fără text detectabil]*", 0
+    ocr = lines[0].ocr
+    # A photographed spread or a narrow column of a scan can have no line over 60 characters.
+    prose = [line for line in lines if len(line.text) > (40 if ocr else 60)]
     sizes = Counter()
-    for line in lines:
-        if len(line.text) > 60:
-            sizes[round(line.size * 2) / 2] += len(line.text)
+    for line in prose:
+        sizes[round(line.size * 2) / 2] += len(line.text)
     body = sizes.most_common(1)[0][0] if sizes else profile.body_size
-    prose_widths = [line.x1 - line.x0 for line in lines if len(line.text) > 60]
+    if ocr and prose:
+        # Estimated sizes are continuous; the mode of rounded values can sit 5% off the middle.
+        body = float(median(line.size for line in prose))
+    prose_widths = [line.x1 - line.x0 for line in prose]
     prose_width = median(prose_widths) if prose_widths else math.inf
     removed = set()
     edge_threshold = max(3, math.ceil(profile.pages * 0.015))
@@ -783,6 +877,16 @@ def _render_page(lines: list[Line], profile: Profile) -> tuple[str, int]:
             blocks.append((paragraph, None))
             paragraph = ""
 
+    # A scanned book often marks a paragraph only by an indented first line, which OCR rows keep
+    # as their left edge; each column's prose margins are where most of its long lines start/end.
+    margins: dict[int, tuple[float, float]] = {}
+    for column in {line.column for line in lines} if ocr else ():
+        prose = [line for line in lines if line.column == column and len(line.text) > 40]
+        if len(prose) >= 3:
+            margins[column] = (
+                median(line.x0 for line in prose),
+                median(line.x1 for line in prose),
+            )
     for index, line in enumerate(lines):
         if index in removed:
             continue
@@ -836,7 +940,17 @@ def _render_page(lines: list[Line], profile: Profile) -> tuple[str, int]:
             flush()
             blocks.append((text, None))
         else:
-            if column_changed or gap > body * 0.65:
+            start, end = margins.get(line.column, (math.inf, math.inf))
+            indented = (
+                previous is not None
+                and not column_changed
+                and body * 0.7 <= line.x0 - start <= body * 4
+                and (
+                    previous.text.endswith((".", "!", "?", ":", '"', "”"))
+                    or previous.x1 < end - body * 2
+                )
+            )
+            if column_changed or gap > body * 0.65 or indented:
                 flush()
             if (
                 blocks
@@ -918,10 +1032,11 @@ def extract_markdown(
     with ExitStack() as resources:
         directory = Path(resources.enter_context(tempfile.TemporaryDirectory(dir=temporary_root)))
         spool = directory / "pages.jsonl"
-        # Contacted lazily, and only when a page needs it; closing releases the model's memory.
+        # Both are started lazily, only when a page needs them; closing releases their GPU memory.
         vision = resources.enter_context(
             VisionSession(options.vision_model, options.lang.split("+")[0])
         )
+        paddle = resources.enter_context(PaddleSession())
         staged = _temporary_path(output_path.parent)
         resources.callback(_remove_temp, staged)
         outputs = {output_path: staged}
@@ -956,28 +1071,20 @@ def extract_markdown(
             )
 
             def finish(
-                number: int, prepared: PageText | VisionJob, future: Future[str | None] | None
+                number: int, prepared: PageText | VisionJob, future: Future[str] | None
             ) -> None:
                 nonlocal last_log
                 page_text = prepared
                 try:
                     if isinstance(prepared, VisionJob):
-                        markdown = future.result() if future is not None else None
-                        if markdown is not None:
-                            page_text = PageText([], prepared.angle, "vision", markdown)
-                        else:
-                            # The call failed or was cut off; Tesseract takes this page over.
-                            page_text = _ocr_page(
-                                document[number - 1],
-                                options,
-                                (*prepared.reasons, "vision unavailable"),
-                            )
+                        assert future is not None
+                        page_text = PageText([], prepared.angle, "vision", future.result())
                     lines = _group_glyphs(page_text.glyphs)
                 except Exception as exc:
                     raise RuntimeError(f"Pagina {number}: {exc}") from exc
                 cuts: list[float] = []
                 if page_text.markdown is None:
-                    cuts = _column_cuts(lines, options.columns)
+                    cuts = _column_cuts(lines, options.columns, page_text.method == "ocr")
                     lines = _reading_order(lines, cuts)
                     profile.observe(lines)
                     record = {"number": number, "lines": list(map(LINE_VALUES, lines))}
@@ -999,18 +1106,23 @@ def extract_markdown(
                 entry = {
                     "page": number,
                     "method": page_text.method,
+                    "orientation": page_text.orientation,
                     "skew_degrees": round(page_text.angle, 2),
                     "columns": len(cuts) + 1,
                     "lines": found,
                 }
-                if page_text.reasons:
-                    entry["reasons"] = list(page_text.reasons)
+                confidence = page_text.confidence
+                if confidence is not None:
+                    entry["confidence"] = confidence.mean
+                    entry["low_confidence_share"] = confidence.low_share
+                    entry["uncertain"] = confidence.uncertain
+                    if confidence.uncertain and found:
+                        report["warnings"].append(
+                            f"Pagina {number}: PaddleOCR are încredere mică (medie "
+                            f"{confidence.mean:.3f}, {confidence.low_share:.1%} din litere în "
+                            "rânduri nesigure); textul poate avea cuvinte greșite."
+                        )
                 report["pages"].append(entry)
-                if page_text.method == "ocr" and options.ocr in {"auto", "vision"}:
-                    report["warnings"].append(
-                        f"Pagina {number}: modelul cu viziune nu a putut fi folosit; "
-                        "a fost folosit Tesseract."
-                    )
                 if not found:
                     report["warnings"].append(
                         f"Pagina {number}: fără text detectabil ({page_text.method})."
@@ -1030,15 +1142,15 @@ def extract_markdown(
                     )
                     last_log = now
 
-            # Pages are prepared on this thread, because PyMuPDF is not thread-safe, and sent to
-            # the vision model on worker threads. Results are collected in page order, and one
+            # Pages are prepared on this thread, because PyMuPDF is not thread-safe; PaddleOCR
+            # also runs here, one page at a time, and only vision pages go to worker threads. Results are collected in page order, and one
             # page more than the workers can take is always ready, so the model never waits.
             pool = ThreadPoolExecutor(max_workers=options.workers)
             resources.callback(pool.shutdown, wait=False, cancel_futures=True)
-            pending: deque[tuple[int, PageText | VisionJob, Future[str | None] | None]] = deque()
+            pending: deque[tuple[int, PageText | VisionJob, Future[str] | None]] = deque()
             for number in range(options.start_page, end + 1):
                 try:
-                    prepared = _prepare_page(document[number - 1], options, vision)
+                    prepared = _prepare_page(document[number - 1], options, vision, paddle)
                 except Exception as exc:
                     raise RuntimeError(f"Pagina {number}: {exc}") from exc
                 future = (
@@ -1119,23 +1231,27 @@ def main() -> int:
         help=f"Implicit: {DEFAULT_OUTPUT_ROOT}/<nume fără extensie>/<fișier PDF>.md; creează folderul.",
     )
     parser.add_argument("--columns", choices=("auto", "1", "2", "3"), default="auto")
-    # The command line defaults to the vision model; Options keeps "auto" so library callers and
-    # the unit tests never depend on a running Ollama.
-    parser.add_argument("--ocr", choices=("auto", "always", "never", "vision"), default="vision")
     parser.add_argument(
-        "--vision-model",
-        default=DEFAULT_MODEL,
-        help="Model Ollama cu viziune pentru paginile scanate fără text de încredere.",
+        "--ocr",
+        choices=("auto", "always", "never", "vision"),
+        default="auto",
+        help="auto: textul din PDF la paginile digitale, PaddleOCR la cele scanate; always: "
+        "PaddleOCR pe toate; never: doar textul din PDF; vision: modelul cu viziune pe toate.",
+    )
+    parser.add_argument(
+        "--vision-model", default=DEFAULT_MODEL, help="Model Ollama cu viziune pentru --ocr vision."
     )
     parser.add_argument(
         "--workers",
         type=int,
         default=1,
-        help="Pagini trimise simultan modelului. Ollama nu rulează în paralel cereri pentru "
+        help="Pagini trimise simultan modelului cu viziune. Ollama nu rulează în paralel cereri pentru "
         "modelele qwen3.5, deci peste 1 nu câștigă timp cu ele.",
     )
-    parser.add_argument("--lang", default="ron+eng")
-    parser.add_argument("--dpi", type=int, default=250)
+    parser.add_argument(
+        "--lang", default="ron+eng", help="Limba cerută modelului cu viziune (prima din listă)."
+    )
+    parser.add_argument("--dpi", type=int, default=300, help="Rezoluția randării pentru PaddleOCR.")
     parser.add_argument(
         "--deskew",
         choices=("auto", "off"),
@@ -1145,9 +1261,6 @@ def main() -> int:
     parser.add_argument("--max-skew", type=float, default=30.0)
     parser.add_argument("--start-page", type=int, default=1)
     parser.add_argument("--end-page", type=int)
-    parser.add_argument(
-        "--tessdata", help="Directorul cu datele OCR .traineddata; alternativ, TESSDATA_PREFIX."
-    )
     parser.add_argument("--password")
     parser.add_argument(
         "--debug",

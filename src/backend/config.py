@@ -40,7 +40,7 @@ CORPUS_DATA_DIR = ROOT / "medicina-naturista-documente" / "data"
 
 
 ENV_NAME = "REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL"
-_LIMIT_KEYS = frozenset({"tokens", "context", "effort", "thinking"})
+_LIMIT_KEYS = frozenset({"chars", "context", "effort", "thinking"})
 
 
 def _default_context() -> Mapping[ReportModel, int]:
@@ -55,10 +55,10 @@ def _default_thinking() -> Mapping[ReportModel, int]:
     return MappingProxyType({model: spec.thinking_tokens for model, spec in REPORT_MODELS.items()})
 
 
-# One JSON object per model: {"tokens": batch input budget, "context": the model's context
-# window, "effort": the effort preselected in the report panel, "thinking": the default thinking
-# budget of a batch}. Only "tokens" is required; the others fall back to the catalog. The four
-# results are immutable, like the provider snapshot.
+# One JSON object per model: {"chars": the fragment characters of one batch, "context": the
+# model's context window, "effort": the effort preselected in the report panel, "thinking": the
+# default thinking budget of a batch}. Only "chars" is required; the others fall back to the
+# catalog. The four results are immutable, like the provider snapshot.
 def _model_limits(
     value: str | None = None,
 ) -> tuple[
@@ -75,11 +75,9 @@ def _model_limits(
             result[key] = item
         return result
 
-    tokens = MappingProxyType(
-        {model: spec.batch_max_tokens for model, spec in REPORT_MODELS.items()}
-    )
+    chars = MappingProxyType({model: spec.batch_max_chars for model, spec in REPORT_MODELS.items()})
     if value is None or not value.strip():
-        return tokens, _default_context(), _default_effort(), _default_thinking()
+        return chars, _default_context(), _default_effort(), _default_thinking()
     try:
         parsed = json.loads(value, object_pairs_hook=unique_pairs)
     except (ValueError, TypeError):
@@ -93,7 +91,7 @@ def _model_limits(
     parsed = folded
     if parsed.keys() - REPORT_MODELS.keys():
         raise ValueError("Report batch limits contain an unsupported model")
-    tokens_result: dict[ReportModel, int] = {}
+    chars_result: dict[ReportModel, int] = {}
     context_result = dict(_default_context())
     effort_result = dict(_default_effort())
     thinking_result = dict(_default_thinking())
@@ -101,13 +99,17 @@ def _model_limits(
         if model not in parsed:
             continue
         entry = parsed[model]
-        if not isinstance(entry, dict) or entry.keys() - _LIMIT_KEYS or "tokens" not in entry:
+        if isinstance(entry, dict) and "tokens" in entry:
             raise ValueError(
-                f'{ENV_NAME} entries must be objects like {{"tokens": 25000, "context": 262144, '
-                '"effort": "low", "thinking": 8000}; "tokens" is required'
+                f'{ENV_NAME}: "tokens" was replaced by "chars", the fragment characters of a batch'
+            )
+        if not isinstance(entry, dict) or entry.keys() - _LIMIT_KEYS or "chars" not in entry:
+            raise ValueError(
+                f'{ENV_NAME} entries must be objects like {{"chars": 57000, "context": 262144, '
+                '"effort": "low", "thinking": 8000}; "chars" is required'
             )
         for key, target in (
-            ("tokens", tokens_result),
+            ("chars", chars_result),
             ("context", context_result),
             ("thinking", thinking_result),
         ):
@@ -126,7 +128,7 @@ def _model_limits(
                 raise ValueError(f"Report model effort must be one of {', '.join(REPORT_EFFORTS)}")
             effort_result[model] = effort
     return (
-        MappingProxyType(tokens_result),
+        MappingProxyType(chars_result),
         MappingProxyType(context_result),
         MappingProxyType(effort_result),
         MappingProxyType(thinking_result),
@@ -294,7 +296,7 @@ class Settings:
     )
     report_generation_models: tuple[ReportModel, ...] = DEFAULT_REPORT_MODELS
     report_batch_workers: int = 2
-    report_generation_batch_max_tokens: Mapping[ReportModel, int] = field(
+    report_generation_batch_max_chars: Mapping[ReportModel, int] = field(
         default_factory=lambda: _model_limits()[0]
     )
     report_generation_context_tokens: Mapping[ReportModel, int] = field(
@@ -431,7 +433,7 @@ class Settings:
             ),
         ):
             if env.get(old, "").strip():
-                raise ValueError(f"{old} was replaced by {new}; configure token budgets explicitly")
+                raise ValueError(f"{old} was replaced by {new}")
         report_models = parse_report_models(
             env.get("REPORT_GENERATION_MODELS", ",".join(DEFAULT_REPORT_MODELS))
         )
@@ -465,7 +467,7 @@ class Settings:
             ),
             report_generation_models=report_models,
             report_batch_workers=_int("REPORT_BATCH_WORKERS", 2, env=env),
-            report_generation_batch_max_tokens=model_limits[0],
+            report_generation_batch_max_chars=model_limits[0],
             report_generation_context_tokens=model_limits[1],
             report_generation_default_effort=model_limits[2],
             report_generation_thinking_tokens=model_limits[3],
@@ -612,7 +614,7 @@ class Settings:
             "report_generation_models",
             parse_report_models(",".join(self.report_generation_models)),
         )
-        limits = self.report_generation_batch_max_tokens
+        limits = self.report_generation_batch_max_chars
         if (
             not isinstance(limits, Mapping)
             or set(limits) - set(REPORT_MODELS)
@@ -622,7 +624,7 @@ class Settings:
         if set(self.report_generation_models) - set(limits):
             raise ValueError("Report batch limits must include every configured model")
         object.__setattr__(
-            self, "report_generation_batch_max_tokens", MappingProxyType(dict(limits))
+            self, "report_generation_batch_max_chars", MappingProxyType(dict(limits))
         )
         contexts = self.report_generation_context_tokens
         efforts = self.report_generation_default_effort

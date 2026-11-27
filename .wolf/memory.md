@@ -3923,3 +3923,55 @@ description: chronological action log per session, consolidated weekly
 | 15:32 | Edited src/backend/ai/ollama_loading.py | modified is_loaded() | ~305 |
 | 15:32 | Created src/backend/ai/classifier_model.py | — | ~890 |
 | 16:10 | Edited src/scripts/llm_host_agent.py | 2→3 lines | ~83 |
+
+## Session: 2026-11-27 12:02
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 12:12 | Created aiPlans/2026-11-27-verificare-reocr-viziune-extract-pdf.md | — | ~5012 |
+
+## Session: 2026-11-27 13:12
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 15:24 | Created aiWork/ocr-bench/results.md | — | ~2995 |
+| 16:03 | Created aiPlans/2026-11-27-verificare-reocr-viziune-extract-pdf.md | — | ~2699 |
+<!-- session:YTc4MDgyMzEtMDcyYy00MGMyLTk3YWQtYWY1YzBmZWEyNzgy -->
+| 2026-11-27T14:03:37.284Z | OCR plan for extract_pdf_markdown: phase 0 benchmark in aiWork/ocr-bench (PaddleOCR PP-OCRv6 GPU 30 err/1k vs vision 72, OCRmyPDF 159, Tesseract 259+); plan rewritten: scanned pages go to PaddleOCR with orientation classifier, layer check and default vision step removed, low-confidence pages marked; column-mixing bug in OCR layout rebuild found | aiPlans/2026-11-27-verificare-reocr-viziune-extract-pdf.md,aiWork/ocr-bench/results.md | benchmark complete with 12 gold pages and 30-line audit (0 errors); no src changes |
+| 16:24 | Edited aiPlans/2026-11-27-verificare-reocr-viziune-extract-pdf.md | expanded (+14 lines) | ~262 |
+| 16:24 | Edited aiPlans/2026-11-27-verificare-reocr-viziune-extract-pdf.md | expanded (+6 lines) | ~719 |
+| 16:24 | Edited aiPlans/2026-11-27-verificare-reocr-viziune-extract-pdf.md | 1→4 lines | ~271 |
+| 16:24 | Edited aiPlans/2026-11-27-verificare-reocr-viziune-extract-pdf.md | 1→2 lines | ~74 |
+| 16:24 | Edited aiPlans/2026-11-27-verificare-reocr-viziune-extract-pdf.md | 3→6 lines | ~239 |
+
+## Session: 2026-11-27 16:25
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 16:27 | Created requirements-ocr.txt | — | ~207 |
+| 16:32 | Created src/scripts/pdf_paddle_worker.py | — | ~1676 |
+| 16:32 | Created src/scripts/pdf_paddle.py | — | ~2044 |
+| 16:35 | Edited src/scripts/extract_pdf_markdown.py | modified as() | ~199 |
+
+## Session: 2026-11-27 17:09
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 17:18 | Edited src/backend/core/report_models.py | 1→2 lines | ~40 |
+<!-- session:MjEyOGI5NTctOWExNi00NjAzLWE1MmEtNjQyOGQzZTgxN2M0 -->
+| 2026-11-27T15:19:32.849Z | PaddleOCR plan phases 1-4: .venv-ocr worker (pdf_paddle_worker.py) + PaddleSession (pdf_paddle.py), Tesseract/layer check removed, auto default, deskew->orientation->deskew, OCR rows kept per column, relaxed gutter crossings only for OCR pages, vision errors raise, 6 GB Paddle GPU cap | src/scripts/extract_pdf_markdown.py,src/scripts/pdf_paddle.py,src/scripts/pdf_paddle_worker.py,src/scripts/pdf_vision.py,src/scripts/pdf_layer_check.py,requirements-ocr.txt,README.md,.gitignore | ruff ok; 30 script unit tests pass; sample gold 34.0 err/1000; offline 0 sockets; digital 0/4646 cut changes; structure worse on tables/diagrams/spreads, uncertain flag 3 mismatches |
+| 17:20 | Created aiWork/edit_client.py | — | ~2174 |
+| 17:20 | Created aiWork/edit_retrieval.py | — | ~1805 |
+| 17:21 | Created aiWork/edit_main.py | — | ~1655 |
+| 17:22 | Created aiWork/edit_texts.py | — | ~705 |
+| 17:22 | Created aiWork/edit_frontend.py | — | ~1069 |
+| 17:23 | Created aiWork/edit_readme.py | — | ~1876 |
+| 17:25 | Created aiWork/check_chars_batches.py | — | ~310 |
+<!-- session:ZDYwMGM3MmMtYmU5Ni00M2EyLWEyMzctNjI4YWEzZTQ5MWM5 -->
+| 2026-11-27T15:26:03.031Z | Report batch input limit switched from tokens to fragment characters (sum of item text, as the panel's Total characters). Context still enforced in tokens; .env key tokens->chars converted with (tokens-3600)*2.66; panel label 'Caractere max. din fragmente per lot'; search content budget now plain chars, EvidenceTokenBudget removed. | src/backend/core/report_models.py,src/backend/config.py,src/backend/ai/client.py,src/backend/core/report_batches.py,src/backend/ai/retrieval.py,src/backend/web/main.py,src/frontend/lib/generationLimits.ts,.env,README.md | 453 unit tests OK, ruff/mypy clean, frontend typecheck and 58 tests pass; not deployed |
+<!-- session:MjEyOGI5NTctOWExNi00NjAzLWE1MmEtNjQyOGQzZTgxN2M0 -->
+| 2026-11-27T15:46:40.492Z | OCR structure pass in extract_pdf_markdown: Line.ocr, width-weighted size estimate, OCR heading noise/exclusions, author-abbreviation headings, indentation paragraph breaks, 40-char prose threshold on OCR pages; fixed backspace char in OCR_AUTHOR regex | src/scripts/extract_pdf_markdown.py,README.md | false headings 183->60 vs vision; gold 33.6/1000; digital Markdown identical to HEAD; 30 tests pass |
+<!-- session:MjEyOGI5NTctOWExNi00NjAzLWE1MmEtNjQyOGQzZTgxN2M0 -->
+| 2026-11-27T15:47:06.237Z | OCR structure pass in extract_pdf_markdown: Line.ocr, width-weighted size estimate, OCR heading noise/exclusions, author-abbreviation headings, indentation paragraph breaks, 40-char prose threshold on OCR pages; fixed backspace char in OCR_AUTHOR regex | src/scripts/extract_pdf_markdown.py,README.md | false headings 183->60 vs vision; gold 33.6/1000; digital Markdown identical to HEAD; 30 tests pass |
+<!-- session:MjEyOGI5NTctOWExNi00NjAzLWE1MmEtNjQyOGQzZTgxN2M0 -->
+| 2026-11-27T16:02:39.157Z | Image-based bold for OCR pages: per-word stroke width / size vs page median (1.3x), _render pixmap reused for Paddle PNG and gray | src/scripts/extract_pdf_markdown.py,README.md | headings matched vs vision 47->54, false 60->72 (bold table headers); gold 33.4/1000; digital Markdown identical on 1550 pages; 30 tests pass |

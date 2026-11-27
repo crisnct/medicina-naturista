@@ -1,7 +1,8 @@
 """Transcribe a scanned page image to Markdown with a local vision model served by Ollama.
 
-Every failure is reported as None so the caller can fall back to Tesseract; nothing leaves
-the machine and no page text is logged.
+Every failure raises RuntimeError with its cause: there is no fallback engine, and the
+extraction stops without touching an earlier output. Nothing leaves the machine and no page text
+is logged.
 """
 
 from __future__ import annotations
@@ -99,8 +100,8 @@ class VisionSession:
         self._model = model
         self._language = LANGUAGES.get(language, language)
         self._http = httpx.Client(trust_env=False, follow_redirects=False)
-        self._checked = False
-        self._available = False
+        # None until checked; then "" when the service and the model answer, else the cause.
+        self._problem: str | None = None
 
     def __enter__(self) -> VisionSession:
         return self
@@ -109,26 +110,26 @@ class VisionSession:
         self.close()
 
     @log_call
-    def _check(self) -> bool:
+    def _find_problem(self) -> str:
         wanted = self._model if ":" in self._model else f"{self._model}:latest"
         try:
             response = self._http.get(self._url + "/api/tags", timeout=TIMEOUT)
             response.raise_for_status()
             installed = {item.get("name") for item in response.json().get("models", [])}
         except (httpx.HTTPError, ValueError, AttributeError) as exc:
-            LOGGER.warning("Vision service unavailable (%s); Tesseract is used instead.", exc)
-            return False
+            return f"serviciul Ollama nu răspunde la {self._url} ({type(exc).__name__}: {exc})"
         if wanted not in installed:
-            LOGGER.warning("Vision model %s is not installed; Tesseract is used instead.", wanted)
-            return False
-        return True
+            return f"modelul de viziune {wanted} nu este instalat în Ollama"
+        return ""
 
     # Called from the main thread before any worker starts, so the check runs exactly once.
     @log_call
-    def available(self) -> bool:
-        if not self._checked:
-            self._checked, self._available = True, self._check()
-        return self._available
+    def check(self) -> None:
+        """Raise RuntimeError with the cause when the service or the model cannot be used."""
+        if self._problem is None:
+            self._problem = self._find_problem()
+        if self._problem:
+            raise RuntimeError(self._problem)
 
     # PyMuPDF pages are not thread-safe, so rendering stays on the caller's thread and only the
     # network round trip runs on workers.
@@ -137,8 +138,8 @@ class VisionSession:
         return page.get_pixmap(dpi=RENDER_DPI, clip=_printed_area(page)).tobytes("png")
 
     @log_call
-    def transcribe_image(self, image: bytes) -> str | None:
-        """Markdown for a rendered page, or None when the service or its answer cannot be used.
+    def transcribe_image(self, image: bytes) -> str:
+        """Markdown for a rendered page; RuntimeError when the service or its answer fails.
 
         Safe to call from several threads: it only uses the shared HTTP client."""
         message: dict[str, Any] = {
@@ -164,18 +165,20 @@ class VisionSession:
             content = result["message"]["content"]
             truncated = result.get("done_reason") == "length"
         except (httpx.HTTPError, ValueError, KeyError, TypeError) as exc:
-            LOGGER.warning("Vision transcription failed (%s).", type(exc).__name__)
-            return None
-        if truncated or not isinstance(content, str) or not content.strip():
-            LOGGER.warning("Vision transcription was empty or cut off.")
-            return None
+            raise RuntimeError(
+                f"modelul de viziune nu a răspuns ({type(exc).__name__}: {exc})"
+            ) from exc
+        if truncated:
+            raise RuntimeError("răspunsul modelului de viziune a fost tăiat (num_predict)")
+        if not isinstance(content, str) or not content.strip():
+            raise RuntimeError("răspunsul modelului de viziune a fost gol")
         return tidy_markdown(content)
 
     # Releases the GPU memory the model holds; a failure here must not hide the run's outcome.
     @log_call
     def close(self) -> None:
         try:
-            if self._available:
+            if self._problem == "":
                 self._http.post(
                     self._url + "/api/generate",
                     json={"model": self._model, "keep_alive": 0, "stream": False},

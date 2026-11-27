@@ -46,7 +46,7 @@ from backend.core.language import current_language, language_scope, read_prompt,
 from backend.core.operation_context import (
     ReportActivity,
     checkpoint,
-    current_report_batch_max_tokens,
+    current_report_batch_max_chars,
     current_report_batch_workers,
     current_report_effort,
     current_report_max_output_tokens,
@@ -62,7 +62,7 @@ from backend.core.operation_context import (
     report_batch_scope,
     report_effort_scope,
 )
-from backend.core.report_batches import combine_reports, partition_evidence
+from backend.core.report_batches import combine_reports, evidence_chars, partition_evidence
 from backend.core.report_models import (
     REPORT_MODELS,
     REPORT_THINKING_CONTEXT_DIVISOR,
@@ -439,7 +439,7 @@ class ResponsesClient:
             encoding="utf-8"
         ).strip()
         self.english_generate_system_prompt = read_prompt(GENERATE_REPORT_SYSTEM_PROMPT_PATH, "en")
-        self.batch_max_tokens = settings.report_generation_batch_max_tokens[
+        self.batch_max_chars = settings.report_generation_batch_max_chars[
             settings.report_generation_model
         ]
         self.context_tokens = settings.report_generation_context_tokens[
@@ -910,22 +910,34 @@ class ResponsesClient:
             return self.context_tokens
         return self.context_tokens // self.provider.parallel_context_divisor
 
-    def _report_input_limit(self) -> int:
-        limit = current_report_batch_max_tokens() or self.batch_max_tokens
-        return min(limit, self._request_context_tokens() - self._report_max_output_tokens())
+    # The fragment characters one batch may carry: the admin's value for this report, else the
+    # model's configured one.
+    def _report_batch_chars(self) -> int:
+        return current_report_batch_max_chars() or self.batch_max_chars
 
+    # The tokens a whole request (prompt, profile, fragments, schema) may use: what the context
+    # leaves after the output and thinking.
+    def _report_context_room(self) -> int:
+        return self._request_context_tokens() - self._report_max_output_tokens()
+
+    # A batch closes at the character limit, or earlier when its request would not fit the context.
     def _partition(self, profile: ProfilePayload, evidence: Evidence) -> list[Evidence]:
-        input_limit = self._report_input_limit()
-        if input_limit <= 0:
+        room = self._report_context_room()
+        if room <= 0:
             raise AIUnavailable(tr("errors.ai_context_limit"), reason="context_limit")
+        max_chars = self._report_batch_chars()
         return partition_evidence(
-            evidence, input_limit, lambda batch: self._report_input_tokens(profile, batch)
+            evidence,
+            lambda batch: (
+                evidence_chars(batch) <= max_chars
+                and self._report_input_tokens(profile, batch) <= room
+            ),
         )
 
     # A fragment whose own request leaves no room for the output in the context is refused by
     # the server however it is batched, so it stays out of the report; the count is reported.
     def _fit_evidence(self, profile: ProfilePayload, evidence: Evidence) -> tuple[Evidence, int]:
-        room = self._request_context_tokens() - self._report_max_output_tokens()
+        room = self._report_context_room()
         fitting = {
             token: item
             for token, item in evidence.items()
@@ -939,7 +951,7 @@ class ResponsesClient:
         profile: ProfilePayload,
         evidence: Evidence,
         effort: ReportEffort | None = None,
-        batch_max_tokens: int | None = None,
+        batch_max_chars: int | None = None,
         max_output_tokens: int | None = None,
         batch_workers: int | None = None,
         thinking_tokens: int | None = None,
@@ -947,9 +959,9 @@ class ResponsesClient:
         with (
             language_scope(validate_language(profile.get("language", current_language()))),
             report_effort_scope(effort),
-            report_batch_scope(batch_max_tokens, batch_workers, max_output_tokens, thinking_tokens),
+            report_batch_scope(batch_max_chars, batch_workers, max_output_tokens, thinking_tokens),
         ):
-            input_limit = self._report_input_limit()
+            input_limit = self._report_batch_chars()
             if not evidence:
                 return ReportBatchPlan(0, 0, input_limit)
             # A lone fragment over the chosen limit is still sent whole; one that cannot fit the
@@ -966,7 +978,7 @@ class ResponsesClient:
         profile: ProfilePayload,
         evidence: Evidence,
         effort: ReportEffort | None = None,
-        batch_max_tokens: int | None = None,
+        batch_max_chars: int | None = None,
         batch_workers: int | None = None,
         max_output_tokens: int | None = None,
         thinking_tokens: int | None = None,
@@ -979,7 +991,7 @@ class ResponsesClient:
         with (
             language_scope(language),
             report_effort_scope(effort),
-            report_batch_scope(batch_max_tokens, batch_workers, max_output_tokens, thinking_tokens),
+            report_batch_scope(batch_max_chars, batch_workers, max_output_tokens, thinking_tokens),
         ):
             return self._generate(profile, evidence)
 
@@ -1106,16 +1118,18 @@ class ResponsesClient:
         checkpoint()
         logger.info(
             "report_batch_started provider=%s model=%s parallel_limit=%s batch=%s total=%s "
-            "fragments=%s chars=%s input_tokens_upper_bound=%s input_limit=%s counting=utf8_bytes_div3",
+            "fragments=%s chars=%s max_chars=%s input_tokens_upper_bound=%s context_room=%s "
+            "counting=utf8_bytes_div3",
             self.provider.name,
             self.provider.model,
             self._batch_workers(),
             index,
             total,
             len(batch),
-            sum(len(item["text"]) for item in batch.values()),
+            evidence_chars(batch),
+            self._report_batch_chars(),
             self._report_input_tokens(profile, batch),
-            self._report_input_limit(),
+            self._report_context_room(),
         )
         try:
             result = self._generate_batch_recovering(
@@ -1242,17 +1256,22 @@ class ResponsesClient:
         self, profile: ProfilePayload, evidence: Evidence, max_output_tokens: int
     ) -> ValidatedReport:
         input_tokens = self._report_input_tokens(profile, evidence)
-        input_limit = self._report_input_limit()
-        if input_tokens > input_limit:
+        room = self._report_context_room()
+        chars = evidence_chars(evidence)
+        max_chars = self._report_batch_chars()
+        if input_tokens > room or chars > max_chars:
             if len(evidence) != 1:
                 raise AIUnavailable(tr("errors.ai_context_limit"), reason="context_limit")
             logger.info(
-                "report_batch_token_limit_bypassed provider=%s model=%s fragments=1 "
-                "input_tokens_upper_bound=%s input_limit=%s counting=utf8_bytes_div3",
+                "report_batch_limit_bypassed provider=%s model=%s fragments=1 chars=%s "
+                "max_chars=%s input_tokens_upper_bound=%s context_room=%s "
+                "counting=utf8_bytes_div3",
                 self.provider.name,
                 self.provider.model,
+                chars,
+                max_chars,
                 input_tokens,
-                input_limit,
+                room,
             )
         entries = self._evidence_entries(evidence)
         self._log_fragment_inventory(entries, "fragments_sent_to_ai")

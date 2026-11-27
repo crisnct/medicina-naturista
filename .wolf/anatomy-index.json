@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-26T14:10:47.594Z",
-    "fileCount": 546,
+    "lastScanned": "2026-11-27T15:25:13.641Z",
+    "fileCount": 558,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "a4e61d68a8d3b243b33a31b8601dec41ba4dfa9a6d9a55718aad7c16d2d4c0d3",
-    "storeUpdatedAt": "2026-11-26T14:10:47.613Z",
-    "rootHash": "b52ee39ed12127b9"
+    "renderedHash": "b5e974f27dcc4786ee153d46e61683422f9aea5a9c0a6f1b4ae632bf0746b546",
+    "storeUpdatedAt": "2026-11-27T15:25:13.653Z",
+    "rootHash": "0ba142ac665b2fd0"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -7117,74 +7117,74 @@
     },
     "src/backend/core/report_models.py": {
       "description": "Supported report choices and their immutable provider routing.",
-      "tokens": 3360,
-      "hash": "b1618930b5554c77",
-      "size": 11757,
-      "mtimeMs": 1795641189691.3784,
-      "updatedAt": "2026-11-25T21:13:09.929Z",
+      "tokens": 3488,
+      "hash": "4e6dce8fa0968f1e",
+      "size": 12206,
+      "mtimeMs": 1795792718866.8655,
+      "updatedAt": "2026-11-27T15:18:39.112Z",
       "source": "hook",
       "symbols": [
         {
           "name": "ReportModelSpec",
           "kind": "class",
-          "startLine": 76,
-          "endLine": 198,
-          "tokens": 1563
+          "startLine": 82,
+          "endLine": 205,
+          "tokens": 1580
         },
         {
           "name": "catalog_output_tokens",
           "kind": "fn",
-          "startLine": 199,
-          "endLine": 206,
+          "startLine": 206,
+          "endLine": 213,
           "tokens": 115
         },
         {
           "name": "default_batch_workers",
           "kind": "fn",
-          "startLine": 207,
-          "endLine": 215,
+          "startLine": 214,
+          "endLine": 222,
           "tokens": 131
         },
         {
           "name": "parallel_context_divisor",
           "kind": "fn",
-          "startLine": 216,
-          "endLine": 221,
+          "startLine": 223,
+          "endLine": 228,
           "tokens": 66
         },
         {
           "name": "parallel_context_tokens",
           "kind": "fn",
-          "startLine": 222,
-          "endLine": 227,
+          "startLine": 229,
+          "endLine": 234,
           "tokens": 79
         },
         {
           "name": "request_context_tokens",
           "kind": "fn",
-          "startLine": 228,
-          "endLine": 231,
+          "startLine": 235,
+          "endLine": 238,
           "tokens": 47
         },
         {
           "name": "parse_report_effort",
           "kind": "fn",
-          "startLine": 232,
-          "endLine": 238,
+          "startLine": 239,
+          "endLine": 245,
           "tokens": 80
         },
         {
           "name": "parse_report_model",
           "kind": "fn",
-          "startLine": 239,
-          "endLine": 245,
+          "startLine": 246,
+          "endLine": 252,
           "tokens": 78
         },
         {
           "name": "parse_report_models",
           "kind": "fn",
-          "startLine": 246,
-          "endLine": 258,
+          "startLine": 253,
+          "endLine": 265,
           "tokens": 189
         }
       ]
@@ -10066,222 +10066,222 @@
     },
     "src/scripts/extract_pdf_markdown.py": {
       "description": "Options: observe, body_size",
-      "tokens": 14210,
-      "hash": "d42620c606ea8095",
-      "size": 49846,
-      "mtimeMs": 1793709150999.94,
-      "updatedAt": "2026-11-03T12:32:31.281Z",
+      "tokens": 13990,
+      "hash": "4aba14863bcabcc6",
+      "size": 49079,
+      "mtimeMs": 1795790136579.6719,
+      "updatedAt": "2026-11-27T14:35:37.471Z",
       "source": "hook",
       "symbols": [
         {
           "name": "Options",
           "kind": "class",
-          "startLine": 97,
-          "endLine": 141,
-          "tokens": 520
+          "startLine": 100,
+          "endLine": 145,
+          "tokens": 548
         },
         {
           "name": "Glyph",
           "kind": "class",
-          "startLine": 142,
-          "endLine": 151,
+          "startLine": 146,
+          "endLine": 155,
           "tokens": 44
         },
         {
           "name": "Line",
           "kind": "class",
-          "startLine": 152,
-          "endLine": 166,
+          "startLine": 156,
+          "endLine": 170,
           "tokens": 66
         },
         {
           "name": "Profile",
           "kind": "class",
-          "startLine": 167,
-          "endLine": 215,
+          "startLine": 171,
+          "endLine": 219,
           "tokens": 523
         },
         {
           "name": "_canonical",
           "kind": "fn",
-          "startLine": 216,
-          "endLine": 222,
+          "startLine": 220,
+          "endLine": 226,
           "tokens": 82
         },
         {
           "name": "_strip_diacritics",
           "kind": "fn",
-          "startLine": 223,
-          "endLine": 231,
+          "startLine": 227,
+          "endLine": 235,
           "tokens": 70
         },
         {
           "name": "_margin_key",
           "kind": "fn",
-          "startLine": 232,
-          "endLine": 236,
+          "startLine": 236,
+          "endLine": 240,
           "tokens": 39
         },
         {
           "name": "_edge_lines",
           "kind": "fn",
-          "startLine": 237,
-          "endLine": 245,
+          "startLine": 241,
+          "endLine": 249,
           "tokens": 70
         },
         {
           "name": "_short_title",
           "kind": "fn",
-          "startLine": 246,
-          "endLine": 257,
+          "startLine": 250,
+          "endLine": 261,
           "tokens": 82
         },
         {
           "name": "_all_caps",
           "kind": "fn",
-          "startLine": 258,
-          "endLine": 263,
+          "startLine": 262,
+          "endLine": 267,
           "tokens": 52
         },
         {
           "name": "_open_pdf",
           "kind": "fn",
-          "startLine": 264,
-          "endLine": 283,
+          "startLine": 268,
+          "endLine": 287,
           "tokens": 221
         },
         {
           "name": "_text_glyphs",
           "kind": "fn",
-          "startLine": 284,
-          "endLine": 351,
+          "startLine": 288,
+          "endLine": 355,
           "tokens": 958
         },
         {
           "name": "_line_from_glyphs",
           "kind": "fn",
-          "startLine": 352,
-          "endLine": 382,
+          "startLine": 356,
+          "endLine": 386,
           "tokens": 348
         },
         {
           "name": "_group_glyphs",
           "kind": "fn",
-          "startLine": 383,
-          "endLine": 411,
+          "startLine": 387,
+          "endLine": 415,
           "tokens": 328
         },
         {
           "name": "_column_cuts",
           "kind": "fn",
-          "startLine": 412,
-          "endLine": 460,
+          "startLine": 416,
+          "endLine": 464,
           "tokens": 601
         },
         {
           "name": "_reading_order",
           "kind": "fn",
-          "startLine": 461,
-          "endLine": 483,
+          "startLine": 465,
+          "endLine": 487,
           "tokens": 256
         },
         {
           "name": "_coalesce_rows",
           "kind": "fn",
-          "startLine": 484,
-          "endLine": 514,
+          "startLine": 488,
+          "endLine": 518,
           "tokens": 334
         },
         {
-          "name": "_find_tessdata",
+          "name": "_render_png",
           "kind": "fn",
-          "startLine": 515,
-          "endLine": 540,
-          "tokens": 303
+          "startLine": 519,
+          "endLine": 528,
+          "tokens": 142
         },
         {
           "name": "_ocr_glyphs",
           "kind": "fn",
-          "startLine": 541,
-          "endLine": 587,
-          "tokens": 630
+          "startLine": 529,
+          "endLine": 555,
+          "tokens": 369
         },
         {
           "name": "_is_scanned_page",
           "kind": "fn",
-          "startLine": 588,
-          "endLine": 609,
+          "startLine": 556,
+          "endLine": 577,
           "tokens": 243
         },
         {
           "name": "PageText",
           "kind": "class",
-          "startLine": 610,
-          "endLine": 620,
-          "tokens": 96
+          "startLine": 578,
+          "endLine": 589,
+          "tokens": 104
         },
         {
           "name": "VisionJob",
           "kind": "class",
-          "startLine": 621,
-          "endLine": 629,
-          "tokens": 79
+          "startLine": 590,
+          "endLine": 598,
+          "tokens": 95
         },
         {
           "name": "_straightened",
           "kind": "fn",
-          "startLine": 630,
-          "endLine": 642,
-          "tokens": 148
-        },
-        {
-          "name": "_ocr_page",
-          "kind": "fn",
-          "startLine": 643,
-          "endLine": 649,
-          "tokens": 86
+          "startLine": 599,
+          "endLine": 626,
+          "tokens": 318
         },
         {
           "name": "_prepare_page",
           "kind": "fn",
-          "startLine": 650,
-          "endLine": 679,
-          "tokens": 404
+          "startLine": 627,
+          "endLine": 653,
+          "tokens": 380
         },
         {
           "name": "_heading_level",
           "kind": "fn",
-          "startLine": 680,
-          "endLine": 742,
+          "startLine": 654,
+          "endLine": 716,
           "tokens": 569
         },
         {
           "name": "_join_text",
           "kind": "fn",
-          "startLine": 743,
-          "endLine": 749,
+          "startLine": 717,
+          "endLine": 723,
           "tokens": 53
         },
         {
           "name": "_render_page",
           "kind": "fn",
-          "startLine": 750,
-          "endLine": 866,
+          "startLine": 724,
+          "endLine": 840,
           "tokens": 1246
         },
         {
           "name": "_validate_paths",
           "kind": "fn",
-          "startLine": 867,
-          "endLine": 887,
+          "startLine": 841,
+          "endLine": 861,
           "tokens": 267
         },
         {
           "name": "_clock",
           "kind": "fn",
-          "startLine": 888,
-          "endLine": 1191,
-          "tokens": 4096
+          "startLine": 862,
+          "endLine": 868,
+          "tokens": 55
+        },
+        {
+          "name": "extract_markdown",
+          "kind": "fn",
+          "startLine": 869,
+          "endLine": 1164,
+          "tokens": 4046
         }
       ]
     },
@@ -14707,6 +14707,245 @@
           "tokens": 35
         }
       ]
+    },
+    "aiPlans/2026-11-27-verificare-reocr-viziune-extract-pdf.md": {
+      "description": "Plan: PaddleOCR pentru paginile scanate în `extract_pdf_markdown.py`",
+      "tokens": 3460,
+      "hash": "bb16e1ff229ce9a3",
+      "size": 14389,
+      "mtimeMs": 1795789499279.4546,
+      "updatedAt": "2026-11-27T14:24:59.509Z",
+      "source": "hook"
+    },
+    "aiWork/ocr-bench/results.md": {
+      "description": "Faza 0: benchmark OCR, rezultate (2026-11-27)",
+      "tokens": 2807,
+      "hash": "cc66c01610f98f26",
+      "size": 11618,
+      "mtimeMs": 1795785871843.3147,
+      "updatedAt": "2026-11-27T13:24:32.655Z",
+      "source": "hook"
+    },
+    "requirements-ocr.txt": {
+      "description": "PaddleOCR for scanned PDF pages, installed in its own virtual environment",
+      "tokens": 194,
+      "hash": "d189b29adf1416a4",
+      "size": 776,
+      "mtimeMs": 1795789622981.1018,
+      "updatedAt": "2026-11-27T14:27:03.249Z",
+      "source": "hook"
+    },
+    "src/scripts/pdf_paddle_worker.py": {
+      "description": "PaddleOCR worker process for extract_pdf_markdown.py; run it with the `.venv-ocr` interpreter.",
+      "tokens": 1676,
+      "hash": "e20795e76c17cd4d",
+      "size": 5869,
+      "mtimeMs": 1795789937754.4421,
+      "updatedAt": "2026-11-27T14:32:17.988Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "model_dir",
+          "kind": "fn",
+          "startLine": 33,
+          "endLine": 37,
+          "tokens": 50
+        },
+        {
+          "name": "configure",
+          "kind": "fn",
+          "startLine": 38,
+          "endLine": 44,
+          "tokens": 88
+        },
+        {
+          "name": "download",
+          "kind": "fn",
+          "startLine": 45,
+          "endLine": 62,
+          "tokens": 170
+        },
+        {
+          "name": "Engine",
+          "kind": "class",
+          "startLine": 63,
+          "endLine": 110,
+          "tokens": 597
+        },
+        {
+          "name": "failure",
+          "kind": "fn",
+          "startLine": 111,
+          "endLine": 120,
+          "tokens": 87
+        },
+        {
+          "name": "serve",
+          "kind": "fn",
+          "startLine": 121,
+          "endLine": 158,
+          "tokens": 350
+        }
+      ]
+    },
+    "src/scripts/pdf_paddle.py": {
+      "description": "Recognize scanned page images with PaddleOCR (PP-OCRv6 medium, on the GPU).",
+      "tokens": 2044,
+      "hash": "a7e3414752177865",
+      "size": 7186,
+      "mtimeMs": 1795789971804.1038,
+      "updatedAt": "2026-11-27T14:32:52.634Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Row",
+          "kind": "class",
+          "startLine": 51,
+          "endLine": 58,
+          "tokens": 56
+        },
+        {
+          "name": "Confidence",
+          "kind": "class",
+          "startLine": 59,
+          "endLine": 69,
+          "tokens": 77
+        },
+        {
+          "name": "measure",
+          "kind": "fn",
+          "startLine": 70,
+          "endLine": 81,
+          "tokens": 146
+        },
+        {
+          "name": "clean_rows",
+          "kind": "fn",
+          "startLine": 82,
+          "endLine": 90,
+          "tokens": 72
+        },
+        {
+          "name": "PaddleSession",
+          "kind": "class",
+          "startLine": 91,
+          "endLine": 191,
+          "tokens": 1115
+        }
+      ]
+    },
+    "aiWork/edit_client.py": {
+      "description": "",
+      "tokens": 2174,
+      "hash": "758e55dafd7cbf7a",
+      "size": 7608,
+      "mtimeMs": 1795792816708.1587,
+      "updatedAt": "2026-11-27T15:20:17.521Z",
+      "source": "hook"
+    },
+    "aiWork/edit_retrieval.py": {
+      "description": "EvidenceTokenBudget: apply, collect, collect, content_budget + 1 more",
+      "tokens": 1805,
+      "hash": "52dbc9d914a5e86d",
+      "size": 6316,
+      "mtimeMs": 1795792847707.5764,
+      "updatedAt": "2026-11-27T15:20:47.968Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "apply",
+          "kind": "fn",
+          "startLine": 4,
+          "endLine": 95,
+          "tokens": 929
+        },
+        {
+          "name": "EvidenceTokenBudget",
+          "kind": "class",
+          "startLine": 96,
+          "endLine": 179,
+          "tokens": 868
+        }
+      ]
+    },
+    "aiWork/edit_main.py": {
+      "description": "",
+      "tokens": 1655,
+      "hash": "767477d23a027f5d",
+      "size": 5791,
+      "mtimeMs": 1795792888459.0603,
+      "updatedAt": "2026-11-27T15:21:28.697Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_check_report_limits",
+          "kind": "fn",
+          "startLine": 83,
+          "endLine": 101,
+          "tokens": 248
+        },
+        {
+          "name": "_check_report_limits",
+          "kind": "fn",
+          "startLine": 102,
+          "endLine": 149,
+          "tokens": 523
+        }
+      ]
+    },
+    "aiWork/edit_texts.py": {
+      "description": "apply",
+      "tokens": 705,
+      "hash": "67fb7f23cafbded9",
+      "size": 2476,
+      "mtimeMs": 1795792921244.8372,
+      "updatedAt": "2026-11-27T15:22:01.500Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "apply",
+          "kind": "fn",
+          "startLine": 4,
+          "endLine": 69,
+          "tokens": 697
+        }
+      ]
+    },
+    "aiWork/edit_frontend.py": {
+      "description": "apply",
+      "tokens": 1069,
+      "hash": "413586e2355d970b",
+      "size": 3740,
+      "mtimeMs": 1795792951767.4517,
+      "updatedAt": "2026-11-27T15:22:31.999Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "apply",
+          "kind": "fn",
+          "startLine": 4,
+          "endLine": 81,
+          "tokens": 1061
+        }
+      ]
+    },
+    "aiWork/edit_readme.py": {
+      "description": "",
+      "tokens": 1876,
+      "hash": "a98cdc21d8f83e3f",
+      "size": 6622,
+      "mtimeMs": 1795793034929.2207,
+      "updatedAt": "2026-11-27T15:23:55.180Z",
+      "source": "hook"
+    },
+    "aiWork/check_chars_batches.py": {
+      "description": "",
+      "tokens": 310,
+      "hash": "5cb7b3ed52958640",
+      "size": 1082,
+      "mtimeMs": 1795793113410.011,
+      "updatedAt": "2026-11-27T15:25:13.641Z",
+      "source": "hook"
     }
   },
   "preamble": [

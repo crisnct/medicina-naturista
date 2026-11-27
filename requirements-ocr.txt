@@ -1,0 +1,15 @@
+# PaddleOCR for scanned PDF pages, installed in its own virtual environment
+# (`.venv-ocr`): paddlex needs numpy<2.4 while the project needs numpy>=2.4.
+# The extractor runs src/scripts/pdf_paddle_worker.py with this interpreter.
+# GPU only (CUDA 12.6 wheel); on CPU a page takes ~15 minutes.
+#
+#   python -m venv .venv-ocr
+#   .venv-ocr/Scripts/python.exe -m pip install --no-cache-dir --disable-pip-version-check \
+#       -r requirements-ocr.txt
+#   .venv-ocr/Scripts/python.exe src/scripts/pdf_paddle_worker.py --download
+#
+# The last command downloads the three models (~140 MB) into model_cache/paddleocr/;
+# the extractor itself never downloads anything.
+--extra-index-url https://www.paddlepaddle.org.cn/packages/stable/cu126/
+paddlepaddle-gpu==3.3.1
+paddleocr==3.7.0

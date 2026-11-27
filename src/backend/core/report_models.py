@@ -35,7 +35,9 @@ DEFAULT_REPORT_MODELS: tuple[ReportModel, ...] = (
     "grok-4.3",
 )
 DEFAULT_REPORT_MODEL: ReportModel = DEFAULT_REPORT_MODELS[0]
-DEFAULT_REPORT_BATCH_MAX_TOKENS: Final = 25_000
+# The fragment text (characters) one batch request may carry; the request must also fit the
+# model's context in tokens, which the report client checks separately.
+DEFAULT_REPORT_BATCH_MAX_CHARS: Final = 57_000
 # The output limit of every batch request unless the model or the admin sets another.
 DEFAULT_REPORT_OUTPUT_TOKENS: Final = 20_000
 # The same limit for every vLLM model (see catalog_output_tokens).
@@ -43,7 +45,11 @@ DEFAULT_VLLM_REPORT_OUTPUT_TOKENS: Final = 3_000
 # Parallel batches every vLLM model starts with (its server batches the requests continuously);
 # the other models keep REPORT_BATCH_WORKERS. See default_batch_workers.
 DEFAULT_VLLM_REPORT_BATCH_WORKERS: Final = 24
-# Bounds of the token limits the admin may type; the output warning is advice, not a rule.
+# Bounds of the limits the admin may type; the output warning is advice, not a rule. The batch
+# input is counted in fragment characters, the rest in tokens; every model must also keep
+# MIN_REPORT_INPUT_TOKENS of its context for the input.
+MIN_REPORT_INPUT_CHARS: Final = 1_000
+MAX_REPORT_CHARS: Final = 6_000_000
 MIN_REPORT_INPUT_TOKENS: Final = 1_000
 MAX_REPORT_TOKENS: Final = 2_000_000
 LOW_REPORT_OUTPUT_TOKENS: Final = 2_000
@@ -77,7 +83,7 @@ class ReportModelSpec:
     provider: str
     model: str
     owner_only: bool = True
-    batch_max_tokens: int = DEFAULT_REPORT_BATCH_MAX_TOKENS
+    batch_max_chars: int = DEFAULT_REPORT_BATCH_MAX_CHARS
     # Fixed by the request itself (Ollama num_ctx) and therefore enforced against the output.
     context_tokens: int | None = None
     # The model's own context window, shown to the user; the default of the env setting.
@@ -128,7 +134,7 @@ REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
         "ollama-deepseek-r1:8b": ReportModelSpec(
             "ollama",
             "deepseek-r1:8b",
-            batch_max_tokens=24_000,
+            batch_max_chars=52_500,
             context_tokens=32_768,
             context_window=32_768,
             max_output_tokens=8_192,
@@ -156,12 +162,13 @@ REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
         # host agent. Its experts stream from disk, so with ~20 GB of RAM available it reads a
         # prompt at ~23 tok/s and writes at ~5 tok/s, at ~14 GB much slower
         # (aiplans/2026-11-25-performanta-colibri.md): one process, the batches one after another,
-        # and a 16k + 10k + 3k batch that fits its 32k context. The answer with its thinking can
+        # and a batch of 33k fragment characters (~16k tokens with the prompt) + 10k + 3k that fits
+        # its 32k context. The answer with its thinking can
         # take most of an hour at that writing speed, hence the hour-long read timeout.
         "colibri-qwen3.8-flash-next:125b": ReportModelSpec(
             "colibri",
             "qwen3.8-flash-next-colibri",
-            batch_max_tokens=16_000,
+            batch_max_chars=33_000,
             context_window=32_768,
             max_output_tokens=10_000,
             thinking_tokens=3_000,

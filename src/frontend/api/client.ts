@@ -128,7 +128,7 @@ export const api = {
   getReportBatchEstimate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort | undefined, limits: Partial<GenerationLimits> | undefined, signal: AbortSignal) => {
     const query = new URLSearchParams({ model, minScore: String(minScore) });
     if (effort) query.set("effort", effort);
-    if (limits?.batchMaxTokens !== undefined) query.set("batchMaxTokens", String(limits.batchMaxTokens));
+    if (limits?.batchMaxChars !== undefined) query.set("batchMaxChars", String(limits.batchMaxChars));
     if (limits?.batchWorkers !== undefined) query.set("batchWorkers", String(limits.batchWorkers));
     if (limits?.maxOutputTokens !== undefined) query.set("maxOutputTokens", String(limits.maxOutputTokens));
     if (limits?.thinkingTokens !== undefined) query.set("thinkingTokens", String(limits.thinkingTokens));

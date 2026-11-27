@@ -37,7 +37,7 @@ const EFFORT_LABELS = {
 } as const satisfies Record<ReportEffort, string>;
 
 const TOKEN_LABELS = {
-  batchMaxTokens: "interface.generate_batch_tokens_label",
+  batchMaxChars: "interface.generate_batch_chars_label",
   maxOutputTokens: "interface.generate_output_tokens_label",
   thinkingTokens: "interface.generate_thinking_tokens_label",
 } as const;
@@ -133,7 +133,7 @@ export function GeneratePanel({
   const thinkingShown = effortSupported && effort !== "low";
   const shownTokenFields = TOKEN_FIELDS.filter((field) => field !== "thinkingTokens" || thinkingShown);
   const limitsCheck = generationLimitDefaults && checkLimits(
-    tokenValue("batchMaxTokens"),
+    tokenValue("batchMaxChars"),
     tokenValue("maxOutputTokens"),
     generationLimitDefaults.tokenBounds,
     requestContext,
@@ -144,7 +144,7 @@ export function GeneratePanel({
   const belowRecommended = recommendedTokens !== undefined && limitsCheck?.limits !== undefined
     && limitsCheck.limits.maxOutputTokens < recommendedTokens;
   const fieldError = (field: TokenField) => ({
-    batchMaxTokens: limitsCheck?.inputError,
+    batchMaxChars: limitsCheck?.inputError,
     maxOutputTokens: limitsCheck?.outputError,
     thinkingTokens: limitsCheck?.thinkingError,
   })[field];

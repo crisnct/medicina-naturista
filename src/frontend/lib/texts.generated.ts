@@ -151,7 +151,7 @@ export const TEXT_PARAMETERS = {
   "interface.effort_medium": [],
   "interface.effort_high": [],
   "interface.effort_unsupported_hint": [],
-  "interface.generate_batch_tokens_label": [],
+  "interface.generate_batch_chars_label": [],
   "interface.generate_batch_workers_label": [],
   "interface.generate_batch_workers_invalid": [
     "maximum"
@@ -181,10 +181,6 @@ export const TEXT_PARAMETERS = {
   "interface.generate_thinking_note": [],
   "interface.generate_input_no_room": [
     "minimum",
-    "tokens"
-  ],
-  "interface.generate_input_effective": [
-    "context",
     "tokens"
   ],
   "interface.generate_output_low": [
