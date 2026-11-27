@@ -65,7 +65,7 @@ if __package__:
         ranks,
         section_size,
     )
-    from .pdf_paddle import Confidence, PaddleSession, Row, clean_rows, measure
+    from .pdf_paddle import Confidence, Image, PaddleSession, Row, clean_rows, measure
     from .pdf_vision import DEFAULT_MODEL, VisionSession
     from .script_files import _commit_outputs, _remove_temp, _temporary_path
     from .script_logging import log_call
@@ -80,7 +80,7 @@ else:
         ranks,
         section_size,
     )
-    from pdf_paddle import Confidence, PaddleSession, Row, clean_rows, measure
+    from pdf_paddle import Confidence, Image, PaddleSession, Row, clean_rows, measure
     from pdf_vision import DEFAULT_MODEL, VisionSession
     from script_files import _commit_outputs, _remove_temp, _temporary_path
     from script_logging import log_call
@@ -92,8 +92,6 @@ DEFAULT_OUTPUT_ROOT = (
     PROJECT_ROOT / "medicina-naturista-documente" / "data" / "documents" / "ro" / "Surse sigure"
 )
 MAX_OCR_PIXELS = 64_000_000
-# The orientation classifier resizes its input to 224 pixels, so a small render is enough.
-ORIENTATION_DPI = 100
 # OCR sees no fonts, so bold is measured in the page image: a word whose strokes, relative to its
 # text size, are 1.3 times the page median is bold. On the benchmark pages bold headings and
 # labels measured 1.33-1.7 and regular words mostly 0.8-1.2; dark means a gray level below 128.
@@ -548,12 +546,7 @@ def _render(page: pymupdf.Page, dpi: int) -> pymupdf.Pixmap:
         raise ValueError("Dimensiuni invalide pentru pagina OCR.")
     if math.ceil(width * dpi / 72) * math.ceil(height * dpi / 72) > MAX_OCR_PIXELS:
         raise ValueError("Randarea OCR depășește limita de 64 megapixeli; reduceți --dpi.")
-    return page.get_pixmap(dpi=dpi)
-
-
-@log_call
-def _render_png(page: pymupdf.Page, dpi: int) -> bytes:
-    return _render(page, dpi).tobytes("png")
+    return page.get_pixmap(dpi=dpi, colorspace=pymupdf.csRGB, alpha=False)
 
 
 # Mean horizontal run of dark pixels in a word box: the width of its vertical strokes, in pixels.
@@ -619,16 +612,29 @@ def _row_glyphs(rows: list[Row], scale: float, gray: np.ndarray | None = None) -
     ]
 
 
+@dataclass(frozen=True, slots=True)
+class OcrJob:
+    # The rendered page waits for PaddleOCR on a background thread while the main thread prepares
+    # the next page; PyMuPDF itself never leaves the main thread.
+    image: Image
+    gray: np.ndarray
+    scale: float
+    angle: float
+    # Only a scanned page can be a photograph or a scan turned sideways.
+    classify: bool
+
+
 @log_call
-def _ocr_glyphs(
-    page: pymupdf.Page, options: Options, paddle: PaddleSession
-) -> tuple[list[Glyph], Confidence]:
-    """Recognize the prepared page with PaddleOCR; coordinates are displayed page points."""
+def _ocr_job(page: pymupdf.Page, options: Options, angle: float, classify: bool) -> OcrJob:
     pixmap = _render(page, options.dpi)
-    rows = paddle.recognize(pixmap.tobytes("png"))
-    samples = np.frombuffer(pixmap.samples, dtype=np.uint8)
-    gray = samples.reshape(pixmap.height, pixmap.width, pixmap.n)[:, :, :3].min(axis=2)
-    return _row_glyphs(clean_rows(rows), 72 / options.dpi, gray), measure(rows)
+    rgb = pixmap.samples
+    gray = np.frombuffer(rgb, dtype=np.uint8).reshape(pixmap.height, pixmap.width, 3).min(axis=2)
+    return OcrJob(Image(pixmap.width, pixmap.height, rgb), gray, 72 / options.dpi, angle, classify)
+
+
+# Runs on the background thread: the PaddleOCR worker's answer for one page.
+def _read_job(job: OcrJob, paddle: PaddleSession) -> tuple[int, list[Row] | None]:
+    return paddle.read(job.image) if job.classify else (0, paddle.recognize(job.image))
 
 
 @log_call
@@ -673,16 +679,15 @@ class VisionJob:
 
 
 # The page is straightened and turned upright in a private copy, so the source PDF is never
-# modified. Only a page going to PaddleOCR is classified for orientation, and only after it is
-# straightened: on the rotation test a page skewed by 20-25 degrees was classified as turned by
-# 180, and its text came out upside down; straightened first, every angle within the deskew range
-# of a multiple of 90 degrees was read correctly. A turned page is straightened again, because
-# its true skew was invisible while its lines ran vertically.
+# modified. PaddleOCR classifies the orientation of the straightened page: on the rotation test a
+# page skewed by 20-25 degrees was classified as turned by 180 when it was classified first, and
+# its text came out upside down. A turned page is straightened again, because its true skew was
+# invisible while its lines ran vertically.
 @contextmanager
 def _straightened(
-    page: pymupdf.Page, options: Options, paddle: PaddleSession | None = None
-) -> Iterator[tuple[pymupdf.Page, float, int]]:
-    angle, orientation = 0.0, 0
+    page: pymupdf.Page, options: Options, orientation: int = 0
+) -> Iterator[tuple[pymupdf.Page, float]]:
+    angle = 0.0
     with ExitStack() as resources:
         source = page
 
@@ -704,42 +709,34 @@ def _straightened(
 
         if options.deskew:
             deskew()
-        if paddle is not None:
-            orientation = paddle.orientation(_render_png(page, ORIENTATION_DPI))
-            if orientation:
-                page = private_copy()
-                # PyMuPDF turns pages clockwise; the classifier names a counter-clockwise turn.
-                page.set_rotation((page.rotation + 360 - orientation) % 360)
-                if options.deskew:
-                    deskew()
-        yield page, angle, orientation
+        if orientation:
+            page = private_copy()
+            # PyMuPDF turns pages clockwise; the classifier names a counter-clockwise turn.
+            page.set_rotation((page.rotation + 360 - orientation) % 360)
+            if options.deskew:
+                deskew()
+        yield page, angle
 
 
 @log_call
 def _prepare_page(
-    page: pymupdf.Page, options: Options, vision: VisionSession, paddle: PaddleSession
-) -> PageText | VisionJob:
-    """Prepare this page independently: its text layer when born digital, PaddleOCR when
-    scanned, or a rendered image for the vision model in vision mode."""
+    page: pymupdf.Page, options: Options, vision: VisionSession
+) -> PageText | VisionJob | OcrJob:
+    """Prepare this page independently: its text layer when born digital, a rendered image for
+    PaddleOCR when scanned, or a rendered image for the vision model in vision mode."""
     if options.ocr == "vision":
         vision.check()
-        with _straightened(page, options) as (straight, angle, _):
+        with _straightened(page, options) as (straight, angle):
             return VisionJob(vision.render(straight), angle)
     scanned = options.ocr != "never" and _is_scanned_page(page)
     if options.ocr == "never" or options.ocr == "auto" and not scanned:
-        with _straightened(page, options) as (straight, angle, _):
+        with _straightened(page, options) as (straight, angle):
             glyphs, _ = _text_glyphs(straight, replace(options, deskew=False))
         # A page drawn as pictures without any text layer still needs OCR in auto mode.
         if glyphs or options.ocr == "never" or not page.get_images():
             return PageText(glyphs, angle, "text")
-    # Only a scanned page can be a photograph or a scan turned sideways.
-    with _straightened(page, options, paddle if scanned else None) as (
-        straight,
-        angle,
-        orientation,
-    ):
-        glyphs, confidence = _ocr_glyphs(straight, options, paddle)
-    return PageText(glyphs, angle, "ocr", None, orientation, confidence)
+    with _straightened(page, options) as (straight, angle):
+        return _ocr_job(straight, options, angle, scanned)
 
 
 @log_call
@@ -1071,14 +1068,29 @@ def extract_markdown(
             )
 
             def finish(
-                number: int, prepared: PageText | VisionJob, future: Future[str] | None
+                number: int, prepared: PageText | VisionJob | OcrJob, future: Future
             ) -> None:
                 nonlocal last_log
                 page_text = prepared
                 try:
                     if isinstance(prepared, VisionJob):
-                        assert future is not None
                         page_text = PageText([], prepared.angle, "vision", future.result())
+                    elif isinstance(prepared, OcrJob):
+                        job = prepared
+                        orientation, rows = future.result()
+                        if rows is None:
+                            # Rare (photographs, scans turned sideways): the page is turned,
+                            # straightened again and read here.
+                            with _straightened(document[number - 1], options, orientation) as (
+                                straight,
+                                angle,
+                            ):
+                                job = _ocr_job(straight, options, angle, False)
+                            rows = paddle.recognize(job.image)
+                        glyphs = _row_glyphs(clean_rows(rows), job.scale, job.gray)
+                        page_text = PageText(
+                            glyphs, job.angle, "ocr", None, orientation, measure(rows)
+                        )
                     lines = _group_glyphs(page_text.glyphs)
                 except Exception as exc:
                     raise RuntimeError(f"Pagina {number}: {exc}") from exc
@@ -1142,22 +1154,25 @@ def extract_markdown(
                     )
                     last_log = now
 
-            # Pages are prepared on this thread, because PyMuPDF is not thread-safe; PaddleOCR
-            # also runs here, one page at a time, and only vision pages go to worker threads. Results are collected in page order, and one
-            # page more than the workers can take is always ready, so the model never waits.
+            # Pages are prepared on this thread, because PyMuPDF is not thread-safe, and read on
+            # background threads: by the vision model, or by PaddleOCR one page at a time. Results
+            # are collected in page order, and one page more than the readers can take is always
+            # ready, so the GPU never waits for the next page to be rendered and straightened.
             pool = ThreadPoolExecutor(max_workers=options.workers)
             resources.callback(pool.shutdown, wait=False, cancel_futures=True)
-            pending: deque[tuple[int, PageText | VisionJob, Future[str] | None]] = deque()
+            reader = ThreadPoolExecutor(max_workers=1)
+            resources.callback(reader.shutdown, wait=False, cancel_futures=True)
+            pending: deque[tuple[int, PageText | VisionJob | OcrJob, Future | None]] = deque()
             for number in range(options.start_page, end + 1):
                 try:
-                    prepared = _prepare_page(document[number - 1], options, vision, paddle)
+                    prepared = _prepare_page(document[number - 1], options, vision)
                 except Exception as exc:
                     raise RuntimeError(f"Pagina {number}: {exc}") from exc
-                future = (
-                    pool.submit(vision.transcribe_image, prepared.image)
-                    if isinstance(prepared, VisionJob)
-                    else None
-                )
+                future = None
+                if isinstance(prepared, VisionJob):
+                    future = pool.submit(vision.transcribe_image, prepared.image)
+                elif isinstance(prepared, OcrJob):
+                    future = reader.submit(_read_job, prepared, paddle)
                 pending.append((number, prepared, future))
                 while len(pending) > options.workers:
                     finish(*pending.popleft())

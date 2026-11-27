@@ -12073,6 +12073,60 @@
       "last_seen": "2026-11-27T14:35:37.608Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf_paddle.py",
+      "file": "src/scripts/pdf_paddle.py",
+      "root_cause": "11 lines replaced/restructured",
+      "fix": "Rewrote 23→34 lines (11 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-672",
+      "timestamp": "2026-11-27T16:29:10.200Z",
+      "last_seen": "2026-11-27T16:29:10.200Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/scripts/test_extract_pdf_markdown.py",
+      "root_cause": "Had \"_ocr_glyphs\"",
+      "fix": "Changed to \"recognize\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-673",
+      "timestamp": "2026-11-27T16:31:12.682Z",
+      "last_seen": "2026-11-27T16:31:12.682Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in __init__()",
+      "file": "aiWork/ocr-impl/pipeline_overhead.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-674",
+      "timestamp": "2026-11-27T16:45:02.658Z",
+      "last_seen": "2026-11-27T16:45:02.658Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12794,7 +12848,10 @@
     "5c98e924-0728-4b44-9312-836015c2eb76": true,
     "4236c720-29e6-4c0b-a270-3b7362d9c640": true,
     "cbc8484c-fd1a-4e04-9afd-e2497b23cebd": true,
-    "c6989872-bedf-4d2e-8da7-1c79a38fcab1": true
+    "c6989872-bedf-4d2e-8da7-1c79a38fcab1": true,
+    "388bac90-8fa1-4ef9-a89c-d0f27deff923": true,
+    "137284af-eb30-4cc6-9372-3a7562d55c98": true,
+    "f04c510e-7945-4bd4-bebf-8b7da7ac993a": true
   },
-  "next_id": 672
+  "next_id": 675
 }

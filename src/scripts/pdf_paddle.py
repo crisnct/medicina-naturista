@@ -17,6 +17,7 @@ import os
 import re
 import subprocess
 import tempfile
+import threading
 from dataclasses import dataclass
 from pathlib import Path
 from typing import IO, NamedTuple
@@ -48,6 +49,13 @@ GPU_FULL = (
     "GPU-ul nu are memorie liberă pentru PaddleOCR (folosește până la 6 GB); oprește modelele "
     "încărcate în Ollama sau vLLM și pornește din nou extragerea."
 )
+
+
+class Image(NamedTuple):
+    width: int
+    height: int
+    # Raw RGB bytes, row by row: no PNG encoding on either side of the pipe.
+    rgb: bytes
 
 
 class Row(NamedTuple):
@@ -96,6 +104,9 @@ class PaddleSession:
     def __init__(self) -> None:
         self._process: subprocess.Popen[bytes] | None = None
         self._log: IO[bytes] | None = None
+        # One request at a time on the pipe: pages are read on a background thread, and a turned
+        # page is read again from the main thread.
+        self._lock = threading.Lock()
 
     def __enter__(self) -> PaddleSession:
         return self
@@ -143,29 +154,40 @@ class PaddleSession:
             raise RuntimeError(f"PaddleOCR: {reply['error']}")
         return reply
 
-    def _call(self, operation: str, image: bytes) -> dict:
-        process = self._process or self._start()
-        assert process.stdin is not None
-        header = json.dumps({"op": operation, "size": len(image)}).encode("ascii") + b"\n"
-        try:
-            process.stdin.write(header + image)
-            process.stdin.flush()
-        except OSError as exc:
-            raise RuntimeError(f"PaddleOCR nu mai răspunde ({exc}): {self._tail()}") from exc
-        return self._receive()
+    def _call(self, operation: str, image: Image) -> dict:
+        with self._lock:
+            process = self._process or self._start()
+            assert process.stdin is not None
+            header = {
+                "op": operation,
+                "width": image.width,
+                "height": image.height,
+                "size": len(image.rgb),
+            }
+            try:
+                process.stdin.write(json.dumps(header).encode("ascii") + b"\n")
+                process.stdin.write(image.rgb)
+                process.stdin.flush()
+            except OSError as exc:
+                raise RuntimeError(f"PaddleOCR nu mai răspunde ({exc}): {self._tail()}") from exc
+            return self._receive()
+
+    @staticmethod
+    def _rows(reply: dict) -> list[Row]:
+        return [Row(text, tuple(box), score) for text, box, score in reply["rows"]]
 
     @log_call
-    def orientation(self, image: bytes) -> int:
-        """Counter-clockwise rotation, 0/90/180/270, that turns the page image upright."""
-        return int(self._call("orientation", image)["angle"]) % 360
+    def read(self, image: Image) -> tuple[int, list[Row] | None]:
+        """The counter-clockwise turn (0/90/180/270) that makes a scanned page upright and, when
+        it is already upright, its rows; a turned page must be turned and sent to `recognize`."""
+        reply = self._call("read", image)
+        angle = int(reply["angle"]) % 360
+        return angle, None if angle else self._rows(reply)
 
     @log_call
-    def recognize(self, image: bytes) -> list[Row]:
+    def recognize(self, image: Image) -> list[Row]:
         """Every recognized text row, with its box in image pixels and its score."""
-        return [
-            Row(text, tuple(box), score)
-            for text, box, score in self._call("recognize", image)["rows"]
-        ]
+        return self._rows(self._call("recognize", image))
 
     # The worker exits when its input closes, which releases the GPU memory it holds.
     @log_call

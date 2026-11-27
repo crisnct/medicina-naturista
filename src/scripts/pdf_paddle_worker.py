@@ -2,9 +2,9 @@
 
 PaddleOCR needs numpy<2.4 while the project needs numpy>=2.4, so it lives in its own virtual
 environment (requirements-ocr.txt) and serves one extraction run as a child process
-(pdf_paddle.PaddleSession). Each request is a JSON line, {"op": "orientation" | "recognize",
-"size": n}, followed by n bytes of a PNG image; each answer is one ASCII JSON line on stdout.
-The first answer is {"ready": true} or {"error": ...}.
+(pdf_paddle.PaddleSession). Each request is a JSON line, {"op": "read" | "recognize", "width": w,
+"height": h, "size": n}, followed by the n = w * h * 3 bytes of an RGB image; each answer is one
+ASCII JSON line on stdout. The first answer is {"ready": true} or {"error": ...}.
 
 The models are loaded only from model_cache/paddleocr; the worker never downloads anything, except
 when started by hand to fetch them once:
@@ -28,6 +28,8 @@ MODELS = {
 }
 DOWNLOAD = ".venv-ocr/Scripts/python.exe src/scripts/pdf_paddle_worker.py --download"
 DEVICE = "gpu:0"
+# The orientation classifier resizes its input to 224 pixels; it was measured on ~100 DPI renders.
+ORIENTATION_SIDE = 1200
 GPU_MEMORY_MB = 6000
 
 
@@ -106,10 +108,23 @@ class Engine:
             device=DEVICE,
         )
 
-    def orientation(self, image) -> dict:
+    def read(self, image) -> dict:
+        """Classify the orientation, and recognize an upright page in the same request; a turned
+        page is turned and straightened by the caller, then sent to `recognize`."""
+        angle = self.orientation(image)
+        return {"angle": angle} if angle else {"angle": 0, **self.recognize(image)}
+
+    def orientation(self, image) -> int:
+        import cv2
+
+        height, width = image.shape[:2]
+        scale = ORIENTATION_SIDE / max(height, width)
+        if scale < 1:
+            size = (max(1, round(width * scale)), max(1, round(height * scale)))
+            image = cv2.resize(image, size, interpolation=cv2.INTER_AREA)
         # The label is the counter-clockwise rotation that turns the image upright.
         result = next(iter(self.classifier.predict(image)))
-        return {"angle": int(result["label_names"][0])}
+        return int(result["label_names"][0])
 
     def recognize(self, image) -> dict:
         result = self.ocr.predict(image)[0]
@@ -146,7 +161,6 @@ def serve() -> int:
 
     configure()
     try:
-        import cv2
         import numpy as np
 
         engine = Engine()
@@ -157,10 +171,15 @@ def serve() -> int:
     while header := requests.readline():
         try:
             request = json.loads(header)
-            data = requests.read(int(request["size"]))
-            image = cv2.imdecode(np.frombuffer(data, dtype=np.uint8), cv2.IMREAD_COLOR)
-            if image is None:
-                raise ValueError("imaginea primită nu poate fi citită")
+            size, width, height = (int(request[key]) for key in ("size", "width", "height"))
+            data = requests.read(size)
+            if len(data) != size or size != width * height * 3:
+                raise ValueError("imaginea primită este incompletă")
+            if request["op"] not in {"read", "recognize"}:
+                raise ValueError(f"operație necunoscută: {request['op']}")
+            # Paddle expects BGR channel order.
+            pixels = np.frombuffer(data, dtype=np.uint8).reshape(height, width, 3)
+            image = np.ascontiguousarray(pixels[:, :, ::-1])
             answer(getattr(engine, request["op"])(image))
         except Exception as exc:
             answer(failure(exc))

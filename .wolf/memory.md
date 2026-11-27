@@ -3975,3 +3975,13 @@ description: chronological action log per session, consolidated weekly
 | 2026-11-27T15:47:06.237Z | OCR structure pass in extract_pdf_markdown: Line.ocr, width-weighted size estimate, OCR heading noise/exclusions, author-abbreviation headings, indentation paragraph breaks, 40-char prose threshold on OCR pages; fixed backspace char in OCR_AUTHOR regex | src/scripts/extract_pdf_markdown.py,README.md | false headings 183->60 vs vision; gold 33.6/1000; digital Markdown identical to HEAD; 30 tests pass |
 <!-- session:MjEyOGI5NTctOWExNi00NjAzLWE1MmEtNjQyOGQzZTgxN2M0 -->
 | 2026-11-27T16:02:39.157Z | Image-based bold for OCR pages: per-word stroke width / size vs page median (1.3x), _render pixmap reused for Paddle PNG and gray | src/scripts/extract_pdf_markdown.py,README.md | headings matched vs vision 47->54, false 60->72 (bold table headers); gold 33.4/1000; digital Markdown identical on 1550 pages; 30 tests pass |
+| 18:29 | Edited src/scripts/pdf_paddle.py | modified _call() | ~427 |
+| 18:29 | Edited src/scripts/pdf_paddle.py | 3→6 lines | ~83 |
+| 18:29 | Edited src/scripts/pdf_paddle.py | modified Image() | ~50 |
+| 18:29 | Edited src/scripts/pdf_paddle.py | added 1 import(s) | ~14 |
+| 18:31 | Edited src/tests/unit/scripts/test_extract_pdf_markdown.py | 1→3 lines | ~36 |
+| 18:31 | Created aiWork/ocr-impl/pipeline_ab.py | — | ~364 |
+| 18:44 | Created aiWork/ocr-impl/pipeline_overhead.py | — | ~519 |
+| 18:45 | Edited aiWork/ocr-impl/pipeline_overhead.py | added error handling | ~123 |
+<!-- session:MjEyOGI5NTctOWExNi00NjAzLWE1MmEtNjQyOGQzZTgxN2M0 -->
+| 2026-11-27T17:13:51.576Z | Pipelined PaddleOCR: OcrJob read on a background thread while next page is prepared; raw RGB pixels instead of PNG; combined orientation+read worker op; pipe lock; test patches PaddleSession.recognize | src/scripts/extract_pdf_markdown.py,src/scripts/pdf_paddle.py,src/scripts/pdf_paddle_worker.py,src/tests/unit/scripts/test_extract_pdf_markdown.py,README.md | A/B 40 pages: 264-268 s sequential vs 193-195 s pipelined (-27%), identical Markdown; digital 1550 pages unchanged; 30 tests pass |

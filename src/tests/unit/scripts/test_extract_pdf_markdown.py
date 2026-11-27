@@ -110,7 +110,9 @@ class ExtractMarkdownTests(unittest.TestCase):
         source = self.make_pdf()
         output = self.root / "output.md"
         output.write_text("existing", encoding="utf-8")
-        with patch.object(extractor, "_ocr_glyphs", side_effect=RuntimeError("OCR failed")):
+        with patch.object(
+            extractor.PaddleSession, "recognize", side_effect=RuntimeError("OCR failed")
+        ):
             with self.assertRaises(RuntimeError):
                 extractor.extract_markdown(source, output, extractor.Options(ocr="always"))
         self.assertEqual(output.read_text(encoding="utf-8"), "existing")

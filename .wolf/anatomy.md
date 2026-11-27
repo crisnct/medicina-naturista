@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-27T15:25:13.641Z
-> Files: 558 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-27T16:45:02.518Z
+> Files: 561 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -248,6 +248,11 @@
 ## aiWork/ocr-bench/
 
 - `results.md` — Faza 0: benchmark OCR, rezultate (2026-11-27) (~2807 tok)
+
+## aiWork/ocr-impl/
+
+- `pipeline_ab.py` — A/B: the extractor with PaddleOCR read sequentially (A) or on its background thread (B). (~364 tok)
+- `pipeline_overhead.py` — Pipelining gain measured independently of GPU speed: wall time minus PaddleOCR worker time. (~612 tok)
 
 ## aiWork/translate/out/
 
@@ -677,7 +682,7 @@
 - `pdf_headings.py` — Give the headings of vision-transcribed pages the same levels across the whole book. (~2592 tok)
 - `pdf_layer_check.py` — Decide whether a scanned page's embedded text layer can stand for the page's text. (~1285 tok)
 - `pdf_paddle_worker.py` — PaddleOCR worker process for extract_pdf_markdown.py; run it with the `.venv-ocr` interpreter. (~1676 tok)
-- `pdf_paddle.py` — Recognize scanned page images with PaddleOCR (PP-OCRv6 medium, on the GPU). (~2044 tok)
+- `pdf_paddle.py` — Recognize scanned page images with PaddleOCR (PP-OCRv6 medium, on the GPU). (~2354 tok)
 - `pdf_vision.py` — Transcribe a scanned page image to Markdown with a local vision model served by Ollama. (~2197 tok)
 - `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~4614 tok)
 - `restore_database.bat` (~748 tok)
@@ -722,6 +727,10 @@
 ## src/tests/unit/reporting/
 
 - `test_assets.py` — ReportingAssetTests: test_pdf_ornament_is_packaged_with_reporting, test_recommendation_fonts_in_ever (~549 tok)
+
+## src/tests/unit/scripts/
+
+- `test_extract_pdf_markdown.py` — ExtractMarkdownTests: setUp, make_pdf, test_rotated_text_preserves_rows_at_one_to_thirty_degrees, te (~2298 tok)
 
 ## src/tests/unit/web/
 

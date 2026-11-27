@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-27T15:25:13.641Z",
-    "fileCount": 558,
+    "lastScanned": "2026-11-27T16:45:02.518Z",
+    "fileCount": 561,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "b5e974f27dcc4786ee153d46e61683422f9aea5a9c0a6f1b4ae632bf0746b546",
-    "storeUpdatedAt": "2026-11-27T15:25:13.653Z",
-    "rootHash": "0ba142ac665b2fd0"
+    "renderedHash": "c4b59dcb55564ea18fdc3d5f76ed8ddf53c166c4118617777eace91031ceadb0",
+    "storeUpdatedAt": "2026-11-27T16:45:02.572Z",
+    "rootHash": "65293bd36e9913ec"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -14790,47 +14790,54 @@
     },
     "src/scripts/pdf_paddle.py": {
       "description": "Recognize scanned page images with PaddleOCR (PP-OCRv6 medium, on the GPU).",
-      "tokens": 2044,
-      "hash": "a7e3414752177865",
-      "size": 7186,
-      "mtimeMs": 1795789971804.1038,
-      "updatedAt": "2026-11-27T14:32:52.634Z",
+      "tokens": 2354,
+      "hash": "4e73828d08b00466",
+      "size": 8274,
+      "mtimeMs": 1795796954421.3235,
+      "updatedAt": "2026-11-27T16:29:14.651Z",
       "source": "hook",
       "symbols": [
         {
+          "name": "Image",
+          "kind": "class",
+          "startLine": 54,
+          "endLine": 60,
+          "tokens": 43
+        },
+        {
           "name": "Row",
           "kind": "class",
-          "startLine": 51,
-          "endLine": 58,
+          "startLine": 61,
+          "endLine": 68,
           "tokens": 56
         },
         {
           "name": "Confidence",
           "kind": "class",
-          "startLine": 59,
-          "endLine": 69,
+          "startLine": 69,
+          "endLine": 79,
           "tokens": 77
         },
         {
           "name": "measure",
           "kind": "fn",
-          "startLine": 70,
-          "endLine": 81,
+          "startLine": 80,
+          "endLine": 91,
           "tokens": 146
         },
         {
           "name": "clean_rows",
           "kind": "fn",
-          "startLine": 82,
-          "endLine": 90,
+          "startLine": 92,
+          "endLine": 100,
           "tokens": 72
         },
         {
           "name": "PaddleSession",
           "kind": "class",
-          "startLine": 91,
-          "endLine": 191,
-          "tokens": 1115
+          "startLine": 101,
+          "endLine": 215,
+          "tokens": 1307
         }
       ]
     },
@@ -14946,6 +14953,65 @@
       "mtimeMs": 1795793113410.011,
       "updatedAt": "2026-11-27T15:25:13.641Z",
       "source": "hook"
+    },
+    "src/tests/unit/scripts/test_extract_pdf_markdown.py": {
+      "description": "ExtractMarkdownTests: setUp, make_pdf, test_rotated_text_preserves_rows_at_one_to_thirty_degrees, te",
+      "tokens": 2298,
+      "hash": "51ef568995b20a13",
+      "size": 8040,
+      "mtimeMs": 1795797072391.53,
+      "updatedAt": "2026-11-27T16:31:12.651Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "ExtractMarkdownTests",
+          "kind": "class",
+          "startLine": 19,
+          "endLine": 194,
+          "tokens": 2171
+        }
+      ]
+    },
+    "aiWork/ocr-impl/pipeline_ab.py": {
+      "description": "A/B: the extractor with PaddleOCR read sequentially (A) or on its background thread (B).",
+      "tokens": 364,
+      "hash": "71cdc27d9e445cbf",
+      "size": 1271,
+      "mtimeMs": 1795797100388.7993,
+      "updatedAt": "2026-11-27T16:31:40.640Z",
+      "source": "hook"
+    },
+    "aiWork/ocr-impl/pipeline_overhead.py": {
+      "description": "Pipelining gain measured independently of GPU speed: wall time minus PaddleOCR worker time.",
+      "tokens": 612,
+      "hash": "7e7904fd11da33fc",
+      "size": 2142,
+      "mtimeMs": 1795797901614.0576,
+      "updatedAt": "2026-11-27T16:45:02.515Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "SyncExecutor",
+          "kind": "class",
+          "startLine": 20,
+          "endLine": 40,
+          "tokens": 134
+        },
+        {
+          "name": "timed",
+          "kind": "fn",
+          "startLine": 41,
+          "endLine": 54,
+          "tokens": 90
+        },
+        {
+          "name": "timed_start",
+          "kind": "fn",
+          "startLine": 55,
+          "endLine": 76,
+          "tokens": 202
+        }
+      ]
     }
   },
   "preamble": [
