@@ -177,8 +177,11 @@ aliases for the Windows lock.
   never goes to an external provider. Provenance is `chunks.text_sha256`, never `chunk_id`. Level 1
   is built by `scripts/build_knowledge.py --level 1` on the host (logic in `ai/knowledge_l1.py`,
   SQL in `ai/knowledge_repository.py`): a claim is kept only when its quote is located in the
-  fragment, and the stored quote is the fragment's text, never the model's. The web app does not
-  read the levels yet.
+  fragment, and the stored quote is the fragment's text, never the model's. The web app reads only
+  `knowledge_runs`, for the admin's learning control (`/api/learning`, `ai/learning_control.py`,
+  rules in `core/learning.py`); the build always runs on the host, started, stopped and paused for
+  local reports by the LLM host agent (`/knowledge…` through the orchestrator relay, outside its
+  change lock, never waiting for the build), never in the web process.
 - Model output is re-validated in `ai/report_validation.py`: recommendations citing fragments that
   do not exist are dropped, and a partially valid report is labelled as partial in chat and PDF.
   Citation checking is not clinical validation — never imply that it is.

@@ -18,6 +18,7 @@ if TYPE_CHECKING:
     from backend.ai.conditions import ResolvedQuery
     from backend.ai.message_classification import MessageClassification
     from backend.ai.report_validation import ValidatedReport
+    from backend.core.learning import LearningState
     from backend.core.models import SessionSnapshot
     from backend.core.report_feedback import ReportExample, ReportFeedback
     from backend.core.report_metrics import (
@@ -175,6 +176,13 @@ class LocalModelsState(TypedDict):
 
 class ReadLocalModels(Protocol):
     def __call__(self) -> LocalModelsState: ...
+
+
+# The admin's multilevel learning control (backend.ai.learning_control); level None means all.
+class ControlLearning(Protocol):
+    def state(self) -> LearningState: ...
+    def start(self, level: int | None, include_lower: bool) -> LearningState: ...
+    def stop(self, level: int | None) -> LearningState: ...
 
 
 # Shows the check to the user and blocks until the answer; raises when the job is cancelled.

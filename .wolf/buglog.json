@@ -12235,6 +12235,276 @@
       "last_seen": "2026-11-28T16:45:08.992Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: report_models should be learning",
+      "file": "src/scripts/build_knowledge.py",
+      "root_cause": "Used \"report_models\" instead of \"learning\"",
+      "fix": "Changed report_models → learning",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-681",
+      "timestamp": "2026-11-28T17:05:38.329Z",
+      "last_seen": "2026-11-28T17:05:38.329Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of build_knowledge.py",
+      "file": "src/scripts/build_knowledge.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 10→14 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-682",
+      "timestamp": "2026-11-28T17:06:09.931Z",
+      "last_seen": "2026-11-28T17:06:09.931Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of llm_host_agent.py",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 8→10 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-683",
+      "timestamp": "2026-11-28T17:06:34.127Z",
+      "last_seen": "2026-11-28T17:06:34.127Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "Had \"\\b((?:KNOWLEDGE|INDEX|VLLM|VLLM_EMBED)_[A-Z_]{3,}",
+      "fix": "Changed to \"\\b((?:KNOWLEDGE|INDEX|VLLM)_[A-Z_]{3,})\\b\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-684",
+      "timestamp": "2026-11-28T17:07:13.184Z",
+      "last_seen": "2026-11-28T17:07:13.184Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in __init__()",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-685",
+      "timestamp": "2026-11-28T17:07:15.603Z",
+      "last_seen": "2026-11-28T17:07:15.603Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of llm_host_agent.py",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 7→10 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-686",
+      "timestamp": "2026-11-28T17:07:47.663Z",
+      "last_seen": "2026-11-28T17:07:47.663Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: report_models should be learning",
+      "file": "src/backend/ai/model_runtime.py",
+      "root_cause": "Used \"report_models\" instead of \"learning\"",
+      "fix": "Changed report_models → learning",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-687",
+      "timestamp": "2026-11-28T17:08:28.037Z",
+      "last_seen": "2026-11-28T17:08:28.037Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: EmailProtocol should be ControlLearning",
+      "file": "src/backend/web/dependencies.py",
+      "root_cause": "Used \"EmailProtocol\" instead of \"ControlLearning\"",
+      "fix": "Changed EmailProtocol → ControlLearning",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-688",
+      "timestamp": "2026-11-28T17:10:17.214Z",
+      "last_seen": "2026-11-28T17:10:17.214Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: KNOWLEDGE_STOP_FILE should be knowledge_stop_file",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "Used \"KNOWLEDGE_STOP_FILE\" instead of \"knowledge_stop_file\"",
+      "fix": "Changed KNOWLEDGE_STOP_FILE → knowledge_stop_file",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-689",
+      "timestamp": "2026-11-28T17:14:29.622Z",
+      "last_seen": "2026-11-28T17:14:29.622Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of llm_host_agent.py",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 11→17 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-690",
+      "timestamp": "2026-11-28T17:14:32.275Z",
+      "last_seen": "2026-11-28T17:14:32.275Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: default should be help",
+      "file": "src/scripts/build_knowledge.py",
+      "root_cause": "Used \"default\" instead of \"help\"",
+      "fix": "Changed default → help",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-691",
+      "timestamp": "2026-11-28T17:14:45.430Z",
+      "last_seen": "2026-11-28T17:14:45.430Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of llm_host_agent.py",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 6→7 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-692",
+      "timestamp": "2026-11-28T17:15:34.242Z",
+      "last_seen": "2026-11-28T17:15:34.242Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in __init__()",
+      "file": "src/scripts/build_knowledge.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-693",
+      "timestamp": "2026-11-28T18:03:58.505Z",
+      "last_seen": "2026-11-28T18:03:58.505Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of llm_host_agent.py",
+      "file": "src/scripts/llm_host_agent.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 6→8 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-694",
+      "timestamp": "2026-11-28T18:04:35.742Z",
+      "last_seen": "2026-11-28T18:04:35.742Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of build_knowledge.py",
+      "file": "src/scripts/build_knowledge.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 4→8 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-695",
+      "timestamp": "2026-11-28T18:10:32.663Z",
+      "last_seen": "2026-11-28T18:10:32.663Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12965,7 +13235,22 @@
     "0fe91314-c402-4a0d-9a3f-8384973aa620": true,
     "4d6b6d43-2afe-4b08-a4b4-a6dccb67bd48": true,
     "6aaa3e48-e5e0-4fd0-827d-65dcbf43c1a4": true,
-    "23de4136-281c-4126-90e0-8beb2a8f5c96": true
+    "23de4136-281c-4126-90e0-8beb2a8f5c96": true,
+    "e9b95da5-b332-438f-979d-8ba2c856f438": true,
+    "8bda46ad-3ce8-413f-999a-303ab7cd9874": true,
+    "4f780ca2-eec0-400a-9c42-2d4935938788": true,
+    "6c94c2f2-334a-4eb4-b0c3-6f02130b117f": true,
+    "7ec40637-0529-4575-ad4e-ac3d61ccf509": true,
+    "b76c0c9c-a2af-456c-9624-83de6ed1f119": true,
+    "8f6bc72b-0dfa-4abd-b193-25ae1e18c5a0": true,
+    "ac37def1-2085-43a3-bc96-038837f94ee8": true,
+    "3debf444-81ce-4f67-ae56-e3bad7a75530": true,
+    "77fb2f25-0504-4e11-8fdc-16ea63ba7129": true,
+    "c372e8bf-0c7e-44f3-80a2-30a05f3cb506": true,
+    "08640fa1-a89a-43c6-ab2e-20b0531f0715": true,
+    "c500c9b0-61b3-40a5-8c60-2feb75408954": true,
+    "271bb828-9770-40dd-be5b-9951b40a2375": true,
+    "5263dbb7-6903-410c-864e-1f46c7650e0f": true
   },
-  "next_id": 681
+  "next_id": 696
 }

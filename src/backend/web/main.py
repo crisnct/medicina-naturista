@@ -36,6 +36,7 @@ from backend.ai.herb_safety import (
 )
 from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
+from backend.ai.learning_control import LearningControl, knowledge_models
 from backend.ai.local_models import LocalModels
 from backend.ai.message_classification import MessageClassifier
 from backend.ai.model_runtime import VllmRuntime
@@ -48,6 +49,7 @@ from backend.ai.search import warm_up as warm_up_search
 from backend.config import Settings, configure_settings
 from backend.core.contracts import (
     AIProtocol,
+    ControlLearning,
     HerbSafetyEvidencePage,
     HerbSafetyPage,
     ReportEffort,
@@ -90,6 +92,7 @@ from backend.core.report_models import (
 from backend.core.sessions import SessionStore
 from backend.core.texts import catalog, public_catalog, tr
 from backend.integrations.gmail import send_report
+from backend.persistence.learning_status import PostgresLearningSnapshot
 from backend.persistence.report_feedback import PostgresReportFeedbackRepository
 from backend.persistence.report_metrics import PostgresReportMetricsRepository
 from backend.reporting.chat import (
@@ -179,6 +182,31 @@ class MessageRequest(BaseModel):
 class LocalModelUnloadRequest(BaseModel):
     runtime: Literal["ollama", "vllm", "colibri"]
     id: str = Field(pattern=r"^[\w.:/-]{1,200}$")
+
+
+# The admin's start or stop of the multilevel learning: one level, or all of them. A start of a level
+# whose lower level is unpublished needs include_lower (the admin agreed to build that one first).
+class LearningStartRequest(BaseModel):
+    level: int | None = Field(default=None, strict=True, ge=1, le=4)
+    all: bool = Field(default=False, strict=True)
+    include_lower: bool = Field(default=False, strict=True)
+
+    @model_validator(mode="after")
+    def one_target(self) -> LearningStartRequest:
+        if (self.level is None) == (not self.all):
+            raise ValueError("Give either level or all")
+        return self
+
+
+class LearningStopRequest(BaseModel):
+    level: int | None = Field(default=None, strict=True, ge=1, le=4)
+    all: bool = Field(default=False, strict=True)
+
+    @model_validator(mode="after")
+    def one_target(self) -> LearningStopRequest:
+        if (self.level is None) == (not self.all):
+            raise ValueError("Give either level or all")
+        return self
 
 
 # The admin's rating of a published report: 0-10, an optional plain-text comment and, for a score
@@ -819,6 +847,34 @@ def post_local_model_unload(payload: LocalModelUnloadRequest, request: Request):
     if isinstance(deps.local_models, LocalModels):
         deps.local_models.invalidate()
     return get_local_models(request)
+
+
+# The multilevel learning window (plan 2026-11-27, 5.4b): the admin alone sees the levels' state
+# and starts or stops them (everyone else gets 403). The build runs on the host, never here.
+def _learning(request: Request) -> ControlLearning:
+    if not getattr(request.state, "owner_authorized", False):
+        raise ApplicationError("MODEL_FORBIDDEN", tr("errors.learning_forbidden"), 403)
+    learning = _deps(request).learning
+    if learning is None:
+        raise ApplicationError(
+            "KNOWLEDGE_STATE_UNAVAILABLE", tr("errors.knowledge_state_unavailable"), 503
+        )
+    return learning
+
+
+@router.get("/api/learning")
+def get_learning(request: Request):
+    return _learning(request).state()
+
+
+@router.post("/api/learning/start")
+def post_learning_start(payload: LearningStartRequest, request: Request):
+    return _learning(request).start(payload.level, payload.include_lower)
+
+
+@router.post("/api/learning/stop")
+def post_learning_stop(payload: LearningStopRequest, request: Request):
+    return _learning(request).stop(payload.level)
 
 
 @router.post("/api/search")
@@ -1485,6 +1541,9 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                 auth = OwnerAuth(cfg.owner_key, PostgresOwnerSessionRepository(cfg.database_url))
                 retriever = await asyncio.to_thread(Retriever, cfg.documents_dir)
                 metrics_repository = PostgresReportMetricsRepository(get_pool)
+                # Empty for native runs, where the operator starts any vLLM server by hand;
+                # the Colibri model also needs the orchestrator, which relays to the host agent.
+                model_runtime = VllmRuntime(cfg) if cfg.llm_orchestrator_url else None
                 runtime = Dependencies(
                     cfg,
                     session_store,
@@ -1502,10 +1561,13 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     recommend_report_output=metrics_repository.recommend_output_tokens,
                     record_report_batch_usage=metrics_repository.record_batch_usage,
                     recommend_report_thinking=metrics_repository.recommend_thinking_tokens,
-                    # Empty for native runs, where the operator starts any vLLM server by hand;
-                    # the Colibri model also needs the orchestrator, which relays to the host agent.
-                    model_runtime=VllmRuntime(cfg) if cfg.llm_orchestrator_url else None,
+                    model_runtime=model_runtime,
                     local_models=LocalModels(cfg) if cfg.llm_orchestrator_url else None,
+                    learning=LearningControl(
+                        cfg,
+                        PostgresLearningSnapshot(get_pool, knowledge_models(cfg)),
+                        model_runtime,
+                    ),
                 )
                 application.state.dependencies = runtime
                 # Every local Ollama model the app uses is then loaded by the host agent.

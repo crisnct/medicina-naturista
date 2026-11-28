@@ -1,8 +1,9 @@
 # Registers (or with -Remove deletes) the logon task that runs the LLM host agent.
 #
 # The agent (llm_host_agent.py) measures RAM/VRAM, runs `coli plan` and starts or stops the
-# Colibri server, and stops, starts or unloads the host Ollama, when the app or the orchestrator
-# asks; it loads no model itself. The task runs it with the system
+# Colibri server, stops, starts or unloads the host Ollama, and starts, pauses or stops the
+# knowledge build (scripts.build_knowledge, in the repository's .venv), when the app or the
+# orchestrator asks; it loads no model itself. The task runs it with the system
 # Python's pythonw.exe (no console window) for the current user, without administrator rights.
 # The project's .venv Python cannot write under C:\Colibri, the system Python can.
 #

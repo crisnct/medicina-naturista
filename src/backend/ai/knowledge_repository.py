@@ -16,11 +16,40 @@ import psycopg
 from psycopg.types.json import Jsonb
 
 from backend.ai.index_state import INDEX_LOCK, IndexUnavailable, read_metadata
+from backend.core.learning import KnowledgeRun
 
 # Advisory lock of the knowledge builds; distinct from INDEX_LOCK and the migration lock.
 KNOWLEDGE_LOCK = 7261040247
 # Statuses a stopped or crashed full run can be resumed from.
 RESUMABLE_STATUSES = ("running", "paused", "stopping", "failed")
+# The columns run_from_row reads, in its order.
+RUN_COLUMNS = (
+    "run_id, language, level, model, prompt_sha256, status, is_active, units_total, units_done, "
+    "published_utc, counters"
+)
+
+# Built once from constants: no value ever enters the statement text.
+_ACTIVE_RUN_SQL = (
+    "SELECT "
+    + RUN_COLUMNS
+    + " FROM knowledge_runs WHERE language = %s AND level = %s AND is_active"
+)
+
+
+def run_from_row(row: Sequence[Any]) -> KnowledgeRun:
+    return KnowledgeRun(
+        int(row[0]),
+        str(row[1]),
+        int(row[2]),
+        str(row[3]),
+        str(row[4]),
+        str(row[5]),
+        bool(row[6]),
+        None if row[7] is None else int(row[7]),
+        int(row[8]),
+        row[9],
+        dict(row[10]),
+    )
 
 
 @dataclass(frozen=True)
@@ -160,6 +189,23 @@ class KnowledgeRepository:
             (language, level, model, prompt_sha, list(RESUMABLE_STATUSES)),
         ).fetchone()
         return Run(row[0], row[1], dict(row[2])) if row else None
+
+    def active_run(self, language: str, level: int) -> KnowledgeRun | None:
+        row = self._connection.execute(_ACTIVE_RUN_SQL, (language, level)).fetchone()
+        return run_from_row(row) if row else None
+
+    # Seconds per unit of the newest finished run of the level with this model, any language: where
+    # the time-left estimate of a new run starts.
+    def previous_speed(self, level: int, model: str) -> float | None:
+        row = self._connection.execute(
+            """
+            SELECT (counters->>'seconds_per_unit')::float8 FROM knowledge_runs
+            WHERE level = %s AND model = %s AND status = 'ready' AND counters ? 'seconds_per_unit'
+            ORDER BY finished_utc DESC NULLS LAST LIMIT 1
+            """,
+            (level, model),
+        ).fetchone()
+        return float(row[0]) if row and row[0] and row[0] > 0 else None
 
     # Sample runs are review material only; a new sample replaces the previous ones.
     def delete_sample_runs(self, language: str, level: int) -> int:

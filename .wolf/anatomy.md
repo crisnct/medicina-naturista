@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-28T16:45:23.825Z
-> Files: 573 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-28T18:10:32.631Z
+> Files: 579 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -10,11 +10,11 @@
 ## ./
 
 - `.dockerignore` (~107 tok)
-- `AGENTS.md` — AGENTS.md (~4348 tok)
+- `AGENTS.md` — AGENTS.md (~4433 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
 - `docker-compose.yaml` — Docker Compose: 2 services (~5732 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~36864 tok)
+- `README.md` — Project documentation (~43281 tok)
 - `requirements-ocr.txt` — PaddleOCR for scanned PDF pages, installed in its own virtual environment (~194 tok)
 
 ## .claude/
@@ -232,6 +232,12 @@
 - `vllm_phase0_payload.py` — Phase 0 helper: dump real association batches (system prompt, user payload, JSON schema) to (~1835 tok)
 - `vllm_thinking_budget_check.py` — Phase 0: does vLLM's Chat Completions honor thinking_token_budget with a JSON schema? (~857 tok)
 - `why_dedup_rejected.py` — Throwaway: send the products still without a cached grouping to gemma, one by one, and show (~604 tok)
+- `xm_edit_e4a.py` — Add the E4a knowledge build control to architecture/local-ai-models.xmind (content.xml + evidence). (~2704 tok)
+
+## aiWork/e4a-check/
+
+- `check_build_stop.py` — LevelOneBuild.extract with a stub model and repository: the stop file ends it between requests, (~900 tok)
+- `check_web.py` — E4a checks without GPU: pure state/ETA/plan rules, VllmRuntime pause/resume against a mocked (~2891 tok)
 
 ## aiWork/emb4b/
 
@@ -448,7 +454,7 @@
 
 ## architecture/
 
-- `README.md` — Project documentation (~520 tok)
+- `README.md` — Project documentation (~591 tok)
 
 ## medicina-naturista-documente/data/documents/en/Partial Safe/Cristians Reports/
 
@@ -492,9 +498,10 @@
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `knowledge_l1.py` — Level 1 of the multilevel knowledge: prompt, output schema, windows, quote location, linking. (~4143 tok)
 - `knowledge_repository.py` — Runs, cache, items, sources and atomic publication of the multilevel knowledge (migration 047). (~4497 tok)
+- `learning_control.py` — The admin's control of the multilevel learning (plan 2026-11-27, 5.4b): state, start and stop. (~938 tok)
 - `local_models.py` — The local AI models in memory right now and where they sit (RAM, VRAM), for the chat's window. (~2373 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9708 tok)
-- `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~6216 tok)
+- `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~9882 tok)
 - `ollama_loading.py` — Loads of the app's local Ollama models go through the LLM host agent, so Colibri's model leaves (~906 tok)
 - `providers.py` — Per-provider transport settings for report generation. (~2646 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~2070 tok)
@@ -534,11 +541,12 @@
 
 ## src/backend/core/
 
-- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~3639 tok)
+- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~3686 tok)
 - `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~17652 tok)
 - `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1309 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
 - `language.py` — Validated languages and isolated execution scopes; no process-wide mutable locale. (~353 tok)
+- `learning.py` — Pure rules of the multilevel learning control (plan 2026-11-27, 5.4b): level states, the order the (~4053 tok)
 - `models.py` — Minimal medical context collected before report generation. (~6401 tok)
 - `operation_context.py` — Propagate a worker's deadline to synchronous I/O without changing public ports. (~2035 tok)
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
@@ -590,6 +598,7 @@
 
 ## src/backend/persistence/
 
+- `learning_status.py` — Read-only snapshot of the multilevel knowledge runs for the learning control, in one short (~1068 tok)
 - `report_metrics.py` — Short, bounded transactions for published report measurements. (~1057 tok)
 
 ## src/backend/reporting/
@@ -601,13 +610,13 @@
 
 ## src/backend/resources/
 
-- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~10224 tok)
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~10934 tok)
+- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~11925 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~12661 tok)
 
 ## src/backend/web/
 
-- `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~601 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~18298 tok)
+- `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~663 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~20626 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
@@ -680,7 +689,7 @@
 - `backup_database.bat` (~552 tok)
 - `backup_database.ps1` — Declares Invoke (~403 tok)
 - `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~21606 tok)
-- `build_knowledge.py` — Build the multilevel knowledge from the index fragments (plan 2026-11-27); level 1 for now. (~8414 tok)
+- `build_knowledge.py` — Build the multilevel knowledge from the index fragments (plan 2026-11-27); level 1 for now. (~9996 tok)
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20376 tok)
 - `colibri_agent_startup.ps1` — Registers (or with -Remove deletes) the logon task that runs the Colibri host agent. (~622 tok)
@@ -692,9 +701,9 @@
 - `herb_product_safety_extension.py` — Bilingual product safety in batches: ministral and deepseek, one merge, a run per language. (~8449 tok)
 - `herb_product_safety_index.py` — One local-model request per uncached catalog product; no corpus or association inference. (~3632 tok)
 - `herb_safety_index.py` — Shared progress helpers and the public safety command, which uses product knowledge. (~647 tok)
-- `llm_host_agent_startup.ps1` — Registers (or with -Remove deletes) the logon task that runs the LLM host agent. (~678 tok)
-- `llm_host_agent.py` — Windows host agent for the local LLMs: Colibri and the host Ollama. (~13324 tok)
-- `llm_orchestrator.py` — The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers. (~3856 tok)
+- `llm_host_agent_startup.ps1` — Registers (or with -Remove deletes) the logon task that runs the LLM host agent. (~705 tok)
+- `llm_host_agent.py` — Windows host agent for the local LLMs: Colibri, the host Ollama and the knowledge build. (~17606 tok)
+- `llm_orchestrator.py` — The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers. (~4244 tok)
 - `manage_texts.py` — Export public copy and regenerate key/parameter metadata, never a second editable catalog. (~783 tok)
 - `pdf_chapters.py` — Recover a book's chapters from the running heads printed at the top of its pages. (~3287 tok)
 - `pdf_headings.py` — Give the headings of vision-transcribed pages the same levels across the whole book. (~2592 tok)

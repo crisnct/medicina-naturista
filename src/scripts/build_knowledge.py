@@ -4,7 +4,12 @@ Runs on the host, never in the web process, with local models only (the corpus n
 machine). Level 1 sends every distinct fragment of a language, in windows, to KNOWLEDGE_L1_MODEL,
 keeps the claims whose quote is found in the fragment and the questions, caches every validated
 answer, embeds the items on vllm-embed and publishes the language's run atomically. A stopped or
-crashed run continues on the next start; --sample N writes an unpublished run and a review file.
+crashed run continues on the next start, and a language whose published run is up to date is
+skipped; --sample N writes an unpublished run and a review file.
+
+The app starts and stops it through the LLM host agent (plan 5.4b). A stop is the stop file: the
+build sends no new request, finishes the ones in flight, stops the model servers it started, marks
+the run paused and exits with 130, like Ctrl+C in a terminal.
 
   PYTHONPATH=src .venv/Scripts/python.exe -m scripts.build_knowledge --level 1 --sample 200
 """
@@ -16,6 +21,7 @@ import json
 import logging
 import random
 import sys
+import tempfile
 import threading
 import time
 from collections.abc import Iterator, Sequence
@@ -51,6 +57,7 @@ from backend.ai.knowledge_repository import Fragment, IndexSnapshot, KnowledgeRe
 from backend.ai.vllm_embed_server import running_embedding_server
 from backend.config import Settings, configure_settings
 from backend.core.language import LANGUAGES, Language, language_scope
+from backend.core.learning import SPEED_SAMPLE_UNITS, up_to_date, update_speed
 from backend.core.report_models import REPORT_MODELS, ReportModel
 
 logger = logging.getLogger("naturist.knowledge")
@@ -74,6 +81,35 @@ PROGRESS_SECONDS = 30.0
 SAMPLE_SEED = 20261128
 SAMPLE_MIN_CHARS, SAMPLE_MAX_CHARS = 150, 8_000
 REVIEW_DIR = Path(__file__).resolve().parents[2] / "aiWork" / "knowledge-l1-sample"
+# The file whose appearance stops the build, in the temp folder unless --stop-file names one; the
+# host agent writes it (same user, same temp folder), so a build started by hand stops on the app's
+# "stop all" too.
+STOP_FILE_NAME = "medicina-knowledge-build.stop"
+STOPPED_EXIT = 130
+
+
+class BuildStopped(Exception):
+    """The stop file appeared: the admin stopped the build or a local report paused it."""
+
+
+class StopSignal:
+    """A stop is the stop file written after this build started: a file already there (a stop
+    meant for an earlier build, which Windows may refuse to delete while another process such as
+    the virus scanner holds it) is ignored, so the build never has to delete it."""
+
+    def __init__(self, path: Path) -> None:
+        self.path = path
+        self._baseline = self._stamp()
+
+    def _stamp(self) -> int | None:
+        try:
+            return self.path.stat().st_mtime_ns
+        except OSError:
+            return None
+
+    def requested(self) -> bool:
+        stamp = self._stamp()
+        return stamp is not None and stamp != self._baseline
 
 
 @dataclass(frozen=True)
@@ -214,11 +250,14 @@ class KnowledgeModel:
         except (httpx.HTTPError, ValueError, AttributeError):
             return False
 
-    def _wait_until_served(self, service: str) -> None:
+    # A stop during the server's start (one to three minutes) is honoured at once.
+    def _wait_until_served(self, service: str, stop: StopSignal | None) -> None:
         deadline = time.monotonic() + self._settings.vllm_warmup_timeout_seconds
         while time.monotonic() < deadline:
             if self._serves_model():
                 return
+            if stop is not None and stop.requested():
+                raise BuildStopped()
             state = self._service_state(service)
             if state not in _RUNNING_STATES:
                 raise RuntimeError(
@@ -232,7 +271,7 @@ class KnowledgeModel:
         )
 
     @contextmanager
-    def serving(self) -> Iterator[None]:
+    def serving(self, stop: StopSignal | None = None) -> Iterator[None]:
         """A vLLM model's server is started for the extraction and stopped after it, so vllm-embed
         can take the GPU; a server that was already running is used and left running."""
         service = self.spec.vllm_service if self.spec.provider == "vllm" else None
@@ -246,13 +285,13 @@ class KnowledgeModel:
                 f"`docker compose --profile {service} create`"
             )
         if state in _RUNNING_STATES:
-            self._wait_until_served(service)
+            self._wait_until_served(service, stop)
             yield
             return
         logger.info("knowledge_model_server_start service=%s", service)
         self._orchestrator("POST", f"/start/{service}")
         try:
-            self._wait_until_served(service)
+            self._wait_until_served(service, stop)
             yield
         finally:
             logger.info("knowledge_model_server_stop service=%s", service)
@@ -286,9 +325,13 @@ class LevelOneBuild:
     units_done: int
     units_total: int
     review: list[dict[str, Any]] | None = None
+    stop: StopSignal | None = None
+    stopping: bool = False
     prompt: str = field(init=False)
     prompt_sha: str = field(init=False)
     schema: dict[str, Any] = field(init=False)
+    # (monotonic time, units done) at the start of the current speed sample.
+    _speed_mark: tuple[float, int] | None = field(init=False, default=None)
 
     def __post_init__(self) -> None:
         self.prompt = system_prompt(self.language)
@@ -375,9 +418,46 @@ class LevelOneBuild:
             self._add("windows_failed", int(result.failed))
         return items
 
+    # The seconds per unit as a moving average over samples of SPEED_SAMPLE_UNITS units, saved with
+    # the progress, where the app's time left reads it. A sample starts once the model answers, so
+    # neither the server's start nor a pause enters it.
+    def _sample_speed(self) -> None:
+        if self._speed_mark is None:
+            return
+        started, done = self._speed_mark
+        units = self.units_done - done
+        if units < SPEED_SAMPLE_UNITS:
+            return
+        now = time.monotonic()
+        previous = self.counters.get("seconds_per_unit")
+        self.counters["seconds_per_unit"] = round(
+            update_speed(
+                float(previous) if isinstance(previous, (int, float)) else None,
+                (now - started) / units,
+            ),
+            3,
+        )
+        self.counters["speed_samples"] = int(self.counters.get("speed_samples", 0)) + 1
+        self._speed_mark = (now, self.units_done)
+
+    def _stop_requested(self) -> bool:
+        if self.stopping or self.stop is None or not self.stop.requested():
+            return self.stopping
+        self.stopping = True
+        logger.info(
+            "knowledge_stop_requested language=%s run=%s fragments=%s/%s",
+            self.language,
+            self.run_id,
+            self.units_done,
+            self.units_total,
+        )
+        self.repository.set_status(self.run_id, "stopping", self.counters)
+        return True
+
     def _finish(self, slot: _Slot) -> None:
         items = self._items(slot)
         self.units_done += 1
+        self._sample_speed()
         self.counters["usage"] = dict(self.model.usage)
         if items:
             self.repository.write_fragment(
@@ -405,7 +485,6 @@ class LevelOneBuild:
 
     def extract(self, fragments: Sequence[Fragment]) -> None:
         started = time.monotonic()
-        first_done = self.units_done
         reported = started
         pending: dict[Future[Extraction], tuple[_Slot, int]] = {}
         pool = ThreadPoolExecutor(self.model.parallel)
@@ -418,11 +497,14 @@ class LevelOneBuild:
                 self._collect(future, slot, index)
             if time.monotonic() - reported >= PROGRESS_SECONDS:
                 reported = time.monotonic()
-                self._log_progress(started, first_done)
+                self._log_progress()
 
         try:
-            with self.model.serving():
+            with self.model.serving(self.stop):
+                self._speed_mark = (time.monotonic(), self.units_done)
                 for fragment in fragments:
+                    if self._stop_requested():
+                        break
                     slot = self._prepare(fragment)
                     for index, result in enumerate(slot.results):
                         if result is None:
@@ -436,9 +518,13 @@ class LevelOneBuild:
                             pending[future] = (slot, index)
                     if slot.complete:
                         self._finish(slot)
-                    while len(pending) >= 2 * self.model.parallel:
+                    while len(pending) >= 2 * self.model.parallel and not self._stop_requested():
                         drain(block=True)
                     drain(block=False)
+                # On a stop the windows not sent yet are dropped; the ones answered are cached.
+                if self._stop_requested():
+                    for future in [future for future in pending if future.cancel()]:
+                        pending.pop(future)
                 while pending:
                     drain(block=True)
         finally:
@@ -446,13 +532,19 @@ class LevelOneBuild:
         self.counters["extraction_seconds"] = round(
             float(self.counters.get("extraction_seconds", 0)) + time.monotonic() - started, 1
         )
-        self._log_progress(started, first_done)
+        self._log_progress()
+        if self.stopping:
+            raise BuildStopped()
 
-    def _log_progress(self, started: float, first_done: int) -> None:
-        elapsed = time.monotonic() - started
-        done_here = self.units_done - first_done
+    def _log_progress(self) -> None:
+        # The same moving average as the app's time left (no server start, no pauses).
+        speed = self.counters.get("seconds_per_unit")
         remaining = self.units_total - self.units_done
-        eta = f"{remaining * elapsed / done_here / 60:.0f} min" if done_here else "estimating"
+        eta = (
+            f"{remaining * float(speed) / 60:.0f} min"
+            if isinstance(speed, (int, float))
+            else "estimating"
+        )
         logger.info(
             "knowledge_progress language=%s level=%s run=%s fragments=%s/%s requests=%s "
             "output_tokens=%s eta=%s",
@@ -487,6 +579,7 @@ def embed_items(
     language: Language,
     snapshot: IndexSnapshot,
     counters: dict[str, Any],
+    stop: StopSignal | None = None,
 ) -> None:
     started = time.monotonic()
     reused = repository.reuse_embeddings(run_id, language, LEVEL, snapshot.model_dimension)
@@ -498,6 +591,8 @@ def embed_items(
     embedder = create_embedding_model(snapshot.model_name)
     with running_embedding_server():
         while page:
+            if stop is not None and stop.requested():
+                raise BuildStopped()
             vectors = list(embedder.embed([profile.passage_text(body) for _, body in page]))
             repository.store_embeddings(
                 [(item_id, vector) for (item_id, _), vector in zip(page, vectors, strict=True)]
@@ -605,6 +700,7 @@ def build_level_one(
     settings: Settings,
     language: Language,
     sample: int | None,
+    stop: StopSignal | None = None,
 ) -> dict[str, Any]:
     choice = settings.knowledge_l1_model
     prompt_sha = prompt_sha256(language)
@@ -618,14 +714,38 @@ def build_level_one(
         fragments = sample_fragments(fragments, sample)
     else:
         run = repository.resumable_run(language, LEVEL, choice, prompt_sha)
+        active = repository.active_run(language, LEVEL)
+        # A new run would repeat the published one (a start after a pause in the next language).
+        if (
+            run is None
+            and active
+            and up_to_date(active, choice, prompt_sha, snapshot.index_generation)
+        ):
+            logger.info(
+                "knowledge_up_to_date language=%s level=%s run=%s", language, LEVEL, active.run_id
+            )
+            return {
+                "language": language,
+                "level": LEVEL,
+                "run_id": active.run_id,
+                "published": True,
+                "skipped": "up_to_date",
+            }
     if run is None:
         counters: dict[str, Any] = {} if sample is None else {"sample": sample}
+        speed = repository.previous_speed(LEVEL, choice)
+        if speed is not None:
+            counters["seconds_per_unit"] = speed
         run_id = repository.create_run(language, LEVEL, choice, prompt_sha, counters)
     else:
         run_id, counters = run.run_id, run.counters
         counters["resumed"] = int(counters.get("resumed", 0)) + 1
         logger.info("knowledge_resume language=%s run=%s status=%s", language, run_id, run.status)
-    counters.update(index_generation=snapshot.index_generation, embedding_model=snapshot.model_name)
+    counters.update(
+        index_generation=snapshot.index_generation,
+        embedding_model=snapshot.model_name,
+        phase="extracting",
+    )
     current = {fragment.text_sha256 for fragment in fragments}
     removed = repository.fragments_with_items(run_id) - current
     if removed:
@@ -653,15 +773,19 @@ def build_level_one(
         len(fragments) - len(todo),
         len(fragments),
         [] if sample is not None else None,
+        stop,
     )
     try:
         build.extract(todo)
-        embed_items(repository, run_id, language, snapshot, counters)
+        counters["phase"] = "embedding"
+        repository.progress(run_id, build.units_done, counters)
+        embed_items(repository, run_id, language, snapshot, counters, stop)
         counters["items"] = repository.item_counts(run_id)
+        counters.pop("phase", None)
         repository.set_status(run_id, "ready", counters)
         if sample is None:
             repository.publish(run_id, language, LEVEL)
-    except KeyboardInterrupt:
+    except (KeyboardInterrupt, BuildStopped):
         repository.set_status(run_id, "paused", counters)
         raise
     except BaseException:
@@ -691,6 +815,11 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
         metavar="N",
         help="process N fragments into an unpublished run and write a review file",
     )
+    parser.add_argument(
+        "--stop-file",
+        type=Path,
+        help="stop gracefully (resumable) once this file appears; the app's host agent writes it",
+    )
     return parser.parse_args(argv)
 
 
@@ -713,6 +842,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     languages: tuple[Language, ...] = (
         LANGUAGES if arguments.language == "all" else (arguments.language,)
     )
+    stop = StopSignal(arguments.stop_file or Path(tempfile.gettempdir()) / STOP_FILE_NAME)
     repository = KnowledgeRepository(settings.database_url)
     try:
         if not repository.try_lock():
@@ -720,11 +850,11 @@ def main(argv: Sequence[str] | None = None) -> int:
             return 1
         for language in languages:
             with language_scope(language):
-                summary = build_level_one(repository, settings, language, arguments.sample)
+                summary = build_level_one(repository, settings, language, arguments.sample, stop)
             print(json.dumps(summary, ensure_ascii=False, sort_keys=True), flush=True)
-    except KeyboardInterrupt:
+    except (KeyboardInterrupt, BuildStopped):
         print("Stopped; the next start continues the run.", file=sys.stderr)
-        return 130
+        return STOPPED_EXIT
     except IndexUnavailable as exc:
         print(f"{exc.code}: the index is being rebuilt or needs a resync", file=sys.stderr)
         return 1

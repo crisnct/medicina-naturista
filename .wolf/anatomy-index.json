@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-28T16:45:23.825Z",
-    "fileCount": 573,
+    "lastScanned": "2026-11-28T18:10:32.631Z",
+    "fileCount": 579,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "87c847ba802cff3692d163e3a88f75f53ec168b1576da05952e9c65f9c0fa3fd",
-    "storeUpdatedAt": "2026-11-28T16:45:23.836Z",
-    "rootHash": "f5adbbdb8a419a70"
+    "renderedHash": "4db9f71255ebe8b81a39b251aac30dddb94ff6d943e3a27237cec96ae66fce42",
+    "storeUpdatedAt": "2026-11-28T18:10:32.643Z",
+    "rootHash": "6a6ba77936fba6ab"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -369,222 +369,222 @@
     },
     "src/backend/web/main.py": {
       "description": "FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits.",
-      "tokens": 18298,
-      "hash": "ddb5bf679d515c9d",
-      "size": 64044,
-      "mtimeMs": 1795694014021.3271,
-      "updatedAt": "2026-11-26T11:53:34.942Z",
+      "tokens": 20626,
+      "hash": "0e8b962ffd8480fb",
+      "size": 72192,
+      "mtimeMs": 1795885848270.437,
+      "updatedAt": "2026-11-28T17:10:48.496Z",
       "source": "hook",
       "symbols": [
         {
           "name": "owner_only_message",
           "kind": "fn",
-          "startLine": 108,
-          "endLine": 115,
+          "startLine": 117,
+          "endLine": 124,
           "tokens": 37
         },
         {
           "name": "application_texts",
           "kind": "fn",
-          "startLine": 116,
-          "endLine": 121,
+          "startLine": 125,
+          "endLine": 130,
           "tokens": 76
         },
         {
           "name": "localized_source_label",
           "kind": "fn",
-          "startLine": 122,
-          "endLine": 134,
+          "startLine": 131,
+          "endLine": 143,
           "tokens": 125
         },
         {
           "name": "_category_node_payload",
           "kind": "fn",
-          "startLine": 135,
-          "endLine": 146,
+          "startLine": 144,
+          "endLine": 155,
           "tokens": 117
         },
         {
           "name": "SignalsPayload",
           "kind": "class",
-          "startLine": 147,
-          "endLine": 163,
+          "startLine": 156,
+          "endLine": 172,
           "tokens": 149
         },
         {
           "name": "MessageRequest",
           "kind": "class",
-          "startLine": 164,
-          "endLine": 172,
-          "tokens": 118
+          "startLine": 173,
+          "endLine": 181,
+          "tokens": 128
+        },
+        {
+          "name": "LocalModelUnloadRequest",
+          "kind": "class",
+          "startLine": 182,
+          "endLine": 188,
+          "tokens": 99
+        },
+        {
+          "name": "LearningStartRequest",
+          "kind": "class",
+          "startLine": 189,
+          "endLine": 200,
+          "tokens": 124
+        },
+        {
+          "name": "LearningStopRequest",
+          "kind": "class",
+          "startLine": 201,
+          "endLine": 213,
+          "tokens": 154
+        },
+        {
+          "name": "ReportFeedbackRequest",
+          "kind": "class",
+          "startLine": 214,
+          "endLine": 221,
+          "tokens": 101
         },
         {
           "name": "GenerateRequest",
           "kind": "class",
-          "startLine": 173,
-          "endLine": 187,
-          "tokens": 247
+          "startLine": 222,
+          "endLine": 236,
+          "tokens": 246
         },
         {
           "name": "AIActivityResponse",
           "kind": "class",
-          "startLine": 188,
-          "endLine": 196,
+          "startLine": 237,
+          "endLine": 245,
           "tokens": 122
         },
         {
           "name": "ReportDurationEstimateResponse",
           "kind": "class",
-          "startLine": 197,
-          "endLine": 204,
+          "startLine": 246,
+          "endLine": 253,
           "tokens": 74
         },
         {
           "name": "ReportOutputRecommendationResponse",
           "kind": "class",
-          "startLine": 205,
-          "endLine": 212,
+          "startLine": 254,
+          "endLine": 261,
           "tokens": 90
         },
         {
           "name": "ReportBatchEstimateResponse",
           "kind": "class",
-          "startLine": 213,
-          "endLine": 221,
-          "tokens": 86
+          "startLine": 262,
+          "endLine": 270,
+          "tokens": 89
         },
         {
           "name": "ReportBatchPreviewResponse",
           "kind": "class",
-          "startLine": 222,
-          "endLine": 233,
+          "startLine": 271,
+          "endLine": 282,
           "tokens": 153
         },
         {
           "name": "ResourceCheckResponse",
           "kind": "class",
-          "startLine": 234,
-          "endLine": 246,
+          "startLine": 283,
+          "endLine": 295,
           "tokens": 120
         },
         {
           "name": "ResourceDecisionPayload",
           "kind": "class",
-          "startLine": 247,
-          "endLine": 250,
+          "startLine": 296,
+          "endLine": 299,
           "tokens": 25
         },
         {
           "name": "GenerateResponse",
           "kind": "class",
-          "startLine": 251,
-          "endLine": 289,
+          "startLine": 300,
+          "endLine": 338,
           "tokens": 416
         },
         {
           "name": "_deps",
           "kind": "fn",
-          "startLine": 290,
-          "endLine": 293,
+          "startLine": 339,
+          "endLine": 342,
           "tokens": 26
         },
         {
           "name": "_identity",
           "kind": "fn",
-          "startLine": 294,
-          "endLine": 305,
+          "startLine": 343,
+          "endLine": 354,
           "tokens": 135
         },
         {
           "name": "_current",
           "kind": "fn",
-          "startLine": 306,
-          "endLine": 315,
+          "startLine": 355,
+          "endLine": 364,
           "tokens": 107
         },
         {
           "name": "change_language",
           "kind": "fn",
-          "startLine": 316,
-          "endLine": 321,
+          "startLine": 365,
+          "endLine": 370,
           "tokens": 53
         },
         {
           "name": "_client_ip",
           "kind": "fn",
-          "startLine": 322,
-          "endLine": 327,
+          "startLine": 371,
+          "endLine": 376,
           "tokens": 74
         },
         {
           "name": "_application_error_response",
           "kind": "fn",
-          "startLine": 328,
-          "endLine": 336,
+          "startLine": 377,
+          "endLine": 385,
           "tokens": 109
         },
         {
           "name": "_revision",
           "kind": "fn",
-          "startLine": 337,
-          "endLine": 349,
+          "startLine": 386,
+          "endLine": 398,
           "tokens": 103
         },
         {
           "name": "_cancelled",
           "kind": "fn",
-          "startLine": 350,
-          "endLine": 354,
+          "startLine": 399,
+          "endLine": 403,
           "tokens": 34
         },
         {
           "name": "healthz",
           "kind": "fn",
-          "startLine": 355,
-          "endLine": 372,
+          "startLine": 404,
+          "endLine": 421,
           "tokens": 155
         },
         {
           "name": "readyz",
           "kind": "fn",
-          "startLine": 373,
-          "endLine": 382,
+          "startLine": 422,
+          "endLine": 431,
           "tokens": 75
         },
         {
           "name": "startup_status",
           "kind": "fn",
-          "startLine": 383,
-          "endLine": 392,
-          "tokens": 85
-        },
-        {
-          "name": "_require_initialized",
-          "kind": "fn",
-          "startLine": 393,
-          "endLine": 403,
-          "tokens": 96
-        },
-        {
-          "name": "download",
-          "kind": "fn",
-          "startLine": 404,
-          "endLine": 421,
-          "tokens": 187
-        },
-        {
-          "name": "get_session",
-          "kind": "fn",
-          "startLine": 422,
-          "endLine": 461,
-          "tokens": 457
-        },
-        {
-          "name": "_warm_categories",
-          "kind": "fn",
-          "startLine": 462,
-          "endLine": 1652,
-          "tokens": 13510
+          "startLine": 432,
+          "endLine": 1824,
+          "tokens": 16046
         }
       ]
     },
@@ -875,11 +875,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 36864,
-      "hash": "7265fc647925072e",
-      "size": 148376,
-      "mtimeMs": 1795681395778.0498,
-      "updatedAt": "2026-11-26T08:23:16.012Z",
+      "tokens": 43281,
+      "hash": "d8ea04927c2f61ca",
+      "size": 174136,
+      "mtimeMs": 1795886270722.986,
+      "updatedAt": "2026-11-28T17:17:51.030Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -964,11 +964,11 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 10934,
-      "hash": "cea5e1cca9fd76c1",
-      "size": 42335,
-      "mtimeMs": 1795524943497.5127,
-      "updatedAt": "2026-11-24T12:55:44.340Z",
+      "tokens": 12661,
+      "hash": "d3a32088e66841ac",
+      "size": 49009,
+      "mtimeMs": 1795885870467.5183,
+      "updatedAt": "2026-11-28T17:11:10.705Z",
       "source": "hook"
     },
     "src/frontend/components/Composer.tsx": {
@@ -3437,11 +3437,11 @@
     },
     "architecture/README.md": {
       "description": "Project documentation",
-      "tokens": 520,
-      "hash": "3076a3b88d678b35",
-      "size": 2096,
-      "mtimeMs": 1795685797622.8252,
-      "updatedAt": "2026-11-26T09:36:38.488Z",
+      "tokens": 591,
+      "hash": "42d839c32c0ba9a7",
+      "size": 2378,
+      "mtimeMs": 1795886417990.7925,
+      "updatedAt": "2026-11-28T17:20:18.235Z",
       "source": "hook"
     },
     "aiPlans/tmp/product-condition-diagram/InspectXmind.java": {
@@ -3750,89 +3750,82 @@
     },
     "src/backend/core/contracts.py": {
       "description": "Shared data and port contracts; independent of HTTP and the UI.",
-      "tokens": 3639,
-      "hash": "bba7c33ed80c2727",
-      "size": 12735,
-      "mtimeMs": 1795698419938.549,
-      "updatedAt": "2026-11-26T13:07:00.842Z",
+      "tokens": 3686,
+      "hash": "b69ecdbcb9197f45",
+      "size": 12898,
+      "mtimeMs": 1795885815983.4353,
+      "updatedAt": "2026-11-28T17:10:16.208Z",
       "source": "hook",
       "symbols": [
         {
           "name": "TranscriptEntry",
           "kind": "class",
-          "startLine": 30,
-          "endLine": 34,
+          "startLine": 32,
+          "endLine": 36,
           "tokens": 19
         },
         {
           "name": "IdentifiedCondition",
           "kind": "class",
-          "startLine": 35,
-          "endLine": 40,
+          "startLine": 37,
+          "endLine": 42,
           "tokens": 26
         },
         {
           "name": "ProfilePayload",
           "kind": "class",
-          "startLine": 41,
-          "endLine": 48,
+          "startLine": 43,
+          "endLine": 50,
           "tokens": 60
         },
         {
           "name": "FragmentHighlight",
           "kind": "class",
-          "startLine": 49,
-          "endLine": 54,
+          "startLine": 51,
+          "endLine": 56,
           "tokens": 44
         },
         {
           "name": "EvidenceItem",
           "kind": "class",
-          "startLine": 55,
-          "endLine": 82,
-          "tokens": 297
+          "startLine": 57,
+          "endLine": 86,
+          "tokens": 333
         },
         {
           "name": "estimate_tokens",
           "kind": "fn",
-          "startLine": 83,
-          "endLine": 87,
+          "startLine": 87,
+          "endLine": 91,
           "tokens": 33
-        },
-        {
-          "name": "EvidenceTokenBudget",
-          "kind": "class",
-          "startLine": 88,
-          "endLine": 94,
-          "tokens": 50
         },
         {
           "name": "ReportBatchPlan",
           "kind": "class",
-          "startLine": 95,
-          "endLine": 102,
-          "tokens": 51
+          "startLine": 92,
+          "endLine": 100,
+          "tokens": 62
         },
         {
           "name": "AIProtocol",
           "kind": "class",
-          "startLine": 103,
-          "endLine": 133,
-          "tokens": 339
+          "startLine": 101,
+          "endLine": 131,
+          "tokens": 338
         },
         {
           "name": "ResourceCheck",
           "kind": "class",
-          "startLine": 134,
-          "endLine": 158,
+          "startLine": 132,
+          "endLine": 156,
           "tokens": 264
         },
         {
           "name": "LocalModel",
           "kind": "class",
-          "startLine": 159,
+          "startLine": 157,
           "endLine": 170,
-          "tokens": 107
+          "tokens": 135
         },
         {
           "name": "LocalModelsState",
@@ -3846,125 +3839,132 @@
           "kind": "class",
           "startLine": 177,
           "endLine": 181,
-          "tokens": 50
+          "tokens": 51
+        },
+        {
+          "name": "ControlLearning",
+          "kind": "class",
+          "startLine": 182,
+          "endLine": 188,
+          "tokens": 89
         },
         {
           "name": "ConfirmResources",
           "kind": "class",
-          "startLine": 182,
-          "endLine": 185,
+          "startLine": 189,
+          "endLine": 192,
           "tokens": 30
         },
         {
           "name": "ReportModelRuntime",
           "kind": "class",
-          "startLine": 186,
-          "endLine": 200,
+          "startLine": 193,
+          "endLine": 207,
           "tokens": 124
         },
         {
           "name": "EstimateReportDuration",
           "kind": "class",
-          "startLine": 201,
-          "endLine": 206,
+          "startLine": 208,
+          "endLine": 213,
           "tokens": 52
         },
         {
           "name": "RecommendReportOutput",
           "kind": "class",
-          "startLine": 207,
-          "endLine": 212,
+          "startLine": 214,
+          "endLine": 219,
           "tokens": 48
         },
         {
           "name": "RetrievalProtocol",
           "kind": "class",
-          "startLine": 213,
-          "endLine": 222,
-          "tokens": 84
+          "startLine": 220,
+          "endLine": 227,
+          "tokens": 74
         },
         {
           "name": "EmailProtocol",
           "kind": "class",
-          "startLine": 223,
-          "endLine": 232,
+          "startLine": 228,
+          "endLine": 237,
           "tokens": 103
         },
         {
           "name": "ReportHerbSafety",
           "kind": "class",
-          "startLine": 233,
-          "endLine": 250,
-          "tokens": 195
+          "startLine": 238,
+          "endLine": 256,
+          "tokens": 218
         },
         {
           "name": "HerbCondition",
           "kind": "class",
-          "startLine": 251,
-          "endLine": 259,
+          "startLine": 257,
+          "endLine": 265,
           "tokens": 55
         },
         {
           "name": "HerbContraindication",
           "kind": "class",
-          "startLine": 260,
-          "endLine": 263,
+          "startLine": 266,
+          "endLine": 269,
           "tokens": 21
         },
         {
           "name": "HerbLookupResult",
           "kind": "class",
-          "startLine": 264,
-          "endLine": 292,
+          "startLine": 270,
+          "endLine": 298,
           "tokens": 318
         },
         {
           "name": "HerbEvidenceReference",
           "kind": "class",
-          "startLine": 293,
-          "endLine": 302,
+          "startLine": 299,
+          "endLine": 308,
           "tokens": 92
         },
         {
           "name": "HerbHighlight",
           "kind": "class",
-          "startLine": 303,
-          "endLine": 308,
+          "startLine": 309,
+          "endLine": 314,
           "tokens": 32
         },
         {
           "name": "HerbEvidenceFragment",
           "kind": "class",
-          "startLine": 309,
-          "endLine": 320,
+          "startLine": 315,
+          "endLine": 326,
           "tokens": 75
         },
         {
           "name": "HerbEvidencePage",
           "kind": "class",
-          "startLine": 321,
-          "endLine": 331,
+          "startLine": 327,
+          "endLine": 337,
           "tokens": 79
         },
         {
           "name": "LookupHerbEvidence",
           "kind": "class",
-          "startLine": 332,
-          "endLine": 344,
+          "startLine": 338,
+          "endLine": 350,
           "tokens": 91
         },
         {
           "name": "HerbSafetyReference",
           "kind": "class",
-          "startLine": 345,
-          "endLine": 350,
+          "startLine": 351,
+          "endLine": 356,
           "tokens": 32
         },
         {
           "name": "HerbWarning",
           "kind": "class",
-          "startLine": 351,
-          "endLine": 410,
+          "startLine": 357,
+          "endLine": 416,
           "tokens": 426
         }
       ]
@@ -4049,19 +4049,19 @@
     },
     "src/backend/web/dependencies.py": {
       "description": "Injectable boundaries; constructing these objects performs no infrastructure I/O.",
-      "tokens": 601,
-      "hash": "dcc7b8ac4e914356",
-      "size": 2103,
-      "mtimeMs": 1795590834040.5325,
-      "updatedAt": "2026-11-25T07:13:54.893Z",
+      "tokens": 663,
+      "hash": "2f791fe24f3725aa",
+      "size": 2320,
+      "mtimeMs": 1795885819289.569,
+      "updatedAt": "2026-11-28T17:10:19.525Z",
       "source": "hook",
       "symbols": [
         {
           "name": "Dependencies",
           "kind": "class",
-          "startLine": 36,
-          "endLine": 64,
-          "tokens": 360
+          "startLine": 39,
+          "endLine": 70,
+          "tokens": 404
         }
       ]
     },
@@ -7564,11 +7564,11 @@
     },
     "src/backend/resources/texts.en.toml": {
       "description": "English application copy. Keys and named parameters match texts.ro.toml exactly.",
-      "tokens": 10224,
-      "hash": "37d9572be194750d",
-      "size": 38476,
-      "mtimeMs": 1795524946993.4504,
-      "updatedAt": "2026-11-24T12:55:47.869Z",
+      "tokens": 11925,
+      "hash": "504e5e6830519c57",
+      "size": 44863,
+      "mtimeMs": 1795885871447.9353,
+      "updatedAt": "2026-11-28T17:11:11.672Z",
       "source": "hook"
     },
     "src/backend/migrations/032_bilingual_chunks.sql": {
@@ -8159,11 +8159,11 @@
     },
     "AGENTS.md": {
       "description": "AGENTS.md",
-      "tokens": 4348,
-      "hash": "4e6d9eaf7b2f525e",
-      "size": 17432,
-      "mtimeMs": 1795877840253.9028,
-      "updatedAt": "2026-11-28T14:57:20.471Z",
+      "tokens": 4433,
+      "hash": "6e72edf83f180549",
+      "size": 17777,
+      "mtimeMs": 1795886271690.4314,
+      "updatedAt": "2026-11-28T17:17:51.908Z",
       "source": "hook"
     },
     ".claude/README.md": {
@@ -12604,40 +12604,40 @@
     },
     "src/backend/ai/model_runtime.py": {
       "description": "Brings the GPU to the state a report model needs before the job sends its first request.",
-      "tokens": 6216,
-      "hash": "f51b49ba60cb6c55",
-      "size": 21756,
-      "mtimeMs": 1795692637116.121,
-      "updatedAt": "2026-11-26T11:30:37.357Z",
+      "tokens": 9882,
+      "hash": "2515083d8ba3e2ed",
+      "size": 34586,
+      "mtimeMs": 1795885756857.4417,
+      "updatedAt": "2026-11-28T17:09:17.086Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_OrchestratorUnavailable",
           "kind": "class",
-          "startLine": 46,
-          "endLine": 51,
+          "startLine": 55,
+          "endLine": 60,
           "tokens": 53
         },
         {
           "name": "resource_check",
           "kind": "fn",
-          "startLine": 52,
-          "endLine": 78,
+          "startLine": 61,
+          "endLine": 87,
           "tokens": 314
         },
         {
           "name": "_error_code",
           "kind": "fn",
-          "startLine": 79,
-          "endLine": 86,
+          "startLine": 88,
+          "endLine": 95,
           "tokens": 59
         },
         {
           "name": "VllmRuntime",
           "kind": "class",
-          "startLine": 87,
-          "endLine": 481,
-          "tokens": 5322
+          "startLine": 96,
+          "endLine": 735,
+          "tokens": 8610
         }
       ]
     },
@@ -14245,291 +14245,333 @@
       "source": "hook"
     },
     "src/scripts/llm_host_agent.py": {
-      "description": "Windows host agent for the local LLMs: Colibri and the host Ollama.",
-      "tokens": 13324,
-      "hash": "59422cd91fced9e8",
-      "size": 46637,
-      "mtimeMs": 1795702247115.766,
-      "updatedAt": "2026-11-26T14:10:47.593Z",
+      "description": "Windows host agent for the local LLMs: Colibri, the host Ollama and the knowledge build.",
+      "tokens": 17606,
+      "hash": "09e6e35a6d916133",
+      "size": 61623,
+      "mtimeMs": 1795889074766.221,
+      "updatedAt": "2026-11-28T18:04:35.607Z",
       "source": "hook",
       "symbols": [
         {
           "name": "AgentConfig",
           "kind": "class",
-          "startLine": 125,
-          "endLine": 152,
+          "startLine": 136,
+          "endLine": 163,
           "tokens": 269
         },
         {
           "name": "_MemoryStatus",
           "kind": "class",
-          "startLine": 153,
-          "endLine": 167,
+          "startLine": 164,
+          "endLine": 178,
           "tokens": 167
         },
         {
           "name": "ram_available_gb",
           "kind": "fn",
-          "startLine": 168,
-          "endLine": 176,
+          "startLine": 179,
+          "endLine": 187,
           "tokens": 111
         },
         {
           "name": "vram_gb",
           "kind": "fn",
-          "startLine": 177,
-          "endLine": 199,
+          "startLine": 188,
+          "endLine": 210,
           "tokens": 258
         },
         {
           "name": "process_memory_gb",
           "kind": "fn",
-          "startLine": 200,
-          "endLine": 227,
+          "startLine": 211,
+          "endLine": 238,
           "tokens": 338
         },
         {
           "name": "release_wsl_cache",
           "kind": "fn",
-          "startLine": 228,
-          "endLine": 256,
+          "startLine": 239,
+          "endLine": 267,
           "tokens": 299
         },
         {
           "name": "adaptive_cap",
           "kind": "fn",
-          "startLine": 257,
-          "endLine": 264,
+          "startLine": 268,
+          "endLine": 275,
           "tokens": 80
         },
         {
           "name": "prefill_extra_gb",
           "kind": "fn",
-          "startLine": 265,
-          "endLine": 270,
+          "startLine": 276,
+          "endLine": 281,
           "tokens": 83
         },
         {
           "name": "parse_plan",
           "kind": "fn",
-          "startLine": 271,
-          "endLine": 300,
+          "startLine": 282,
+          "endLine": 311,
           "tokens": 321
         },
         {
           "name": "Agent",
           "kind": "class",
-          "startLine": 301,
-          "endLine": 722,
+          "startLine": 312,
+          "endLine": 733,
           "tokens": 5908
         },
         {
           "name": "AgentError",
           "kind": "class",
-          "startLine": 723,
-          "endLine": 729,
+          "startLine": 734,
+          "endLine": 740,
           "tokens": 49
+        },
+        {
+          "name": "_utc_now",
+          "kind": "fn",
+          "startLine": 741,
+          "endLine": 744,
+          "tokens": 25
+        },
+        {
+          "name": "KnowledgeJobs",
+          "kind": "class",
+          "startLine": 745,
+          "endLine": 964,
+          "tokens": 2985
+        },
+        {
+          "name": "knowledge_stop_file",
+          "kind": "fn",
+          "startLine": 965,
+          "endLine": 968,
+          "tokens": 28
+        },
+        {
+          "name": "_write_stop_file",
+          "kind": "fn",
+          "startLine": 969,
+          "endLine": 979,
+          "tokens": 166
+        },
+        {
+          "name": "_clear_stop_file",
+          "kind": "fn",
+          "startLine": 980,
+          "endLine": 988,
+          "tokens": 99
+        },
+        {
+          "name": "parse_knowledge",
+          "kind": "fn",
+          "startLine": 989,
+          "endLine": 1010,
+          "tokens": 257
         },
         {
           "name": "_ollama_json",
           "kind": "fn",
-          "startLine": 730,
-          "endLine": 744,
+          "startLine": 1011,
+          "endLine": 1025,
           "tokens": 160
         },
         {
           "name": "OllamaLoad",
           "kind": "class",
-          "startLine": 745,
-          "endLine": 759,
+          "startLine": 1026,
+          "endLine": 1040,
           "tokens": 152
         },
         {
           "name": "parse_load",
           "kind": "fn",
-          "startLine": 760,
-          "endLine": 794,
+          "startLine": 1041,
+          "endLine": 1075,
           "tokens": 392
         },
         {
           "name": "parse_release",
           "kind": "fn",
-          "startLine": 795,
-          "endLine": 806,
+          "startLine": 1076,
+          "endLine": 1087,
           "tokens": 132
         },
         {
           "name": "_names",
           "kind": "fn",
-          "startLine": 807,
-          "endLine": 811,
+          "startLine": 1088,
+          "endLine": 1092,
           "tokens": 54
         },
         {
           "name": "_ollama_placements",
           "kind": "fn",
-          "startLine": 812,
-          "endLine": 822,
+          "startLine": 1093,
+          "endLine": 1103,
           "tokens": 176
         },
         {
           "name": "_evict_ollama",
           "kind": "fn",
-          "startLine": 823,
-          "endLine": 849,
+          "startLine": 1104,
+          "endLine": 1130,
           "tokens": 339
         },
         {
           "name": "_ollama_models",
           "kind": "fn",
-          "startLine": 850,
-          "endLine": 856,
+          "startLine": 1131,
+          "endLine": 1137,
           "tokens": 66
         },
         {
           "name": "_handler",
           "kind": "fn",
-          "startLine": 857,
-          "endLine": 923,
-          "tokens": 816
+          "startLine": 1138,
+          "endLine": 1220,
+          "tokens": 1041
         },
         {
           "name": "_arguments",
           "kind": "fn",
-          "startLine": 924,
-          "endLine": 988,
-          "tokens": 876
+          "startLine": 1221,
+          "endLine": 1296,
+          "tokens": 1056
         },
         {
           "name": "main",
           "kind": "fn",
-          "startLine": 989,
-          "endLine": 1013,
-          "tokens": 213
+          "startLine": 1297,
+          "endLine": 1321,
+          "tokens": 219
         }
       ]
     },
     "src/scripts/llm_host_agent_startup.ps1": {
       "description": "Registers (or with -Remove deletes) the logon task that runs the LLM host agent.",
-      "tokens": 678,
-      "hash": "895251196a3f8600",
-      "size": 2541,
-      "mtimeMs": 1795686923817.8113,
-      "updatedAt": "2026-11-26T09:55:24.644Z",
+      "tokens": 705,
+      "hash": "816537db98d4917c",
+      "size": 2641,
+      "mtimeMs": 1795885684062.683,
+      "updatedAt": "2026-11-28T17:08:04.282Z",
       "source": "hook"
     },
     "src/scripts/llm_orchestrator.py": {
       "description": "The only process with the Docker socket: start, stop and status for a fixed list of vLLM servers.",
-      "tokens": 3856,
-      "hash": "9e0cba409df35485",
-      "size": 13493,
-      "mtimeMs": 1795698371029.82,
-      "updatedAt": "2026-11-26T13:06:11.917Z",
+      "tokens": 4244,
+      "hash": "891c94fdaed5708a",
+      "size": 14851,
+      "mtimeMs": 1795885695030.3257,
+      "updatedAt": "2026-11-28T17:08:15.271Z",
       "source": "hook",
       "symbols": [
         {
           "name": "OrchestratorError",
           "kind": "class",
-          "startLine": 74,
-          "endLine": 80,
+          "startLine": 89,
+          "endLine": 95,
           "tokens": 51
         },
         {
           "name": "_DockerConnection",
           "kind": "class",
-          "startLine": 81,
-          "endLine": 87,
+          "startLine": 96,
+          "endLine": 102,
           "tokens": 66
         },
         {
           "name": "_docker",
           "kind": "fn",
-          "startLine": 88,
-          "endLine": 100,
+          "startLine": 103,
+          "endLine": 115,
           "tokens": 140
         },
         {
           "name": "_container_name",
           "kind": "fn",
-          "startLine": 101,
-          "endLine": 104,
+          "startLine": 116,
+          "endLine": 119,
           "tokens": 22
         },
         {
           "name": "service_status",
           "kind": "fn",
-          "startLine": 105,
-          "endLine": 125,
+          "startLine": 120,
+          "endLine": 140,
           "tokens": 273
         },
         {
           "name": "status_all",
           "kind": "fn",
-          "startLine": 126,
-          "endLine": 132,
+          "startLine": 141,
+          "endLine": 147,
           "tokens": 67
         },
         {
           "name": "_host_agent",
           "kind": "fn",
-          "startLine": 133,
-          "endLine": 138,
+          "startLine": 148,
+          "endLine": 153,
           "tokens": 76
         },
         {
           "name": "_agent_call",
           "kind": "fn",
-          "startLine": 139,
-          "endLine": 158,
+          "startLine": 154,
+          "endLine": 173,
           "tokens": 283
         },
         {
           "name": "relay_host_agent",
           "kind": "fn",
-          "startLine": 159,
-          "endLine": 170,
+          "startLine": 174,
+          "endLine": 185,
           "tokens": 185
         },
         {
           "name": "unload_ollama",
           "kind": "fn",
-          "startLine": 171,
-          "endLine": 187,
+          "startLine": 186,
+          "endLine": 202,
           "tokens": 178
         },
         {
           "name": "stop_colibri",
           "kind": "fn",
-          "startLine": 188,
-          "endLine": 207,
+          "startLine": 203,
+          "endLine": 222,
           "tokens": 192
         },
         {
           "name": "start_service",
           "kind": "fn",
-          "startLine": 208,
-          "endLine": 232,
+          "startLine": 223,
+          "endLine": 247,
           "tokens": 366
         },
         {
           "name": "stop_service",
           "kind": "fn",
-          "startLine": 233,
-          "endLine": 249,
+          "startLine": 248,
+          "endLine": 264,
           "tokens": 220
         },
         {
           "name": "_Handler",
           "kind": "class",
-          "startLine": 250,
-          "endLine": 307,
-          "tokens": 695
+          "startLine": 265,
+          "endLine": 324,
+          "tokens": 728
         },
         {
           "name": "main",
           "kind": "fn",
-          "startLine": 308,
-          "endLine": 319,
+          "startLine": 325,
+          "endLine": 336,
           "tokens": 108
         }
       ]
@@ -15542,96 +15584,110 @@
     },
     "src/scripts/build_knowledge.py": {
       "description": "Build the multilevel knowledge from the index fragments (plan 2026-11-27); level 1 for now.",
-      "tokens": 8414,
-      "hash": "7e50dedb4763256e",
-      "size": 29455,
-      "mtimeMs": 1795884323589.3643,
-      "updatedAt": "2026-11-28T16:45:23.824Z",
+      "tokens": 9996,
+      "hash": "f71003c59a72c5f2",
+      "size": 34993,
+      "mtimeMs": 1795889432408.3916,
+      "updatedAt": "2026-11-28T18:10:32.630Z",
       "source": "hook",
       "symbols": [
         {
+          "name": "BuildStopped",
+          "kind": "class",
+          "startLine": 91,
+          "endLine": 94,
+          "tokens": 36
+        },
+        {
+          "name": "StopSignal",
+          "kind": "class",
+          "startLine": 95,
+          "endLine": 115,
+          "tokens": 200
+        },
+        {
           "name": "Answer",
           "kind": "class",
-          "startLine": 80,
-          "endLine": 84,
+          "startLine": 116,
+          "endLine": 120,
           "tokens": 15
         },
         {
           "name": "KnowledgeModel",
           "kind": "class",
-          "startLine": 85,
-          "endLine": 262,
-          "tokens": 2243
+          "startLine": 121,
+          "endLine": 301,
+          "tokens": 2312
         },
         {
           "name": "_Slot",
           "kind": "class",
-          "startLine": 263,
-          "endLine": 278,
+          "startLine": 302,
+          "endLine": 317,
           "tokens": 112
         },
         {
           "name": "LevelOneBuild",
           "kind": "class",
-          "startLine": 279,
-          "endLine": 469,
-          "tokens": 2209
+          "startLine": 318,
+          "endLine": 562,
+          "tokens": 2870
         },
         {
           "name": "_review_entry",
           "kind": "fn",
-          "startLine": 470,
-          "endLine": 483,
+          "startLine": 563,
+          "endLine": 576,
           "tokens": 211
         },
         {
           "name": "embed_items",
           "kind": "fn",
-          "startLine": 484,
-          "endLine": 517,
-          "tokens": 390
+          "startLine": 577,
+          "endLine": 613,
+          "tokens": 427
         },
         {
           "name": "sample_fragments",
           "kind": "fn",
-          "startLine": 518,
-          "endLine": 527,
+          "startLine": 614,
+          "endLine": 623,
           "tokens": 84
         },
         {
           "name": "_lines",
           "kind": "fn",
-          "startLine": 528,
-          "endLine": 533,
+          "startLine": 624,
+          "endLine": 629,
           "tokens": 85
         },
         {
           "name": "write_review",
           "kind": "fn",
-          "startLine": 534,
-          "endLine": 602,
+          "startLine": 630,
+          "endLine": 698,
           "tokens": 774
         },
         {
           "name": "build_level_one",
           "kind": "fn",
-          "startLine": 603,
-          "endLine": 683,
-          "tokens": 849
+          "startLine": 699,
+          "endLine": 808,
+          "tokens": 1154
         },
         {
           "name": "parse_args",
           "kind": "fn",
-          "startLine": 684,
-          "endLine": 696,
-          "tokens": 154
+          "startLine": 809,
+          "endLine": 826,
+          "tokens": 204
         },
         {
           "name": "main",
           "kind": "fn",
-          "startLine": 697,
-          "endLine": 738,
-          "tokens": 505
+          "startLine": 827,
+          "endLine": 869,
+          "tokens": 540
         }
       ]
     },
@@ -15657,6 +15713,289 @@
           "startLine": 154,
           "endLine": 268,
           "tokens": 1644
+        }
+      ]
+    },
+    "src/backend/core/learning.py": {
+      "description": "Pure rules of the multilevel learning control (plan 2026-11-27, 5.4b): level states, the order the",
+      "tokens": 4053,
+      "hash": "644224921eb67f02",
+      "size": 14184,
+      "mtimeMs": 1795885441377.6216,
+      "updatedAt": "2026-11-28T17:04:01.619Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "KnowledgeRun",
+          "kind": "class",
+          "startLine": 50,
+          "endLine": 73,
+          "tokens": 174
+        },
+        {
+          "name": "LearningSnapshot",
+          "kind": "class",
+          "startLine": 74,
+          "endLine": 89,
+          "tokens": 203
+        },
+        {
+          "name": "BuildJobs",
+          "kind": "class",
+          "startLine": 90,
+          "endLine": 122,
+          "tokens": 337
+        },
+        {
+          "name": "LanguageState",
+          "kind": "class",
+          "startLine": 123,
+          "endLine": 132,
+          "tokens": 61
+        },
+        {
+          "name": "LevelState",
+          "kind": "class",
+          "startLine": 133,
+          "endLine": 145,
+          "tokens": 80
+        },
+        {
+          "name": "LearningState",
+          "kind": "class",
+          "startLine": 146,
+          "endLine": 155,
+          "tokens": 64
+        },
+        {
+          "name": "update_speed",
+          "kind": "fn",
+          "startLine": 156,
+          "endLine": 162,
+          "tokens": 86
+        },
+        {
+          "name": "up_to_date",
+          "kind": "fn",
+          "startLine": 163,
+          "endLine": 172,
+          "tokens": 81
+        },
+        {
+          "name": "published_levels",
+          "kind": "fn",
+          "startLine": 173,
+          "endLine": 181,
+          "tokens": 127
+        },
+        {
+          "name": "plan_start",
+          "kind": "fn",
+          "startLine": 182,
+          "endLine": 215,
+          "tokens": 312
+        },
+        {
+          "name": "_iso",
+          "kind": "fn",
+          "startLine": 216,
+          "endLine": 219,
+          "tokens": 32
+        },
+        {
+          "name": "_outdated",
+          "kind": "fn",
+          "startLine": 220,
+          "endLine": 243,
+          "tokens": 205
+        },
+        {
+          "name": "_status",
+          "kind": "fn",
+          "startLine": 244,
+          "endLine": 269,
+          "tokens": 332
+        },
+        {
+          "name": "_level_one_work",
+          "kind": "fn",
+          "startLine": 270,
+          "endLine": 292,
+          "tokens": 214
+        },
+        {
+          "name": "_speed",
+          "kind": "fn",
+          "startLine": 293,
+          "endLine": 300,
+          "tokens": 110
+        },
+        {
+          "name": "learning_state",
+          "kind": "fn",
+          "startLine": 301,
+          "endLine": 386,
+          "tokens": 1099
+        }
+      ]
+    },
+    "src/backend/persistence/learning_status.py": {
+      "description": "Read-only snapshot of the multilevel knowledge runs for the learning control, in one short",
+      "tokens": 1068,
+      "hash": "79036428322edeb9",
+      "size": 3738,
+      "mtimeMs": 1795885784828.0708,
+      "updatedAt": "2026-11-28T17:09:45.054Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "PostgresLearningSnapshot",
+          "kind": "class",
+          "startLine": 39,
+          "endLine": 88,
+          "tokens": 636
+        }
+      ]
+    },
+    "src/backend/ai/learning_control.py": {
+      "description": "The admin's control of the multilevel learning (plan 2026-11-27, 5.4b): state, start and stop.",
+      "tokens": 938,
+      "hash": "c40cb7803c220a8b",
+      "size": 3280,
+      "mtimeMs": 1795885798809.5696,
+      "updatedAt": "2026-11-28T17:09:59.140Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "knowledge_models",
+          "kind": "fn",
+          "startLine": 29,
+          "endLine": 37,
+          "tokens": 69
+        },
+        {
+          "name": "LearningControl",
+          "kind": "class",
+          "startLine": 38,
+          "endLine": 87,
+          "tokens": 604
+        }
+      ]
+    },
+    "aiWork/e4a-check/check_web.py": {
+      "description": "E4a checks without GPU: pure state/ETA/plan rules, VllmRuntime pause/resume against a mocked",
+      "tokens": 2891,
+      "hash": "888dc6f762b639af",
+      "size": 10118,
+      "mtimeMs": 1795886203056.148,
+      "updatedAt": "2026-11-28T17:16:43.277Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "run",
+          "kind": "fn",
+          "startLine": 29,
+          "endLine": 125,
+          "tokens": 1368
+        },
+        {
+          "name": "handler",
+          "kind": "fn",
+          "startLine": 126,
+          "endLine": 225,
+          "tokens": 1304
+        }
+      ]
+    },
+    "aiWork/e4a-check/check_build_stop.py": {
+      "description": "LevelOneBuild.extract with a stub model and repository: the stop file ends it between requests,",
+      "tokens": 900,
+      "hash": "6b9a10661ea47042",
+      "size": 3147,
+      "mtimeMs": 1795886232679.4731,
+      "updatedAt": "2026-11-28T17:17:12.896Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Model",
+          "kind": "class",
+          "startLine": 21,
+          "endLine": 44,
+          "tokens": 176
+        },
+        {
+          "name": "Repo",
+          "kind": "class",
+          "startLine": 45,
+          "endLine": 94,
+          "tokens": 521
+        }
+      ]
+    },
+    "aiWork/xm_edit_e4a.py": {
+      "description": "Add the E4a knowledge build control to architecture/local-ai-models.xmind (content.xml + evidence).",
+      "tokens": 2704,
+      "hash": "f6fc043307d03422",
+      "size": 9473,
+      "mtimeMs": 1795886391448.044,
+      "updatedAt": "2026-11-28T17:19:51.680Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "new_id",
+          "kind": "fn",
+          "startLine": 16,
+          "endLine": 19,
+          "tokens": 15
+        },
+        {
+          "name": "step",
+          "kind": "fn",
+          "startLine": 20,
+          "endLine": 26,
+          "tokens": 60
+        },
+        {
+          "name": "topic",
+          "kind": "fn",
+          "startLine": 27,
+          "endLine": 41,
+          "tokens": 168
+        },
+        {
+          "name": "append_children",
+          "kind": "fn",
+          "startLine": 42,
+          "endLine": 50,
+          "tokens": 104
+        },
+        {
+          "name": "sheet_bounds",
+          "kind": "fn",
+          "startLine": 51,
+          "endLine": 56,
+          "tokens": 48
+        },
+        {
+          "name": "add_detached",
+          "kind": "fn",
+          "startLine": 57,
+          "endLine": 64,
+          "tokens": 70
+        },
+        {
+          "name": "add_relationship",
+          "kind": "fn",
+          "startLine": 65,
+          "endLine": 185,
+          "tokens": 1739
+        },
+        {
+          "name": "sha",
+          "kind": "fn",
+          "startLine": 186,
+          "endLine": 217,
+          "tokens": 395
         }
       ]
     }

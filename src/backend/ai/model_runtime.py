@@ -9,8 +9,9 @@ uses a model while it changes.
 from __future__ import annotations
 
 import logging
+import threading
 import time
-from collections.abc import Callable
+from collections.abc import Callable, Sequence
 from typing import Any, cast
 
 import httpx
@@ -20,6 +21,7 @@ from backend.ai.providers import LOCAL_HOSTS
 from backend.config import Settings
 from backend.core.contracts import ConfirmResources, ModelStage, ResourceCheck
 from backend.core.errors import ApplicationError
+from backend.core.learning import BuildJobs
 from backend.core.report_models import (
     COLIBRI_RECOMMENDED_RAM_GB,
     COLIBRI_RECOMMENDED_VRAM_GB,
@@ -42,6 +44,12 @@ _RUNNING_STATES = frozenset({"running", "restarting"})
 _AGENT_TIMEOUT = httpx.Timeout(420.0, connect=5.0)
 # Loading takes seconds when the files are in the page cache, longer from a cold disk.
 _COLIBRI_WARMUP_SECONDS = 600.0
+# The knowledge calls answer at once (the agent never waits for the build) and skip the
+# orchestrator's change lock.
+_KNOWLEDGE_TIMEOUT = httpx.Timeout(30.0, connect=5.0)
+# A paused knowledge build finishes its requests in flight (on vLLM about a minute each) and stops
+# the model servers it started; one that is still running after this is ended by force.
+_KNOWLEDGE_PAUSE_SECONDS = 300.0
 
 
 class _OrchestratorUnavailable(Exception):
@@ -114,6 +122,21 @@ class VllmRuntime:
         # load pushes it out and the chat's loads into its memory wait (read by the web threads).
         self._active_report: ReportModel | None = None
         self._ollama_base = settings.ollama_api_base
+        # The vLLM servers the knowledge levels' models use: the only ones a build may find running.
+        self._knowledge_services = frozenset(
+            service
+            for model in (
+                settings.knowledge_l1_model,
+                settings.knowledge_l2_model,
+                settings.knowledge_l3_model,
+                settings.knowledge_l4_model,
+            )
+            if (service := REPORT_MODELS[model].vllm_service) is not None
+        )
+        # A local report paused the knowledge build, or a start arrived during one: finish() lets
+        # it go on. The lock orders that with a start from the web threads.
+        self._resume_knowledge = False
+        self._knowledge_lock = threading.Lock()
 
     def close(self) -> None:
         self._http.close()
@@ -201,7 +224,115 @@ class VllmRuntime:
                 status = self._status()
             except _OrchestratorUnavailable:
                 return False
-        return any(item.get("state") in _RUNNING_STATES for item in status["observed"].values())
+        if any(item.get("state") in _RUNNING_STATES for item in status["observed"].values()):
+            return True
+        # A running knowledge build uses its vLLM server, which would otherwise look idle.
+        jobs = self.knowledge_jobs()
+        return jobs is not None and jobs.active
+
+    # The LLM host agent's knowledge jobs; None when the agent cannot be asked.
+    def knowledge_jobs(self) -> BuildJobs | None:
+        try:
+            return BuildJobs.from_agent(
+                self._agent("GET", "/knowledge", timeout=_KNOWLEDGE_TIMEOUT)
+            )
+        except ApplicationError as exc:
+            logger.warning("knowledge_jobs_unavailable code=%s", exc.code)
+            return None
+
+    # The admin's start of the knowledge levels, lowest first. During a local report they wait for
+    # its end (finish() lets them go); otherwise an idle vLLM report server that is not a knowledge
+    # model's is stopped first, since the orchestrator refuses a second server beside it.
+    def start_knowledge(self, levels: Sequence[int]) -> None:
+        with self._knowledge_lock:
+            busy = self._active_report is not None or self._colibri_report_running
+            if not busy:
+                self._free_gpu_for_knowledge()
+            self._agent(
+                "POST",
+                "/knowledge/start",
+                {"levels": list(levels), "paused": busy},
+                timeout=_KNOWLEDGE_TIMEOUT,
+            )
+            if busy:
+                self._resume_knowledge = True
+        logger.info("knowledge_start levels=%s waits_for_report=%s", list(levels), busy)
+
+    def stop_knowledge(self, levels: Sequence[int]) -> None:
+        self._agent("POST", "/knowledge/stop", {"levels": list(levels)}, timeout=_KNOWLEDGE_TIMEOUT)
+        logger.info("knowledge_stop levels=%s", list(levels))
+
+    def _free_gpu_for_knowledge(self) -> None:
+        try:
+            status = self._status()
+        except _OrchestratorUnavailable:
+            return
+        for service, item in status["managed"].items():
+            if item.get("state") in _RUNNING_STATES and service not in self._knowledge_services:
+                self._stop(service)
+
+    # A local report takes the GPU from a running knowledge build: the build finishes its requests
+    # in flight, stops the model servers it started and pauses its run (resumable), and finish()
+    # lets it go on. One still running after _KNOWLEDGE_PAUSE_SECONDS is ended by force, and the
+    # vllm-embed it may leave running is stopped here (the report's preparation stops the report
+    # servers). Without the agent there is no build of the app's to pause.
+    def _pause_knowledge(
+        self, on_stage: Callable[[ModelStage], None], checkpoint: Callable[[], None]
+    ) -> None:
+        try:
+            reply = self._agent("POST", "/knowledge/pause", timeout=_KNOWLEDGE_TIMEOUT)
+        except ApplicationError as exc:
+            logger.warning("knowledge_pause_skipped code=%s", exc.code)
+            return
+        state = reply.get("state")
+        if state not in ("pausing", "paused"):
+            return
+        with self._knowledge_lock:
+            self._resume_knowledge = True
+        if state == "paused":
+            return
+        on_stage("stopping_model")
+        started = self._clock()
+        while True:
+            checkpoint()
+            jobs = self.knowledge_jobs()
+            if jobs is None or not jobs.active:
+                break
+            if self._clock() - started >= _KNOWLEDGE_PAUSE_SECONDS:
+                logger.warning("knowledge_pause_timeout action=force")
+                try:
+                    self._agent("POST", "/knowledge/pause?force=1", timeout=_KNOWLEDGE_TIMEOUT)
+                    self._stop_if_running("vllm-embed")
+                except ApplicationError as exc:
+                    logger.error("knowledge_force_pause_failed code=%s", exc.code)
+                break
+            self._sleep(_POLL_SECONDS)
+        logger.info(
+            "knowledge_paused_for_report duration_ms=%s", round((self._clock() - started) * 1000)
+        )
+
+    def _stop_if_running(self, service: str) -> None:
+        try:
+            status = self._status()
+        except _OrchestratorUnavailable:
+            return
+        items = {**status["managed"], **status["observed"]}
+        if items.get(service, {}).get("state") in _RUNNING_STATES:
+            self._stop(service)
+
+    # A failure only logs: the build stays paused and the admin starts it again from the window.
+    def _resume_knowledge_build(self) -> None:
+        with self._knowledge_lock:
+            if not self._resume_knowledge:
+                return
+            self._resume_knowledge = False
+            try:
+                self._free_gpu_for_knowledge()
+                self._agent("POST", "/knowledge/resume", timeout=_KNOWLEDGE_TIMEOUT)
+            except ApplicationError as exc:
+                logger.error("knowledge_resume_failed code=%s", exc.code)
+                return
+        logger.info("knowledge_resumed_after_report")
 
     # The admin's unload from the window of loaded models, whatever uses the model: an Ollama model
     # leaves once its running requests end (keep_alive 0; Ollama stays up), a vLLM server stops
@@ -241,9 +372,12 @@ class VllmRuntime:
         spec = REPORT_MODELS[model]
         if spec.provider in ("ollama", "vllm"):
             self._active_report = model
-        # Colibri stays loaded until a report with any other model, cloud ones included.
         if spec.provider == "colibri":
             self._colibri_report_running = True
+        if spec.provider in ("ollama", "vllm", "colibri"):
+            self._pause_knowledge(on_stage, checkpoint)
+        # Colibri stays loaded until a report with any other model, cloud ones included.
+        if spec.provider == "colibri":
             self._prepare_colibri(spec.model, on_stage, checkpoint, confirm)
             self._last_local_model = model
             return
@@ -504,9 +638,12 @@ class VllmRuntime:
     def finish(self, model: ReportModel) -> None:
         if self._active_report == model:
             self._active_report = None
-        if REPORT_MODELS[model].provider != "colibri":
-            return
-        self._colibri_report_running = False
+        if REPORT_MODELS[model].provider == "colibri":
+            self._colibri_report_running = False
+            self._restart_ollama_after_colibri()
+        self._resume_knowledge_build()
+
+    def _restart_ollama_after_colibri(self) -> None:
         if not self._restart_ollama:
             return
         try:
@@ -541,14 +678,18 @@ class VllmRuntime:
     # orchestrator that does not answer is LLM_ORCHESTRATOR_UNAVAILABLE, and an agent that is not
     # configured or does not answer is LLM_HOST_AGENT_UNAVAILABLE.
     def _agent(
-        self, method: str, path: str, payload: dict[str, Any] | None = None
+        self,
+        method: str,
+        path: str,
+        payload: dict[str, Any] | None = None,
+        timeout: httpx.Timeout = _AGENT_TIMEOUT,
     ) -> dict[str, Any]:
         try:
             response = self._http.request(
                 method,
                 f"{self._orchestrator}/host-agent{path}",
                 json=payload,
-                timeout=_AGENT_TIMEOUT,
+                timeout=timeout,
             )
         except httpx.HTTPError as exc:
             logger.error("host_agent_relay_failed path=%s type=%s", path, type(exc).__name__)
@@ -572,6 +713,12 @@ class VllmRuntime:
             if path == "/start":
                 raise ApplicationError(
                     "COLIBRI_START_FAILED", tr("errors.colibri_start_failed"), 503
+                )
+            # The agent could not launch the build (its interpreter is missing, or the process
+            # did not start); the agent's code stays in the log above.
+            if path == "/knowledge/start":
+                raise ApplicationError(
+                    "KNOWLEDGE_START_FAILED", tr("errors.knowledge_start_failed"), 503
                 )
             raise ApplicationError(
                 "LLM_HOST_AGENT_UNAVAILABLE", tr("errors.llm_host_agent_unavailable"), 503

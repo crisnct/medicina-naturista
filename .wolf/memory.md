@@ -4103,3 +4103,93 @@ description: chronological action log per session, consolidated weekly
 | 18:45 | Edited src/backend/ai/knowledge_l1.py | modified _markup_spans() | ~43 |
 | 18:45 | Edited src/backend/ai/knowledge_l1.py | 2→3 lines | ~14 |
 | 18:45 | Edited src/scripts/build_knowledge.py | 2→4 lines | ~75 |
+
+## Session: 2026-11-28 18:53
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 19:04 | Created src/backend/core/learning.py | — | ~4053 |
+| 19:05 | Edited src/scripts/build_knowledge.py | 3→8 lines | ~145 |
+| 19:05 | Edited src/scripts/build_knowledge.py | added 1 import(s) | ~17 |
+| 19:05 | Edited src/scripts/build_knowledge.py | added 1 import(s) | ~52 |
+| 19:05 | Edited src/scripts/build_knowledge.py | modified requested() | ~214 |
+| 19:05 | Edited src/scripts/build_knowledge.py | 5→9 lines | ~110 |
+| 19:05 | Edited src/scripts/build_knowledge.py | modified _sample_speed() | ~467 |
+| 19:05 | Edited src/scripts/build_knowledge.py | modified serving() | ~80 |
+| 19:05 | Edited src/scripts/build_knowledge.py | modified _stop_requested() | ~245 |
+| 19:06 | Edited src/scripts/build_knowledge.py | 4→5 lines | ~39 |
+| 19:06 | Edited src/scripts/build_knowledge.py | modified running_embedding_server() | ~48 |
+| 19:06 | Edited src/scripts/build_knowledge.py | 3→4 lines | ~30 |
+| 19:06 | Edited src/scripts/build_knowledge.py | modified up_to_date() | ~290 |
+| 19:06 | Edited src/scripts/build_knowledge.py | 1→5 lines | ~44 |
+| 19:06 | Edited src/scripts/build_knowledge.py | modified except() | ~161 |
+| 19:06 | Edited src/scripts/build_knowledge.py | expanded (+6 lines) | ~95 |
+| 19:06 | Edited src/scripts/build_knowledge.py | modified try_lock() | ~207 |
+| 19:06 | Edited src/scripts/llm_host_agent.py | 8→10 lines | ~219 |
+| 19:06 | Edited src/scripts/llm_host_agent.py | expanded (+8 lines) | ~173 |
+| 19:07 | Edited src/scripts/llm_host_agent.py | "\b((?:KNOWLEDGE|INDEX|VLL" → "\b((?:KNOWLEDGE|INDEX|VLL" | ~23 |
+| 19:07 | Edited src/scripts/llm_host_agent.py | added error handling | ~3429 |
+| 19:07 | Edited src/scripts/llm_host_agent.py | inline fix | ~25 |
+| 19:07 | Edited src/scripts/llm_host_agent.py | 1→5 lines | ~48 |
+| 19:07 | Edited src/scripts/llm_host_agent.py | expanded (+12 lines) | ~371 |
+| 19:07 | Edited src/scripts/llm_host_agent.py | modified _arguments() | ~181 |
+| 19:07 | Edited src/scripts/llm_host_agent.py | modified main() | ~116 |
+| 19:07 | Edited src/scripts/llm_host_agent.py | inline fix | ~28 |
+| 19:08 | Edited src/scripts/llm_host_agent.py | removed 3 lines | ~4 |
+| 19:08 | Edited src/scripts/llm_host_agent_startup.ps1 | 2→3 lines | ~71 |
+| 19:08 | Edited src/scripts/llm_orchestrator.py | 3→7 lines | ~149 |
+| 19:08 | Edited src/scripts/llm_orchestrator.py | expanded (+6 lines) | ~78 |
+| 19:08 | Edited src/scripts/llm_orchestrator.py | modified startswith() | ~60 |
+| 19:08 | Edited src/backend/ai/model_runtime.py | added 1 import(s) | ~34 |
+| 19:08 | Edited src/backend/ai/model_runtime.py | added 1 import(s) | ~38 |
+| 19:08 | Edited src/backend/ai/model_runtime.py | expanded (+6 lines) | ~146 |
+| 19:08 | Edited src/backend/ai/model_runtime.py | added 1 condition(s) | ~240 |
+| 19:08 | Edited src/backend/ai/model_runtime.py | modified knowledge_jobs() | ~1498 |
+| 19:08 | Edited src/backend/ai/model_runtime.py | modified in() | ~140 |
+| 19:08 | Edited src/backend/ai/model_runtime.py | modified finish() | ~204 |
+| 19:09 | Edited src/backend/ai/model_runtime.py | modified _agent() | ~116 |
+| 19:09 | Edited src/backend/ai/model_runtime.py | expanded (+6 lines) | ~151 |
+| 19:09 | Edited src/scripts/llm_host_agent.py | modified isinstance() | ~39 |
+| 19:09 | Created src/backend/persistence/learning_status.py | — | ~1068 |
+| 19:09 | Created src/backend/ai/learning_control.py | — | ~938 |
+| 19:10 | Edited src/backend/core/contracts.py | added 1 import(s) | ~51 |
+| 19:10 | Edited src/backend/core/contracts.py | modified __call__() | ~113 |
+| 19:10 | Edited src/backend/web/dependencies.py | 2→3 lines | ~18 |
+| 19:10 | Edited src/backend/web/dependencies.py | 1→2 lines | ~26 |
+| 19:10 | Edited src/backend/web/main.py | added 2 condition(s) | ~316 |
+| 19:10 | Edited src/backend/web/main.py | modified _learning() | ~321 |
+| 19:10 | Edited src/backend/web/main.py | 3→4 lines | ~29 |
+| 19:10 | Edited src/backend/web/main.py | added 1 import(s) | ~54 |
+| 19:10 | Edited src/backend/web/main.py | added 1 import(s) | ~44 |
+| 19:10 | Edited src/backend/web/main.py | 2→5 lines | ~113 |
+| 19:10 | Edited src/backend/web/main.py | 5→8 lines | ~108 |
+| 19:11 | Edited src/backend/resources/texts.ro.toml | expanded (+6 lines) | ~225 |
+| 19:11 | Edited src/backend/resources/texts.en.toml | expanded (+6 lines) | ~210 |
+| 19:14 | Edited src/scripts/llm_host_agent.py | 3→3 lines | ~36 |
+| 19:14 | Edited src/scripts/llm_host_agent.py | 2→2 lines | ~26 |
+| 19:14 | Edited src/scripts/llm_host_agent.py | modified knowledge_stop_file() | ~194 |
+| 19:14 | Edited src/scripts/llm_host_agent.py | 2→3 lines | ~57 |
+| 19:14 | Edited src/scripts/build_knowledge.py | 4→5 lines | ~81 |
+| 19:14 | Edited src/scripts/build_knowledge.py | 3→2 lines | ~10 |
+| 19:14 | Edited src/scripts/build_knowledge.py | inline fix | ~26 |
+| 19:15 | Edited src/scripts/llm_host_agent.py | 6→7 lines | ~89 |
+| 19:16 | Created aiWork/e4a-check/check_web.py | — | ~2891 |
+| 19:17 | Created aiWork/e4a-check/check_build_stop.py | — | ~900 |
+| 19:17 | Edited README.md | inline fix | ~41 |
+| 19:17 | Edited README.md | inline fix | ~74 |
+| 19:17 | Edited README.md | 2→4 lines | ~779 |
+| 19:17 | Edited AGENTS.md | 2→5 lines | ~124 |
+| 19:19 | Created aiWork/xm_edit_e4a.py | — | ~2743 |
+| 19:19 | Edited aiWork/xm_edit_e4a.py | 9→7 lines | ~135 |
+| 19:20 | Edited architecture/README.md | inline fix | ~114 |
+<!-- session:ZWY2NTNkMGItN2VmNy00ZDVhLWJhYTgtMWJmOWFjZDhhMjMz -->
+| 2026-11-28T17:55:09.271Z | E4a learning control backend: /api/learning (admin), host agent KnowledgeJobs (/knowledge start/stop/pause/resume, stop file), orchestrator relay outside change lock (deadlock avoided), VllmRuntime pauses the build for local reports, EMA speed + up-to-date skip in build_knowledge, xmind + docs | src/backend/core/learning.py,src/backend/persistence/learning_status.py,src/backend/ai/learning_control.py,src/scripts/llm_host_agent.py,src/scripts/llm_orchestrator.py,src/backend/ai/model_runtime.py,src/scripts/build_knowledge.py,src/backend/web/main.py | ruff, mypy, 453 unit + 117 pytest pass; simulated checks in aiWork/e4a-check; agent restarted by user, /knowledge answers; orchestrator restart pending |
+| 20:03 | Edited src/scripts/build_knowledge.py | added error handling | ~192 |
+| 20:04 | Edited src/scripts/build_knowledge.py | 3→2 lines | ~16 |
+| 20:04 | Edited src/scripts/build_knowledge.py | modified except() | ~35 |
+| 20:04 | Edited src/scripts/llm_host_agent.py | modified _clear_stop_file() | ~140 |
+| 20:10 | Edited src/scripts/build_knowledge.py | modified _wait_until_served() | ~126 |
+| 20:10 | Edited src/scripts/build_knowledge.py | modified serving() | ~75 |
+| 20:10 | Edited src/scripts/build_knowledge.py | 8→8 lines | ~91 |
+| 20:10 | Edited src/scripts/build_knowledge.py | inline fix | ~14 |
+| 20:10 | Edited src/scripts/build_knowledge.py | 4→8 lines | ~101 |

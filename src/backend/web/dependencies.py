@@ -8,6 +8,7 @@ from backend.config import Settings
 from backend.core.contracts import (
     AIProtocol,
     ClassifyMessage,
+    ControlLearning,
     EmailProtocol,
     EstimateReportDuration,
     IdentifyCondition,
@@ -65,3 +66,4 @@ class Dependencies:
     model_runtime: ReportModelRuntime | None = None
     report_herb_safety: LoadReportHerbSafety | None = None
     local_models: ReadLocalModels | None = None
+    learning: ControlLearning | None = None

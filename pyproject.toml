@@ -68,7 +68,7 @@ select = ["E4", "E7", "E9", "F", "I"]
 [tool.mypy]
 python_version = "3.11"
 mypy_path = "src"
-files = ["src/backend/config.py", "src/backend/core/contracts.py", "src/backend/core/operation_context.py", "src/backend/core/conversation.py", "src/backend/core/models.py", "src/backend/web/dependencies.py", "src/backend/ai/content_evaluation.py", "src/backend/ai/local_models.py", "src/backend/ai/knowledge_l1.py", "src/backend/ai/knowledge_repository.py", "src/scripts/build_knowledge.py"]
+files = ["src/backend/config.py", "src/backend/core/contracts.py", "src/backend/core/operation_context.py", "src/backend/core/conversation.py", "src/backend/core/models.py", "src/backend/web/dependencies.py", "src/backend/ai/content_evaluation.py", "src/backend/ai/local_models.py", "src/backend/ai/knowledge_l1.py", "src/backend/ai/knowledge_repository.py", "src/scripts/build_knowledge.py", "src/backend/core/learning.py", "src/backend/persistence/learning_status.py", "src/backend/ai/learning_control.py"]
 follow_imports = "silent"
 check_untyped_defs = true
 warn_unused_ignores = true

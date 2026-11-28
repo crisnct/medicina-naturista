@@ -52,8 +52,12 @@ COLIBRI_STOP_TIMEOUT_SECONDS = 120.0
 OLLAMA_UNLOAD_TIMEOUT_SECONDS = 60.0
 # The host agent's endpoints the app may call, as /host-agent<path> here: Colibri's status, memory
 # check, start and stop, the stop, start, unload and load of the host Ollama, the release of one
-# Ollama model, and the loaded models.
+# Ollama model, the loaded models, and the knowledge build's state, start, stop, pause and resume.
 HOST_AGENT_PREFIX = "/host-agent"
+# The knowledge calls change no GPU state themselves (the build asks for its servers here, like any
+# client) and never wait for the build, so they skip the change lock: a build stopping its server
+# must not wait behind them, nor they behind a server start.
+KNOWLEDGE_PREFIX = "/knowledge"
 HOST_AGENT_RELAY = frozenset(
     {
         ("GET", "/status"),
@@ -67,6 +71,12 @@ HOST_AGENT_RELAY = frozenset(
         ("POST", "/ollama/unload?all=1"),
         ("POST", "/ollama/load"),
         ("POST", "/ollama/release"),
+        ("GET", "/knowledge"),
+        ("POST", "/knowledge/start"),
+        ("POST", "/knowledge/stop"),
+        ("POST", "/knowledge/pause"),
+        ("POST", "/knowledge/pause?force=1"),
+        ("POST", "/knowledge/resume"),
     }
 )
 # The agent's /check runs `coli plan` (up to 180 s); /ollama/load first stops Colibri (up to 75 s),
@@ -276,6 +286,8 @@ class _Handler(BaseHTTPRequestHandler):
         try:
             if method == "GET":
                 self._send(*relay_host_agent(method, path))
+            elif path.startswith(KNOWLEDGE_PREFIX):
+                self._send(*relay_host_agent(method, path, body))
             else:
                 with self.change_lock:
                     self._send(*relay_host_agent(method, path, body))

@@ -1,10 +1,12 @@
-"""Windows host agent for the local LLMs: Colibri and the host Ollama.
+"""Windows host agent for the local LLMs: Colibri, the host Ollama and the knowledge build.
 
 For Colibri: memory status, `coli plan` checks, start and stop of the server. For Ollama: stop and
 start of its process tree, the load of a model (Colibri's model leaves first; the agent itself
 always stays), and the unload of the models that hold GPU memory, which the llm-orchestrator asks
 for before every vLLM start, and the release of one model (the app's classifier). For both:
-the loaded models and their RAM/VRAM split (GET /models).
+the loaded models and their RAM/VRAM split (GET /models). For the multilevel knowledge: the
+levels' build (scripts/build_knowledge.py in the repository's virtual environment), one level at a
+time with the others queued, its graceful stop, and its pause during a local report (/knowledge).
 
 Standard library only, run by the system Python at logon (llm_host_agent_startup.ps1), because
 the app runs in Docker and can neither read the host's memory nor start a Windows process. It
@@ -105,6 +107,15 @@ COLIBRI_ENGINE_IMAGE = "qwen38.exe"
 PREFILL_ROW_KIB = 270
 PREFILL_WORKSPACE_MIB_PER_ROW = 0.5
 COLIBRI_PREFILL_WORKSPACE_MIB = 64
+# The knowledge build. It watches the stop file (knowledge_stop_file) and, once it appears,
+# finishes its requests in flight, stops the model servers it started, pauses its run and exits
+# with 130.
+KNOWLEDGE_LEVELS = frozenset({1, 2, 3, 4})
+KNOWLEDGE_STOP_NAME = "medicina-knowledge-build.stop"
+KNOWLEDGE_STOPPED_EXIT = 130
+# Where a failed build's error code is looked for (its last lines), e.g. KNOWLEDGE_BUILD_RUNNING.
+KNOWLEDGE_LOG_TAIL_BYTES = 8192
+_KNOWLEDGE_ERROR_RE = re.compile(r"\b((?:KNOWLEDGE|INDEX|VLLM)_[A-Z_]{3,})\b")
 
 _GB_RE = r"([0-9]+(?:\.[0-9]+)?)\s*GB"
 _RAM_RE = re.compile(
@@ -727,6 +738,276 @@ class AgentError(Exception):
         self.code = code
 
 
+def _utc_now() -> str:
+    return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+
+
+class KnowledgeJobs:
+    """The app's knowledge build on this host (plan 2026-11-27, 5.4b): one level's process at a time
+    and the levels started after it queued in ascending order, since a level builds on the one
+    below. A stop or a pause is the stop file, so the build ends between requests and keeps its
+    progress; a pause (a local report needs the GPU) keeps the level and its queue until resume.
+
+    The state lives in this process only: the database keeps each run's progress, and an agent
+    restarted mid-build no longer sees that build, whose lock the app then reports as an external
+    build. Nothing here waits for the build to exit, because the orchestrator relays these calls
+    while the build itself asks it to stop its servers.
+    """
+
+    def __init__(self, repo_dir: Path, python: Path, log_file: Path) -> None:
+        self.repo_dir = repo_dir
+        self.python = python
+        self.log_file = log_file
+        self._lock = threading.Lock()
+        self._process: subprocess.Popen[bytes] | None = None
+        # The level of the running process, or the one a pause keeps for resume.
+        self._level: int | None = None
+        self._queue: list[int] = []
+        # The admin stopped the running level: it is not resumed and its queue is gone.
+        self._stopping = False
+        # A local report holds the GPU: nothing starts until resume.
+        self._paused = False
+        self._last: dict[str, Any] | None = None
+
+    def status(self) -> dict[str, Any]:
+        with self._lock:
+            return self._snapshot()
+
+    def _snapshot(self) -> dict[str, Any]:
+        return {
+            "level": self._level,
+            "active": self._process is not None and self._process.poll() is None,
+            "stopping": self._stopping,
+            "paused": self._paused,
+            "queue": list(self._queue),
+            "last": dict(self._last) if self._last is not None else None,
+        }
+
+    # The app's start: `paused` says whether a local report runs right now, so the levels wait for
+    # its end instead of taking the GPU from it. A level being stopped and started again simply
+    # goes on (if the build already saw the stop, it is started again when it exits).
+    def start(self, levels: tuple[int, ...], paused: bool) -> dict[str, Any]:
+        with self._lock:
+            self._paused = paused
+            if self._stopping and self._level in levels:
+                self._stopping = False
+                _clear_stop_file()
+            self._queue = sorted(set(self._queue) | set(levels) - {self._level})
+            self._advance()
+            return self._snapshot()
+
+    # A stopped level ends with the levels queued above it, which would build on it; the running
+    # level stops only when it is named. Stopping every level also stops a build this agent did not
+    # start (one run by hand, or left by an earlier agent): it watches the same file.
+    def stop(self, levels: tuple[int, ...]) -> dict[str, Any]:
+        with self._lock:
+            named = set(levels)
+            scheduled = {*self._queue, *((self._level,) if self._level is not None else ())}
+            hit = named & scheduled
+            if hit:
+                lowest = min(hit)
+                self._queue = [level for level in self._queue if level < lowest]
+            if self._level in named:
+                if self._process is not None:
+                    self._stopping = True
+                    _write_stop_file()
+                else:
+                    self._level = None
+            elif self._process is None and named == KNOWLEDGE_LEVELS:
+                _write_stop_file()
+            logger.info("knowledge_stop levels=%s", ",".join(map(str, sorted(named))))
+            return self._snapshot()
+
+    # Before a local report. "pausing": the build is finishing its requests in flight (the app
+    # polls GET /knowledge until it is no longer active); "paused": already waiting; "idle":
+    # nothing to pause. `force` ends the process tree at once, for a build that does not stop in
+    # time; its run stays "running" in the database and the next start continues it.
+    def pause(self, force: bool = False) -> dict[str, Any]:
+        with self._lock:
+            if self._process is None:
+                waiting = self._paused and (self._level is not None or bool(self._queue))
+                return {**self._snapshot(), "state": "paused" if waiting else "idle"}
+            self._paused = True
+            if force:
+                subprocess.run(
+                    ["taskkill", "/T", "/F", "/PID", str(self._process.pid)],
+                    capture_output=True,
+                    timeout=COMMAND_TIMEOUT_SECONDS,
+                    stdin=subprocess.DEVNULL,
+                    creationflags=CREATE_NO_WINDOW,
+                )
+                logger.warning("knowledge_killed level=%s", self._level)
+                return {**self._snapshot(), "state": "killed"}
+            _write_stop_file()
+            logger.info("knowledge_pausing level=%s", self._level)
+            return {**self._snapshot(), "state": "pausing"}
+
+    # After the local report. A build still finishing its pause is let go on: the stop file is
+    # removed, and if the build had already seen it, it is started again when it exits.
+    def resume(self) -> dict[str, Any]:
+        with self._lock:
+            if self._paused:
+                self._paused = False
+                if self._process is not None and not self._stopping:
+                    _clear_stop_file()
+                self._advance()
+                logger.info("knowledge_resumed level=%s", self._level)
+            return self._snapshot()
+
+    # Under the lock. The next level starts only when no process of this agent is left (the watch
+    # thread clears it), so a level that is exiting is never started twice.
+    def _advance(self) -> None:
+        if self._paused or self._process is not None:
+            return
+        if self._level is None and not self._queue:
+            return
+        level = self._level if self._level is not None else self._queue.pop(0)
+        self._launch(level)
+
+    def _launch(self, level: int) -> None:
+        if not self.python.is_file():
+            logger.error("knowledge_python_missing path=%s", self.python)
+            self._level = None
+            raise AgentError(502, "KNOWLEDGE_PYTHON_MISSING")
+        _clear_stop_file()
+        environment = dict(os.environ)
+        environment["PYTHONPATH"] = str(self.repo_dir / "src")
+        environment["PYTHONUNBUFFERED"] = "1"
+        environment["PYTHONIOENCODING"] = "utf-8"
+        try:
+            self.log_file.parent.mkdir(parents=True, exist_ok=True)
+            with self.log_file.open("ab") as log:
+                log.write(f"\n=== knowledge level {level} started {_utc_now()} ===\n".encode())
+                log.flush()
+                process = subprocess.Popen(
+                    [
+                        str(self.python),
+                        "-m",
+                        "scripts.build_knowledge",
+                        "--level",
+                        str(level),
+                        "--stop-file",
+                        str(knowledge_stop_file()),
+                    ],
+                    stdout=log,
+                    stderr=subprocess.STDOUT,
+                    stdin=subprocess.DEVNULL,
+                    cwd=self.repo_dir,
+                    env=environment,
+                    creationflags=CREATE_NO_WINDOW | CREATE_NEW_PROCESS_GROUP,
+                )
+        except OSError as exc:
+            logger.error("knowledge_start_failed level=%s type=%s", level, type(exc).__name__)
+            self._level = None
+            raise AgentError(502, "KNOWLEDGE_START_FAILED") from None
+        self._process, self._level, self._stopping = process, level, False
+        logger.info("knowledge_started level=%s pid=%s", level, process.pid)
+        threading.Thread(
+            target=self._watch, args=(process, level), name=f"knowledge-l{level}", daemon=True
+        ).start()
+
+    def _watch(self, process: subprocess.Popen[bytes], level: int) -> None:
+        code = process.wait()
+        with self._lock:
+            if self._process is not process:
+                return
+            self._process = None
+            # The admin's stop wins over a pause that ended the same process.
+            if self._stopping:
+                outcome, self._level = "stopped", None
+            elif self._paused:
+                outcome = "paused"
+            elif code == KNOWLEDGE_STOPPED_EXIT:
+                # A pause lifted after the build had seen the stop file: the level goes on.
+                outcome = "resumed"
+            elif code == 0:
+                outcome, self._level = "completed", None
+            else:
+                outcome, self._level = "failed", None
+                self._queue = [queued for queued in self._queue if queued < level]
+            self._stopping = False
+            if outcome != "resumed":
+                self._last = {
+                    "level": level,
+                    "outcome": outcome,
+                    "exitCode": code,
+                    "error": self._error_code() if outcome == "failed" else None,
+                    "finishedUtc": _utc_now(),
+                }
+            logger.info("knowledge_exited level=%s code=%s outcome=%s", level, code, outcome)
+            try:
+                self._advance()
+            except AgentError as exc:
+                self._queue = []
+                self._last = {
+                    "level": level,
+                    "outcome": "failed",
+                    "exitCode": None,
+                    "error": exc.code,
+                    "finishedUtc": _utc_now(),
+                }
+
+    # The last error code the build wrote, never its text (which may quote the corpus).
+    def _error_code(self) -> str | None:
+        try:
+            with self.log_file.open("rb") as log:
+                log.seek(0, os.SEEK_END)
+                log.seek(max(0, log.tell() - KNOWLEDGE_LOG_TAIL_BYTES))
+                tail = log.read().decode("utf-8", errors="replace")
+        except OSError:
+            return None
+        codes = _KNOWLEDGE_ERROR_RE.findall(tail)
+        return codes[-1] if codes else None
+
+
+# The build's own default (same user, same temp folder), so a build started by hand stops on the
+# app's "stop all" too. Resolved on use: a missing temp folder fails one call, not the agent.
+def knowledge_stop_file() -> Path:
+    return Path(tempfile.gettempdir()) / KNOWLEDGE_STOP_NAME
+
+
+def _write_stop_file() -> None:
+    try:
+        knowledge_stop_file().write_text(f"{os.getpid()}\n", encoding="ascii")
+    except OSError as exc:
+        logger.error("knowledge_stop_file_failed type=%s", type(exc).__name__)
+        raise AgentError(500, "KNOWLEDGE_STOP_FAILED") from None
+
+
+# Tidiness only: a build ignores a stop file that was there when it started, and Windows may refuse
+# the delete while another process (the virus scanner) holds the file. A pause lifted before the
+# build saw the file, if the delete fails, ends that build and the watch starts it again.
+def _clear_stop_file() -> None:
+    try:
+        knowledge_stop_file().unlink(missing_ok=True)
+    except OSError as exc:
+        logger.warning("knowledge_stop_file_kept type=%s", type(exc).__name__)
+
+
+# The body of POST /knowledge/start ({"levels", "paused"}) and /knowledge/stop ({"levels"}):
+# distinct levels 1-4; anything else is refused.
+def parse_knowledge(body: bytes, *, start: bool) -> tuple[tuple[int, ...], bool]:
+    try:
+        data = json.loads(body or b"{}")
+    except ValueError:
+        raise AgentError(400, "BAD_REQUEST") from None
+    if not isinstance(data, dict) or set(data) - {"levels", "paused"}:
+        raise AgentError(400, "BAD_REQUEST")
+    levels, paused = data.get("levels"), data.get("paused", False)
+    valid = (
+        isinstance(levels, list)
+        and 0 < len(levels) <= len(KNOWLEDGE_LEVELS)
+        and all(isinstance(level, int) and not isinstance(level, bool) for level in levels)
+        and set(levels) <= KNOWLEDGE_LEVELS
+        and len(set(levels)) == len(levels)
+        and isinstance(paused, bool)
+        and (start or "paused" not in data)
+    )
+    if not valid or not isinstance(levels, list):
+        raise AgentError(400, "BAD_REQUEST")
+    return tuple(sorted(levels)), paused
+
+
 def _ollama_json(
     path: str,
     payload: dict[str, Any] | None = None,
@@ -854,7 +1135,7 @@ def _ollama_models(every_model: bool) -> list[str]:
     ]
 
 
-def _handler(agent: Agent) -> type[BaseHTTPRequestHandler]:
+def _handler(agent: Agent, knowledge: KnowledgeJobs) -> type[BaseHTTPRequestHandler]:
     class Handler(BaseHTTPRequestHandler):
         def _reply(self, status: int, payload: dict[str, Any]) -> None:
             body = json.dumps(payload).encode()
@@ -874,7 +1155,11 @@ def _handler(agent: Agent) -> type[BaseHTTPRequestHandler]:
         def do_GET(self) -> None:
             if not self._allowed():
                 return
-            actions = {"/status": agent.status, "/models": agent.models}
+            actions = {
+                "/status": agent.status,
+                "/models": agent.models,
+                "/knowledge": knowledge.status,
+            }
             action = actions.get(self.path)
             if action is None:
                 return self._reply(404, {"error": "NOT_FOUND"})
@@ -891,14 +1176,26 @@ def _handler(agent: Agent) -> type[BaseHTTPRequestHandler]:
                 "/ollama/start": agent.start_ollama,
                 "/ollama/unload": agent.unload_ollama,
                 "/ollama/unload?all=1": lambda: agent.unload_ollama(every_model=True),
+                "/knowledge/pause": knowledge.pause,
+                "/knowledge/pause?force=1": lambda: knowledge.pause(force=True),
+                "/knowledge/resume": knowledge.resume,
             }
-            if self.path in {"/ollama/load", "/ollama/release"}:
+            with_body = {"/ollama/load", "/ollama/release", "/knowledge/start", "/knowledge/stop"}
+            if self.path in with_body:
                 length = int(self.headers.get("Content-Length") or 0)
                 if not 0 < length <= MAX_BODY_BYTES:
                     return self._reply(400, {"error": "BAD_REQUEST"})
                 body = self.rfile.read(length)
                 if self.path == "/ollama/release":
                     return self._dispatch(lambda: agent.release_ollama(parse_release(body)))
+                if self.path == "/knowledge/start":
+                    return self._dispatch(
+                        lambda: knowledge.start(*parse_knowledge(body, start=True))
+                    )
+                if self.path == "/knowledge/stop":
+                    return self._dispatch(
+                        lambda: knowledge.stop(parse_knowledge(body, start=False)[0])
+                    )
                 return self._dispatch(lambda: agent.load_ollama(parse_load(body)))
             action = actions.get(self.path)
             if action is None:
@@ -921,8 +1218,18 @@ def _handler(agent: Agent) -> type[BaseHTTPRequestHandler]:
     return Handler
 
 
-def _arguments() -> tuple[AgentConfig, Path]:
+def _arguments() -> tuple[AgentConfig, Path, KnowledgeJobs]:
     parser = argparse.ArgumentParser(description=__doc__)
+    repo_dir = Path(__file__).resolve().parents[2]
+    # The knowledge build runs from this repository with its own interpreter and dependencies;
+    # its log sits under the git-ignored logs/ folder.
+    parser.add_argument("--repo-dir", type=Path, default=repo_dir)
+    parser.add_argument(
+        "--knowledge-python", type=Path, default=repo_dir / ".venv" / "Scripts" / "python.exe"
+    )
+    parser.add_argument(
+        "--knowledge-log", type=Path, default=repo_dir / "logs" / "knowledge-build.log"
+    )
     # pythonw (the logon task) has no console, so the agent writes its own log.
     parser.add_argument("--agent-log", type=Path, default=Path(r"C:\Colibri\agent.log"))
     parser.add_argument("--colibri-dir", type=Path, default=Path(r"C:\Colibri\colibri-v2.2.0"))
@@ -983,11 +1290,12 @@ def _arguments() -> tuple[AgentConfig, Path]:
         args.ollama_dir,
         args.prefill_rows,
     )
-    return config, args.agent_log
+    knowledge = KnowledgeJobs(args.repo_dir, args.knowledge_python, args.knowledge_log)
+    return config, args.agent_log, knowledge
 
 
 def main() -> None:
-    config, agent_log = _arguments()
+    config, agent_log, knowledge = _arguments()
     agent_log.parent.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(
         filename=agent_log,
@@ -995,7 +1303,7 @@ def main() -> None:
         level=logging.INFO,
         format="%(asctime)s %(levelname)s %(name)s %(message)s",
     )
-    server = ThreadingHTTPServer((LISTEN_HOST, config.port), _handler(Agent(config)))
+    server = ThreadingHTTPServer((LISTEN_HOST, config.port), _handler(Agent(config), knowledge))
     logger.info(
         "agent_listening port=%s serve_port=%s model_id=%s threads=%s cap=%s prefill_rows=%s",
         config.port,
