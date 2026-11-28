@@ -414,6 +414,47 @@ export interface LocalModelsState {
   models: LocalModel[];
   // The viewer is the admin: each model gets an unload button.
   canUnload?: boolean;
+  // The viewer is the admin and the app reads the knowledge runs: the learning button shows.
+  canLearn?: boolean;
+}
+
+// The multilevel learning control (GET /api/learning, admin only); backend.core.learning.
+export type LearningLevelStatus =
+  | "not_implemented" | "running" | "stopping" | "paused_for_report" | "queued"
+  | "published" | "partial" | "stopped" | "failed" | "not_built";
+export type LearningOutdatedReason = "model" | "prompt" | "index" | "lower_level";
+
+export interface LearningLanguageState {
+  language: "ro" | "en";
+  runStatus: string | null;
+  published: string | null;
+  model: string | null;
+  unitsDone: number | null;
+  unitsTotal: number | null;
+  outdated: LearningOutdatedReason[];
+}
+
+export interface LearningLevelState {
+  level: number;
+  implemented: boolean;
+  model: string;
+  status: LearningLevelStatus;
+  phase: string | null;
+  unitsDone: number | null;
+  unitsTotal: number | null;
+  etaSeconds: number | null;
+  outdated: LearningOutdatedReason[];
+  languages: LearningLanguageState[];
+}
+
+export interface LearningState {
+  agentAvailable: boolean;
+  indexMaintenance: boolean;
+  externalBuild: boolean;
+  pausedForReport: boolean;
+  queue: number[];
+  lastExit: { level?: number; outcome?: string; exitCode?: number | null; error?: string | null; finishedUtc?: string } | null;
+  levels: LearningLevelState[];
 }
 
 export interface MessagesResponse extends ResourceInvalidations {

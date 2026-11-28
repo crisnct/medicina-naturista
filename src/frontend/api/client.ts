@@ -7,6 +7,7 @@ import type {
   HerbEvidencePage,
   LocalModelRuntime,
   LocalModelsState,
+  LearningState,
   HerbEvidenceKind,
   HerbSafetyPage,
   HerbSafetyEvidencePage,
@@ -170,6 +171,21 @@ export const api = {
   // The local AI models in memory and their RAM/VRAM split, for the floating window.
   getLocalModels: (signal?: AbortSignal) => request<LocalModelsState>("/api/local-models", {
     signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(15000)]) : AbortSignal.timeout(15000),
+  }),
+  // The admin's multilevel learning: the levels' state, and a start or stop of one level or all.
+  getLearning: (signal?: AbortSignal) => request<LearningState>("/api/learning", {
+    signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(15000)]) : AbortSignal.timeout(15000),
+  }),
+  startLearning: (level: number | null, includeLower = false) => request<LearningState>("/api/learning/start", {
+    method: "POST",
+    body: JSON.stringify(level === null ? { all: true } : { level, include_lower: includeLower }),
+    // A start may first stop an idle vLLM report server to free the GPU.
+    signal: AbortSignal.timeout(60000),
+  }),
+  stopLearning: (level: number | null) => request<LearningState>("/api/learning/stop", {
+    method: "POST",
+    body: JSON.stringify(level === null ? { all: true } : { level }),
+    signal: AbortSignal.timeout(30000),
   }),
   search: (revision?: number) => request<MessagesResponse>("/api/search", {
     method: "POST", headers: revision === undefined ? {} : { "X-Context-Revision": String(revision) },

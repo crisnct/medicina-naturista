@@ -821,11 +821,23 @@ def _load_busy(request: Request, *, on_cpu: bool) -> bool:
 @router.get("/api/local-models")
 def get_local_models(request: Request):
     deps = _deps(request)
+    owner = getattr(request.state, "owner_authorized", False)
+    # canLearn shows the admin the multilevel learning button above the window.
+    can_learn = owner and deps.learning is not None
     reader = deps.local_models
     if reader is None:
-        return {"available": False, "partial": False, "models": [], "canUnload": False}
-    owner = getattr(request.state, "owner_authorized", False)
-    return {**reader(), "canUnload": owner and isinstance(deps.model_runtime, VllmRuntime)}
+        return {
+            "available": False,
+            "partial": False,
+            "models": [],
+            "canUnload": False,
+            "canLearn": can_learn,
+        }
+    return {
+        **reader(),
+        "canUnload": owner and isinstance(deps.model_runtime, VllmRuntime),
+        "canLearn": can_learn,
+    }
 
 
 # The admin unloads one model from the window, whatever uses it (a running report or index build

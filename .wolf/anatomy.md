@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-28T18:10:32.631Z
-> Files: 579 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-28T19:20:24.640Z
+> Files: 585 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -19,6 +19,7 @@
 
 ## .claude/
 
+- `launch.json` (~139 tok)
 - `README.md` — Project documentation (~1335 tok)
 
 ## .claude/agents/
@@ -238,6 +239,12 @@
 
 - `check_build_stop.py` — LevelOneBuild.extract with a stub model and repository: the stop file ends it between requests, (~900 tok)
 - `check_web.py` — E4a checks without GPU: pure state/ETA/plan rules, VllmRuntime pause/resume against a mocked (~2891 tok)
+
+## aiWork/e4b-preview/
+
+- `index.html` — E4b preview (~86 tok)
+- `main.tsx` — Preview harness for E4b: the real LocalModelsDock + LearningControl with a mocked API. (~1351 tok)
+- `vite.config.ts` — Declares frontend (~257 tok)
 
 ## aiWork/emb4b/
 
@@ -616,7 +623,7 @@
 ## src/backend/web/
 
 - `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~663 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~20626 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~20706 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
@@ -626,15 +633,15 @@
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~206 tok)
-- `styles.css` — Styles: 90 rules, 15 vars (~13052 tok)
+- `styles.css` — Styles: 90 rules, 15 vars (~16334 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 - `zz_tmp_app.test.tsx` — node (~996 tok)
 
 ## src/frontend/api/
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
-- `client.ts` — API routes: GET (1 endpoints) (~3102 tok)
-- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~4349 tok)
+- `client.ts` — API routes: GET (1 endpoints) (~3952 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~4737 tok)
 
 ## src/frontend/components/
 
@@ -657,6 +664,7 @@
 - `Hero.tsx` — Hero (~868 tok)
 - `HeroEmblem.tsx` — Emblems for the hero kicker. Hero.tsx renders one of them; to switch back, change the import (~943 tok)
 - `LanguageSelect.tsx` — Names are shown in the other language than the interface's, so a visitor stuck in the wrong (~1503 tok)
+- `LearningControl.tsx` — STATUS_LABELS — renders table, modal (~4334 tok)
 - `LocalModelsDock.tsx` — RUNTIMES (~1518 tok)
 - `MessageBubble.tsx` — MessageBubble (~970 tok)
 - `ModelWarmupDialog.tsx` — gigabytes — renders modal (~1798 tok)
@@ -669,6 +677,7 @@
 - `useCategories.test.tsx` — client (~350 tok)
 - `useCategories.ts` — Exports useCategories (~604 tok)
 - `useConversation.ts` — Exports useConversation (~2537 tok)
+- `useLearning.ts` — Exports LEARNING_REFRESH_OPEN_MS, LEARNING_REFRESH_CLOSED_MS, useLearning, useStartLearning, useStop (~403 tok)
 - `useLocalModels.ts` — The server caches one answer for every visitor for 5 s, so asking more often gains nothing. (~146 tok)
 - `useMinScore.ts` — The "Scor minim" chosen for a search, shared by its fragments filter and by the (~222 tok)
 - `useOutputRecommendation.ts` — Exports OutputRecommendation, useOutputRecommendation (~444 tok)
@@ -689,7 +698,7 @@
 - `backup_database.bat` (~552 tok)
 - `backup_database.ps1` — Declares Invoke (~403 tok)
 - `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~21606 tok)
-- `build_knowledge.py` — Build the multilevel knowledge from the index fragments (plan 2026-11-27); level 1 for now. (~9996 tok)
+- `build_knowledge.py` — Build the multilevel knowledge from the index fragments (plan 2026-11-27); level 1 for now. (~9978 tok)
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20376 tok)
 - `colibri_agent_startup.ps1` — Registers (or with -Remove deletes) the logon task that runs the Colibri host agent. (~622 tok)

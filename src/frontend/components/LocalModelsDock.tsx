@@ -2,6 +2,7 @@ import { useState } from "react";
 import type { LocalModel, LocalModelRuntime } from "../api/types";
 import { useLocalModels, useUnloadLocalModel } from "../hooks/useLocalModels";
 import { tr } from "../lib/texts";
+import { LearningControl } from "./LearningControl";
 
 const RUNTIMES: LocalModelRuntime[] = ["ollama", "vllm", "colibri"];
 const RUNTIME_LABELS = {
@@ -56,7 +57,8 @@ function Placement({ model }: { model: LocalModel }) {
   );
 }
 
-// The local AI models in memory right now, fixed at the lower right; collapsible into a pill.
+// The local AI models in memory right now, fixed at the lower right; collapsible into a pill. The
+// admin's multilevel learning button sits above it.
 export function LocalModelsDock() {
   const [open, setOpen] = useState(initiallyOpen);
   const query = useLocalModels();
@@ -73,66 +75,73 @@ export function LocalModelsDock() {
     }
   };
 
+  const learning = state?.canLearn ? <LearningControl /> : null;
   if (!open) {
     return (
-      <button type="button" className="local-models-pill" aria-expanded="false"
-        aria-label={tr("interface.local_models_toggle_open")} title={tr("interface.local_models_title")}
-        onClick={() => toggle(true)}>
-        <span aria-hidden="true">🧠</span>
-        {state?.available && <span className="local-models-count">{models.length}</span>}
-      </button>
+      <div className="local-dock-stack">
+        {learning}
+        <button type="button" className="local-models-pill" aria-expanded="false"
+          aria-label={tr("interface.local_models_toggle_open")} title={tr("interface.local_models_title")}
+          onClick={() => toggle(true)}>
+          <span aria-hidden="true">🧠</span>
+          {state?.available && <span className="local-models-count">{models.length}</span>}
+        </button>
+      </div>
     );
   }
 
   const unavailable = query.isError || (state !== undefined && !state.available);
   return (
-    <aside className="local-models-dock" aria-label={tr("interface.local_models_title")}>
-      <header className="local-models-header">
-        <h2>{tr("interface.local_models_title")}</h2>
-        <button type="button" className="local-models-collapse" aria-expanded="true"
-          aria-label={tr("interface.local_models_toggle_close")} title={tr("interface.local_models_toggle_close")}
-          onClick={() => toggle(false)}>
-          <span aria-hidden="true">−</span>
-        </button>
-      </header>
-      {unavailable ? (
-        <p className="local-models-note">{tr("interface.local_models_unavailable")}</p>
-      ) : state === undefined ? (
-        <span className="loader" aria-hidden="true" />
-      ) : models.length === 0 ? (
-        <p className="local-models-note">{tr("interface.local_models_empty")}</p>
-      ) : (
-        RUNTIMES.filter((runtime) => models.some((model) => model.runtime === runtime)).map((runtime) => (
-          <section key={runtime} className="local-models-group">
-            <h3>{tr(RUNTIME_LABELS[runtime])}</h3>
-            <ul>
-              {models.filter((model) => model.runtime === runtime).map((model) => (
-                <li key={`${runtime}:${model.name}`} className="local-model">
-                  <div className="local-model-line">
-                    <span className="local-model-name">{model.name}</span>
-                    {model.loading && <span className="local-model-loading">{tr("interface.local_models_loading")}</span>}
-                    <Placement model={model} />
-                    {state?.canUnload && (
-                      <button type="button" className="local-model-unload"
-                        aria-label={tr("interface.local_models_unload", { name: model.name })}
-                        title={tr("interface.local_models_unload", { name: model.name })}
-                        disabled={unload.isPending}
-                        onClick={() => unload.mutate(model)}>
-                        <span aria-hidden="true">{unload.isPending && unload.variables?.id === model.id ? "…" : "×"}</span>
-                      </button>
-                    )}
-                  </div>
-                  {model.roles.map((role) => (
-                    <p key={role} className="local-model-role">{tr(ROLE_LABELS[role])}</p>
-                  ))}
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))
-      )}
-      {state?.available && state.partial && <p className="local-models-note">{tr("interface.local_models_partial")}</p>}
-      {unload.isError && <p className="local-models-note" role="alert">{tr("interface.local_models_unload_failed")}</p>}
-    </aside>
+    <div className="local-dock-stack">
+      {learning}
+      <aside className="local-models-dock" aria-label={tr("interface.local_models_title")}>
+        <header className="local-models-header">
+          <h2>{tr("interface.local_models_title")}</h2>
+          <button type="button" className="local-models-collapse" aria-expanded="true"
+            aria-label={tr("interface.local_models_toggle_close")} title={tr("interface.local_models_toggle_close")}
+            onClick={() => toggle(false)}>
+            <span aria-hidden="true">−</span>
+          </button>
+        </header>
+        {unavailable ? (
+          <p className="local-models-note">{tr("interface.local_models_unavailable")}</p>
+        ) : state === undefined ? (
+          <span className="loader" aria-hidden="true" />
+        ) : models.length === 0 ? (
+          <p className="local-models-note">{tr("interface.local_models_empty")}</p>
+        ) : (
+          RUNTIMES.filter((runtime) => models.some((model) => model.runtime === runtime)).map((runtime) => (
+            <section key={runtime} className="local-models-group">
+              <h3>{tr(RUNTIME_LABELS[runtime])}</h3>
+              <ul>
+                {models.filter((model) => model.runtime === runtime).map((model) => (
+                  <li key={`${runtime}:${model.name}`} className="local-model">
+                    <div className="local-model-line">
+                      <span className="local-model-name">{model.name}</span>
+                      {model.loading && <span className="local-model-loading">{tr("interface.local_models_loading")}</span>}
+                      <Placement model={model} />
+                      {state?.canUnload && (
+                        <button type="button" className="local-model-unload"
+                          aria-label={tr("interface.local_models_unload", { name: model.name })}
+                          title={tr("interface.local_models_unload", { name: model.name })}
+                          disabled={unload.isPending}
+                          onClick={() => unload.mutate(model)}>
+                          <span aria-hidden="true">{unload.isPending && unload.variables?.id === model.id ? "…" : "×"}</span>
+                        </button>
+                      )}
+                    </div>
+                    {model.roles.map((role) => (
+                      <p key={role} className="local-model-role">{tr(ROLE_LABELS[role])}</p>
+                    ))}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))
+        )}
+        {state?.available && state.partial && <p className="local-models-note">{tr("interface.local_models_partial")}</p>}
+        {unload.isError && <p className="local-models-note" role="alert">{tr("interface.local_models_unload_failed")}</p>}
+      </aside>
+    </div>
   );
 }

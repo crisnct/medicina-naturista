@@ -392,6 +392,82 @@ local_models_role_unknown = "Ollama model loaded outside the app."
 local_models_unload = "Unload {name} from memory"
 local_models_unload_failed = "The model could not be unloaded."
 
+# Multilevel learning control (admin only); plan 2026-11-27, 5.4b.
+learning_title = "Multilevel learning"
+learning_open = "Open the multilevel learning control"
+learning_close = "Close"
+learning_summary_stopped = "stopped"
+learning_summary_unavailable = "state unavailable"
+# Parameters: eta, level
+learning_summary_running = "L{level} running · {eta} left"
+# Parameters: level
+learning_summary_estimating = "L{level} running · estimating…"
+# Parameters: level
+learning_summary_stopping = "L{level} stopping…"
+# Parameters: level
+learning_summary_paused = "L{level} paused for a report"
+# Parameters: level
+learning_summary_queued = "L{level} queued"
+learning_start_note = "Learning uses the GPU and the local models. Reports with local models come first: when one starts, learning pauses and goes on after it. You can stop it at any time."
+learning_stop_note = "The level stops after the current batch and saves its progress. The next start continues where it left off. Published levels stay active."
+learning_agent_unavailable = "The LLM host agent does not answer: the state shows, but the levels cannot be started or stopped right now."
+learning_index_maintenance = "The index is being synchronized; learning can start once it ends."
+learning_external_build = "A knowledge build started from the terminal is running. “Stop all” stops it too."
+learning_paused_for_report = "Learning is paused: a report with a local model is using the GPU. It goes on by itself after the report."
+# Parameters: error, level
+learning_last_failed = "The last L{level} run failed ({error}). Details in logs/knowledge-build.log."
+learning_last_failed_unknown = "unknown code"
+learning_column_level = "Level"
+learning_column_status = "State"
+learning_column_progress = "Progress"
+learning_column_eta = "ETA"
+learning_column_model = "Model"
+learning_column_command = "Command"
+learning_level_1 = "Claims and questions"
+learning_level_2 = "Dossiers"
+learning_level_3 = "Themes and patterns"
+learning_level_4 = "Connections and hypotheses"
+learning_status_not_implemented = "not implemented yet"
+learning_status_running = "running"
+learning_status_stopping = "stopping…"
+learning_status_paused_for_report = "paused for a report"
+learning_status_queued = "queued"
+learning_status_published = "published"
+learning_status_partial = "partly published"
+learning_status_stopped = "stopped, progress saved"
+learning_status_failed = "failed"
+learning_status_not_built = "not built"
+# Parameters: reasons
+learning_outdated = "outdated: {reasons}"
+learning_outdated_model = "another model"
+learning_outdated_prompt = "another prompt"
+learning_outdated_index = "index changed"
+learning_outdated_lower_level = "lower level republished"
+# Parameters: date, language
+learning_language_published = "{language}: published {date}"
+# Parameters: language
+learning_language_not_published = "{language}: not published"
+# Parameters: done, total
+learning_units = "{done} / {total} fragments"
+learning_phase_extracting = "extraction"
+learning_phase_embedding = "computing the vectors"
+learning_eta_estimating = "estimating…"
+learning_eta_note = "ETA without pauses and without the final vector computation."
+learning_eta_less_than_minute = "< 1 min"
+# Parameters: minutes
+learning_eta_minutes = "~{minutes} min"
+# Parameters: hours, minutes
+learning_eta_hours = "~{hours} h {minutes} min"
+learning_start = "Start"
+learning_stop = "Stop"
+learning_cancel = "Cancel"
+learning_start_all = "Start all levels, in order"
+learning_stop_all = "Stop all"
+learning_confirm_yes = "Yes, in order"
+learning_confirm_no = "No"
+learning_command_failed = "The command could not be sent. Try again."
+learning_state_failed = "The learning state cannot be read right now."
+
 [conversation]
 search_not_allowed = "This message does not start an excerpt search."
 condition_singular = "condition"

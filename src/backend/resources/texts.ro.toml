@@ -421,6 +421,82 @@ local_models_role_unknown = "Model Ollama încărcat în afara aplicației."
 local_models_unload = "Descarcă {name} din memorie"
 local_models_unload_failed = "Modelul nu a putut fi descărcat."
 
+# Multilevel learning control (admin only); plan 2026-11-27, 5.4b.
+learning_title = "Învățare multinivel"
+learning_open = "Deschide controlul învățării multinivel"
+learning_close = "Închide"
+learning_summary_stopped = "oprită"
+learning_summary_unavailable = "stare indisponibilă"
+# Parameters: eta, level
+learning_summary_running = "L{level} rulează · {eta} rămase"
+# Parameters: level
+learning_summary_estimating = "L{level} rulează · se estimează…"
+# Parameters: level
+learning_summary_stopping = "L{level} se oprește…"
+# Parameters: level
+learning_summary_paused = "L{level} în pauză pentru un raport"
+# Parameters: level
+learning_summary_queued = "L{level} în așteptare"
+learning_start_note = "Învățarea folosește GPU-ul și modelele locale. Rapoartele cu modele locale au prioritate: când pornește unul, învățarea se pune pe pauză și continuă după. Poți opri oricând."
+learning_stop_note = "Nivelul se oprește după lotul curent și salvează progresul. Pornirea următoare continuă de unde a rămas. Nivelurile publicate rămân active."
+learning_agent_unavailable = "Agentul LLM de pe host nu răspunde: starea se vede, dar nivelurile nu pot fi pornite sau oprite acum."
+learning_index_maintenance = "Indexul se sincronizează acum; învățarea poate porni după ce se termină."
+learning_external_build = "Rulează o construire a cunoștințelor pornită din terminal. „Oprește tot” o oprește și pe ea."
+learning_paused_for_report = "Învățarea e în pauză: un raport cu model local folosește GPU-ul. Continuă singură după raport."
+# Parameters: error, level
+learning_last_failed = "Ultima rulare L{level} a eșuat ({error}). Detalii în logs/knowledge-build.log."
+learning_last_failed_unknown = "cod necunoscut"
+learning_column_level = "Nivel"
+learning_column_status = "Stare"
+learning_column_progress = "Progres"
+learning_column_eta = "ETA"
+learning_column_model = "Model"
+learning_column_command = "Comandă"
+learning_level_1 = "Afirmații și întrebări"
+learning_level_2 = "Dosare"
+learning_level_3 = "Teme și tipare"
+learning_level_4 = "Conexiuni și ipoteze"
+learning_status_not_implemented = "neimplementat încă"
+learning_status_running = "rulează"
+learning_status_stopping = "se oprește…"
+learning_status_paused_for_report = "în pauză pentru un raport"
+learning_status_queued = "în așteptare"
+learning_status_published = "publicat"
+learning_status_partial = "publicat parțial"
+learning_status_stopped = "oprit, progres salvat"
+learning_status_failed = "eșuat"
+learning_status_not_built = "neconstruit"
+# Parameters: reasons
+learning_outdated = "neactualizat: {reasons}"
+learning_outdated_model = "alt model"
+learning_outdated_prompt = "alt prompt"
+learning_outdated_index = "index schimbat"
+learning_outdated_lower_level = "nivelul inferior republicat"
+# Parameters: date, language
+learning_language_published = "{language}: publicat {date}"
+# Parameters: language
+learning_language_not_published = "{language}: nepublicat"
+# Parameters: done, total
+learning_units = "{done} / {total} fragmente"
+learning_phase_extracting = "extragere"
+learning_phase_embedding = "calculul vectorilor"
+learning_eta_estimating = "se estimează…"
+learning_eta_note = "ETA fără pauze și fără calculul final al vectorilor."
+learning_eta_less_than_minute = "< 1 min"
+# Parameters: minutes
+learning_eta_minutes = "~{minutes} min"
+# Parameters: hours, minutes
+learning_eta_hours = "~{hours} h {minutes} min"
+learning_start = "Pornește"
+learning_stop = "Oprește"
+learning_cancel = "Anulează"
+learning_start_all = "Pornește toate nivelurile, în ordine"
+learning_stop_all = "Oprește tot"
+learning_confirm_yes = "Da, în ordine"
+learning_confirm_no = "Nu"
+learning_command_failed = "Comanda nu a putut fi trimisă. Încearcă din nou."
+learning_state_failed = "Starea învățării nu poate fi citită acum."
+
 [conversation]
 search_not_allowed = "Acest mesaj nu pornește o căutare de fragmente."
 condition_singular = "afecțiune"

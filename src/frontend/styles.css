@@ -1721,13 +1721,21 @@ p.source-important {
 .resource-check-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
 @media (prefers-reduced-motion: reduce) { .model-warmup-spinner { animation: none; } }
 
-/* The local AI models in memory: fixed at the lower right, outside the 640 px column. */
-.local-models-dock,
-.local-models-pill {
+/* The local AI models in memory, with the admin's learning button above them: fixed at the lower
+   right, outside the 640 px column. */
+.local-dock-stack {
     position: fixed;
     right: 12px;
     bottom: 12px;
     z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+}
+.local-models-dock,
+.local-models-pill,
+.learning-button {
     font-family: "Roboto Condensed", Arial, sans-serif;
     color: var(--nature-text);
     background: var(--nature-surface);
@@ -1756,10 +1764,10 @@ p.source-important {
 /* Beside the chat column (640 px, centred): its left edge 12 px right of the column's border, where
    the window fits next to it (2 × (320 + 12 + 220 + 12) px); narrower screens keep it at the right. */
 @media (min-width: 1128px) {
-    .local-models-dock,
-    .local-models-pill {
+    .local-dock-stack {
         right: auto;
         left: calc(50% + 332px);
+        align-items: flex-start;
     }
 }
 .local-models-count {
@@ -1797,6 +1805,7 @@ p.source-important {
     cursor: pointer;
 }
 .local-models-pill:focus-visible,
+.learning-button:focus-visible,
 .local-models-collapse:focus-visible { outline: 3px solid var(--nature-focus); outline-offset: 2px; }
 .local-models-group h3 {
     margin: 5px 0 1px;
@@ -1882,3 +1891,122 @@ p.source-important {
     font-size: 11px;
     color: var(--nature-muted);
 }
+
+/* The admin's multilevel learning: the button above the local models and its window of levels. */
+.learning-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    max-width: min(220px, calc(100vw - 24px));
+    padding: 4px 9px;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 1.25;
+    text-align: left;
+    cursor: pointer;
+}
+.learning-button:hover { background: var(--nature-soft); }
+.learning-button-text { display: flex; flex-direction: column; min-width: 0; }
+.learning-button-title { font-weight: 700; color: var(--nature-primary); }
+.learning-button-state { font-size: 11px; color: var(--nature-muted); overflow-wrap: anywhere; }
+.learning-dialog {
+    width: min(880px, calc(100vw - 32px));
+    max-height: calc(100vh - 32px);
+    padding: 20px 24px;
+    border: 1px solid var(--nature-border);
+    border-radius: 14px;
+    background: var(--nature-surface);
+    color: var(--nature-text);
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.learning-dialog::backdrop { background: rgb(0 0 0 / .5); }
+.learning-dialog button { font-family: inherit; }
+.learning-dialog-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.learning-dialog-header h2 { margin: 0; color: var(--nature-primary); font-size: 20px; line-height: 1.3; }
+.learning-dialog-close {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 1px solid var(--nature-border);
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 1;
+    color: var(--nature-text);
+    background: var(--nature-soft);
+    cursor: pointer;
+}
+.learning-note, .learning-footnote { color: var(--nature-muted); }
+.learning-footnote { font-size: 12px; }
+.learning-alert, .learning-info { padding: 8px 10px; border-radius: 8px; }
+.learning-alert { color: var(--nature-warning); background: #fff1e3; }
+.learning-info { color: var(--nature-primary); background: var(--nature-soft); }
+.learning-table-wrap { overflow-x: auto; }
+.learning-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.learning-table th,
+.learning-table td {
+    padding: 8px 6px;
+    border-top: 1px solid var(--nature-border);
+    text-align: left;
+    vertical-align: top;
+}
+.learning-table thead th {
+    border-top: 0;
+    font-size: 11px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: var(--nature-muted);
+    white-space: nowrap;
+}
+.learning-level { display: block; font-size: 15px; font-weight: 700; color: var(--nature-primary); }
+.learning-level-name { display: block; font-size: 12px; font-weight: 400; color: var(--nature-muted); }
+.learning-row-disabled .learning-level { color: var(--nature-muted); }
+.learning-status { font-weight: 700; }
+.learning-status-running, .learning-status-stopping, .learning-status-paused_for_report { color: var(--nature-primary); }
+.learning-status-published { color: var(--nature-success); }
+.learning-status-failed { color: var(--nature-danger); }
+.learning-status-not_implemented { font-weight: 400; color: var(--nature-muted); }
+.learning-outdated { display: block; font-size: 12px; color: var(--nature-warning); }
+.learning-languages { margin: 4px 0 0; padding: 0; list-style: none; font-size: 12px; color: var(--nature-muted); }
+.learning-progress {
+    display: block;
+    width: 100%;
+    max-width: 140px;
+    height: 4px;
+    margin: 4px 0;
+    overflow: hidden;
+    border-radius: 2px;
+    background: var(--nature-border);
+}
+.learning-progress > span { display: block; height: 100%; background: var(--nature-primary); }
+.learning-phase { font-size: 12px; color: var(--nature-muted); }
+.learning-eta { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.learning-model { font-size: 12px; overflow-wrap: anywhere; }
+/* On a phone the command column matters more than the model name. */
+@media (max-width: 640px) {
+    .learning-dialog { width: calc(100vw - 16px); max-width: none; padding: 12px; }
+    .learning-table { font-size: 12px; }
+    .learning-table th, .learning-table td { padding: 6px 3px; }
+    .learning-table .learning-model { display: none; }
+    .learning-command { padding: 4px 8px; }
+}
+.learning-command {
+    min-height: 32px;
+    padding: 4px 12px;
+    border: 1px solid #899f94;
+    border-radius: 10px;
+    background: #fffdf9;
+    color: var(--nature-primary);
+    white-space: nowrap;
+    cursor: pointer;
+}
+.learning-command:hover:not(:disabled) { background: var(--nature-soft); }
+.learning-command-stop { border-color: var(--nature-danger); color: var(--nature-danger); }
+.learning-command-stop:hover:not(:disabled) { color: #fff; background: var(--nature-danger); }
+.learning-command:disabled { opacity: .5; }
+.learning-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.learning-dialog .learning-primary { position: static; width: auto; margin-top: 0; box-shadow: none; }
+.learning-dialog .learning-primary:disabled { opacity: .5; cursor: not-allowed; }
+.learning-confirm { margin-top: 12px; padding: 10px 12px; border: 1px solid var(--nature-accent); border-radius: 10px; }
+.learning-confirm p { margin: 0; }

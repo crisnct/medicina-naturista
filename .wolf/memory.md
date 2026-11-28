@@ -4193,3 +4193,33 @@ description: chronological action log per session, consolidated weekly
 | 20:10 | Edited src/scripts/build_knowledge.py | 8→8 lines | ~91 |
 | 20:10 | Edited src/scripts/build_knowledge.py | inline fix | ~14 |
 | 20:10 | Edited src/scripts/build_knowledge.py | 4→8 lines | ~101 |
+
+## Session: 2026-11-28 20:48
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:53 | Edited src/backend/web/main.py | expanded (+12 lines) | ~165 |
+| 20:54 | Edited src/frontend/api/types.ts | expanded (+41 lines) | ~413 |
+| 20:54 | Edited src/frontend/api/client.ts | 2→3 lines | ~16 |
+| 20:54 | Edited src/frontend/api/client.ts | expanded (+14 lines) | ~249 |
+| 20:54 | Edited src/frontend/api/client.ts | 2→3 lines | ~61 |
+| 20:54 | Created src/frontend/hooks/useLearning.ts | — | ~396 |
+| 20:56 | Created src/frontend/components/LearningControl.tsx | — | ~4316 |
+| 20:56 | Edited src/frontend/components/LearningControl.tsx | inline fix | ~24 |
+| 20:56 | Edited src/frontend/components/LearningControl.tsx | CSS: error | ~76 |
+| 20:56 | Edited src/frontend/components/LearningControl.tsx | inline fix | ~10 |
+| 20:56 | Edited src/frontend/hooks/useLearning.ts | modified useLearning() | ~58 |
+| 20:56 | Edited src/frontend/components/LearningControl.tsx | inline fix | ~6 |
+| 21:00 | Created aiWork/e4b-preview/main.tsx | — | ~1351 |
+| 21:00 | Created aiWork/e4b-preview/index.html | — | ~67 |
+| 21:00 | Created aiWork/e4b-preview/vite.config.ts | — | ~257 |
+| 21:00 | Edited .claude/launch.json | expanded (+6 lines) | ~68 |
+| 21:01 | Edited aiWork/e4b-preview/index.html | inline fix | ~26 |
+| 21:01 | Edited src/frontend/components/LearningControl.tsx | inline fix | ~30 |
+| 21:01 | Edited src/frontend/styles.css | CSS: max-width, padding, display | ~74 |
+| 21:01 | Edited src/frontend/styles.css | CSS: width, max-width, font-size | ~83 |
+| 21:02 | Edited .claude/launch.json | removed 8 lines | ~3 |
+| 21:17 | Session end: 83 writes across 18 files (learning.py, build_knowledge.py, llm_host_agent.py, llm_host_agent_startup.ps1, llm_orchestrator.py) | 8 reads | ~38107 tok |
+| 21:17 | Session end: 5 writes across 4 files (047_knowledge_levels.sql, config.py, docker-compose.yaml, AGENTS.md) | 3 reads | ~3687 tok |
+| 21:17 | Session end: 15 writes across 6 files (knowledge_l1_system.md, knowledge_l1.py, knowledge_repository.py, build_knowledge.py, check_e3.py) | 5 reads | ~26760 tok |
+| 21:20 | Edited src/scripts/build_knowledge.py | server() → qwen35() | ~47 |

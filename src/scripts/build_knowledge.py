@@ -63,8 +63,9 @@ from backend.core.report_models import REPORT_MODELS, ReportModel
 logger = logging.getLogger("naturist.knowledge")
 
 LEVEL = 1
-# Parallel requests to a vLLM server (E0: 467 tok/s aggregate at 16); Ollama serves one at a time.
-VLLM_PARALLEL = 16
+# Parallel requests to a vLLM server: the --max-num-seqs of vllm-qwen35 (E0 measured 467 tok/s
+# aggregate at 16); Ollama serves one at a time.
+VLLM_PARALLEL = 24
 OLLAMA_CONTEXT = 16_384
 MAX_OUTPUT_TOKENS = 4_096
 REQUEST_TIMEOUT_SECONDS = 900.0

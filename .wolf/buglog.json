@@ -11440,8 +11440,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-636",
       "timestamp": "2026-11-25T06:17:20.543Z",
-      "last_seen": "2026-11-25T06:17:20.543Z",
-      "occurrences": 1,
+      "last_seen": "2026-11-28T18:53:42.995Z",
+      "occurrences": 2,
       "related_bugs": []
     },
     {
@@ -12505,6 +12505,96 @@
       "last_seen": "2026-11-28T18:10:32.663Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: HerbEvidenceKind should be LearningState",
+      "file": "src/frontend/api/client.ts",
+      "root_cause": "Used \"HerbEvidenceKind\" instead of \"LearningState\"",
+      "fix": "Changed HerbEvidenceKind → LearningState",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-696",
+      "timestamp": "2026-11-28T18:54:07.290Z",
+      "last_seen": "2026-11-28T18:54:07.290Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: message",
+      "file": "src/frontend/components/LearningControl.tsx",
+      "root_cause": "message: tr(\"interface.learning_command_failed\") → tr(\"interface.learning_state_failed\")",
+      "fix": "Changed message: tr(\"interface.learning_command_failed\") → tr(\"interface.learning_state_failed\")",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-697",
+      "timestamp": "2026-11-28T18:56:38.186Z",
+      "last_seen": "2026-11-28T18:56:38.186Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: true should be open",
+      "file": "src/frontend/components/LearningControl.tsx",
+      "root_cause": "Used \"true\" instead of \"open\"",
+      "fix": "Changed true → open",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-698",
+      "timestamp": "2026-11-28T18:56:40.498Z",
+      "last_seen": "2026-11-28T18:56:40.498Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/LearningControl.tsx",
+      "root_cause": "Had \"interface.learning_column_model\"",
+      "fix": "Changed to \"learning-model\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-699",
+      "timestamp": "2026-11-28T19:01:43.767Z",
+      "last_seen": "2026-11-28T19:01:43.767Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: padding",
+      "file": "src/frontend/styles.css",
+      "root_cause": "padding: 16px → 4px 8px",
+      "fix": "Changed padding: 16px → 4px 8px",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-700",
+      "timestamp": "2026-11-28T19:01:59.492Z",
+      "last_seen": "2026-11-28T19:01:59.492Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -13250,7 +13340,13 @@
     "08640fa1-a89a-43c6-ab2e-20b0531f0715": true,
     "c500c9b0-61b3-40a5-8c60-2feb75408954": true,
     "271bb828-9770-40dd-be5b-9951b40a2375": true,
-    "5263dbb7-6903-410c-864e-1f46c7650e0f": true
+    "5263dbb7-6903-410c-864e-1f46c7650e0f": true,
+    "a5a97c96-afbe-4e1c-beb9-e2fe6fc0933f": true,
+    "15540a34-72a9-4111-9e45-777d82d4631e": true,
+    "21471c31-e003-4dde-834c-97345191dc31": true,
+    "c9583ed7-bba4-4527-a655-75cd9d3e5f49": true,
+    "15321c11-e68d-4cef-a4d0-7d4b60aaa6a2": true,
+    "290bb06b-7cb4-4cc4-93b1-859c8adce0ae": true
   },
-  "next_id": 696
+  "next_id": 701
 }

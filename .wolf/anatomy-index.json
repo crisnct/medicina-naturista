@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-28T18:10:32.631Z",
-    "fileCount": 579,
+    "lastScanned": "2026-11-28T19:20:24.640Z",
+    "fileCount": 585,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "4db9f71255ebe8b81a39b251aac30dddb94ff6d943e3a27237cec96ae66fce42",
-    "storeUpdatedAt": "2026-11-28T18:10:32.643Z",
-    "rootHash": "6a6ba77936fba6ab"
+    "renderedHash": "84924e5db14426eee9d635a1f96634752a1ce1e005b1ed3579ca7e5a8eb6092c",
+    "storeUpdatedAt": "2026-11-28T19:20:24.652Z",
+    "rootHash": "17a672add91ed10f"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -170,11 +170,11 @@
     },
     "src/frontend/styles.css": {
       "description": "Styles: 90 rules, 15 vars",
-      "tokens": 13052,
-      "hash": "0e426835a3b5582b",
-      "size": 45683,
-      "mtimeMs": 1795606818443.7407,
-      "updatedAt": "2026-11-25T11:40:18.684Z",
+      "tokens": 16334,
+      "hash": "62dfeec7e639f1f3",
+      "size": 57172,
+      "mtimeMs": 1795892519217.9524,
+      "updatedAt": "2026-11-28T19:01:59.459Z",
       "source": "hook"
     },
     "src/backend/core/texts.py": {
@@ -369,11 +369,11 @@
     },
     "src/backend/web/main.py": {
       "description": "FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits.",
-      "tokens": 20626,
-      "hash": "0e8b962ffd8480fb",
-      "size": 72192,
-      "mtimeMs": 1795885848270.437,
-      "updatedAt": "2026-11-28T17:10:48.496Z",
+      "tokens": 20706,
+      "hash": "8ea6a9f9f8714b6d",
+      "size": 72472,
+      "mtimeMs": 1795892022046.223,
+      "updatedAt": "2026-11-28T18:53:42.856Z",
       "source": "hook",
       "symbols": [
         {
@@ -583,8 +583,8 @@
           "name": "startup_status",
           "kind": "fn",
           "startLine": 432,
-          "endLine": 1824,
-          "tokens": 16046
+          "endLine": 1836,
+          "tokens": 16126
         }
       ]
     },
@@ -2913,53 +2913,53 @@
     },
     "src/frontend/api/client.ts": {
       "description": "API routes: GET (1 endpoints)",
-      "tokens": 3102,
-      "hash": "3620bd08b708a6a0",
-      "size": 10858,
-      "mtimeMs": 1794727869539.6418,
-      "updatedAt": "2026-11-15T07:31:09.762Z",
+      "tokens": 3952,
+      "hash": "b136ad83256f5002",
+      "size": 13836,
+      "mtimeMs": 1795892071318.7395,
+      "updatedAt": "2026-11-28T18:54:32.234Z",
       "source": "hook",
       "symbols": [
         {
           "name": "getTabId",
           "kind": "fn",
-          "startLine": 34,
-          "endLine": 37,
+          "startLine": 39,
+          "endLine": 42,
           "tokens": 14
         },
         {
           "name": "ApiError",
           "kind": "class",
-          "startLine": 38,
-          "endLine": 52,
+          "startLine": 43,
+          "endLine": 57,
           "tokens": 208
         },
         {
           "name": "herbImageUrl",
           "kind": "fn",
-          "startLine": 53,
-          "endLine": 56,
+          "startLine": 58,
+          "endLine": 61,
           "tokens": 31
         },
         {
           "name": "request",
           "kind": "fn",
-          "startLine": 57,
-          "endLine": 179,
-          "tokens": 2115
+          "startLine": 62,
+          "endLine": 229,
+          "tokens": 2994
         },
         {
           "name": "errorMessage",
           "kind": "fn",
-          "startLine": 180,
-          "endLine": 197,
+          "startLine": 230,
+          "endLine": 247,
           "tokens": 346
         },
         {
           "name": "isSessionUnavailable",
           "kind": "fn",
-          "startLine": 198,
-          "endLine": 203,
+          "startLine": 248,
+          "endLine": 253,
           "tokens": 60
         }
       ]
@@ -4067,11 +4067,11 @@
     },
     "src/frontend/api/types.ts": {
       "description": "Mirrors the JSON shapes produced by backend/web/main.py and",
-      "tokens": 4349,
-      "hash": "97de75dc63eb747a",
-      "size": 15228,
-      "mtimeMs": 1795874629831.704,
-      "updatedAt": "2026-11-28T14:03:50.072Z",
+      "tokens": 4737,
+      "hash": "3837fe435f06a278",
+      "size": 16584,
+      "mtimeMs": 1795892042615.0188,
+      "updatedAt": "2026-11-28T18:54:03.440Z",
       "source": "hook",
       "symbols": [
         {
@@ -4281,8 +4281,8 @@
           "name": "ResourceCheck",
           "kind": "section",
           "startLine": 323,
-          "endLine": 456,
-          "tokens": 1232
+          "endLine": 497,
+          "tokens": 1620
         }
       ]
     },
@@ -15584,54 +15584,54 @@
     },
     "src/scripts/build_knowledge.py": {
       "description": "Build the multilevel knowledge from the index fragments (plan 2026-11-27); level 1 for now.",
-      "tokens": 9996,
-      "hash": "f71003c59a72c5f2",
-      "size": 34993,
-      "mtimeMs": 1795889432408.3916,
-      "updatedAt": "2026-11-28T18:10:32.630Z",
+      "tokens": 9978,
+      "hash": "56c1feafc349ea71",
+      "size": 34930,
+      "mtimeMs": 1795893624381.0286,
+      "updatedAt": "2026-11-28T19:20:24.639Z",
       "source": "hook",
       "symbols": [
         {
           "name": "BuildStopped",
           "kind": "class",
-          "startLine": 91,
-          "endLine": 94,
+          "startLine": 92,
+          "endLine": 95,
           "tokens": 36
         },
         {
           "name": "StopSignal",
           "kind": "class",
-          "startLine": 95,
-          "endLine": 115,
+          "startLine": 96,
+          "endLine": 116,
           "tokens": 200
         },
         {
           "name": "Answer",
           "kind": "class",
-          "startLine": 116,
-          "endLine": 120,
+          "startLine": 117,
+          "endLine": 121,
           "tokens": 15
         },
         {
           "name": "KnowledgeModel",
           "kind": "class",
-          "startLine": 121,
-          "endLine": 301,
+          "startLine": 122,
+          "endLine": 302,
           "tokens": 2312
         },
         {
           "name": "_Slot",
           "kind": "class",
-          "startLine": 302,
-          "endLine": 317,
+          "startLine": 303,
+          "endLine": 318,
           "tokens": 112
         },
         {
           "name": "LevelOneBuild",
           "kind": "class",
-          "startLine": 318,
+          "startLine": 319,
           "endLine": 562,
-          "tokens": 2870
+          "tokens": 2839
         },
         {
           "name": "_review_entry",
@@ -15998,6 +15998,155 @@
           "tokens": 395
         }
       ]
+    },
+    "src/frontend/hooks/useLearning.ts": {
+      "description": "Exports LEARNING_REFRESH_OPEN_MS, LEARNING_REFRESH_CLOSED_MS, useLearning, useStartLearning, useStop",
+      "tokens": 403,
+      "hash": "7c2daa449ed3e8ad",
+      "size": 1408,
+      "mtimeMs": 1795892202592.5642,
+      "updatedAt": "2026-11-28T18:56:42.814Z",
+      "source": "hook"
+    },
+    "src/frontend/components/LearningControl.tsx": {
+      "description": "STATUS_LABELS — renders table, modal",
+      "tokens": 4334,
+      "hash": "e174244a800bea3a",
+      "size": 15175,
+      "mtimeMs": 1795892503460.9165,
+      "updatedAt": "2026-11-28T19:01:43.735Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "number",
+          "kind": "fn",
+          "startLine": 41,
+          "endLine": 42,
+          "tokens": 19
+        },
+        {
+          "name": "formatEta",
+          "kind": "fn",
+          "startLine": 43,
+          "endLine": 49,
+          "tokens": 100
+        },
+        {
+          "name": "formatDate",
+          "kind": "fn",
+          "startLine": 50,
+          "endLine": 56,
+          "tokens": 59
+        },
+        {
+          "name": "outdatedText",
+          "kind": "fn",
+          "startLine": 57,
+          "endLine": 61,
+          "tokens": 78
+        },
+        {
+          "name": "summary",
+          "kind": "fn",
+          "startLine": 62,
+          "endLine": 78,
+          "tokens": 269
+        },
+        {
+          "name": "commandError",
+          "kind": "fn",
+          "startLine": 79,
+          "endLine": 82,
+          "tokens": 46
+        },
+        {
+          "name": "stateError",
+          "kind": "fn",
+          "startLine": 83,
+          "endLine": 86,
+          "tokens": 44
+        },
+        {
+          "name": "LanguageLine",
+          "kind": "fn",
+          "startLine": 87,
+          "endLine": 100,
+          "tokens": 194
+        },
+        {
+          "name": "LevelRow",
+          "kind": "fn",
+          "startLine": 101,
+          "endLine": 174,
+          "tokens": 932
+        },
+        {
+          "name": "LearningDialog",
+          "kind": "fn",
+          "startLine": 175,
+          "endLine": 305,
+          "tokens": 1850
+        },
+        {
+          "name": "LearningControl",
+          "kind": "fn",
+          "startLine": 306,
+          "endLine": 324,
+          "tokens": 228
+        }
+      ]
+    },
+    "aiWork/e4b-preview/main.tsx": {
+      "description": "Preview harness for E4b: the real LocalModelsDock + LearningControl with a mocked API.",
+      "tokens": 1351,
+      "hash": "76a130237a688779",
+      "size": 4728,
+      "mtimeMs": 1795892413503.4421,
+      "updatedAt": "2026-11-28T19:00:13.765Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "level",
+          "kind": "fn",
+          "startLine": 17,
+          "endLine": 54,
+          "tokens": 611
+        },
+        {
+          "name": "json",
+          "kind": "fn",
+          "startLine": 55,
+          "endLine": 88,
+          "tokens": 528
+        }
+      ]
+    },
+    "aiWork/e4b-preview/index.html": {
+      "description": "E4b preview",
+      "tokens": 86,
+      "hash": "990446f32d6f7555",
+      "size": 320,
+      "mtimeMs": 1795892490368.3345,
+      "updatedAt": "2026-11-28T19:01:30.630Z",
+      "source": "hook"
+    },
+    "aiWork/e4b-preview/vite.config.ts": {
+      "description": "Declares frontend",
+      "tokens": 257,
+      "hash": "39071de43a72e47c",
+      "size": 898,
+      "mtimeMs": 1795892415383.0671,
+      "updatedAt": "2026-11-28T19:00:15.618Z",
+      "source": "hook"
+    },
+    ".claude/launch.json": {
+      "description": "",
+      "tokens": 139,
+      "hash": "b9ebc7e8da90a07f",
+      "size": 486,
+      "mtimeMs": 1795892542012.0796,
+      "updatedAt": "2026-11-28T19:02:22.230Z",
+      "source": "hook"
     }
   },
   "preamble": [
