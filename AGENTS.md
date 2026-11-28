@@ -172,9 +172,13 @@ aliases for the Windows lock.
 - Message classification and unknown-condition identification use **only** the host Ollama model
   (`MEDICAL_CONDITION_AI_LOCAL_MODEL`, temperature 0, strict JSON schema), with no fallback to a
   cloud provider. A failure degrades gracefully to the existing flow; it never escalates.
-- Multilevel knowledge (migration `047`, not built yet): `KNOWLEDGE_L1_MODEL` … `KNOWLEDGE_L4_MODEL`
+- Multilevel knowledge (migration `047`): `KNOWLEDGE_L1_MODEL` … `KNOWLEDGE_L4_MODEL`
   must name a local Ollama or vLLM model of the report catalog (validated in `config.py`); the corpus
-  never goes to an external provider. Provenance is `chunks.text_sha256`, never `chunk_id`.
+  never goes to an external provider. Provenance is `chunks.text_sha256`, never `chunk_id`. Level 1
+  is built by `scripts/build_knowledge.py --level 1` on the host (logic in `ai/knowledge_l1.py`,
+  SQL in `ai/knowledge_repository.py`): a claim is kept only when its quote is located in the
+  fragment, and the stored quote is the fragment's text, never the model's. The web app does not
+  read the levels yet.
 - Model output is re-validated in `ai/report_validation.py`: recommendations citing fragments that
   do not exist are dropped, and a partially valid report is labelled as partial in chat and PDF.
   Citation checking is not clinical validation — never imply that it is.

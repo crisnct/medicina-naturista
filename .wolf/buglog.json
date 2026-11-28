@@ -12181,6 +12181,60 @@
       "last_seen": "2026-11-28T08:36:18.079Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of knowledge_l1.py",
+      "file": "src/backend/ai/knowledge_l1.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 19→27 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-678",
+      "timestamp": "2026-11-28T14:55:18.159Z",
+      "last_seen": "2026-11-28T14:55:18.159Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of knowledge_l1.py",
+      "file": "src/backend/ai/knowledge_l1.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→16 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-679",
+      "timestamp": "2026-11-28T16:45:05.708Z",
+      "last_seen": "2026-11-28T16:45:05.708Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/ai/knowledge_l1.py",
+      "root_cause": "Had \"caution\"",
+      "fix": "Changed to \"causes\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-680",
+      "timestamp": "2026-11-28T16:45:08.992Z",
+      "last_seen": "2026-11-28T16:45:08.992Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12908,7 +12962,10 @@
     "f04c510e-7945-4bd4-bebf-8b7da7ac993a": true,
     "020517df-497c-4471-bbcd-ba5c1130dbb5": true,
     "f4a6cd57-558b-412e-b2ea-b85bf021b060": true,
-    "0fe91314-c402-4a0d-9a3f-8384973aa620": true
+    "0fe91314-c402-4a0d-9a3f-8384973aa620": true,
+    "4d6b6d43-2afe-4b08-a4b4-a6dccb67bd48": true,
+    "6aaa3e48-e5e0-4fd0-827d-65dcbf43c1a4": true,
+    "23de4136-281c-4126-90e0-8beb2a8f5c96": true
   },
-  "next_id": 678
+  "next_id": 681
 }

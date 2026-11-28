@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-28T14:20:36.613Z
-> Files: 567 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-28T16:45:23.825Z
+> Files: 573 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -10,7 +10,7 @@
 ## ./
 
 - `.dockerignore` (~107 tok)
-- `AGENTS.md` — AGENTS.md (~4272 tok)
+- `AGENTS.md` — AGENTS.md (~4348 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
 - `docker-compose.yaml` — Docker Compose: 2 services (~5732 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
@@ -245,6 +245,10 @@
 - `phase0.sh` — Phase 0 of aiPlans/2026-11-24-qwen3-embedding-4b.md: for each --gpu-memory-utilization, the (~509 tok)
 - `run_rest.sh` — Sequential: (1) 4B with bf16 weights + fp8 KV cache over all windows -> *_bf16.npy, (~544 tok)
 - `scan_sql.py` — Time the exact cosine scan of ai/search.py at 1024 and 2560 dimensions, on TEMP tables with the (~831 tok)
+
+## aiWork/knowledge-l1-e3-check/
+
+- `check_e3.py` — E3 offline check: pure L1 functions + every repository write, on the real schema, rolled back. (~3257 tok)
 
 ## aiWork/knowledge-l1-pilot/
 
@@ -486,6 +490,8 @@
 - `herb_safety.py` — Read published model-knowledge messages; consultation never invokes a model. (~1386 tok)
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
 - `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
+- `knowledge_l1.py` — Level 1 of the multilevel knowledge: prompt, output schema, windows, quote location, linking. (~4143 tok)
+- `knowledge_repository.py` — Runs, cache, items, sources and atomic publication of the multilevel knowledge (migration 047). (~4497 tok)
 - `local_models.py` — The local AI models in memory right now and where they sit (RAM, VRAM), for the chat's window. (~2373 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9708 tok)
 - `model_runtime.py` — Brings the GPU to the state a report model needs before the job sends its first request. (~6216 tok)
@@ -506,6 +512,7 @@
 - `herb_product_safety_system.md` — Siguranta unui singur produs naturist (~717 tok)
 - `herb_safety_system.md` — Atentionari si interactiuni sustinute de sursa (~1506 tok)
 - `herb_safety_transport.md` — Raspuns exclusiv pentru atentionari (~170 tok)
+- `knowledge_l1_system.md` (~816 tok)
 - `message_classification_system.md` — Rol (~3940 tok)
 
 ## src/backend/ai/prompts/en/
@@ -518,6 +525,7 @@
 - `herb_product_safety_system.md` — Safety of one natural product (~624 tok)
 - `herb_safety_system.md` — Source-supported warnings and interactions (~923 tok)
 - `herb_safety_transport.md` — Warnings-only output (~149 tok)
+- `knowledge_l1_system.md` (~812 tok)
 - `message_classification_system.md` — Deterministic message intent classification (~1045 tok)
 
 ## src/backend/ai/resources/
@@ -672,6 +680,7 @@
 - `backup_database.bat` (~552 tok)
 - `backup_database.ps1` — Declares Invoke (~403 tok)
 - `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~21606 tok)
+- `build_knowledge.py` — Build the multilevel knowledge from the index fragments (plan 2026-11-27); level 1 for now. (~8414 tok)
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20376 tok)
 - `colibri_agent_startup.ps1` — Registers (or with -Remove deletes) the logon task that runs the Colibri host agent. (~622 tok)

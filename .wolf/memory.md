@@ -4081,3 +4081,25 @@ description: chronological action log per session, consolidated weekly
 | 16:20 | Edited AGENTS.md | modified knowledge() | ~95 |
 <!-- session:Y2FmNWNiYmItNzg4OS00OTBiLTk2ZjgtODI2ODFmYzBmNmMy -->
 | 2026-11-28T14:25:34.609Z | E2: migration 047 knowledge schema (7 tables) and KNOWLEDGE_L1..L4_MODEL settings (local ollama/vllm only); compose, README, AGENTS, plan section 17 | src/backend/migrations/047_knowledge_levels.sql,src/backend/config.py,docker-compose.yaml,README.md,AGENTS.md | ruff/format/mypy pass; 453 unit tests OK; 047 verified on throwaway DB |
+
+## Session: 2026-11-28 16:43
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 16:49 | Created src/backend/ai/prompts/knowledge_l1_system.md | — | ~870 |
+| 16:49 | Created src/backend/ai/prompts/en/knowledge_l1_system.md | — | ~866 |
+| 16:50 | Created src/backend/ai/knowledge_l1.py | — | ~3884 |
+| 16:51 | Created src/backend/ai/knowledge_repository.py | — | ~4332 |
+| 16:51 | Edited src/backend/ai/knowledge_repository.py | 1→2 lines | ~42 |
+| 16:53 | Created src/scripts/build_knowledge.py | — | ~8388 |
+| 16:53 | Edited src/backend/ai/knowledge_repository.py | modified delete_fragment_items() | ~153 |
+| 16:54 | Edited src/backend/ai/knowledge_l1.py | 1→2 lines | ~29 |
+| 16:54 | Created aiWork/knowledge-l1-e3-check/check_e3.py | — | ~3257 |
+| 16:55 | Edited src/backend/ai/knowledge_l1.py | modified build() | ~348 |
+| 16:57 | Edited AGENTS.md | modified knowledge() | ~160 |
+<!-- session:MmM4ZWEwODMtNzExOS00ZDk4LTg5YWQtOGZmMGM5Yzg5MDM2 -->
+| 2026-11-28T16:07:56.010Z | E3 multilevel learning: build_knowledge --level 1 (L1 claims/questions), tolerant quote match, windows 4000 with halving, cache + resume, per-language atomic publish, sample review file | src/scripts/build_knowledge.py,src/backend/ai/knowledge_l1.py,src/backend/ai/knowledge_repository.py,src/backend/ai/prompts/knowledge_l1_system.md,src/backend/ai/prompts/en/knowledge_l1_system.md,README.md,AGENTS.md,pyproject.toml | ruff, mypy, 453 unit tests pass; offline stub check rolled back; real vLLM sample run pending (user) |
+| 18:45 | Edited src/backend/ai/knowledge_l1.py | modified _markup_spans() | ~210 |
+| 18:45 | Edited src/backend/ai/knowledge_l1.py | modified _markup_spans() | ~43 |
+| 18:45 | Edited src/backend/ai/knowledge_l1.py | 2→3 lines | ~14 |
+| 18:45 | Edited src/scripts/build_knowledge.py | 2→4 lines | ~75 |

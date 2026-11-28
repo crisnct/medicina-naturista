@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-28T14:20:36.613Z",
-    "fileCount": 567,
+    "lastScanned": "2026-11-28T16:45:23.825Z",
+    "fileCount": 573,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "71f1cad56a2b8e96f0ba06d4ba63b2d75758adf180ce10084ca86eeebe759ead",
-    "storeUpdatedAt": "2026-11-28T14:20:36.667Z",
-    "rootHash": "a8ba8fab07b3d3c9"
+    "renderedHash": "87c847ba802cff3692d163e3a88f75f53ec168b1576da05952e9c65f9c0fa3fd",
+    "storeUpdatedAt": "2026-11-28T16:45:23.836Z",
+    "rootHash": "f5adbbdb8a419a70"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -8159,11 +8159,11 @@
     },
     "AGENTS.md": {
       "description": "AGENTS.md",
-      "tokens": 4272,
-      "hash": "85f8cd345a3cd9ac",
-      "size": 17128,
-      "mtimeMs": 1795875635696.254,
-      "updatedAt": "2026-11-28T14:20:36.610Z",
+      "tokens": 4348,
+      "hash": "4e6d9eaf7b2f525e",
+      "size": 17432,
+      "mtimeMs": 1795877840253.9028,
+      "updatedAt": "2026-11-28T14:57:20.471Z",
       "source": "hook"
     },
     ".claude/README.md": {
@@ -15296,6 +15296,369 @@
       "mtimeMs": 1795875565562.2766,
       "updatedAt": "2026-11-28T14:19:26.384Z",
       "source": "hook"
+    },
+    "src/backend/ai/prompts/knowledge_l1_system.md": {
+      "description": "",
+      "tokens": 816,
+      "hash": "c56797c3beddb90c",
+      "size": 3262,
+      "mtimeMs": 1795877368444.0586,
+      "updatedAt": "2026-11-28T14:49:29.301Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/en/knowledge_l1_system.md": {
+      "description": "",
+      "tokens": 812,
+      "hash": "acfe67d65d962cb5",
+      "size": 3246,
+      "mtimeMs": 1795877372136.624,
+      "updatedAt": "2026-11-28T14:49:32.979Z",
+      "source": "hook"
+    },
+    "src/backend/ai/knowledge_l1.py": {
+      "description": "Level 1 of the multilevel knowledge: prompt, output schema, windows, quote location, linking.",
+      "tokens": 4143,
+      "hash": "117e9f70b74baf55",
+      "size": 14498,
+      "mtimeMs": 1795884308746.6934,
+      "updatedAt": "2026-11-28T16:45:08.961Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_markup_spans",
+          "kind": "fn",
+          "startLine": 58,
+          "endLine": 67,
+          "tokens": 91
+        },
+        {
+          "name": "response_schema",
+          "kind": "fn",
+          "startLine": 68,
+          "endLine": 107,
+          "tokens": 382
+        },
+        {
+          "name": "system_prompt",
+          "kind": "fn",
+          "startLine": 108,
+          "endLine": 111,
+          "tokens": 27
+        },
+        {
+          "name": "sha256_text",
+          "kind": "fn",
+          "startLine": 112,
+          "endLine": 116,
+          "tokens": 58
+        },
+        {
+          "name": "prompt_sha256",
+          "kind": "fn",
+          "startLine": 117,
+          "endLine": 134,
+          "tokens": 144
+        },
+        {
+          "name": "input_sha256",
+          "kind": "fn",
+          "startLine": 135,
+          "endLine": 139,
+          "tokens": 60
+        },
+        {
+          "name": "ModelText",
+          "kind": "class",
+          "startLine": 140,
+          "endLine": 150,
+          "tokens": 113
+        },
+        {
+          "name": "model_text",
+          "kind": "fn",
+          "startLine": 151,
+          "endLine": 165,
+          "tokens": 127
+        },
+        {
+          "name": "Window",
+          "kind": "class",
+          "startLine": 166,
+          "endLine": 171,
+          "tokens": 41
+        },
+        {
+          "name": "_cut",
+          "kind": "fn",
+          "startLine": 172,
+          "endLine": 181,
+          "tokens": 123
+        },
+        {
+          "name": "split_windows",
+          "kind": "fn",
+          "startLine": 182,
+          "endLine": 197,
+          "tokens": 156
+        },
+        {
+          "name": "halve",
+          "kind": "fn",
+          "startLine": 198,
+          "endLine": 206,
+          "tokens": 102
+        },
+        {
+          "name": "user_message",
+          "kind": "fn",
+          "startLine": 207,
+          "endLine": 213,
+          "tokens": 127
+        },
+        {
+          "name": "_match_key",
+          "kind": "fn",
+          "startLine": 214,
+          "endLine": 229,
+          "tokens": 190
+        },
+        {
+          "name": "locate_quote",
+          "kind": "fn",
+          "startLine": 230,
+          "endLine": 250,
+          "tokens": 194
+        },
+        {
+          "name": "Extraction",
+          "kind": "class",
+          "startLine": 251,
+          "endLine": 269,
+          "tokens": 188
+        },
+        {
+          "name": "extraction_from_output",
+          "kind": "fn",
+          "startLine": 270,
+          "endLine": 278,
+          "tokens": 77
+        },
+        {
+          "name": "merge",
+          "kind": "fn",
+          "startLine": 279,
+          "endLine": 289,
+          "tokens": 120
+        },
+        {
+          "name": "unique_questions",
+          "kind": "fn",
+          "startLine": 290,
+          "endLine": 300,
+          "tokens": 111
+        },
+        {
+          "name": "_text",
+          "kind": "fn",
+          "startLine": 301,
+          "endLine": 306,
+          "tokens": 74
+        },
+        {
+          "name": "parse_response",
+          "kind": "fn",
+          "startLine": 307,
+          "endLine": 357,
+          "tokens": 559
+        },
+        {
+          "name": "CatalogLinker",
+          "kind": "class",
+          "startLine": 358,
+          "endLine": 393,
+          "tokens": 450
+        },
+        {
+          "name": "claim_keys",
+          "kind": "fn",
+          "startLine": 394,
+          "endLine": 396,
+          "tokens": 56
+        }
+      ]
+    },
+    "src/backend/ai/knowledge_repository.py": {
+      "description": "Runs, cache, items, sources and atomic publication of the multilevel knowledge (migration 047).",
+      "tokens": 4497,
+      "hash": "72f4754f04ff92ec",
+      "size": 15737,
+      "mtimeMs": 1795877618640.8245,
+      "updatedAt": "2026-11-28T14:53:38.880Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Location",
+          "kind": "class",
+          "startLine": 27,
+          "endLine": 33,
+          "tokens": 32
+        },
+        {
+          "name": "Fragment",
+          "kind": "class",
+          "startLine": 34,
+          "endLine": 44,
+          "tokens": 86
+        },
+        {
+          "name": "IndexSnapshot",
+          "kind": "class",
+          "startLine": 45,
+          "endLine": 52,
+          "tokens": 44
+        },
+        {
+          "name": "NewItem",
+          "kind": "class",
+          "startLine": 53,
+          "endLine": 61,
+          "tokens": 43
+        },
+        {
+          "name": "Run",
+          "kind": "class",
+          "startLine": 62,
+          "endLine": 67,
+          "tokens": 21
+        },
+        {
+          "name": "KnowledgeRepository",
+          "kind": "class",
+          "startLine": 68,
+          "endLine": 390,
+          "tokens": 4000
+        }
+      ]
+    },
+    "src/scripts/build_knowledge.py": {
+      "description": "Build the multilevel knowledge from the index fragments (plan 2026-11-27); level 1 for now.",
+      "tokens": 8414,
+      "hash": "7e50dedb4763256e",
+      "size": 29455,
+      "mtimeMs": 1795884323589.3643,
+      "updatedAt": "2026-11-28T16:45:23.824Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Answer",
+          "kind": "class",
+          "startLine": 80,
+          "endLine": 84,
+          "tokens": 15
+        },
+        {
+          "name": "KnowledgeModel",
+          "kind": "class",
+          "startLine": 85,
+          "endLine": 262,
+          "tokens": 2243
+        },
+        {
+          "name": "_Slot",
+          "kind": "class",
+          "startLine": 263,
+          "endLine": 278,
+          "tokens": 112
+        },
+        {
+          "name": "LevelOneBuild",
+          "kind": "class",
+          "startLine": 279,
+          "endLine": 469,
+          "tokens": 2209
+        },
+        {
+          "name": "_review_entry",
+          "kind": "fn",
+          "startLine": 470,
+          "endLine": 483,
+          "tokens": 211
+        },
+        {
+          "name": "embed_items",
+          "kind": "fn",
+          "startLine": 484,
+          "endLine": 517,
+          "tokens": 390
+        },
+        {
+          "name": "sample_fragments",
+          "kind": "fn",
+          "startLine": 518,
+          "endLine": 527,
+          "tokens": 84
+        },
+        {
+          "name": "_lines",
+          "kind": "fn",
+          "startLine": 528,
+          "endLine": 533,
+          "tokens": 85
+        },
+        {
+          "name": "write_review",
+          "kind": "fn",
+          "startLine": 534,
+          "endLine": 602,
+          "tokens": 774
+        },
+        {
+          "name": "build_level_one",
+          "kind": "fn",
+          "startLine": 603,
+          "endLine": 683,
+          "tokens": 849
+        },
+        {
+          "name": "parse_args",
+          "kind": "fn",
+          "startLine": 684,
+          "endLine": 696,
+          "tokens": 154
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 697,
+          "endLine": 738,
+          "tokens": 505
+        }
+      ]
+    },
+    "aiWork/knowledge-l1-e3-check/check_e3.py": {
+      "description": "E3 offline check: pure L1 functions + every repository write, on the real schema, rolled back.",
+      "tokens": 3257,
+      "hash": "056e626aeac30ea9",
+      "size": 11400,
+      "mtimeMs": 1795877684266.5154,
+      "updatedAt": "2026-11-28T14:54:44.502Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "StubModel",
+          "kind": "class",
+          "startLine": 97,
+          "endLine": 153,
+          "tokens": 548
+        },
+        {
+          "name": "Rollback",
+          "kind": "class",
+          "startLine": 154,
+          "endLine": 268,
+          "tokens": 1644
+        }
+      ]
     }
   },
   "preamble": [
