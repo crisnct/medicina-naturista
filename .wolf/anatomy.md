@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-28T14:03:51.366Z
-> Files: 566 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-28T14:20:36.613Z
+> Files: 567 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -10,9 +10,9 @@
 ## ./
 
 - `.dockerignore` (~107 tok)
-- `AGENTS.md` — AGENTS.md (~3528 tok)
+- `AGENTS.md` — AGENTS.md (~4272 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
-- `docker-compose.yaml` — Docker Compose: 2 services (~5568 tok)
+- `docker-compose.yaml` — Docker Compose: 2 services (~5732 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
 - `README.md` — Project documentation (~36864 tok)
 - `requirements-ocr.txt` — PaddleOCR for scanned PDF pages, installed in its own virtual environment (~194 tok)
@@ -452,7 +452,7 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~12878 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~13720 tok)
 
 ## src/backend/ai/
 
@@ -578,6 +578,7 @@
 - `042_report_batch_usage.sql` — PostgreSQL. Applied transactionally by scripts.migrate_database. (~383 tok)
 - `043_gripa_flu_synonyms.sql` — Plain English names of Gripa; the catalog only had "seasonal flu". Safe to run more than once. (~94 tok)
 - `046_report_feedback.sql` — PostgreSQL. Applied transactionally by scripts.migrate_database. (~1329 tok)
+- `047_knowledge_levels.sql` — PostgreSQL. Applied transactionally by scripts.migrate_database. (~3138 tok)
 
 ## src/backend/persistence/
 

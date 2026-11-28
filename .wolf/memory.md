@@ -4069,3 +4069,15 @@ description: chronological action log per session, consolidated weekly
 | 16:03 | Edited src/frontend/api/types.ts | 2→4 lines | ~40 |
 | 16:03 | Edited src/frontend/components/MessageBubble.tsx | inline fix | ~23 |
 | 16:11 | Session end: 12 writes across 9 files (046_report_feedback.sql, report_metrics.py, report_feedback.py, ReportFeedbackPanel.tsx, sessions.py) | 16 reads | ~34743 tok |
+
+## Session: 2026-11-28 16:14
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 16:19 | Created src/backend/migrations/047_knowledge_levels.sql | — | ~3124 |
+| 16:19 | Edited src/backend/migrations/047_knowledge_levels.sql | 2→4 lines | ~65 |
+| 16:19 | Edited src/backend/config.py | modified level() | ~72 |
+| 16:20 | Edited docker-compose.yaml | 2→6 lines | ~96 |
+| 16:20 | Edited AGENTS.md | modified knowledge() | ~95 |
+<!-- session:Y2FmNWNiYmItNzg4OS00OTBiLTk2ZjgtODI2ODFmYzBmNmMy -->
+| 2026-11-28T14:25:34.609Z | E2: migration 047 knowledge schema (7 tables) and KNOWLEDGE_L1..L4_MODEL settings (local ollama/vllm only); compose, README, AGENTS, plan section 17 | src/backend/migrations/047_knowledge_levels.sql,src/backend/config.py,docker-compose.yaml,README.md,AGENTS.md | ruff/format/mypy pass; 453 unit tests OK; 047 verified on throwaway DB |

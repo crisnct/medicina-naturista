@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-28T14:03:51.366Z",
-    "fileCount": 566,
+    "lastScanned": "2026-11-28T14:20:36.613Z",
+    "fileCount": 567,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "387661d670ae7a4ebcc0dec17c06fa4a205383edb15d6259e9ed003d50ce5f07",
-    "storeUpdatedAt": "2026-11-28T14:03:51.416Z",
-    "rootHash": "9aed5b6eb181f70e"
+    "renderedHash": "71f1cad56a2b8e96f0ba06d4ba63b2d75758adf180ce10084ca86eeebe759ead",
+    "storeUpdatedAt": "2026-11-28T14:20:36.667Z",
+    "rootHash": "a8ba8fab07b3d3c9"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -360,11 +360,11 @@
     },
     "docker-compose.yaml": {
       "description": "Docker Compose: 2 services",
-      "tokens": 5568,
-      "hash": "11f881d283fe4274",
-      "size": 19488,
-      "mtimeMs": 1795606854035.1992,
-      "updatedAt": "2026-11-25T11:40:54.854Z",
+      "tokens": 5732,
+      "hash": "43d1268132f6894d",
+      "size": 20062,
+      "mtimeMs": 1795875603734.0193,
+      "updatedAt": "2026-11-28T14:20:04.634Z",
       "source": "hook"
     },
     "src/backend/web/main.py": {
@@ -2189,123 +2189,130 @@
     },
     "src/backend/config.py": {
       "description": "Environment-backed settings. No patient data belongs in configuration or logs.",
-      "tokens": 12878,
-      "hash": "8f00e0a6cb90915d",
-      "size": 45071,
-      "mtimeMs": 1795537027219.5342,
-      "updatedAt": "2026-11-24T16:17:07.459Z",
+      "tokens": 13720,
+      "hash": "10cc1eba7de280a4",
+      "size": 48020,
+      "mtimeMs": 1795875598565.4944,
+      "updatedAt": "2026-11-28T14:19:59.416Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_default_context",
           "kind": "fn",
-          "startLine": 46,
-          "endLine": 49,
+          "startLine": 47,
+          "endLine": 50,
           "tokens": 44
         },
         {
           "name": "_default_effort",
           "kind": "fn",
-          "startLine": 50,
-          "endLine": 53,
+          "startLine": 51,
+          "endLine": 54,
           "tokens": 43
         },
         {
           "name": "_default_thinking",
           "kind": "fn",
-          "startLine": 54,
-          "endLine": 61,
-          "tokens": 141
+          "startLine": 55,
+          "endLine": 62,
+          "tokens": 145
         },
         {
           "name": "_model_limits",
           "kind": "fn",
-          "startLine": 62,
-          "endLine": 136,
-          "tokens": 934
+          "startLine": 63,
+          "endLine": 139,
+          "tokens": 985
         },
         {
           "name": "_freeze_ollama_output_limits",
           "kind": "fn",
-          "startLine": 137,
-          "endLine": 151,
+          "startLine": 140,
+          "endLine": 154,
           "tokens": 172
         },
         {
           "name": "_ollama_output_limits",
           "kind": "fn",
-          "startLine": 152,
-          "endLine": 179,
+          "startLine": 155,
+          "endLine": 182,
           "tokens": 312
         },
         {
           "name": "_int",
           "kind": "fn",
-          "startLine": 180,
-          "endLine": 196,
-          "tokens": 155
+          "startLine": 183,
+          "endLine": 200,
+          "tokens": 172
         },
         {
           "name": "_unit_float",
           "kind": "fn",
-          "startLine": 197,
-          "endLine": 203,
-          "tokens": 74
+          "startLine": 201,
+          "endLine": 211,
+          "tokens": 116
         },
         {
           "name": "_bool",
           "kind": "fn",
-          "startLine": 204,
-          "endLine": 223,
-          "tokens": 200
+          "startLine": 212,
+          "endLine": 232,
+          "tokens": 254
+        },
+        {
+          "name": "_knowledge_model",
+          "kind": "fn",
+          "startLine": 233,
+          "endLine": 248,
+          "tokens": 169
         },
         {
           "name": "SafetyScope",
           "kind": "class",
-          "startLine": 224,
-          "endLine": 230,
+          "startLine": 249,
+          "endLine": 255,
           "tokens": 61
         },
         {
           "name": "normalize_latin",
           "kind": "fn",
-          "startLine": 231,
-          "endLine": 235,
+          "startLine": 256,
+          "endLine": 260,
           "tokens": 52
         },
         {
           "name": "parse_safety_scope",
           "kind": "fn",
-          "startLine": 236,
-          "endLine": 252,
+          "startLine": 261,
+          "endLine": 277,
           "tokens": 212
         },
         {
           "name": "safety_output_estimate",
           "kind": "fn",
-          "startLine": 253,
-          "endLine": 260,
-          "tokens": 88
+          "startLine": 278,
+          "endLine": 285,
+          "tokens": 92
         },
         {
           "name": "_ai_provider",
           "kind": "fn",
-          "startLine": 261,
-          "endLine": 268,
+          "startLine": 286,
+          "endLine": 293,
           "tokens": 72
         },
         {
           "name": "Settings",
           "kind": "class",
-          "startLine": 269,
-          "endLine": 911,
-          "tokens": 9601
+          "startLine": 294,
+          "endLine": 963,
+          "tokens": 10080
         },
         {
           "name": "configure_settings",
           "kind": "fn",
-          "startLine": 912,
-          "endLine": 924,
+          "startLine": 964,
+          "endLine": 976,
           "tokens": 137
         }
       ]
@@ -8152,11 +8159,11 @@
     },
     "AGENTS.md": {
       "description": "AGENTS.md",
-      "tokens": 3528,
-      "hash": "457a0df369e5bf21",
-      "size": 14150,
-      "mtimeMs": 1795606954212.3433,
-      "updatedAt": "2026-11-25T11:42:35.077Z",
+      "tokens": 4272,
+      "hash": "85f8cd345a3cd9ac",
+      "size": 17128,
+      "mtimeMs": 1795875635696.254,
+      "updatedAt": "2026-11-28T14:20:36.610Z",
       "source": "hook"
     },
     ".claude/README.md": {
@@ -15280,6 +15287,15 @@
           "tokens": 1034
         }
       ]
+    },
+    "src/backend/migrations/047_knowledge_levels.sql": {
+      "description": "PostgreSQL. Applied transactionally by scripts.migrate_database.",
+      "tokens": 3138,
+      "hash": "e371083813badf2b",
+      "size": 11767,
+      "mtimeMs": 1795875565562.2766,
+      "updatedAt": "2026-11-28T14:19:26.384Z",
+      "source": "hook"
     }
   },
   "preamble": [

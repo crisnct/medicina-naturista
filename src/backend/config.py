@@ -24,6 +24,7 @@ from backend.core.report_models import (
     ReportModel,
     catalog_output_tokens,
     default_batch_workers,
+    parse_report_model,
     parse_report_models,
     request_context_tokens,
 )
@@ -220,6 +221,23 @@ def _bool(name: str, default: bool, env: Mapping[str, str] | None = None) -> boo
     raise ValueError(f"{name} must be a boolean value")
 
 
+# The model of each multilevel-knowledge level (L1-L4): a catalog name of a local Ollama or vLLM
+# model, never an external provider, because the corpus does not leave the machine. vLLM
+# Qwen3.5-4B won the L1 pilot; the other levels start with it too.
+DEFAULT_KNOWLEDGE_MODEL: ReportModel = "vllm-qwen3.5:4b"
+KNOWLEDGE_LEVELS = (1, 2, 3, 4)
+KNOWLEDGE_PROVIDERS = frozenset({"ollama", "vllm"})
+
+
+# An empty or missing variable keeps the default; any other value must be a catalog name.
+def _knowledge_model(level: int, env: Mapping[str, str]) -> ReportModel:
+    name = f"KNOWLEDGE_L{level}_MODEL"
+    try:
+        return parse_report_model(env.get(name, "").strip() or DEFAULT_KNOWLEDGE_MODEL)
+    except ValueError as exc:
+        raise ValueError(f"{name}: {exc}") from None
+
+
 # Conservative output estimate behind the batch-size checks: a prompt-required minimum of seven
 # bilingual messages per product at about 120 tokens each, plus a fixed envelope reserve.
 SAFETY_MIN_MESSAGES = 7
@@ -359,6 +377,11 @@ class Settings:
     herb_safety_dedup_model: str = "gemma4:12b"
     # Local model of the generation stage (stage id `ministral`); required by the extension.
     herb_safety_generation_model: str = "ministral-3:8b"
+    # Local model of each knowledge level; see _knowledge_model.
+    knowledge_l1_model: ReportModel = DEFAULT_KNOWLEDGE_MODEL
+    knowledge_l2_model: ReportModel = DEFAULT_KNOWLEDGE_MODEL
+    knowledge_l3_model: ReportModel = DEFAULT_KNOWLEDGE_MODEL
+    knowledge_l4_model: ReportModel = DEFAULT_KNOWLEDGE_MODEL
     # Empty keeps the single-product monolingual flow; see parse_safety_scope.
     herb_safety_extension_products: str = ""
     # Orders "top N <category> for <condition>"; see core/score_formula.py for the grammar.
@@ -545,6 +568,10 @@ class Settings:
                 "HERB_SAFETY_GENERATION_MODEL", "ministral-3:8b"
             ).strip(),
             herb_safety_extension_products=env.get("HERB_SAFETY_EXTENSION_PRODUCTS", "").strip(),
+            knowledge_l1_model=_knowledge_model(1, env),
+            knowledge_l2_model=_knowledge_model(2, env),
+            knowledge_l3_model=_knowledge_model(3, env),
+            knowledge_l4_model=_knowledge_model(4, env),
             herb_condition_top_formula=env.get(
                 "HERB_CONDITION_TOP_FORMULA", DEFAULT_FORMULA
             ).strip(),
@@ -761,6 +788,15 @@ class Settings:
             raise ValueError("herb_safety_dedup_model must be an explicit model tag")
         if any(c.isspace() for c in self.herb_safety_generation_model):
             raise ValueError("herb_safety_generation_model must be empty or a model tag")
+        for level in KNOWLEDGE_LEVELS:
+            model = getattr(self, f"knowledge_l{level}_model")
+            if (
+                model not in REPORT_MODELS
+                or REPORT_MODELS[model].provider not in KNOWLEDGE_PROVIDERS
+            ):
+                raise ValueError(
+                    f"knowledge_l{level}_model must be a local Ollama or vLLM model of the catalog"
+                )
         compile_formula(self.herb_condition_top_formula)
         compile_search_formula(self.search_score_formula, self.search_rrf_k)
         if not isinstance(self.herb_safety_extension_products, str):
