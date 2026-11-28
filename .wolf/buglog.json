@@ -12127,6 +12127,60 @@
       "last_seen": "2026-11-27T16:45:02.658Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiWork/knowledge-l1-pilot/l1_pilot.py",
+      "root_cause": "Had \" kinds {dict(sorted(statistics.multimode([f['",
+      "fix": "Changed to \" kinds {dict(sorted(_counts([f['",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-675",
+      "timestamp": "2026-11-28T08:27:52.427Z",
+      "last_seen": "2026-11-28T08:27:52.427Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: statistics should be subprocess",
+      "file": "aiWork/knowledge-l1-pilot/l1_pilot.py",
+      "root_cause": "Used \"statistics\" instead of \"subprocess\"",
+      "fix": "Changed statistics → subprocess",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-676",
+      "timestamp": "2026-11-28T08:27:54.855Z",
+      "last_seen": "2026-11-28T08:27:54.855Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "aiWork/knowledge-l1-pilot/l1_pilot.py",
+      "root_cause": "Was returning: f\"Fragment:\\n<<<\\n{text}\\n>>>\"",
+      "fix": "Now returns: (",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-677",
+      "timestamp": "2026-11-28T08:36:18.079Z",
+      "last_seen": "2026-11-28T08:36:18.079Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -12851,7 +12905,10 @@
     "c6989872-bedf-4d2e-8da7-1c79a38fcab1": true,
     "388bac90-8fa1-4ef9-a89c-d0f27deff923": true,
     "137284af-eb30-4cc6-9372-3a7562d55c98": true,
-    "f04c510e-7945-4bd4-bebf-8b7da7ac993a": true
+    "f04c510e-7945-4bd4-bebf-8b7da7ac993a": true,
+    "020517df-497c-4471-bbcd-ba5c1130dbb5": true,
+    "f4a6cd57-558b-412e-b2ea-b85bf021b060": true,
+    "0fe91314-c402-4a0d-9a3f-8384973aa620": true
   },
-  "next_id": 675
+  "next_id": 678
 }

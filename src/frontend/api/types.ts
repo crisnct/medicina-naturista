@@ -183,6 +183,10 @@ export interface DownloadMessage extends MessageIdentity {
   reportId: string;
   url: string;
   filename: string;
+  // The report's measurements row, by which the admin rates it; null when it cannot be rated.
+  feedbackId?: number | null;
+  // True once the admin rated the report; the rating is then no longer offered.
+  feedbackRated?: boolean;
 }
 
 export type HerbEvidenceKind = "positive" | "contraindication";

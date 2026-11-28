@@ -3,12 +3,16 @@
 from __future__ import annotations
 
 import math
-from dataclasses import dataclass
+import re
+from collections.abc import Collection
+from dataclasses import dataclass, replace
 
+from backend.core.contracts import Evidence
 from backend.core.errors import ApplicationError
 from backend.core.texts import tr
 
 MAX_BIGINT = (1 << 63) - 1
+MAX_INTEGER = (1 << 31) - 1
 
 
 @dataclass(frozen=True)
@@ -80,6 +84,78 @@ def validate_min_score(value: int) -> None:
         raise ApplicationError("INVALID_MIN_SCORE", tr("errors.minimum_score_invalid"), 422)
 
 
+# The citation log keeps this many of the search's best candidates, sent or not, so a new score
+# formula can also be judged on fragments the current one left out. Sent fragments past them are
+# logged too: every cited fragment must be in the log.
+EVIDENCE_LOG_CANDIDATES = 200
+SHA256_HEX = re.compile(r"^[0-9a-f]{64}$")
+
+
+@dataclass(frozen=True)
+class ReportEvidenceEntry:
+    """One search candidate of a report: its score signals and what the report did with it."""
+
+    text_sha256: str
+    p1: int | None
+    p2: int | None
+    l_rank: int | None
+    v_rank: int | None
+    sent: bool
+    cited: bool
+    # The synthetic-question rank, empty until that signal exists.
+    q_rank: int | None = None
+
+    def __post_init__(self) -> None:
+        if not isinstance(self.text_sha256, str) or not SHA256_HEX.match(self.text_sha256):
+            raise ValueError("Evidence log entries need a lowercase hexadecimal SHA-256")
+        for flag in (self.p1, self.p2):
+            if flag is not None and flag not in (0, 1):
+                raise ValueError("Condition signals must be 0, 1 or None")
+        for rank in (self.l_rank, self.v_rank, self.q_rank):
+            if rank is not None and (type(rank) is not int or not 0 < rank <= MAX_INTEGER):
+                raise ValueError("Signal ranks must be positive INTEGER values or None")
+        if type(self.sent) is not bool or type(self.cited) is not bool:
+            raise ValueError("Evidence log flags must be booleans")
+        if self.cited and not self.sent:
+            raise ValueError("A cited fragment must have been sent")
+
+
+def _condition_flag(value: object) -> int | None:
+    return None if value is None else int(bool(value))
+
+
+# The log of one report from its search's evidence (best score first), the evidence ids sent to
+# the model and the ids its validated recommendations cite. A text shared by several fragments is
+# one entry: the best-ranked one's signals, sent or cited if any of them was.
+def report_evidence_log(
+    evidence: Evidence, sent_ids: Collection[str], cited_ids: Collection[str]
+) -> tuple[ReportEvidenceEntry, ...]:
+    entries: dict[str, ReportEvidenceEntry] = {}
+    ranked = sorted(evidence.items(), key=lambda pair: -float(pair[1].get("score") or 0.0))
+    for position, (evidence_id, item) in enumerate(ranked):
+        sent = evidence_id in sent_ids
+        text_sha256 = item.get("text_sha256")
+        if text_sha256 is None or (position >= EVIDENCE_LOG_CANDIDATES and not sent):
+            continue
+        cited = sent and evidence_id in cited_ids
+        previous = entries.get(text_sha256)
+        if previous is not None:
+            entries[text_sha256] = replace(
+                previous, sent=previous.sent or sent, cited=previous.cited or cited
+            )
+            continue
+        entries[text_sha256] = ReportEvidenceEntry(
+            text_sha256=text_sha256,
+            p1=_condition_flag(item.get("condition_in_title")),
+            p2=_condition_flag(item.get("condition_in_text")),
+            l_rank=item.get("lexical_rank"),
+            v_rank=item.get("semantic_rank"),
+            sent=sent,
+            cited=cited,
+        )
+    return tuple(entries.values())
+
+
 @dataclass(frozen=True)
 class ReportMetrics:
     medical_condition: str
@@ -90,6 +166,8 @@ class ReportMetrics:
     duration: int
     # The largest output of any request of the report; None when the provider reported none.
     max_batch_output_tokens: int | None = None
+    # The citation log, written in the same transaction as the measurements.
+    evidence: tuple[ReportEvidenceEntry, ...] = ()
 
     def __post_init__(self) -> None:
         validate_min_score(self.min_score)

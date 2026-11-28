@@ -27,6 +27,7 @@ from backend.core.contracts import (
     ReportModel,
     ReportModelRuntime,
     RetrievalProtocol,
+    SaveReportFeedback,
 )
 from backend.core.owner_auth import OwnerAuth
 from backend.core.rate_limits import RateLimiter
@@ -52,6 +53,7 @@ class Dependencies:
     top_herbs: ListTopHerbs | None = None
     report_clients: dict[ReportModel, AIProtocol] | None = None
     record_report_metrics: RecordReportMetrics | None = None
+    save_report_feedback: SaveReportFeedback | None = None
     estimate_report_duration: EstimateReportDuration | None = None
     recommend_report_output: RecommendReportOutput | None = None
     record_report_batch_usage: RecordReportBatchUsage | None = None

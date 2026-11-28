@@ -139,7 +139,11 @@ translates it. Codes are part of the API contract (`INDEX_MAINTENANCE`, `INDEX_R
    selects and orders which of them are enabled. Authorization is enforced server-side before
    job admission (403 `MODEL_FORBIDDEN`), independently of what the UI shows.
 7. **No patient data in configuration, logs or metrics.** `report_generation_metrics` stores
-   aggregates only. `LOG_FRAGMENT_TEXT` / `LOG_AI_RESPONSE_TEXT` must be off for public profiles.
+   aggregates only and `report_evidence_log` only content hashes and score signals.
+   `LOG_FRAGMENT_TEXT` / `LOG_AI_RESPONSE_TEXT` must be off for public profiles. The only report
+   text in the database is what the admin chooses to save: the comment of a rating
+   (`report_feedback`) and, behind a checkbox, the validated recommendations of a report rated
+   8 or more (`report_examples`) — never the consultation profile, the question or the PDF.
 8. **Long operations run under `OperationBudget`** (`core/operation_context.py`), which bounds
    synchronous I/O and discards late results. It cannot kill threads — capacity stays owned by
    `SessionStore` until the worker actually exits.

@@ -307,7 +307,7 @@ kept AS (
 )
 SELECT k.chunk_id, k.score, k.p1, k.p2, k.lexical, k.semantic, k.cosine, k.bm25,
        c.source_relative_path, c.source_absolute_path, c.line_start, c.line_end,
-       c.heading, c.text, c.source_sha256, c.business_category,
+       c.heading, c.text, c.source_sha256, c.text_sha256, c.business_category,
        c.primary_medical_conditions, c.secondary_medical_conditions
 FROM kept k
 JOIN LATERAL (SELECT * FROM chunks WHERE chunk_id = k.chunk_id) c ON TRUE
@@ -508,6 +508,7 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
             "heading": row.heading,
             "text": row.text,
             "source_sha256": row.source_sha256,
+            "text_sha256": row.text_sha256,
             "signals": signals,
         }
         for row in rows

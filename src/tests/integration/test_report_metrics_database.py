@@ -22,7 +22,7 @@ def database():
     try:
         with db.get_pool().connection() as conn:
             replace_catalog(conn, conditions_from_rows("Gripa,flu,influenza\nRaceala,cold\n"))
-            conn.execute("TRUNCATE report_generation_metrics RESTART IDENTITY")
+            conn.execute("TRUNCATE report_generation_metrics RESTART IDENTITY CASCADE")
             conn.execute((MIGRATIONS / "012_seed_report_generation_metrics.sql").read_text())
         yield fixture._container.get_connection_url()
     finally:

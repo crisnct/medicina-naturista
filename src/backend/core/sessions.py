@@ -42,6 +42,7 @@ from backend.core.models import (
 )
 from backend.core.operation_context import ReportActivity
 from backend.core.rate_limits import RateLimiter
+from backend.core.report_feedback import ReportFeedbackContext
 from backend.core.texts import tr
 
 logger = logging.getLogger("naturist.sessions")
@@ -121,7 +122,11 @@ def retained_usage(session: SessionData) -> RetainedUsage:
             "signals": asdict(session.search_signals),
             "groups": {gid: asdict(group) for gid, group in session.groups.items()},
             "reports": {
-                rid: {"filename": r.filename, "health_problem": r.health_problem}
+                rid: {
+                    "filename": r.filename,
+                    "health_problem": r.health_problem,
+                    "feedback": asdict(r.feedback) if r.feedback else None,
+                }
                 for rid, r in session.reports.items()
             },
             "report_id": session.report_id,
@@ -1208,6 +1213,54 @@ class SessionStore:
             ):
                 return None
             return copy.deepcopy(session.reports.get(report_id))
+
+    # The report's measurements are stored after it was published; only then can it be rated, so
+    # its download message and its stored PDF learn the measurements row id here.
+    def attach_report_feedback(
+        self, session: SessionData, report_id: str, feedback_id: int
+    ) -> None:
+        with self._lock, session.lock:
+            report = session.reports.get(report_id)
+            if (
+                session.closed
+                or self._sessions.get((session.cookie_id, session.tab_id)) is not session
+                or report is None
+                or report.feedback is None
+            ):
+                return
+            report.feedback = replace(report.feedback, report_id=feedback_id)
+            for message in session.history:
+                if message.get("kind") == "download" and message.get("reportId") == report_id:
+                    message["feedbackId"] = feedback_id
+            usage = retained_usage(session)
+            self._used_bytes += usage.total - session.retained_bytes
+            session.retained_bytes = usage.total
+
+    # The rating context of the report the chat still shows; a report no longer in the tab
+    # (evicted, or the tab ended) cannot be rated.
+    def report_feedback_context(
+        self, session: SessionData, feedback_id: int
+    ) -> ReportFeedbackContext:
+        with self._lock, session.lock:
+            if (
+                not session.closed
+                and self._sessions.get((session.cookie_id, session.tab_id)) is session
+                and not self._expired(session)
+            ):
+                for report in session.reports.values():
+                    if report.feedback is not None and report.feedback.report_id == feedback_id:
+                        return report.feedback
+        raise ApplicationError("REPORT_NOT_FOUND", tr("errors.report_unavailable"), 404)
+
+    # Once rated, the report's download message stops offering the rating, also after a reload.
+    def mark_report_rated(self, session: SessionData, feedback_id: int) -> None:
+        with self._lock, session.lock:
+            for message in session.history:
+                if message.get("kind") == "download" and message.get("feedbackId") == feedback_id:
+                    message["feedbackRated"] = True
+            usage = retained_usage(session)
+            self._used_bytes += usage.total - session.retained_bytes
+            session.retained_bytes = usage.total
 
     def delete(self, cookie_id: str, tab_id: str) -> None:
         with self._lock:

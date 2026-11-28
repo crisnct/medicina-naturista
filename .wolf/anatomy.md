@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-27T16:45:02.518Z
-> Files: 561 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-28T14:03:51.366Z
+> Files: 566 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -84,6 +84,7 @@
 - `2026-11-24-ollama-gpu-si-model-embeddings-chat.md` — Descărcarea modelelor Ollama înainte de vLLM și încărcarea modelului de embeddings la întrebări (~2114 tok)
 - `2026-11-24-qwen3-embedding-4b.md` — Trecerea la Qwen3-Embedding-4B (~3925 tok)
 - `2026-11-25-ultimul-model-raport-in-panou.md` — Plan: ultimul model AI folosit la un raport, afisat in panoul de generare (~1595 tok)
+- `2026-11-27-invatare-multinivel-din-embeddinguri.md` — Plan: învățare multinivel (L0–L4) din fragmente și embeddinguri (~23375 tok)
 - `2026-11-27-verificare-reocr-viziune-extract-pdf.md` — Plan: PaddleOCR pentru paginile scanate în `extract_pdf_markdown.py` (~3460 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
@@ -244,6 +245,10 @@
 - `phase0.sh` — Phase 0 of aiPlans/2026-11-24-qwen3-embedding-4b.md: for each --gpu-memory-utilization, the (~509 tok)
 - `run_rest.sh` — Sequential: (1) 4B with bf16 weights + fp8 KV cache over all windows -> *_bf16.npy, (~544 tok)
 - `scan_sql.py` — Time the exact cosine scan of ai/search.py at 1024 and 2560 dimensions, on TEMP tables with the (~831 tok)
+
+## aiWork/knowledge-l1-pilot/
+
+- `l1_pilot.py` — E0 pilot (plan 2026-11-27, phase 0): L1 extraction on ~200 RO fragments with three local models. (~8661 tok)
 
 ## aiWork/ocr-bench/
 
@@ -522,18 +527,19 @@
 ## src/backend/core/
 
 - `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~3639 tok)
-- `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~16968 tok)
+- `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~17652 tok)
 - `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1309 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
 - `language.py` — Validated languages and isolated execution scopes; no process-wide mutable locale. (~353 tok)
 - `models.py` — Minimal medical context collected before report generation. (~6401 tok)
 - `operation_context.py` — Propagate a worker's deadline to synchronous I/O without changing public ports. (~2035 tok)
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
+- `report_feedback.py` — The admin's rating of a published report and the example it may keep, independent of storage. (~1533 tok)
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2911 tok)
-- `report_metrics.py` — Validated measurements for one published report, independent of storage. (~1282 tok)
+- `report_metrics.py` — Validated measurements for one published report, independent of storage. (~2290 tok)
 - `report_models.py` — Supported report choices and their immutable provider routing. (~3488 tok)
 - `score_formula.py` — Operator-supplied arithmetic over named variables (L1/L2/L3 for the product tops, P1/P2/L/V/K for (~1695 tok)
-- `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16810 tok)
+- `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~17190 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6762 tok)
 - `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
 
@@ -571,6 +577,7 @@
 - `041_report_metrics_batch_output_tokens.sql` — PostgreSQL. Applied transactionally by scripts.migrate_database. (~172 tok)
 - `042_report_batch_usage.sql` — PostgreSQL. Applied transactionally by scripts.migrate_database. (~383 tok)
 - `043_gripa_flu_synonyms.sql` — Plain English names of Gripa; the catalog only had "seasonal flu". Safe to run more than once. (~94 tok)
+- `046_report_feedback.sql` — PostgreSQL. Applied transactionally by scripts.migrate_database. (~1329 tok)
 
 ## src/backend/persistence/
 
@@ -578,7 +585,7 @@
 
 ## src/backend/reporting/
 
-- `chat.py` — Reusable conversation rendering and structured chat-message builders. (~4051 tok)
+- `chat.py` — Reusable conversation rendering and structured chat-message builders. (~4028 tok)
 - `pdf.py` — Readable Romanian PDF report with source references next to each claim. (~15036 tok)
 - `recommendations.py` — Pure label extraction and PDF-only ordering of recommendation copies. (~820 tok)
 - `service.py` — Prepare database-derived PDF scores before entering the pure renderer. (~813 tok)
@@ -609,7 +616,7 @@
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
 - `client.ts` — API routes: GET (1 endpoints) (~3102 tok)
-- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~3740 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~4349 tok)
 
 ## src/frontend/components/
 
@@ -633,8 +640,9 @@
 - `HeroEmblem.tsx` — Emblems for the hero kicker. Hero.tsx renders one of them; to switch back, change the import (~943 tok)
 - `LanguageSelect.tsx` — Names are shown in the other language than the interface's, so a visitor stuck in the wrong (~1503 tok)
 - `LocalModelsDock.tsx` — RUNTIMES (~1518 tok)
-- `MessageBubble.tsx` — MessageBubble (~824 tok)
+- `MessageBubble.tsx` — MessageBubble (~970 tok)
 - `ModelWarmupDialog.tsx` — gigabytes — renders modal (~1798 tok)
+- `ReportFeedbackPanel.tsx` — SCORES (~1223 tok)
 - `SearchSignals.test.tsx` — tree (~1596 tok)
 - `TypingIndicator.tsx` — A slow status ring and elapsed time while retrieval or report generation is pending. (~466 tok)
 

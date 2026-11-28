@@ -3985,3 +3985,87 @@ description: chronological action log per session, consolidated weekly
 | 18:45 | Edited aiWork/ocr-impl/pipeline_overhead.py | added error handling | ~123 |
 <!-- session:MjEyOGI5NTctOWExNi00NjAzLWE1MmEtNjQyOGQzZTgxN2M0 -->
 | 2026-11-27T17:13:51.576Z | Pipelined PaddleOCR: OcrJob read on a background thread while next page is prepared; raw RGB pixels instead of PNG; combined orientation+read worker op; pipe lock; test patches PaddleSession.recognize | src/scripts/extract_pdf_markdown.py,src/scripts/pdf_paddle.py,src/scripts/pdf_paddle_worker.py,src/tests/unit/scripts/test_extract_pdf_markdown.py,README.md | A/B 40 pages: 264-268 s sequential vs 193-195 s pipelined (-27%), identical Markdown; digital 1550 pages unchanged; 30 tests pass |
+
+## Session: 2026-11-27 20:09
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:18 | Created aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | — | ~8401 |
+| 20:18 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 65 → 62 | ~11 |
+| 20:24 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | modified Decizie() | ~113 |
+| 20:24 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | modified L1() | ~956 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 2→3 lines | ~75 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 2→4 lines | ~95 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 1→2 lines | ~72 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 2→3 lines | ~62 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | inline fix | ~19 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 6→10 lines | ~225 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 2→3 lines | ~63 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 2→2 lines | ~52 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 2→2 lines | ~56 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | inline fix | ~19 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | inline fix | ~14 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | inline fix | ~16 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | modified UI() | ~166 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 1→3 lines | ~150 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 1→4 lines | ~168 |
+| 20:25 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | inline fix | ~27 |
+| 20:26 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 6→8 lines | ~170 |
+| 20:26 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 3→4 lines | ~100 |
+| 20:26 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | inline fix | ~48 |
+| 20:26 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 2→2 lines | ~37 |
+| 20:26 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | modelului() → noi() | ~54 |
+| 20:27 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | inline fix | ~97 |
+| 20:27 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | modified LLM() | ~1126 |
+| 20:27 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 2→2 lines | ~54 |
+| 20:27 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 2→2 lines | ~41 |
+| 20:27 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | inline fix | ~23 |
+| 20:27 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | modified L6() | ~114 |
+| 20:27 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | inline fix | ~74 |
+| 20:27 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 4→3 lines | ~148 |
+| 20:27 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | inline fix | ~40 |
+| 20:27 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 1→3 lines | ~120 |
+| 20:40 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | expanded (+35 lines) | ~684 |
+| 20:40 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | 1→2 lines | ~132 |
+| 20:40 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | inline fix | ~42 |
+| 23:53 | Session end: 8 writes across 8 files (report_models.py, edit_client.py, edit_retrieval.py, edit_main.py, edit_texts.py) | 15 reads | ~17958 tok |
+| 23:53 | Session end: 12 writes across 7 files (requirements-ocr.txt, pdf_paddle_worker.py, pdf_paddle.py, extract_pdf_markdown.py, test_extract_pdf_markdown.py) | 4 reads | ~13171 tok |
+| 23:53 | Session end: 8 writes across 2 files (2026-11-27-verificare-reocr-viziune-extract-pdf.md, results.md) | 25 reads | ~27015 tok |
+| 06:31 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | modified L1() | ~1462 |
+
+## Session: 2026-11-28 10:23
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 10:27 | Created aiWork/knowledge-l1-pilot/l1_pilot.py | — | ~7577 |
+| 10:27 | Edited aiWork/knowledge-l1-pilot/l1_pilot.py | expanded (+10 lines) | ~340 |
+| 10:27 | Edited aiWork/knowledge-l1-pilot/l1_pilot.py | modified sum() | ~69 |
+| 10:27 | Edited aiWork/knowledge-l1-pilot/l1_pilot.py | 3→2 lines | ~8 |
+| 10:31 | Edited aiWork/knowledge-l1-pilot/l1_pilot.py | expanded (+6 lines) | ~217 |
+| 10:31 | Edited aiWork/knowledge-l1-pilot/l1_pilot.py | 3→5 lines | ~98 |
+| 10:31 | Edited aiWork/knowledge-l1-pilot/l1_pilot.py | modified user_message() | ~107 |
+| 10:36 | Edited aiWork/knowledge-l1-pilot/l1_pilot.py | modified user_message() | ~56 |
+| 10:46 | Edited aiWork/knowledge-l1-pilot/l1_pilot.py | 3→5 lines | ~60 |
+| 10:47 | Edited aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | modified antion() | ~1162 |
+<!-- session:OGUwNmU1ZDItZmU1Mi00ODBlLWE1NmUtZDA3YWQ5ZTAyNTc5 -->
+| 2026-11-28T08:58:59.436Z | E0 L1 pilot: wrote aiWork/knowledge-l1-pilot/l1_pilot.py (200 RO Bojor fragments, vLLM qwen3.5-4b / ollama qwen3.5:9b / gemma4:12b, quote and catalog checks, VRAM, tok/s, review files); prompt fixes from smoke (strip markdown emphasis, section path context, health-only, compact JSON); plan section 15 added. Finding: ~1000-2500 output tokens per fragment, serial Ollama full L1 ~300 h. | aiWork/knowledge-l1-pilot/l1_pilot.py,aiPlans/2026-11-27-invatare-multinivel-din-embeddinguri.md | smoke 5 fragments x 3 models passed; ruff clean; full 200-fragment run left to the user |
+
+## Session: 2026-11-28 13:41
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 13:45 | Created src/backend/migrations/046_report_feedback.sql | — | ~1329 |
+| 13:45 | Edited src/backend/core/report_metrics.py | modified __post_init__() | ~1049 |
+| 13:45 | Edited src/backend/core/report_metrics.py | added 3 import(s) | ~82 |
+| 13:46 | Created src/backend/core/report_feedback.py | — | ~1514 |
+| 13:48 | Created src/frontend/components/ReportFeedbackPanel.tsx | — | ~1223 |
+| 13:48 | Edited src/backend/core/report_feedback.py | 5→6 lines | ~94 |
+| 16:02 | Session end: 10 writes across 2 files (l1_pilot.py, 2026-11-27-invatare-multinivel-din-embeddinguri.md) | 0 reads | ~9777 tok |
+| 16:02 | Session end: 39 writes across 1 files (2026-11-27-invatare-multinivel-din-embeddinguri.md) | 5 reads | ~16419 tok |
+| 16:03 | Edited src/backend/core/sessions.py | modified mark_report_rated() | ~194 |
+| 16:03 | Edited src/backend/core/conversation.py | 3→4 lines | ~49 |
+| 16:03 | Edited src/backend/core/conversation.py | 1→2 lines | ~43 |
+| 16:03 | Edited src/backend/reporting/chat.py | 2→4 lines | ~45 |
+| 16:03 | Edited src/frontend/api/types.ts | 2→4 lines | ~40 |
+| 16:03 | Edited src/frontend/components/MessageBubble.tsx | inline fix | ~23 |
+| 16:11 | Session end: 12 writes across 9 files (046_report_feedback.sql, report_metrics.py, report_feedback.py, ReportFeedbackPanel.tsx, sessions.py) | 16 reads | ~34743 tok |

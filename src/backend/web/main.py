@@ -90,6 +90,7 @@ from backend.core.report_models import (
 from backend.core.sessions import SessionStore
 from backend.core.texts import catalog, public_catalog, tr
 from backend.integrations.gmail import send_report
+from backend.persistence.report_feedback import PostgresReportFeedbackRepository
 from backend.persistence.report_metrics import PostgresReportMetricsRepository
 from backend.reporting.chat import (
     text as _text,
@@ -178,6 +179,14 @@ class MessageRequest(BaseModel):
 class LocalModelUnloadRequest(BaseModel):
     runtime: Literal["ollama", "vllm", "colibri"]
     id: str = Field(pattern=r"^[\w.:/-]{1,200}$")
+
+
+# The admin's rating of a published report: 0-10, an optional plain-text comment and, for a score
+# of 8 or more, whether to keep its recommendations as an example.
+class ReportFeedbackRequest(BaseModel):
+    score: int = Field(strict=True, ge=0, le=10)
+    comment: str = Field(default="", max_length=4000)
+    save_example: bool = Field(default=False, strict=True)
 
 
 # The "Scor minim" chosen next to "Generează raportul": only fragments whose
@@ -676,6 +685,7 @@ def _conversation(
         report_model_choice=model_choice or "",
         report_ai_effort=effort,
         record_report_metrics=deps.record_report_metrics,
+        save_report_feedback=deps.save_report_feedback,
         record_report_batch_usage=deps.record_report_batch_usage,
         recommend_report_thinking=deps.recommend_report_thinking,
         top_herbs_for_condition=deps.top_herbs_for_condition
@@ -1205,6 +1215,22 @@ def resource_decision(job_id: str, payload: ResourceDecisionPayload, request: Re
     )
 
 
+# Only the admin rates reports (everyone else gets 403), and only a report the tab still shows;
+# report_id is the report's measurements row, which the download message carries as feedbackId.
+@router.post("/api/reports/{report_id}/feedback", status_code=204)
+def post_report_feedback(
+    payload: ReportFeedbackRequest,
+    request: Request,
+    report_id: int = Path(ge=1, le=9223372036854775807),
+):
+    if not getattr(request.state, "owner_authorized", False):
+        raise ApplicationError("MODEL_FORBIDDEN", tr("errors.report_feedback_forbidden"), 403)
+    _conversation(_deps(request)).rate_report(
+        _current(request), report_id, payload.score, payload.comment, payload.save_example
+    )
+    return Response(status_code=204)
+
+
 @router.post("/api/session/end")
 def end_session(request: Request):
     cookie, tab = _identity(request)
@@ -1471,6 +1497,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     classify=classifier,
                     report_clients=report_clients,
                     record_report_metrics=metrics_repository,
+                    save_report_feedback=PostgresReportFeedbackRepository(get_pool),
                     estimate_report_duration=metrics_repository.estimate_duration,
                     recommend_report_output=metrics_repository.recommend_output_tokens,
                     record_report_batch_usage=metrics_repository.record_batch_usage,

@@ -1,4 +1,4 @@
-"""Short, bounded transactions for report measurements."""
+"""Short, bounded transactions for report measurements and their citation log."""
 
 from __future__ import annotations
 
@@ -124,4 +124,25 @@ class PostgresReportMetricsRepository:
                 ),
             ).fetchone()
             assert row is not None
+            if metrics.evidence:
+                with connection.cursor() as cursor:
+                    cursor.executemany(
+                        "INSERT INTO report_evidence_log "
+                        "(report_id, text_sha256, p1, p2, l_rank, v_rank, q_rank, sent, cited) "
+                        "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
+                        [
+                            (
+                                row[0],
+                                entry.text_sha256,
+                                entry.p1,
+                                entry.p2,
+                                entry.l_rank,
+                                entry.v_rank,
+                                entry.q_rank,
+                                entry.sent,
+                                entry.cited,
+                            )
+                            for entry in metrics.evidence
+                        ],
+                    )
             return row[0]

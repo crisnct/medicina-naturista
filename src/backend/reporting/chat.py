@@ -97,6 +97,10 @@ def download_message(
         "reportId": report_id,
         "url": url,
         "filename": filename,
+        # The measurements row the admin rates the report by; set once they are stored.
+        "feedbackId": None,
+        # True once the admin rated the report; the chat then no longer offers the rating.
+        "feedbackRated": False,
     }
 
 

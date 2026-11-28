@@ -192,6 +192,13 @@ export const api = {
     request<ReportGeneration>(`/api/report-generations/${encodeURIComponent(jobId)}/resource-decision`, {
       method: "POST", body: JSON.stringify({ decision }), signal: AbortSignal.timeout(15000),
     }),
+  // The admin's rating of a published report; each call replaces the previous one.
+  rateReport: (feedbackId: number, score: number, comment: string, saveExample: boolean) =>
+    request<void>(`/api/reports/${feedbackId}/feedback`, {
+      method: "POST",
+      body: JSON.stringify({ score, comment, save_example: saveExample }),
+      signal: AbortSignal.timeout(15000),
+    }),
   endSession: () => request<MessagesResponse>("/api/session/end", { method: "POST" }),
   // keepalive fetch (not navigator.sendBeacon, which can't carry the X-Tab-Id
   // header) so the request has a chance to complete after the page unloads.

@@ -35,6 +35,7 @@ from backend.core.contracts import (
     RenderPDF,
     ReportEffort,
     RetrievalProtocol,
+    SaveReportFeedback,
 )
 from backend.core.errors import ApplicationError, ModelLoadRequired, OperationCancelled
 from backend.core.herb_agreement import herb_agreement
@@ -57,7 +58,13 @@ from backend.core.operation_context import (
     report_thinking_scope,
     report_usage_scope,
 )
-from backend.core.report_metrics import ReportMetrics, validate_min_score
+from backend.core.report_feedback import (
+    ReportFeedbackContext,
+    build_report_feedback,
+    condition_keys,
+    example_sections,
+)
+from backend.core.report_metrics import ReportMetrics, report_evidence_log, validate_min_score
 from backend.core.report_models import ReportModel
 from backend.core.sessions import SessionStore
 from backend.core.texts import tr
@@ -289,6 +296,8 @@ class ConversationService:
     report_model_choice: str = ""
     report_ai_effort: ReportEffort | None = None
     record_report_metrics: RecordReportMetrics | None = None
+    # The admin's rating of a published report and the example it may keep.
+    save_report_feedback: SaveReportFeedback | None = None
     # Token usage of every batch request, published or failed, and the thinking budget it teaches.
     record_report_batch_usage: RecordReportBatchUsage | None = None
     recommend_report_thinking: RecommendReportOutput | None = None
@@ -1199,6 +1208,45 @@ class ConversationService:
         finally:
             self.store.finish_operation(operation)
 
+    # The admin rates a report the chat still shows, once: the chat then hides the rating. A repeated
+    # request still replaces the earlier rating.
+    # The formula and RRF constant are this process's: changing them needs a restart, which ends
+    # every tab, so they are the ones the report's search ran with.
+    def rate_report(
+        self, session: SessionData, report_id: int, score: int, comment: str, save_example: bool
+    ) -> None:
+        if self.save_report_feedback is None:
+            raise ApplicationError(
+                "REPORT_FEEDBACK_UNAVAILABLE", tr("errors.report_feedback_unavailable"), 503
+            )
+        context = self.store.report_feedback_context(session, report_id)
+        feedback, example = build_report_feedback(
+            context,
+            score,
+            comment,
+            save_example,
+            search_formula=self.settings.search_score_formula,
+            rrf_k=self.settings.search_rrf_k,
+        )
+        try:
+            self.save_report_feedback(feedback, example)
+        except Exception as exc:
+            logger.error(
+                "report_feedback_persistence_failed type=%s sqlstate=%s",
+                type(exc).__name__,
+                getattr(exc, "sqlstate", None),
+            )
+            raise ApplicationError(
+                "REPORT_FEEDBACK_UNAVAILABLE", tr("errors.report_feedback_unavailable"), 503
+            ) from exc
+        self.store.mark_report_rated(session, report_id)
+        logger.info(
+            "report_feedback_saved metrics_id=%s score=%s example=%s",
+            report_id,
+            score,
+            example is not None,
+        )
+
     def generate(
         self,
         session: SessionData,
@@ -1263,6 +1311,21 @@ class ConversationService:
             self.store.checkpoint(operation)
             report_id = secrets.token_urlsafe(18)
             filename = report_filename(snapshot, profile)
+            catalog_names = catalog_condition_names(profile)
+            payload = sections.section_payload()
+            # Only a report whose measurements are stored can be rated.
+            feedback = (
+                ReportFeedbackContext(
+                    language=search.language,
+                    signals=search.signals.code,
+                    min_score=min_score,
+                    ai_model=self.report_model_choice,
+                    condition_keys=condition_keys(catalog_names),
+                    sections=example_sections(payload, evidence),
+                )
+                if self.record_report_metrics is not None and self.report_model_choice
+                else None
+            )
             elapsed_seconds = max(0, int(self.store.clock() - generation_started_at))
             messages = [
                 text_message(
@@ -1286,7 +1349,9 @@ class ConversationService:
                     messages=messages,
                     report=(
                         report_id,
-                        StoredReport(report, filename, profile.get("health_problem", "")),
+                        StoredReport(
+                            report, filename, profile.get("health_problem", ""), feedback=feedback
+                        ),
                     ),
                     partial=sections.partial,
                     validation_warnings=[
@@ -1301,13 +1366,23 @@ class ConversationService:
                     try:
                         metrics_id = self.record_report_metrics(
                             ReportMetrics(
-                                medical_condition=", ".join(catalog_condition_names(profile)),
+                                medical_condition=", ".join(catalog_names),
                                 min_score=min_score,
                                 characters=characters,
                                 ai_model=self.report_model_choice,
                                 ai_effort=self.report_ai_effort,
                                 duration=duration_ms,
                                 max_batch_output_tokens=usage.max_output_tokens,
+                                evidence=report_evidence_log(
+                                    search.evidence,
+                                    evidence.keys(),
+                                    {
+                                        token
+                                        for items in payload.values()
+                                        for item in items
+                                        for token in item["evidence_ids"]
+                                    },
+                                ),
                             )
                         )
                         logger.info(
@@ -1315,6 +1390,7 @@ class ConversationService:
                             operation.operation_id,
                             metrics_id,
                         )
+                        self.store.attach_report_feedback(operation.session, report_id, metrics_id)
                     except Exception as exc:
                         # Publishing has succeeded; metrics failure must not undo the PDF.
                         logger.error(

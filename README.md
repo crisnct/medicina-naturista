@@ -774,6 +774,8 @@ The index lives in Postgres (`pgvector` and `unaccent` extensions). The tables b
 | `herb_condition_score_runs`, `herb_condition_scores` | L1, L2 and L3 per product and condition for the per-condition tops, keyed on the positive run. |
 | `herb_product_safety_runs`, `_results`, `_cache`, `_extension_cache`; `herb_safety_messages` | Warnings, contraindications and interactions per product and language. |
 | `report_generation_metrics`, `report_batch_usage` | Aggregate report-generation measurements, without conditions or medical text. |
+| `report_evidence_log` | Per published report, the best search candidates: `text_sha256`, P1, P2, the L and V ranks (Q empty for now), whether the fragment was sent to the model and whether the report cites it. Numbers and hashes only. |
+| `report_feedback`, `report_examples` | The admin's rating of a report (0–10, an optional plain-text comment, the search formula, K, signals and minimum score of its search) and, for a rating of 8 or more with the box ticked, its validated recommendations as an example. |
 | `owner_sessions` | Owner authorizations: token hash and dates, no conversations or reports. |
 | `schema_migrations` | The ledger of the SQL migrations applied once. |
 
@@ -1020,7 +1022,8 @@ If Google rejects the refresh with `invalid_grant`, first check whether the vali
 
 - 🔒 `.env` and the model cache are ignored by Git; the index lives in Postgres, not in files in the repo.
 - 🧭 each fragment stays tied to the source file and lines;
-- 🧹 conversations and PDFs stay only in process memory, separated per tab; closing notified to the server, expiry or restart removes them. No medical information of the patient is written to the database;
+- 🧹 conversations and PDFs stay only in process memory, separated per tab; closing notified to the server, expiry or restart removes them. No medical information of the patient is written to the database, with two exceptions the admin decides on (see “Report feedback and examples”): the free-text comment of a report rating, saved as written, and the validated recommendations of a report rated 8 or more that the admin keeps as an example (never the consultation profile, the question or the PDF; untick the box when the text contains personal data);
+- 🔢 `report_evidence_log` stores only content hashes and score signals of the fragments of each report, never their text;
 - 🚫 xAI requests use `store=false` (for DeepSeek, Hugging Face and Ollama the parameter is not sent; their retention policies apply);
 - 🩺 the answers are informative and must be medically verified before use.
 
@@ -1257,6 +1260,14 @@ After the PDF is published, one row is inserted into `report_generation_metrics`
 Under “Total number of characters”, the UI shows “Estimated duration: mm:ss” for the eligible characters and the chosen model. It uses all the model's rows with a linear regression through the origin, `duration_ms = selected_characters × SUM(characters × duration) / SUM(characters²)`, rounded up to seconds, and refreshes it when the selection changes or a job finishes. Without usable data it shows “unavailable”, which never blocks generation. `GET /api/report-duration-estimate` returns only the model, characters, `estimatedSeconds` and `sampleCount`.
 
 Migrations `011`–`013` create the table, seed six historical measurements and normalize their condition labels; apply them before activating the code with `python -m scripts.migrate_database` (`PYTHONPATH=src`). Reindexing is not required, and repeating the seed INSERT by hand adds six rows again.
+
+In the same transaction, `report_evidence_log` receives the report's citation log: the 200 best candidates of its search, plus any fragment sent to the model beyond them, one row per distinct `text_sha256` (a text shared by several fragments keeps the best-ranked one's signals). Each row holds P1, P2, the L and V ranks, `q_rank` (empty until the synthetic-question signal exists), `sent` (above the minimum score, sent to the model) and `cited` (cited by a validated recommendation). It is the training data for learning the score formula from reports; it holds no text.
+
+### Report feedback and examples
+
+Under a published report, the admin alone sees “How good is this report?”: 11 buttons for a score from 0 to 10, an optional plain-text comment (at most 4000 characters) and, for a score of 8 or more, “Save the report as an example”, ticked by default. “Send” calls `POST /api/reports/{report_id}/feedback` with `{"score", "comment", "save_example"}`; `report_id` is the report's `report_generation_metrics` row, which the download message carries as `feedbackId` once the measurements are stored. Anyone else gets 403 `MODEL_FORBIDDEN`, a score outside 0–10 gets 422, and a report the tab no longer shows (evicted, tab closed, restart) gets 404 `REPORT_NOT_FOUND`. A report whose measurements could not be stored says it cannot be rated.
+
+The block disappears once the rating is saved, and stays hidden after a reload (the download message carries `feedbackRated`); a repeated request for the same report replaces the earlier rating. `report_feedback` keeps the score, the comment as written, and the search snapshot of the report: `SEARCH_SCORE_FORMULA`, `SEARCH_RRF_K` (both fixed for the process, so they are the ones the search ran with), the signal code and the minimum score. With a score of 8 or more and the box ticked, `report_examples` keeps the report's validated recommendations per section, its catalog conditions (`condition:<canonical name>`), language and model; each `evidence_ids` entry is replaced by the cited fragment's `text_sha256`, so the example stays tied to its sources across reindexing. A lower score or an unticked box deletes the example. Neither table holds the consultation profile, the question or the PDF. Apply migration `046_report_feedback.sql` with `python -m scripts.migrate_database` before running this code.
 
 ### Startup and diagnostics
 

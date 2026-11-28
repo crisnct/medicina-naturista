@@ -19,6 +19,7 @@ if TYPE_CHECKING:
     from backend.ai.message_classification import MessageClassification
     from backend.ai.report_validation import ValidatedReport
     from backend.core.models import SessionSnapshot
+    from backend.core.report_feedback import ReportExample, ReportFeedback
     from backend.core.report_metrics import (
         ReportBatchUsage,
         ReportDurationEstimate,
@@ -68,6 +69,8 @@ class EvidenceItem(TypedDict):
     primary_medical_conditions: NotRequired[list[str]]
     secondary_medical_conditions: NotRequired[list[str]]
     found_by_lexical: NotRequired[bool]
+    # chunks.text_sha256: the fragment across reindexing, for the report citation log.
+    text_sha256: NotRequired[str | None]
     # Where the question's conditions ("searched") and words ("lexical") are in the displayed text.
     highlights: NotRequired[list[FragmentHighlight]]
 
@@ -236,6 +239,7 @@ RenderPDF = Callable[
 LoadReportHerbSafety = Callable[[list[str]], tuple[ReportHerbSafety, ...]]
 ClassifyMessage = Callable[[str, dict[str, object]], "MessageClassification"]
 RecordReportMetrics = Callable[["ReportMetrics"], int]
+SaveReportFeedback = Callable[["ReportFeedback", "ReportExample | None"], None]
 RecordReportBatchUsage = Callable[
     [ReportModel, "ReportEffort | None", "tuple[ReportBatchUsage, ...]"], None
 ]

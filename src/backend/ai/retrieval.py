@@ -191,6 +191,7 @@ class Retriever:
                 # Whether the query matched the fragment lexically, for the UI.
                 # A future selective signal adds its own "found_by_<signal>" flag here.
                 "found_by_lexical": best["found_by_lexical"],
+                "text_sha256": best.get("text_sha256"),
             }
             evidence[evidence_id] = item
 

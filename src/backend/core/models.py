@@ -13,6 +13,7 @@ from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.core.contracts import Evidence, IdentifiedCondition, ProfilePayload, TranscriptEntry
 from backend.core.herb_categories import HerbCategory, TopClarification
 from backend.core.language import Language, current_language
+from backend.core.report_feedback import ReportFeedbackContext
 from backend.core.texts import tr
 
 
@@ -146,6 +147,8 @@ class StoredReport:
     filename: str
     health_problem: str
     language: Language = field(default_factory=current_language)
+    # What the admin's rating of the report needs; None for a report that cannot be rated.
+    feedback: ReportFeedbackContext | None = None
 
 
 @dataclass
